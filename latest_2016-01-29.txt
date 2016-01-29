@@ -1,6 +1,12 @@
 latest_2016-01-29.txt
-古代汉语.王力.txt
+iphone技巧.txt
+iphone.txt
+静雅思听.txt
+podcast.txt
+1945年后的美国小说.txt
 diary
+1
+古代汉语.王力.txt
 等待戈多.txt
 现代小说技巧初探.高行健.1981.pdf.txt
 美人赠我蒙汗药.txt
@@ -92,9 +98,3 @@ music.txt
 安捷伦.txt
 海明威.txt
 外国文学史.txt
-老舍.txt
-apps.txt
-郑渊洁.txt
-latest_2016-01-13.txt
-resume.lovoo.txt
-visa.txt
