@@ -1,0 +1,30 @@
+
+drivers/input/keyboard/Kconfig
+drivers/input/keyboard/sun4i-ir.c
+	ir_code_valid
+		IR_ADDR_CODE
+			#define IR_ADDR_CODE            (0x9f00)
+	ir_keycodes
+
+sun4i-ir.ko
+
+cat /proc/interrupts | busybox grep RemoteIR 
+busybox hexdump /dev/input/event2
+
+echo 5 > /proc/sys/kernel/printk
+
+busybox ifconfig eth0 172.16.55.132 netmask 255.255.255.0
+mount -o remount /dev/block/mmcblk0p7 /system
+busybox wget ftp://172.16.55.90/sun4i-ir.ko -O /vendor/modules/sun4i-ir.ko
+
+[    1.987136] lirc_dev: IR Remote Control driver registered, major 249 
+[    1.993595] IR NEC protocol handler initialized
+[    1.998121] IR RC5(x) protocol handler initialized
+[    2.002929] IR RC6 protocol handler initialized
+[    2.007453] IR JVC protocol handler initialized
+[    2.011997] IR Sony protocol handler initialized
+[    2.016610] IR RC5 (streamzap) protocol handler initialized
+[    2.022193] IR LIRC bridge handler initialized
+
+ref:
+		http://linux-sunxi.org/LIRC_(Linux_Infrared_Remote_Control)_for_the_IR_receivers_and_and_remotes

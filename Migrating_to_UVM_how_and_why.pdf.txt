@@ -1,0 +1,15 @@
+
+
+assertion-based verification,
+constrained-random verification,
+coverage driven verification
+
+level of abstraction is too low
+
+uvm history
+	vmm
+		rvm
+	ovm
+		avm
+		urm
+			erm

@@ -1,0 +1,13 @@
+
+c++跨平台 高性能
+	libevent
+	boost::aio
+	libapr
+	libev
+	libuv
+	gnome gnio
+
+
+高性能
+	linux下需要epoll
+	windows需要iocp 

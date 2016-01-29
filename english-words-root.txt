@@ -1,0 +1,6 @@
+word.root.sort
+[[word.root]]
+[[word.root2]]
+
+noctiflorous        [nocti夜，flor花，-ous形容词后缀，…的] (植物)夜间开花的
+

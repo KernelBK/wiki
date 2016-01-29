@@ -1,0 +1,19 @@
+
+测量中的隔离
+
+光电隔离
+绝缘  抗干扰
+
+without a physical connection
+
+chip level optical interconnect
+光互连
+e2o: electrical-to-optical
+sfp
+stm-16 oc48o
+万兆通 sdh oc48 sfp
+Optical IF (SONET/SDH/OTU),
+
+		[[安华高]]
+[[北京太速科技有限公司产品目录--V2013]]
+[[spdif]]

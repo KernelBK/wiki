@@ -1,0 +1,9 @@
+
+[[softlayer]]
+
+xmpp
+erlang
+	chatd
+
+ΆΰΓ½Με Yaws
+

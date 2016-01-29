@@ -1,0 +1,8 @@
+
+cfa
+used in social research
+[[验证性因素分析]]
+	替代 协方差结构模型 convarian structure models, csm
+
+[[降维思想]]
+

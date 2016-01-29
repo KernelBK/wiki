@@ -1,0 +1,8 @@
+
+XPAR_PCARD_FRONT_CTRL_0_BASEADDR = 0x79800000
+
+DefaultVoltGain_b
+
+main
+    *((u32 *)REG_CARDTYPE) = 0x1 | (2000 << 16); // 板卡类型
+	// 初始化ad5623, write reg	

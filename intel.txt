@@ -1,0 +1,15 @@
+
+architecture
+instruction set
+	ia-32
+	x86-64, x64, amd64
+
+implementation
+	xeon
+	pentium
+	core i3 i5 i7
+
+vpid
+asid
+
+[[memory.virtualization]]

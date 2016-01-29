@@ -1,0 +1,11 @@
+
+sys_manual_pm_test_entry
+	system_test_tuner
+
+main
+	cnxt_kal_application_entry
+		system_test_main
+			system_manual_tests
+				sys_manual_pm_test_entry
+					system_test_tuner
+

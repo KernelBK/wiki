@@ -1,0 +1,297 @@
+Author: Joseph Lee
+E-Mail: fdlixiaojun@gmail.com
+
+Expert C Programming Contents
+
+C through the mists of time
+	The prehistory of C
+	Early experiences with C
+	The standard io library and C preprocessor
+	K&R C
+	The present day: ANSI C
+	It's nice, but is it standard
+	Translation limits
+	The Structure of the ANSI C Standard
+	Reading the ANSI C Standard for fun, pleasure and profit
+	How quiet is a "quiet change"?
+
+It's not a bug, it's a language feature
+	Why language features matter - the way the Fortran bug really happened
+	Sins of commission
+		Switches let you down with fall through
+		Available hardware is a crayon
+		Too much default vsisbility
+	Sins of mission
+		Overloading the Camel's back
+		"Some of the operators have the wrong precedence"
+		The early bug gets() the Internet worm
+	Sins of Omission
+		Mail won't go to user with an "f" in their usernames
+		Space - the final frontier
+		A digression into C++ comments
+		The compiler date is corrupted
+		Lint should never have been separated out
+
+Unscrambling declarations in C
+	Syntax only a compiler could love
+	How a declaration is formed
+		A word about structs
+		A word about unions
+		A word about enums
+	The precedence Rule
+	Unscrambling C declarations by diagram
+	typedef can be your friend
+	Difference between typedef int x[10] and #define x int[10] 80
+	What typedef struct foo {... foo}foo; means
+	The piece of code that understandeth all parsing
+
+The shocking truth: C Arrays and pointers are not the same!
+	Arrays are not pointers
+	Why doesn't my code work?
+	What's a declaration? What's a definition?
+	How arrays and pointers are accessed
+		What happens when you "define as array declare as pointer"
+	Match your declarations to t he definition
+	Other differences between arrays and pointers
+
+Thinking of linking
+	Libraries, linking and loading
+		Where the linker is in the phases of compilation
+	The benefits of dynamic linking
+	Five special secrets of linking with libraries
+	Watch out for interpositioning
+	Generating linker report files
+
+Poetry in motion: runtime data structures
+	a.out and a.out folklore
+	Segments
+	What the OS does with your a.out
+	What the C Runtime does with your a.out
+		The Stack Segment
+	What happens when a function gets called
+		The procedure activation record.
+	The auto and static keywords
+		A stack frame might not be on the stack
+	Thread of control
+	setjmp and longjmp
+	The stack segment under unix
+	THe stack segment under ms-dos
+	Helpful C tools
+
+Thanks for the memory
+	The intel 80x86 family
+	The intel 80x86 memory model and how it got that way
+	Virtual memory
+	Cache memory
+	The data segment and heap
+	Memory leaks
+		How to check for a memory leak
+	Bus error, take the train
+		Bus error
+		Segmentation fault
+
+Why programmers can't tell Halloween from Christmas Day
+	The potzebie System of Weights and Measures
+	Making a Glyph from bit patterns
+	Types changed while you wait
+	Prototype painfulness
+		Where prototype break down
+	Getting a char without a carriage return
+	Implementing a finite state machine in c
+	Software is harder than hardware
+	How and why to cast
+
+More about arrays
+	When an array is a pointer
+	Why the confusion
+		Rule 1: An "array name in an expression" is a pointer
+		Rule 2: C treats array subscripts as pointer offsets
+		Rule 3: An array name as function parameter is a pointer
+	Why C treats array parameters as pointers
+		How to array parameter is referenced
+	Indexing a slice
+	Arrays and pointers interchangeability summary
+	C has multidimensional arrays
+	But every other language calls them arrays of arrays
+	How multidimensional arrays break into components
+	How arrays are laid out in memory
+	How to initialize arrays
+
+More about pointers
+	The layout of multidimensional arrays
+	An array of pointers is an "IIliffe Vector"
+	Using pointers for ragged arrays
+	Passing a one dimensional array to a function
+	Using pointers to pass a mulitidimensional array to a function
+		Attempt 2
+		Attempt 3
+		Attempt 4
+	Using pointers to return an array from a function
+	Using pointers to create and use dynamic arrays
+
+You know C, so C++ is easy!
+	Allez-OOP
+	Abstraction - Extracting out the essential characteristics of th thing
+	Encapsulation - Grouping together related types, data, and functions
+	Showing some class - Giving user-defined types and same privileges as 
+				predefined types
+	Availability
+	Declarations
+	How to call a method
+		Constructors and destructors
+	Inheritance - Reusing opeartions that are already defined
+	Multiple Inheritance - Deriving from two or more base classes
+	Overloading - Having one name for the same action on different types
+	How C++ does operator overloading
+	Input / Output in C++
+	Polymorphism -- runtime binding
+	Explanation
+	How C++ does polymorphism
+	Fancy pants polymorphism
+	Other corners of C++
+	If I was going there, I wouldn't start from here
+	It may be curfty, but it's the only game in town
+
+Appendix: Secrets of programmer job interviews
+	Silicon Valley programmer interviews
+	How Can you detect a cycle in a linked list?
+	What are the different C increment statements for?
+	How is a library call different from a system call?
+	How is a file descriptor different from a file pointer?
+	Write some code to determine if a variable is signed or not?
+	What is the time complexity of printing the values in a binary tree?
+	Give me a string at random from this file
+
+Index
+
+C专家编程 目录
+C：穿越时空的迷雾
+	C语言的史前阶段
+	C语言的早期体验
+	标准I/O库和C预处理器
+	K&R C
+	今日之ANSI C
+	它很棒，但它符合标准吗
+	编译限制
+	ANSI C标准的结构
+	阅读ANSI C标准，寻找乐趣和裨益
+	"安静的改变"究竟有多少安静
+	轻松一下——由编译器定义的Pragmas效果
+
+这不是Bug，而是语言特性
+	这关语言特性何事，在Fortran里这就是Bug呀
+	多做之过
+	误做之过
+	少做之过
+	轻松一下——有些特性确实就是Bug
+	参考文献
+
+分析C语言的声明
+	只有编译器才会喜欢的语法
+	声明是如何形成的
+	优先级规则
+	通过图表分析C语言的声明
+	typedef可以成为你的朋友
+	typedef int x[10]和#define x int[10]的区别
+	typedef struct foo{ ... foo; }的含义
+	理解所有分析过程的代码段
+	轻松一下——驱动物理实体的软件
+
+令人震惊的事实：数组和指针并不相同
+	数组并非指针
+	我的代码为什么无法运行
+	什么是声明，什么是定义
+	使声明与定义相匹配
+	数组和指针的其他区别
+	轻松一下——回文的乐趣
+
+对链接的思考
+	函数库、链接和载入
+	动态链接的优点
+	函数库链接的5个特殊秘密
+	警惕Interpositioning
+	产生链接器报告文件
+	轻松一下——看看谁在说话：挑战Turing测验
+
+运动的诗章：运行时数据结构
+	a.out及其传说
+	段
+	操作系统在a.out文件里干了些什么
+	C语言运行时系统在a.out里干了些什么
+	当函数被调用时发生了什么：过程活动记录
+	auto和static关键字
+	控制线程
+	setjmp和longjmp
+	UNIX中的堆栈段
+	MS-DOS中的堆栈段
+	有用的C语言工具
+	轻松一下——卡耐基-梅隆大学的编程难题
+	只适用于高级学员阅读的材料
+
+对内存的思考
+	Intel 80x86系列
+	Intel 80x86内存模型以及它的工作原理
+	虚拟内存
+	Cache存储器
+	数据段和堆
+	内存泄漏
+	总线错误
+	轻松一下——“Thing King”和“页面游戏”
+
+为什么程序员无法分清万圣节和圣诞节
+	Portzebie度量衡系统
+	根据位模式构筑图形
+	在等待时类型发生了变化
+	原型之痛
+	原型在什么地方会失败
+	不需要按回车键就能得到一个字符
+	用C语言实现有限状态机
+	软件比硬件更困难
+	如何进行强制类型转换，为何要进行类型强制转换
+	轻松一下——国际C语言混乱代码大赛
+
+再论数组
+	什么时候数组与指针相同
+	为什么会发生混淆
+	为什么C语言把数组形参当作指针
+	数组片段的下标
+	数组和指针可交换性的总结
+	C语言的多维数组
+	轻松一下——软件/硬件平衡
+
+再论指针
+	多维数组的内存布局
+	指针数组就是Iliffe向量
+	在锯齿状数组上使用指针
+	向函数传递一个一维数组
+	使用指针向函数传递一个多维数组
+	使用指针从函数返回一个数组
+	使用指针创建和使用动态数组
+	轻松一下——程序检验的限制
+
+你懂得C，所以C++不在话下
+	初识OOP
+	抽象——取事物的本质特性
+	封装——把相关的类型、数据和函数组合在一起
+	展示一些类——用户定义类型享有和预定义类型一样的权限
+	访问控制
+	声明
+	如何调用成员函数
+	继承——复用已经定义的操作
+	多重继承——从两个或更多的基类派生
+	重载——作用于不同类型的同一操作具有相同的名字
+	C++如何进行操作符重载
+	C++的输入/输出(I/O)
+	多态——运行时绑定
+	解释
+	C++如何表现多态
+	新奇玩意——多态
+	C++的其他要点
+	如果我的目标是那里，我不会从这里起步
+	它或许过于复杂，但却是惟一可行的方案
+	轻松一下——死亡计算机协会
+	更多阅读材料
+
+程序员工作面试的秘密
+
+索引

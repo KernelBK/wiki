@@ -1,0 +1,89 @@
+[[cpp/index]]
+
+Bjarne.Stroustrup
+Smalltalk
+
+[[RAII]]
+[[Essential.cpp]]
+[[Effective.c++]]
+[[cpp.primer]]
+[[c++11]]
+
+[[leetcode]]
+
+特性
+	不是自省型语言
+	没有运行时的反射和动态类型
+
+复制控制
+[[迭代器]] iterator
+仿函数 functor
+虚函数 [[cpp/virtual.function]]
+	polymorphism
+[[RTTI]] 运行时类型识别
+
+编译器做的事情
+
+member function	
+	constructor
+
+
+[[stl]], [[boost]] [[泛型编程]]
+loki, mpl 产生式编程和模板元编程
+
+The design and evolution of c++
+Master mind in programming
+
+范式
+
+面向对象
+模板 图灵完备的
+模板元编程范式 template metaprogramming
+
+[[C++强大背后]]
+
+c++复杂性分类
+	本质
+		内存管理, 内存对齐，大小端，cache
+		对像生命期
+		重载决议
+		名字查找
+		模板参数推倒规则
+		异常
+		OO动态，GP静态两种范式的应用场景和交互
+	非本质
+		缺陷
+		陷阱
+			要避免掉进陷阱
+
+	场景
+		库开发
+		一般开发
+
+80%
+	资源管理； 
+	深拷贝，浅拷贝；
+	类的4个特殊成员函数；使用STL；RAII惯用法；智能指针；
+	对像生命期：局部，全局；临时对象销毁；对象构造，析构顺序；
+	多态 [[polymorphism]] 多态
+	重载决议
+	异常；栈开解过程；
+
+20%
+	对象内存布局
+	模板：偏特化；非类型模板参数；模板参数推倒规则；实例化；二段式名字查找；元编程；
+	名字查找；绑定规则；
+	缺陷；缺陷衍生的workarounds
+
+
+book
+	inside.the.c++.object.model 
+	[[侯捷]]
+	Bjarne Stroustrup.The Design and Evolution of C++ [[C++语言的设计和演化]]
+
+强项
+	GUI
+	图形引擎
+	[[abi]] 没有 abi级别的接口，以类为接口
+
+[[通讯库]]

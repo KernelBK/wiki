@@ -1,0 +1,8 @@
+
+1. hisi给出了smart card寄存器定义文档，这个文档trident没有给出，在解决trident的问题的时候可以以这份文档作为参考。
+
+1. gpio_button大印会报错。
+
+1. trident hdmi ece功能打开
+
+

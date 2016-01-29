@@ -1,0 +1,9 @@
+
+1. 验证完善后调试错误。
+
+todo
+1. fifo empty/full出现的错误主机还没有能够知道。
+1. tx phy, hold and stuff, bit_cnt没有在stuff出现的时候hold.
+1. fifo
+1. https://svn/svn_old_instrument/SoC/SoC_IP/Communications/Serial/BLVDS_Link
+1. 传输为0 的情况处理

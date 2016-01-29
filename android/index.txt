@@ -1,0 +1,117 @@
+
+[[hal]]
+[[cyanogenMod]]
+
+# chip
+	[[qualcomm]]
+		
+[[smartisan]]
+
+use
+	[[wandoujia]]
+
+[[cts|兼容性测试(CTS)]]
+
+[[optimize]]
+
+# [[app]]
+	
+# developer
+- application
+	- apidemo 官方提供的demo
+	- apk aapt
+	- java_package
+	- java_api
+	- [[filesystem]]
+		recovery
+
+- sdk
+	[[sdk_install]]
+	eclipse 插件 adt (android development tools)
+	qemu
+	android_ui 
+		NOTE: 同级别的UI：javaFx, microsoft Silverlight mozilla XUL
+- ndk
+- [[renderscript]]
+
+- frameworks 
+	NOTE: 集成了.net, mashup等平台的优点。
+	- view NOTE: 使用xml定义的资源 NOTE: xml 会被 appt 打包成二进制格式，运行时直接读取，不转换回xml
+	- intent
+	- activity_manager
+	- content_providers NOTE: 对数据源的抽象，借鉴 restful 思想
+	- [[service]]
+	- resource_manager
+	- notification_manager
+	- AudioFlinger SurfaceFlinger
+- [[dalvik]] 
+	- [[dex]]
+	NOTE: VM 运行的是dex字节码，不能运行java字节码。
+	NOTE: frameworks 通过 dalvik 访问内核上的C/C++库, 是底层的入口。
+- library
+	- binoic NOTE: 不是便准的c库，还没有能够从源码生成的编译器。
+	- 媒体库基于 packetvideo 的 opencore 
+	- surface_manager 控制对显示系统的访问
+	- webkit skia
+	- libwebcore
+	- sqlite
+	- sgl
+	- 3d opengles 来自 khronos 小组
+	- freetype
+- [[linux_kernel]] NOTE: 增加了一些功能。驱动程序在hal中，采用了另外的license。
+	- hal
+	- filesystem support : ext4 nfs samsung_rfs yaffs2
+	- bluetooth
+	- scheduler
+	- 专为android加入的新功能
+		- [[binder]] 基于内存共享的进程间通讯
+		- low memory killer
+		- ram console and log device
+		- debug bridge
+	- power management
+  	
+device driver
+	[[3g]]
+	[[wifi]]
+	media : audio video
+debug
+	[[logcat]]
+	[[ddms]]
+	[[adb]]
+
+- [[sdk_install]]
+- [[build]]
+	[[envsetup.sh]]
+- booting
+	[[init.rc]]
+- porting
+
+- [[sdk_source_code_dir_mean|源码目录含义]]
+	[[repo_code]]
+	[[init]] <= system/core/init/init.c
+	[[zygote]] dalvik/vm/native/dalvik_system_Zygote.cpp
+	[[systemserver]]
+	framework
+		[[core]]
+	system
+		[[vold]]
+
+- [[gerrit]] [[repo]] git
+- [[version]]
+
+= ref =
+- http://www.eoeandroid.com/thread-168008-1-1.html 史上最牛最全android开发知识汇总
+- http://blog.csdn.net/column/details/innost.html 深入理解Android
+- http://blog.csdn.net/maxleng?viewmode=contents android核心分析
+- http://guide.eoeandroid.com/ 很好的开发资料
+- http://blog.csdn.net/21cnbao 宋宝华的博客
+csdn 排名靠前的android分析
+	http://blog.csdn.net/Android_Tutor?viewmode=contents 
+	http://blog.csdn.net/Luoshengyang?viewmode=contents
+
+http://developer.android.com/guide/components/index.html
+http://guide.eoeandroid.com/
+
+http://blog.csdn.net/luoshengyang/article/details/7409491 老罗的android之旅
+
+

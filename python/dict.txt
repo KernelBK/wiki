@@ -1,0 +1,14 @@
+
+
+ab={    'Swaroop'   : 'swaroopch@byteofpython.info',
+    'Larry'     : 'larry@wall.org',
+    'Matsumoto' : 'matz@ruby-lang.org',
+    'Spammer'   : 'spammer@hotmail.com'
+   }
+
+%ab['Swaroop']
+ab['Guido']='guido@python.org'
+del ab['Spammer']
+ab.items()
+if 'Guido' in ab: # OR ab.has_key('Guido')
+

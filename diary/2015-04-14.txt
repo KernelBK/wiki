@@ -1,0 +1,52 @@
+
+刘玉才(liuyucai)  15:47:17
+PA5000低成本方案的SVN路径，大家检出。其中最好的握手图片是反斜杠share
+[http://doc2/svn_webdisk/webdisk/projects/2015年/PM-03-2015030017-01//Hardware]
+weixiaozhong=rw      # 魏小忠
+liuyucai=rw          # 刘玉才
+panchengfei=rw       # 潘成飞
+chenhongliang=rw     # 陈红亮
+tangruibao=rw        # 汤瑞宝
+maliangliang=rw        # 马亮亮
+[http://doc2/svn_webdisk/webdisk/projects/2015年/PM-03-2015030017-01//Software/DSP]
+wulongsui=rw         # 吴隆穗
+weixianping=rw       # 韦先平
+baojunqiang=rw       # 包俊强
+[http://doc2/svn_webdisk/webdisk/projects/2015年/PM-03-2015030017-01//Software/MBFPGAK7]
+huapixiang=rw        # 华丕祥
+ruiwenbin=rw         # 芮文彬
+likunyao=rw          # 李坤遥
+yangyaowu=rw         # 杨耀武
+[http://doc2/svn_webdisk/webdisk/projects/2015年/PM-03-2015030017-01//Software/MBFPGA45]
+huapixiang=rw        # 华丕祥
+ruiwenbin=rw         # 芮文彬
+likunyao=rw          # 李坤遥
+yangyaowu=rw         # 杨耀武
+[http://doc2/svn_webdisk/webdisk/projects/2015年/PM-03-2015030017-01//Software/SAMPFPGA]
+huapixiang=rw        # 华丕祥
+ruiwenbin=rw         # 芮文彬
+yangyaowu=rw         # 杨耀武
+likunyao=rw          # 李坤遥
+yangyaowu=rw         # 杨耀武
+[http://doc2/svn_webdisk/webdisk/projects/2015年/PM-03-2015030017-01//main]
+liuyucai=rw          # 刘玉才
+[http://doc2/svn_webdisk/webdisk/projects/2015年/PM-03-2015030017-01/]                  
+liuyucai=rw          # 刘玉才
+panchengfei=rw       # 潘成飞
+chenhongliang=rw     # 陈红亮
+yangyaowu=rw         # 杨耀武
+tangruibao=rw        # 汤瑞宝
+maliangliang=rw        # 马亮亮
+huapixiang=rw        # 华丕祥
+pangjun=rw           # 庞军
+chenwenbin=rw        # 陈文斌
+qinkun=rw            # 秦坤
+liuxiande=rw         # 刘贤德
+wangdongfang=rw      # 王东方
+baojunqiang=rw       # 包俊强
+likunyao=rw          # 李坤遥
+weixianping=rw       # 韦先平
+hedou=rw             # 何豆
+zhouhao=rw           # 周浩
+lvjianchao=rw           # 吕剑超
+

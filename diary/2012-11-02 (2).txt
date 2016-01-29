@@ -1,0 +1,9 @@
+
+wifi usb
+	内核配置成ohci，禁用echi
+		[  578.758243] sw_usb_disable_hcd: usbc_num = 2
+		[  578.762545] WRN:L819(drivers/usb/host/ehci_sun4i.c):ERR: not support sw_usb_disable_ehci
+		[  578.770684] WRN:L756(drivers/usb/host/ohci_sun4i.c):ERR: not support sw_usb_disable_ohci
+			.config
+				# CONFIG_USB_SW_SUN4I_EHCI1 is not set
+

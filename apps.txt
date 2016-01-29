@@ -1,0 +1,36 @@
+[[app]]
+
+
+
+tools
+	fir.im
+	faceplusplus
+
+[[open.source]]
+	[[vz]]
+
+dash 看开发文档工具
+textastic
+
+[[adblockplus]]
+lighttable
+sublimeCodeIntel
+brainfuck
+cmockery
+mingw
+winyvm
+webbench
+
+[[goodreader]]
+[[everything]]
+[[listary]]
+total commander
+directory opus
+
+
+驱动精灵
+万能驱动
+acrobat
+word
+
+[[dupeGude]]

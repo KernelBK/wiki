@@ -1,0 +1,3 @@
+
+http://clonezilla.org/downloads/download.php?branch=stable
+http://www.ibm.com/developerworks/cn/linux/l-clonezilla/

@@ -1,0 +1,21 @@
+
+WARNING:PhysDesignRules:732 - Unexpected differential configuration for comp
+   ProtoComp20.PULL. Adding a pullup, pulldown, or keeper to a differential IO
+   can create signal integrity problems and can violate specifications.
+WARNING:PhysDesignRules:732 - Unexpected differential configuration for comp
+   ProtoComp21.PULL. Adding a pullup, pulldown, or keeper to a differential IO
+   can create signal integrity problems and can violate specifications.
+
+
+WARNING:Pack:2949 - The I/O component BLVDS_IN_n uses an DQS_BIAS attribute with
+   I/O standard BLVDS_25. The DQS_BIAS attribute will be ignored since the
+   selected I/O standard does not support DQS_BIAS usage.
+WARNING:Pack:2949 - The I/O component BLVDS_IN_p uses an DQS_BIAS attribute with
+   I/O standard BLVDS_25. The DQS_BIAS attribute will be ignored since the
+   selected I/O standard does not support DQS_BIAS usage.
+
+
+blvds
+	只用一组的时候电压情况
+	回环
+

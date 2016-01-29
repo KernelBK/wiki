@@ -1,0 +1,5 @@
+
+(cons a l), read:"cons the atom a onto the list l."
+the primitive cons takes two arguments.
+the second argument to cons must be a list.
+the result is a list.

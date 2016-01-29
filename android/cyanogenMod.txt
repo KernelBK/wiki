@@ -1,0 +1,11 @@
+
+CyanogenMod Updater 程序会提醒用户有新版本的 CyanogenMod，且也能顺便协助安装到他们的手机里。
+CyanogenMod的创办人Steve Kondik 被Samsung招揽加入手机软件开发的工作
+
+http://en.wikipedia.org/wiki/CyanogenMod 
+    http://en.wikipedia.org/wiki/List_of_devices_supported_by_CyanogenMod
+
+	http://wiki.cyanogenmod.com/index.php?title=Main_Page  CyanogenMod Wiki 有好资料 ****
+
+http://wiki.cyanogenmod.org/
+

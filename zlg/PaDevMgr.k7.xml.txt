@@ -1,0 +1,1618 @@
+
+
+<mem dev="k7" name="调试数据块（详细）" target="0x10" addr="0x1800" size="996">
+<var name="CH0_SYNC_ID" size="4"/>
+<var name="CH1_SYNC_ID" size="4"/>
+<var name="CH2_SYNC_ID" size="4"/>
+<var name="CH3_SYNC_ID" size="4"/>
+<var name="CH4_SYNC_ID" size="4"/>
+<var name="CH5_SYNC_ID" size="4"/>
+<var name="CH6_SYNC_ID" size="4"/>
+<var name="CH7_SYNC_ID" size="4"/>
+<var name="CH8_SYNC_ID" size="4"/>
+<var name="CH9_SYNC_ID" size="4"/>
+<var name="CH10_SYNC_ID" size="4"/>
+<var name="CH11_SYNC_ID" size="4"/>
+<var name="CH12_SYNC_ID" size="4"/>
+<var name="CH13_SYNC_ID" size="4"/>
+<var name="CH14_SYNC_ID" size="4"/>
+
+<var name="CH0_WAVE_WR_PTR" size="4"/>
+<var name="CH1_WAVE_WR_PTR" size="4"/>
+<var name="CH2_WAVE_WR_PTR" size="4"/>
+<var name="CH3_WAVE_WR_PTR" size="4"/>
+<var name="CH4_WAVE_WR_PTR" size="4"/>
+<var name="CH5_WAVE_WR_PTR" size="4"/>
+<var name="CH6_WAVE_WR_PTR" size="4"/>
+<var name="CH7_WAVE_WR_PTR" size="4"/>
+<var name="CH8_WAVE_WR_PTR" size="4"/>
+<var name="CH9_WAVE_WR_PTR" size="4"/>
+<var name="CH10_WAVE_WR_PTR" size="4"/>
+<var name="CH11_WAVE_WR_PTR" size="4"/>
+<var name="CH12_WAVE_WR_PTR" size="4"/>
+<var name="CH13_WAVE_WR_PTR" size="4"/>
+<var name="CH14_WAVE_WR_PTR" size="4"/>
+
+<var name="CH0_WAVE_RD_PTR" size="4"/>
+<var name="CH1_WAVE_RD_PTR" size="4"/>
+<var name="CH2_WAVE_RD_PTR" size="4"/>
+<var name="CH3_WAVE_RD_PTR" size="4"/>
+<var name="CH4_WAVE_RD_PTR" size="4"/>
+<var name="CH5_WAVE_RD_PTR" size="4"/>
+<var name="CH6_WAVE_RD_PTR" size="4"/>
+<var name="CH7_WAVE_RD_PTR" size="4"/>
+<var name="CH8_WAVE_RD_PTR" size="4"/>
+<var name="CH9_WAVE_RD_PTR" size="4"/>
+<var name="CH10_WAVE_RD_PTR" size="4"/>
+<var name="CH11_WAVE_RD_PTR" size="4"/>
+<var name="CH12_WAVE_RD_PTR" size="4"/>
+<var name="CH13_WAVE_RD_PTR" size="4"/>
+<var name="CH14_WAVE_RD_PTR" size="4"/>
+
+
+<var name="TOT_SMP_EN" size="4"/>
+<var name="CH4_PING_LO" size="4" view="unsigned"/>
+<var name="CH4_PONG_LO" size="4" view="unsigned"/>
+<var name="CH4_PONG_HI" size="4" view="unsigned"/>
+<var name="CH0_U_P_PEAK" size="4" view="float"/>
+<var name="CH0_U_N_PEAK" size="4" view="float"/>
+<var name="CH0_I_P_PEAK" size="4" view="float"/>
+<var name="CH0_I_N_PEAK" size="4" view="float"/>
+<var name="CH1_U_P_PEAK" size="4" view="float"/>
+<var name="CH1_U_N_PEAK" size="4" view="float"/>
+<var name="CH1_I_P_PEAK" size="4" view="float"/>
+<var name="CH1_I_N_PEAK" size="4" view="float"/>
+<var name="CH2_U_P_PEAK" size="4" view="float"/>
+<var name="CH2_U_N_PEAK" size="4" view="float"/>
+<var name="CH2_I_P_PEAK" size="4" view="float"/>
+<var name="CH2_I_N_PEAK" size="4" view="float"/>
+<var name="CH3_U_P_PEAK" size="4" view="float"/>
+<var name="CH3_U_N_PEAK" size="4" view="float"/>
+<var name="CH3_I_P_PEAK" size="4" view="float"/>
+<var name="CH3_I_N_PEAK" size="4" view="float"/>
+<var name="CH4_U_P_PEAK" size="4" view="float"/>
+<var name="CH4_U_N_PEAK" size="4" view="float"/>
+<var name="CH4_I_P_PEAK" size="4" view="float"/>
+<var name="CH4_I_N_PEAK" size="4" view="float"/>
+<var name="CH5_U_P_PEAK" size="4" view="float"/>
+<var name="CH5_U_N_PEAK" size="4" view="float"/>
+<var name="CH5_I_P_PEAK" size="4" view="float"/>
+<var name="CH5_I_N_PEAK" size="4" view="float"/>
+<var name="CH6_U_P_PEAK" size="4" view="float"/>
+<var name="CH6_U_N_PEAK" size="4" view="float"/>
+<var name="CH6_I_P_PEAK" size="4" view="float"/>
+<var name="CH6_I_N_PEAK" size="4" view="float"/>
+<var name="EXTRACT_STATUS" size="4"/>
+<var name="SRIO_STATUS" size="4"/>
+<var name="WAVE_START_TIME" size="4" view="unsigned"/>
+<var name="WAVE_END_TIME" size="4" view="unsigned"/>
+<var name="WAVE_LEN" size="4" view="hex"/>
+<var name="PA_MODE" size="4"/>
+<var name="CH4_CFG_EN" size="4"/>
+<var name="FFT_CNT" size="4" view="unsigned"/>
+<var name="FFT_FREQ" size="4"view="unsigned"/>
+<var name="CH0_U_RMS" size="4" view="float"/>
+<var name="CH1_U_RMS" size="4" view="float"/>
+<var name="CH2_U_RMS" size="4" view="float"/>
+<var name="CH3_U_RMS" size="4" view="float"/>
+<var name="CH4_U_RMS" size="4" view="float"/>
+<var name="CH5_U_RMS" size="4" view="float"/>
+<var name="CH6_U_RMS" size="4" view="float"/>
+<var name="CH7_U_RMS" size="4" view="float"/>
+<var name="CH8_U_RMS" size="4" view="float"/>
+<var name="CH9_U_RMS" size="4" view="float"/>
+<var name="CH10_U_RMS" size="4" view="float"/>
+<var name="CH11_U_RMS" size="4" view="float"/>
+<var name="CH12_U_RMS" size="4" view="float"/>
+<var name="CH13_U_RMS" size="4" view="float"/>
+<var name="CH14_U_RMS" size="4" view="float"/>
+<var name="CH0_I_RMS" size="4" view="float"/>
+<var name="CH1_I_RMS" size="4" view="float"/>
+<var name="CH2_I_RMS" size="4" view="float"/>
+<var name="CH3_I_RMS" size="4" view="float"/>
+<var name="CH4_I_RMS" size="4" view="float"/>
+<var name="CH5_I_RMS" size="4" view="float"/>
+<var name="CH6_I_RMS" size="4" view="float"/>
+<var name="CH7_I_RMS" size="4" view="float"/>
+<var name="CH8_I_RMS" size="4" view="float"/>
+<var name="CH9_I_RMS" size="4" view="float"/>
+<var name="CH10_I_RMS" size="4" view="float"/>
+<var name="CH11_I_RMS" size="4" view="float"/>
+<var name="CH12_I_RMS" size="4" view="float"/>
+<var name="CH13_I_RMS" size="4" view="float"/>
+<var name="CH14_I_RMS" size="4" view="float"/>
+
+<var name="DBG_EXTR_CNT" size="4"/>
+<var name="DBG_EXTR_STATE" size="4"/>   
+<var name="DBG_UPDATE_CFG" size="4" view="unsigned"/>   
+<var name="DBG_PLL0_CFG" size="4"/>   
+<var name="DBG_PLL1_CFG" size="4"/>  
+<var name="DBG_WAVE_EN" size="4"/>   
+<var name="DBG_CH0_SYNC" size="4" view="hex"/>   
+<var name="DBG_CH1_SYNC" size="4" view="hex"/>   
+<var name="DBG_CH2_SYNC" size="4" view="hex"/>   
+<var name="DBG_CH3_SYNC" size="4" view="hex"/>   
+<var name="DBG_CH4_SYNC" size="4" view="hex"/>   
+<var name="DBG_CH5_SYNC" size="4" view="hex"/>   
+<var name="DBG_CH6_SYNC" size="4" view="hex"/>   
+<var name="CH0_STR_OFFS" size="4" view="unsigned"/>   
+<var name="CH0_END_OFFS" size="4" view="unsigned"/>   
+<var name="CH1_STR_OFFS" size="4" view="unsigned"/>   
+<var name="CH1_END_OFFS" size="4" view="unsigned"/>   
+<var name="CH2_STR_OFFS" size="4" view="unsigned"/>   
+<var name="CH2_END_OFFS" size="4" view="unsigned"/>   
+<var name="CH3_STR_OFFS" size="4" view="unsigned"/>   
+<var name="CH3_END_OFFS" size="4" view="unsigned"/>   
+<var name="CH4_STR_OFFS" size="4" view="unsigned"/>   
+<var name="CH4_END_OFFS" size="4" view="unsigned"/>  
+<var name="CH5_STR_OFFS" size="4" view="unsigned"/>   
+<var name="CH5_END_OFFS" size="4" view="unsigned"/> 
+<var name="CH6_STR_OFFS" size="4" view="unsigned"/>   
+<var name="CH6_END_OFFS" size="4" view="unsigned"/>   
+<var name= "AUTO_RNG_EN"    size="4" view="hex"/>                                
+<var name= "DBG_CH0_U_RANGE"        size="4"/>       
+<var name= "DBG_CH1_U_RANGE"        size="4"/>       
+<var name= "DBG_CH2_U_RANGE"        size="4"/>       
+<var name= "DBG_CH3_U_RANGE"        size="4"/>       
+<var name= "DBG_CH4_U_RANGE"        size="4"/>       
+<var name= "DBG_CH5_U_RANGE"        size="4"/>       
+<var name= "DBG_CH6_U_RANGE"        size="4"/>                                  
+<var name= "CH0_U_RANGE_SEL"    size="4"/>       
+<var name= "CH1_U_RANGE_SEL"    size="4"/>       
+<var name= "CH2_U_RANGE_SEL"    size="4"/>       
+<var name= "CH3_U_RANGE_SEL"    size="4"/>       
+<var name= "CH4_U_RANGE_SEL"    size="4"/>       
+<var name= "CH5_U_RANGE_SEL"    size="4"/>       
+<var name= "CH6_U_RANGE_SEL"    size="4"/>                                
+<var name= "DBG_CH0_I_RANGE"        size="4"/>       
+<var name= "DBG_CH1_I_RANGE"        size="4"/>       
+<var name= "DBG_CH2_I_RANGE"        size="4"/>       
+<var name= "DBG_CH3_I_RANGE"        size="4"/>       
+<var name= "DBG_CH4_I_RANGE"        size="4"/>       
+<var name= "DBG_CH5_I_RANGE"        size="4"/>       
+<var name= "DBG_CH6_I_RANGE"        size="4"/>                               
+<var name= "CH0_I_RANGE_SEL"    size="4"/>       
+<var name= "CH1_I_RANGE_SEL"    size="4"/>       
+<var name= "CH2_I_RANGE_SEL"    size="4"/>       
+<var name= "CH3_I_RANGE_SEL"    size="4"/>       
+<var name= "CH4_I_RANGE_SEL"    size="4"/>       
+<var name= "CH5_I_RANGE_SEL"    size="4"/>       
+<var name= "CH6_I_RANGE_SEL"    size="4"/>       
+<var name= "CH0_CRAD_TYPE"       size="4"/>
+<var name= "CH1_CRAD_TYPE"       size="4"/>
+<var name= "CH2_CRAD_TYPE"       size="4"/>
+<var name= "CH3_CRAD_TYPE"       size="4"/>
+<var name= "CH4_CRAD_TYPE"       size="4"/>
+<var name= "CH5_CRAD_TYPE"       size="4"/>
+<var name= "CH6_CRAD_TYPE"       size="4"/>
+<var name= "CH0_PT_CFG"   size="4" view="float"/>
+<var name= "CH0_CT_CFG"   size="4" view="float"/>
+<var name= "CH1_PT_CFG"   size="4" view="float"/>
+<var name= "CH1_CT_CFG"   size="4" view="float"/>
+<var name= "CH2_PT_CFG"   size="4" view="float"/>
+<var name= "CH2_CT_CFG"   size="4" view="float"/>
+<var name= "CH3_PT_CFG"   size="4" view="float"/>
+<var name= "CH3_CT_CFG"   size="4" view="float"/>
+<var name= "CH4_PT_CFG"   size="4" view="float"/>
+<var name= "CH4_CT_CFG"   size="4" view="float"/>
+<var name= "CH5_PT_CFG"   size="4" view="float"/>
+<var name= "CH5_CT_CFG"   size="4" view="float"/>
+<var name= "CH6_PT_CFG"   size="4" view="float"/>
+<var name= "CH6_CT_CFG"   size="4" view="float"/>
+<var name = "CH0_MTO_T_K"    size = "4"  view = "float"/>
+<var name = "CH0_MTO_T_B"    size = "4"  view = "float"/>
+<var name = "CH0_MTO_S_K"    size = "4"  view = "float"/>
+<var name = "CH0_MTO_S_B"    size = "4"  view = "float"/>
+<var name = "CH1_MTO_T_K"    size = "4"  view = "float"/>
+<var name = "CH1_MTO_T_B"    size = "4"  view = "float"/>
+<var name = "CH1_MTO_S_K"    size = "4"  view = "float"/>
+<var name = "CH1_MTO_S_B"    size = "4"  view = "float"/>
+<var name = "CH2_MTO_T_K"    size = "4"  view = "float"/>
+<var name = "CH2_MTO_T_B"    size = "4"  view = "float"/>
+<var name = "CH2_MTO_S_K"    size = "4"  view = "float"/>
+<var name = "CH2_MTO_S_B"    size = "4"  view = "float"/>
+<var name = "CH3_MTO_T_K"    size = "4"  view = "float"/>
+<var name = "CH3_MTO_T_B"    size = "4"  view = "float"/>
+<var name = "CH3_MTO_S_K"    size = "4"  view = "float"/>
+<var name = "CH3_MTO_S_B"    size = "4"  view = "float"/>
+<var name = "CH4_MTO_T_K"    size = "4"  view = "float"/>
+<var name = "CH4_MTO_T_B"    size = "4"  view = "float"/>
+<var name = "CH4_MTO_S_K"    size = "4"  view = "float"/>
+<var name = "CH4_MTO_S_B"    size = "4"  view = "float"/>
+<var name = "CH5_MTO_T_K"    size = "4"  view = "float"/>
+<var name = "CH5_MTO_T_B"    size = "4"  view = "float"/>
+<var name = "CH5_MTO_S_K"    size = "4"  view = "float"/>
+<var name = "CH5_MTO_S_B"    size = "4"  view = "float"/>
+<var name = "CH6_MTO_T_K"    size = "4"  view = "float"/>
+<var name = "CH6_MTO_T_B"    size = "4"  view = "float"/>
+<var name = "CH6_MTO_S_K"    size = "4"  view = "float"/>
+<var name = "CH6_MTO_S_B"    size = "4"  view = "float"/>
+
+<var name = "M_PLS_MODE_EN"    size = "4"  view = "hex"/>
+<var name = "CH0_M_S_PLS_MAX"  size = "4"  view = "float"/>
+<var name = "CH0_M_S_PLS_MIN"  size = "4"  view = "float"/>
+<var name = "CH1_M_S_PLS_MAX"  size = "4"  view = "float"/>
+<var name = "CH1_M_S_PLS_MIN"  size = "4"  view = "float"/>
+<var name = "CH2_M_S_PLS_MAX"  size = "4"  view = "float"/>
+<var name = "CH2_M_S_PLS_MIN"  size = "4"  view = "float"/>
+<var name = "CH3_M_S_PLS_MAX"  size = "4"  view = "float"/>
+<var name = "CH3_M_S_PLS_MIN"  size = "4"  view = "float"/>
+<var name = "CH4_M_S_PLS_MAX"  size = "4"  view = "float"/>
+<var name = "CH4_M_S_PLS_MIN"  size = "4"  view = "float"/>
+<var name = "CH5_M_S_PLS_MAX"  size = "4"  view = "float"/>
+<var name = "CH5_M_S_PLS_MIN"  size = "4"  view = "float"/>
+<var name = "CH6_M_S_PLS_MAX"  size = "4"  view = "float"/>
+<var name = "CH6_M_S_PLS_MIN"  size = "4"  view = "float"/>
+
+
+<var name = "DBG_CYC_TIME"       size = "4"  view = "unsigned"/>
+<var name = "DBG_CYC_NUM"        size = "4"  view = "unsigned"/>
+<var name = "DBG_CYC_EDGE"       size = "4"  view = "unsigned"/>
+<var name = "DBG_CYC_STATUS"     size = "4"  view = "hex"/>
+<var name = "DBG_CYC_EN"         size = "4"  view = "unsigned"/>
+<var name = "DBG_CYC_CNT"        size = "4"  view = "unsigned"/>
+<var name = "CARD_MIN_IDX"       size = "4"  view = "unsigned"/>
+<var name = "CARD_MAX_IDX"       size = "4"  view = "unsigned"/>
+<var name = "CARD_ON_LINE"       size = "4"  view = "hex"/>
+<var name = "MOTO_CHN"           size = "4"  view = "unsigned"/>
+<var name = "GRP0_DATA_Msk"           size = "4"  view = "hex"/>
+<var name = "GRP1_DATA_Msk"           size = "4"  view = "hex"/>
+<var name = "TEST"            size = "4"  view = "hex"/>
+</mem>
+
+
+<mem dev="k7" name="SYNC_PLL" target="0x1" addr="0x34000" size="260">
+<var name = "ref0_pll_cfg"             size = "4" view = "hex"/>   
+<var name = "ref1_pll_cfg"             size = "4" view = "hex"/>        
+<var name = "ref_sync_sela"            size = "4" view = "hex"/>         
+<var name = "ref_sync_selb"            size = "4" view = "hex"/>                        
+<var name = "moto_sync_sela"           size = "4" view = "hex"/>                            
+<var name = "moto_sync_selb"           size = "4" view = "hex"/>          
+<var name = "cyc_start"                size = "4" view = "hex"/>                                    
+<var name = "cyc_clr"                  size = "4" view = "hex"/>           
+<var name = "cyc_time"                 size = "4" view = "unsigned"/>                 
+<var name = "cyc_timeout_en"           size = "4" view = "unsigned"/>      
+<var name = "cyc_num"                  size = "4" view = "unsigned"/>           
+<var name = "cyc_edge_sel"             size = "4" view = "unsigned"/>                         
+<var name = "cyc_status"               size = "4" view = "hex"/>             
+<var name = "cyc_period_dout"          size = "4" view = "unsigned"/>           
+<var name = "cyc_addr_dout"            size = "4" view = "unsigned"/>             
+<var name = "pll_cfg_err"              size = "4" view = "unsigned"/>               
+<var name = "ch0_phase_diff"           size = "4" view = "unsigned"/>             
+<var name = "ch0_vol_sync_time_cnt"    size = "4" view = "unsigned"/>                  
+<var name = "ch0_vol_sync_p_cnt"       size = "4" view = "unsigned"/>                   
+<var name = "ch0_cur_sync_time_cnt"    size = "4" view = "unsigned"/>                        
+<var name = "ch0_cur_sync_p_cnt"       size = "4" view = "unsigned"/>                  
+<var name = "ch0_data_start_ofs"       size = "4" view = "unsigned"/>                     
+<var name = "ch0_data_end_ofs"         size = "4" view = "unsigned"/>                         
+<var name = "ch1_phase_diff"           size = "4" view = "unsigned"/>                    
+<var name = "ch1_vol_sync_time_cnt"    size = "4" view = "unsigned"/>                         
+<var name = "ch1_vol_sync_p_cnt"       size = "4" view = "unsigned"/>                           
+<var name = "ch1_cur_sync_time_cnt"    size = "4" view = "unsigned"/>                          
+<var name = "ch1_cur_sync_p_cnt"       size = "4" view = "unsigned"/>                 
+<var name = "ch1_data_start_ofs"       size = "4" view = "unsigned"/>                   
+<var name = "ch1_data_end_ofs"         size = "4" view = "unsigned"/>                             
+<var name = "ch2_phase_diff"           size = "4" view = "unsigned"/>                             
+<var name = "ch2_vol_sync_time_cnt"    size = "4" view = "unsigned"/>                           
+<var name = "ch2_vol_sync_p_cnt"       size = "4" view = "unsigned"/>                      
+<var name = "ch2_cur_sync_time_cnt"    size = "4" view = "unsigned"/>                                
+<var name = "ch2_cur_sync_p_cnt"       size = "4" view = "unsigned"/>                               
+<var name = "ch2_data_start_ofs"       size = "4" view = "unsigned"/>                                
+<var name = "ch2_data_end_ofs"         size = "4" view = "unsigned"/>                      
+<var name = "ch3_phase_diff"           size = "4" view = "unsigned"/>                            
+<var name = "ch3_vol_sync_time_cnt"    size = "4" view = "unsigned"/>                             
+<var name = "ch3_vol_sync_p_cnt"       size = "4" view = "unsigned"/>                              
+<var name = "ch3_cur_sync_time_cnt"    size = "4" view = "unsigned"/>                                     
+<var name = "ch3_cur_sync_p_cnt"       size = "4" view = "unsigned"/>                              
+<var name = "ch3_data_start_ofs"       size = "4" view = "unsigned"/>                         
+<var name = "ch3_data_end_ofs"         size = "4" view = "unsigned"/>                      
+<var name = "ch4_phase_diff"           size = "4" view = "unsigned"/>                       
+<var name = "ch4_vol_sync_time_cnt"    size = "4" view = "unsigned"/>                               
+<var name = "ch4_vol_sync_p_cnt"       size = "4" view = "unsigned"/>                      
+<var name = "ch4_cur_sync_time_cnt"    size = "4" view = "unsigned"/>                        
+<var name = "ch4_cur_sync_p_cnt"       size = "4" view = "unsigned"/>                       
+<var name = "ch4_data_start_ofs"       size = "4" view = "unsigned"/>                          
+<var name = "ch4_data_end_ofs"         size = "4" view = "unsigned"/>                               
+<var name = "ch5_phase_diff"           size = "4" view = "unsigned"/>                     
+<var name = "ch5_vol_sync_time_cnt"    size = "4" view = "unsigned"/>                                  
+<var name = "ch5_vol_sync_p_cnt"       size = "4" view = "unsigned"/>                               
+<var name = "ch5_cur_sync_time_cnt"    size = "4" view = "unsigned"/>                                 
+<var name = "ch5_cur_sync_p_cnt"       size = "4" view = "unsigned"/>                              
+<var name = "ch5_data_start_ofs"       size = "4" view = "unsigned"/>                         
+<var name = "ch5_data_end_ofs"         size = "4" view = "unsigned"/>                         
+<var name = "ch6_phase_diff"           size = "4" view = "unsigned"/>        
+<var name = "ch6_vol_sync_time_cnt"    size = "4" view = "unsigned"/>                
+<var name = "ch6_vol_sync_p_cnt"       size = "4" view = "unsigned"/>              
+<var name = "ch6_cur_sync_time_cnt"    size = "4" view = "unsigned"/>                      
+<var name = "ch6_cur_sync_p_cnt"       size = "4" view = "unsigned"/>                          
+<var name = "ch6_data_start_ofs"       size = "4" view = "unsigned"/>                   
+<var name = "ch6_data_end_ofs"         size = "4" view = "unsigned"/>                    
+
+</mem>
+
+
+<mem dev="k7" name="STORAGE_MGR" target="0x1" addr="0x24000" size="192">
+<var name = "ping_lo_addr_ch0"        size = "4" view = "unsigned"/>
+<var name = "pong_lo_addr_ch0"        size = "4" view = "unsigned"/>  
+<var name = "pong_hi_addr_ch0"        size = "4" view = "unsigned"/>
+<var name = "ping_lo_addr_ch1"        size = "4" view = "unsigned"/>
+<var name = "pong_lo_addr_ch1"        size = "4" view = "unsigned"/>  
+<var name = "pong_hi_addr_ch1"        size = "4" view = "unsigned"/>
+<var name = "ping_lo_addr_ch2"        size = "4" view = "unsigned"/>
+<var name = "pong_lo_addr_ch2"        size = "4" view = "unsigned"/>  
+<var name = "pong_hi_addr_ch2"        size = "4" view = "unsigned"/>
+<var name = "ping_lo_addr_ch3"        size = "4" view = "unsigned"/>
+<var name = "pong_lo_addr_ch3"        size = "4" view = "unsigned"/>  
+<var name = "pong_hi_addr_ch3"        size = "4" view = "unsigned"/>
+<var name = "ping_lo_addr_ch4"        size = "4" view = "unsigned"/>
+<var name = "pong_lo_addr_ch4"        size = "4" view = "unsigned"/>  
+<var name = "pong_hi_addr_ch4"        size = "4" view = "unsigned"/>
+<var name = "ping_lo_addr_ch5"        size = "4" view = "unsigned"/>
+<var name = "pong_lo_addr_ch5"        size = "4" view = "unsigned"/>  
+<var name = "pong_hi_addr_ch5"        size = "4" view = "unsigned"/>
+<var name = "ping_lo_addr_ch6"        size = "4" view = "unsigned"/>
+<var name = "pong_lo_addr_ch6"        size = "4" view = "unsigned"/>  
+<var name = "pong_hi_addr_ch6"        size = "4" view = "unsigned"/>
+<var name = "ping_lo_addr_ch7"        size = "4" view = "unsigned"/>
+<var name = "pong_lo_addr_ch7"        size = "4" view = "unsigned"/>  
+<var name = "pong_hi_addr_ch7"        size = "4" view = "unsigned"/>
+<var name = "ping_lo_addr_ch8"        size = "4" view = "unsigned"/>
+<var name = "pong_lo_addr_ch8"        size = "4" view = "unsigned"/>  
+<var name = "pong_hi_addr_ch8"        size = "4" view = "unsigned"/>
+<var name = "ping_lo_addr_ch9"        size = "4" view = "unsigned"/>
+<var name = "pong_lo_addr_ch9"        size = "4" view = "unsigned"/>  
+<var name = "pong_hi_addr_ch9"        size = "4" view = "unsigned"/>
+<var name = "ping_lo_addr_ch10"       size = "4" view = "unsigned"/>
+<var name = "pong_lo_addr_ch10"       size = "4" view = "unsigned"/>   
+<var name = "pong_hi_addr_ch10"       size = "4" view = "unsigned"/>
+<var name = "ping_lo_addr_ch11"       size = "4" view = "unsigned"/>
+<var name = "pong_lo_addr_ch11"       size = "4" view = "unsigned"/>   
+<var name = "pong_hi_addr_ch11"       size = "4" view = "unsigned"/>
+<var name = "ping_lo_addr_ch12"       size = "4" view = "unsigned"/>
+<var name = "pong_lo_addr_ch12"       size = "4" view = "unsigned"/>   
+<var name = "pong_hi_addr_ch12"       size = "4" view = "unsigned"/>
+<var name = "ping_lo_addr_ch13"       size = "4" view = "unsigned"/>
+<var name = "pong_lo_addr_ch13"       size = "4" view = "unsigned"/>   
+<var name = "pong_hi_addr_ch13"       size = "4" view = "unsigned"/>
+<var name = "ping_lo_addr_ch14"       size = "4" view = "unsigned"/>
+<var name = "pong_lo_addr_ch14"       size = "4" view = "unsigned"/>   
+<var name = "pong_hi_addr_ch14"       size = "4" view = "unsigned"/>
+<var name = "storage_loc"             size = "4" view = "hex"/>
+<var name = "storage_int_en"          size = "4" view = "hex"/>
+<var name = "data_int_sel"            size = "4" view = "hex"/>     
+</mem>
+
+
+<mem dev="k7" name="AUTO_RNG" target="0x1" addr="0x47000" size="4">
+<var name = "auto_rng_stus"        size = "4" view = "hex"/>
+</mem>
+
+
+<mem dev="k7" name="AUTO_RNG" target="0x1" addr="0x47000" size="4">
+<var name = "auto_rng_stus"        size = "4" view = "hex"/>
+</mem>
+
+
+<mem dev="k7" name="WAVE_EXTR" target="0x1" addr="0x27000" size="60">
+<var name = "extr_mode"        size = "4" view = "hex"/>
+<var name = "src_addr"        size = "4" view = "hex"/>
+<var name = "dst_addr"        size = "4" view = "hex"/>
+<var name = "data_len"        size = "4" view = "hex"/>
+<var name = "extr_inv"        size = "4" view = "hex"/>
+<var name = "extr_go"        size = "4" view = "hex"/>
+<var name = "extr_rst"        size = "4" view = "hex"/>
+<var name = "total_data_cnt"        size = "4" view = "hex"/>
+<var name = "sync_id"        size = "4" view = "hex"/>
+<var name = "unit_num"        size = "4" view = "hex"/>           
+<var name = "unit_data_cnt"        size = "4" view = "hex"/>   
+<var name = "data_type"        size = "4" view = "hex"/>     
+<var name = "offset_addr"        size = "4" view = "hex"/> 
+<var name = "extr_cnt,status"        size = "4" view = "hex"/> 
+<var name = "extr_done"        size = "4" view = "hex"/>                                 
+</mem>
+
+
+<mem dev="k7" name="AURORA" target="0x1" addr="0x29000" size="32">
+<var name = "aurora_rdy"        size = "4" view = "hex"/>
+<var name = "aurora_ch0_stus"        size = "4" view = "hex"/>
+<var name = "aurora_ch1_stus"        size = "4" view = "hex"/>
+<var name = "aurora_ch2_stus"        size = "4" view = "hex"/>
+<var name = "aurora_ch3_stus"        size = "4" view = "hex"/>
+<var name = "aurora_ch4_stus"        size = "4" view = "hex"/>
+<var name = "aurora_ch5_stus"        size = "4" view = "hex"/>
+<var name = "aurora_ch6_stus"        size = "4" view = "hex"/>
+</mem>
+
+<mem dev="k7" name="DELTA" target="0x1" addr="0x50000" size="24">
+<var name = "delta_start"        size = "4" view = "hex"/>
+<var name = "delta_stop"        size = "4" view = "hex"/>
+<var name = "delta_en_wo"        size = "4" view = "hex"/>
+<var name = "delta_en_ro"        size = "4" view = "hex"/>
+<var name = "delta_wiring"        size = "4" view = "hex"/>
+<var name = "chn_sel"        size = "4" view = "hex"/>
+</mem>
+
+<mem dev="k7" name="DATA_CHK" target="0x1" addr="0x49000" size="4">
+<var name = "data_chk_stus"        size = "4" view = "hex"/>
+</mem>
+
+
+<mem dev="k7" name="SPI-REG" target="1" addr="0x33000" size="512"  desc="K7前端寄存器">
+    <var name="Magic"           size="4" view="hex"                             />
+    <var name="工作模式"        size="4" view="signed"  desc="工作模式"         />
+    <var name="电压前端控制"    size="4" view="float"   desc="电压前端控制"     />
+    <var name="电流前端控制"    size="4" view="float"   desc="电流前端控制"     />
+    <var name="校准阶段选择"    size="4"                desc="校准阶段选择"     />
+    <var name="PLL源选择"       size="4"                desc="PLL源选择"        />
+    <var name="ADC采样率设置"   size="4"                desc="ADC采样率设置"    />
+</mem>
+
+<mem dev="k7" name="DDR" target="0" addr="0x33000" size="64" desc="K7外挂DDR数据信息头">
+    <var name="rgn_cnt"     size="4"    view="int"  desc="数据分区数量"     />
+</mem>
+
+<mem dev="k7" name="DBG-REG" target="0" addr="0x5000" size="1024" desc="K7调试寄存器0">
+    <var name="ch0_dat_intr" size="4" view="int"    desc="通道0数据中断计数"/>
+    <var name="ch1_dat_intr" size="4"               desc="通道1数据中断计数"/>
+    <var name="ch2_dat_intr" size="4"               desc="通道2数据中断计数"/>
+    <var name="ch3_dat_intr" size="4"               desc="通道3数据中断计数"/>
+    <var name="ch4_dat_intr" size="4"               desc="通道4数据中断计数"/>
+</mem>
+
+<mem dev="k7" name="DDR共享内存信息头" target="0x10" addr="0x6000" size="1024">
+    <var name="内存分区个数" size="4" view="int"/>
+    <var name="ch0 分区类型唯一标识" size="4"/>
+    <var name="ch0 分区数据存储区在共享内存中的偏移" size="4"/>
+    <var name="ch0 FIFO深度" size="4"/>
+    <var name="ch0 单一记录大小" size="4"/>
+    <var name="ch0 写入索引" size="4"/>
+    <var name="ch0 读出索引" size="4"/>
+    <var name="ch1 分区类型唯一标识" size="4"/>
+    <var name="ch1 分区数据存储区在共享内存中的偏移" size="4"/>
+    <var name="ch1 FIFO深度" size="4"/>
+    <var name="ch1 单一记录大小" size="4"/>
+    <var name="ch1 写入索引" size="4"/>
+    <var name="ch1 读出索引" size="4"/>
+    <var name="ch2 分区类型唯一标识" size="4"/>
+    <var name="ch2 分区数据存储区在共享内存中的偏移" size="4"/>
+    <var name="ch2 FIFO深度" size="4"/>
+    <var name="ch2 单一记录大小" size="4"/>
+    <var name="ch2 写入索引" size="4"/>
+    <var name="ch2 读出索引" size="4"/>
+    <var name="ch3 分区类型唯一标识" size="4"/>
+    <var name="ch3 分区数据存储区在共享内存中的偏移" size="4"/>
+    <var name="ch3 FIFO深度" size="4"/>
+    <var name="ch3 单一记录大小" size="4"/>
+    <var name="ch3 写入索引" size="4"/>
+    <var name="ch3 读出索引" size="4"/>
+    <var name="ch4 分区类型唯一标识" size="4"/>
+    <var name="ch4 分区数据存储区在共享内存中的偏移" size="4"/>
+    <var name="ch4 FIFO深度" size="4"/>
+    <var name="ch4 单一记录大小" size="4"/>
+    <var name="ch4 写入索引" size="4"/>
+    <var name="ch4 读出索引" size="4"/>
+    <var name="ch5 分区类型唯一标识" size="4"/>
+    <var name="ch5 分区数据存储区在共享内存中的偏移" size="4"/>
+    <var name="ch5 FIFO深度" size="4"/>
+    <var name="ch5 单一记录大小" size="4"/>
+    <var name="ch5 写入索引" size="4"/>
+    <var name="ch5 读出索引" size="4"/>
+    <var name="ch6 分区类型唯一标识" size="4"/>
+    <var name="ch6 分区数据存储区在共享内存中的偏移" size="4"/>
+    <var name="ch6 FIFO深度" size="4"/>
+    <var name="ch6 单一记录大小" size="4"/>
+    <var name="ch6 写入索引" size="4"/>
+    <var name="ch6 读出索引" size="4"/>
+</mem>
+
+<mem dev="k7" name="调试数据块（2048 Bytes）" target="0x10" addr="0x1800" size="2048" desc="注：数据项过多界面刷新会占用较多CPU，不建议频繁读取">
+    <var name="v_0000_0000" size="4" view="hex"/>
+    <var name="v_0001_0001" size="4" view="hex"/>
+    <var name="v_0002_0002" size="4" view="hex"/>
+    <var name="v_0003_0003" size="4" view="hex"/>
+    <var name="v_0004_0004" size="4" view="hex"/>
+    <var name="v_0005_0005" size="4" view="hex"/>
+    <var name="v_0006_0006" size="4" view="hex"/>
+    <var name="v_0007_0007" size="4" view="hex"/>
+    <var name="v_0008_0008" size="4" view="hex"/>
+    <var name="v_0009_0009" size="4" view="hex"/>
+    <var name="v_000a_0010" size="4" view="hex"/>
+    <var name="v_000b_0011" size="4" view="hex"/>
+    <var name="v_000c_0012" size="4" view="hex"/>
+    <var name="v_000d_0013" size="4" view="hex"/>
+    <var name="v_000e_0014" size="4" view="hex"/>
+    <var name="v_000f_0015" size="4" view="hex"/>
+    <var name="v_0010_0016" size="4" view="hex"/>
+    <var name="v_0011_0017" size="4" view="hex"/>`
+    <var name="v_0012_0018" size="4" view="hex"/>
+    <var name="v_0013_0019" size="4" view="hex"/>
+    <var name="v_0014_0020" size="4" view="hex"/>
+    <var name="v_0015_0021" size="4" view="hex"/>
+    <var name="v_0016_0022" size="4" view="hex"/>
+    <var name="v_0017_0023" size="4" view="hex"/>
+    <var name="v_0018_0024" size="4" view="hex"/>
+    <var name="v_0019_0025" size="4" view="hex"/>
+    <var name="v_001a_0026" size="4" view="hex"/>
+    <var name="v_001b_0027" size="4" view="hex"/>
+    <var name="v_001c_0028" size="4" view="hex"/>
+    <var name="v_001d_0029" size="4" view="hex"/>
+    <var name="v_001e_0030" size="4" view="hex"/>
+    <var name="v_001f_0031" size="4" view="hex"/>
+    <var name="v_0020_0032" size="4" view="hex"/>
+    <var name="v_0021_0033" size="4" view="hex"/>
+    <var name="v_0022_0034" size="4" view="hex"/>
+    <var name="v_0023_0035" size="4" view="hex"/>
+    <var name="v_0024_0036" size="4" view="hex"/>
+    <var name="v_0025_0037" size="4" view="hex"/>
+    <var name="v_0026_0038" size="4" view="hex"/>
+    <var name="v_0027_0039" size="4" view="hex"/>
+    <var name="v_0028_0040" size="4" view="hex"/>
+    <var name="v_0029_0041" size="4" view="hex"/>
+    <var name="v_002a_0042" size="4" view="hex"/>
+    <var name="v_002b_0043" size="4" view="hex"/>
+    <var name="v_002c_0044" size="4" view="hex"/>
+    <var name="v_002d_0045" size="4" view="hex"/>
+    <var name="v_002e_0046" size="4" view="hex"/>
+    <var name="v_002f_0047" size="4" view="hex"/>
+    <var name="v_0030_0048" size="4" view="hex"/>
+    <var name="v_0031_0049" size="4" view="hex"/>
+    <var name="v_0032_0050" size="4" view="hex"/>
+    <var name="v_0033_0051" size="4" view="hex"/>
+    <var name="v_0034_0052" size="4" view="hex"/>
+    <var name="v_0035_0053" size="4" view="hex"/>
+    <var name="v_0036_0054" size="4" view="hex"/>
+    <var name="v_0037_0055" size="4" view="hex"/>
+    <var name="v_0038_0056" size="4" view="hex"/>
+    <var name="v_0039_0057" size="4" view="hex"/>
+    <var name="v_003a_0058" size="4" view="hex"/>
+    <var name="v_003b_0059" size="4" view="hex"/>
+    <var name="v_003c_0060" size="4" view="hex"/>
+    <var name="v_003d_0061" size="4" view="hex"/>
+    <var name="v_003e_0062" size="4" view="hex"/>
+    <var name="v_003f_0063" size="4" view="hex"/>
+    <var name="v_0040_0064" size="4" view="hex"/>
+    <var name="v_0041_0065" size="4" view="hex"/>
+    <var name="v_0042_0066" size="4" view="hex"/>
+    <var name="v_0043_0067" size="4" view="hex"/>
+    <var name="v_0044_0068" size="4" view="hex"/>
+    <var name="v_0045_0069" size="4" view="hex"/>
+    <var name="v_0046_0070" size="4" view="hex"/>
+    <var name="v_0047_0071" size="4" view="hex"/>
+    <var name="v_0048_0072" size="4" view="hex"/>
+    <var name="v_0049_0073" size="4" view="hex"/>
+    <var name="v_004a_0074" size="4" view="hex"/>
+    <var name="v_004b_0075" size="4" view="hex"/>
+    <var name="v_004c_0076" size="4" view="hex"/>
+    <var name="v_004d_0077" size="4" view="hex"/>
+    <var name="v_004e_0078" size="4" view="hex"/>
+    <var name="v_004f_0079" size="4" view="hex"/>
+    <var name="v_0050_0080" size="4" view="hex"/>
+    <var name="v_0051_0081" size="4" view="hex"/>
+    <var name="v_0052_0082" size="4" view="hex"/>
+    <var name="v_0053_0083" size="4" view="hex"/>
+    <var name="v_0054_0084" size="4" view="hex"/>
+    <var name="v_0055_0085" size="4" view="hex"/>
+    <var name="v_0056_0086" size="4" view="hex"/>
+    <var name="v_0057_0087" size="4" view="hex"/>
+    <var name="v_0058_0088" size="4" view="hex"/>
+    <var name="v_0059_0089" size="4" view="hex"/>
+    <var name="v_005a_0090" size="4" view="hex"/>
+    <var name="v_005b_0091" size="4" view="hex"/>
+    <var name="v_005c_0092" size="4" view="hex"/>
+    <var name="v_005d_0093" size="4" view="hex"/>
+    <var name="v_005e_0094" size="4" view="hex"/>
+    <var name="v_005f_0095" size="4" view="hex"/>
+    <var name="v_0060_0096" size="4" view="hex"/>
+    <var name="v_0061_0097" size="4" view="hex"/>
+    <var name="v_0062_0098" size="4" view="hex"/>
+    <var name="v_0063_0099" size="4" view="hex"/>
+    <var name="v_0064_0100" size="4" view="hex"/>
+    <var name="v_0065_0101" size="4" view="hex"/>
+    <var name="v_0066_0102" size="4" view="hex"/>
+    <var name="v_0067_0103" size="4" view="hex"/>
+    <var name="v_0068_0104" size="4" view="hex"/>
+    <var name="v_0069_0105" size="4" view="hex"/>
+    <var name="v_006a_0106" size="4" view="hex"/>
+    <var name="v_006b_0107" size="4" view="hex"/>
+    <var name="v_006c_0108" size="4" view="hex"/>
+    <var name="v_006d_0109" size="4" view="hex"/>
+    <var name="v_006e_0110" size="4" view="hex"/>
+    <var name="v_006f_0111" size="4" view="hex"/>
+    <var name="v_0070_0112" size="4" view="hex"/>
+    <var name="v_0071_0113" size="4" view="hex"/>
+    <var name="v_0072_0114" size="4" view="hex"/>
+    <var name="v_0073_0115" size="4" view="hex"/>
+    <var name="v_0074_0116" size="4" view="hex"/>
+    <var name="v_0075_0117" size="4" view="hex"/>
+    <var name="v_0076_0118" size="4" view="hex"/>
+    <var name="v_0077_0119" size="4" view="hex"/>
+    <var name="v_0078_0120" size="4" view="hex"/>
+    <var name="v_0079_0121" size="4" view="hex"/>
+    <var name="v_007a_0122" size="4" view="hex"/>
+    <var name="v_007b_0123" size="4" view="hex"/>
+    <var name="v_007c_0124" size="4" view="hex"/>
+    <var name="v_007d_0125" size="4" view="hex"/>
+    <var name="v_007e_0126" size="4" view="hex"/>
+    <var name="v_007f_0127" size="4" view="hex"/>
+    <var name="v_0080_0128" size="4" view="hex"/>
+    <var name="v_0081_0129" size="4" view="hex"/>
+    <var name="v_0082_0130" size="4" view="hex"/>
+    <var name="v_0083_0131" size="4" view="hex"/>
+    <var name="v_0084_0132" size="4" view="hex"/>
+    <var name="v_0085_0133" size="4" view="hex"/>
+    <var name="v_0086_0134" size="4" view="hex"/>
+    <var name="v_0087_0135" size="4" view="hex"/>
+    <var name="v_0088_0136" size="4" view="hex"/>
+    <var name="v_0089_0137" size="4" view="hex"/>
+    <var name="v_008a_0138" size="4" view="hex"/>
+    <var name="v_008b_0139" size="4" view="hex"/>
+    <var name="v_008c_0140" size="4" view="hex"/>
+    <var name="v_008d_0141" size="4" view="hex"/>
+    <var name="v_008e_0142" size="4" view="hex"/>
+    <var name="v_008f_0143" size="4" view="hex"/>
+    <var name="v_0090_0144" size="4" view="hex"/>
+    <var name="v_0091_0145" size="4" view="hex"/>
+    <var name="v_0092_0146" size="4" view="hex"/>
+    <var name="v_0093_0147" size="4" view="hex"/>
+    <var name="v_0094_0148" size="4" view="hex"/>
+    <var name="v_0095_0149" size="4" view="hex"/>
+    <var name="v_0096_0150" size="4" view="hex"/>
+    <var name="v_0097_0151" size="4" view="hex"/>
+    <var name="v_0098_0152" size="4" view="hex"/>
+    <var name="v_0099_0153" size="4" view="hex"/>
+    <var name="v_009a_0154" size="4" view="hex"/>
+    <var name="v_009b_0155" size="4" view="hex"/>
+    <var name="v_009c_0156" size="4" view="hex"/>
+    <var name="v_009d_0157" size="4" view="hex"/>
+    <var name="v_009e_0158" size="4" view="hex"/>
+    <var name="v_009f_0159" size="4" view="hex"/>
+    <var name="v_00a0_0160" size="4" view="hex"/>
+    <var name="v_00a1_0161" size="4" view="hex"/>
+    <var name="v_00a2_0162" size="4" view="hex"/>
+    <var name="v_00a3_0163" size="4" view="hex"/>
+    <var name="v_00a4_0164" size="4" view="hex"/>
+    <var name="v_00a5_0165" size="4" view="hex"/>
+    <var name="v_00a6_0166" size="4" view="hex"/>
+    <var name="v_00a7_0167" size="4" view="hex"/>
+    <var name="v_00a8_0168" size="4" view="hex"/>
+    <var name="v_00a9_0169" size="4" view="hex"/>
+    <var name="v_00aa_0170" size="4" view="hex"/>
+    <var name="v_00ab_0171" size="4" view="hex"/>
+    <var name="v_00ac_0172" size="4" view="hex"/>
+    <var name="v_00ad_0173" size="4" view="hex"/>
+    <var name="v_00ae_0174" size="4" view="hex"/>
+    <var name="v_00af_0175" size="4" view="hex"/>
+    <var name="v_00b0_0176" size="4" view="hex"/>
+    <var name="v_00b1_0177" size="4" view="hex"/>
+    <var name="v_00b2_0178" size="4" view="hex"/>
+    <var name="v_00b3_0179" size="4" view="hex"/>
+    <var name="v_00b4_0180" size="4" view="hex"/>
+    <var name="v_00b5_0181" size="4" view="hex"/>
+    <var name="v_00b6_0182" size="4" view="hex"/>
+    <var name="v_00b7_0183" size="4" view="hex"/>
+    <var name="v_00b8_0184" size="4" view="hex"/>
+    <var name="v_00b9_0185" size="4" view="hex"/>
+    <var name="v_00ba_0186" size="4" view="hex"/>
+    <var name="v_00bb_0187" size="4" view="hex"/>
+    <var name="v_00bc_0188" size="4" view="hex"/>
+    <var name="v_00bd_0189" size="4" view="hex"/>
+    <var name="v_00be_0190" size="4" view="hex"/>
+    <var name="v_00bf_0191" size="4" view="hex"/>
+    <var name="v_00c0_0192" size="4" view="hex"/>
+    <var name="v_00c1_0193" size="4" view="hex"/>
+    <var name="v_00c2_0194" size="4" view="hex"/>
+    <var name="v_00c3_0195" size="4" view="hex"/>
+    <var name="v_00c4_0196" size="4" view="hex"/>
+    <var name="v_00c5_0197" size="4" view="hex"/>
+    <var name="v_00c6_0198" size="4" view="hex"/>
+    <var name="v_00c7_0199" size="4" view="hex"/>
+    <var name="v_00c8_0200" size="4" view="hex"/>
+    <var name="v_00c9_0201" size="4" view="hex"/>
+    <var name="v_00ca_0202" size="4" view="hex"/>
+    <var name="v_00cb_0203" size="4" view="hex"/>
+    <var name="v_00cc_0204" size="4" view="hex"/>
+    <var name="v_00cd_0205" size="4" view="hex"/>
+    <var name="v_00ce_0206" size="4" view="hex"/>
+    <var name="v_00cf_0207" size="4" view="hex"/>
+    <var name="v_00d0_0208" size="4" view="hex"/>
+    <var name="v_00d1_0209" size="4" view="hex"/>
+    <var name="v_00d2_0210" size="4" view="hex"/>
+    <var name="v_00d3_0211" size="4" view="hex"/>
+    <var name="v_00d4_0212" size="4" view="hex"/>
+    <var name="v_00d5_0213" size="4" view="hex"/>
+    <var name="v_00d6_0214" size="4" view="hex"/>
+    <var name="v_00d7_0215" size="4" view="hex"/>
+    <var name="v_00d8_0216" size="4" view="hex"/>
+    <var name="v_00d9_0217" size="4" view="hex"/>
+    <var name="v_00da_0218" size="4" view="hex"/>
+    <var name="v_00db_0219" size="4" view="hex"/>
+    <var name="v_00dc_0220" size="4" view="hex"/>
+    <var name="v_00dd_0221" size="4" view="hex"/>
+    <var name="v_00de_0222" size="4" view="hex"/>
+    <var name="v_00df_0223" size="4" view="hex"/>
+    <var name="v_00e0_0224" size="4" view="hex"/>
+    <var name="v_00e1_0225" size="4" view="hex"/>
+    <var name="v_00e2_0226" size="4" view="hex"/>
+    <var name="v_00e3_0227" size="4" view="hex"/>
+    <var name="v_00e4_0228" size="4" view="hex"/>
+    <var name="v_00e5_0229" size="4" view="hex"/>
+    <var name="v_00e6_0230" size="4" view="hex"/>
+    <var name="v_00e7_0231" size="4" view="hex"/>
+    <var name="v_00e8_0232" size="4" view="hex"/>
+    <var name="v_00e9_0233" size="4" view="hex"/>
+    <var name="v_00ea_0234" size="4" view="hex"/>
+    <var name="v_00eb_0235" size="4" view="hex"/>
+    <var name="v_00ec_0236" size="4" view="hex"/>
+    <var name="v_00ed_0237" size="4" view="hex"/>
+    <var name="v_00ee_0238" size="4" view="hex"/>
+    <var name="v_00ef_0239" size="4" view="hex"/>
+    <var name="v_00f0_0240" size="4" view="hex"/>
+    <var name="v_00f1_0241" size="4" view="hex"/>
+    <var name="v_00f2_0242" size="4" view="hex"/>
+    <var name="v_00f3_0243" size="4" view="hex"/>
+    <var name="v_00f4_0244" size="4" view="hex"/>
+    <var name="v_00f5_0245" size="4" view="hex"/>
+    <var name="v_00f6_0246" size="4" view="hex"/>
+    <var name="v_00f7_0247" size="4" view="hex"/>
+    <var name="v_00f8_0248" size="4" view="hex"/>
+    <var name="v_00f9_0249" size="4" view="hex"/>
+    <var name="v_00fa_0250" size="4" view="hex"/>
+    <var name="v_00fb_0251" size="4" view="hex"/>
+    <var name="v_00fc_0252" size="4" view="hex"/>
+    <var name="v_00fd_0253" size="4" view="hex"/>
+    <var name="v_00fe_0254" size="4" view="hex"/>
+    <var name="v_00ff_0255" size="4" view="hex"/>
+    <var name="v_0100_0256" size="4" view="hex"/>
+    <var name="v_0101_0257" size="4" view="hex"/>
+    <var name="v_0102_0258" size="4" view="hex"/>
+    <var name="v_0103_0259" size="4" view="hex"/>
+    <var name="v_0104_0260" size="4" view="hex"/>
+    <var name="v_0105_0261" size="4" view="hex"/>
+    <var name="v_0106_0262" size="4" view="hex"/>
+    <var name="v_0107_0263" size="4" view="hex"/>
+    <var name="v_0108_0264" size="4" view="hex"/>
+    <var name="v_0109_0265" size="4" view="hex"/>
+    <var name="v_010a_0266" size="4" view="hex"/>
+    <var name="v_010b_0267" size="4" view="hex"/>
+    <var name="v_010c_0268" size="4" view="hex"/>
+    <var name="v_010d_0269" size="4" view="hex"/>
+    <var name="v_010e_0270" size="4" view="hex"/>
+    <var name="v_010f_0271" size="4" view="hex"/>
+    <var name="v_0110_0272" size="4" view="hex"/>
+    <var name="v_0111_0273" size="4" view="hex"/>
+    <var name="v_0112_0274" size="4" view="hex"/>
+    <var name="v_0113_0275" size="4" view="hex"/>
+    <var name="v_0114_0276" size="4" view="hex"/>
+    <var name="v_0115_0277" size="4" view="hex"/>
+    <var name="v_0116_0278" size="4" view="hex"/>
+    <var name="v_0117_0279" size="4" view="hex"/>
+    <var name="v_0118_0280" size="4" view="hex"/>
+    <var name="v_0119_0281" size="4" view="hex"/>
+    <var name="v_011a_0282" size="4" view="hex"/>
+    <var name="v_011b_0283" size="4" view="hex"/>
+    <var name="v_011c_0284" size="4" view="hex"/>
+    <var name="v_011d_0285" size="4" view="hex"/>
+    <var name="v_011e_0286" size="4" view="hex"/>
+    <var name="v_011f_0287" size="4" view="hex"/>
+    <var name="v_0120_0288" size="4" view="hex"/>
+    <var name="v_0121_0289" size="4" view="hex"/>
+    <var name="v_0122_0290" size="4" view="hex"/>
+    <var name="v_0123_0291" size="4" view="hex"/>
+    <var name="v_0124_0292" size="4" view="hex"/>
+    <var name="v_0125_0293" size="4" view="hex"/>
+    <var name="v_0126_0294" size="4" view="hex"/>
+    <var name="v_0127_0295" size="4" view="hex"/>
+    <var name="v_0128_0296" size="4" view="hex"/>
+    <var name="v_0129_0297" size="4" view="hex"/>
+    <var name="v_012a_0298" size="4" view="hex"/>
+    <var name="v_012b_0299" size="4" view="hex"/>
+    <var name="v_012c_0300" size="4" view="hex"/>
+    <var name="v_012d_0301" size="4" view="hex"/>
+    <var name="v_012e_0302" size="4" view="hex"/>
+    <var name="v_012f_0303" size="4" view="hex"/>
+    <var name="v_0130_0304" size="4" view="hex"/>
+    <var name="v_0131_0305" size="4" view="hex"/>
+    <var name="v_0132_0306" size="4" view="hex"/>
+    <var name="v_0133_0307" size="4" view="hex"/>
+    <var name="v_0134_0308" size="4" view="hex"/>
+    <var name="v_0135_0309" size="4" view="hex"/>
+    <var name="v_0136_0310" size="4" view="hex"/>
+    <var name="v_0137_0311" size="4" view="hex"/>
+    <var name="v_0138_0312" size="4" view="hex"/>
+    <var name="v_0139_0313" size="4" view="hex"/>
+    <var name="v_013a_0314" size="4" view="hex"/>
+    <var name="v_013b_0315" size="4" view="hex"/>
+    <var name="v_013c_0316" size="4" view="hex"/>
+    <var name="v_013d_0317" size="4" view="hex"/>
+    <var name="v_013e_0318" size="4" view="hex"/>
+    <var name="v_013f_0319" size="4" view="hex"/>
+    <var name="v_0140_0320" size="4" view="hex"/>
+    <var name="v_0141_0321" size="4" view="hex"/>
+    <var name="v_0142_0322" size="4" view="hex"/>
+    <var name="v_0143_0323" size="4" view="hex"/>
+    <var name="v_0144_0324" size="4" view="hex"/>
+    <var name="v_0145_0325" size="4" view="hex"/>
+    <var name="v_0146_0326" size="4" view="hex"/>
+    <var name="v_0147_0327" size="4" view="hex"/>
+    <var name="v_0148_0328" size="4" view="hex"/>
+    <var name="v_0149_0329" size="4" view="hex"/>
+    <var name="v_014a_0330" size="4" view="hex"/>
+    <var name="v_014b_0331" size="4" view="hex"/>
+    <var name="v_014c_0332" size="4" view="hex"/>
+    <var name="v_014d_0333" size="4" view="hex"/>
+    <var name="v_014e_0334" size="4" view="hex"/>
+    <var name="v_014f_0335" size="4" view="hex"/>
+    <var name="v_0150_0336" size="4" view="hex"/>
+    <var name="v_0151_0337" size="4" view="hex"/>
+    <var name="v_0152_0338" size="4" view="hex"/>
+    <var name="v_0153_0339" size="4" view="hex"/>
+    <var name="v_0154_0340" size="4" view="hex"/>
+    <var name="v_0155_0341" size="4" view="hex"/>
+    <var name="v_0156_0342" size="4" view="hex"/>
+    <var name="v_0157_0343" size="4" view="hex"/>
+    <var name="v_0158_0344" size="4" view="hex"/>
+    <var name="v_0159_0345" size="4" view="hex"/>
+    <var name="v_015a_0346" size="4" view="hex"/>
+    <var name="v_015b_0347" size="4" view="hex"/>
+    <var name="v_015c_0348" size="4" view="hex"/>
+    <var name="v_015d_0349" size="4" view="hex"/>
+    <var name="v_015e_0350" size="4" view="hex"/>
+    <var name="v_015f_0351" size="4" view="hex"/>
+    <var name="v_0160_0352" size="4" view="hex"/>
+    <var name="v_0161_0353" size="4" view="hex"/>
+    <var name="v_0162_0354" size="4" view="hex"/>
+    <var name="v_0163_0355" size="4" view="hex"/>
+    <var name="v_0164_0356" size="4" view="hex"/>
+    <var name="v_0165_0357" size="4" view="hex"/>
+    <var name="v_0166_0358" size="4" view="hex"/>
+    <var name="v_0167_0359" size="4" view="hex"/>
+    <var name="v_0168_0360" size="4" view="hex"/>
+    <var name="v_0169_0361" size="4" view="hex"/>
+    <var name="v_016a_0362" size="4" view="hex"/>
+    <var name="v_016b_0363" size="4" view="hex"/>
+    <var name="v_016c_0364" size="4" view="hex"/>
+    <var name="v_016d_0365" size="4" view="hex"/>
+    <var name="v_016e_0366" size="4" view="hex"/>
+    <var name="v_016f_0367" size="4" view="hex"/>
+    <var name="v_0170_0368" size="4" view="hex"/>
+    <var name="v_0171_0369" size="4" view="hex"/>
+    <var name="v_0172_0370" size="4" view="hex"/>
+    <var name="v_0173_0371" size="4" view="hex"/>
+    <var name="v_0174_0372" size="4" view="hex"/>
+    <var name="v_0175_0373" size="4" view="hex"/>
+    <var name="v_0176_0374" size="4" view="hex"/>
+    <var name="v_0177_0375" size="4" view="hex"/>
+    <var name="v_0178_0376" size="4" view="hex"/>
+    <var name="v_0179_0377" size="4" view="hex"/>
+    <var name="v_017a_0378" size="4" view="hex"/>
+    <var name="v_017b_0379" size="4" view="hex"/>
+    <var name="v_017c_0380" size="4" view="hex"/>
+    <var name="v_017d_0381" size="4" view="hex"/>
+    <var name="v_017e_0382" size="4" view="hex"/>
+    <var name="v_017f_0383" size="4" view="hex"/>
+    <var name="v_0180_0384" size="4" view="hex"/>
+    <var name="v_0181_0385" size="4" view="hex"/>
+    <var name="v_0182_0386" size="4" view="hex"/>
+    <var name="v_0183_0387" size="4" view="hex"/>
+    <var name="v_0184_0388" size="4" view="hex"/>
+    <var name="v_0185_0389" size="4" view="hex"/>
+    <var name="v_0186_0390" size="4" view="hex"/>
+    <var name="v_0187_0391" size="4" view="hex"/>
+    <var name="v_0188_0392" size="4" view="hex"/>
+    <var name="v_0189_0393" size="4" view="hex"/>
+    <var name="v_018a_0394" size="4" view="hex"/>
+    <var name="v_018b_0395" size="4" view="hex"/>
+    <var name="v_018c_0396" size="4" view="hex"/>
+    <var name="v_018d_0397" size="4" view="hex"/>
+    <var name="v_018e_0398" size="4" view="hex"/>
+    <var name="v_018f_0399" size="4" view="hex"/>
+    <var name="v_0190_0400" size="4" view="hex"/>
+    <var name="v_0191_0401" size="4" view="hex"/>
+    <var name="v_0192_0402" size="4" view="hex"/>
+    <var name="v_0193_0403" size="4" view="hex"/>
+    <var name="v_0194_0404" size="4" view="hex"/>
+    <var name="v_0195_0405" size="4" view="hex"/>
+    <var name="v_0196_0406" size="4" view="hex"/>
+    <var name="v_0197_0407" size="4" view="hex"/>
+    <var name="v_0198_0408" size="4" view="hex"/>
+    <var name="v_0199_0409" size="4" view="hex"/>
+    <var name="v_019a_0410" size="4" view="hex"/>
+    <var name="v_019b_0411" size="4" view="hex"/>
+    <var name="v_019c_0412" size="4" view="hex"/>
+    <var name="v_019d_0413" size="4" view="hex"/>
+    <var name="v_019e_0414" size="4" view="hex"/>
+    <var name="v_019f_0415" size="4" view="hex"/>
+    <var name="v_01a0_0416" size="4" view="hex"/>
+    <var name="v_01a1_0417" size="4" view="hex"/>
+    <var name="v_01a2_0418" size="4" view="hex"/>
+    <var name="v_01a3_0419" size="4" view="hex"/>
+    <var name="v_01a4_0420" size="4" view="hex"/>
+    <var name="v_01a5_0421" size="4" view="hex"/>
+    <var name="v_01a6_0422" size="4" view="hex"/>
+    <var name="v_01a7_0423" size="4" view="hex"/>
+    <var name="v_01a8_0424" size="4" view="hex"/>
+    <var name="v_01a9_0425" size="4" view="hex"/>
+    <var name="v_01aa_0426" size="4" view="hex"/>
+    <var name="v_01ab_0427" size="4" view="hex"/>
+    <var name="v_01ac_0428" size="4" view="hex"/>
+    <var name="v_01ad_0429" size="4" view="hex"/>
+    <var name="v_01ae_0430" size="4" view="hex"/>
+    <var name="v_01af_0431" size="4" view="hex"/>
+    <var name="v_01b0_0432" size="4" view="hex"/>
+    <var name="v_01b1_0433" size="4" view="hex"/>
+    <var name="v_01b2_0434" size="4" view="hex"/>
+    <var name="v_01b3_0435" size="4" view="hex"/>
+    <var name="v_01b4_0436" size="4" view="hex"/>
+    <var name="v_01b5_0437" size="4" view="hex"/>
+    <var name="v_01b6_0438" size="4" view="hex"/>
+    <var name="v_01b7_0439" size="4" view="hex"/>
+    <var name="v_01b8_0440" size="4" view="hex"/>
+    <var name="v_01b9_0441" size="4" view="hex"/>
+    <var name="v_01ba_0442" size="4" view="hex"/>
+    <var name="v_01bb_0443" size="4" view="hex"/>
+    <var name="v_01bc_0444" size="4" view="hex"/>
+    <var name="v_01bd_0445" size="4" view="hex"/>
+    <var name="v_01be_0446" size="4" view="hex"/>
+    <var name="v_01bf_0447" size="4" view="hex"/>
+    <var name="v_01c0_0448" size="4" view="hex"/>
+    <var name="v_01c1_0449" size="4" view="hex"/>
+    <var name="v_01c2_0450" size="4" view="hex"/>
+    <var name="v_01c3_0451" size="4" view="hex"/>
+    <var name="v_01c4_0452" size="4" view="hex"/>
+    <var name="v_01c5_0453" size="4" view="hex"/>
+    <var name="v_01c6_0454" size="4" view="hex"/>
+    <var name="v_01c7_0455" size="4" view="hex"/>
+    <var name="v_01c8_0456" size="4" view="hex"/>
+    <var name="v_01c9_0457" size="4" view="hex"/>
+    <var name="v_01ca_0458" size="4" view="hex"/>
+    <var name="v_01cb_0459" size="4" view="hex"/>
+    <var name="v_01cc_0460" size="4" view="hex"/>
+    <var name="v_01cd_0461" size="4" view="hex"/>
+    <var name="v_01ce_0462" size="4" view="hex"/>
+    <var name="v_01cf_0463" size="4" view="hex"/>
+    <var name="v_01d0_0464" size="4" view="hex"/>
+    <var name="v_01d1_0465" size="4" view="hex"/>
+    <var name="v_01d2_0466" size="4" view="hex"/>
+    <var name="v_01d3_0467" size="4" view="hex"/>
+    <var name="v_01d4_0468" size="4" view="hex"/>
+    <var name="v_01d5_0469" size="4" view="hex"/>
+    <var name="v_01d6_0470" size="4" view="hex"/>
+    <var name="v_01d7_0471" size="4" view="hex"/>
+    <var name="v_01d8_0472" size="4" view="hex"/>
+    <var name="v_01d9_0473" size="4" view="hex"/>
+    <var name="v_01da_0474" size="4" view="hex"/>
+    <var name="v_01db_0475" size="4" view="hex"/>
+    <var name="v_01dc_0476" size="4" view="hex"/>
+    <var name="v_01dd_0477" size="4" view="hex"/>
+    <var name="v_01de_0478" size="4" view="hex"/>
+    <var name="v_01df_0479" size="4" view="hex"/>
+    <var name="v_01e0_0480" size="4" view="hex"/>
+    <var name="v_01e1_0481" size="4" view="hex"/>
+    <var name="v_01e2_0482" size="4" view="hex"/>
+    <var name="v_01e3_0483" size="4" view="hex"/>
+    <var name="v_01e4_0484" size="4" view="hex"/>
+    <var name="v_01e5_0485" size="4" view="hex"/>
+    <var name="v_01e6_0486" size="4" view="hex"/>
+    <var name="v_01e7_0487" size="4" view="hex"/>
+    <var name="v_01e8_0488" size="4" view="hex"/>
+    <var name="v_01e9_0489" size="4" view="hex"/>
+    <var name="v_01ea_0490" size="4" view="hex"/>
+    <var name="v_01eb_0491" size="4" view="hex"/>
+    <var name="v_01ec_0492" size="4" view="hex"/>
+    <var name="v_01ed_0493" size="4" view="hex"/>
+    <var name="v_01ee_0494" size="4" view="hex"/>
+    <var name="v_01ef_0495" size="4" view="hex"/>
+    <var name="v_01f0_0496" size="4" view="hex"/>
+    <var name="v_01f1_0497" size="4" view="hex"/>
+    <var name="v_01f2_0498" size="4" view="hex"/>
+    <var name="v_01f3_0499" size="4" view="hex"/>
+    <var name="v_01f4_0500" size="4" view="hex"/>
+    <var name="v_01f5_0501" size="4" view="hex"/>
+    <var name="v_01f6_0502" size="4" view="hex"/>
+    <var name="v_01f7_0503" size="4" view="hex"/>
+    <var name="v_01f8_0504" size="4" view="hex"/>
+    <var name="v_01f9_0505" size="4" view="hex"/>
+    <var name="v_01fa_0506" size="4" view="hex"/>
+    <var name="v_01fb_0507" size="4" view="hex"/>
+    <var name="v_01fc_0508" size="4" view="hex"/>
+    <var name="v_01fd_0509" size="4" view="hex"/>
+    <var name="v_01fe_0510" size="4" view="hex"/>
+    <var name="v_01ff_0511" size="4" view="hex"/>
+</mem>
+
+
+<mem dev="k7" name="调试数据块（400Bytes）" target="0x10" addr="0x1800" size="400">
+    <var name="v_0000_0" size="4" view="hex"/>
+    <var name="v_0001_1" size="4" view="hex"/>
+    <var name="v_0002_2" size="4" view="hex"/>
+    <var name="v_0003_3" size="4" view="hex"/>
+    <var name="v_0004_4" size="4" view="hex"/>
+    <var name="v_0005_5" size="4" view="hex"/>
+    <var name="v_0006_6" size="4" view="hex"/>
+    <var name="v_0007_7" size="4" view="hex"/>
+    <var name="v_0008_8" size="4" view="hex"/>
+    <var name="v_0009_9" size="4" view="hex"/>
+    <var name="v_000a_10" size="4" view="hex"/>
+    <var name="v_000b_11" size="4" view="hex"/>
+    <var name="v_000c_12" size="4" view="hex"/>
+    <var name="v_000d_13" size="4" view="hex"/>
+    <var name="v_000e_14" size="4" view="hex"/>
+    <var name="v_000f_15" size="4" view="hex"/>
+    <var name="v_0010_16" size="4" view="hex"/>
+    <var name="v_0011_17" size="4" view="hex"/>
+    <var name="v_0012_18" size="4" view="hex"/>
+    <var name="v_0013_19" size="4" view="hex"/>
+    <var name="v_0014_20" size="4" view="hex"/>
+    <var name="v_0015_21" size="4" view="hex"/>
+    <var name="v_0016_22" size="4" view="hex"/>
+    <var name="v_0017_23" size="4" view="hex"/>
+    <var name="v_0018_24" size="4" view="hex"/>
+    <var name="v_0019_25" size="4" view="hex"/>
+    <var name="v_001a_26" size="4" view="hex"/>
+    <var name="v_001b_27" size="4" view="hex"/>
+    <var name="v_001c_28" size="4" view="hex"/>
+    <var name="v_001d_29" size="4" view="hex"/>
+    <var name="v_001e_30" size="4" view="hex"/>
+    <var name="v_001f_31" size="4" view="hex"/>
+    <var name="v_0020_32" size="4" view="hex"/>
+    <var name="v_0021_33" size="4" view="hex"/>
+    <var name="v_0022_34" size="4" view="hex"/>
+    <var name="v_0023_35" size="4" view="hex"/>
+    <var name="v_0024_36" size="4" view="hex"/>
+    <var name="v_0025_37" size="4" view="hex"/>
+    <var name="v_0026_38" size="4" view="hex"/>
+    <var name="v_0027_39" size="4" view="hex"/>
+    <var name="v_0028_40" size="4" view="hex"/>
+    <var name="v_0029_41" size="4" view="hex"/>
+    <var name="v_002a_42" size="4" view="hex"/>
+    <var name="v_002b_43" size="4" view="hex"/>
+    <var name="v_002c_44" size="4" view="hex"/>
+    <var name="v_002d_45" size="4" view="hex"/>
+    <var name="v_002e_46" size="4" view="hex"/>
+    <var name="v_002f_47" size="4" view="hex"/>
+    <var name="v_0030_48" size="4" view="hex"/>
+    <var name="v_0031_49" size="4" view="hex"/>
+    <var name="v_0032_50" size="4" view="hex"/>
+    <var name="v_0033_51" size="4" view="hex"/>
+    <var name="v_0034_52" size="4" view="hex"/>
+    <var name="v_0035_53" size="4" view="hex"/>
+    <var name="v_0036_54" size="4" view="hex"/>
+    <var name="v_0037_55" size="4" view="hex"/>
+    <var name="v_0038_56" size="4" view="hex"/>
+    <var name="v_0039_57" size="4" view="hex"/>
+    <var name="v_003a_58" size="4" view="hex"/>
+    <var name="v_003b_59" size="4" view="hex"/>
+    <var name="v_003c_60" size="4" view="hex"/>
+    <var name="v_003d_61" size="4" view="hex"/>
+    <var name="v_003e_62" size="4" view="hex"/>
+    <var name="v_003f_63" size="4" view="hex"/>
+    <var name="v_0040_64" size="4" view="hex"/>
+    <var name="v_0041_65" size="4" view="hex"/>
+    <var name="v_0042_66" size="4" view="hex"/>
+    <var name="v_0043_67" size="4" view="hex"/>
+    <var name="v_0044_68" size="4" view="hex"/>
+    <var name="v_0045_69" size="4" view="hex"/>
+    <var name="v_0046_70" size="4" view="hex"/>
+    <var name="v_0047_71" size="4" view="hex"/>
+    <var name="v_0048_72" size="4" view="hex"/>
+    <var name="v_0049_73" size="4" view="hex"/>
+    <var name="v_004a_74" size="4" view="hex"/>
+    <var name="v_004b_75" size="4" view="hex"/>
+    <var name="v_004c_76" size="4" view="hex"/>
+    <var name="v_004d_77" size="4" view="hex"/>
+    <var name="v_004e_78" size="4" view="hex"/>
+    <var name="v_004f_79" size="4" view="hex"/>
+    <var name="v_0050_80" size="4" view="hex"/>
+    <var name="v_0051_81" size="4" view="hex"/>
+    <var name="v_0052_82" size="4" view="hex"/>
+    <var name="v_0053_83" size="4" view="hex"/>
+    <var name="v_0054_84" size="4" view="hex"/>
+    <var name="v_0055_85" size="4" view="hex"/>
+    <var name="v_0056_86" size="4" view="hex"/>
+    <var name="v_0057_87" size="4" view="hex"/>
+    <var name="v_0058_88" size="4" view="hex"/>
+    <var name="v_0059_89" size="4" view="hex"/>
+    <var name="v_005a_90" size="4" view="hex"/>
+    <var name="v_005b_91" size="4" view="hex"/>
+    <var name="v_005c_92" size="4" view="hex"/>
+    <var name="v_005d_93" size="4" view="hex"/>
+    <var name="v_005e_94" size="4" view="hex"/>
+    <var name="v_005f_95" size="4" view="hex"/>
+    <var name="v_0060_96" size="4" view="hex"/>
+    <var name="v_0061_97" size="4" view="hex"/>
+    <var name="v_0062_98" size="4" view="hex"/>
+    <var name="v_0063_99" size="4" view="hex"/>
+</mem>
+
+<mem dev="dsp" name="DDR共享内存信息头" addr="0x98000000" size="4096">
+    <var name="内存分区个数" size="4" view="int"/>
+    <var name="pad" size="124"/>
+    
+    <var name="ch0 分区类型唯一标识" size="4"/>
+    <var name="ch0 分区数据存储区在共享内存中的偏移" size="4"/>
+    <var name="pad" size="120"/>
+    <var name="ch0 FIFO深度" size="4"/>
+    <var name="ch0 单一记录大小" size="4"/>
+    <var name="pad" size="120"/>
+    <var name="ch0 写入索引" size="4"/>
+    <var name="pad" size="124"/>
+    <var name="ch0 读出索引" size="4"/>
+    <var name="pad" size="124"/>
+    
+    <var name="ch1 分区类型唯一标识" size="4"/>
+    <var name="ch1 分区数据存储区在共享内存中的偏移" size="4"/>
+    <var name="pad" size="120"/>
+    <var name="ch1 FIFO深度" size="4"/>
+    <var name="ch1 单一记录大小" size="4"/>
+    <var name="pad" size="120"/>
+    <var name="ch1 写入索引" size="4"/>
+    <var name="pad" size="124"/>
+    <var name="ch1 读出索引" size="4"/>
+    <var name="pad" size="124"/>
+
+    <var name="ch2 分区类型唯一标识" size="4"/>
+    <var name="ch2 分区数据存储区在共享内存中的偏移" size="4"/>
+    <var name="pad" size="120"/>
+    <var name="ch2 FIFO深度" size="4"/>
+    <var name="ch2 单一记录大小" size="4"/>
+    <var name="pad" size="120"/>
+    <var name="ch2 写入索引" size="4"/>
+    <var name="pad" size="124"/>
+    <var name="ch2 读出索引" size="4"/>
+    <var name="pad" size="124"/>
+
+    <var name="ch3 分区类型唯一标识" size="4"/>
+    <var name="ch3 分区数据存储区在共享内存中的偏移" size="4"/>
+    <var name="pad" size="120"/>
+    <var name="ch3 FIFO深度" size="4"/>
+    <var name="ch3 单一记录大小" size="4"/>
+    <var name="pad" size="120"/>
+    <var name="ch3 写入索引" size="4"/>
+    <var name="pad" size="124"/>
+    <var name="ch3 读出索引" size="4"/>
+    <var name="pad" size="124"/>
+
+    <var name="ch4 分区类型唯一标识" size="4"/>
+    <var name="ch4 分区数据存储区在共享内存中的偏移" size="4"/>
+    <var name="pad" size="120"/>
+    <var name="ch4 FIFO深度" size="4"/>
+    <var name="ch4 单一记录大小" size="4"/>
+    <var name="pad" size="120"/>
+    <var name="ch4 写入索引" size="4"/>
+    <var name="pad" size="124"/>
+    <var name="ch4 读出索引" size="4"/>
+    <var name="pad" size="124"/>
+
+    <var name="ch5 分区类型唯一标识" size="4"/>
+    <var name="ch5 分区数据存储区在共享内存中的偏移" size="4"/>
+    <var name="pad" size="120"/>
+    <var name="ch5 FIFO深度" size="4"/>
+    <var name="ch5 单一记录大小" size="4"/>
+    <var name="pad" size="120"/>
+    <var name="ch5 写入索引" size="4"/>
+    <var name="pad" size="124"/>
+    <var name="ch5 读出索引" size="4"/>
+    <var name="pad" size="124"/>
+
+    <var name="ch6 分区类型唯一标识" size="4"/>
+    <var name="ch6 分区数据存储区在共享内存中的偏移" size="4"/>
+    <var name="pad" size="120"/>
+    <var name="ch6 FIFO深度" size="4"/>
+    <var name="ch6 单一记录大小" size="4"/>
+    <var name="pad" size="120"/>
+    <var name="ch6 写入索引" size="4"/>
+    <var name="pad" size="124"/>
+    <var name="ch6 读出索引" size="4"/>
+    <var name="pad" size="124"/>
+</mem>
+
+<mem dev="dsp" name="DBG-SHARED" target="0" addr="0x0C080000" size="496" desc="DSP调试寄存器"    >
+    <var name="magic" size="4" view="hex" desc="DSP程序magic"/>
+    <var name="boot_code" size="4" view="hex" desc="boot状态码"/>
+    <var name="app_state" size="4" view="hex" desc="DSP程序状态码"/>
+    <var name="boot_ver" size="4" view="hex" desc="boot版本号"/>
+    <var name="srio_state" size="4" view="hex" desc="SRIO状态码"/>
+    <var name="app_ver" size="4" view="hex" desc="应用版本号"/>
+    <var name="alg_ver" size="4" view="hex" desc="算法版本号"/>
+    <var name="ch_state[16]" size="64" view="hex" desc="通道状态"/>
+    <var name="pad" size="36" view="hex" desc="pad"/>
+    <var name="p_sync_id[0]"  size="4" view="hex" desc="物理通道0同步ID"/>
+    <var name="p_sync_id[1]"  size="4" view="hex" desc="物理通道1同步ID"/>
+    <var name="p_sync_id[2]"  size="4" view="hex" desc="物理通道2同步ID"/>
+    <var name="p_sync_id[3]"  size="4" view="hex" desc="物理通道3同步ID"/>
+    <var name="p_sync_id[4]"  size="4" view="hex" desc="物理通道4同步ID"/>
+    <var name="p_sync_id[5]"  size="4" view="hex" desc="物理通道5同步ID"/>
+    <var name="p_sync_id[6]"  size="4" view="hex" desc="物理通道6同步ID"/>
+    <var name="p_sync_id[7]"  size="4" view="hex" desc="物理通道7同步ID"/>
+    <var name="p_sync_id[8]"  size="4" view="hex" desc="物理通道8同步ID"/>
+    <var name="p_sync_id[9]"  size="4" view="hex" desc="物理通道9同步ID"/>
+    <var name="p_sync_id[10]" size="4" view="hex" desc="物理通道10同步ID"/>
+    <var name="p_sync_id[11]" size="4" view="hex" desc="物理通道11同步ID"/>
+    <var name="p_sync_id[12]" size="4" view="hex" desc="物理通道12同步ID"/>
+    <var name="p_sync_id[13]" size="4" view="hex" desc="物理通道13同步ID"/>
+    <var name="p_sync_id[14]" size="4" view="hex" desc="物理通道14同步ID"/>
+    <var name="p_sync_id[15]" size="4" view="hex" desc="物理通道15同步ID"/>
+    <var name="v_sync_id[0]"  size="4" view="hex" desc="虚拟通道0同步ID"/>
+    <var name="v_sync_id[1]"  size="4" view="hex" desc="虚拟通道1同步ID"/>
+    <var name="v_sync_id[2]"  size="4" view="hex" desc="虚拟通道2同步ID"/>
+    <var name="v_sync_id[3]"  size="4" view="hex" desc="虚拟通道3同步ID"/>
+    <var name="v_sync_id[4]"  size="4" view="hex" desc="虚拟通道4同步ID"/>
+    <var name="v_sync_id[5]"  size="4" view="hex" desc="虚拟通道5同步ID"/>
+    <var name="v_sync_id[6]"  size="4" view="hex" desc="虚拟通道6同步ID"/>
+    <var name="v_sync_id[7]"  size="4" view="hex" desc="虚拟通道7同步ID"/>
+    <var name="v_sync_id[8]"  size="4" view="hex" desc="虚拟通道8同步ID"/>
+    <var name="v_sync_id[9]"  size="4" view="hex" desc="虚拟通道9同步ID"/>
+    <var name="v_sync_id[10]" size="4" view="hex" desc="虚拟通道10同步ID"/>
+    <var name="v_sync_id[11]" size="4" view="hex" desc="虚拟通道11同步ID"/>
+    <var name="v_sync_id[12]" size="4" view="hex" desc="虚拟通道12同步ID"/>
+    <var name="v_sync_id[13]" size="4" view="hex" desc="虚拟通道13同步ID"/>
+    <var name="v_sync_id[14]" size="4" view="hex" desc="虚拟通道14同步ID"/>
+    <var name="v_sync_id[15]" size="4" view="hex" desc="虚拟通道15同步ID"/>
+    <var name="ch_mod[32]" size="128" view="hex" desc="物理通道的工作模式"/>
+    <var name="file_id" size="4" view="hex" desc="debug文件ID"/>
+    <var name="line_num" size="4" view="signed" desc="debug行号"/>
+    <var name="DoorBellCount" size="4" view="unsigned" desc="收到Doorbell计数"/>
+    <var name="AddrRespondCount" size="4" view="unsigned" desc="返回地址计数"/>
+    <var name="dma_start_count" size="32" view="signed" desc="dma开始计数"/>
+    <var name="dma_done_count" size="32" view="signed" desc="dma完成计数"/>
+    <var name="Core0Count" size="4" view="hex" desc="Core0运行计数"/>
+    <var name="Core1Count" size="4" view="hex" desc="Core1运行计数"/>
+    <var name="Core0ClockH" size="4" view="hex" desc="Core0的clockH"/>
+    <var name="Core0ClockL" size="4" view="hex" desc="Core0的clockL"/>
+    <var name="Core1ClockH" size="4" view="hex" desc="Core1的clockH"/>
+    <var name="Core1ClockL" size="4" view="hex" desc="Core1的clockL"/>
+    <var name="Core0CpuLoad" size="4" view="unsigned" desc="Core0的cpu使用率"/>
+    <var name="Core1CpuLoad" size="4" view="unsigned" desc="Core1的cpu使用率"/>
+</mem>
+
+<mem dev="dsp" name="SHARED_HDR" target="0" addr="0xC0000100" size="208" desc="共享内存分区信息头"    >
+    <var name="TOTAL" size="4" view="unsigned" desc="当前记录总大小"/>
+    <var name="SYNCID" size="4" view="unsigned" desc="同步ID"/>
+    <var name="UNIT_N" size="4" view="unsigned" desc="数据单元个数"/>
+    <var name="ITEM_N0" size="4" view="unsigned" desc="数据项个数"/>
+    <var name="TYPE0" size="4" view="unsigned" desc="数据类型"/>
+    <var name="OFFSET0" size="4" view="unsigned" desc="首个数据项在DDR中偏移"/>
+    <var name="ITEM_N1" size="4" view="unsigned" desc="数据项个数"/>
+    <var name="TYPE1" size="4" view="unsigned" desc="数据类型"/>
+    <var name="OFFSET1" size="4" view="unsigned" desc="首个数据项在DDR中偏移"/>
+    <var name="ITEM_N2" size="4" view="unsigned" desc="数据项个数"/>
+    <var name="TYPE2" size="4" view="unsigned" desc="数据类型"/>
+    <var name="OFFSET2" size="4" view="unsigned" desc="首个数据项在DDR中偏移"/>
+    <var name="ITEM_N3" size="4" view="unsigned" desc="数据项个数"/>
+    <var name="TYPE2" size="4" view="unsigned" desc="数据类型"/>
+    <var name="OFFSET2" size="4" view="unsigned" desc="首个数据项在DDR中偏移"/>
+</mem>
+
+<mem dev="dsp" name="FGPG-DATA" target="0" addr="0xC0000100" size="144" desc="FPGA原始数据"    >
+    <var name="ADC_POINTs" size="4" view="unsigned" desc="ADC采样点数"/>
+    <var name="SMP_RATE" size="4" view="unsigned" desc="采样率"/>
+    <var name="Urms" size="4" view="float" desc="电压真有效值"/>
+    <var name="Umn" size="4" view="float" desc="电压校正到有效值的整流平均值"/>
+    <var name="Udc" size="4" view="float" desc="电压简单平均值"/>
+    <var name="Urmn" size="4" view="float" desc="电压整流平均值"/>
+    <var name="Irms" size="4" view="float" desc="电流真有效值"/>
+    <var name="Imn" size="4" view="float" desc="电流校正到有效值的整流平均值"/>
+    <var name="Idc" size="4" view="float" desc="电流简单平均值"/>
+    <var name="Irmn" size="4" view="float" desc="电流整流平均值"/>
+    <var name="P" size="4" view="float" desc="有功功率"/>
+    <var name="PpkP" size="4" view="float" desc="功率测量区间内最大值"/>
+    <var name="Sum_UI" size="4" view="float" desc="U*I的和，用于计算 Eff_MPPT_S 和 Eff_MPPT_D"/>
+    <var name="Sync_Tu" size="4" view="unsigned" desc="电压T"/>
+    <var name="Sync_Nu" size="4" view="unsigned" desc="电压N"/>
+    <var name="Sync_Ti" size="4" view="unsigned" desc="电流T"/>
+    <var name="Sync_Ni" size="4" view="unsigned" desc="电流N"/>
+    <var name="Ref_sync_T" size="4" view="unsigned" desc="参考同步源T"/>
+    <var name="Ref_sync_N" size="4" view="unsigned" desc="参考同步源N"/>
+    <var name="UpkP" size="4" view="float" desc="电压测量区间内最大值"/>
+    <var name="UpkN" size="4" view="float" desc="电压测量区间内最小值"/>
+    <var name="IpkP" size="4" view="float" desc="电流测量区间内最大值"/>
+    <var name="IpkN" size="4" view="float" desc="电流测量区间内最小值"/>
+    <var name="Integ_Mark" size="4" view="unsigned" desc="积分标记"/>
+    <var name="WP_F" size="4" view="float" desc="WP+"/>
+    <var name="WP_N" size="4" view="float" desc="WP-"/>
+    <var name="q_F" size="4" view="float" desc="q+"/>
+    <var name="q_N" size="4" view="float" desc="q-"/>
+    <var name="Udt" size="4" view="unsigned" desc="用于计算电压Q的正负的s的临时变量"/>
+    <var name="Idt" size="4" view="unsigned" desc="用于计算电流Q的正负的s的临时变量"/>
+    <var name="BaseCycCount" size="4" view="unsigned" desc="基波周期数"/>
+    <var name="SampData" size="512" view="Hex" desc="前128个采样点数据"/>
+</mem>
+
+<mem dev="dsp" name="Exception" target="0" addr="0x0C0FE000" size="4096" desc="DSP异常信息"    >
+    <var name="EFR"   size="4" view="hex" desc="EFR"   />
+    <var name="NRP"   size="4" view="hex" desc="NRP"   />
+    <var name="NTSR"  size="4" view="hex" desc="NTSR"  />
+    <var name="IERR"  size="4" view="hex" desc="IERR"  />
+    <var name="ILC"   size="4" view="hex" desc="ILC"   />
+    <var name="RILC"  size="4" view="hex" desc="RILC"  />
+    <var name="AMR"   size="4" view="hex" desc="AMR"   />
+    <var name="SSR"   size="4" view="hex" desc="SSR"   />
+    <var name="IRP"   size="4" view="hex" desc="IRP"   />
+    <var name="NRP"   size="4" view="hex" desc="NRP"   />
+    <var name="ITSR"  size="4" view="hex" desc="ITSR"  />
+    <var name="NTSR"  size="4" view="hex" desc="NTSR"  />
+    <var name="EFR"   size="4" view="hex" desc="EFR"   />
+    <var name="IERR"  size="4" view="hex" desc="IERR"  />
+    <var name="B30"   size="4" view="hex" desc="B30"   />
+    <var name="B31"   size="4" view="hex" desc="B31"   />
+    <var name="B28"   size="4" view="hex" desc="B28"   />
+    <var name="B29"   size="4" view="hex" desc="B29"   />
+    <var name="B26"   size="4" view="hex" desc="B26"   />
+    <var name="B27"   size="4" view="hex" desc="B27"   />
+    <var name="B24"   size="4" view="hex" desc="B24"   />
+    <var name="B25"   size="4" view="hex" desc="B25"   />
+    <var name="B22"   size="4" view="hex" desc="B22"   />
+    <var name="B23"   size="4" view="hex" desc="B23"   />
+    <var name="B20"   size="4" view="hex" desc="B20"   />
+    <var name="B21"   size="4" view="hex" desc="B21"   />
+    <var name="B18"   size="4" view="hex" desc="B18"   />
+    <var name="B19"   size="4" view="hex" desc="B19"   />
+    <var name="B16"   size="4" view="hex" desc="B16"   />
+    <var name="B17"   size="4" view="hex" desc="B17"   />
+    <var name="B14"   size="4" view="hex" desc="B14"   />
+    <var name="B15"   size="4" view="hex" desc="B15"   />
+    <var name="B12"   size="4" view="hex" desc="B12"   />
+    <var name="B13"   size="4" view="hex" desc="B13"   />
+    <var name="B10"   size="4" view="hex" desc="B10"   />
+    <var name="B11"   size="4" view="hex" desc="B11"   />
+    <var name="B8"    size="4" view="hex" desc="B8"    />
+    <var name="B9"    size="4" view="hex" desc="B9"    />
+    <var name="B6"    size="4" view="hex" desc="B6"    />
+    <var name="B7"    size="4" view="hex" desc="B7"    />
+    <var name="B4"    size="4" view="hex" desc="B4"    />
+    <var name="B5"    size="4" view="hex" desc="B5"    />
+    <var name="B2"    size="4" view="hex" desc="B2"    />
+    <var name="B3"    size="4" view="hex" desc="B3"    />
+    <var name="B0"    size="4" view="hex" desc="B0"    />
+    <var name="B1"    size="4" view="hex" desc="B1"    />
+    <var name="A30"   size="4" view="hex" desc="A30"   />
+    <var name="A31"   size="4" view="hex" desc="A31"   />
+    <var name="A28"   size="4" view="hex" desc="A28"   />
+    <var name="A29"   size="4" view="hex" desc="A29"   />
+    <var name="A26"   size="4" view="hex" desc="A26"   />
+    <var name="A27"   size="4" view="hex" desc="A27"   />
+    <var name="A24"   size="4" view="hex" desc="A24"   />
+    <var name="A25"   size="4" view="hex" desc="A25"   />
+    <var name="A22"   size="4" view="hex" desc="A22"   />
+    <var name="A23"   size="4" view="hex" desc="A23"   />
+    <var name="A20"   size="4" view="hex" desc="A20"   />
+    <var name="A21"   size="4" view="hex" desc="A21"   />
+    <var name="A18"   size="4" view="hex" desc="A18"   />
+    <var name="A19"   size="4" view="hex" desc="A19"   />
+    <var name="A16"   size="4" view="hex" desc="A16"   />
+    <var name="A17"   size="4" view="hex" desc="A17"   />
+    <var name="A14"   size="4" view="hex" desc="A14"   />
+    <var name="A15"   size="4" view="hex" desc="A15"   />
+    <var name="A12"   size="4" view="hex" desc="A12"   />
+    <var name="A13"   size="4" view="hex" desc="A13"   />
+    <var name="A10"   size="4" view="hex" desc="A10"   />
+    <var name="A11"   size="4" view="hex" desc="A11"   />
+    <var name="A8"    size="4" view="hex" desc="A8"    />
+    <var name="A9"    size="4" view="hex" desc="A9"    />
+    <var name="A6"    size="4" view="hex" desc="A6"    />
+    <var name="A7"    size="4" view="hex" desc="A7"    />
+    <var name="A4"    size="4" view="hex" desc="A4"    />
+    <var name="A5"    size="4" view="hex" desc="A5"    />
+    <var name="A2"    size="4" view="hex" desc="A2"    />
+    <var name="A3"    size="4" view="hex" desc="A3"    />
+    <var name="A0"    size="4" view="hex" desc="A0"    />
+    <var name="A1"    size="4" view="hex" desc="A1"    />
+    <var name="pad"    size="1736" view="hex" desc="pad"    />
+    <var name="EFR"   size="4" view="hex" desc="EFR"   />
+    <var name="NRP"   size="4" view="hex" desc="NRP"   />
+    <var name="NTSR"  size="4" view="hex" desc="NTSR"  />
+    <var name="IERR"  size="4" view="hex" desc="IERR"  />
+    <var name="ILC"   size="4" view="hex" desc="ILC"   />
+    <var name="RILC"  size="4" view="hex" desc="RILC"  />
+    <var name="AMR"   size="4" view="hex" desc="AMR"   />
+    <var name="SSR"   size="4" view="hex" desc="SSR"   />
+    <var name="IRP"   size="4" view="hex" desc="IRP"   />
+    <var name="NRP"   size="4" view="hex" desc="NRP"   />
+    <var name="ITSR"  size="4" view="hex" desc="ITSR"  />
+    <var name="NTSR"  size="4" view="hex" desc="NTSR"  />
+    <var name="EFR"   size="4" view="hex" desc="EFR"   />
+    <var name="IERR"  size="4" view="hex" desc="IERR"  />
+    <var name="B30"   size="4" view="hex" desc="B30"   />
+    <var name="B31"   size="4" view="hex" desc="B31"   />
+    <var name="B28"   size="4" view="hex" desc="B28"   />
+    <var name="B29"   size="4" view="hex" desc="B29"   />
+    <var name="B26"   size="4" view="hex" desc="B26"   />
+    <var name="B27"   size="4" view="hex" desc="B27"   />
+    <var name="B24"   size="4" view="hex" desc="B24"   />
+    <var name="B25"   size="4" view="hex" desc="B25"   />
+    <var name="B22"   size="4" view="hex" desc="B22"   />
+    <var name="B23"   size="4" view="hex" desc="B23"   />
+    <var name="B20"   size="4" view="hex" desc="B20"   />
+    <var name="B21"   size="4" view="hex" desc="B21"   />
+    <var name="B18"   size="4" view="hex" desc="B18"   />
+    <var name="B19"   size="4" view="hex" desc="B19"   />
+    <var name="B16"   size="4" view="hex" desc="B16"   />
+    <var name="B17"   size="4" view="hex" desc="B17"   />
+    <var name="B14"   size="4" view="hex" desc="B14"   />
+    <var name="B15"   size="4" view="hex" desc="B15"   />
+    <var name="B12"   size="4" view="hex" desc="B12"   />
+    <var name="B13"   size="4" view="hex" desc="B13"   />
+    <var name="B10"   size="4" view="hex" desc="B10"   />
+    <var name="B11"   size="4" view="hex" desc="B11"   />
+    <var name="B8"    size="4" view="hex" desc="B8"    />
+    <var name="B9"    size="4" view="hex" desc="B9"    />
+    <var name="B6"    size="4" view="hex" desc="B6"    />
+    <var name="B7"    size="4" view="hex" desc="B7"    />
+    <var name="B4"    size="4" view="hex" desc="B4"    />
+    <var name="B5"    size="4" view="hex" desc="B5"    />
+    <var name="B2"    size="4" view="hex" desc="B2"    />
+    <var name="B3"    size="4" view="hex" desc="B3"    />
+    <var name="B0"    size="4" view="hex" desc="B0"    />
+    <var name="B1"    size="4" view="hex" desc="B1"    />
+    <var name="A30"   size="4" view="hex" desc="A30"   />
+    <var name="A31"   size="4" view="hex" desc="A31"   />
+    <var name="A28"   size="4" view="hex" desc="A28"   />
+    <var name="A29"   size="4" view="hex" desc="A29"   />
+    <var name="A26"   size="4" view="hex" desc="A26"   />
+    <var name="A27"   size="4" view="hex" desc="A27"   />
+    <var name="A24"   size="4" view="hex" desc="A24"   />
+    <var name="A25"   size="4" view="hex" desc="A25"   />
+    <var name="A22"   size="4" view="hex" desc="A22"   />
+    <var name="A23"   size="4" view="hex" desc="A23"   />
+    <var name="A20"   size="4" view="hex" desc="A20"   />
+    <var name="A21"   size="4" view="hex" desc="A21"   />
+    <var name="A18"   size="4" view="hex" desc="A18"   />
+    <var name="A19"   size="4" view="hex" desc="A19"   />
+    <var name="A16"   size="4" view="hex" desc="A16"   />
+    <var name="A17"   size="4" view="hex" desc="A17"   />
+    <var name="A14"   size="4" view="hex" desc="A14"   />
+    <var name="A15"   size="4" view="hex" desc="A15"   />
+    <var name="A12"   size="4" view="hex" desc="A12"   />
+    <var name="A13"   size="4" view="hex" desc="A13"   />
+    <var name="A10"   size="4" view="hex" desc="A10"   />
+    <var name="A11"   size="4" view="hex" desc="A11"   />
+    <var name="A8"    size="4" view="hex" desc="A8"    />
+    <var name="A9"    size="4" view="hex" desc="A9"    />
+    <var name="A6"    size="4" view="hex" desc="A6"    />
+    <var name="A7"    size="4" view="hex" desc="A7"    />
+    <var name="A4"    size="4" view="hex" desc="A4"    />
+    <var name="A5"    size="4" view="hex" desc="A5"    />
+    <var name="A2"    size="4" view="hex" desc="A2"    />
+    <var name="A3"    size="4" view="hex" desc="A3"    />
+    <var name="A0"    size="4" view="hex" desc="A0"    />
+    <var name="A1"    size="4" view="hex" desc="A1"    />
+</mem>
+
+<mem dev="dsp" name="PCIE-2" target="0" addr="0x28101000" size="2048" desc="PCIE-2"    >
+    <var name="VENDOR_DEVICE_ID" size="4" view="hex" desc="VENDOR_DEVICE_ID"/>
+    <var name="STATUS_COMMAND" size="4" view="hex" desc="STATUS_COMMAND"/>
+    <var name="CLASSCODE_REVID" size="4" view="hex" desc="CLASSCODE_REVID"/>
+    <var name="BIST_HEADER" size="4" view="hex" desc="BIST_HEADER"/>
+    <var name="BAR[6]" size="24" view="hex" desc="BAR[6]"/>
+    <var name="CARDBUS" size="4" view="hex" desc="CARDBUS"/>
+    <var name="SUBSYS_VNDR_ID" size="4" view="hex" desc="SUBSYS_VNDR_ID"/>
+    <var name="EXPNSN_ROM" size="4" view="hex" desc="EXPNSN_ROM"/>
+    <var name="CAP_PTR" size="4" view="hex" desc="CAP_PTR"/>
+    <var name="RSVD0[4]" size="4" view="hex" desc="RSVD0[4]"/>
+    <var name="INT_PIN" size="4" view="hex" desc="INT_PIN"/>
+    <var name="PMCAP" size="4" view="hex" desc="PMCAP"/>
+    <var name="PM_CTL_STAT" size="4" view="hex" desc="PM_CTL_STAT"/>
+    <var name="RSVD1[8]" size="8" view="hex" desc="RSVD1[8]"/>
+    <var name="MSI_CAP" size="4" view="hex" desc="MSI_CAP"/>
+    <var name="MSI_LOW32" size="4" view="hex" desc="MSI_LOW32"/>
+    <var name="MSI_UP32" size="4" view="hex" desc="MSI_UP32"/>
+    <var name="MSI_DATA" size="4" view="hex" desc="MSI_DATA"/>
+    <var name="RSVD2[16]" size="16" view="hex" desc="RSVD2[16]"/>
+    <var name="PCIES_CAP" size="4" view="hex" desc="PCIES_CAP"/>
+    <var name="DEVICE_CAP" size="4" view="hex" desc="DEVICE_CAP"/>
+    <var name="DEV_STAT_CTRL" size="4" view="hex" desc="DEV_STAT_CTRL"/>
+    <var name="LINK_CAP" size="4" view="hex" desc="LINK_CAP"/>
+    <var name="LINK_STAT_CTRL" size="4" view="hex" desc="LINK_STAT_CTRL"/>
+    <var name="RSVD3[16]" size="16" view="hex" desc="RSVD3[16]"/>
+    <var name="DEV_CAP2" size="4" view="hex" desc="DEV_CAP2"/>
+    <var name="DEV_STAT_CTRL2" size="4" view="hex" desc="DEV_STAT_CTRL2"/>
+    <var name="RSVD4[4]" size="4" view="hex" desc="RSVD4[4]"/>
+    <var name="LINK_CTRL2" size="4" view="hex" desc="LINK_CTRL2"/>
+    <var name="RSVD5[92]" size="92" view="hex" desc="RSVD5[92]"/>
+    <var name="PCIE_EXTCAP" size="4" view="hex" desc="PCIE_EXTCAP"/>
+    <var name="PCIE_UNCERR" size="4" view="hex" desc="PCIE_UNCERR"/>
+    <var name="PCIE_UNCERR_MASK" size="4" view="hex" desc="PCIE_UNCERR_MASK"/>
+    <var name="PCIE_UNCERR_SVRTY" size="4" view="hex" desc="PCIE_UNCERR_SVRTY"/>
+    <var name="PCIE_CERR" size="4" view="hex" desc="PCIE_CERR"/>
+    <var name="PCIE_CERR_MASK" size="4" view="hex" desc="PCIE_CERR_MASK"/>
+    <var name="PCIE_ACCR" size="4" view="hex" desc="PCIE_ACCR"/>
+    <var name="HDR_LOG[4]" size="16" view="hex" desc="HDR_LOG[4]"/>
+    <var name="RC_ERR_CMD" size="4" view="hex" desc="RC_ERR_CMD"/>
+    <var name="RC_ERR_ST" size="4" view="hex" desc="RC_ERR_ST"/>
+    <var name="ERR_SRC_ID" size="4" view="hex" desc="ERR_SRC_ID"/>
+    <var name="RSVD6[1480]" size="1480" view="hex" desc="RSVD6[1480]"/>
+    <var name="PL_ACKTIMER" size="4" view="hex" desc="PL_ACKTIMER"/>
+    <var name="PL_OMSG" size="4" view="hex" desc="PL_OMSG"/>
+    <var name="PL_FORCE_LINK" size="4" view="hex" desc="PL_FORCE_LINK"/>
+    <var name="ACK_FREQ" size="4" view="hex" desc="ACK_FREQ"/>
+    <var name="PL_LINK_CTRL" size="4" view="hex" desc="PL_LINK_CTRL"/>
+    <var name="LANE_SKEW" size="4" view="hex" desc="LANE_SKEW"/>
+    <var name="SYM_NUM" size="4" view="hex" desc="SYM_NUM"/>
+    <var name="SYMTIMER_FLTMASK" size="4" view="hex" desc="SYMTIMER_FLTMASK"/>
+    <var name="FLT_MASK2" size="4" view="hex" desc="FLT_MASK2"/>
+    <var name="RSVD7[4]" size="4" view="hex" desc="RSVD7[4]"/>
+    <var name="DEBUG0" size="4" view="hex" desc="DEBUG0"/>
+    <var name="DEBUG1" size="4" view="hex" desc="DEBUG1"/>
+    <var name="RSVD8[220]" size="220" view="hex" desc="RSVD8[220]"/>
+    <var name="PL_GEN2" size="4" view="hex" desc="PL_GEN2"/>
+</mem>
+
+
+
+
+
+
+<!--
+
+命令举例：
+<mem dev="k7" name="DDR" target="0" addr="0x00000000" size="64" desc="K7外部DDR">
+    <var name="???" size="4" view="int" desc="???"/>
+</mem>
+
+设备内存描述：
+
+    mem.dev（必选）
+        该内存块的所属设备。有效值为："k7", "45t", "dsp"。
+        
+    mem.name（必选）
+        该内存块名称，不可重复定义。
+        
+    mem.target(可选，默认为"0")
+        该内存块所在目标地址空间。
+        针对K7
+            "0" - DDR地址空间
+            "1" - 软核地址空间
+            "0x10" ~ "0x15" - PCIE_BAR_0~5 地址空间
+        针对45T
+            未定义
+        针对DSP
+            默认支持访问DSP任意地址空间，无需设置
+            
+    mem.addr（可选，默认为"0"）
+        该内存块在特定地址空间中的编址
+        
+    mem.size（可选，默认为"4"）
+        该内存块总大小，必需为4的倍数
+        
+    mem.desc（可选）
+        该内存块的详细描述
+        
+    var.name（必选，命名允许重复）
+        内存块中某一区域名称，当名称为"pad"时，该区域为填充用，不作显示。
+        
+    var.size（必选）
+        该区域大小，可设为任意值，当为"0"时，不作显示。
+        
+    var.view（可选，默认为"hex"）
+        "signed" - 以有符号整数显示
+        "unsigned" - 以无符号整数显示
+        "float" - 以浮点显示
+        "hex" - 以十六进制显示
+
+    var.desc（可选）
+        该区域的详细描述
+
+-->
+
+<cmd dev="k7" name="ADC控制" group="1" cmd="0x1000" len="4" timeout="1000">
+    <cmd_dat>
+        <var name="启动/停止" size="4" desc="1-启动，0-停止"/>
+    </cmd_dat>
+    <ack_dat>
+        <var name="ADC状态" size="4" desc="1-已启动，0-已停止"/>
+    </ack_dat>
+</cmd>
+
+<cmd dev="k7" name="获取板卡基地址" group="1" cmd="0x1000" len="0" timeout="1000">
+    <ack_dat>
+        <var name="ch0_base" size="4" desc="板卡0前端寄存器地址"/>
+        <var name="ch1_base" size="4" desc="板卡0前端寄存器地址"/>
+        <var name="ch2_base" size="4" desc="板卡0前端寄存器地址"/>
+        <var name="ch3_base" size="4" desc="板卡0前端寄存器地址"/>
+        <var name="ch4_base" size="4" desc="板卡0前端寄存器地址"/>
+        <var name="ch5_base" size="4" desc="板卡0前端寄存器地址"/>
+        <var name="ch6_base" size="4" desc="板卡0前端寄存器地址"/>
+    </ack_dat>
+</cmd>
+
+

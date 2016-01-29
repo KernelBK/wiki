@@ -1,0 +1,21 @@
+
+./Include/object.h
+allocated on the heap.
+has a '[[reference.count]]'
+has a 'type' 
+PyObject
+[[PyIntObject]]
+
+[[PyStringObject]]
+[[PyDictObject]]
+[[PyListObject]]
+
+[[PyCodeObject]]
+
+math
+container
+composition
+internal
+
+PyIntObject, PyStringObject, PyListObject, PyDictObject
+

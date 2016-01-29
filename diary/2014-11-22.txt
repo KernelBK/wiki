@@ -1,0 +1,8 @@
+
+昨天测试的两台机器，对前端子卡不停访问，今天没有因为读取前端寄存器而出现卡死的现象。今天集中解决有问题的机器，在一开始读取前端就出现卡死。对axi总线的握手信号进行分析，发现第4槽没有插卡但是blvds的接口会有收到数据，然后数据的rvalid=1造成总线卡死。
+
+加班
+编译错误，重新编译
+
+the slave must wait for both ARVALID and ARREADY to be asserted before it asserts RVALID to indicate that valid data is available.
+write channel need check too.

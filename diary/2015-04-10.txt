@@ -1,0 +1,5 @@
+
+mcard, freq period测量，在dc detect的时候没有调整相应的输出。
+
+mcard, 调试脉冲测频，求扭矩。
+

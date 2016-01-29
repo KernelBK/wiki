@@ -1,0 +1,24 @@
+
+我改变的
+config:
+target/build/linux/sub-systems/bootldr/dualhd.ini
+	这个ini文件在生成uldr.bin时会patch在里面。
+
+uloader:
+target/src/sd/bootldr/comps/uLoader/
+	ddr有更新，加入了新的驱动文件，main的变化也大。
+	还原。
+
+u-boot:
+	还原。
+
+kernel:
+
+standby
+	还原。
+	
+m3_start:
+	还原。
+
+
+

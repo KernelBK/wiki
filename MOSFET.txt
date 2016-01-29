@@ -1,0 +1,6 @@
+
+JEDEC 
+	J-STD20
+	JESD22
+
+Infineon-IPW65R019C7-DS-v02_01-en.pdf

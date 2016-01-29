@@ -1,0 +1,7 @@
+
+c库中malloc实现的演进过程
+
+http://www.ibm.com/developerworks/cn/linux/l-memory/#resources
+
+http://en.wikipedia.org/wiki/C_dynamic_memory_allocation#Implementations
+

@@ -1,0 +1,19 @@
+
+基于linux container
+golang
+
+
+同一个docker配置可以再不同的环境中使用；
+隔离应用 
+
+books
+	James.Turnbull the.docker.book
+
+daoCloud
+tutum
+alaudacloud
+cshpere
+dataman
+
+
+

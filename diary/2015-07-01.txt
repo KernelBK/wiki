@@ -1,0 +1,14 @@
+
+编译加入了axis的lvds接口的k7工程；管脚不能分配到gtp；分配到motor上；
+IODELAY_GROUP 需要设置一个不同的值
+整理card power目录
+
+昨天英斌讲话
+	对得起自己
+	做事的方式
+	公司的平等
+
+	F04DA23AFBA4
+重新虚拟机，虚拟机在复制以后会议snapshot的方式运行；更新的内容不会写入原来的虚拟硬盘；
+
+重新编译mcard，pcard

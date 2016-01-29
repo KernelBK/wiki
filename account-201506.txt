@@ -1,0 +1,69 @@
+
+day  1
+day  2
+	员村四横路烤鱼，90
+day  3
+	水果，14.4
+day  4
+	话费，我，49.25， credit_card
+day  5
+	taobao，不许联想， T恤，207.1， credit_card, 有一件衣服退款
+	周黑鸭，63.8，credit_card
+day  6
+	太阳新天地，超市，24.9，credit_card
+	外婆家，156，credit_card
+day  7
+	taobao, credit_card, 恒源祥，牛仔裤, 192.1
+	McDonalds, 12, credit_card
+	优衣库，睡衣，129， credit_card
+day  8
+	好又多，97.2，credit_card
+	河南烩面，34，credit_card
+	alipay，70,140,350，credit_card, huan同事吃饭代买单
+day  9
+	公交卡，50,50，credit_card
+	豪客来，请客，207
+	alipay, 50
+	alipay, 50
+day 10
+	水果，37.2
+	理发店，标榜，200
+day 11
+day 12
+	便利店，40，还有一单需要退款
+	便利店，43.5
+day 13
+	外婆家，231
+day 14
+	水果，10.2
+day 15
+	便利店，11.5
+	m, 40
+day 16
+day 17
+	麦德龙，裤子，411.17，苹果，credit_card
+day 18
+day 19
+day 20
+	m，40
+day 21
+	外婆家，144
+day 22
+	摩登百货，ONLY裤子，524，huan，credit_card
+	alipay， 100
+	alipay， 100
+	便利店，5.5
+day 23
+day 24
+	m, 40
+day 25
+day 26
+day 27
+	m, 21, credit_card
+day 28
+	28，HM，裤子，50，credit_card， huan
+	江南味道，22，credit_card
+day 29
+	水果，38.5， credit_card
+day 30
+day 31

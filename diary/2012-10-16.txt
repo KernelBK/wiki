@@ -1,0 +1,23 @@
+基于社区的u-boot，合并了全志u-boot的linux android kernel boot
+fastboot没有合并
+
+全志的sd卡流程主要有全志的和网上开源的。
+	主要的区别是对配置的处理过程不一样。
+		全志流程有现成的脚本。
+		开源的只有方法，没有现成的脚本。
+
+----
+
+http://hi.baidu.com/n7611/item/374298f268b4f6cc521c2639
+
+A10 在芯片内置了brom, brom 是不可更改的，当芯片上电时，首先执行 brom, brom 完成基本的初始化以后，检查外部存储例如nand 和 mmc,找到boot0 压缩文件, 从boot0中获得硬件配置信息，继续读取boot1 文件,进行硬件初始化，然后调用名为loader.axf 的elf 格式执行文件，loader.axf 继续调用uboot,然后一切都跟常规的u-boot 启动一致了
+
+启动顺序: brom -> boot0 -> boot1 -> boot.axf -> u-boot -> kernel
+
+brom 在上电初始化时会检测home 键是否按下,如按下，则转到FEL 模式,用于刷写后续的boot0 等等文件
+
+英文原文 http://rhombus-tech.net/allwinner_a10/a10_boot_process/
+
+----
+
+git svn clone svn://172.16.68.158/homelet/android svn_homlet_android

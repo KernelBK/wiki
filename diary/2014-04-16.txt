@@ -1,0 +1,8 @@
+
+综合 约束时序
+	多核
+	多个不同配置一起综合
+	分析每个只模块的resource utilization, map -detail, grep " +++\w"
+增加报告数量 -n 10
+
+

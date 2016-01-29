@@ -1,0 +1,14 @@
+
+http://cnlox.is-programmer.com/posts/37276
+    百度也曾想过开发自己的GFS+MapReduce+BigTable，这个系统叫做Pyramid，其领衔人是王选的高徒阳振坤博士。
+    不用管什么伦理道德奉献回馈的鸟事，但其缺点就是内部的Hadoop和官方的Hadoop会逐渐越走越远，上游的Patch和改进越到后来会越难引进合并。这样做的结果就是和社区分离，用自己一人之力对抗全球智慧，最终只能自讨苦吃5。
+    百度内部的wiki、代码审查，项目管理系统从来也是破破烂烂，没有类似于Facebook phabricator这样的系统。
+
+    http://it.sohu.com/s2012/baiduzhengfeng/
+    http://cnlox.is-programmer.com/posts/34489.html
+    
+    http://www.leafok.com/blog/2012/09/12/%E3%80%8Apyramid%E4%BC%A0%E5%A5%87%E3%80%8B_%E6%8B%9B%E5%85%B5%E4%B9%B0%E9%A9%AC/
+        《The Google File System》，另一篇是《MapReduce: Simplified Data Processing on Large Clusters》。
+
+        百度前端团队有一些开源的项目，参考https://github.com/BaiduF
+        

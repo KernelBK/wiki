@@ -1,0 +1,7 @@
+
+Touchscreen
+http://en.wikipedia.org/wiki/Touchscreen
+
+ctp = capacitive touch panel
+
+

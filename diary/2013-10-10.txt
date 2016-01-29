@@ -1,0 +1,9 @@
+
+? jtag pli simulation mode 
+
+1. ep1c3 demo, jtag控制gpio的简单工程。 work done
+1. 运行了check.tcl, 在console执行写avalon总线命令。
+1. 
+
+1. performance counter
+

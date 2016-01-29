@@ -1,0 +1,7 @@
+[[make]] 
+
+
+error:
+make: `clean' is up to date.
+有同名的目标。 rm clean解决问题。
+

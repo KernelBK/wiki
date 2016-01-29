@@ -1,0 +1,17 @@
+
+git乱码 
+
+allwinner
+	http://www.cnx-software.com/2011/12/28/allwinner-a10a1x-processor-resources-development-board-and-sdk/
+	http://rhombus-tech.net/allwinner_a10/ 国外评估A10方案， 有很多开发指导。
+		https://github.com/amery/sunxi-tools a tool for reversing the "fex" format of the boot-up stage
+		https://github.com/amery/linux-allwinner 
+		https://github.com/amery/uboot-allwinner
+		https://github.com/amery/allwinner-a10-video 
+		
+		https://github.com/cnxsoft/a10-tools
+		https://github.com/cnxsoft/sunxi-tools
+		https://github.com/hno/uboot-allwinner/wiki
+		
+	http://www.wits-tech.com/pages/board.jsp 卓睿世纪是全志科技的经销商
+

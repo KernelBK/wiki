@@ -1,0 +1,8 @@
+
+[[endian]] 
+[[mips]]
+[[arm]]
+
+numa
+qpi ht
+[[存储一致性]]

@@ -1,0 +1,11 @@
+
+./SYDemo 
+/proc/bus/usb: No such file or directory
+Open usb fail!
+/proc/bus/usb: No such file or directory
+Open UDisk fail!
+
+
+Documentation/usb/proc_usb_info.txt
+    mount -t usbfs none /proc/bus/usb
+

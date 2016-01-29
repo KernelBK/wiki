@@ -1,0 +1,4 @@
+
+now=time.strftime('%H%M%S')
+
+

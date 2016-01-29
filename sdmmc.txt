@@ -1,0 +1,9 @@
+
+http://en.wikipedia.org/wiki/Comparison_of_memory_cards
+
+
+JEDEC EMMC 4.5
+	mode
+		boot operation mode
+		device identification mode
+		data transfer mode

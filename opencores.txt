@@ -1,0 +1,4 @@
+
+[[openrisc]]
+or1200
+orsoc

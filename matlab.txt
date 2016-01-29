@@ -1,0 +1,39 @@
+
+3M数学计算语言（Matlab、[[Mathematica]]、[[Maple]]）
+
+sig
+commandhistory
+input
+.* .^
+textread
+figure, plot, subplot
+:
+
+
+matlab -nodesktop -nosplash
+
+2.57089e-07
+
+# c call matlab
+*.m的函数导出的名称前面都有 mlf*， 函数的首字母被大写了。
+
+mex mcc
+mathematica
+maple
+
+# tools
+	hdl coder
+	hdl verifier
+	fdatool
+
+renamed
+
+install
+2012a
+	38699-60149-36808-21840-05491
+
+# error
+
+Error in filter test: Expected xxxxxxxx Actual xxxxxxxx 
+You must determine whether the actual results are expected based on the customizations you specified when generating the filter HDL code
+

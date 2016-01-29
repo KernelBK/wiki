@@ -1,0 +1,4 @@
+
+搭建android git仓库
+
+ND FLASH, SD/MMC 卡启动；支持从 USB 进行刷机。

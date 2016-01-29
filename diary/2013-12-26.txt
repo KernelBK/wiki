@@ -1,0 +1,16 @@
+
+学习remote update ip 的edk环境
+	仿真， elf文件
+
+veri 混合语言的读取
+
+bfm 没有license 工具崩溃
+
+xilinx 验证	
+	microblze 挂ip核进行系统验证。
+
+home
+	下载 xilinx 文档 
+	youtube edk tutorial
+	goagent 
+	dell_old硬盘修复

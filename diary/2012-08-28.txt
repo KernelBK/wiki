@@ -1,0 +1,6 @@
+
+1. 编译hisi android sdk
+
+1. 验证hisi android dvb 
+
+1. 背单词

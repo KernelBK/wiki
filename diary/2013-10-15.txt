@@ -1,0 +1,7 @@
+
+1. 缩减bb2hh的eda虚拟机，分成了有eda工具和没有eda工具的系统。 
+	没有处理原来的分区，
+	和原始的系统做了比较，学些了以写配置。
+
+
+svn ls https://svn/svn_old_instrument/SoC/

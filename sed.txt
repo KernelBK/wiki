@@ -1,0 +1,8 @@
+
+sed可以更改分隔符
+sed -n 's#/home/kodango/good#/home/kodango/bad#p' /tmp/test.txt 
+
+
+删除换行
+sed ':a;N;$!ba;s/\n//g' 
+

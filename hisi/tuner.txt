@@ -1,0 +1,51 @@
+需要确认tuner的配置
+cfg.mak
+	CFG_BOARD_TYPE=hi3716cdmoverb
+	
+sample/tuner/sample_tuner.c
+	hi_tuner_connect // lock frequency
+
+source/msp/ecs/api
+
+source/msp/ecs/drv/tuner_pilot
+	hi_tuner_ioctl
+	tuner_proc_read
+	tuner_proc_read_reg
+
+
+source/msp_base/ecs/drv/tuner_pilot
+	hi_tuner_ioctl
+		tuner_ioctl
+			TUNER_CONNECT_CMD
+			tuner_osr_connect
+
+source/msp_base/ecs/include/hi_unf_ecs.h
+	HI_UNF_TUNER_DEV_TYPE_E
+		HI_UNF_TUNER_DEV_TYPE_TDA18250
+ 
+# debug
+cat /proc/msp/tuner 
+cat /proc/msp/tuner_reg 
+
+ 
+setfreq  403: set freqency(MHz)
+setsymb 6875000: set symbrate
+setqam  64: set qam type , 64 means 64qam etc.
+select 0: select inside tuner or outside
+play 513 660: set video pid 513 and audio pid 660
+getmsc: get mosaic num ,arg type: int time,float berlimit
+settype 0: set tuner type. 
+	 0  cd1616,  1  tdae3,  2  mt2081,  3  tdcc,   4  tmx7070x,   5  tda18250,	6  cd1616_2agc
+getoffset : getfreq getsyb. 
+start  500: lock 500 times --->time_file
+exit    : exit the sample
+
+setfreq 339
+setsymb 6875000
+setqam  64
+select 1
+settype 5
+play 657 658 
+
+play 4369 4370
+ 

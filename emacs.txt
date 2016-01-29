@@ -1,0 +1,24 @@
+
+http://blog.csdn.net/g9yuayon/article/category/278719
+
+http://www.gnu.org/software/emacs/manual/html_node/viper/index.html
+
+
+
+M-gg 跳到一行
+
+C-s C-r 查找
+
+C-h 选择一行 
+C-w 剪切 
+M-w 复制
+C-y 粘贴
+
+C-/    C-_    C-x u  撤销
+
+C-x o 到另一个分栏窗口 
+C-x 1 关闭另一个分栏串口 
+
+C-g 终止操作
+
+http://www.wanglianghome.org/org/programming/emacsbook/emacs.html

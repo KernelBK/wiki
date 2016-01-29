@@ -1,0 +1,54 @@
+
+Prelude
+
+衍生语言 [[bluespec]]
+[[puppet]]
+lava
+
+纯粹函数式程序语言(purely functional programming
+language)
+
+features:
+	跟python一样，用缩进来表示区域范围, 
+    首字母大写的函数是不允许的
+    用:运算符往一个List前端插入元素
+    data表示我们要定义一个新的数据类型。=的左端标明类型的名称即Bool，=的右端就是值构造子（Value Constructor），它们明确了该类型可能的值。
+
+包管理工具 
+	[[HackageDB]]
+
+王垠不推荐
+	类型系统复杂
+
+name from: Haskell Brooks Curry
+
+QuickTest
+concurrency STM
+IO.[[Monad]]
+EclipseFP
+
+books
+	programming.in.haskell
+	learn you a haskell for great good
+	perals of functional algorithm design
+	haskell 99 questions
+	parallel and concurrent programming in haskell
+	haskell 2010 language report
+	the glasgow haskell compiler
+	the implementation of functional programming language
+	lambda-calculus and combinators
+	basic simple type theory
+	types and programming language
+	a history of haskell
+
+link
+    http://www.infoq.com/cn/articles/zhangsong-talk-haskell
+        Haskell中的主要概念其实都是围绕类型展开的
+            Haskell中的值
+            Haskell中的类型
+            Haskell中的类型类
+            Haskell中的类型的kind
+        Haskell里数字类型与数字类型类的关系是相当严谨的，严谨到如果没有一定的理论背景根本不会清楚它背后这么设计的原因
+        Scala的scalaz、JavaScript的Prelude.ls、Ix，基本都是基于Haskell Prelude的
+        用Haskell来编写其他语言的编译器与解释器肯定再合适不过了
+        Haskell核心的API的设计逻辑十分清楚，所以被很多语言争相模仿。无论你用什么语言，在设计API的时候照着Haskell中Functor、Applicative、Monad、Traversable、Foldable这些类型类来实现你的API，最后的逻辑条理都会非常清楚，基本不会看到眼花缭乱的设计模式满天飞，我在看其他语言的API的时候也会找它们在Haskell中的对应。

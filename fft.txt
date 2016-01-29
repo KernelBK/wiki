@@ -1,0 +1,10 @@
+
+dft O(n2)
+fft O(nlogn)
+
+	cooley-tukey: an algorithm for the machine calculation of complex fourier series.
+	将长度为N的DFT分割为两个长度为N/2的子序列的DFT， 基2-fft
+	混合基fft
+
+[[高斯]]
+

@@ -1,0 +1,18 @@
+
+burst 
+ahb HBURST[2:0] : Burst Type
+
+http://forums.arm.com/index.php?/topic/16150-4-kbyte-boundary-space/
+So when you cross a 4K boundary you are potentially going from slave A's address space to slave B's. One burst must go to one slave, and one slave only. Hence... bursts can't cross 4K boundaries.
+
+http://bbs.eetop.cn/viewthread.php?tid=3845&extra=&page=2
+burst must not cross a 1KB address boundary.
+如果跨越边界,必须分成两次burst传输来实现.
+
+split
+
+[[axi4]]
+
+
+[[amba3]]
+[[amba4]]

@@ -1,0 +1,13 @@
+
+[[xcode_hotkey]]
+
+IB, interface builder
+
+4.6.3
+5
+
+Çø±ð
+
+javadoc
+
+[[xcode_new_catagory]]

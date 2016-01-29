@@ -1,0 +1,10 @@
+
+赖永浩
+网络编程不是照猫画虎这么简单
+
+三个例子最值得学习研究，分别是echo、chat、proxy，都是长连接协议。
+我一般会开四个命令行窗口，其一看log，其二看strace，其三用netcat/ tempest/ipython充作通信对方，其四看tcpdump。
+
+muduo是一个基于Reactor模式的Linux C++网络库
+
+

@@ -1,0 +1,6 @@
+
+修改MAC地址和ifconfig命令
+ifconfig eth0 down
+ifconfig eth0 hw ether 00:0C:18:EF:FF:ED
+ifconfig eth0 up
+

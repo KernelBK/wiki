@@ -1,0 +1,26 @@
+
+[[macruby]]
+
+MRI, Matz's Ruby Implementation
+YARV, Yet Another Ruby Virtual machine
+
+Ruby是日本人Yukihiro Matsumoto发明的, Matz
+日语打字
+
+emacs 多字节支持
+
+ruby on rails, 2006火了，带动了语言ruby
+CRuby JRuby IronRuby Xruby
+	JRuby, Java Ruby
+	IronRuby, .NET Ruby
+包管理， RubyGems, gem
+
+
+大杂烩
+	lisp 列表处理
+	smalltalk oo
+	CLU 迭代器
+
+[https://cs.byu.edu/colloquia/2006-10-19 Ruby: History, Philosophy & Application]
+
+

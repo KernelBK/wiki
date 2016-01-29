@@ -1,0 +1,7 @@
+
+[[The.Little.Schemer]] 
+IEEE Standard for the Scheme Programming Language
+Revised Reports on the Algorithmic Language Scheme
+
+Chez Scheme and Petite Chez Scheme 
+

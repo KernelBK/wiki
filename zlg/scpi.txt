@@ -1,0 +1,13 @@
+
+Standard Commands for Programmable Instruments
+
+format
+	syntax command data
+
+physical communications link is not defined by SCPI
+	can be
+		gpib
+		rs-232
+		ethernet 
+		usb 
+		vxibus

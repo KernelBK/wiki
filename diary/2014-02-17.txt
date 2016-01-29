@@ -1,0 +1,16 @@
+
+开会
+	blvds 采用点对点
+	U，I都需要相位校准
+	专门的flash存储校准参数
+	
+	幅频校准参数有化简
+
+coregen 生成需要的模块
+	ddr
+		ug388
+		modelsim仿真错误，-supress 2902解决。
+		验证环境可以综合
+
+xilinx edk compxlib 需要配置XILINX_EDK变量以后进行编译
+

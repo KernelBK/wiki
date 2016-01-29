@@ -1,0 +1,10 @@
+1. 看hisi dvb文档。 //未果
+
+1. hisi demo版上验证 dvb功能
+
+1. 查看参数
+
+----
+算法导论缩写CLRS
+
+由Thomas H. Cormen，Charles E. Leiserson，Ronald L. Rivest，Clifford Stein编写

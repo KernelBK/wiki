@@ -1,0 +1,42 @@
+
+# 全志本地仓库镜像使用方法
+1. 安装repo
+	git clone ssh://git@172.16.55.90/git_repo/homlet/repo.git 
+	cp repo/repo /usr/bin/repo
+	chmod 777 /usr/bin/repo
+
+1. 创建公钥私钥对
+
+1. 下载全志android源码
+	mkdir android
+	cd android
+	repo init -u ssh://git@172.16.55.90/git_repo/homlet/android/manifest.git 
+	repo sync
+	
+
+1. 下载全志lichee源码
+	mkdir lichee 
+	cd lichee 
+	repo init -u ssh://git@172.16.55.90/git_repo/homlet/android/manifest.git -m lichee.xml 
+	repo sync
+
+
+    ----
+    repo init -u ssh://git@172.16.55.154/repo/android4.0/manifest.git
+    repo sync
+    repo start routon_idr410 --all
+
+# 其他说明
+
+1. git 参看当前在那个branch
+	git branch
+
+1. 现在有的branch: 
+	routon-evb
+	routon-h1 
+
+1. 向服务器推送
+	git remote -v
+		会看到 routon	ssh://git@172.16.55.90/git_repo/homlet/android/platform/development.git
+	git push routon routon-evb 
+

@@ -1,0 +1,13 @@
+
+133 A single transfer can never lock the AHB as every slave must be designed to finish a transfer within a predetermined number of cycles. 
+135 Not driving the data bus at the start of NONSEQUENTIAL transfers provides a full phase of turnaround between different data bus drivers. 
+142 Therefore it is important that masters do not attempt to start a fixed-length incrementing burst which would cause this boundary to be crossed. 
+166 The decoder is also responsible for generating an internal version of the LAST signal when the decoder detects that a SEQUENTIAL transfer will cross a memory boundary. 
+180 In fact they must indicate address vector for two cycles, which allows for both the turnaround cycle at the start of the burst and also the turnaround cycle at the end of the burst. 
+209 However, if the arbiter determines that the burst must be terminated early in order to prevent excessive access time to the bus then it may transfer the grant to another bus master before a burst has completed. 
+221 This allows bus masters to indicate that the current transfer should not be separated from the following transfer and will prevent other bus masters from gaining access to the bus until the locked transfers have completed. 
+231 If this happens then it is acceptable for the slave to issue a SPLIT response without recording the appropriate address and control information for the transfer and it is only necessary for the slave to record the bus master number. 
+232 Eventually all masters will be at a low priority and the slave can then work through the requests in an orderly manner, indicating to the arbiter which request it is servicing, thus ensuring that all requests are eventually serviced. 
+103 The reset may be asserted asynchronously, but is deasserted synchronously after the rising edge of HCLK. 
+
+

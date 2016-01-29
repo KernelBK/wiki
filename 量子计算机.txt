@@ -1,0 +1,2 @@
+[[quantum_computer]] 量子计算机
+

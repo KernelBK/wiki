@@ -1,0 +1,9 @@
+
+multiboot
+spiflash
+UG380
+
+上电后FPGA会从FLASH零地址的Header中加载配置命令，在加载这些命令的过程中，获得active和old的地址信息，然后FPGA会加载active开始正常运行。
+假如在加载active的过程中发生了错误（例如active文件不完整造成的错误）并重试两次后依然无效，FPGA将会加载old，返回到可靠的旧版本。
+
+小端格式

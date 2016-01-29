@@ -1,0 +1,38 @@
+bccmd -t BCSP -d /dev/ttyS3 psload -rs psram ./pskey 
+hciattach -n  -s 921600 ttyS3  bcsp  921600&
+hciconfig hci0 up
+hciconfig hci0 piscan
+
+dbus-daemon --config-file=/etc/dbus-1/system.conf 
+
+Longer's Bluetooth Protocol Stack
+main
+	init_uart
+	bcsp_link_establish
+
+
+pskey_write2 ttyS3 /etc/pskey
+start_bt.sh
+hcitool scan
+
+**蓝牙串口含有奇校验。
+
+蓝牙里的波特率设置
+0.004096*baud
+
+蓝牙不停发的串
+c0 40 41 00 7e da dc ed ed a9 7a c0
+
+遥控器链接
+start_bt.sh
+hcitool scan
+hidd --connect BD:11:00:00:00:04
+hidd --killall   //再按遥控器就可以重连。
+
+##写pskey到eeprom
+pskey_write -d /dev/ttyS3 -b 115200 -f pskey.115200 -m 2
+pskey_write -d /dev/ttyS3 -b 38400 -f pskey.38400 -m 2
+
+bccmd -t BCSP -d /dev/ttyS3  psload -rs psram pskey.2764800
+
+hciattach  -n  -s 38400  ttyS3  bcsp  38400 &

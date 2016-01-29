@@ -1,0 +1,4 @@
+apt-get install tofrodos 
+ln -s /usr/bin/todos /usr/bin/unix2dos
+ln -s /usr/bin/fromdos /usr/bin/dos2unix 
+

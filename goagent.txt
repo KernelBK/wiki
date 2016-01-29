@@ -1,0 +1,9 @@
+
+[proxy]
+enable = 1
+host = 172.16.55.51
+port = 808
+username = 
+password = 
+
+

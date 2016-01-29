@@ -1,0 +1,80 @@
+[[python/import]]
+[[python/index]]
+[[python/python源码剖析]]
+python_code
+
+Pythonic
+ctypes 调用C++代码
+[[pip]]
+
+line = '-' * 10
+
+[[metaclass]] 元类
+[[exception.handling]]
+[[deep.copy.shallow.copy]] 浅拷贝 深拷贝 
+tuple 
+reflection type.introspection 反射 自省
+[[decorator]], @ 语法糖，
+[[yield]], 返回生成器，可迭代的对象；
+
+历史
+	早期没有词法作用域，没有动态作用域，只有全局和局部。
+	self, 类无法获得自己的实例。
+	强制的缩进
+
+
+特性
+
+	变量无须事先声明
+	引用计数
+	Python 对像都拥有三个特性：身份，类型和值
+	元类 metaclass, type
+	内建函数, compile, exec, eval, 
+	步进切片， 多维切片，及省略切
+	不支持方法或函数重载
+
+	长整数类型，只受限内存大小
+	连续比较
+	快速生成列表
+	列表切片操作
+	元组可以自动打包和解包，函数可以返回多个值，其实是元组
+	for
+	zip
+	lambda
+	列表解析
+	函数支持缺省参数
+	参数列表和参数字典
+	对象的属性和方法可以动态改变
+	对象类型可以动态改变
+	[[mro]]
+
+缺点：
+	没有抽象类和接口
+	包访问
+
+
+
+- dive.in.to.python
+  - http://woodpecker.org.cn/diveintopython/
+ 
+- python.core
+ 
+要比python学习指南好
+
+batteries included一直是python粉丝对python编程哲学的赞赏
+
+# windows
+基于python2.6的
+	boa 一个wxWidges的集成开发环境
+	wxPython
+
+[[tkinter]]
+
+# fun projects
+	《毛主席语录》的词频统计 https://github.com/imwilsonxu/mao 
+	[[词汇小助手]]
+
+blog
+	keakon.net
+
+[[pep]]

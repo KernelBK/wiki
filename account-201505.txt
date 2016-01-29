@@ -1,0 +1,77 @@
+
+day  1
+	早茶，huan.sister, 272, 被请客
+	诸葛烤鱼，276，huan.sister， 请客
+	买水
+day  2
+	麦当劳，35，credit_card
+	爬山，白云山，南门到西门，买水 9，零食 3.5
+	周黑鸭
+	小飞生煎
+day  3
+	麦当劳，39, credit_card
+day  4
+	充公交卡，100
+	都城面包，7.2
+day  5
+day  6
+day  7
+	McDonalds, 15, credit_card
+day  8
+	屈臣氏，99，credit_card，摸脸
+	alipay，8, credit_card，大众点评
+	alipay，10.5, credit_card，大众点评
+day  9
+	便利店，10.5，credit_card
+day 10
+	超市，百佳，190.5，洗衣液，泡面，洗发水，credit_card
+	正佳，870，眼镜，credit_card, need
+day 11
+day 12
+	alipay，138.8，credit_card，一号店
+	便利店，15.5，credit_card
+day 13
+day 14
+	便利店，13.2，credit_card
+day 15
+	McDonalds，15，credit_card
+day 16
+	McDonalds，9，credit_card
+	McDonalds，15，credit_card
+	看病，huan发烧，217.8，credit_card，华侨医院
+	看病，131.1，credit_card
+day 17
+	McDonalds，20，credit_card
+	alipay，8.8， credit_card，手机支架
+	alipay，45，credit_card，泳裤
+day 18
+	水果，28.8， credit_card
+day 19
+day 20
+	alipay，42，credit_card，huan内花
+	话费，19.7， credit_card
+day 21
+day 22
+day 23
+day 24
+	McDonalds，24，credit_card
+	外卖，20，credit_card，酸辣土豆丝
+day 25
+	还款，1010
+day 26
+	水果，57.2，credit_card
+day 27
+	数风流，129，credit_card
+day 28
+day 29
+	好乐买，匡威鞋，330，credit_card
+	太阳新天地，优衣库，吊带，99，credit_card, huan
+day 30
+	韩都衣舍，165，credit_card，huan
+	话费，29.7，huan bro， credit_card, waste
+	alipay， 49， credit_card，huan女包
+day 31
+	McDonalds， 38，credit_card
+
+
+小荣请客

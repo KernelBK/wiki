@@ -1,0 +1,47 @@
+
+[[NSJSONSerialization]]
+NSUserDefaults
+
+UISegmentedControl
+
+[[UIWebView]]
+
+[[UIView]]
+
+界面间的跳转就是叠起来的UIView
+	UINavigationController
+		pushViewController
+		presentModelViewController
+
+	addSubview
+	bringSubviewToFront
+
+[[nib]]
+UIViewController
+	viewDidLoad
+	addSubview
+	addChildViewController
+
+
+ViewController
+
+UINavigationController
+[[segue]]
+	push
+	UIStoryboardSegue
+
+Object library
+
+
+main.m
+	UIApplicationMain
+
+[[arc]]
+[[storyboard]]
+
+[[objective-c]]
+Every great iOS app starts with a great idea
+
+
+gcd grand central dispatch, 并发编程
+	类似 NSOperationQueue

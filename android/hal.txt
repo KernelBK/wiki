@@ -1,0 +1,4 @@
+
+http://blog.csdn.net/hongtao_liu/article/details/6060734
+	目前存在两种HAL架构，位于libhardware_legacy目录下的“旧HAL架构”和位于libhardware目录下的“新HAL架构”。
+	HAL stub 是一种代理人（proxy）的概念

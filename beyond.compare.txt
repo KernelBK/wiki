@@ -1,0 +1,14 @@
+
+可以通过过滤器移动文件
+*.rar;*.zip;*.7z;*.bz2;*.gz;*.tar;*.tgz;*.iso;*.xz
+*.rar;*.zip;*.7z;*.bz2;*.gz;*.tar;*.tgz;*.iso;*.xz;*.chm;*.msi;*.pdf;*.doc;*.xls;*.ps
+
+file:///d:\tools\BeyondCompare\BComp.exe
+
+Beyond Compare应用程序发生错误的解决方法 http://blog.csdn.net/armeasy/article/details/7017702
+
+WinXP:C:\Documents and Settings\[用户名]\Application Data\Scooter Software\Beyond Compare 3
+Win 7 :C:\Users\Administrator.WIN-LMPOOFM31GQ\AppData\Roaming\Scooter Software\Beyond Compare 3
+ 
+将此文件夹下的文件全部删除即可解决问题。
+	

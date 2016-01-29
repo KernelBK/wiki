@@ -1,0 +1,3 @@
+
+遍历list里面的每一个s-expression，存在不是atom的，返回flase
+

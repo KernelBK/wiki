@@ -1,0 +1,12 @@
+
+
+
+vector 是一个类模板（class template） 
+
+vector<T> v1; vector 保存类型为 T 对象。 默认构造函数 v1 为空。
+vector<T> v2(v1); v2 是 v1 的一个副本。
+vector<T> v3(n, i); v3 包含 n 个值为 i 的元素。
+vector<T> v4(n); v4 含有值初始化的元素的 n 个副本。
+
+vector<vector<int> > ary(row_num, vector<int>(col_num, 0));
+

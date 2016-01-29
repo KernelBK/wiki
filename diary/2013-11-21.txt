@@ -1,0 +1,13 @@
+
+1. 修改了tx_phy，边界条件，0x81, 0xc1出错，有hold信号，没有stuff信号
+rtl/usb_phy_oc/usb_tx_phy.v
+line 211
+-assign         sft_done = !stuff & (bit_cnt == 4'h8);
++assign         sft_done = !hold & (bit_cnt == 4'h8);
+
+1. [[../眼图]]
+1. 笔记本n55s安装不了usb bluster驱动，安装新版本
+1. wget
+1. 安装quartusii 12.0 ， 还是不能安装驱动
+1. 
+

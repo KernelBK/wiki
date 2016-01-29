@@ -1,0 +1,18 @@
+
+[[armv7]]
+[[armv8]]
+
+DAI0235C_migrating_from_mips_to_arm.pdf
+
+虚拟化扩展和大物理地址扩展 (LPAE)
+     TrustZone 
+
+big.LITTLE 处理
+DSP & SIMD
+NEON
+浮点
+Jazelle
+TrustZone
+虚拟化扩展
+参考方法
+[[coresight]]

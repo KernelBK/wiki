@@ -1,0 +1,6 @@
+
+ftp
+183.61.12.211:5577
+wuhuan2013       tvnNsfXeKzHDwi 
+/data/webapps/tool.duowan.com/dota2/
+

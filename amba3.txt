@@ -1,0 +1,6 @@
+
+117 This enables a slave to begin processing data for the second burst in parallel with the completion of the first burst. 124 This indicates that the destination can accept the data or control information in a single cycle as soon as it becomes valid.
+125 It must remain asserted until the slave accepts the address and control information and asserts the associated AWREADY signal. 128 All transactions with a given ID must be ordered, but there is no restriction on the ordering of transactions with different IDs.
+216 In the case of writes the transaction can only be considered complete when the write response is received by the master, it is not acceptable to consider the write transaction complete when all the write data is sent. 
+
+

@@ -1,0 +1,15 @@
+
+测试aurora信号，实验室味道大，波形不正常。
+
+blvds link系统仿真
+	要等待系统复位以后再访问
+	resp=3, axi xbar会有，但valid的时候没有。
+	spi访问需要延迟8000ns
+	加入ad_tx_seq	
+		固定激励
+	ad数据的顺序
+		在axi4stream接口能够发送数据的时候，新的数据已经来了两拍。
+
+cal的bypass控制。
+
+

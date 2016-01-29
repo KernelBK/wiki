@@ -1,0 +1,5 @@
+
+geerate xc6slx45 3c ipcore
+
+serdes
+

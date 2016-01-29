@@ -1,0 +1,4 @@
+
+[http://en.wikipedia.org/wiki/Quantum_computer]
+
+量子计算机

@@ -1,0 +1,199 @@
+FAQ:
+
+Index：
+Perl程序的一般结构：
+常用模块：
+常用函数：
+常用特殊变量：
+常用正则表达式	
+关于perl相关工具程序：
+文件测试
+调试命令
+一句话问答录
+
+Perl程序的一般结构：
+	#!/usr/bin/perl -w
+	use strict;
+	use lib "path";
+	use module_names;
+	require "sourcefile";
+
+	... main code ...
+
+	sub	routine1 {...}
+	sub	routine2 {...}
+	sub	routine3 {...}
+	...
+	1;
+	__END__
+	... pod starts here.
+
+常用模块：
+	use warnings;
+	use diagnostics;	#比warnings更详细的警告，会占用大量内存
+        use strict; 
+	use Benchmark;
+	use Math::BigInt;
+	use Memories;		#空间换时间，记忆已有的调用
+	use Devel;		#测试覆盖率（Coverage子模块）
+				#显示每个子程序的执行时间（DProf子模块）
+				#显示每行的执行时间（SmallProf子模块）
+	use Tie::Watch;		#跟踪变量赋值、访问情况，便于查找数据错误。
+	use File::Find;		#可处理目录递归
+
+常用函数：
+	die/warn
+
+	undef()		清空内容并使之成为undef值
+	defined()	检测是否defined
+
+	push/pop/shift/unshift
+	splice		插入/替换/截取/移除 
+			splice ARRAY, [OFFSET], [LENGTH], [LIST];
+	reverse/sort/join/split/map/grep
+
+	each/keys/values/delete/exists	哈希表操作函数
+	pos()
+
+	open/read/print/binmode/seek/tell/select/close/printf
+	sysopen/sysread/syswrite/fileno/unlink/rename/link/symlink
+	mkdir/rmdir/chdir/opendir/readdir/rewinddir/closedir/glob
+	utime/times/time	改文件时间/进程执行时间/unix时间
+	gmtime/localtime
+	chmod/chown
+	stat/lstat
+	write		#与read不相对应
+	pipe
+
+	fork/exec/system/wait/waitpid
+	eval
+
+	pack/unpack
+
+	vec()		endian order
+
+	chomp		remove trailing $/ only
+	chop		remove the last char
+	chr		number to ascii
+	crypt
+	hex		hex to decimal
+
+	uc/lc/ucfirst/lcfirst	case convert
+	index/rindex
+	substr
+	sprintf
+	abs/cos/exp/int/sin/cos/...
+	rand/srand
+
+	prototype	#查看函数原型，返回到\@@
+	caller
+	ref		#返回引用类型
+
+常用特殊变量：
+	$_
+	@_		存储函数参数，可以用$_[num]访问，是局部变量
+	@ARGV		存储命令行参数，不包括脚本名
+	$0		脚本名
+	$ARGV		存储空钻石操作符代表的文件名
+	$"		列表元素分隔符，默认为空格
+	$` $& $'	pre-match match post-match
+	$$		PID
+	$]		perl版本号+patch level
+	%ENV		环境变量
+	%SIG		捕获的信号
+	$.		文件句柄的位置
+	$!		错误号或错误字符串
+	$a, $b		用在sort函数中
+	@INC		模块查找路径
+	%INC		通过do，require和use引进的模块路径对
+
+常用正则表达式
+	/0|[1-9][0-9]*/		匹配自然数
+	/\$[a-z][a-z0-9_]*/	匹配普通标量名
+	/\bcat\b/		匹配cat但不匹配catch
+	/^$/或/^\s*$/		匹配空行
+	s/#.*//			删除注释
+
+关于perl相关工具程序：
+	perldoc -f function
+	perldoc -m module
+	perldoc chapter_name	/perlop/perlsub/perlsyn/perldata/perlvar
+				/perldebug/perlre/perlreref/perlref/...
+	perldiag	解释perl的出错信息
+	perlstyle	编程风格
+
+文件测试
+	存在性测试（file/dir/symbolic_link）	if (-e "data.txt") {...}
+	类别测试 （目录-d，普通文件-f，符号链接-l，管道-l，套接字-S，
+		块特殊文件-b，字符特殊文件-c，终端-t）
+	属性 （可读-r/-R，可写-w/-W，可执行-x/-X，拥有-o/-O 有效/实际uidgid）
+	零长测试-z，非零长-s（返回长度）
+	文本文件-T，二进制文件-B
+	时间属性测试，-M/A/C
+
+调试命令
+	s	逐行运行，进入子程序
+	n	next，不进入子程序
+	r	运行到当前子程序结束
+	p	查看变量
+	x	查看变量，友好方式
+	l/-/w	列出前后的代码
+	c	执行到行号
+	c	执行到断点
+	b	设置/去除断点
+	b 行号 条件	设置条件断点
+
+从给定目录得到其文件名列表的方法
+	使用glob操作，返回的列表不会包括.和..
+	使用<>
+	使用目录句柄，返回的列表包括.和..
+
+一句话问答
+1.  如何从给定目录得到其文件名列表？
+    答：（1）使用glob操作，返回的列表不包括.和..
+	（2）使用行输入操作符<>
+	（3）使用目录句柄，返回的列表包括.和..
+2.  如何定义常数
+    答：use constant const_name=>const_value; #const_name不用$前缀
+3.  在表示一个列表、哈希时使用哪种类型的括号
+    答：大括号：表示某个哈希值（用在key上），正则表达式中表示a到b
+	小括号：表示列表整体，表示哈希整体
+	方括号：表示某个列表值（用在下标上）
+4.  范围操作符..可以从大到小吗？
+    答：不会产生语法错误，但只会得到一个空列表
+5.  有哪些q类的符号
+    答：q	类单引号
+	qq	类双引号
+	qw	quoted words，包含的字符串不需要加引号和逗号
+	qx	类反引号
+	qr	正则表达式
+	使用不同界定符是，成对的要左右成对，如()。其他则不必，如! q与界定符间
+	不要有空格，主要是防止#符号。
+6.  一个不同上下文中while和foreach循环的例子
+    答：foreach (<FILE_H>) {;}
+	 while (<FILE_H>) {;}
+	在这里，foreach中的<>所处的是列表上下文，while所处的是标量上下文，前
+	者会将FILE_H的内容全部读入内存，然后开始循环，而后者则一次读一行，这
+	在某些情况下会引起性能的大不一样。
+7.  关于<>操作符
+    答：<>（内部无句柄），会检查@ARGV参数列表，如果里边指明了输入文件，则从
+	其中读取，否则则从STDIN读取。
+8.  print @array1;和print "@array1"
+    答：打印一个数组和内插一个数组是不同的。第一个一个接一个输出，元素之间没有
+    字符，第二个各元素则由空格分开。Perl在内插数组的时候会在元素之间加入空格，
+9.  perl区分大小写吗?
+    答：区分
+10. Perl的变量名分界怎么表达
+    答：用花括号{}。
+	eg. $what = "abc"; $whats = "123"
+	    print $whats; 	#输出123
+	    print ${what}s;	#输出abcs
+11. 一个undef的妙用
+    答：my(undef, $card_num, undef, undef, $count) = split/:/;
+	当今需要获得的列表中的某些元素时，这种方法可以节省空间
+12. list slice的用法
+    答：my $mtime=(stat $some_file)[9];	#(stat $some_file)有点像匿名列表
+	my @numbers = @numbers[9,0,2,1,0];
+13. hash slice的用法，slice总是列表
+    答：my %score = (barney=>100, fred=>200, dino=>300, foo=>400);
+	my @three_scores = @score{qw/barney fred dino/};

@@ -1,0 +1,15 @@
+
+file:///D:\work\bus_blvds\bus_blvds\fpga
+file:///Y:\bus_blvds\fpga\SmartSOPC_standard_3C25.blvds
+
+fpga altera ep1c3t144c8
+
+svn 
+svn ls https://svn/svn_old_instrument/SoC/SoC_IP\Communications\Serial\BLVDS_Link
+SoC_IP\Communications\Serial\BLVDS_Link
+
+# tar
+slave: rdata, wack
+master: rack
+sopc
+[[smartsopc]]

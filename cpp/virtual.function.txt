@@ -1,0 +1,18 @@
+
+[[v-table]]
+
+多态 是 虚函数 在起作用
+	虚函数表 
+	函数签名
+
+	dynamic_cast
+	[[../RTTI]]
+
+抽象类 	abstract.class pure.virtual.function
+
+virtual method
+
+override
+
+construction destruction
+

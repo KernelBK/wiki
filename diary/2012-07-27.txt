@@ -1,0 +1,12 @@
+
+[Mac OS X 背後的故事](http://www.douban.com/group/topic/23658084/)
+
+
+1. Documentation/oops-tracing.txt 寻找调试oops的办法。
+- 内核对slub的支持。可以选择。
+
+1. 尝试sdk3.3.0的原始驱动。
+- 还是怀疑卡驱动的问题，是在内核层面，不在协议层面。
+
+
+

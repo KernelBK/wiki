@@ -1,0 +1,12 @@
+
+build
+	gcc
+	python
+	make
+	
+librustc*
+	libsyntax
+	librustc
+	librustc_back
+	librustc_trans
+		llvm ir

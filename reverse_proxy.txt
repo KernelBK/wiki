@@ -1,0 +1,12 @@
+
+代理服务器来接受连接上的请求
+
+[[proxy]] = forward proxy
+	内部网络向外部网络的代理
+
+reverse proxy
+	对外看是web服务器
+
+1. 安全，隐藏了真实web server的ip
+1. 加密，ssl连接
+1. 负载均衡

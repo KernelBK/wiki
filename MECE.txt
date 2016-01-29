@@ -1,0 +1,6 @@
+
+Mutually Exclusive and Collectively Exhaustive
+相互不重叠，但和在一起完全穷尽不遗漏。
+不遗漏才能不误事，不重叠才能不做无用功。
+
+

@@ -1,0 +1,6 @@
+
+1. 传输为0 的情况处理
+1.  avalon读数据延迟为0 
+1. sopc nios
+ led, console output
+ 

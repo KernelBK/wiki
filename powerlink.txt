@@ -1,0 +1,6 @@
+
+ethernet powerlink
+	a determinstric real-time protocol for standard ethernet.
+
+
+

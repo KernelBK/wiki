@@ -1,0 +1,5 @@
+
+/hdisk/tools/ppp/pppd eth0 persist ipparam ppp0 linkname ppp0 noipdefault defaultroute hide-password nodetach noaccomp noccp nopcomp user "1" password "2" lcp-echo-interval 80 lcp-echo-failure 2 usepeerdns 
+
+从ubuntu上面下载的单个ppp程序是不好用的，想要直接配置eth0,wanl0还需要我们自己的修改，这些修改在h3上面。
+

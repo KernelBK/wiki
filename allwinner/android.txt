@@ -1,0 +1,36 @@
+	[[pack]]
+		[[fex_config]]
+    [[build.error.fix]]
+
+    [[filesystem]]
+    	[[partition]]
+
+ssh://JingLun@61.143.53.198/git_repo/homlet/
+
+device/softwinner
+
+# build
+source build/envsetup.sh
+lunch lunch apollo_tvdevb-eng
+extract-bsp
+make -j4
+pack
+
+[[extract-bsp]] 
+[[lunch]]
+
+# develop guide
+device/softwinner/apollo-mele
+device/softwinner/apollo-mele/init.sun4i.rc
+
+
+partion
+
+# bash
+ls -l /dev/block/   
+ls /dev/block/vold/
+busybox df -h       
+
+mount -o remount /dev/block/mmcblk0p7 /system 
+busybox --install
+

@@ -1,0 +1,4 @@
+
+rest概念和java类之间的映射
+It supports all REST concepts and is suitable for both client and server web application.
+

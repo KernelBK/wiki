@@ -1,0 +1,39 @@
+[[code/lua]]
+游戏脚本，nginx，wireshark
+
+数字只有double型
+字符串
+while, if-else, for, until
+函数和 javascript很像
+MetaTable MetaMethod, 类似于操作符重载的功能；
+模块， require("model_name")
+metalua 元编程
+自建语法
+
+
+
+巴西人写的
+
+[[云风]]
+网易 大话西游 
+
+特性
+	协程
+	元表
+	弱引用
+
+脚本语言
+	写逻辑比C/C++方便
+
+跨语言接口 [[json]]
+C++做小人，lua写剧本
+
+51CTO下载-[[Lua源码赏析.pdf]]
+51CTO下载-Lua程序设计 第3版 英文版 programming in lua 3ed.pdf
+Lua 5.3 手册.pdf
+Lua中文教程.pdf
+Lua程序设计第二版.pdf
+Programming in Lua.pdf
+readinglua.pdf
+The Implementation of Lua5.0.pdf
+

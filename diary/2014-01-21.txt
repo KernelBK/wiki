@@ -1,0 +1,5 @@
+
+uvm template generator
+
+vcs 仿真int2float模块输出高阻，后来从新编译仿真库，去掉之前加入的comp模块解决问题。
+

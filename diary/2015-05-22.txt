@@ -1,0 +1,11 @@
+
+电机卡 的每转脉冲数可以
+
+用户体验
+我们可以把用户体验做一个分类，然后统计一下优先级，哪些是已经解决了的，以免出现重复的提议。
+
+f:\get\share\ <*.rar|*.zip|*.7z|*.bz2|*.gz|.tar> !<-master|demo|source|src|code|源码|代码|bsp|driver|-v|_v|win32|x86|linux-|m3352|easyarm|iar|installer|epc-|mathcad|cm-12|xilinx_hw_server|jdk|armok|c51|wpsdanwenjian|smartpro|wpsoffice|pmlxzj|AN4824SW|nrf51|sdk|2.6.11|fm4|rt-thread|sr_linux|UNIX网络编程|2014-12-13_15-34-15_48|xshell|xsh|LA_basics_and_app_CN|1427101310|tinym4|setup|qemu|evernote|SCX-4x21|excel|jre|sabre|uc_chinese|spice|tinym0|ncurses|ysewmsc|970d6302e7d4|37677336ads|tar|pwm|原理图|pid|1281682448-318600|12185|at91|fft|filter|Photoshop|电源|ads|adi|编程|语言|eeprom|easy|matlab|emc|elfio|streameye|editor|keil>
+
+mcard精度问题解决。
+其他在bug系统上的问题关闭。
+

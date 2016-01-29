@@ -1,0 +1,37 @@
+
+全覆盖的test plan
+作业提交系统 lsf grid-engine 
+环境变量管理 Module
+
+firmware的验证
+error injection
+
+随机
+	配置
+	数据
+	时序 约束随机
+
+code review
+算法组
+
+
+形式验证 等价性检查
+
+[[systemverilog]]
+数模混合验证缺陷
+功能验证加速
+覆盖率提高
+验证的等效性
+
+
+check_list
+verification
+	static
+		reviews
+		code analysis
+			lint
+		formal
+	dynamic
+		simulation
+		emulation
+

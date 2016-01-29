@@ -1,0 +1,25 @@
+
+不熟悉柯里函数与不全调用的人们往往会写出很多lambda
+
+Lambda算子
+	递归来实现循环
+	lambda算子里的函数都没有名字
+		Y 组合子，也就是lambda的定点操作符
+		让没有名字的函数能自我引用
+
+let Y = lambda y . (lambda x . y (x x)) (lambda x . y (x x))
+(Y Y) = Y (Y Y)
+函数自我引用(self-reference)的基本方法就是把一个函数应用到他自身。
+metafact (Y metafact)
+
+Hoare logic
+	
+
+
+(lambda x y . x * y) 3 ((lambda z. z * z) 4)
+3 * ((lambda z . z * z) 4)			// lazy evaluation
+(lambda x y . x * y) 3 (4 * 4)		// eager evaluation
+
+Lisp, Scheme, 和ML这三种基于lambda算子的语言采用eager evaluation
+Haskell和Mrianda这两种基于lambda算子的语言采用lazy evaluation
+

@@ -1,0 +1,11 @@
+
+[[../知识管理]]
+
+1.  看cyclone handbook 中和lvds相关描述，pin属性设置应该在quartus中分配时候设置。现在还没有例化的方法，可能和asic不一样。
+1. 看公司的fpga，verilog设计规范。
+1. 拿到田成写的vjtag 例子， 加入sopc builder，不知如何在quartus中继续完成，有待学习。
+1. 看avalon总线协议。
+
+1. ep1c3 demo完成sopc的led的工程， 熟悉流程。
+
+

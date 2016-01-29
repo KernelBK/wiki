@@ -1,0 +1,24 @@
+
+laravel 框架
+zend 引擎
+
+PHP Hypertext Preprocessor
+模板文本混写
+在服务器执行，结果返回浏览器。
+
+作用
+	生成动态页面
+	操作服务器上的文件, 数据库
+	接受表单数据
+	发送取回cookies
+	限制默写页面访问
+	加密
+
+
+blog
+	http://www.oschina.net/question/1579_49262 批评
+
+	它比 C / C++ 学起来更容易，比 Perl / Lisp 读起来更正常，比 VB / PHP 用起来更专业。
+	Paul Graham 那句「of all the great programmers I can think of, I know of only one who would voluntarily program in Java」的完美呼应：十个写 Java 的人里面有九个是「因为工作需要」——剩下一个是因为不会别的。
+	[[workaround]]
+	

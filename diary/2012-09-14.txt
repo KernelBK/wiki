@@ -1,0 +1,1 @@
+Q: android的bootloader和普通内核的有什么区别?

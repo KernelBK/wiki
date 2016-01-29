@@ -1,0 +1,4 @@
+
+Heterogeneous Scheduling
+
+目前ARM SMP主要有三種架構分別由 Qualcomm (aSMP, Asynchronous Symmetrical Multi-Processing), Nvidia (vSMP, Variable Symmetric Multiprocessing)與ARM big.LITTLE(Cortex A7+Cortex A15)所提出

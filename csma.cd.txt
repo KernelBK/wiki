@@ -1,0 +1,8 @@
+
+Carrier Sense Multiple Access with Collision Detection
+	多点接入
+	载波监听
+
+	碰撞检测
+
+	二进制指数类型退避算法(truncated binary exponential type)

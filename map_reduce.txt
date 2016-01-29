@@ -1,0 +1,8 @@
+
+python
+	map(len, ["hehe", "aa"])
+
+[[lambda]]
+filter, find, all, any
+
+

@@ -1,0 +1,7 @@
+
+http://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar
+    If you have the right attitude, interesting problems will find you.
+    When you lose interest in a program, your last duty to it is to hand it off to a competent successor.
+    Release early. Release often. And listen to your customers.
+    If you treat your beta-testers as if they're your most valuable resource, they will respond by becoming your most valuable resource.
+    

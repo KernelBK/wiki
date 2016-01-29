@@ -1,0 +1,10 @@
+
+统一界面描述语言
+在任何有XUL的地方进行扩张
+在firefox的addon可以插到系统的任何地方
+	比chrome强
+	核心提取为XULRunner
+		XULRunner 等于一个虚拟机
+
+
+

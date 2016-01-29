@@ -1,0 +1,18 @@
+
+When OB/2C is high, the digital output is straight binary; when low, the MSB is inverted resulting in a twos complement output from its internal shift register.
+
+mode
+	MODE[0:1]
+
+Conversion Mode Selection
+	WARP
+	NORMAL
+
+serial master read after convert mode
+	DIVSCLK
+serial clock source select
+	EXT/INT
+	gated by CS
+
+read during convert
+	

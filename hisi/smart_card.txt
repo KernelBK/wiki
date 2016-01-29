@@ -1,0 +1,50 @@
+
+10.5 智能卡接口
+-  支持 ISO/IEC 7816-3、7816-10 以及EMV 标准；支持T0、T1 和T14 异步传输协议。
+
+
+smc ioctl调用方法   
+source/msp/ecs/api/hi_unf_sci.c
+	HI_UNF_SCI_Init
+		open("/dev/"UMAP_DEVNAME_OTP, O_RDWR, 0);
+			#define UMAP_DEVNAME_SCI            UMAP_NAME HI_MOD_SCI // source/msp_base/common/include/hi_struct.h
+									// 设别驱动文件都在这边打开。
+			
+sample/ecs/sample_sci.c
+	RunSci
+		CardInProcess
+			HI_UNF_SCI_ResetCard
+
+
+source/msp/ecs/drv/sci/sci_intf.c
+	// proc调试
+	
+source/msp/ecs/drv/sci/sci.c 	
+	SCI_ConfigT0
+		SCI_DefaultConfig
+		
+	SCI_Isr
+		SCI_RxTide
+			tasklet_schedule -> SCI_ReadTasklet
+
+# debug
+cat /proc/msp/sci0 
+
+HI_UNF_SCI_GetCardStatus
+
+# 编译
+sdk的根目录执行
+	make sample
+
+----
+1. 驱动的实现中用到了tasklet的bottom half机制。
+tasklet_init
+tasklet_schedule
+
+tasklet和workqueue实现都是基于软中断。
+
+1. fifo的使用
+hisi是判断fifo的状态，边发送，边等待。
+trident是一个写满一个fifo让后等待fifo空的中断，再次发送。
+
+1. 注意文档中的词：historical 

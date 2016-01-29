@@ -1,0 +1,15 @@
+
+
+
+mb with adc and front 
+	without signal out
+	不在debug模式
+	可以使用 mwr mrd 在 debug模式下读取axi总线上的数据。
+
+冯唐 手机电子版
+	去掉空格
+
+
+
+zhihu 历史
+

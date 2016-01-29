@@ -1,0 +1,6 @@
+
+/workspace/bin
+/etc
+/root
+lost+found/.u/
+

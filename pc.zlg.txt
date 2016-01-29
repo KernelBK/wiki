@@ -1,0 +1,21 @@
+
+
+D:\work\tools\eda_tools_from_debian
+
+C:\work\modeltech_10.1c\win32; D:\Xilinx\14.1\ISE_DS\ISE\bin\nt;C:\work\modeltech64_10.2c\win64;D:\Xilinx\14.1\ISE_DS\ISE\bin\nt64;D:\Xilinx\14.1\ISE_DS\EDK\bin\nt64
+
+C:\work\modeltech_10.1c\win32;
+D:\Xilinx\14.1\ISE_DS\ISE\bin\nt;
+C:\work\modeltech64_10.2c\win64;
+D:\Xilinx\14.1\ISE_DS\ISE\bin\nt64;
+D:\Xilinx\14.1\ISE_DS\EDK\bin\nt64
+
+C:\work\modeltech64_10.2c\win64;
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64;
+D:\Xilinx\14.7\ISE_DS\EDK\bin\nt64;
+C:\work\modeltech64_10.2c\win64; D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64; D:\Xilinx\14.7\ISE_DS\EDK\bin\nt64;
+
+
+
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby1.9.3\bin;C:\Program Files (x86)\Common Files\NetSarang;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;D:\altera\12.0\quartus\bin64;d:\MATLAB\R2012a\runtime\win64;d:\MATLAB\R2012a\bin
+

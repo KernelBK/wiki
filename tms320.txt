@@ -1,0 +1,21 @@
+
+edma
+	
+
+ccs code composer studio
+XDCtools
+dsp/bios
+
+EMIF
+ddr
+pcie
+srio
+
+vliw
+
+
+tms320c6455
+	emif: external memory interface
+		emifa emifb
+		与fpga连接
+	mcbsp: multichannel buffered serial port

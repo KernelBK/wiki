@@ -1,0 +1,27 @@
+
+赵超 照抄？
+
+Hadoop
+CDN
+
+马云给伙伴签订英文版协议
+LAMP linux apache mysql php
+	phpauction.net $2000 买来
+	对数据库进行了修改，把一个数据库变成一个主库，两个丛库，读写分离。
+		增加容量，有了备份功能
+	Pear DB
+	论坛 phpbb 
+	拍卖 一口价 求购 海报商品
+
+LAMP to [[JAVA]]
+java mvc 
+taobao mvc, WebX, JSP Velocity 持久层支持 IBATIS Hibernate 控制层 EJB Spring 
+	如果当时开源了就不会有后来的WebWork Struts2
+
+去IOE, IBM Oracle EMC
+连接池 查询速度
+数据库路由框架 DBRoute 
+CDN 消耗能量
+JBoss 
+
+

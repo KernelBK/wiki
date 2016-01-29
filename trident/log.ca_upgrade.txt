@@ -1,0 +1,181 @@
+
+Find a tuner module(0) connect with DEMOD:TDA10024 unit(0)
+DEMOD:TDA10024: Physical unit 3 not populated
+DEMOD:TDA10024: Physical unit 3 not populated
+DEMOD:TDA10024: Physical unit 3 not populated
+receive atr: 3b
+receive atr: 6c
+receive atr: 00
+receive atr: 00
+receive atr: 4e
+receive atr: 54
+receive atr: 49
+receive atr: 43
+receive atr: f0
+receive atr: 00
+receive atr: 53
+receive atr: 70
+receive atr: 43
+receive atr: 61
+receive atr: 72
+receive atr: 64
+[write_size: 05] 00 86 00 00 08 
+[read_size:  0a] 50 52 26 71 aa 0a 35 02 90 86 
+
+[write_size: 05] 00 34 00 00 ff 
+[read_size:  01] 34 
+
+[write_size: ff] 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+[read_size:  02] 61 ff 
+
+[write_size: 05] 00 c0 00 00 ff 
+[read_size:  101] 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 90 34 
+
+[write_size: 05] 00 40 00 00 04 
+[read_size:  01] 40 
+
+[write_size: 04] 01 02 03 04 
+[read_size:  02] 90 40 
+
+[write_size: 05] 00 42 00 00 04 
+[read_size:  06] 01 02 03 04 90 42 
+
+[write_size: 05] 00 44 00 00 04 
+[read_size:  01] 44 
+
+[write_size: 04] 01 02 03 04 
+[read_size:  02] 90 44 
+
+[write_size: 05] 00 86 00 00 08 
+[read_size:  0a] 50 52 26 71 aa 0a 35 02 90 86 
+
+[write_size: 05] 00 38 00 00 08 
+[read_size:  02] 6d 00 
+
+receive atr: 3b
+receive atr: 6c
+receive atr: 00
+receive atr: 00
+receive atr: 4e
+receive atr: 54
+receive atr: 49
+receive atr: 43
+receive atr: f0
+receive atr: 00
+receive atr: 53
+receive atr: 70
+receive atr: 43
+receive atr: 61
+receive atr: 72
+receive atr: 64
+receive atr: 3b
+receive atr: 6c
+receive atr: 00
+receive atr: 00
+receive atr: 4e
+receive atr: 54
+receive atr: 49
+receive atr: 43
+receive atr: f0
+receive atr: 00
+receive atr: 53
+receive atr: 70
+receive atr: 43
+receive atr: 61
+receive atr: 72
+receive atr: 64
+receive atr: 3b
+receive atr: 6c
+receive atr: 00
+receive atr: 00
+receive atr: 4e
+receive atr: 54
+receive atr: 49
+receive atr: 43
+receive atr: f0
+receive atr: 00
+receive atr: 53
+receive atr: 70
+receive atr: 43
+receive atr: 61
+receive atr: 72
+receive atr: 64
+[write_size: 05] 00 86 00 00 08 
+[read_size:  0a] 50 52 26 71 aa 0a 35 02 90 86 
+
+[write_size: 05] 00 34 00 00 ff 
+[read_size:  01] 34 
+
+[write_size: ff] 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+[read_size:  02] 61 ff 
+
+[write_size: 05] 00 c0 00 00 ff 
+[read_size:  101] 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 90 34 
+
+[write_size: 05] 00 40 00 00 04 
+[read_size:  01] 40 
+
+[write_size: 04] 01 02 03 04 
+Unable to handle kernel NULL pointer dereference at virtual address 00000034
+pgd = 8e438000
+[00000034] *pgd=0e71f031, *pte=00000000, *ppte=00000000
+Internal error: Oops: 17 [#1] SMP
+last sysfs file: /sys/devices/platform/gpio_apollo.1/gpio/gpio78/value
+Modules linked in: irrx_dev 8192cu snd_cnxt snd_pcm snd_page_alloc snd_timer snd pvrnxpdc(P) pvrsrvkm(P) vpmfbDrv lnxpvrDrv lnxtmvssDrv(P) lnxtmasDrv(P) lnxcssDrv(P) lnxfssDrv(P) lnxscsDrv lnxplatDrv lnxnotifyqDrv lnxKKALDrv lnxplatnativeDrv
+CPU: 0    Tainted: P            (2.6.34 #1)
+PC is at _Resize+0x90/0x124 [pvrsrvkm]
+LR is at __kmalloc+0x1c/0x104
+pc : [<7ec05e48>]    lr : [<800bcc1c>]    psr: a0000013
+sp : 8e427cf8  ip : 80b0709c  fp : 00000000
+r10: 8e718504  r9 : 00000040  r8 : 00000034
+r7 : 00000000  r6 : 8ed11200  r5 : 97fdb5c0  r4 : 00000080
+r3 : 00000080  r2 : 00000000  r1 : 8ed11800  r0 : 00000000
+Flags: NzCv  IRQs on  FIQs on  Mode SVC_32  ISA ARM  Segment user
+Control: 10c57c7d  Table: 0e43804a  DAC: 00000015
+Process h3.digital (pid: 1373, stack limit = 0x8e4262f8)
+Stack: (0x8e427cf8 to 0x8e428000)
+7ce0:                                                       97fdb5c0 8ed11200
+7d00: 8e427d2c 97fdb5c0 8f2145c0 8e718500 00000000 00000040 00000000 00000009
+7d20: 00000201 7ec060d4 9fd0fb00 8f2145c0 00000240 94b3f200 8f250700 00000040
+7d40: 00473000 7ec060f4 00000000 00472dc0 8f21490c 7ec09760 94b3f23c 8e427df0
+7d60: 00001000 94b3f200 00000240 8e427df0 00000040 00000201 8f21490c 00000000
+7d80: 96fa5a80 7ec09ba4 00000040 00000000 8f21490c 00000001 8e427dcc 9dca3b88
+7da0: 00000000 8022d5d0 0000055d 954e1780 00000040 00000000 8e427df4 00000040
+7dc0: 00000201 96fa5b40 89525048 94b3f200 00000240 8f214900 96fa5a80 7ec01a1c
+7de0: 00000201 00000040 00000000 8f21490c 00000240 8f214900 8e427e2c 00000000
+7e00: 89525040 00000240 00000201 96fa5b40 8e427e5c 00000040 00000040 7ec021c4
+7e20: 00000040 8e427e28 00000000 89525040 00000240 00000001 96fa5b40 9f839180
+7e40: 96fa5000 8e426000 00000040 7ec02990 8e427e5c 00000001 00000003 00000000
+7e60: 00000040 9f8d7000 96fa5000 9f8d6000 8e427e9c 9f8d7000 00000000 7ec0d74c
+7e80: 00000240 00000040 8e427e9c 8e427ed0 00000006 96fa5b40 9f839180 9f8d6000
+7ea0: 00000018 96fa5000 8e427ed0 7ec192f0 9f8d6000 7ec0e09c 0000055d 8e427ed0
+7ec0: 7e30546c c01c6706 800301c4 7ebffd28 00000006 0000001c 7e305520 00000018
+7ee0: 7e305498 0000004c 00000005 96fa5000 7ebffc68 95504f00 7e30546c 800cff40
+7f00: 9ff0bae0 95504f00 7e30546c 7e30546c 00000004 800d060c 8e426000 9dff7b00
+7f20: 00000000 80045018 80b07340 98c76d80 8e426000 9df59a00 8e427fac 8041c9e4
+7f40: 954e2e60 00000000 000ad44d 00000000 12d82d2a 00000000 00000000 0007a11f
+7f60: 8002e340 800300a0 95504f00 7e30546c c01c6706 00000004 800301c4 8e426000
+7f80: 00000000 800d0bac 00000000 00000001 e0100100 3384c51c 00000001 00000003
+7fa0: 00000036 80030040 3384c51c 00000001 00000004 c01c6706 7e30546c 0000004c
+7fc0: 3384c51c 00000001 00000003 00000036 004ae054 000bed28 00000240 00000040
+7fe0: 7e305498 7e305468 337f6b9c 3362d0cc 80000010 00000004 3d2a8344 10769f64
+[<7ec05e48>] (_Resize+0x90/0x124 [pvrsrvkm]) from [<7ec060d4>] (HASH_Insert_Extended+0xd0/0xd8 [pvrsrvkm])
+[<7ec060d4>] (HASH_Insert_Extended+0xd0/0xd8 [pvrsrvkm]) from [<7ec060f4>] (HASH_Insert+0x18/0x20 [pvrsrvkm])
+[<7ec060f4>] (HASH_Insert+0x18/0x20 [pvrsrvkm]) from [<7ec09760>] (_AttemptAllocAligned+0x248/0x3d4 [pvrsrvkm])
+[<7ec09760>] (_AttemptAllocAligned+0x248/0x3d4 [pvrsrvkm]) from [<7ec09ba4>] (RA_Alloc+0x4c/0x2f8 [pvrsrvkm])
+[<7ec09ba4>] (RA_Alloc+0x4c/0x2f8 [pvrsrvkm]) from [<7ec01a1c>] (BM_Alloc+0x18c/0x268 [pvrsrvkm])
+[<7ec01a1c>] (BM_Alloc+0x18c/0x268 [pvrsrvkm]) from [<7ec021c4>] (AllocDeviceMem.clone.1+0x84/0xf4 [pvrsrvkm])
+[<7ec021c4>] (AllocDeviceMem.clone.1+0x84/0xf4 [pvrsrvkm]) from [<7ec02990>] (_PVRSRVAllocDeviceMemKM+0x90/0x158 [pvrsrvkm])
+[<7ec02990>] (_PVRSRVAllocDeviceMemKM+0x90/0x158 [pvrsrvkm]) from [<7ec0d74c>] (PVRSRVAllocDeviceMemBW+0xac/0x1b0 [pvrsrvkm])
+[<7ec0d74c>] (PVRSRVAllocDeviceMemBW+0xac/0x1b0 [pvrsrvkm]) from [<7ec0e09c>] (BridgedDispatchKM+0xdc/0x138 [pvrsrvkm])
+[<7ec0e09c>] (BridgedDispatchKM+0xdc/0x138 [pvrsrvkm]) from [<7ebffd28>] (PVRSRV_BridgeDispatchKM+0xc0/0xe8 [pvrsrvkm])
+[<7ebffd28>] (PVRSRV_BridgeDispatchKM+0xc0/0xe8 [pvrsrvkm]) from [<800cff40>] (vfs_ioctl+0x2c/0xb0)
+[<800cff40>] (vfs_ioctl+0x2c/0xb0) from [<800d060c>] (do_vfs_ioctl+0x68/0x5d0)
+[<800d060c>] (do_vfs_ioctl+0x68/0x5d0) from [<800d0bac>] (sys_ioctl+0x38/0x60)
+[<800d0bac>] (sys_ioctl+0x38/0x60) from [<80030040>] (ret_fast_syscall+0x0/0x30)
+Code: e49a8004 e3580000 0a000017 e3560000 (e5987000) 
+---[ end trace 1e49f01b1f419f1f ]---
+[read_size:  02] 90 40 
+
+[write_size: 05] 00 42 00 00 04 
+root@routon-h1:/# 

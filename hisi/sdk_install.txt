@@ -1,0 +1,10 @@
+/workspace/hisi/Hi3716CV100R001C00SPC093/software/Hi3716CV100R001C00SPC093
+
+编译流程 参考install_notes(chs).txt
+	./server_install
+	. ./setenv.sh
+	make build
+	
+fix:
+	apt-get install lib32z1-dev
+	cd /usr/lib; ln -s x86_64-linux-gnu/libz.so

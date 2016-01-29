@@ -1,0 +1,36 @@
+
+probe
+Keysight_Eight Hints for Better Scope Probing.pdf
+
+
+带宽
+衰减
+上升时间
+输入电阻
+输入电容
+最大输入
+补偿范围
+电缆长度
+
+探头接口标准？
+
+等效为一个RCL模型
+
+匹配 50 or 1M
+	1M欧姆的输入阻抗广泛应用与500M 带宽以下的测量
+	50 欧姆匹配主要用于高频测量
+
+电缆
+	BNC SMA
+
+无源探头
+	高阻 常用
+	低阻 不常用
+
+有源探头
+	高带宽的放大器
+电流探头
+	霍尔效应
+
+[[Tektronix_Probe_Fundamentals.pdf]]
+

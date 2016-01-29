@@ -1,0 +1,8 @@
+
+1. irr验证
+	[[../matlab]]
+	有时候需要重启工具才能回到原来的生成结果
+
+matlab占用内存好大
+ise评估float multiplier时序
+

@@ -1,0 +1,4 @@
+
+anon_root=/var/www
+
+anon_other_write_enable=YES    //是否允许匿名用户登录后执行其他操作（删除重命名等）？

@@ -1,0 +1,13 @@
+5720 解决ise没法报告twx文件的问题，清理iseconfig目录下的文件即可。
+
+5720 spi flash with lock simu
+install sun java, that I didn't know the difference between jre and jdk.
+
+
+1
+
+#define REG_SPI_UNLOCK1                (*((volatile u32 *)(SPIINF_BASE + 0x10)))
+#define REG_SPI_UNLOCK2                (*((volatile u32 *)(SPIINF_BASE + 0x14)))
+#define SPI_UNLOCK                     (REG_SPI_UNLOCK1 = 0xaabbccdd; REG_SPI_UNLOCK2 = 0x11223344;)
+
+

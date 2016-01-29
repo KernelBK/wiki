@@ -1,0 +1,5 @@
+
+308 In command-layer transactors¨Cdrivers and monitors, the transaction-level interface lets the higher layers of the verification environment stimulate the DUT by specifying which transactions should be executed o be notified of which transactions have been observed at a given point in time on a DUT interface. 
+
+
+

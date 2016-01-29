@@ -1,0 +1,8 @@
+
+1. install xilinx ise linux version
+1. xilinx release note
+1. 调查光纤隔离元件
+
+opensuse
+xp 64bit
+安装 xilinx linux 64b, matlab linux 64b

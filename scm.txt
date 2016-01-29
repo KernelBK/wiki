@@ -1,0 +1,4 @@
+
+[[software_configuration_management]] 软件配置管理
+supply chain management 供应链管理
+

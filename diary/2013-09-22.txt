@@ -1,0 +1,27 @@
+
+192.168.4.85
+\\192.168.0.8\测量仪器\软件\自由安装\xinlinx\xilinx 14
+
+1. 复制文件
+1. 安装虚拟机
+1. 网络暂时无法开通
+1. bb2hh的eda虚拟机可以用
+1. 复制文件到ubuntu后，verdi可用。
+1. 开始写bus_blvds的代码。
+
+
+virtualbox 
+mac addr : F04DA23AFBA4
+f04da23afba4
+
+
+如要的工具：
+firefox
+ruby on rails(git)
+debian 不能apt-get install 需要在屋里弄好
+
+[[virtualbox]]
+bash_profile引用/etc/bash.bashrc，然后/etc/bash.bashrc引用/eda/common.sh。
+tar jcf /mnt/eda_tools_from_debian/debian.64b.tar.bz2 bin/ sbin/ boot/ lib lib64 opt/ root/ usr/ vmlinuz var/ home/ etc
+
+

@@ -1,0 +1,22 @@
+
+Steve.Dekorte
+2002
+
+消息反射
+对象反射
+
+原型语言
+个对象都是另一个对象的复制品
+
+prototype-based programming language
+
+Smalltalk (所有值都是对象), Self(基于原型), NewtonScript(差异化继承), Act1(并发模型), Lisp(运行时可检测和修改代码树)和 Lua(小巧可嵌入性)
+
+inspired by
+	smalltalk, all values are objects, all messages are dynamic 
+	self
+	NewtonScript
+	Act1
+	LISP
+	Lua
+	

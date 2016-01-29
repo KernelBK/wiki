@@ -1,0 +1,18 @@
+
+# adc input sclk
+NET "system_i/pcard_adc_ctrl_0_adc_sclk_pin" TNM_NET = adc0_clk_in;
+TIMESPEC TS_adc0_clk_in = PERIOD "adc0_clk_in" 125 MHz;
+NET "system_i/pcard_adc_ctrl_1_adc_sclk_pin" TNM_NET = adc1_clk_in;
+TIMESPEC TS_adc1_clk_in = PERIOD "adc1_clk_in" 125 MHz;
+
+
+adc数据不对
+
+matlab hex2float32
+
+内容
+
+ky阅读代码，发现 cal模块两个错误
+
+通道数据混合
+

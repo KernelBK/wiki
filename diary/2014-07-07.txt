@@ -1,0 +1,8 @@
+
+aurora 
+	pin
+
+备份系统
+	win7 with agent
+	win7 without agent
+

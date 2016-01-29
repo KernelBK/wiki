@@ -1,0 +1,14 @@
+
+windows 
+path D:\altera\12.0\quartus\bin64
+lunch file:///D:\altera\12.0\quartus\bin64\quartus.exe
+
+spoc_builder
+	[[qsys]]
+ip, tools -> megawizard
+cygwin, D:\altera\12.0\quartus\bin64\cygwin\bin
+
+setting, include file path, lib
+
+qar
+	unarchive the .qar file using the Project > Restore Archived Project menu command.

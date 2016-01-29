@@ -1,0 +1,4 @@
+
+run-time type identification (RTTI).  运行时类型识别
+
+http://blog.csdn.net/dbzhang800/article/details/6672591

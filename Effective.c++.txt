@@ -1,0 +1,5 @@
+
+Scott.Meyers
+
+Effective.c++
+More.Effective.c++

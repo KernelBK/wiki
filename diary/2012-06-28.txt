@@ -1,0 +1,20 @@
+
+dvb:
+
+整一个没有问题的版本。
+
+用北京的那份文件系统，替换应用程序。
+
+北京的环境（uldr, uboot, kernel） 文件系统，执行原系统的程序以后，在执行新的h3.digital程序，OK。
+
+先不执行原程序，
+执行脚本 sh /hdisk/apps/gen_h1_smartcard_gpio_to_sysfs.sh （不执行也OK）
+再执行新程序： OK!
+
+svn生成的filesystem，北京文件系统中的程序 FAIL。
+
+替换了uldr没有问题。
+
+替换hdisk里面的文件hdisk/etc/dvb/SYSTEM_CONFIG下的文件使用老的就不会有问题。
+
+

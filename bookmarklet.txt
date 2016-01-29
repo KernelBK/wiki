@@ -1,0 +1,5 @@
+
+把一段javascript脚本存为书签，在目标网站点击该书签就会运行该javascript脚本程序。
+
+readability, 云输入法，分享按钮，有道云翻译
+

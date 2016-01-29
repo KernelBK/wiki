@@ -1,0 +1,18 @@
+以英特尔、美光、海力士为首的NAND厂商所主打制定的闪存接口标准为“ONFI”，而以三星和东芝阵营为首的NAND厂商当前所主打的则是“Toggle DDR”。
+
+http://en.wikipedia.org/wiki/Flash_memory#NAND_flash
+    The ONFI specification version 1.0[23] was released on 28 December 2006. 
+
+http://en.wikipedia.org/wiki/Secure_Digital
+
+http://esslab.tw/wiki/index.php/A_Tutorial_on_NAND_Flash_Memory_and_Its_Management_Issues
+    SLC 修改可以只改变相应的位，MLC不能。
+
+
+issue:
+     SD card multi-block writes - failing occasionally.
+        http://www.microchip.com/forums/m579058-print.aspx 
+        fixed http://www.picbasic.co.uk/forum/showthread.php?t=15650
+            most documentation doesn't state that you have to send a start token before EVERY block. It might seem obvious, it might not, but I found one piece which mentioned it in words but omitted it from the timing diagrams!!!
+
+

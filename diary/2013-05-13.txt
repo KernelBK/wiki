@@ -1,0 +1,54 @@
+
+
+我司接口人信息如下： 
+PM:    杨小波 13924628062 yangxiaobo@szhklt.com 
+软件： 李志高 15999528498 lizhigao@szhklt.com 
+硬件： 肖家俊 13612882842 xiaojiajun@szhklt.com 
+商务： 赵晨昊 13424279516 zhaochenhao@szhklt.com 
+  
+
+
+  
+----- 转发人 wanhuiling/Jinglun 时间 2013/05/13 09:00 ----- 
+
+
+发件人:         wangt/Jinglun 
+收件人:         liuting/Jinglun@Jinglun, fengyan/Jinglun@Jinglun, fuwei2/Jinglun@Jinglun, linhaixia/Jinglun@Jinglun, zhaojing/Jinglun@Jinglun, heliu/Jinglun@Jinglun, wangcaixia/Jinglun@Jinglun, chenchun/Jinglun@Jinglun, majinhong/Jinglun@Jinglun, jinch/Jinglun@Jinglun, wangqi/Jinglun@Jinglun, wuajuan/Jinglun@Jinglun, zhoupf/Jinglun@Jinglun, wanhuiling/Jinglun@Jinglun, liali/Jinglun@Jinglun, duanbaoyin/Jinglun@jinglun, wanghui/Jinglun@Jinglun, liuyang/Jinglun@Jinglun, wumenghua/Jinglun@Jinglun, zhaoyanli/Jinglun@Jinglun 
+日期:         2011/07/06 15:02 
+主题:        ftp账号 
+
+
+
+各位： 
+公司原ftp服务器停止使用，现启用新的服务器和账号，具体如下： 
+1、每个二级部门一个ftp账号 
+2、不得将机密或未授权的文件传至ftp提供给第3方 
+3、每账号限额500M 
+4、账号清单中未涉及到的部门如需要ftp账号请直接mail给王涛 
+
+请大家根据自己的部门更改相应的ftp账号密码，初始密码为e2000jl,如有问题请电话3266 
+用户名                部门                         
+zhizhao_gy        制造供应 
+zhizhao_sc        制造生产 
+zhizhao_pg        制造品管 
+zhizhao_yx        制造营销 
+xinzheng        行政人事 
+hangye_js        行业技术 
+hangye_zc        行业支撑 
+hangye_sc        行业市场 
+wangluoyy        网络运营 
+wangluoyx        网络营销 
+shiping        视频终端 
+jishu_cs        测试认证 
+jishu_sj        工业设计 
+jishu_sys        操作系统 
+
+密码更改的方法： 
+1、开始--运行--输入“cmd”，回车 
+2、输入“ftp 10.10.10.8”，回车 
+3、根据提示输入用户名、口令 
+4、输入“quote site pswd e2000jl xxxxx”,回车。xxxxx为各位自己设定的新密码 
+5、显示“431 Password not changed, no match for old password.”说明密码修改成功 
+
+ftp.jinglun.com.cn
+

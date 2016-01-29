@@ -1,0 +1,12 @@
+
+devref.pdf
+
+-p 
+	-p mcs|exo|tek|ufp|ieee1532|hex|bin
+-u 
+	loads one or more BIT files from the starting address in an upward direction.
+
+-r (Load PROM File)
+	reads an existing PROM file as input instead of a BIT file.
+
+

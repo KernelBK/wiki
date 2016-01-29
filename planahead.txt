@@ -1,0 +1,10 @@
+
+全流程
+
+管理ise工程，查看布局布线结果
+io planning
+
+new project
+
+可以设置在Linux工作站上run
+。在 Linux 环境中，PlanAhead 软件能够提供在远程主机上执行并行运行的能力。

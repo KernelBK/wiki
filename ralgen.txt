@@ -1,0 +1,11 @@
+
+ralgen automatically
+generates the UVM RAL abstraction model for these registers and
+memories. 
+The description of these registers and memories can be
+in [[RALF]] format or in the [[IPXACT]] schema
+
+ralgen [options] -t <topname> -uvm <filename.ralf>
+ralgen -ipxact2ralf <input_file>
+
+

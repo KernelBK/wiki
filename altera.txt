@@ -1,0 +1,37 @@
+
+
+quartus
+
+doc http://www.altera.com.cn/literature/lit-qts.jsp
+qsys http://www.altera.com.cn/support/software/system/qsys/sof-qsys-index.html
+
+[[quartus]]
+[[avalon]]
+[[nios]]
+
+pdf munual file:///D:\work\tooltip\altera
+install file:///D:\altera\12.0
+help	file:///D:\altera\12.0\quartus\common\help
+tutorial file:///D:/altera/12.0/quartus/common/help/tutorial/qtutorial.htm
+
+D:\work\tooltip\altera
+
+an552 implementing bus lvds interface in supported altera device families
+[[eye_diagram]]
+
+install file:///X:\软件\自由安装\Altera
+
+
+Cascading PLLs
+Cyttech－－香港骏龙科技
+
+D:\altera\12.0\quartus\sopc_builder\bin\system-console.exe --project_dir=Y:\blvds_link\fpga\SmartSOPC_standard_3C25.blvds
+
+sdc
+derive_clocks
+
+279 Altera recommends that you start SSN analysis early in the design cycle to obtain preliminary results and make adjustments to your I/O assignments, and iterate through the design cycle to finally perform a fully constrained SSN analysis with complete information about your board. 
+276 It also provides device-specific coding recommendations for registers and certain logic functions such as tri-state signals, multiplexers, and cyclic redundancy check (CRC) functions, and includes references to other Altera documentation for low-level logic design information.
+267 You can easily enter into a reset asynchronously, but releasing a reset asynchronously can lead to potential problems (also referred to as “reset removal”) with metastability, including the hazards of unwanted situations with synchronous circuits involving feedback.
+158 External revision control supports design file version experimentation through branching and merging different versions of source code from multiple designers. 
+

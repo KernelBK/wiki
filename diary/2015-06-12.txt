@@ -1,0 +1,5 @@
+
+为低成本方案做准备工作
+pin
+pcard ipcores_dir重新生成
+edk仿真，输入激励，输出，对比

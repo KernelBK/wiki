@@ -1,0 +1,109 @@
+
+[[PaDevMgr]]
+
+[[PA多功能卡5248]]
+
+电能质量测量技术
+
+# catalog
+input
+	电机卡
+		扭矩
+		转速
+		Z
+	[[功率卡]]
+		电压
+		电流
+		互感器
+
+			滤波，线路滤波，频率滤波
+			量程配置
+				自动量程
+					升档
+					降档
+
+
+UI
+	面板
+	display	
+		显示更新率 和数据更新率相同
+		内容
+			花样全在这里
+			一些显示取决于设置
+			常规
+			谐波
+		
+指标
+精度
+	校准
+
+应用
+
+难度
+	系统，平台相关
+		ddr3, pcie, srio
+		driver
+		fpga
+	业务
+		校准
+		谐波计算
+	dsp 
+	算法 ？
+	实时要求
+
+config
+
+assp, average for synchronous source period
+
+
+
+[[dsp]]
+[[pa术语]]
+
+crest factor  峰值系数
+
+wattmeter
+superpose 叠加
+Alligator clip adapter set
+
+exponent 倡导者, 拥护者  指数; 幂 能手 
+strain waveforms
+hysteresis 滞后作用，磁滞现象
+sinusoidal   正弦曲线的
+
+
+
+[[Delta运算]]
+
+小数抽取
+srio
+pcie
+ddr3
+
+[[scpi]]
+
+PA6000功能参数
+
+
+功率参数
+	有效值
+	平均值
+	峰值
+	波峰因数
+	波峰因子
+	基波含量
+
+电机
+	扭矩
+	转速
+
+测量分析
+	fft
+	谐波分析
+	波形显示
+	向量图
+	积分功能
+	趋势分析
+	周期分析
+
+基波周期

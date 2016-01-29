@@ -1,0 +1,73 @@
+[[javascript/index]]
+
+
+function.programming + OO
+
+“Any application that can be written in JavaScript, will eventually be written in JavaScript.” Jeff Atwood 
+
+
+标准
+	[[ECMAScript]]
+	[[DOM]]
+	[[BOM]]
+
+语法
+	属性配置 Object.defineProperty
+	get set访问器
+	call, apply, bind, this
+	委托， prototype, Object.getPrototypeOf()
+	
+	面向对象，但是没有类；
+		new
+		prototype对象
+	模块，标准：
+		[[CommonJS]] node.js采用
+		AMD [[asynchronous.mdoule.definition]] 模块异步加载
+			[[require.js]]
+			require exports
+			curl.js
+	单线程模型
+	严格模式 strict mode
+	[[closure]]
+	this
+	apply, 改变电泳函数的对象
+	分号，省略句尾分号，会自动添加
+	generator
+	thunk
+	await
+	yield
+	[[promise]]
+	typeof
+	===
+	!=
+	{}
+	?:
+
+	function
+		
+设计思想
+	event.loop
+	[[jquery]]
+	源码转换： 压缩，合并
+		source map
+		vlq编码
+	typescript
+	jscript
+	[[React]]
+
+作用域规则，名字查找，closure, for/in
+
+
+Unobtrusive JavaScript是一种将Javascript从HTML结构抽离的设计概念，避免在HTML标签中夹杂一堆onchange、onclick……等属性去挂载Javascript事件，让HTML与Javascript分离，依MVC的原则将功能权责清楚区分，使HTML也变得结构化容易阅读。
+
+
+[[JavaScript权威指南(第6版).(JavaScript：The.Definitive.Guide).David.Flanagan]]
+
+[[node.js]]
+	[[npm]]
+	[[CommonJS]]
+[[express.js]]
+angular.js
+react.js
+[[jquery]]
+web.broswer

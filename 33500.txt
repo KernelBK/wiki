@@ -1,0 +1,8 @@
+
+Agilent Trueform 
+信号发生器
+
+BenchVue 软件控制多台仪器
+scpi
+
+

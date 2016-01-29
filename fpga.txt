@@ -1,0 +1,46 @@
+[[logic_design]]
+
+modelsim, debussy检查语法错误比较快
+
+ip 管理
+google的repo工具把分散在不同仓库中代码整合成为一个android工程，
+如果一份代码（比如IP模块）需要在多个项目中使用，现在的代码管理方式会产生多余的复制，同步的时候需要耗费人工进行比较和取舍，如果用repo管理代码，一份代码在仓库中只存一份，不同的项目中的修改都会被repo同步。
+
+[[xilinx_project_directory]]
+
+
+
+[[xilinx]]
+[[cdr]]
+[[clock_domain]]
+一个CLB包含4个SLICE，其中左边两个SLICE可用于存储、移位寄存器和逻辑配置，称为SLICEM；右边的两个SLICE只能用于逻辑组合，称为SLICEL。每个SLICE中有2个LUT，2个存储单元，多路复用器，进位链等。一个LUT和一个存储单元称为一个LOGIC CELL，因此通常一个SLICE等效于2.25个LOGIC CELL。
+
+1、bram 的输出需要时钟，dram在给出地址后既可输出数据。
+2、bram有较大的存储空间，是fpga定制的ram资源；而dram是逻辑单元拼出来的，浪费LUT资源
+
+fpga
+功能
+时序，提高：采用更快的器件，或流水化设计。
+
+关键：跨时钟域，fifo，状态机，
+
+接口协议，
+算法
+内部资源，乘法器，IO，PHY，DCM/PLL，cpu core, ram, gate(slice), dsp, power,
+
+
+
+
+所谓setup time即建立时间，也就说数据在时钟到来之前保持稳定所需要的时间， 
+hold time 即保持时间，也就是说在时钟到来之后数据需要保持稳定的时间。
+
+亚稳态
+多级同步 亚稳态传播 
+亚稳态平均无故障时间(The metastability MTBF,即为由亚稳态决定的平均无故障时间)的公式：
+MTBF=etMET/C2/(C1*fclk*fdata)    (tMET/C2是e的上标)
+从这个公式来看降频使用是降低亚稳态的一种方法
+
+http://www.eetop.cn/blog/html/34/840234-28943.html
+
+
+

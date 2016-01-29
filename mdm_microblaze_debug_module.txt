@@ -1,0 +1,7 @@
+
+mdm
+
+Based on Boundary Scan (BSCAN) logic in Xilinx?  FPGAs
+
+Supports connection to the ChipScope? Pro ICON core through BSCAN signals
+

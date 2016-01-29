@@ -1,0 +1,18 @@
+
+books
+	[[C语言编程规范--华为技术有限公司_7812089]]
+	[[C.Interfaces.and.Implementations]]
+	[[C语言面向对象编程]]
+	C程序设计语言
+	[[C语言深度剖析]]
+	The C Programming Language
+	Expert C Programming
+	C Traps and Pitfalls
+	高质量C++/C 编程指南  林锐
+	The GNU C Library Reference Manual
+
+高性能服务
+	varnish
+	nginx
+	redis
+

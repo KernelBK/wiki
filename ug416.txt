@@ -1,0 +1,19 @@
+
+modelsim error
+	suppress 2902
+
+example_design/rtl/traffic_gen
+
+整个example_top 都可以综合，可以在真实的fpga上验证。
+
+sim_tb_top
+	example_top
+		infrastructure
+			// clk, pll
+		memc_wrapper
+			// axi interface 6 port
+			AXI_ENABLE
+			// ddr interface 
+		s6_axi4_tg
+			// AXI4 Traffic Generator
+	ddr3_model_c1

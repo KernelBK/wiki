@@ -1,0 +1,47 @@
+
+[[axi4-stream]]
+ARM IHI 0022D
+
+axi3 axi4 [[axi4-lite]]
+	backward-compatible with existing AHB and APB interfaces. ?
+	channel	
+		ra rd
+		wa wd wr
+
+outstanding 未完成的
+changes between AXI3 and AXI4
+	awlen
+	awlock
+	arlen
+	arlock
+
+only in axi4
+	awqos, qos
+	awregion, region identifier
+	awuser, user signal
+	wuser
+	buser
+	arqos
+	arregion, Permits a single physical interface on a slave to be used for multiple logical interfaces.
+	aruser
+	ruser
+
+byte invariant access
+unaligned transfers
+
+ace ace-lite
+	axi coherency extensions
+	choerency transactions
+	snoop transaction
+	interconnect
+	cache maintenance
+	barrier transactions
+
+
+difference
+
+ARM IHI 0051A (ID030510)
+AMBA 4 AXI4-Stream Protocol
+
+Narrow bursts
+

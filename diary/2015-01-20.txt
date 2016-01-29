@@ -1,0 +1,10 @@
+
+[[../字幕]]
+
+测试电机卡dac
+解压shooter字幕
+
+index = 10, 
+torque b = 1.5, a = 1.0, 
+ speed b = 1.0, a = 1.5
+

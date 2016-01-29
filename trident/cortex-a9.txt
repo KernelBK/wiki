@@ -1,0 +1,7 @@
+ThumbEE CPU extension supported.
+VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 1
+
+--
+vfpsid, vfpmvfr0, vfpmvfr1
+vfp reg: 41033091 10110221 01000011
+

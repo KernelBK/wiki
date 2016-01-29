@@ -1,0 +1,14 @@
+
+1. 昨天在tx_phy的eop2加入的turn around时间不对，应该在slave的wack阶段加入。
+1. s2状态机把写过程识别成读过程。 
+	由于reg_config_wr信号没有在状态机的config状态出现。 
+	blvds_addr_match不再敏感信号列表。 
+		敏感列表不完整， 照成fpga和仿真的不一致。
+
+1. 修正检验比较错误。
+1. 
+1. [[../nois]]
+1. timing constrain 
+1. add usb like ep0
+1. 月报
+

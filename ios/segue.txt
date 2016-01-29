@@ -1,0 +1,5 @@
+
+场景的切换叫 segues
+scene
+
+

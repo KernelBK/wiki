@@ -1,0 +1,15 @@
+网际控制报文协议ICMP (Internet Control Message Protocol)。
+[[ping]]
+
+ICMP差错报告报文和ICMP询问报文。
+
+终点不可达
+?
+源点抑制(Sourcequench)
+?
+时间超过
+?
+参数问题
+?
+改变路由（重定向）(Redirect)
+

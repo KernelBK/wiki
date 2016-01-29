@@ -1,0 +1,18 @@
+
+i2c adapter 指的是控制器
+    client 总线上的设备
+
+    一个i2c设备要知道自己在总线上的地址，和在那个总线上。 
+
+    client find adapter
+        i2c_adapter *adapter = client->adapter;   
+    find bus controller
+        adapter->nr
+
+linux doc i2c:
+
+When we talk about I2C, we use the following terms:
+  Bus    -> Algorithm
+            Adapter
+  Device -> Driver
+            Client

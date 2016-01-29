@@ -1,0 +1,23 @@
+
+xilinx ip
+	[[ds820_axi_pcie.pdf]]
+	pg055-axi-bridge-pcie.pdf
+	[[xapp1171-pcie-central-dma-subsystem.pdf]]
+
+pcie  point to point topology
+pci shared parallel bus
+
+lane 1-32, automatically negotiated during device initialization
+1 4 8 16 32
+
+protocol
+packets
+link
+pci requests: 
+	configuration (read/write, io read/write, memory read/write)
+	interrupts(intx, msi, msi-x)
+
+lane
+	two differential signaling pairs: one for receiving data, the other for transmitting.
+
+[[rapidio]]

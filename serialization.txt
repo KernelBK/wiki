@@ -1,0 +1,8 @@
+
+保存对象或数据结构
+marshalling serialization
+unmarshalling deserialization
+
+python
+	marshal
+	pickle

@@ -1,0 +1,7 @@
+
+protocol buffers
+结构数据编码方式，编程语言的对象转换为可以在网络上传输的字节流；
+used in RPC and serialization
+
+[[thrift]]
+

@@ -1,0 +1,7 @@
+
+arm debug
+
+swd, serial wire debug
+	2-pin replaces the alternative 5-pin jtag debug port
+	ieee 1149.7
+

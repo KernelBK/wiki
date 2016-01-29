@@ -1,0 +1,7 @@
+
+simple_sbridge_spi
+	s_rdata[127:0] 
+		rdata
+
+	byte_ready 从spi_top读取都的数据
+	nxt_addr 

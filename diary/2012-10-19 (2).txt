@@ -1,0 +1,7 @@
+
+sd/mmc slot0 启动向 slot2 emmc生产
+测试项目
+	wifi 不能配置ip/dns，公网链接不上
+		内网使用wget进行了下载测试，没问题。
+
+sd卡没有mount好

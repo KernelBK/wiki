@@ -1,0 +1,16 @@
+1. hisi sci接口可以对卡进行读写，解决了封装不正确，gpio方向不正确等问题。
+制作一个可以不停运行sample_sci的程序。
+
+wget ftp://172.16.55.90/libHA.AUDIO.AMRWB.codec.so
+wget ftp://172.16.55.90/libHA.AUDIO.MP3.decode.so
+wget ftp://172.16.55.90/libHA.AUDIO.AAC.decode.so
+wget ftp://172.16.55.90/libHA.AUDIO.DRA.decode.so
+wget ftp://172.16.55.90/libHA.AUDIO.TRUEHD.decode.so
+wget ftp://172.16.55.90/libHA.AUDIO.AMRNB.codec.so
+wget ftp://172.16.55.90/libHA.AUDIO.WMA.decode.so
+wget ftp://172.16.55.90/libHA.AUDIO.COOK.decode.so
+wget ftp://172.16.55.90/libHA.AUDIO.DOLBYPLUS.decode.so
+wget ftp://172.16.55.90/libHA.AUDIO.DTSHD.decode.so
+wget ftp://172.16.55.90/libHA.AUDIO.FFMPEG_ADEC.decode.so
+wget ftp://172.16.55.90/libHA.AUDIO.AC3PASSTHROUGH.decode.so
+wget ftp://172.16.55.90/libHA.AUDIO.FFMPEG_ADEC.decode.so

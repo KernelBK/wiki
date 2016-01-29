@@ -1,0 +1,65 @@
+
+# Consumer Electronics Control
+- 只有一根线，双向传输
+-  AV.link
+- 用到的消息： <User Control Pressed>, <User Control Released>, <Menu Request>, <Menu Status>
+- <Menu Status> [“Activated”]  <Menu Status> [“Deactivated”] 
+- <User Control Pressed> <User Control Released>
+- <Menu Request> [“Activate”]   <Menu Request> [“Deactivate”]  <Menu Request> [“Query”] 
+
+1. 应用程序通过函数cnxt_tvenc_cec_transmit发送数据，会调用SCD驱动的发送函数cnxt_scd_cec_transmit
+1. SCD驱动向CEC控制器写入数据，是通过和M3通讯，把写数据的工作交给M3去做。
+1. 
+
+
+target/src/sd/video/drivers/comps/tmvssDDTVEnc/src/CEC
+    cnxt_tvenc_cec_transmit
+        CNXT_SCD_CEC_MSG_DATA SCDMsgData
+        cnxt_scd_cec_transmit // target/src/sd/standby/drivers/comps/tmscsScd/src/tmscsScd.c
+                    // 向m3写数据
+            internal_scd_cec_transmit
+                internal_scd_update_scf_cec_transmit_msg
+                internal_scd_scf_post_command
+                    cnxt_ipc_send_cmd // Sends the command(s) to the target processor
+                                      // target/src/sd/standby/drivers/comps/tmscsIpc/src/tmscsIpc.c
+                     
+target/src/sd/standby/intfs/tmIscsIpc/inc/tmIscsIpc_Regs.h
+
+target/src/sd/standby/drivers/comps/tmscsScd/src/tmscsScd_Prv.c
+	internal_scd_cec_set_log_addr
+		internal_scd_update_scf_cec_log_addr
+		SC_HOST_CMD_CEC_LOG_ADDR // 给m3传递的CEC逻辑地址
+
+
+standby/firmware/comps/tmscsScf_Core/src/tmscsScf_Ipc.c
+	internal_scf_ipc_read_cec_cfg
+	internal_scf_ipc_get_cec_tx_msg
+	internal_scf_ipc_set_cec_rx_msg
+	
+standby/firmware/comps/tmscsScf_Drivers/comps/tmscsScfCec/src/tmscsScf_mcec_priv.c 
+	internal_cec_transmit
+	scf_cec_isr
+	
+m3支持cec的配置	
+target/src/sd/standby/firmware/comps/m3_start/src/tmscsScf_Cfg.h	
+	#define SCF_CONFIG_INCLUDE_CEC_SUPPORT  0
+	
+	
+target/src/sd/video/drivers/comps/tmvssDDTVEnc/inc/tvenc.h
+typedef struct  
+{   
+   /* Follower Address */
+   CNXT_TVENC_CEC_LOGICAL_ADDRESS      uDestinationAddress;
+   /* Initiator Address */
+   CNXT_TVENC_CEC_LOGICAL_ADDRESS      uInitiatorAddress;
+   /*opcode of message, as defined above */
+   u_int16                             uMessageOpcode;
+   /* operands of the message */
+   u_int8                              uMessageOperands[TVENC_CEC_MAX_OPERANDS_SIZE];
+   /* the length of the operands, in bytes */
+   u_int8                              uOperandsLength;
+} CNXT_CEC_MESG_DATA;
+
+
+
+PNX8XXX_INT_HDMI_CEC

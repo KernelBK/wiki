@@ -1,0 +1,6 @@
+
+电机卡验证
+	blvds ok
+	aurora ok
+	spi ok
+	adc 16位，和功率卡不一样。

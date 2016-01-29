@@ -1,0 +1,19 @@
+
+VBoxManage startvm ubuntu15 --type headless
+VBoxManage startvm ubuntu64_eda --type headless
+VBoxManage startvm ubuntu14.04_64 --type headless
+
+C:\Users\yangyaowu\VirtualBox VMs
+
+
+[[virtualbox]]
+
+cat /dev/zero > zero.fill; sync; rm -f zero.fill; sync
+
+VBoxManage modifyhd  VDI文件名 或 UUID --compact
+"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" modifyhd xxx.vdi --compact
+
+"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" startvm ubuntu-10.04.4-desktop-amd64 --type headless
+
+[[clonezilla]]
+用clonezilla的iso引导，把在用的旧盘克隆到新盘就成。

@@ -1,0 +1,12 @@
+[[ralgen]]
+[[vumgen]]
+vcs top.v test.c -CFLAGS "-I$VCS_HOME/include"
+
+
+-lib secureip -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib unisims
+
+
+-I. -CFLAGS '-I. -L. -lgmp -lmpfr -lIp_floating_point_v6_1_bitacc_cmodel'
+
++vcs+loopdetect+number
+

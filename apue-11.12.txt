@@ -1,0 +1,193 @@
+Author: Joseph Lee
+E-Mail: fdlixiaojun@gmail.com
+
+线程
+
+多线程，完成多任务
+同一进程的多个线程可以访问相同的进程构件，比如文件描述符和内存，线程间要考虑一
+致性。
+多线程的优点：
+    通过给每个异步事件类型分配一个单独的线程可以更简单的处理异步事件。这样可以
+    使用同步程序模型处理异步事件。
+    多进程必须使用操作系统提供的复杂机制来共享文件描述符和内存。线程可以自动的
+    访问相同的内存地址空间和文件描述符。
+    有些问题可以分开处理这样可以提高吞吐量。提高并行性。
+    简单来说，交互程序使用多线程来分开处理用户输入输出和程序其它部分可以提高响
+    应时间
+一个线程包含了进程内一个执行上下文所必须的信息，包括线程ID，一组寄存器值，一个
+栈，一个调度优先级和策略，一个信号掩码，一个errno变量以及线程特定数据。进程内的
+所有东西对于同一进程内的线程来说都是共享的，包括代码段，全局堆，程序栈以及文件
+描述符。
+用于检测系统是否支持POSIX thread（pthread）的宏 _POSIX_THREADS，可#ifdef。
+
+线程标识符
+线程标识符，所属进程内唯一。类型pthread_t，考虑可移植性，不可作整数看待。
+#include <pthread.h>
+int pthread_equal(pthread_t tid1, pthread_t tid2);
+此函数用于比较两个线程标识符是否相等。如果相等返回非零，如果不等返回零。
+#include <pthread.h>
+pthread_t pthread_self(void);
+此函数允许线程获取自身的线程标识符，返回调用线程的线程标识符。
+此函数可以与pthread_equal一起使用来识别用自身线程标识符标识的数据结构。
+
+线程创建
+#include <pthread.h>
+int pthread_create(pthread_t *restrict tidp,
+		   const pthread_attr_t *restrict attr,
+		   void *(*start_rtn)(void),
+		   void *restrict arg);
+成功返回0，出错返回其它值。tidp指向的位置会被设置为所分配的线程标识符。attr参数
+用来定制线程属性，使用NULL标识缺省属性。新创建的线程从start_rtn开始执行。这个函
+数有一个参数arg。
+线程创建以后，并不保证新创建的线程和调用线程谁先运行。新创线程可以访问进程的地
+址空间并继承了调用线程的浮点环境和信号掩码。然而未决信号集并没有继承。
+pthread族函数失败的话会返回一个错误码，但他们一般不设置errno。每线程的errno变量
+主要是为了和以前存在的函数兼容的考虑。
+
+线程终止
+如果任何一个线程调用了exit, _Exit或者_exit，则整个进程都会终止。类似发送到线程
+的信号缺省也会终止整个进程。
+一个线程可以以三种方式退出：
+    线程从启动例程返回，返回值就是线程退出码
+    线程可以由进程内的另一个线程取消
+    线程调用pthread_exit
+#include <pthread.h>
+void pthread_exit(void *rval_ptr);
+此函数使调用线程退出。rval_ptr参数方便其它线程调用pthread_join函数。
+#include <pthread.h>
+int pthread_join(pthread_t thread, void **rval_ptr);
+成功返回0，出错返回错误号
+此函数会阻塞调用线程直到指定线程退出。如果指定线程是从启动例程退出，则rval_ptr
+返回指定线程的返回码。如果是被取消的，则rval_ptr设为PTHREAD_CANCELED。通过调用
+这个函数，自动将一个线程放入分离（detached）状态，标识它所拥有的资源可以被回收
+了。如果指定线程已经进入了分离状态，则返回错误EINVAL。
+如果我们对返回值不感兴趣，可以将rval_ptr设为NULL，此时调用pthread_join允许我们
+等待指定线程，但是并不接收其返回值。
+
+#include <pthread.h>
+int pthread_cancel(pthread_t tid);
+此函数可以使指定线程取消。成功返回0，出错返回错误码。
+缺省情况下，此函数调用与指定线程以参数PTHREAD_CANCELED调用pthread_exit类似。但
+是一个线程可以选择忽略或者控制如何取消。pthread_cancel仅仅发送请求，并不会等待
+线程终止。
+类似atexit函数，线程可以安排退出时的回调函数。这些回调函数被记录在一个栈中，所
+以执行顺序和注册的先后顺序正好相反。
+#include <pthread.h>
+void pthread_cleanup_push(void (*rtn)(void *), void *arg);
+void pthread_cleanup_pop(int execute);
+pthread_push_function注册rtn回调，在线程退出时调用，这里的退出有几种情况：
+    调用了pthread_exit
+    响应了一个取消请求
+    以非0参数直接调用了pthread_cleanup_pop函数
+pthread_cleaunup_pop参数execute如果为0则不会调用push的函数。
+这一对函数可能实现成宏，所以要严格成对，因为可能有开括号在两个宏中。
+线程与进程函数的对应
+    fork    pthread_create
+    exit    pthread_exit
+    waitpid pthread_join
+    atexit  pthread_cleanup_push
+    getpid  pthread_self
+    abort   pthread_cancel
+当一个线程已经进入分离状态时，我们无法用pthread_join来等待它退出，这时可以用
+pthread_detach来使指定线程退出。
+#include <pthread.h>
+int pthread_detach(pthread_t tid);
+成功返回0，出错返回错误号。
+
+线程同步
+线程共享内存，需要确保同步。
+例一，由于有系统架构内存写要花费不止一个CPU周期，在这期间可能出现不一致的情
+况。这时就需要同步机制。例二，增加一个变量的例子，需要多次CPU操作（度取，增加，
+写回），这个过程需要同步机制保证。
+使用互斥（锁）机制，给共享资源加锁。
+互斥变量类型pthread_mutex_t，使用前需要调用PTHREAD_MUTEX_INITIALIZER或者
+pthread_mutex_init初始化，如果为互斥锁进行了动态资源分配，需要在结束时调用
+pthread_mutex_destroy释放所分配的资源。
+#include <pthread.h>
+int pthread_mutex_init(pthread_mutex_t *restrict mutex,
+		       const pthread_mutexattr_t *restrict attr);
+int pthread_mutex_destroy(pthread_mutex_t *mutex);
+如果以默认值初始化锁，则将attr设为NULL
+int pthread_mutex_lock(pthread_mutex_t *mutex);
+int pthread_mutex_trylock(pthread_mutex_t *mutex);
+int pthread_mutex_unlock(pthread_mutex_t *mutex);
+pthread_mutex_lock会被阻塞
+pthread_mutex_trylock不会被阻塞，获取不到锁时返回EBUSY
+pthread_mutex_unlock用于释放锁
+以上函数成功返回0，出错返回错误号。
+
+避免死锁
+注意加锁顺序
+
+读写锁
+类似互斥锁，但是允许更好的并行。对于互斥锁，状态只有已锁或者未锁，并且同一时刻
+只允许一个锁。读写锁则有三种状态：读锁，写锁和未锁。读锁同一时刻可以由多个线程
+持有，而写锁同一时刻只可以由一个线程持有。
+一般实现中，如果一个线程已经持有了一个读锁，则会禁止再获得一个读锁，以防止写锁
+饿死。
+读写锁在读多于写的情况下工作地非常好。
+类似互斥锁，读写锁也需要初始化和释放。
+#include <pthread.h>
+int pthread_rwlock_init(pthread_rwlock_t *restrict rwlock,
+			const pthread_rwlockattr_t *restrict attr);
+int pthread_rwlock_destroy(pthread_rwlock_t *rwlock);
+成功返回0，出错返回错误号。
+attr为NULL表示默认属性。
+在释放读写锁之前，需要调用pthread_rwlock_destroy清理。如果初始化给读写锁分配了
+资源则destroy将这些资源释放。
+#include <pthread.h>
+int pthread_rwlock_rlock(pthread_rwlock_t *rwlock);
+int pthread_rwlock_wlock(pthread_rwlock_t *rwlock);
+int pthread_rwlock_unlock(pthread_rwlock_t *rwlock);
+成功返回0，出错返回错误号。
+具体实现可能会限制共享（读）锁的数量。
+#include <pthread.h>
+int pthread_rwlock_tryrdlock(pthread_rwlock_t *rwlock);
+int pthread_rwlock_trywrlock(pthread_rwlock_t *rwlock);
+成功返回0，出错返回错误号。
+当锁可以获取时，这些函数返回0，否则返回EBUSY。
+
+条件变量
+条件变量是线程上另一种可用的同步机制。条件变量给线程们提供了一个汇聚点。当使用
+互斥机制时，条件变量允许线程们等在一个自由竞争的环境中等待任意条件触发。
+条件本身被一个互斥锁保护。一个线程必须获得互斥锁来改变条件状态。其他线程在获得
+锁之前不会注意到条件状态的改变，因为计算条件必须获得锁。
+条件变量使用前必须初始化，类型是pthread_cond_t。可以使用PTHREAD_COND_INITIALIZER
+初始化一个静态分配的变量，如果条件变量是动态分配的，那么使用pthread_cond_init
+初始化。在释放前可以调用pthread_cond_destroy来清理。
+#include <pthread.h>
+int pthread_cond_init(pthread_cond_t *restrict cond,
+		      pthread_condattr_t *restrict attr);
+int phtread_cond_destroy(pthread_cond_t *cond);
+成功返回0，出错返回错误号。
+attr属性同前面所述，NULL表示默认值。
+可以使用pthread_cond_wait等待一个条件成真。
+#include <pthread.h>
+int pthread_cond_wait(pthread_cond_t *restrict cond,
+		      pthread_mutex_t *restrict mutex);
+int pthread_cond_timedwait(pthread_cond_t *restrict cond,
+			   pthread_mutex_t *restrict mutex,
+			   const struct timespec *restrict timeout);
+成功返回0，出错返回错误号。
+传入的mutex参数保护条件变量。
+
+有两个函数来通知线程条件达成
+pthread_cond_signal函数会唤醒一个等待条件的线程，而pthread_cond_broadcast会唤醒
+所有等待该条件的线程
+#include <pthread.h>
+#include <pthread.h>
+int pthread_cond_signal(pthread_cond_t *cond);
+int pthread_cond_broadcast(pthread_cond_t *cond);
+
+线程属性
+数据类型pthread_attr_t
+#include <pthread.h>
+int pthread_attr_init(pthread_attr_t *attr);
+int pthread_attr_destroy(pthread_attr_t *attr);
+成功返回0，出错返回错误号。
+调用init之后attr为缺省值。destroy做清理工作，比如释放init分配的内存等，此外它
+还会将attr初始化为非法值。
+pthread_attr_t隐藏了细节，是不透明的，需要通过特定函数来访问它。
+几个属性detachstate（已分离线程的属性），guardsize（线程栈末尾要保证的大小），
+stackaddr（线程栈的最低地址），stacksize（线程栈的大小）。
+（以下略从12.3节开始）

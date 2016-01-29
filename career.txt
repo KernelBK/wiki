@@ -1,0 +1,87 @@
+
+[[server.linux.dev]]
+
+?~{B0~}?~{B5~}????
+	?~{B5~}?~{B3B5~}??~{B'~}?~{B0~}
+		?~{B(~}?~{B5~} ?~{B'~}?~{C:~}
+	?~{B5~}?~{B3B5~}??~{B5B<C9B>B-~}?~{C)~}
+	?~{B5~}?~{B3B5~}???~{B=C!~}
+?~{C-~}?~{B;B8C6~}?~{B5B7B(B#B:~}
+	?~{B*~}?~{B6~} 
+		~{B4B+~}??
+	~{B>B-~}?~{C)~} 
+		?~{B5B<C9~} ~{B;C=~}??
+	?~{B<B?B<~}
+
+
+
+[[jobs]]
+
+[[human.nature]]
+
+[[jobs.guangzhou]]
+
+http://www.sharewithu.com/forum.php?mod=viewthread&tid=547773&page=1&extra=#pid5746968
+http://www.linkedin.com/today/?trk=hb_tab_news
+
+http://weibo.com/kaifulee?key_word=%E7%AE%80%E5%8E%86&is_search=1 ~{@n?*84<r@zV85<~} 
+file:///D:\dropbox\career\2013
+
+[[jobs.wuhan]]
+[[jobs.shenzhen]]
+
+[[resume.eng]]
+[[resume.chs]]
+    geek
+
+I was 5 years word in 
+
+http://www.careercup.com/
+
+linux
+    [[linaro]]
+
+songbaohua
+~{OW3sK5OB>-@z#,~}3+~{Dj~}IC/SOC~{Ih<F#,R;?n6(VF5D~}MIPS CPU~{#,~} ~{A=?n0YMrCE<65D~}SOC~{#,JlO$N"LeO5=a99#(~}ARM, MIPS~{#)#;~}2+~{Dj~}Linux~{G6HkJ=OnD??*7"#,=S4%9}~}5~{?n2;M,3'IL5D~}chip~{#,G}6/RFV2#,=b>v~}Linux~{F=L(SP9X5DNJLb!#~} ~{?4VP~}deep learning
+
+
+WORK EXPERIENCE                                                                  
+Oct.2012 ? Present     system software engineer in Routon Co. Ltd.
+    Research the STB related products and platform, include interface, function and performace.
+    Developed "Routon H1/H2" product, base on Trident PNX87xx platform, 
+    Developed GCC toolchain include hardware float point accesslator for crossbuild in the product, software performace improved obviously.
+    Fix the crash problem in product, caused by linux kernel exclusion lock not work well and memory problem in hardware.
+?   Associate ported application software.
+?   Coordinate the work between different departments 
+Sep.2010 ? Oct.2011      SOC system engineer in Beijing
+    Researched on high proformance DSP product, include TI C66xx, ADI TS203,Freescale MPC8641D.
+    Build verification 
+    Ported Linux kernel and bootloader to Openrisc processor. Fix a difficult bug on instruction cache coherence, tlb fetch lock.
+    Install EDA tools and manage license server.
+?    
+Sep.2008 ? Sep.2010    SOC front-end engineer in Longson Co. Ltd at Beijing 
+?   Integrating the top-level of LTE interconnection that include 2 application processor, 4 dsp processor, 2 axi2ahb bridge and axi crossbar.
+    Evaluated LTE chip size and power comsume in 65nm process.
+    Developed verification platform of processor interface with ahb and axi. 
+    Fix bugs in the verification as system level and gate level simulation.
+    Integrating USB 2.0 core and PHY to Longson Southbridge system, verified in simulator and FPGA hardware.
+
+
+
+
+
+http://searchjobs.intel.com/bangalore-ind/soc-front-end-design-and-verification-engineer/33631870/job/
+
+
+
+
+ENGLISH TESTS & IT SKILLS                                                                
+     Proficiency: CET-4, CET-6
+?   Programming Language: C~{!"~}C++~{!"~}Java~{!"~}Perl~{!"~}Python~{!"~}Lisp
+?   EDA tools: vcs~{!"~}dc~{!"~}pt~{!"~}debussy(verdi)~{!"~}pp~{!"~}modelsim
+?   Unix tools: shell~{!"~}vim~{!"~}emacs~{!"~}git~{!"~}wiki~{!"~}lex~{!"~}yac
+?   Interface standard: nand~{!"~}emmc~{!"~}smartcard~{#(~}7816~{#)!"~}sd/sdio/mmc~{!"~}usb~{!"~}axi/ahb/apb
+?   Software platform: Unix/Linux~{!"~}Windows~{!"~}Android
+
+
+

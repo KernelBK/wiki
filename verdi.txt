@@ -1,0 +1,32 @@
+[[debussy]]
+
+-sswr restoreFile(s)
+-ssf
+
+training
+	debug workshop
+		Import SV Design into Verdi
+
+[[EnjoyingSystemVerilog_SpringSoftChinaDAC.pdf]]
+
++systemverilogext+.sv+.SV+
+
+veri 混合语言的读取
+	/eda/novas201110/demo/verdi_mixed
+vericom -autoalias -f run_verilog.f
+vhdlcom -f run_vhdl.f
+verdi -lib work
+	
+
+
+查看电路可以发现连线问题。
+
+verdiLog/compiler.log
+
+ctrl + t trace load
+z 波形缩小
+shift + mouse wheel 滚动条左右移动 
+h 波形信号全路径
+x 在代码下面显示数据
+shift + l 重新载入设计, .f的内容有更新也会载入，不用重新打开
+

@@ -1,0 +1,24 @@
+
+From ENV: 
+    0) Physical interface declaration
+    1) Transaction descriptor
+    2) Driver
+    3) Generic Master Agent 
+    4) Generic Slave Agent 
+    5) Monitor
+    6) RAL Adapter Sequence, single domain
+    7) RAL Adapter Sequence, multiplexed domains
+    8) Verification Environment(RAL or non-RAL)
+    9) Verification Environment with Agents(RAL or non-RAL) 
+    10) Testcase
+    11) Agent 
+    12) Testbench Module 
+    13) UVM sequence library
+    14) UVM Sequencer 
+    15) Transaction descriptor testcase
+    16) UVM Scoreboard
+    17) Top Module
+    18) Coverage Template
+    19) Monitor To coverage Connector
+    20) Configuration descriptor 
+

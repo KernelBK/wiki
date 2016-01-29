@@ -1,0 +1,129 @@
+配置文件
+/workspace/trident/apollo_sdk/target/src/sd/os/oslinux/comps/kernel/r9.0/configs/pnx8473_hirf_moca_debug_defconfig
+
+配置到这里编译
+/workspace/trident/apollo_sdk/target/output/objs/pnx8473_hirf_moca_debug
+
+pin mux 配置
+apollo_sdiomc_pin_mux_init
+
+/workspace/trident/apollo_sdk/target/src/sd/os/oslinux/comps/kernel/linux-2.6.34
+
+同步
+cp ./target/src/sd/os/oslinux/comps/kernel/linux-2.6.34/arch/arm/configs/pnx8472_h1_debug_defconfig  ./target/src/sd/os/oslinux/comps/kernel/r9.0/configs/pnx8473_hirf_moca_debug_defconfig
+
+arch/arm/mach-apollo/include/mach/irqs.h
+A9的中断向量号。
+
+
+./arch/arm/mm/proc-v7.S
+./arch/arm/mm/cache-l2x0.c
+
+--mem 参数传递
+编译的时候读取配置文件：dualhd.ini。
+<pre> <code class="">
+uldrpatch /workspace/trident/cowork_trident/sdk/target/output/routon_h1/uldr.bin dualhd.ini
+===== ULDRPATCH 0.5 =====
+ ** MICROLOADER IMAGE FILE: /workspace/trident/cowork_trident/sdk/target/output/routon_h1/uldr.bin
+ ** CONFIGURATION INI FILE: dualhd.ini
+ == Read 53416 bytes from /workspace/trident/cowork_trident/sdk/target/output/routon_h1/uldr.bin
+   core.hdr.size = 00000005
+   core.hdr.tag  = 54410001
+   core.flags    = 00000000
+   core.pagesize = 00001000
+   core.rootdev  = 00001f02
+   ULDRPATCH_MEM0.hdr.size = 00000004
+   ULDRPATCH_MEM0.hdr.tag  = 54410002
+   ULDRPATCH_MEM0.size     = 10000000
+   ULDRPATCH_MEM0.start    = 00000000
+   ULDRPATCH_MEM1.hdr.size = 00000004
+   ULDRPATCH_MEM1.hdr.tag  = 54410002
+   ULDRPATCH_MEM1.size     = 10000000
+   ULDRPATCH_MEM1.start    = 20000000
+   ULDRPATCH_MEMMAP_ARM926.hdr.size   = 00000005
+   ULDRPATCH_MEMMAP_ARM926.hdr.tag    = 5441000c
+   ULDRPATCH_MEMMAP_ARM926.poolid     = 0000
+   ULDRPATCH_MEMMAP_ARM926.bank       = 0000
+   ULDRPATCH_MEMMAP_ARM926.bankoffset = 00d00000
+   ULDRPATCH_MEMMAP_ARM926.poolsize   = 00800000
+   ULDRPATCH_MEMMAP_BIS.poolid     = 0001
+   ULDRPATCH_MEMMAP_BIS.bank       = 0000
+   ULDRPATCH_MEMMAP_BIS.bankoffset = 01500000
+   ULDRPATCH_MEMMAP_BIS.poolsize   = 00040000
+   ULDRPATCH_MEMMAP_ADSP.poolid     = 0002
+   ULDRPATCH_MEMMAP_ADSP.bank       = 0000
+   ULDRPATCH_MEMMAP_ADSP.bankoffset = 02a00000
+   ULDRPATCH_MEMMAP_ADSP.poolsize   = 00848000
+   ULDRPATCH_MEMMAP_VDSP.poolid     = 0003
+   ULDRPATCH_MEMMAP_VDSP.bank       = 0000
+   ULDRPATCH_MEMMAP_VDSP.bankoffset = 03400000
+   ULDRPATCH_MEMMAP_VDSP.poolsize   = 00180000
+   ULDRPATCH_MEMMAP_MALONE.poolid     = 0004
+   ULDRPATCH_MEMMAP_MALONE.bank       = 0000
+   ULDRPATCH_MEMMAP_MALONE.bankoffset = 03600000
+   ULDRPATCH_MEMMAP_MALONE.poolsize   = 042f0000
+   ULDRPATCH_MEMMAP_VRAMHD.poolid     = 0005
+   ULDRPATCH_MEMMAP_VRAMHD.bank       = 0001
+   ULDRPATCH_MEMMAP_VRAMHD.bankoffset = 01000000
+   ULDRPATCH_MEMMAP_VRAMHD.poolsize   = 00788000
+   ULDRPATCH_MEMMAP_VRAMSD.poolid     = 0006
+   ULDRPATCH_MEMMAP_VRAMSD.bank       = 0001
+   ULDRPATCH_MEMMAP_VRAMSD.bankoffset = 01788000
+   ULDRPATCH_MEMMAP_VRAMSD.poolsize   = 003b8100
+   ULDRPATCH_MEMMAP_MBVPHD.poolid     = 0007
+   ULDRPATCH_MEMMAP_MBVPHD.bank       = 0001
+   ULDRPATCH_MEMMAP_MBVPHD.bankoffset = 01b40100
+   ULDRPATCH_MEMMAP_MBVPHD.poolsize   = 017ce000
+   ULDRPATCH_MEMMAP_MBVPSD.poolid     = 0008
+   ULDRPATCH_MEMMAP_MBVPSD.bank       = 0001
+   ULDRPATCH_MEMMAP_MBVPSD.bankoffset = 0330e100
+   ULDRPATCH_MEMMAP_MBVPSD.poolsize   = 00523000
+   ULDRPATCH_MEMMAP_KALCSSGEN.poolid     = 0009
+   ULDRPATCH_MEMMAP_KALCSSGEN.bank       = 0001
+   ULDRPATCH_MEMMAP_KALCSSGEN.bankoffset = 03832000
+   ULDRPATCH_MEMMAP_KALCSSGEN.poolsize   = 012a8000
+   ULDRPATCH_MEMMAP_KALCSSCON.poolid     = 000a
+   ULDRPATCH_MEMMAP_KALCSSCON.bank       = 0000
+   ULDRPATCH_MEMMAP_KALCSSCON.bankoffset = 01540000
+   ULDRPATCH_MEMMAP_KALCSSCON.poolsize   = 01490000
+   ULDRPATCH_MEMMAP_A9ARM926.poolid     = 000b
+   ULDRPATCH_MEMMAP_A9ARM926.bank       = 0000
+   ULDRPATCH_MEMMAP_A9ARM926.bankoffset = 03300000
+   ULDRPATCH_MEMMAP_A9ARM926.poolsize   = 00100000
+   ULDRPATCH_MEMMAP_ARM926TM.poolid     = 000c
+   ULDRPATCH_MEMMAP_ARM926TM.bank       = 0000
+   ULDRPATCH_MEMMAP_ARM926TM.bankoffset = 03580000
+   ULDRPATCH_MEMMAP_ARM926TM.poolsize   = 00080000
+   ULDRPATCH_MEMMAP_MBVPSTDI.poolid     = 000d
+   ULDRPATCH_MEMMAP_MBVPSTDI.bank       = 0000
+   ULDRPATCH_MEMMAP_MBVPSTDI.bankoffset = 03248000
+   ULDRPATCH_MEMMAP_MBVPSTDI.poolsize   = 00090000
+   ULDRPATCH_NONE.hdr.size = 00000000
+   ULDRPATCH_NONE.hdr.tag  = 00000000
+   +0000: 00000005 54410001 00000000 00001000
+   +0010: 00001f02 00000004 54410002 10000000
+   +0020: 00000000 00000004 54410002 10000000
+   +0030: 20000000 0000002c 5441000c 00000000
+   +0040: 00d00000 00800000 00000001 01500000
+   +0050: 00040000 00000002 02a00000 00848000
+   +0060: 00000003 03400000 00180000 00000004
+   +0070: 03600000 042f0000 00010005 01000000
+   +0080: 00788000 00010006 01788000 003b8100
+   +0090: 00010007 01b40100 017ce000 00010008
+   +00a0: 0330e100 00523000 00010009 03832000
+   +00b0: 012a8000 0000000a 01540000 01490000
+   +00c0: 0000000b 03300000 00100000 0000000c
+   +00d0: 03580000 00080000 0000000d 03248000
+   +00e0: 00090000 00000000 00000000 00000000
+  ATAG Words Written: 59
+</code> </pre>
+
+从u-boot传进来的参数表示memmap=xxx，这样内核里面就看不到。
+arch/arm/mach-apollo/pnx8492.c
+parse_tag_memmap 解析tag参数，得到内存的划分，然后给reserve_node_zero()。
+pnx8493_meminfo
+reserve_node_zero
+
+meminfo pnx8493_meminfo 内存的布局mem_init()中读取。
+start_kernel
+	mem_init

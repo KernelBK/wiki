@@ -1,0 +1,20 @@
+脉冲模式
+ddr3 xilinx datasheet
+
+viz 就是
+
+[[../sideband]]
+[[../digital.txt]]
+h, mi1062 interface for second development.
+
+你好，放大器 hello_amp.pdf
+
+mcard, z signal to k7 motor_i0(c3, d3)
+
+
+k7 mainboard edk has benn removed big module for fast simulation
+system clock is given by util_ds_buf which generate clock has 0.1ns delay that case axi4lite read/write failed.
+
+reading k7 mainbaord edk code
+How does data_done signal in nomal_calc come from?
+

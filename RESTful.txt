@@ -1,0 +1,6 @@
+http://www.ruanyifeng.com/blog/2011/09/restful.html
+- RESTful架构，就是目前最流行的一种互联网软件架构。它结构清晰、符合标准、易于理解、扩展方便，所以正得到越来越多网站的采用。
+- EST，即Representational State Transfer的缩写 "表现层状态转化"。
+- URI只代表资源的实体，不代表它的形式。
+
+资源和表现层分离的思想

@@ -1,0 +1,46 @@
+
+开源了编译器和标准库
+
+docs	
+	文档很全面
+
+arch
+	swift source code 
+	- Parse
+	AST form
+	- Sema
+	add type info
+	- SILGen
+	raw SIL
+	- optimization passes
+	- IRGen
+	LLVM IR
+	- LLVM code generator
+	binary code
+
+lib/
+	
+	AST
+	ASTSectionImporter
+	Basic
+	CMakeLists.txt
+	ClangImporter
+	Driver
+	Frontend
+	IDE
+	IRGen
+	Immediate
+	LLVMPasses
+	Markup
+	Option
+	Parse
+	PrintAsObjC
+	SIL			
+		Swift Intermediate Language (SIL)
+		SSA-form IR 
+	SILAnalysis
+	SILGen
+	SILPasses
+	Sema
+	Serialization
+	SwiftDemangle

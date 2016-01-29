@@ -1,0 +1,18 @@
+文档对象模型
+html和xml 的api
+通过创建树来表示文档
+[[DHTML]]
+
+spec
+	level 1, 规划文档结构
+		dom core
+		dom html
+	level 2, 扩展了鼠标和用户界面时间，范围，遍历，CSS支持，xml命名空间
+		视图 事件 样式 遍历 范围
+	level 3 
+		SVG
+		MathML
+		SMIL
+
+dom3
+定义了事件

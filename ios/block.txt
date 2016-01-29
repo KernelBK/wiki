@@ -1,0 +1,8 @@
+
+没有名字的函数 anonymous function
+
+闭包 closure
+block是objc的闭包
+
+[[isa]]
+

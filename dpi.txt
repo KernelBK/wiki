@@ -1,0 +1,7 @@
+
+sv call dpi c, c all matlab load variable_xx.mat 可以直接读取matlab生成的数据，
+可以在matalb中生成数据，save就可以了
+
+这恐怕是最简单的读写数据的方法。
+
+

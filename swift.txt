@@ -1,0 +1,31 @@
+
+开源
+	github
+	[[code/swift]]
+
+featrue
+	没有gc, 使用的是arc
+	Swift中对类的定义和java, c#几乎一样，再也不分头文件和.m文件了。
+	语法消耗我们的时间越少，这门语言就越成功。
+	LLVM编译器做工作只是先把swift翻译成Objctive-C代码，然后再把Objective-C代码翻译成C语言代码，然后再把C语言代码翻译成汇编，最终翻译成机器码。
+	Swift其实就是Objective-C的文本变种
+    使用var、let 区分其是否可变
+	使用模块，不使用头文件。
+
+
+	采用了[[haskell]]中只定义运算符的语言含义
+
+中文版翻译项目
+https://github.com/numbbbbb/the-swift-programming-language-in-chinese
+
+The Swift Programming Language
+	Cocoa 
+	Cocoa.Touch 
+	ARC, automatic reference couting
+
+	objective-c
+		blocks, collection literals, modules
+	playgrounds
+
+tools
+	[[swift.playground]]

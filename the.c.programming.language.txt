@@ -1,0 +1,6 @@
+
+234 The value of a particular constant must be stored in a variable of the proper type, yet it is most convenient for table management if the value occupies the same amount of storage and is stored in the same place regardless of its type.
+202 Since C has no exponentiation operator like the ** of Fortran, let us illustrate the mechanics of function definition by writing a function power(m,n) to raise an integer m to a positive integer power n.
+172 Three small pieces are better to deal with than one big one, because irrelevant details can be buried in the functions, and the chance of unwanted interactions is minimized.
+170 Besides showing how to make effective use of the language, we have also tried where possible to illustrate useful algorithms and principles of good style and sound design.
+

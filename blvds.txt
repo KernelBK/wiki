@@ -1,0 +1,10 @@
+
+[[cdr]]
+[[xilinx_blvds]]
+
+[[blvds_link]]
+
+cyclone3:
+1. Bus LVDS (BLVDS) output uses two single-ended outputs with the second output programmed as inverted. BLVDS input uses LVDS input buffer.
+1. The BLVDS extends the benefits of LVDS to multipoint applications such as in bidirectional backplanes. The loading effect and the need to terminate the bus at both ends for multipoint applications require BLVDS to drive out a higher current than LVDS to produce a comparable voltage swing. 
+1. bus topology, loading effect, and terminations. 

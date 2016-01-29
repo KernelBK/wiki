@@ -1,0 +1,3 @@
+
+SystemServer是Android世界里的核心价值，SurfaceFlinger以及Java服务如PowerManagerService、 WindowManagerService、ActivityManagerService等都是他启动的，并成为他的一部分，他带的嗷嗷叫的兵，共同运行于SystemServer进程空间。
+	SystemServer的崩溃基本意味着Android的Framework的崩溃

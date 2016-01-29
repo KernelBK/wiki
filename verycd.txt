@@ -1,0 +1,6 @@
+
+http://www.VeryCD.gdajie.com/topics/*******/ 
+http://www.VeryCD.gdajie.com/topics/
+注：只要把上述星号替换成你要下载的电驴地址末尾数字如：
+http://www.VeryCD.gdajie.com/topics/1234
+

@@ -1,0 +1,6 @@
+
+1. get win7 from zhouhaifeng
+1. \\192.168.4.85 yangyaowu@zlgmcu.com
+1. asus n55s ghost恢复系统, 可以使用usb-blaster
+1. 安装12.0
+1. nios工程复制以后会出现路径的问题，新建了一个y:盘然后复制文件解决。

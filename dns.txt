@@ -1,0 +1,4 @@
+
+域名系统DNS (Domain Name System)，
+顶级域名TLD (Top Level Domain)
+

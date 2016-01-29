@@ -1,0 +1,29 @@
+
+DuiDesinger
+
+1. duilib入门简明教程.chm
+2. duilib进阶教程.chm
+2013 duilib入门简明教程 整个工程(含资源、代码) .7z
+29782204Duilib_gif.zip
+duilib listcontainter.txt
+duilib(支持gif write wangji).rar
+duilib-master (2).zip
+duilib-master -- 修改版.zip
+duilib-master.zip
+duilib_fig.txt
+duilib_source_SVN256.rar
+duilib_u.zip
+duilib_显示gif图片.rar
+duilib_进阶教程.doc
+DUILIBchm.zip
+duilibview.zip
+duilib中使用MFC.zip
+Duilib中各个类的简单介绍 - qqseyh的专栏 - 博客频道 - CSDN.NET.html
+Duilib介绍以及各个类的简介 - 木有Some - 博客园.html
+duilib入门和xml培训 布局案例.rar
+Duilib入门文档.pdf
+duilib整体介绍 - 乱码涅磐的专栏 - 博客频道 - CSDN.NET.html
+duilib源码分析_v1.0.pdf
+DUIlib编程总结.pdf
+DUIlib编程总结及源码.rar
+MFC中使用duilib.zip

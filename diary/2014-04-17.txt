@@ -1,0 +1,7 @@
+
+约束跨时钟域afifo
+
+重写pcard_pack输入不阻塞
+验证afifo
+验证由ad到aurora的数据通路
+

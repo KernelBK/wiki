@@ -1,0 +1,9 @@
+显式转换也称为强制类型转换 cast
+
+	cast dynamic_cast static_cast const_cast reinterpret_cast 
+
+dynamic_cast 最特殊
+	编译器的属性设置
+	OO的多态
+	
+	用来检查两个类是否有继承关系

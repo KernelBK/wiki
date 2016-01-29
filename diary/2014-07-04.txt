@@ -1,0 +1,6 @@
+
+[[../GPA]]
+
+安装xilinx 14.7 linux版本
+	需要在debian下进行
+

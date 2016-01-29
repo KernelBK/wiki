@@ -1,0 +1,10 @@
+
+1. mount
+init.rc脚本中的mount不是linux shell命令，
+它的格式由init解释，具体参见 system/core/init/builtins.c
+如果要在android启动过程中mount一个可读可写ext3分区 可以这样
+mount ext3 /dev/block/mmcblk0p2  /system  rw
+
+system/core/init/readme.txt 
+
+write <path> <string> [ <string> ]*     Open the file at <path> and write one or more strings to it with write(2).

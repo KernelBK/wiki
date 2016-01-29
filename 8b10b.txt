@@ -1,0 +1,7 @@
+8b10, ebtb
+
+channel
+data frames or streams
+
+不能超过5个0、1
+

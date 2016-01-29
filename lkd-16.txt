@@ -1,0 +1,12 @@
+Author: Joseph Lee
+E-Mail: fdlixiaojun@gmail.com
+
+模块要具有入口和出口函数，入口函数必须符合形式：
+	int my_init(void);
+出口函数必须符合形式：
+	void my_exit(void);
+这两个函数都可以标记为static类型
+通过两个宏调用：
+	module_init(my_init);
+	module_exit(my_exit);
+把模块注册到系统中。

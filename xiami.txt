@@ -1,0 +1,11 @@
+数据位置
+hs.db
+# win7
+file:///C:\Users\yaowu\AppData\Local\longkeymusic
+# xp
+C:\Documents and Settings\Administrator\Local Settings\Application Data\longkeymusic
+
+xiami iphone
+1. 返回主界面的那个X真的很傻X
+1. 收藏的歌手，艺人旁边不弄一个A-Z的选择栏，有100+的项目就不够用了吧
+

@@ -1,0 +1,68 @@
+[[todo]]
+
+[[contact]]
+[[burn]]
+
+[[porting]]
+    [[boot.err.log]]
+
+[[git]] [[svn]]
+[[camera]] [[log.camera]]
+
+[[toolchain]]
+
+[[livesuit]]
+
+[[lichee]]
+	[[boot]]
+		[[u-boot]]
+		[[fex_config]]
+		[[pack]]
+	[[kernel]]
+		[[driver]]	
+			g-sensor
+				[[mma7660]]
+			[[wifi]]
+			[[ir]]
+            [[lcd]] graphic
+            [[ctp]] capacitive touch panel
+            [[gpio]]
+            [[pmu]] axp209
+            [[i2c]]
+            [[fingerprint]]
+            [[3g-dongle]]
+            [[button]]
+            [[usb]]
+
+[[ddr]]
+
+[[android]]
+	[[pack]]
+		[[fex_config]]
+    [[build.error.fix]]
+    [[camera]]
+
+    [[filesystem]]
+    	[[partition]]
+        [[image]]
+
+
+[[repo-git-local-server]]
+
+
+# ref
+http://linux-sunxi.org/Main_Page 最重要的开发信息 
+https://groups.google.com/forum/#!forum/linux-sunxi
+http://www.wits-tech.com/pages/board.jsp A10开发板销售，介绍
+http://blog.csdn.net/fengye245/article/details/7891782
+http://bbs.wits-tech.com/rjzc/index.jhtml WITSBBS论坛 » Pro A10开发板软件技术支持
+	http://www.wits-tech.com/pages/witsteam.jsp# 团队
+http://www.a10bbs.com/forum.php
+
+http://www.hno.se/code/A10/ 有文档下载
+http://a10linux.org/
+http://ibot.rikers.org/%23arm-netbook/ irc聊天记录
+
+http://wiki.xbmc.org/index.php?title=Allwinner_A10_devices 用a10开发的产品
+http://linux-sunxi.org/Main_Page 和驱动，系统有关的资料
+

@@ -1,0 +1,7 @@
+
+1. 增加blvds qsys模块和顶层互联， 没有使用iobuf模块。
+    iobuf模块将差分信号合成为一个数据输入，不满足需求。
+1. 
+1. sram接口换成 avalon接口
+1. 增加master读取slave状态的功能。
+

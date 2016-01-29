@@ -1,0 +1,10 @@
+
+predecessor company was [[hp]]
+
+90000x
+	磷化铟(InP)、快膜封装
+	频带交织
+	ADC 的拼接技术
+	微带线
+
+[[模拟带宽]]

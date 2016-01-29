@@ -1,0 +1,10 @@
+
+allwinner boot kernel log
+
+[   12.442558] [AXP]init charger->rest_vol = 100
+[   12.482696] Unable to handle kernel paging request at virtual address 00632d78
+[   12.489925] pgd = e70f8000
+[   12.490035] [00632d78] *pgd=00000000
+[   12.490035] Internal error: Oops: 5 [#1] PREEMPT
+
+

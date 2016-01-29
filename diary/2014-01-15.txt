@@ -1,0 +1,10 @@
+
+uvm_ref_flow_2013.05
+	uart_ctrl有时钟信号，仿真正常
+
+uvm guide
+uvm class ref
+
+uvm-code
+	test
+		run_test.pl

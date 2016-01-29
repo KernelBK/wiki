@@ -1,0 +1,137 @@
+[[todo]]
+[[机械]]
+[[movie]]
+[[graphic_library]]
+[[travel]]
+[[people]]
+[[literature]]
+[[主义]]
+[[穿越]]
+[[俏皮话]]
+[[公司]]
+[[history]]
+[[language]]
+[[football]]
+[[geography]]
+[[zlg]]
+	[[instrumentation]]
+	[[计量]]
+	[[功率计]]
+[[数据采集]]
+[[mba]]
+[[computer]]
+[[drink]]
+[[china]]
+[[career]]
+[[eda_tools_install]]
+file:///d:\dropbox\wiki
+[[food]]
+[[intel]]
+
+[[art]]
+[[education]]
+[[health]]
+[[design]]
+[[philosophy]]
+[[sociology]]
+[[economic]]
+[[taobao]]
+
+[[english]]
+
+[[myself]]
+[[huan]]
+[[tech_todo]]
+[[app_lunch]]
+[[note]]
+[[blog]]
+[[roadmap]]
+[[weibo]]
+[[house]]
+[[buy]]
+[[粤语]]
+[[tech]]
+[[guangzhou]]
+[[photography]]
+[[work]]
+
+[[2012]]
+----
+
+[[university]]
+[[audio_timeline]]
+[[video_timeline]]
+[[book_reading_timeline]] [[tmp]]
+[[book_to_read]]
+[[read_timeline]]
+[[self]]
+
+[[compiler]]
+[[entertainment]]
+
+[[property]]
+
+# big topic
+中国文学 http://zh.wikipedia.org/zh/%E4%B8%AD%E5%9B%BD%E6%96%87%E5%AD%A6
+[[english-original]]
+[[中国历史]]
+	[[中国史学史]]
+	[[三通]]
+[[书法]]
+[[tools]]
+[[注音符号]]
+[[en2ch-符号]]
+[[顶级会议]]
+
+[[music]]
+
+[[佛教]]
+	- [[大乘]]
+		[[禅宗]]
+	- 小乘
+
+[[zhongyi|中医]]
+[[medicine]]
+
+# links
+- [中国哲学书电子化计划](http://ctext.org/zhs)
+- [日本早稻田大学图书馆](http://www.wul.waseda.ac.jp/kotenseki/advanced_search.html)
+- [东京大学](http://shanben.ioc.u-tokyo.ac.jp/list.php)
+- [汉语字典](http://www.zdic.net/zd/)
+- http://www.gutenberg.org/browse/languages/zh
+
+[[字频表]]
+
+[[Pride_and_Prejudice]]
+
+[[金观涛]] 刘青峰
+
+
+[[沈志华]]
+
+[[红楼梦]]
+燕园三老	
+	- 张中行 
+	- 季羡林 
+	- [[金克木]]
+	
+
+[[A_History_of_Western_Philosophy|西方哲学史]]
+
+刘未鹏
+	// 要给人洗脑，大抵离不开改变人最基本的3个层：认知层、行为层、习惯层。
+	管卫东
+	[[李笑来]]
+
+[[冯唐]]
+	[[李渔]]
+	[[亨利米勒]]
+	[[金瓶梅]]
+
+
+刘一男
+	马秉义
+
+[[steve_jobs]]
+
+[[verycd]]

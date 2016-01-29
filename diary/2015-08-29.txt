@@ -1,0 +1,13 @@
+
+http://www.cnblogs.com/guoadou/archive/2005/03/14/the_pragmatic_programmer.html
+[[../the_pragmatic_programmer]]	
+
+编程之外你最擅长什么事情？
+景仰的程序员
+最喜欢的10个编程工具
+Pragmatic Programmer的作者写了那么多职业发展的文章，Ruby社区的Chad Fowler写了一本书讨论程序员的职业发展，Google的Stevey Yegge谈了那么多关于程序员成长的常识，Joel Spolsky谈了那么多关于程序员修养的要诀。干嘛不去看一看，想一想，做一做呢？
+
+http://blog.csdn.net/g9yuayon
+programming.reddit.com
+
+[[../g9yuayon]]

@@ -1,0 +1,126 @@
+[[javascript/index]]
+[[cpp/index]]
+[[objective-c/index]]
+[[programming.and.mathematics]]
+
+编程语言
+	[[c++]] [[cpp]]
+    [[algol]] [[ada]]
+	java
+	[[scala]]
+	[[lisp]] scheme [[racket]]
+    haskell [[ocaml]]
+	[[perl]] python ruby
+	PHP
+	[[erlang]]
+	[[golang]]
+	[[Io]]
+
+	[[Groovy]] = Java + Python + Ruby + [[Smalltalk]]
+	JRuby
+	Fantom
+	Jython
+	[[lua]]
+	Rust
+	[[JVM.language]]
+		Groovy JRuby Scala [[Clojure]]
+	[[c.sharp]]
+
+模型
+	event.stream.processing
+	[[livestream]]
+
+
+图灵等价 图灵完备
+[[turing.machine]] 图灵机
+
+程序设计语言的范式
+	multi-paradigm 多范式
+	procedural.programming
+	[[functional.programming]] 函数式编程
+	[[object-oriented.programming]] [[oop]]
+	[[imperative.programming]]
+	[[generic.programming]]
+	reflective.programming
+	event-driven.programming
+	[[metaprogramming]]
+	[[Language.Oriented.programming]]
+	[[aspect.oriented.programming]] 面向方面编程 aop
+
+技术主题
+	[[anonymous.function]]	lambda
+	[[multiple.inheritance]] interface
+	[[virtual.function]]
+	[[closure]] 闭包 
+	[[polymorphism]] 多态
+	[[Copy-On-Write]]  
+		引用计数
+	[[higher.order.function]] 高阶函数
+	[[lazy.evaluation]] 惰性求值
+	[[evaluation.strategy]] 求值策略
+	[[pipeline]] 管道
+	静态语言 动态语言
+	亲和力
+	趋势
+		动态语言性能越来越好
+		多核
+	Parametric.Type 参量
+	高内聚 Cohesion 低耦合 Coupling
+	语法糖 syntactic.sugar
+	[[tail.recurssion]] 尾部递归 尾巴递归
+    [[recursion]] 递归
+	[[JVM]]
+	[[JVM.language]]
+	[[serialization]] 永久存储
+	[[exception.handling]] 异常
+	scope 作用域
+	namespace 名称空间
+	[[reflection]] type.introspection 反射 自省
+	[[curring]]	柯里化 
+	[[concurrency]] 并发
+	运行加载机制
+	function.bind [[callback]] delegate signal messaging
+	线程 并发 异步
+	强类型 弱类型 [[type]] 类型推导
+	[[first.class]] 头等函数
+	by-name.parameter 传名参数 [[function.parameter]]
+	抽象类 abstract class
+	断言
+	特质 [[trait]], like Java's interface
+	引用透明性 [[referential.transparency]]
+	仿函数 [[functor]]
+	垃圾回收 [[garbage.collection]]
+
+
+	标示符 
+	变量
+	保留字
+	类型 类型转换
+	进制
+	运算符 算术运算符 [[取模]]
+
+语言掌握的内容分类
+	基本语法 数据类型
+	paradigm, oo functional， 继承, 多态, lambda...
+
+[[software_engineering]] 软件工程
+
+books
+	程序设计语言 Michael Scott
+	程序设计原理 Robert W. Sebesta
+	[[the.art.of.unix.programming]]
+
+[[dry]] [[kiss]] rule.of.three [[yagni]]
+[[coolshell.cn]]
+TIOBE
+
+观点
+	孟岩
+	计算能力和抽象能力
+	"程序语言不重要，重要的是算法"，算法都是相对于某种计算模型，而程序语言就是描述这种计算模型的符号系统。
+	在等待替代C++语言中，Python被Java轻松搅局，Ruby也来添堵。
+
+fortran pascal delphi cobol
+Porject.Euler
+leetcode
+history http://www.levenez.com/lang/

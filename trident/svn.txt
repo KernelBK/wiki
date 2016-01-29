@@ -1,0 +1,12 @@
+
+git svn clone --ignore-paths="^sdk3/*|^recovery/*|^release/*|^others/product_tools*|^others/u_rescovery*|^others/生产工具*|^others/crosstool-ng*|^others/bootloader_h2*" svn://172.16.68.158/trident cowork_trident3_part
+
+#ignore:
+#sdk3
+#recovery
+#release
+#others/product_tools
+#others/u_rescovery
+#others/生产工具
+#others/crosstool-ng
+#others/bootloader_h2

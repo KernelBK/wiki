@@ -1,0 +1,54 @@
+
+http://www.x-powers.com/
+
+cd /sys/devices/platform/sun4i-i2c.0/i2c-0/0-0034
+echo 0x3003 > axp20_reg
+cat  axp20_reg
+
+火牛（Transformer）即变压器 
+
+input: axp20-supplyer as /devices/platform/sun4i-i2c.0/i2c-0/0-0034/axp20-supplyer.28/input/input1
+
+code:
+drivers/power/axp_power
+axp_board_init
+    i2c_register_board_info(pmu_twi_id, axp_mfd_i2c_board_info,  ARRAY_SIZE(axp_mfd_i2c_board_info));  
+        static struct i2c_board_info __initdata axp_mfd_i2c_board_info[] = {    
+
+arch/arm/mach-sun4i/pm/standby
+aw_pm_enter
+    standby(&standby_info);
+
+platform_suspend_ops aw_pm_ops
+    aw_pm_init
+        suspend_set_ops(&aw_pm_ops);
+
+
+kernel/power/suspend.c
+
+
+http://developer.android.com/reference/android/os/PowerManager.html
+
+drivers/staging/android
+
+# flow
+axp_pressshort
+    input_report_key(powerkeydev, KEY_POWER, 1);   
+
+aw_pm_valid
+
+request_suspend_state
+
+drivers/video/sun4i/disp/dev_disp.c
+static struct early_suspend backlight_early_suspend_handler =
+{
+    .level   = EARLY_SUSPEND_LEVEL_DISABLE_FB,
+    .suspend = backlight_early_suspend,
+    .resume = backlight_late_resume,
+};
+    
+
+/system/bin/getevent 
+
+chgcur 
+

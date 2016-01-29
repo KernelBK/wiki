@@ -1,0 +1,9 @@
+
+aspect.oriented.programming 面向方面编程
+
+ood, oop面向名词领域，
+aop面向动词领域
+	源码无关性
+
+pop面向过程编程
+

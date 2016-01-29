@@ -1,0 +1,14 @@
+know: ruanyifeng
+
+收集世界上所有的信息，并且整理出信息之间的关系；
+描述信息的格式
+	每一条信息叫topic
+		包含一个或多个type
+			包含一个或多个property
+				包含一个值topic
+mql
+
+api
+例子
+	fmdb
+

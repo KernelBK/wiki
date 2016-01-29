@@ -1,0 +1,20 @@
+
+El.Capitan
+Yosemite
+
+ls -l@
+	com.apple.FinderInfo
+
+xattr -d com.apple.FinderInfo *
+
+Paragon NTFS 
+移动硬盘文件格式是不是 NTFS？ OS X 默认对 NTFS 只能读，不能写。
+可以安装软件如 Paragon NTFS 来添加写支持。
+
+Mac OS X 10.6 Snow Leopard: the Ars Technica review http://arstechnica.com/apple/2009/08/mac-os-x-10-6/ 
+
+vim是个问题
+map <M-d> <C-d>
+
+brew
+

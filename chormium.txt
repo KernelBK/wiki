@@ -1,0 +1,10 @@
+
+load page
+parse code
+parse tag
+build dom tree
+render tree
+renderlayer tree 
+layout
+paint
+

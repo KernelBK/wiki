@@ -1,0 +1,108 @@
+iMPACT Version: Oct 13 2013 10:22:21
+
+iMPACT log file Started on Wed Oct 21 13:51:43 2015
+
+Preference Table
+Name                 Setting             
+StartupClock         Auto_Correction     
+AutoSignature        False               
+KeepSVF              False               
+ConcurrentMode       False               
+UseHighz             False               
+ConfigOnFailure      Stop                
+UserLevel            Novice              
+MessageLevel         Detailed            
+svfUseTime           false               
+SpiByteSwap          Auto_Correction     
+AutoInfer            false               
+SvfPlayDisplayComments false               
+AutoDetecting cable. Please wait.
+*** WARNING ***: When port is set to auto detect mode, cable speed is set todefault 6 MHz regardless of explicit arguments supplied for setting the baudrates
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 10.2.1.0. WinDriver v10.21 Jungo (c) 1997 - 2010 Build Date: Aug 31 2010 x86_64 64bit SYS14:14:44, version = 1021.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1303.
+File version of d:/Xilinx/14.7/ISE_DS/ISE/data/xusb_xlp.hex = 1303.
+Firmware hex file version = 1303.
+PLD file version = 0012h.
+ PLD version = 0012h.
+Type = 0x0004.
+ ESN device is not available for this cable.
+Identifying chain contents...'0': : Manufacturer's ID = Xilinx xc6slx45, Version : 4
+INFO:iMPACT:1777 - 
+   Reading d:/Xilinx/14.7/ISE_DS/ISE/spartan6/data/xc6slx45.bsd...
+INFO:iMPACT:501 - '1': Added Device xc6slx45 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+Elapsed time =      0 sec.
+Elapsed time =      0 sec.
+Elapsed time =      0 sec.
+Elapsed time =      0 sec.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 10.2.1.0. WinDriver v10.21 Jungo (c) 1997 - 2010 Build Date: Aug 31 2010 x86_64 64bit SYS14:14:44, version = 1021.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 12 MHz.
+Cable connection established.
+Firmware version = 1303.
+File version of d:/Xilinx/14.7/ISE_DS/ISE/data/xusb_xlp.hex = 1303.
+Firmware hex file version = 1303.
+PLD file version = 0012h.
+ PLD version = 0012h.
+Type = 0x0004.
+ ESN device is not available for this cable.
+Unprotect sectors: FALSE
+Maximum TCK operating frequency for this device chain: 25000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': SPI access core not detected. SPI access core will be downloaded to thedevice to enable operations.
+INFO:iMPACT - Downloading core file   d:/Xilinx/14.7/ISE_DS/ISE/spartan6/data/xc6slx45_spi.cor.
+'1': Downloading core...
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+done.
+'1': Reading status register contents...
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1100 1110 1100 
+INFO:iMPACT:2492 - '1': Completed downloading core to device.
+'1': IDCODE is 'ef4017' (in hex).
+'1': ID Check passed.
+'1': IDCODE is 'ef4017' (in hex).
+'1': ID Check passed.
+'1': Erasing Device.
+'1': Using Bulk Erase.
+'1': Erasing non-volatile quad-enable bit...
+'1': Programming Flash.
+'1': Reading device contents...
+done.
+'1': Verification completed.
+'1':Programming in x4 mode.
+W25Q64FV Status Register Contents = 0x0200.
+QUAD ENABLE                                       :         1
+STATUS REGISTER PROTECT 1                         :         0
+STATUS REGISTER PROTECT 0                         :         0
+SECTOR PROTECT                                    :         0
+TOP/BOTTOM PROTECT                                :         0
+BLOCK PROTECT BIT 2                               :         0
+BLOCK PROTECT BIT 1                               :         0
+BLOCK PROTECT BIT 0                               :         0
+'1': Configuration data download to FPGA was not successful. DONE did not gohigh, please check your configuration setup and mode settings.
+INFO:iMPACT - '1': Flash was not programmed successfully.
+Elapsed time =    181 sec.
+
+
+

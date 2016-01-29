@@ -1,0 +1,6 @@
+
+cat /proc/interrupts
+cat /proc/devices
+
+mdev -s
+

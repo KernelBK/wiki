@@ -1,0 +1,12 @@
+[[路由器]]
+
+二叉线索查找路由表
+
+自治系统AS(Autonomous System)
+?
+内部网关协议IGP(InteriorGatewayProtocol)
+	[[RIP]]
+	[[OSPF]]
+外部网关协议EGP(ExternalGatewayProtocol)
+	[[BGP]]
+

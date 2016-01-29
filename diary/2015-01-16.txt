@@ -1,0 +1,11 @@
+
+[[../John.Carmack]]
+
+电机卡 转速通道A，B只接入一个信号，数据会正负变化。
+瑞萨
+
+get share sort 
+
+mcard默认校准参数的选择。
+
+

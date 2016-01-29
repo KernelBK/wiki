@@ -1,0 +1,6 @@
+
+http://linuxtoy.org/archives/firefox-os-architecture-brief-1.html
+	http://linuxtoy.org/archives/mozilla-boot-to-gecko-os.html
+		https://wiki.mozilla.org/B2G/Architecture
+
+allwinner sdk 有新的tag homlet-apollo-lichee-v1.4

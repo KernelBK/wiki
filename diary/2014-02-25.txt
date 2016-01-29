@@ -1,0 +1,27 @@
+
+评估fpga需要使用的面积
+	运算优化到像处理器一样的调度运算。
+
+Selected Device : 6slx45tfgg484-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             256  out of  54576     0%  
+ Number of Slice LUTs:                 3534  out of  27288    12%  
+    Number used as Logic:              3534  out of  27288    12%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   3720
+   Number with an unused Flip Flop:    3464  out of   3720    93%  
+   Number with an unused LUT:           186  out of   3720     5%  
+   Number of fully used LUT-FF pairs:    70  out of   3720     1%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                           3
+ Number of bonded IOBs:                   3  out of    296     1%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+ Number of DSP48A1s:                     17  out of     58    29%  
+

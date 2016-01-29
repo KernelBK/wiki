@@ -1,0 +1,20 @@
+
+channel bonding
+	channel bonding character
+	the receiveing MGTs can determine the skew between them, then adjust the latency of FIFO in their receive datapaths to compensate
+
+alignment
+
+idle, oob: out-of-band
+
+电气：
+	emphasis
+	receive equalization
+	termination impedance matching
+	phase-lock loops
+	clock data recovery
+	encoding/decoding
+		8b10b
+		64b66b
+		sonet/sdh
+

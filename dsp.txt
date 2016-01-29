@@ -1,0 +1,16 @@
+
+
+
+# digital signal processing
+adc 
+dac
+
+# dsp device
+memory-address calculation unit
+saturaion arithmetic, in which operations that produce overflows will accumulate at the maximum value.
+
+1976, TMS5100, the industry's first digital signal processor
+1980, 
+
+[[tms320]]
+

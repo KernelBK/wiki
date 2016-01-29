@@ -1,0 +1,5 @@
+
+facebook
+
+protobuf only serialization, thrift full rpc protocol.
+grpc 

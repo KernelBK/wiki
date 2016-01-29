@@ -1,0 +1,64 @@
+
+重组html
+左右滑动
+
+
+[[AFNetwork]] 			-- 通用网络库
+[[GCDiscreetNotificationView]] 			-- 顶部弹出并会自动消失的通知栏
+Thread 			-- 后台线程对象，处理后台发送带图片的动弹
+SoftwareGroup 			-- 所有软件索引页以及软件分组页
+Friends 			-- 好友列表页，包括粉丝与关注者
+Search 			-- 搜索页
+Favorite 			-- 收藏页
+[[MBHUD]] 			-- 载入提示控件
+FTColor 			-- 富文本显示控件
+[[EGOImageLoading]] 			-- 异步图像控件
+User 			-- 其他用户个人专页以及登陆用户专页
+Comment 			-- 评论列表页以及发表评论页
+AsyncImg 			-- 异步图像控件，总要用于列表中用户头像加载
+Setting 			-- 登录，注销以及关于我们
+Profile 			-- 动态页，发表留言，以及对话气泡
+News 			-- 新闻，问答的列表以及所有类型的文章详情页
+Tweet 			-- 动弹列表，发表动弹以及动弹详情
+Helper 			-- 项目辅助类
+TBXML 			-- xml解析，反序列化所有API返回的XML字符串
+ASIHttp 			-- 另一种网络库，负责用户登陆以及发送带图片的动弹
+Model 			-- 项目所有的实体对象
+Resource 			-- 项目资源
+
+下面是 Model 目录的子对象：
+> Model<br>
+> ├ Tweet 动弹列表单元，也用于动弹详情<br>
+> ├ News 新闻列表单元<br>
+> ├ Post 问答列表单元<br>
+> ├ Message 留言列表单元<br>
+> ├ Activity 动态列表单元<br>
+> ├ Config 程序配置设置<br>
+> ├ SingleNews 新闻详情<br>
+> ├ SinglePostDetail 问答详情<br>
+> └ Comment 评论列表单元<br>
+> └ Software 软件详情<br>
+> └ Blog 博客详情<br>
+> └ Favorite 收藏列表单元<br>
+> └ SearchResult 搜索结果列表单元<br>
+> └ Friend 好友列表单元<br>
+> └ SoftwareCatalog 软件分类列表单元<br>
+> └ SoftwareUnit 软件列表单元<br>
+> └ BlogUnit 博客列表单元<br>
+
+
+## 项目的功能流程 ##
+
+#### 1、APP启动流程 ####
+
+OSAppDelegate 的启动方法中，声明一个 [[UITabBarController]]，然后依次将
+NewsBase
+PostBase
+TweetBase2
+ProfileBase
+SettingView
+填充到5个UITabItem里
+
+
+[[UIApplication]]
+

@@ -1,0 +1,11 @@
+
+vpid 
+asid
+tlb
+vmm
+vmcs
+
+ept extened.page.table À©Õ¹Ò³±í
+
+
+

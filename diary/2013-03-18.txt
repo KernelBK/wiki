@@ -1,0 +1,2 @@
+
+1. test memory for a10 adr410 board

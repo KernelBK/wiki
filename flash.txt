@@ -1,0 +1,17 @@
+
+[[M25P64]]
+
+http://www.laoyaoba.com/forums/archiver/?tid-1111846.html
+	NOR Flash和NAND Flash
+
+SLC=Single-Level Cell, 即1bit/cell，读写速度快，寿命长，价格是MLC三倍以上，约10万次读写寿命。
+MLC=Multi-Level Cell, 即2bit/cell ,速度一般，寿命一般，价格一般，约3000-10000次读写寿命。
+TLC=Triple-Level Cell,  即3bit/cell，速度慢，寿命短，价格便宜，约500次读写寿命，技术在逐渐成长中。
+	eMMC ( Embedded Multi Media Card) 采用统一的MMC标准接口， 把高密度NAND Flash以及MMC Controller封装在一颗BGA芯片中
+	eMMC下一个世代将会由UFS(Universal Flash Storage)规格接棒
+	
+
+MMC 的 SPI mode 最大传输速率为 20 Mbit/s；
+SD 的 SPI mode 最大传输速率为 25 Mbit/s。
+eMMC傳輸速度高達52MB/s，電壓範圍為1.8v至3.3v
+

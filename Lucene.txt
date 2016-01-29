@@ -1,0 +1,6 @@
+
+java的高性能全文搜索引擎
+CLucene C++实现
+
+Doug.Cutting
+	V-Twin

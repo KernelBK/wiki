@@ -1,0 +1,31 @@
+
+ASI和SPI两种码流输入
+
+数字电视调制器 
+
+QAM调制器
+
+PSI/SI
+
+CA条件接受系统
+
+PMT是Program Map Table的简称,即”节目影射表”
+
+CW发送给这个伪随机序列发生器，那么就可以获得解扰序列，然后再用解扰序列恢复原始信号
+
+授权控制信息（ECM, Entitle Control Message）和授权管理信息（EMM, Entitle Manage Message）。
+ECM中还包括节目来源、时间、内容分类和节目价格等信息。
+EMM中还包含地址、用户授权信息。
+
+[浅谈数字电视PSI/SI信息及其功能](http://www.sxkp.com/sxkjb_11_1/kjbnews/News_View.asp?NewsID=5695)
+- 在DVB接收机中通常都使用电子节目指南（EPG）来达到快速查找节目的目的，而生成EPG的数据又来源于DVB码流中的有业务信息SI信息。
+- MPEG-2中，专门定义了PSI信息，其作用是自动设置和引导接收机进行解码。
+- 通常一个频道对应一个TS流，一个频道的TS流由多个节目及业务组成。 
+- 在复用时通过复用器插入到TS流中，并用特定的PID（包标识符）进行标识。
+- SI是对整个系统所有码流的描述, 它包括PSI信息。
+- PSI信息  PSI由节目关联表（PAT）、条件接收表（CAT）、节目映射表（PMT）和网络信息表（NIT）组成
+- SI信息表: BAT, SDT, EIT, RST, TDT, TOT, ST
+
+# ref
+- [DVB标准大全](http://www.cnblogs.com/allengaller/articles/1656897.html)
+- [CA 解密系统原理及流程](http://blog.csdn.net/andyhuabing/article/details/7714418)

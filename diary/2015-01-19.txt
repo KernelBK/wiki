@@ -1,0 +1,13 @@
+
+mcard, 1 v voltage range config for test.
+
+mcard system debug,
+	z signal
+¸Ä°æ
+
+When new people ask technology question frequencily, you can let him do exactly process you have done.
+
+[[../¿ä½±]]
+[[../case.interview]]
+[[../news]]
+[[../ÏþËµ]]

@@ -1,0 +1,7 @@
+
+[[signal.slot]]
+
+DirectUI
+QWidget
+QPA, Qt Platform Abstraction
+

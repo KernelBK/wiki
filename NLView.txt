@@ -1,0 +1,6 @@
+
+schematic generation and schematic viewing software components.
+
+synopsys
+mentor
+vivado

@@ -1,0 +1,70 @@
+
+[[let.over.lambda]]
+
+[[APUE]]
+      [[apue-11.12]]
+      [[apue-13]]
+      [[apue-14]]
+      [[apue-15]]
+      [[apue-16]]
+      apue-3.4.5
+      [[apue-6]]
+      [[apue-7]]
+      [[apue-8.9.10]]
+      setjmp
+      vaargs
+      
+ARM Design Examples
+      embedded-arm
+      embedded-basic
+      embedded-mem
+      
+CSAPP
+      [[csapp-10]]
+      [[csapp-7]]
+      
+Expert C Programming
+      [[ecp-1-2-11]]
+      [[ecp-3-8]]
+      [[ecp-4-9-10]]
+      ecp-5-6-7
+      ecp-contents
+      [[ecp-examples]]
+      
+Linux Device Driver
+      [[ldd-14]]
+      ldd-3
+      
+Linux Kernel Development
+      lkd-1-2
+      [[lkd-11]]
+      [[lkd-13]]
+      [[lkd-16]]
+      lkd-3-4-5
+      lkd-6-7
+      
+Programming Perl
+      faq
+      prime
+      quik_func
+      
+[[TCP.IP.Illustrated]]
+      [[tcpip-1]]
+      [[tcpip-app-tcp]]
+      [[tcpip-arp]]
+      tcpip-icmp
+      tcpip-igmp
+      tcpip-ip
+      tcpip-link
+      tcpip-tcp
+      tcpip-udp
+      
+The Mythical Man-Month
+      [[man-month]]
+      
+Understanding Linux Network Internals
+	[[ulni-p1]]
+	ulni-p3
+	ulni-p7
+        
+[[NUIX.Network.programming]] [[unp]]

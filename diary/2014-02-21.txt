@@ -1,0 +1,9 @@
+
+新建空模块挂到edk axi interconnection上
+windows 下matlab编译的库支持3个
+edk 互联编译不出错很少提示
+
+
+sv call matlab engdemo
+/workspace/sv/dpi_demo
+

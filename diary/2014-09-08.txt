@@ -1,0 +1,3 @@
+
+调试adc和运算后的数据正确性
+	从chipscope里面dump数据，通过matlab分析。

@@ -1,0 +1,28 @@
+
+/* Object example 1 */
+
+var obj = new Object();
+
+/* Object example 2 */
+
+var obj = {};
+
+obj = {
+    name: {
+        first: 'Gandalf',
+        last: 'the Grey'
+    },
+    address: 'Middle Earth'
+};
+
+/* Object example 3 */
+
+function Book(title, pages, isbn){
+    this.title = title;
+    this.pages = pages;
+    this.isbn = isbn;
+    this.printIsbn = function(){
+        console.log(this.isbn);
+    }
+}
+

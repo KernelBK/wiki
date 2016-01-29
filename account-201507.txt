@@ -1,0 +1,61 @@
+
+day  1
+	m, 19, credit_card
+day  2
+day  3
+	m，21，credit_card
+day  4
+	衣服，背带裤，454，huan，credit_card
+	外婆家，273，credit_card
+	42，麦当劳，credit_card
+	阳光酒店，讲座，facebook
+day  5
+	可乐，8.5，credit_card
+	水果，西瓜，31.1，credit_card
+	早茶，周超，陈志军，黄小波，301，credit_card，御和酒家
+day  6
+day  7
+	水果，32.3，credit_card
+day  8
+day  9
+	账单，3473.41
+day 10
+	全家，40.8
+day 11
+	m, 31
+day 12
+	探鱼，242， 5人AA
+day 13
+day 14
+day 15
+	alipay 233
+day 16
+	m, 21
+day 17
+	屈臣氏，73，防晒霜
+	alipay 74.5
+	alipay 150.5
+day 18
+day 19
+	m 41
+	携程，授权，368
+	携程，456
+	如家，169
+day 20
+day 21
+day 22
+	alipay, 25.2
+day 23
+day 24
+day 25
+	携程，撤销，368
+	家乐福，133.5，鸡翅，冰淇淋
+	alipay, 29.48
+day 26
+	m,28
+	还款，3474
+day 27
+day 28
+day 29
+day 30
+day 31

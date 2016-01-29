@@ -1,0 +1,14 @@
+
+[[GitHub 中国开发者年度报告v1.0]]
+
+git remote add origin git@github.com:4get/freq_hanzi_word.git
+git push -u origin master
+
+
+[如何高效利用GitHub](http://www.yangzhiping.com/tech/github.html)
+
+使用public key
+https://help.github.com/articles/generating-ssh-keys
+
+协作
+	https://help.github.com/articles/fork-a-repo/

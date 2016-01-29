@@ -1,0 +1,10 @@
+
+三个版本，2007， 2010， 2014；
+中文翻译了第一版，2007
+
+
+[[message.queue]]
+
+pip install pygeocoder dnspython3 python3-memcached pyzmq gunicorn httpbin requests WebOb Werkzeug flask beautifulsoup4 requests selenium lxml
+
+

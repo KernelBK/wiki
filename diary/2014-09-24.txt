@@ -1,0 +1,11 @@
+
+blvds调试，
+昨天解决的问题
+接收的数据没有采用blvds clock 做同步处理。
+timeout reload括号错误。
+
+7卡同时测试。
+
+Vpp
+
+偏置很大

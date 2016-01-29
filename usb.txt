@@ -1,0 +1,32 @@
+
+USBĞÅºÅ²âÊÔÏÖÔÚÖ÷Òª¼¯ÖĞÔÚÑÛÍ¼ÉÏ
+
+http://www.52rd.com/Blog/Detail_RD.Blog_swordlife_17643.html
+	
+Documentation/usb/proc_usb_info.txt
+ mount -t usbfs none /proc/bus/usb
+mount -t usbdevfs none /proc/bus/usb
+
+/proc/bus/usb
+/proc/bus/usb/devices
+/proc/bus/usb/drivers
+/proc/bus/usb/busNo 
+
+usbç³»ç»Ÿæ¡†æ¶ä¸­è®¾å¤‡ï¼Œé…ç½®ï¼Œæ¥å£ï¼Œç«¯ç‚¹å¯¹åº”ä¸åŒçš„å‚æ•°ï¼Œè¦åŒºåˆ†å¼€ã€‚ 
+
+
+isochronous transfer
+    http://msdn.microsoft.com/en-us/library/windows/hardware/hh406225%28v=vs.85%29.aspx
+        the time is divided into consecutive logical chucks are called bus intervals
+
+cypress Streaming Data through Isochronous or Bulk Endpoints on EZ-USBÂ® FX2â„¢ and FX2LPâ„¢
+    Isochronous endpoints have a pre-negotiated amount of USB bandwidth with a pre-negotiated delivery latency. The pre-negotiated bandwidth is defined by setting the wMaxPacketSize field of the endpoint descriptor
+    The latency is defined by setting the bInterval field of the endpoint descriptor.
+
+packet buffers 
+
+ref:
+http://docs.blackfin.uclinux.org/kernel/generated/usb/index.html
+http://www.linux-usb.org/USB-guide/c607.html
+
+

@@ -1,0 +1,7 @@
+
+zoo=('wolf','elephant','penguin')
+
+len()
+[]
+
+

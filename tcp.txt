@@ -1,0 +1,26 @@
+
+TCP window, burst
+window size, flow control
+
+每一条TCP 连接只能有两个端点(endpoint)，每一条TCP 连接只能是点对点的（一对一）
+SYN, SYN-ACK, and ACK.
+FIN, FIN-ACK, and ACK
+
+ephemeral
+
+TCP 把连接作为最基本的抽象。
+
+[[socket]]
+
+停止等待协议
+自动重传请求ARQ (Automatic Repeat reQuest
+加权平均往返时间RTT
+
+
+慢开始和拥塞避免算法
+
+TCP 的有限状态机
+
+
+
+

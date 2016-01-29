@@ -1,0 +1,12 @@
+
+server
+	root
+	update
+	merge
+	chunk
+
+sql
+	libmysql
+	jdbc
+
+stmt

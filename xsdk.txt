@@ -1,0 +1,20 @@
+
+D:\Xilinx\14.7\ISE_DS\EDK\bin\nt64\xsdk.exe -workspace W:\pcard\working\sdk
+
+导入close掉的项目，Project Explorer, 右键 import... 设置目录，勾选。。
+
+u32 define in : #include "xil_io.h"
+
+xil_types.h can not found.
+	删除bsp重建名字相同的bsp.
+
+libxil
+oslib_rm.pdf
+
+[[xmd]]
+
+xsdk -workspace ./SDK
+
+ hex how debug infomation
+ 	1. in the menu, Windows > Preferences > C/C++ > Debug
+ 	1. choose Hexadecimal in "Default number format"

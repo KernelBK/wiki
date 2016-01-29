@@ -1,0 +1,50 @@
+
+新电脑
+
+操作系统：Windows 7 旗舰版 Service Pack 1 (Build 7601), 64-bit
+主板：技嘉 B75M-D3V
+显示器：通用即插即用监视器
+处理器：Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz 四核
+内存：8.00 GB
+硬盘：希捷 ST1000DM003-1CH162(1000GB)    序列号：Z1D7T1R2    使用时间：32小时    温度：32℃
+显卡：NVIDIA GeForce 210 (128 MB)
+声卡：High Definition Audio 设备
+Realtek High Definition Audio
+网卡：Realtek PCIe GBE Family Controller    MAC地址：74-D4-35-12-36-E9    IP地址：192.168.4.21
+	VirtualBox Host-Only Ethernet Adapter    MAC地址：08-00-27-00-E0-8A    IP地址：192.168.56.1
+外网IP：未知
+IE版本：8.0.7601.17514
+Flash版本：11.9.900.117  (IE)          11.9.900.117  (非IE)
+开机时间：2013年12月10日 08:35:55        系统已运行：0小时8分钟50秒
+上次关机时间：2013年12月10日 08:35:38
+系统安装日期：2013年12月06日 10:23:56
+----------- 魔方电脑大师  - 小报告 -  http://mofang.ithome.com ----------
+
+
+1. new pc 
+	ghost
+	vim, .vimrc, vimwiki
+	xshell, 配置界面和yyw.xcs, ssh.ip
+	virtualbox, 
+	qq, 
+	office2003, 
+	acrobat 需要打开确认，配置，记住打开位置， 注释
+	itunes, 需要打开确认
+	flash_player
+	mail, outlook
+	svn \\192.168.0.8\测量仪器\软件\基本系统\TortoiseSVN
+	网络共享映射
+	ultraiso
+	nod, 可以在局域网升级
+	vpn
+
+
+点餐
+erp
+
+not install 
+	git, 
+	visio
+	vmware
+
+windows mac : 74d4351236e9

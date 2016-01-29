@@ -1,0 +1,29 @@
+
+1. idr410
+     从mmc0向mmc2烧写
+    android 4.0.4
+        lcd显示，要么只显示开机进度条，要么直接崩溃。
+    android-jb版本
+        启动到挂载分区失败  
+            可能内核找不到分区表;PhoneixCard工具需要更新
+
+1. 分区不能挂载
+[root@workspace workspace]# mount /dev/sdf7 /mnt/
+mount: wrong fs type, bad option, bad superblock on /dev/sdf7,
+       missing codepage or helper program, or other error
+       In some cases useful info is found in syslog - try
+       dmesg | tail  or so
+
+[root@workspace workspace]# dmesg | tail 
+[  924.238395] Dev sdf: unable to read RDB block 0
+[  924.238476]  sdf: unable to read partition table
+[  924.258328] sdf: detected capacity change from 1980760064 to 0
+[  927.622619] sd 4:0:0:0: [sdf] 3887104 512-byte logical blocks: (1.99 GB/1.85 GiB)
+[  927.637421] sd 4:0:0:0: [sdf] No Caching mode page present
+[  927.637429] sd 4:0:0:0: [sdf] Assuming drive cache: write through
+[  927.659374] sd 4:0:0:0: [sdf] No Caching mode page present
+[  927.659380] sd 4:0:0:0: [sdf] Assuming drive cache: write through
+[  927.668736]  sdf: sdf1 sdf2 sdf3 < sdf5 sdf6 sdf7 sdf8 sdf9 sdf10 sdf11 sdf12 sdf13 >
+[ 1023.833283] EXT4-fs (sdf7): bad geometry: block count 131072 exceeds size of device (89600 blocks)
+
+1. 

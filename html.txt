@@ -1,0 +1,33 @@
+
+xhtml
+html5
+
+元素 标签 内容 
+属性
+	class id style title
+标题 段落
+样式
+	style link div span font center
+链接
+图像
+表格
+列表
+块 
+布局
+表单
+	input button option optgroup select 
+框架
+内联框架
+背景
+颜色
+颜色名
+
+文档类型
+	<!DOCTYPE html>
+头部
+	head title base link meta script style
+脚本
+实体
+url
+
+

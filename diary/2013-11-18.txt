@@ -1,0 +1,14 @@
+
+blvds_link
+1. avalon timing read latency=0 is no problem.
+ 去掉了stp2.stp综合后可以运行。
+2. 更进一步对fifo异常处理。
+3. 验证， 除了传输以外还有错误的处理， 寄存器的遍历。
+4. 文档。
+4. slave fifo不能清空。
+
+
+
+book: 感悟设计
+工业时代，互联网时代
+

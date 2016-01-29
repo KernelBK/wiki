@@ -1,0 +1,13 @@
+
+aurora vcs仿真参数-override_timescale使用以后会造成tx_lock信号错误。
+
+aurora send and receive axi4stream interface simulation done.
+
+aurora edk test project
+	check reset signal
+
+同时采样怎么保证
+
+aurora user_clk作为axis接口的时钟和系统的axis时钟不一致，需要做跨时钟域处理。
+
+

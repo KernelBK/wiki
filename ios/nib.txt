@@ -1,0 +1,12 @@
+
+xml
+
+file's Owner 表示View对应的Controller类
+Controller类会有一个view变量，指向这个view的实例
+	IBOutlet指向view上的控件
+事件:　IBAction
+
+IB对于多人协作不是很方便
+
+[[blog]]
+

@@ -1,0 +1,49 @@
+
+mkdir 0
+busybox mount /dev/block/mmcblk0p1 0
+
+--------fastboot partitions--------
+-total partitions:11-
+-name-          -blk-           -cnt-       
+bootloader  : 0x12000         0x8000        
+env         : 0x1a000         0x8000        
+boot        : 0x22000         0x10000       
+system      : 0x32000         0xa0000       
+data        : 0xd2000         0x100000      
+misc        : 0x1d2000        0x8000        
+recovery    : 0x1da000        0x10000       
+cache       : 0x1ea000        0x40000       
+private     : 0x22a000        0x8000        
+sysrecovery : 0x232000        0xa0000       
+UDISK       : 0x2d2000        0xe6000   
+
+
+
+# nand partion
+4; nanda     bootloader		mmcblk0p3
+5; nandb     env			mmcblk0p5
+6; nandc     boot			mmcblk0p6
+7; nandd     system			mmcblk0p7
+8; nande     data			mmcblk0p8
+9; nandf     misc			mmcblk0p9
+10; nandg     recovery		mmcblk0p10
+11; nandh     cache			mmcblk0p11
+12; nandi     private		mmcblk0p12
+13; nandj     backup		mmcblk0p13
+14; nandk     udisk			mmcblk0p1
+
+              Device Boot      Start         End      Blocks  Id System
+/dev/block/mmcblk0p1          184833      241664      454655+  b Win95 FAT32
+/dev/block/mmcblk0p2   *        4609        6656       16384   6 FAT16
+/dev/block/mmcblk0p3               1      184833     1478656  85 Linux extended
+/dev/block/mmcblk0p5            6657        8704       16384  83 Linux
+/dev/block/mmcblk0p6            8705       12800       32768  83 Linux
+/dev/block/mmcblk0p7           12801       53760      327680  83 Linux
+/dev/block/mmcblk0p8           53761      119296      524288  83 Linux
+/dev/block/mmcblk0p9          119297      121344       16384  83 Linux
+/dev/block/mmcblk0p10         121345      125440       32768  83 Linux
+/dev/block/mmcblk0p11         125441      141824      131072  83 Linux
+/dev/block/mmcblk0p12         141825      143872       16384  83 Linux
+/dev/block/mmcblk0p13         143873      184832      327680  83 Linux
+
+

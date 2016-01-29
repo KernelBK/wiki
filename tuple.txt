@@ -1,0 +1,4 @@
+
+A tuple is a finite ordered list of elements.
+ิชื้
+

@@ -1,0 +1,6 @@
+
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    1、Keil的错误报告不完整。
+    2、在Keil里最好不要留下定义而未使用的变量或函数，编译器无法合理的为之分配空间，而导致空间溢出。
+http://www.cnblogs.com/hujianhua/archive/2012/06/12/2546678.html

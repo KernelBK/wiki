@@ -1,0 +1,10 @@
+
+整理硬盘文件
+
+备份虚拟机
+D:\work\pa5000\latest.1\vm_work.rar
+
+blvds 像spi一样有一个pin作为数据有效的指示。
+
+计算io delay，可以用下降沿采样
+

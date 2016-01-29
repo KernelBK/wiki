@@ -1,0 +1,15 @@
+
+全志的产品 http://www.cnx-software.com/category/processors/allwinner-a1x-a10-a13/page/2/
+
+http://rhombus-tech.net/allwinner_a10/source_code/
+
+no sdio card used in configuration https://github.com/amery/linux-allwinner/issues/32
+
+[   16.469914] [mmc_pm]: No sdio card, please check your config !!
+	与本案无关
+	改的地方有硬件配置配置，和启动参数	
+		http://comments.gmane.org/gmane.comp.hardware.netbook.arm/3148
+
+----
+
+http://comments.gmane.org/gmane.comp.hardware.netbook.arm/3148

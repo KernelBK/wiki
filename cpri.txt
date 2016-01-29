@@ -1,0 +1,4 @@
+
+CPRI（Common Public Radio Interface）：通用公共无线电接口。
+
+

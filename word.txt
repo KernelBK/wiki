@@ -1,0 +1,59 @@
+
+多个文档内容和并， 插入 - 文本 - 对象 - 文件中的文字
+
+4ipad
+	纸张 自定义大小 12cm x 16cm
+
+Sub save_as_pdf()
+'
+' save_as_pdf 宏
+'
+'
+    ActiveDocument.ExportAsFixedFormat OutputFileName:= _
+        "C:\Users\yangyaowu\Documents\1.pdf", ExportFormat:=wdExportFormatPDF, _
+        OpenAfterExport:=False, OptimizeFor:=wdExportOptimizeForPrint, Range:= _
+        wdExportAllDocument, From:=1, To:=1, Item:=wdExportDocumentContent, _
+        IncludeDocProps:=True, KeepIRM:=True, CreateBookmarks:= _
+        wdExportCreateNoBookmarks, DocStructureTags:=True, BitmapMissingFonts:= _
+        True, UseISO19005_1:=False
+End Sub
+
+
+Sub setpicsize() '设置图片大小
+    Dim n '图片个数
+    Dim picwidth
+    Dim picheight
+    On Error Resume Next '忽略错误
+    For n = 1 To ActiveDocument.InlineShapes.Count 'InlineShapes类型图片
+    picheight = ActiveDocument.InlineShapes(n).Height
+    picwidth = ActiveDocument.InlineShapes(n).Width
+    ActiveDocument.InlineShapes(n).Height = picheight * 0.3 '设置高度为1.1倍
+    ActiveDocument.InlineShapes(n).Width = picwidth * 0.3 '设置宽度为1.1倍
+    Next n
+    For n = 1 To ActiveDocument.Shapes.Count 'Shapes类型图片
+    picheight = ActiveDocument.Shapes(n).Height
+    picwidth = ActiveDocument.Shapes(n).Width
+    ActiveDocument.Shapes(n).Height = picheight * 0.3 '设置高度为1.1倍
+    ActiveDocument.Shapes(n).Width = picwidth * 0.3 '设置宽度为1.1倍
+    Next n
+End Sub
+
+Sub setpicsize() '设置图片大小
+    Dim n '图片个数
+    Dim picwidth
+    Dim picheight
+    On Error Resume Next '忽略错误
+    For n = 1 To ActiveDocument.InlineShapes.Count 'InlineShapes类型图片
+    picheight = ActiveDocument.InlineShapes(n).Height
+    picwidth = ActiveDocument.InlineShapes(n).Width
+    ActiveDocument.InlineShapes(n).Height = picheight * 0.3 '设置高度为1.1倍
+    ActiveDocument.InlineShapes(n).Width = picwidth * 0.3 '设置宽度为1.1倍
+    Next n
+    For n = 1 To ActiveDocument.Shapes.Count 'Shapes类型图片
+    picheight = ActiveDocument.Shapes(n).Height
+    picwidth = ActiveDocument.Shapes(n).Width
+    ActiveDocument.Shapes(n).Height = picheight * 0.3 '设置高度为1.1倍
+    ActiveDocument.Shapes(n).Width = picwidth * 0.3 '设置宽度为1.1倍
+    Next n
+End Sub
+

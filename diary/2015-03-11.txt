@@ -1,0 +1,9 @@
+
+card5248 
+	dac
+	front control
+
+
+card5248， 程序hello打印一个字符，不能断定调试
+
+

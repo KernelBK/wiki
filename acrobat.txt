@@ -1,0 +1,36 @@
+
+acrobat 9, 1118-4018-6583-4956-2486-7805
+acrobat x, name: Mulder, sn: 1118-1996-5527-7283-8263-2959
+
+word
+
+# 无法保存文档
+文档 - 检查文档 - 删除
+工具 - 保护 - 隐藏信息 - 删除隐藏信息
+
+Adobe Acrobat PDF 页码修改方法
+http://blog.sina.com.cn/s/blog_64197b740100i5nw.html
+页面视图，右键
+
+在pdf中注视中包含选中的文本
+
+http://answers.acrobatusers.com/export-highlights-q27380.aspx
+    设置-> 注释
+
+/* pdf2txt */
+var re = "/.*/|.pdf$/ig";
+var filename = this.path.replace(re,"");
+try
+{
+this.extractPages
+({
+nStart: o,
+nEnd: 1,
+cPath:"/C/temp/"+filename+"_15pages.pdf"
+});
+}
+catch(e)
+{
+console.println("Batch Aborted:"+e);
+}
+

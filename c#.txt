@@ -1,0 +1,19 @@
+
+features
+	泛型和C++的不同
+	类类型、结构类型、接口类型和委托类型都支持泛型
+	垃圾回收
+
+ struct、delegate、async / await、event handler、accessor、operator overloading 支持
+
+协变 covariant
+	string to object
+逆变 
+	object to string
+
+runtime
+	clr
+	[[.net]]
+
+[[visual.studio]]
+	编译器csc.exe

@@ -1,0 +1,17 @@
+
+pa5000文档
+	完善数据流结构图
+		带宽计算
+		总线宽度
+		分离了校准模块和其他模块
+
+ubuntu 10.04 无法安装ise
+	安装的时候需要断网，在非root账户下安装
+	编译ise 14.7 vcs library
+
+网线水晶头没有扣子
+
+wavegen	
+	/eda/matlab/extern/examples/compiler
+
+

@@ -1,0 +1,97 @@
+day 1
+	麦当劳，27， [[credit_card]]
+	吃饭，152，credit_card
+	理发充值，时尚前沿，200， credit_card
+day 1
+	给爸买羽绒服 esprit, pay 500, taobao
+
+day 4
+	羽绒服退货
+day 5
+	
+day 6
+	窝窝头 pay 4
+	银记肠粉 pay 20
+	fruit pay 
+	打升级
+day 7,
+    dinner,  江南味道，cby, huan, me. cby pay 240, tuangou; I pay 6 cash.
+	texi, pay 20, 
+	supper_market, pay 377, credit_card
+	starbucks, 36
+day 8
+	lunch, cooking, 
+	dinner, McDonald 38,  credit_card
+
+day 10	
+	dinner, canteen
+day 11
+	联通办业务，taxi, pay 13, 
+	联通换卡，25，credit_card
+	lunch, 兰州拉面，酸辣土豆丝, pay 39, 
+	手机壳，pay 30, 
+	taxi, pay 14, 
+	dinner, canteen
+day 12
+	肚包鸡，huan请同事3人，pay 414, credit_card
+	好又多, pay 107.1， credit_card
+	taxi, pay 10
+day 13
+	dinner, 汉正街， 青稞， pay 250
+day 14
+	taxi, pay 70
+	雨伞， pay 10
+	打车， pay 10
+	公交卡， pay 100
+	原建业请客，老五烧烤，pay 150
+day 15
+	商城车票， pay 168
+	沃尔玛超市，红酒，pay 252.3，credit_card
+	电影， 有一个地方只有我们知道，pay 59.12, credit_card
+	吃饭，pay 60
+day 17
+	良品铺子， pay 52, credit_card
+	周黑鸭， pay 12.8
+	热干面， pay 7
+	感冒药，pay 110
+day 18
+	除夕，在家
+day 19
+	在家
+day 20
+	舅妈家拜年
+	公交卡， pay 50
+	充话费， 49.73，credit_card 
+day 21
+	去huan家，红包
+	充话费， 49.77，credit_card 
+day 22
+	返回
+	打车， pay 10
+day 23
+	在家
+day 24
+	huan来我家
+	打车， pay 8
+day 25
+	回广州
+	早晨在家吃饭
+	万达广场
+	星巴克， pay 36
+	外婆家， pay 91， credit_card
+	周黑鸭， pay 50
+	小胡鸭， pay 20
+	还信用卡， pay 3600
+day 26
+	公司年会
+	红包收入 100
+	晚餐， pay 36， 微信支付
+	草莓， pay 10
+	广州购书中心
+	橙汁， pay 10
+day 27
+day 28
+	周黑鸭，充值，400, credit_card
+	家乐福，密封箱，小铁盆，87, credit_card
+day 29
+day 30

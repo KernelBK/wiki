@@ -1,0 +1,7 @@
+
+[[manchester_code]]
+maximum run lenght constraint
+
+8b10b
+[[hamming_code]]
+nrzi, non return to zero

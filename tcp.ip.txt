@@ -1,0 +1,27 @@
+tcp [[ip]]
+4 layer, application, transport, network, interface
+
+interface, data link, physical
+
+ip over everything
+	[[tcp]]
+	udp
+port
+
+[[dns]]
+[[ftp]] [[tftp]]
+[[www]]
+nfs
+telnet
+[[url]]
+[[proxy.server]]
+[[cookie]]
+[[cgi]]
+[[http]]
+[[smtp]] pop imap
+mime
+[[dhcp]]
+smi mib snmp 
+
+协议端口号(protocol [[port]] number 
+

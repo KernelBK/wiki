@@ -1,0 +1,4 @@
+
+离散的数据变成连续的函数（曲线）
+fitting
+curve_fitting

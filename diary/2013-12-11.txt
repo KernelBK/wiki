@@ -1,0 +1,14 @@
+
+1. 昨晚下了ise 14.6, 14.7, matlab, systemview...
+1.  vcs仿真xilinx的ip库出错，昨天安装了modelsim, 生成xilinx仿真库时候报错。
+	可能是vcs对xilinx的ovm仿真方法学支持不好。
+1. 
+1. 安装linux modelsim
+	破解需要使用libstd++.so.5库，可以从novas下面拷到系统下面
+	license需要在windows下生成以后给linux
+	float license ?
+	windows下使用compxlib编译的库文件可以在linux下使用，
+		但是vcs库在windows下没法编译，因为没有vcs的windows版本
+	pli + verdi
+
+1. 

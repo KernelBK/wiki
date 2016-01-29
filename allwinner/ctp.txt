@@ -1,0 +1,117 @@
+SSD2532
+    touch event
+    event stack
+    event enumber
+    write operations
+        cmd, write 1/2 byte parameters
+    read operations
+        read 1,2,3,4,5 byte parameters
+
+multi touch gesture
+    gesture packet format
+    testure event
+        zoom, 1,2 direction zoom
+        rotate, 1,2 direction slide
+
+cd /sys/class/input
+cat /sys/class/input/*/name  
+cat input2/name 
+
+cd /dev/input
+busybox hexdump event2      
+
+echo ssd253x-ts 0x48 > /sys/bus/i2c/devices/i2c-1/new_device
+insmod /system/ssd253x-ts.ko  
+
+# linux
+drivers/input/touchscreen/
+ln -s drivers/input/touchscreen/
+
+
+drivers/input/touchscreen/Makefile
+drivers/input/touchscreen/Kconfig
+    .config
+    CONFIG_TOUCHSCREEN_GT801=m
+    CONFIG_TOUCHSCREEN_SUN4I_TS=m
+    CONFIG_TOUCHSCREEN_FT5X_TS=m
+    drivers/input/touchscreen/sun4i-ts.c
+    drivers/input/touchscreen/goodix_touch.c
+        i2c
+
+struct aw_platform_ops{
+
+android
+    http://source.android.com/tech/input/touch-devices.html
+    init.sun4i.rc
+
+    表屏幕的硬度
+    尺寸
+    使用哪组I2C
+
+
+struct ts_event用于记录采样时获得的信息，包括从硬件得到的坐标信息以及采样点的ID号等，不同的触摸IC会定义不一样的ts_event结构。
+loglevel=9
+I2C 的地址不正确
+
+drivers/input/touchscreen
+drivers/input/touchscreen/ctp_platform_ops.h 
+
+drivers/input/touchscreen/goodix_touch.c
+    PIOH_DATA
+    
+    PIO_INT_CFG0 0x200 PIO Interrrupt Configure Register 0
+    32 external PIO interrupt sources are supported and interrupt mode can be configured by software.
+        在每个GPIO的详细说明中有说明是中断号。
+
+    ctp_fetch_sysconfig_para
+    "ctp_twi_addr", &twi_addr,
+    i2c_transfer
+    goodix_ts_work_func
+			input_report_abs(ts->input_dev, ABS_MT_POSITION_X, p->x);
+			input_report_abs(ts->input_dev, ABS_MT_POSITION_Y, p->y);
+
+
+https://groups.google.com/forum/#!msg/linux-sunxi/_Qd1-R_uVrk/walMuUqzXqwJ
+
+# ssd253x
+
+#define DRIVENO	18
+#define SENSENO	30
+
+bad data including axis flipping and near-axis influence
+Multitouch Axis Crossing 
+
+http://www.billbuxton.com/multitouchOverview.html
+
+# new ctp
+echo ft5x06_ts 0x38 > /sys/bus/i2c/devices/i2c-1/new_device
+
+胡工：13028830469。
+1. 屏幕分辨率 20x12
+1. 和上次调试的屏幕比较增加了reset
+1. 固件更新
+1. 没有采用work_queue
+1. 原来平台是三星，gpio移植
+1. 无datasheet
+1. 多点触摸
+1. ft5x, ft5x02 FT5316DWE
+
+ft5x02_report_value
+
+ft5x0x_read_Touchdata
+    从ctpm得到的数据： au16_x au16_y au8_touch_event au8_finger_id 
+
+ft5x0x_report_value
+    
+debug:
+1. interrupt 
+cat /proc/interrupts       
+
+drivers/input/touchscreen/ft5x_ts.c
+drivers/input/touchscreen/ssd253x-ts.c
+
+设置 开发人员选项  显示触摸效果 把那个勾消了
+
+
+logcat | grep kl
+

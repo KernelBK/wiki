@@ -1,0 +1,21 @@
+
+http://bbs.tianya.cn/post-845-11072-1.shtml
+
+http://job.hust.edu.cn/show/article.htm?id=19252
+ARC processor 
+Questa
+Specmane
+
+
+yingliu@synopsys.com  
+ynzhou@synopsys.com
+
+
+     ,
+    您好，
+    我想应聘贵司的一职。我对贵公司职位感兴趣的地方如下:
+    1. 做过2+年IC/SOC的设计（北京），参与过3款SOC芯片的tapeout，熟悉MIPS，Openrisc等微体系结构，熟悉axi/ahb总线，项目中验证过synopsys 的usb 2.0 的ip，多次参加贵司的EDA培训。
+    2. 目前就职于武汉一家公司，从事了2+年的Linux嵌入式系统的项目开发，对于Linux内核的移植，驱动调试有很多实际经验，几次在产品很关键的时刻解决Linux内核中的存在的BUG。
+    3. 能够阅读计算机专业的文档。能够使用英语提交周报，收发邮件。能够和大部分口音的欧美印人士交流。
+
+

@@ -1,0 +1,14 @@
+
+
+D/power-legacy(  155): *** set_screen_state 1
+E/power-legacy(  155): error in opening gpio node = /sys/class/gpio_sw/PH10/data.
+D/power-legacy(  155): output 1 in pin /sys/class/gpio_sw/PH20/data.
+
+
+[   16.067557] Mali: Page fault detected at 0xc4400 from bus id 8 of type read on Mali-400 MMU for PP
+[   16.090125] Mali: Active page directory at 0x5FFC7000
+[   16.095197] Mali: Info from page table for VA 0xc4400:
+[   16.110057] Mali: DTE entry: PTE at 0x0 marked as not present
+[   16.115823] Mali: PTE entry: Not present
+
+

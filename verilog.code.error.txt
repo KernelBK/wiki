@@ -1,0 +1,3 @@
+
+if(s_axi_awvalid & s_axi_wvalid == 1'b1)
+

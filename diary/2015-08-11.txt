@@ -1,0 +1,6 @@
+
+50hz,60hz
+
+bug会，还有三个bug
+
+web 

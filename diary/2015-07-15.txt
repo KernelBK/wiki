@@ -1,0 +1,11 @@
+
+card_p_45.local_clock
+本地时钟的问题，导致xsdk无法执行；
+adc 没有使能，adc的数据部正确；
+
+card_p_a
+修改新的spi控制码；
+
+card_p
+修改自检的spi code直接写入，不需要量程索引的过程； star
+

@@ -1,0 +1,9 @@
+
+100M 时钟进入
+
+加入chipscope axi moinitor
+	reset error
+
+加入axi stream monitor以后资源不够
+	去掉cal0通道
+

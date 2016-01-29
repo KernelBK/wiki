@@ -1,0 +1,6 @@
+
+易中天 读城录
+
+pcard_fornt_ctrl
+	测试 reg_scale输出 spi的内容
+

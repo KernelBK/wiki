@@ -1,0 +1,77 @@
+
+day  1
+	McDonalds, 21, credit_card
+	便利店，14.4， credit_card
+	taobao, 825, credit_card， agoda
+	去哪网，机票，1233
+	去哪网，机票，822
+day  2
+day  3， taobao, 80， 大众点评
+day  4
+day  5
+day  6, 
+day  7, taobao, 9.9, credit_card， 3m隔音耳塞
+	联通宽带， 1080, credit_card
+	taobao, 37.53, credit_card， huan.ma睡衣
+	taobao, 衣服，55.99， credit_card， huan.ma 内衣，退货
+	便利店，15.6， credit_card
+	taobao， 98.5， credit_card， 联通充值
+day  8, 百果园， 22.5，credit_card
+	huan.ma 送去东莞
+day  9
+day 10, 便利店，52.3， credit_card
+day 11, huan.ma送回广州，探鱼，361
+day 12
+day 13, taobao, 36, credit_card, 大众点评
+day 14，打扫卫生拖把断了
+	huan.ma 豪客来 125 
+day 15, 给huan妈50零钱
+day 16, taobao, 37.9, credit_card, huan.ma睡衣
+	taobao 49.9, credit_card，狮王牙刷x8
+	taobao 71, credit_card， or2牙刷x5
+	便利店，14， credit_card
+	taobao, 30, credit_card ?
+day 17, 
+day 18, McDonalds 21, credit_card
+	huan.ma 机票 630 
+	huan.ma 出去找工作，水汇
+	吃快餐 45
+	办公交卡 70
+	卖水果 芒果 15
+day 19, McDonalds 34, credit_card
+	huan.ma送去上海，打车去机场 155
+	吃711 12 
+	房东电视和冰箱到
+	砂锅粉 30
+	水果 芒果 琵琶 30
+day 20，大雨，打升级
+day 21， 吃傣妹，团购，饮料 8
+day 22
+day 23
+day 24
+day 25
+	卖家电，太便宜没卖出去
+	洗羽绒服，
+	收拾阳台
+	吃豪客来，优惠券，150
+	吃苗家面，52
+day 26
+	color run, 打车 32，
+	大学城，by一起吃饭，by出 50，全部62
+	711，酸奶 15
+day 27
+	联通营业厅办业务，打车，18 + 17
+	兰州拉面，20
+	芒果，28
+	糕点，8，不好吃
+day 28
+	McDonalds, 15, credit_card
+day 29
+	手机新号，18620465915, 顺丰到货
+	整理需要切换的手机号的服务
+	榴莲一整个，64
+	香瓜，8
+day 30
+	屈臣氏，压线，洗面奶，172.8， credit_card
+day 31
+

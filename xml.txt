@@ -1,0 +1,4 @@
+
+数据索引、排序、查找、相关一致性等特点
+
+[http://en.wikipedia.org/wiki/Xml]

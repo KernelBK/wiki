@@ -1,0 +1,8 @@
+
+自动生成正则表达式, txt2re.com
+
+
+版本不同，bash, cmd, vim, perl, python
+贪婪匹配
+
+

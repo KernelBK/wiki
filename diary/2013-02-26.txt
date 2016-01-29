@@ -1,0 +1,88 @@
+
+http://bbs.tianya.cn/post-english-182384-1.shtml 
+
+PA0 被emac占用了，关闭。
+
+--------- beginning of /dev/log/main
+--------- beginning of /dev/log/system
+E/audio_hw_primary(   83): Unable to open PA controller, aborting.
+E/AudioFlinger(   83): couldn't open audio hw device in audio.primary (Invalid argument)
+E/AudioFlinger(   83): Primary audio interface not found
+E/AudioPolicyManagerBase(   83): Failed to initialize hardware output stream, samplingRate: 0, format 0, channels 0
+E/AudioPolicyService(   83): couldn't init_check the audio policy (No such device)
+E/SurfaceFlinger(   80): couldn't find an EGLConfig matching the screen format
+E/MediaPlayer(  132): error (1, -2147483648)
+E/MediaPlayer(  132): start called in state 0
+E/dalvikvm(   81): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/JNIHelp (   81): Native registration unable to find class 'android/debug/JNITest', aborting
+F/libc    (   81): Fatal signal 11 (SIGSEGV) at 0xdeadbaad (code=1)
+E/MediaPlayer(  132): error (100, 0)
+E/audio_hw_primary(  157): Unable to open PA controller, aborting.
+E/AudioFlinger(  157): couldn't open audio hw device in audio.primary (Invalid argument)
+E/AudioFlinger(  157): Primary audio interface not found
+E/AudioPolicyManagerBase(  157): Failed to initialize hardware output stream, samplingRate: 0, format 0, channels 0
+E/AudioPolicyService(  157): couldn't init_check the audio policy (No such device)
+E/dalvikvm(  159): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/JNIHelp (  159): Native registration unable to find class 'android/debug/JNITest', aborting
+F/libc    (  159): Fatal signal 11 (SIGSEGV) at 0xdeadbaad (code=1)
+E/audio_hw_primary(  185): Unable to open PA controller, aborting.
+E/AudioFlinger(  185): couldn't open audio hw device in audio.primary (Invalid argument)
+E/AudioFlinger(  185): Primary audio interface not found
+E/AudioPolicyManagerBase(  185): Failed to initialize hardware output stream, samplingRate: 0, format 0, channels 0
+E/AudioPolicyService(  185): couldn't init_check the audio policy (No such device)
+E/dalvikvm(  209): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/JNIHelp (  209): Native registration unable to find class 'android/debug/JNITest', aborting
+F/libc    (  209): Fatal signal 11 (SIGSEGV) at 0xdeadbaad (code=1)
+F/libc    (   80): Fatal signal 11 (SIGSEGV) at 0x00000080 (code=1)
+E/        (  132): void __egl_platform_dequeue_buffer(egl_surface*):1080 [EGL-ERROR] failed to dequeue buffer from native window (0x141c8); err = -32, buf = 0x0
+E/        (  132): void __egl_platform_dequeue_buffer(egl_surface*):1080 [EGL-ERROR] failed to dequeue buffer from native window (0x141c8); err = -32, buf = 0x0
+E/        (  132): void __egl_platform_dequeue_buffer(egl_surface*):1080 [EGL-ERROR] failed to dequeue buffer from native window (0x141c8); err = -32, buf = 0x0
+E/        (  132): void __egl_platform_dequeue_buffer(egl_surface*):1080 [EGL-ERROR] failed to dequeue buffer from native window (0x141c8); err = -32, buf = 0x0
+E/        (  132): void __egl_platform_dequeue_buffer(egl_surface*):1080 [EGL-ERROR] failed to dequeue buffer from native window (0x141c8); err = -32, buf = 0x0
+E/        (  132): void __egl_platform_dequeue_buffer(egl_surface*):1080 [EGL-ERROR] failed to dequeue buffer from native window (0x141c8); err = -32, buf = 0x0
+E/        (  132): void __egl_platform_dequeue_buffer(egl_surface*):1080 [EGL-ERROR] failed to dequeue buffer from native window (0x141c8); err = -32, buf = 0x0
+E/        (  132): void __egl_platform_dequeue_buffer(egl_surface*):1080 [EGL-ERROR] failed to dequeue buffer from native window (0x141c8); err = -32, buf = 0x0
+E/        (  132): void __egl_platform_dequeue_buffer(egl_surface*):1080 [EGL-ERROR] failed to dequeue buffer from native window (0x141c8); err = -32, buf = 0x0
+E/SurfaceFlinger(  215): couldn't find an EGLConfig matching the screen format
+E/MediaPlayer(  223): error (1, -2147483648)
+E/MediaPlayer(  223): start called in state 0
+E/dalvikvm(  214): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/JNIHelp (  214): Native registration unable to find class 'android/debug/JNITest', aborting
+F/libc    (  214): Fatal signal 11 (SIGSEGV) at 0xdeadbaad (code=1)
+E/MediaPlayer(  223): error (100, 0)
+E/audio_hw_primary(  234): Unable to open PA controller, aborting.
+E/AudioFlinger(  234): couldn't open audio hw device in audio.primary (Invalid argument)
+E/AudioFlinger(  234): Primary audio interface not found
+E/AudioPolicyManagerBase(  234): Failed to initialize hardware output stream, samplingRate: 0, format 0, channels 0
+E/AudioPolicyService(  234): couldn't init_check the audio policy (No such device)
+E/dalvikvm(  258): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/JNIHelp (  258): Native registration unable to find class 'android/debug/JNITest', aborting
+F/libc    (  258): Fatal signal 11 (SIGSEGV) at 0xdeadbaad (code=1)
+E/audio_hw_primary(  262): Unable to open PA controller, aborting.
+E/AudioFlinger(  262): couldn't open audio hw device in audio.primary (Invalid argument)
+E/AudioFlinger(  262): Primary audio interface not found
+E/AudioPolicyManagerBase(  262): Failed to initialize hardware output stream, samplingRate: 0, format 0, channels 0
+E/AudioPolicyService(  262): couldn't init_check the audio policy (No such device)
+E/dalvikvm(  286): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/JNIHelp (  286): Native registration unable to find class 'android/debug/JNITest', aborting
+F/libc    (  286): Fatal signal 11 (SIGSEGV) at 0xdeadbaad (code=1)
+E/audio_hw_primary(  290): Unable to open PA controller, aborting.
+E/AudioFlinger(  290): couldn't open audio hw device in audio.primary (Invalid argument)
+E/AudioFlinger(  290): Primary audio interface not found
+E/AudioPolicyManagerBase(  290): Failed to initialize hardware output stream, samplingRate: 0, format 0, channels 0
+E/AudioPolicyService(  290): couldn't init_check the audio policy (No such device)
+E/dalvikvm(  314): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/JNIHelp (  314): Native registration unable to find class 'android/debug/JNITest', aborting
+F/libc    (  314): Fatal signal 11 (SIGSEGV) at 0xdeadbaad (code=1)
+E/audio_hw_primary(  318): Unable to open PA controller, aborting.
+E/AudioFlinger(  318): couldn't open audio hw device in audio.primary (Invalid argument)
+E/AudioFlinger(  318): Primary audio interface not found
+E/AudioPolicyManagerBase(  318): Failed to initialize hardware output stream, samplingRate: 0, format 0, channels 0
+E/AudioPolicyService(  318): couldn't init_check the audio policy (No such device)
+E/dalvikvm(  342): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/JNIHelp (  342): Native registration unable to find class 'android/debug/JNITest', aborting
+F/libc    (  342): Fatal signal 11 (SIGSEGV) at 0xdeadbaad (code=1)
+F/libc    (  213): @@@ ABORTING: INVALID HEAP ADDRESS IN dlfree
+F/libc    (  348): Fatal signal 11 (SIGSEGV) at 0x000000ed (code=1)
+F/libc    (  223): Fatal signal 11 (SIGSEGV) at 0x0000002b (code=1)
+

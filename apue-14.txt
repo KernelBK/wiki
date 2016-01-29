@@ -1,0 +1,38 @@
+Author: Joseph Lee
+E-Mail: fdlixiaojun@gmail.com
+
+高级IO
+
+非阻塞IO
+对于一个给定的描述符，可以有以下方法指定其为非阻塞IO：
+    如果调用open获得描述符，可以指定O_NONBLOCK
+    如果描述符已经打开了，则可调用fcntl，由该函数打开O_NONBLOCK标志。
+轮询、IO多路转接（select）和多线程（线程间同步开销会增加复杂性）
+
+记录锁（record locking）
+数据库等应用的需求：锁整个文件和锁文件的一部分数据。
+
+fcntl记录锁
+#include <fcntl.h>
+int fcntl(int fd, int cmd, ... /* struct flock *flockptr */ );
+成功返回值依赖于cmd，出错返回-1。
+对于记录锁，cmd是F_GETLK，F_SETLK和F_SETLKW。第三个参数是一个指向flock结构的指针
+	struct flock {
+		short	l_type;	/* F_RDLCK, F_WRLCK, F_UNLCK */
+		off_t	l_start;	/* 锁定起始位置，相对于l_whence的偏移 */
+		short	l_whence;	/* SEEK_SET, SEEK_CUR, SEEK_END */
+		off_t	l_len;		/* 锁定区域字节长度，0表示锁定直到EOF */
+		pid_t	l_pid;		/* 随F_GETLK返回 */
+	};
+F_GETLK测试能否建立一把锁，F_SETLK和F_SETLKW建立锁。
+F_GETLK通常较少使用，要注意考虑原子操作的问题，可以使用F_SETLK或者F_SETLKW直接
+加锁，通过判断返回值来判定是否加锁成功。
+一般将锁抽象成5个宏来操作
+read_lock, readw_lock, write_lock, writew_lock, un_lock.
+is_read_lockable
+is_write_lockable
+
+锁的隐含继承和释放：进程终止，它所建立的锁全部释放；关闭一个描述符，则该进程通
+过它所建立的锁将释放。
+fork的子进程不继承父进程的锁。
+执行exec后，新程序可以继承原执行程序的锁。

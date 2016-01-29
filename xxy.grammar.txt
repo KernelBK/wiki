@@ -1,0 +1,2118 @@
+第一篇  单句（The Simple Sentence）
+第一章 基本句型（Sentence Patterns）
+1. S+V
+2. S+V+O
+3. S+V+C
+4. S+V+O+O
+5. S+V+O+C
+（S：主词，V：动词，O：受词，C：补语）
+「动词特性」，主要得看这个动词是及物（transitive）还是不及物（intransitive），另一个角度是看它完全（complete）还是不完全（incomplete）。
+主部与述部
+1. The dog barked at the mailman.
+2. The dog bit the mailman.
+及物动词与不及物动词
+ Don’t worry. It doesn’t bite.
+何谓补语
+ 一种欠缺叙述能力的动词
+ 3. The dog was a bulldog.
+4. The dog was mean.
+ 不必翻译的动词：be动词
+Your girlfriend is beautiful.
+You are so lucky.
+连缀动词
+Be动词直接翻译为「是」，是最具有代表性的「连缀动词」。
+look 看起来是     seem 似乎是      appear 显得是      sound 听起来是
+feel 摸起来是     taste 尝起来是   stay 仍然是        remain 继续是
+turn 转变为       prove 证实为     become 成为        make 做为
+所谓「为」只不过是文言的「是」。
+S+V+C 的句型
+That purse looks pretty.
+The question seems easy.
+He appears quite a gentleman.
+Your suggestion sounds exciting.
+The woman feels dizzy.
+The wine tastes sweet.
+They stayed friends for life.
+He remains single.
+The player turned professional.
+The drug proved effective.
+He became a big star.
+A school teacher makes a good wife.
+把以上所有句子里的动词全部换成be动词，也就是，把各式各样的「是」换成纯粹的「是」，成为：That purse is pretty. The question is easy.等等，
+句子的意思和句型，都没有太大的改变？这就是 S+V+C 的句型。
+S+V+O+C的句型
+中间暗示有一个「是」的关系存在。
+I find the purse pretty.
+The tip made the question easy.
+I consider him quite a gentleman.
+The boss found your suggestion exciting.
+The bus ride made the woman dizzy.
+I find the wine sweet.
+The partnership made them friends for life.
+His poverty kept him single.
+The victory made the player professional.
+The doctor proclaimed the drug effective.
+The hit movie made him a big star.
+Most people consider a school teacher a good wife.
+检验S+V+O+C句型最简便的方法：把受词和补语拿出来，中间加个be动词，看看能不能改成S+V+C。如果可以而且意思不变，就可以证明原句是S+V+O+C的句型。
+ 补语的词类
+补语的词类是名词和形容词这两种, 还可以是地方副词。
+ The key is there.
+He left the key there.
+ 没有补语的be动词
+S+V
+I think; therefore I am.
+I am就得翻译成「我存在」
+To be or not to be, that is  the question 「要存在还是不要存在」
+ S+V+O+O的句型
+His wife gave him a jar of honey.
+S+V+O+C 受词与补语间存在有「等于是」的关系。
+ His wife called him Honey.
+
+ 
+第二章 名词词组
+主词、受词、补语
+介系词后面所接的受词也是名词词组
+名词词组的构造
+ 名词词组由三个部分构成：限定符 + 形容词 + 名词，这三个部分当中每一个部分都有可能省略。
+限定符		形容词         名词
+a    		good       	teacher
+some    		troublesome    students
+their    		very pretty    garden
+that    		rather old      jacket
+the    		smartest    kid
+these    		juicy Japanese    apples
+all    		healthy young   girls
+ 副词
+their very pretty garden Very属于加强语气的副词（intensifier）
+that rather old jacket  rather 程度副词（adverb of degree）
+形容词
+these juicy Japanese apples 名词词组中间的形容词位置，可以放的形容词不只一个。
+名词词组的省略
+其实，名词词组「限定符 + 形容词 + 名词」这三个部分当中，每个部分都有可能省略。
+Of all the kids in my class, Jack is the smartest.
+I want these.
+省略名词
+ The rich are not always happier than the poor.
+ The new is not always better than the old.
+ The unknown is often feared.
+ 限定符的种类
+限定符的分类，依其性质可以分成
+限制性（definite）限定符如the, those, John’s、
+非限制性（indefinite）限定符如a, any, many
+部分性（partitive）限定符如 some
+全称性（universal）限定符如all。
+不过，与英文写作比较密切相关的一种分类法是以它在名词词组中出现的位置来分：可以分成前位限定符（predeterminers）、中位限定符（central determiners）以及后位限定符（postdeterminers）。
+ 前位限定符 中位限定符  后位限定符     形容词        名词
+   all         these         many         brave        soldiers
+   half       your          twenty       expensive     houses
+   both       the            first          heroic       explorers
+ 前位限定符
+包括all, both, half, one-third, one-fifth, double, twice, three times, such, what 等等都属于前位限定符。
+前位限定符 中位限定符  名词
+  all           the         girls
+  both        those      cars
+  half         an          hour
+ double       the         sum
+  twice       my         salary
+one-third      the         time
+  such        a          surprise
+  what        a            day
+ 后位限定符
+后位限定符包括所有的数目字（three, 200）、序数（first, second, 300th, last），以及many, much, little, few等等。
+中位限定符 后位限定符  名词
+   my       three        children
+   the      seventh        day
+   the      last          month
+   a        few           people
+   the      many       difficulties
+ 中位限定符
+限定符当中出现频率最高的是中位限定符，包括冠词（a, an, the）、指示限定符（this, that, these, those）、不定限定符（some, any, either）、否定限定符（no, neither）、全称限定符（every, each）与所有格（my, your, John’s）等等都属于中位限定符。
+ 中位限定符 名词
+a book，an egg，the money，this question，that man，these kids，those places，
+some time，any trouble，either bank，no problem，neither boy，every student，
+each worker，my  home，your car，John’s daughter
+排他性， 如果看到两个中位限定符放在一起，就是一个错误。
+ these some boys（误）
+any my car（误）
+neither John’s sister（误）
+every some mistake（误）
+什么时候不需要用限定符﹖
+不定冠词a(n)可以视为one一字的弱化(reduction)结果。
+ Black-faced spoonbills are an endangered species. 黑面琵鹭是濒临绝种的品种。
+零冠词
+零冠词的适用范围
+复数名词前面都可以采用零冠词。
+抽象名词（如bravery, exhaustion）没有具体形状、不能以「一个」来表示（前面不能加a或an）。
+物质名词（如gold, air）虽然是具体的东西，可是形状不固定，仍然不能以「一个」来表示。
+ Honesty is not necessarily the best policy.
+ Fresh water is a precious resource in Saudi Arabia.  沙特阿拉伯
+ 专有名词
+人名（如Bill Gates）、地名（如California）等等都是专有名词。
+There are five Sundays this month. 这个月碰到五个星期日。
+ I have an appointment on Sunday.（我这星期日有约。）
+普通名词专有化
+放在补语位置的普通名词，如果符合一些特定条件，可以视同专有名词看待，也就是前面不加限定符。
+在补语位置的这个名词必须具备专有名词「只有一个」的特性，才能够把它等同专有名词使用。
+Bill Gates is Chairman of Microsoft.
+Bill Gates, according to some, is a better Chairman than Craig Barrett.
+Bill Gates is also a trustee of the Bill & Melinda Gates Foundation.
+同位格位置
+专有名词的同位格也有可能视同专有名词看待
+ Ban Ki-moon, Secretary General of the UN, is a very powerful man.
+受词补语位置
+ Queen Elizabeth made Charles Prince of Wales.
+普通名词抽象化
+在一些特定的介系词词组中，可以看到单数的普通名词却没有加限定符，
+ You can contact him by phone.
+Are you actually going around the lake on foot?
+I always go to church on Sundays.
+Mangos are not in season now.
+You can go to the island by plane or by boat.
+ 定冠词the的用法
+在语源学上，the可视为that或those的弱化形式。 凡是上下文中有明指或暗示，也就是有表示「那个」的指示功能时，就应该采用定冠词the。
+ I need a book to read on my trip.
+I have finished the book you lent me.
+Modern history is my favorite subject.
+The history of recent China is a sorry record.
+ He should be home; I saw a light in his house.
+Turn off the portal light.
+ I'm going to the office now.
+Do you mind if I open the window?   这扇窗户
+ Do you mind if I open a window?   一扇窗户
+定冠词与专有名词
+如专有名词和定冠词是互相冲突、不能并存的。果加了the，就表示这个东西有两个以上，也就不再是专有名词了。
+This is not the Bill Gates I know.
+This is a photography show of the California 50 years ago.
+the Pacific (Ocean) 太平洋
+the Atlantic (Ocean) 大西洋
+the Indian Ocean 印度洋
+the Mediterranean (Sea)   地中海
+the Dead Sea 死海
+the Philippine Islands→the Philippines（菲律宾群岛）
+the Alp Mountains→the Alps（阿尔卑斯山）
+the Mississippi (River)   密西西比河
+the Titanic (Ship) 铁达尼号
+the Hilton (Hotel) 希尔顿饭店
+the United States of America 美国
+the United Nations 联合国
+the Republic of South Korea 南韩
+the Washington Post 华盛顿邮报
+ 代名词
+代名词是用来代替名词词组以避免重复的一种词类。
+ 1. The dog ate the bone.
+ 2. He liked it.
+ 一．代名词与先行词人称须一致
+People often think that our difficulties are unique.（不佳）
+People often think that their difficulties are unique.
+We often think that our difficulties are unique.
+ 二．代名词与先行词单复数须一致
+If the campaign succeeds in raising huge sums, the sponsors will devote it all to disaster relief.（误）
+If the campaign succeeds in raising huge sums, the sponsors will devote them all to disaster relief.
+If the campaign succeeds in raising a huge sum, the sponsors will devote it all to disaster relief.
+代名词的性别考虑
+When a teacher takes his students on a field trip, he is fully responsible and must bring every one of them safely back to school with him. （不佳）
+When a teacher takes his or her students on a field trip, he or she is fully responsible and must bring every one of them safely back to school with him or her. （不佳）
+ When a teacher takes her students on a field trip, she is fully responsible and must bring every one of them safely back to school with her.
+ 代名词必须有一个先行词
+Although the new regulations allow them to do it, high school graduates seldom go abroad for higher education.（不佳）
+ Although the new regulations allow them to do so, high school graduates seldom go abroad for higher education.
+代名词只能有一个先行词
+When tourists first arrived in this new resort, the locals thought they were very lucky people.（不佳）
+When tourists first arrived in this new resort, the locals thought these outsiders were very lucky people.
+ When tourists first arrived in this new resort, the locals considered themselves very lucky people.
+ 第三章 形容词
+英文的修饰语有两种词类：形容词和副词。形容词是修饰名词专用的。副词则主要用来修饰名词以外的词类，包括动词、形容词与副词 名词
+ 广义的形容词包括形容词子句、减化形容词子句（包含现在分词词组、过去分词词组、同位格、不定词）、介系词词组、以及单字（包含复合字）等等。
+ 单字形状的形容词，通常在句子中只有两种位置可能出现：名词词组中以及补语位置。
+另外还有一种特别的情况，形容词要放在名词后面当做后位修饰语（post-modifiers）。
+一．名词词组中的形容词
+限定符       形容词        名词
+  a           small        garden
+               popular      songs
+ that         foolish         plan
+               extreme       danger
+ my          dearest        friend
+many        happy         days
+ 名词转用为形容词
+「复合名词」（compounds）
+限定符        形容词         名词
+ that          flower          shop
+ your          trouser        pockets
+                 worker       solidarity
+ a              shoe          factory
+                company        cars
+ 复合字形容词
+ 限定符     形容词            名词
+that      hard-to-solve      problem
+         state-of-the-art    technology
+a         five-year-old       boy
+that     10-story-high      building
+ 复数形的形容词
+限定符      形容词      名词
+that       savings      bank
+            damages     negotiations
+several      clothes      hangers
+your        sports         car
+单数的damage意思是「损害」、复数的damages才是「赔偿」。
+单数的cloth意思是「布」， 复数clothes才是「衣服」的意思。
+ 名词词组中形容词的顺序
+ 限定符    形容词    名词
+ two       big old      houses
+所表达的愈是不可变的、客观的特质就愈要靠近名词。反之，愈是可变的、临时的、主观的因素则愈要放得远离名词，也就是要往前面放。
+ He graduated from a prestigious old American law school.
+ I threw away that dirty old blue silk necktie.
+ 二．补语位置的形容词
+ These flowers smell sweet.
+The boss kept us busy.
+That building is 18 stories tall.
+ I saw the dog crossing the street.
+ 一些a-开头的形容词
+有一批a-开头的形容词，不能放在名词词组中，只能放在补语位置。这是因为古英文a-这个前缀带有「暂时性」的意味，所以它不适合放在名词词组中表示「不变属性」的attributive位置，而只能放在补语位置去做predicative的叙述。
+ The patient was asleep.   asleep表示「暂时处于睡着的状态」
+ 主词补语：
+The kid looked afraid.
+ She was not aware of the latest development.
+The new student stayed aloof.
+ The soldier remained alert throughout the night.
+ 受词补语：
+The coffee kept him awake.
+ The drug kept the animals alive.
+ They found the man alone in the office.
+ I consider the two options alike.
+ 一些需要补充的形容词
+有一些放在补语位置的形容词，本身还不具备完整的意思，需要配合别的文字来做进一步的补充、意思才算完整。配合它来做补充的文字，常见的有不定词词组、介系词词组、以及名词子句三种。
+1.	I am eager to begin the project.
+2.	I am able to do the job.
+3.	These people are used to working overtime.
+4.	I am fond of country music. 我喜欢乡村音乐。
+5.	The pilot’s wife is concerned that he might get killed.
+ 形容词在名词词组位置与补语位置的比较
+名词词组中的形容词叫做attributive adjectives，用来表达该名词的属性(attribute)。
+补语位置的形容词叫做predicative adjectives，用来叙述 (predicate)关于名词的种种。补语位置的形容词距离名词最远，惯常用来对名词做一些临时性、补充性的叙述。这和名词词组中表示属性的attributive adjectives在语气上颇不相同。
+ 1. His brother was sick yesterday and couldn’t come to work.
+ 2. His brother is a sick man.
+ 三．后位修饰的形容词
+ 1.复合名词后面
+I am meeting someone important tonight.
+ 2.a-开头的形容词
+ Jane and her mother alike are teachers.
+these people alone「光是这些人」、wood adrift「漂流的木头」
+ 3.外来语与惯用语
+ the President elect 总统当选人
+heir apparent 王位继承人
+court martial 军法审判
+Asia Minor 小亚细亚
+Secretary General 秘书长
+Poet Laureate 桂冠诗人
+devil incarnate 魔鬼化身
+time immemorial 久远以前
+ 形容词的比较级
+修饰语包括形容词与副词，都有比较级与最高级的变化。
+形容词的比较级，可以视为「大于、小于、等于」这三种逻辑关系的表现方式。
+大于
+Unit 3 is longer than Unit 4.
+小于
+Unit 3 is less difficult than Unit 4.
+ 等于
+Unit 4 is as boring as Unit 3.
+一、比较级的拼法
+  单音节的形容词因为很短，适合在字尾变化（如：tall, taller, tallest）；而三个音节以上的形容词 分成两个字来处理（如：expensive, more expensive, most expensive）。
+ helpful      more helpful      most helpful
+useless      more useless      most useless
+famous    more famous       most famous
+active    more active       most active
+crowded      more crowded      most crowded
+loving    more loving       most loving
+这些两个音节的字都是典型的形容词字尾（-ful, -less, -ous等等），应分成两个字处理。其他的双音节形容词，如果不是典型的形容词字尾，变化则无限制。
+ often    oftener (more often)    oftenest (most often)
+shallow      shallower (more shallow)   shallowest (most shallow)
+ happy    happier     happiest
+lucky    luckier     luckiest
+ 二、定冠词的判断
+冠词属于限定符类、是名词词组的一部分，应该是跟着名词走的。
+ 1. Yellowstone is crowded. 黄石公园
+ 2. Yellowstone is most crowded in summer.
+1. Yellowstone is a crowded scenic spot.
+2. Yellowstone is the most crowded of the state’s scenic spots.
+ John is the shorter of the twins.
+ 三、that和those的使用
+ My car is bigger than you.（误）
+ My car is bigger than yours.（我的车比你的大。）
+Cars made in Taiwan are better than those made in Korea. 台湾车比韩国车好。
+ 
+第四章 副词
+ I like Beijing food, especially roast duck.
+修辞原则：修饰语和它所修饰的对象最好尽量接近，这样会比较清楚。另一条基本的修辞原则是：修饰语决不能有两个修饰的对象而造成模棱两可、语意不清的后果。
+副词分类。
+ I. 方法、状态的副词(Adverbs of Manner)
+修饰动词专用的，典型的拼法是形容词加上-ly字尾。
+ 1. S+V
+ The dog barked furiously at the mailman.
+ The dog furiously barked at the mailman.
+ 2. S+V+C
+  He stayed single reluctantly.
+ He stayed reluctantly single.（不佳）
+ He reluctantly stayed single.
+3. S+V+O
+  He harassed the girl openly.
+  He openly harassed the girl sitting at the counter.
+ He harassed the girl sitting at the counter openly.（不佳）
+ He harassed the girl openly sitting at the counter. （不佳）
+He openly harassed the girl sitting at the counter.
+ 4. S+V+O+O
+  His father bought him a car generously.
+The student politely asked the speaker a question.
+ 5. S+V+O+C
+  I consider you a member of the family proudly.
+  I happily pronounce you man and wife.
+ I pronounce you man and wife happily.
+II. 具有强调功能的副词
+四种主要词类——包括名词、动词、形容词与副词——都可以用它来修饰。
+ 1. 强调范围的副词 (Focusing Adverbs)
+only, merely, also, especially, particularly, even等。
+因为这种副词可以修饰任何词类，只要位置一变动，意思也就跟着发生变化。
+John saw the boss yesterday.
+Only John saw the boss yesterday.
+John only saw the boss yesterday.
+John saw only the boss yesterday.
+John saw the boss only yesterday.
+2. 加强语气的副词 (Intensifiers)
+You are absolutely a genius!
+ The test is extremely difficult.
+ Your hair badly needs cutting.
+ Time passed amazingly fast.
+ 3. 程度副词 (Adverbs of Degree)
+程度副词是用来做「有几成」的表示，而不是用来加强语气。
+ The test is extremely difficult.
+ The test is difficult.
+The plan almost failed.  计划差一点就失败了。
+ The plan failed.  计划失败了。
+ Your son is quite a man now.
+I barely know John.
+He plays the piano rather well.
+That is a fairly long story.
+III. 修饰句子的副词 (Sentence Modifiers)
+ 1. 连接副词 (Conjuncts)
+这一类的副词很像连接词(Conjunctions)：
+有的类似对等连接词and（如besides, furthermore）、
+有的类似but（如however, nevertheless）、
+有的类似从属连接词so（如therefore, consequently）
+连接副词可以串连两句话之间的逻辑关系，可是它缺乏连接词的文法功能，所以要靠标点来帮忙。
+Sales have increased 20%; besides, production cost has come down.
+Consequently, we should have no problem reaching our goals this year.  因此，
+ However, projections for the next fiscal year are not very optimistic.  不过，
+ 2. 分离副词 (Disjuncts)
+修饰全句副词
+Theoretically, your proposal might work.  理论上来说，
+  这个句子是下面这句的省略：
+Theoretically speaking, your proposal might work.
+ If we are speaking theoretically, your proposal might work.
+1. Your demand is practically impossible to meet.
+2. Let’s discuss this problem practically.
+3. Practically, you don’t stand a chance in court.
+副词的比较级
+单音节的副词是在字尾加-er, -est来制造比较级与最高级，例如 fast, faster, fastest。
+三个音节以上的副词则是在前面加more, most，例如beautifully, more beautifully, most beautifully。
+Of all my students, John runs (the) fastest.  我所有的学生当中，约翰跑步最快。
+ 
+第五章 介系词
+  介系词词组
+所谓「介系词词组」，就是在介系词后面加上一个名词词组当受词而构成的意义单元，在句中当做修饰语（形容词或副词），用来修饰名词、动词、形容词与副词等各种词类。
+位置通常是在所修饰的对象后面。
+ The company is in trouble.
+ I am leaving for Hong Kong tomorrow.
+The country is rich in mineral wealth.
+The new janitor works half-heartedly at best.
+ 介系词与介副词
+有一种词类，看起来和介系词一模一样，但是后面却没有受词、而是直接当做副词使用。这种词类称为介副词（particles），应该当做副词诠释。
+1. Come in. 进来。
+2. The soldier stood up.
+ 介副词还经常和介系词共同使用，
+ 1. The plumber went down to the basement.
+ 2. He has gone over to your house.
+句中的over是介副词，直接修饰动词has gone。后面的to才是介系词，后接名词词组your house当受词、构成一个介系词词组to your house，当地方副词使用、修饰动词has gone。
+介系词与词组动词
+ The man slept on the couch.
+ The man turned on the light.
+The man turned on the light.（误）
+词组动词的种类
+一．及物动词、不可拆开（受词必须放在词组后面）
+get over 康复，痊愈
+It’s only a cold; you’ll get over it soon enough.
+ look into 调查，了解
+The manager will look into your complaint at once.
+take after 类似，像
+Henry takes after his father.
+stand by 支持
+Don’t worry; I’ll stand by you.
+ Your team is next; please stand by.
+二．不及物动词
+come about 发生
+How did this all come about?
+ fall off 下跌
+Business has fallen off badly since the SARS epidemic.
+go off 爆炸
+The bomb went off in the middle of the night.
+turn up 出现，出席
+The meeting was postponed because too few people turned up.
+三．及物动词、可以拆开（受词可放在词组后面、也可把词组拆开放在中间）
+bring up 抚养长大
+That woman brought up eight children.
+That woman brought eight children up.
+That woman brought them up.
+call off 取消
+The boss has called off the meeting.
+The boss has called the meeting off.
+The boss has called it off.
+ turn down 拒绝
+I’m going to turn down his offer.
+I’m going to turn his offer down.
+I’m going to turn it down.
+ make up 捏造，编造
+He made up a long story.
+He made a long story up.
+He made it up.
+He and his separated wife finally made up. 　合好
+ 四．三个字以上的词组动词，及物、不可拆开（受词应放在后面）
+catch up with 赶上
+He’s slowly catching up with his classmates in exam grades. 他的考试成绩渐渐赶上班上的同学了。
+ drop out of 退出，中辍
+John hurt his leg and had to drop out of the race.
+get away with 侥幸逃脱，全身而退
+If you take the money, you can’t expect to get away with it.
+ go back on 食言，说话不算
+I promised my kid a new notebook, so I can’t go back on my word now.
+ 
+第六章 动词时态
+只需要了解两种状态：简单式与完成式
+把be动词当做动词、其后的分词视为形容词补语看待。
+分词视为形容词
+ 名词词组中
+This is a good book.
+1. This is a best-selling book.　「持续、进行」的暗示
+ 2. This is a well-written book.　「被动、完成」的暗示
+补语位置
+ The book is good.这本书很好。
+ 1. The book is selling well.这本书卖得很好。
+动词时态会有多达24种（3种时间乘4种状态乘2种语态）
+ 2. The book is well written. 这本书写得很好。
+ 静态动词
+有「动作」在里头。真正名符其实的动词如hit, kill, eat, run, talk, jump, swim等等，代表的都是「动作」。 「动态」的动词才能够有「进行式」，也就是说只有动态动词才适合用来表示「正在做」或「一直在做」某个动作。
+ 1. He is eating breakfast now.
+ 2. The dog was swimming toward the shore then.
+如果动词是「静态动词」、并不代表「动作」，自然也就没有所谓的「正在做」或「一直做」。因此，以传统文法的角度来说：静态动词不能用于进行式。
+ 几个常见的静态动词
+ I am busy; I have a lot of work to do.
+This camera belongs to me.
+George resembles his father a lot.
+ I believe his story.
+ I like milkshakes.
+I consider him a true friend.
+When I said she looked 25, I was being nice.　表现礼貌。
+ He was having lunch when I called.
+ The committee is considering your proposal.
+ 简单式
+简单式的动词可以清楚交代此动作是发生于哪个时段。而与它搭配的时间副词通常会明确标示出一个时段。也就是说：简单式的时间是个括号的形状
+ 一、过去时间
+ The U.S. established diplomatic relations with the P.R.C. (in 1979).
+The movable print was introduced to England (in 1485).
+I was visiting clients (the whole day yesterday).
+ I was watching TV (when I heard the doorbell).
+The witness was being questioned in court (when he had a heart attack.)
+ 二、现在时间
+如果时间副词是now，或是以now为中心的一个或大或小的括号，就应该采用现在简单式。
+ Wang pitches a fast ball. The hitter swings. It looks like a hit. The shortstop fails to stop it. It's a double!
+Wang Chien-Ming pitches for the Yankees.
+All mothers love their children.
+ That retail chain is selling big cokes at a discount this month.
+According to the NASA survey, the ozone layer is being depleted.
+ 三、未来时间
+未来时间的简单式，只是把时间的括号放在未来
+未来式的5种说法
+ 1.  John will leave tomorrow.
+2.  John is going to leave tomorrow.
+3.  John is to leave tomorrow.
+4.  John is leaving tomorrow.
+5.  John leaves tomorrow.
+ Because the weatherman says it will rain this afternoon, I’m going to bring an umbrella.
+ I will go tomorrow.（第1种）
+ I am going to go tomorrow.（第2种）
+ I am to go tomorrow.（第3种）
+ I am going tomorrow.（第4种）
+go, come, leave, arrive, begin, end等等。这些表示「来、去、离开、到达、开始、结束」的字眼，往往代表一种「目前的规画或打算」
+ The train leaves at 2:30.火车两点半开。
+World Cup finals begin tomorrow night.世界杯决赛明晚开打。
+ 未来式举例
+I will discuss the plan with my boss next week.
+Don't call me at six tomorrow. I'll still be sleeping then.
+ The building will be razed next month.
+ 过去时间的未来
+如果以某个过去时间为出发点，它的未来式通常要拼成过去拼法的would。
+ It was mid-1945; Japan would soon raid Pearl Harbor.
+The weatherman said it would rain, but it didn’t.
+ 一条文法规则
+「表示时间或条件的副词子句，用现在式代替未来式」。
+副词子句与名词子句
+1. I know when he left the room.
+2. He forgot his briefcase when he left the room.
+ 1. I’ll ask if he has the money.
+  2. If he has the money, he can help us.
+ 文法规则
+「When解释为『当…时候』、if解释为『如果』，这两种连接词引导的子句要用现在式代替未来式」。
+When he gets here, the police will be waiting.
+ If he gets to the hospital in time, he’ll be able to see his father for the last time.
+ 完成式
+完成式则是以一个箭头形状来表达、表示动作的截止时间。 只表示在某个截止时间之前「曾经做过」、「有做过」。
+一、现在时间
+I'm sure I have seen this face somewhere.
+ We have been working overtime for a week to fill your order.
+ I have lived here for 20 years. 我在这（一直）住了20年了。
+I have been living here for 20 years.
+ I have read your book.
+I have been reading your book.
+The house has been redecorated twice since they moved in.
+二、过去时间
+必须有一个过去的截止时间，也就是箭头指到某个过去时间为止，表示在那之前就「有…过」。
+Many soldiers had died from pneumonia before the discovery of penicillin.
+I had been smoking three packs of cigarettes a day before I decided to quit.
+Japan had not been defeated yet by the time Germany surrendered unconditionally.
+三、未来时间
+未来时间的完成式，只是把箭头所指的截止时间移到未来的某个点。
+ Next April, I will have worked here for 20 years.
+Come back at 5:00. Your car will have been fixed by then.
+In two more minutes, she will have been talking on the phone for three hours!
+ 第七章 语气助动词
+ 语气助动词有哪些
+主要的语气助动词有must, will, would, should, can, could, may, might这几个。另外还有ought to, have to, used to, need, dare, had better, would rather, might as well等等也都属于语气助动词，使用的频率稍低。
+ 语气助动词的两种用法
+同样一个语气助动词，可以有两种不同的用法。
+1. We must be very careful. 我们一定要很小心。
+2. John must be very careless. 约翰一定是很粗心。
+「一般用法」表达义务、意愿、责任、能力、许可等等。
+用来做猜测，「猜测用法」。
+ 主要语气助动词的一般用法
+ 1.must
+这个语气助动词在一般用法中表示「义务，非如此不可」。它缺乏时态变化，现在时间和过去时间的写法是一样的，
+ We must all keep together. 我们一定不能走散。（现在时间）
+He said we must all keep together. 他说我们一定不能走散。（过去时间）
+2.will/would
+表示「愿意，决心，承诺」时，will/would属于语气助动词，和单纯表示「未来式」的时态助动词不一样。这一对语气助动词在一般用法中具有时态的差别，
+ I will have my own way. 我决定照自己的意思做。（现在时间的未来）
+He said he would have his own way. 他说他决定照自己的意思做。（过去时间的未来）
+would这种拼法却也可以用在「现在时间」
+ Would you like a cup of coffee?
+「客气」地询问对方的意愿，时间就是现在。
+ 3.shall/should
+Shall we go now? 我们是不是该动身了？
+另外，shall也可以用相当正式的语气表达说话者强烈的决心，
+ The enemy shall not pass! 绝对不容敌人通过！（我绝不会让敌人通过）
+一般都只会用到should、不论现在时间还是过去时间。　表示「责任，义务，不这样做不对」，
+ We should always be on time. 我们应该一直保持准时的习惯。（现在时间）
+He said we should leave early, and we did. 他说我们应该早点动身，我们也照办了。（过去时间）
+4.can/could
+表示「有能力，有权利」。它具有现在时间与过去时间的差别，
+I can drink a dozen beers in an hour. 　（现在时间）
+Last night there was something wrong with my stomach, and I couldn’t even finish one beer.
+（过去时间）
+could也可以用在现在时间，
+Could you please help me with my homework? 　 　「客气」的语气。
+ 5.may/might
+表示「准许，许可」，有时态的差别，
+ You may go now.  你们现在可以走了。（现在时间）
+He said we might go.  他说我们可以走了。（过去时间）
+might仍然可以用在现在时间，
+ Might I ask a big favor of you?  　「客气」。
+ 一般用法的过去拼法配合完成式
+在主要语气助动词中，作「过去」拼法的有would, should, could, might这四个。如果这四个语气助动词后面配合动词完成式（have Ven），通常表示：一、相对过去的时间；二、非事实语气。
+I would have left the country if I had known what was going to happen.
+ You should have attended the meeting last week; why didn’t you?
+ With a little help, I could have finished a lot sooner.
+ Under a more reasonable boss, I might have done a much better job.
+ 主要语气助动词的猜测用法
+用于猜测时，will/would, can/could, may/might这三对已经完全没有表达「时态」的功能、只用来表现「语气」的轻重：will, can, may用于相对比较「有把握」的猜测，would, could, might则是比较「没把握」的猜测。
+所有的主要语气助动词，不论现在拼法还是过去拼法，只要配合完成式动词（have Ven）使用，意思就是「猜测过去」。
+1.must
+Listen! It must be raining hard outside. 　（猜现在）
+ It must have rained last night—the ground is still wet.（猜过去）
+ 2.will
+That will be George at the door, I expect. 　（猜现在）
+ You will all have heard the news last night.　（猜过去）
+3.would
+This seat would be mine, right?（猜现在）
+ That would have been the mailman just now; I found some new mail in the box.
+ 4.should
+We should be on the right track.　。（猜现在）
+He should have left; his car is gone.
+5.can
+Where can he be at this hour? 　（猜现在）
+Where can he have gone？ 　（猜过去）
+6.could
+Of course, I could be wrong. 　（猜现在）
+ The police is here; something could have gone wrong.
+ 7.may
+Don’t go near that snake; it may be dangerous.　（猜现在）
+ It may have been dangerous, but now it’s gone.
+8.might
+Bring a compass; you might get lost in the woods.
+Check the answering machine; he might have left a message for you.
+ 其他语气助动词
+1. ought to
+I think you ought to apologize to him.
+ He ought to be home now. 　（猜现在）
+疑问句
+Ought we to go?
+You oughtn’t to have done that.　（一般用法，过去非事实语气）
+ 2.have to
+You have to tell your father.
+ That has to be the pizza man at the door.
+Do you have to leave now? 你现在非走不可吗？（一般用法）
+I don’t have to leave now.  我现在不是非走不可。（一般用法）
+ 3.used to
+He used to smoke a pipe.
+Used he to smoke a pipe?
+Did he use(or used) to smoke a pipe?
+He used not to smoke a pipe.
+He didn’t use(or used) to smoke a pipe.
+ 4.need
+I don’t think you need go.
+Need I remind you of the consequences?
+You needn’t do that.
+Need除了当助动词，也可以当做动词使用。
+ I don’t think you need to go.
+Do I need to remind you of the consequences?
+You don’t need to do that.
+ 5.dare
+I’m not sure I dare touch that snake.
+Dare you sleep in that haunted house alone?
+I dare not tell my wife the truth.
+dare也可以当动词使用，
+ I’m not sure I dare to touch that snake.
+Do you dare to sleep in that haunted house alone?
+I don’t dare to tell my wife the truth.
+ 6.had better
+I think we had better leave now.
+Hadn’t we better be leaving now?
+You had better not lie to me.
+ 7.would rather
+I would rather go abroad than study at a local graduate school.
+Would you rather stay here?  你是不是宁愿留下来？
+I would rather not talk about it.  这件事情我不想谈。
+ 8.might as well
+We might as well walk, with so much traffic on the road.
+We might as well not drive at all.  我们不如干脆不要开车。
+ 结语
+语气助动词有两项特点需要注意：
+一、表达时间的功能不完整。Would, could和might这些看似过去拼法的语气助动词却也都可以用在现在时间或未来时间。
+二、语气助动词如果配合完成式，表示的是「相对过去的时间」。
+第八章 语气
+ 语气(Moods)是利用动词变化来表达「真、假」口吻的方式。依各种不同程度的「真、假」口吻，可以细分为四种语气：
+ 叙述事实语气(Indicative Mood)：表示所说的是真的。
+条件语气(Conditional Mood)：表示真假还不能确定。
+假设语气(Subjunctive Mood)：说反话，表示所说的与事实相反。
+祈使语气(Imperative Mood)：表示希望能够成真，但尚未实现。
+ 1.叙述事实语气
+ I will go to the U.S. next year to study for an MBA degree.
+ I am going to go to the U.S. next year.
+I am to go to the U.S. next year.
+I am going to the U.S. next year.
+I go to the U.S. next year.
+The weatherman says sunrise tomorrow is at 5:32.
+ The movie starts in 5 minutes.
+ I'll be ready when he comes.
+ If you are late again, you'll be fired. 你再迟到就会被炒鱿鱼。
+ 2.条件语气
+句子中一旦加上语气助动词（前一章所述的must, should, will/would, can/could, may/might等等），就产生了不确定性，称为条件语气。
+1. You are right.   你是对的。
+2. You may be right.    你可能是对的。（猜测用法）
+3. You may leave now.   你现在可以走了。（一般用法）
+ 3.假设语气
+「说反话」的语气，表示所说的话和事实相反。这种语气的表现方式，是以动词的「过去」型态做为表达「非事实」的手段。
+ 一、现在时间
+If I were you, I wouldn't do it.  假如我是你的话，我就不干。
+ 二、过去时间
+If I had known earlier, I might have done something.
+ 三、未来时间
+If I were to take the bribe, I could never look other people in the eye again.
+If I should take the money, can (or could) you guarantee secrecy?
+ If an asteroid should hit the earth, man can (or could) die out.
+ 假设语气的归纳
+一、句型的规律性
+因为假设语气的句子都是用过去型态来表示非事实，所以动词看起来都是过去型态。 主要子句中都含有过去拼法的语气助动词，分别是would, might, could。
+由if引导的子句 ，表示现在和过去时间的 都没有助动词存在， 可以采用should这个助动词来表示可能性极小的状况，绝无可能的状况则要用were to 来表示。
+二、动词的规律性
+假设语气的动词都是以「过去」型态来表达「非事实」。若是现在时间就退后成过去式型态；过去时间也要退后一步，成为过去完成式型态。
+三、混合时间的变化
+ If I had studied harder in school, I could qualify for the job now.
+四、混合真假的变化
+ I could have contributed to the fund drive then, only that I didn't have any money with me.
+ 五、句型的变化
+ It's time you kids were in bed.
+ If only I had more time!
+ I wish I had more time!
+ 4.祈使语气
+条件语气中省略助动词只剩原形动词，用来表示「希望能成真，但尚未实现」。
+间接命令句
+ The court demands that the witness leave the courtroom.
+ (You must) Leave the courtroom!（离开法庭！）
+ There is a strong expectation among the public that someone take responsibility for the disaster.
+It is necessary that...（有必要…）
+I insist that...（我坚持…）
+ It is necessary that the letter be sent out before noon.
+ I insist that the letter be sent out before noon.
+I insist that the letter was sent out before noon.
+结语
+语气的变化概如上述，读者从「用语气表示真假」为出发点，对四种不同的语气能够有整体的了解，就不必死背很多规则。
+ 
+第九章 被动语态与过去分词
+ 何谓被动语态
+英文中的语态（voice），可以分成主动态（active voice）与被动态（passive voice）两种。所谓被动态，就是用动词来表示主词「被」如何，通常以be动词加过去分词（be + Ven）的方式呈现。
+ 被动态的几种句型变化
+ S+V+O
+ The author wrote the book in 2003.
+The book was written (by the author) in 2003.
+ S+V+O+O
+ He showed the guard his pass.
+ The guard was shown his pass.
+His pass was shown the guard.
+He showed his pass to the guard.
+ His pass was shown to the guard.
+ S+V+O+C
+All his friends call him Lucky.
+ He is called Lucky by all his friends.
+ 介系词的受词
+Somebody sat on my hat.
+    S        V  介系词词组
+ My hat was sat on.
+   S        V
+一律把be视为动词、后面的过去分词词组则视为形容词补语看待。
+ The book was written in 2003.
+     S       V     C
+ The guard was shown his pass.
+     S       V   C（过去分词词组）
+ His pass was shown the guard.
+    S      V   C（过去分词词组）
+ His pass was shown to the guard.
+    S      V    C
+ He is called Lucky by all his friends.
+ S  V  C（过去分词词组）
+ My hat was sat on.
+  S       V   C（过去分词词组）
+ A bridge is being built across that river.  那条河上正在盖一座桥。
+ A bridge is being built across that river.
+    S      V      C
+ Your application has been approved.
+ Your application has been approved.
+        S                V         C
+ 形容词的Ven与动词的Ven
+过去分词如果放在have后面构成完成式（have + Ven），应该视为动词词组看待。除了这种情况以外，其他位置的过去分词都可以视为形容词。
+ 1. I am very annoyed with him.
+ 2. I was annoyed by mosquitoes all night.
+ 过去分词与形容词的比较
+ 名词词组中
+Clean water is safe to drink.
+ Boiled water is safe to drink.
+补语位置
+The water is clean.
+ The water is boiled.
+ 带有「完成」暗示而非「被动」暗示的过去分词
+I can't find my wallet. It's gone. 　。
+ It is gone.
+S V    C
+The leaves are all fallen, now that winter is here.
+ The leaves are fallen.
+    S        V    C
+I'm done. It's all yours.
+ 表示「感觉」的分词
+He is disappointed at his scores.
+ His scores disappoint him.
+  S             V        O
+ He is disappointed by his scores.
+ S         V
+ He is unhappy with his scores.
+ S  V     C
+He is disappointed with his scores.
+S  V       C
+ I am satisfied with the progress.
+He was surprised at the result.
+We were all amazed at his improvements.
+He is scared of losing his girlfriend.
+The coach is pleased with our performance.
+The boss is tired of his excuses.
+ 被动态必须「师出有名」
+ They speak Portuguese in Brazil.（不佳）
+Portuguese is spoken in Brazil.
+  Someone stole my wallet.（不佳）
+My wallet was stolen.
+ Although the doctor ordered him not to smoke, the patient found it impossible to quit the vice.（不佳）
+ Although he was ordered by the doctor not to smoke, the patient found it impossible to quit the vice.
+  Although ordered by the doctor not to smoke, the patient found it impossible to quit the vice.
+ The manager is not available right now because a meeting is being presided over by him.（不佳）
+ The manager is not available right now because he is presiding over a meeting.
+ 
+第十章 现在分词
+ 动状词
+传统文法中称过去分词、现在分词、动名词、不定词词组等四种词为「动状词」（Verbals）。
+ 进行式
+ The tree was swaying in the breeze.
+ 进行式的另一种看法
+可以选择认定be动词为动词、后面的现在分词视为形容词补语
+ The tree was swaying in the breeze.
+     S      V     C
+I saw the tree swaying in the breeze. 我
+S  V     O        C
+ He was teaching his son English at the time.
+ S        V           O         O
+ He was teaching his son English at the time.
+ S   V      C(现在分词词组)
+ We found him teaching his son English.
+ S    V     O      C(现在分词词组)
+形容词的Ving与动词的Ving
+ 1. He was writing a book in the countryside.
+   S       V           O
+2. The book could be very interesting.
+       S           V            C
+He was writing a book in the countryside.
+S   V   C(现在分词词组)
+现在分词视同形容词
+形容词是用来修饰名词的，在句中主要有两种位置：1.名词词组中；2.补语位置。
+ 名词词组中
+That black dog doesn't bite.
+ A barking dog doesn't bite.
+补语位置
+The dog is black.
+The dog is barking.
+表示「感觉」的分词
+ His scores disappoint him.
+   S            V         O
+ His scores are very disappointing to him.
+   S         V              C
+ His scores are very unsatisfactory to him.
+    S       V              C
+ He finds the scores very disappointing.
+ S    V        O                   C
+The progress is satisfying to me.
+He finds the result surprising.
+His improvements were amazing to all of us.
+The idea of losing his girlfriend is scaring to him.
+Our performance is pleasing to the coach.
+The boss finds his excuses rather tiring.
+ interesting books
+an astonishing discovery
+troubling developments
+a frightening earthquake
+ 现在分词与过去分词混合
+I have no comment to make while the case is being investigated by police.
+ 
+第十一章 动名词
+动名词属于名词类，现在分词则是当形容词使用
+ 动名词的特性
+一、动名词与普通名词的比较
+Let me buy you a drink.
+Drinking is his only vice.
+I am not afraid of death, but I am scared of dying.
+There are two weddings at the restaurant tonight.
+动名词的构造与用法和普通名词非常近似：可以有冠词（the burning）；可以有所有格（his running）；还可以有复数（two weddings）。
+ 动名词的一些变化
+一、复合字
+Picking strawberries can be fun.  　动名词词组
+The picking of strawberries requires patience.  　名词词组
+ Strawberry-picking is a strenuous job.  　形容词
+ 二、动名词的被动态：being Ven
+Being invited here is a great honor.
+         S             V       C
+动名词与现在分词的分辨
+That flying bird is a black-faced spoonbill. 　现在分词
+ That bird is flying.  现在分词
+   S        V    C
+That flying jacket looks smart on you.    动名词
+ That jacket is flying. (误)
+        S       V    C
+ 反之，如果要检验一个字是不是动名词，可以把它拿到另一个典型的动名词位置：介系词后面。
+That's a jacket for flying.
+ 
+第十二章 不定词词组
+不定词最合理的解释就是把它视为助动词的减化。
+ 不定词与助动词的共同点
+一、后面都要接原形动词
+I will go.
+I want to go.
+ 二、都有「不确定」的语气
+1. He is right.
+2. He may be right.
+3. He seems to be right.
+ 三、都要采用完成式来表达相对的过去时间
+助动词与不定词本身都无法完整表达过去时间。
+1. It must be raining now.
+2. It may rain any minute now.
+3. It might even snow.
+ It must have rained last night.
+在猜测过去的事情时，助动词不论是must, may还是might，都只能表示「语气强弱」的差别，无法表达过去式。
+助动词后面必须接原形动词，所以也不能用过去式。因此别无选择，在语气助动词后面只能用完成式来表示过去，也就是采must have rained这种型态。
+ 就这点来看，不定词仍然与助动词相同：
+ It seems to have rained last night. 昨晚好像下过雨。
+四、所有主要的语气助动词，都可以改写为不定词
+ must—have to
+will/would—be going to, be willing to
+should—ought to
+can/could—be able to
+may/might—be likely to, be allowed to
+减化子句时，不定词其实就是助动词减化的结果。
+不定词词组的词类
+不定词词组可以当名词词组使用，也可以当形容词词组、副词词组使用。
+ 名词
+ To hesitate now would be fatal.
+ It would be fatal to hesitate now.
+ I want to marry you.  「将要」
+I found it hard to stay awake. 表示「能够」
+ His suggestion is to start as soon as possible.  「应该」
+只有介系词后面的名词位置不适合放不定词词组。如果在介系词后面碰到动词，通常会采用动名词的形态，
+ They talked about moving to the South.
+ 形容词
+I have two reports to write this week.  表示「必须」
+ Everyone is to leave the building immediately.
+ I want you to tell me the truth.
+ 副词
+一般副词最常见的用法是用来修饰动词、形容词、以及副词。
+ I went online to find some answers.  「能够」
+  动词                  副词
+ Your question is easy to answer.
+                      形容词   副词
+ Who will win the election is still too early to say.
+                                               副词         副词
+ 不定词与动名词的区分
+ 1. 动名词的特色
+动名词是最接近普通名词的动状词，可以用它来代表「一个动作」或「一件事情」。它的-ing字尾类似现在分词，有时带有「持续」的暗示。
+2. 不定词的特色
+不定词具有「不确定」语气，类似语气助动词的「条件语气」。句中如果采用不定词词组，往往可以用某一个助动词来解读。
+ 接动名词与不定词皆可、意思相同
+像begin, prefer, like, love, hate这些动词，后面的受词位置用动名词和不定词都可以
+After supper, they began to watch(or watching) TV.  「将要」
+ I would love to come to your party.
+ 只能用不定词
+像hope, expect, agree, decide, intend这些动词
+ I expect to see you again soon.  期望「将会」、 「不确定」语气
+ 只能用动名词
+像dislike, avoid, enjoy, keep, practice这些动词
+ I dislike reading ebooks on the computer.   「持续性」
+He practiced speaking English with his American colleague.
+ 动名词与不定词皆可，意思不同
+有几个动词，像remember, forget, regret, stop等等，
+ I forgot to put the food in the refrigerator; now it’s all spoiled.
+I forgot putting the food in the refrigerator, so I couldn’t find it anywhere.
+Forget doing something的意思就是「做了之后忘了有这回事」。
+ 使役动词与原形动词
+ The little girl asked her mother to come to the PTA meeting.
+ 使役动词是一些像make, let, help, have之类的动词。它与普通动词的差别就在于它具有强制性，它的结果是确定的、无从选择的。
+The teacher made the little girl stay behind.
+The teacher asked the little girl to stay behind.
+ John had his car painted over.
+ 感官动词与原形动词
+ I heard her playing the violin.
+ I heard her cry out in pain.
+ She was crying in pain.
+ 不定词to与介系词to的区分
+不定词to来自助动词、具有不确定意味，这是判断不定词最重要的依据。
+介系词的to，就和其他介系词如in, on, at一样，表现的是一种相对关系：介系词to的意思是「对、朝向」，类似另一个介系词toward。
+ 有一些词组，如be used to「对…习惯了」、look forward to「对…引颈盼望」等等，是介系词，后面应该用名词词组做受词。
+ 1. The Inuits are used to cold weather.
+2. The Inuits are used to living on ice. 爱斯基摩人
+1. The lady agreed to come over and help with the cooking.   「会、愿意」
+ 2. The manager agreed to downsizing.
+ 混合的形态
+ 1. be being Ven
+ The house was being renovated when it collapsed on the workers.
+2. have been Ven
+ You have been warned, so be careful.
+3. have been Ving
+ I have been watching this film for 20 minutes now.
+4. to be Ving
+不定词词组和现在分词的组合，仍然视为不定词词组看待。
+It’s impossible to be going on like this much longer.
+ 5. to be Ven
+ Children like to be praised.
+ 
+第二篇  中级句型——合句与复句
+第十三章 合句
+合句(compound sentences)与复句(complex sentences)
+ 限定子句与非限定子句
+「子句」（clause）。子句可分成限定子句（finite clauses）与非限定子句（nonfinite clauses）两种。
+ He understands that he did the wrong thing then.
+He hates his girlfriend’s spending so much time on makeup every day.
+ 句子的三种层次
+ 初级：单句
+We are sitting here in the sun.
+ We can see snow-covered hills.
+中级：复合句
+We are sitting here in the sun, and we can see snow-covered hills.（合句）
+          对等子句                                  对等子句
+ As we sit here in the sun, we can see snow-covered hills.（复句）
+         从属子句                         主要子句
+高级：减化子句
+Sitting here in the sun, we can see snow-covered hills.
+      非限定子句                   限定子句
+ 对等连接词：and, or, but
+主词
+George and Mary were good friends.
+George, Mary, and Jane were always together.
+动词
+ We always worked and played together.
+ We always worked together. We always played together.
+ We always worked together and we always played together.
+ We ran, jumped, and shouted for joy.
+ 其他
+ We take our holidays in July or August.
+ 相关字组：both A and B…
+ He spoke to George and me.
+ He spoke both to George and to me.
+ both A and B
+either A or B; neither A nor B
+not only A but also B
+相关字组的对称要求
+ 1. Gold jewelry looks beautiful and elegant.
+ 2. Gold jewelry looks beautiful and lasts forever.
+ Gold jewelry lasts forever but expensive.（误）
+ Gold jewelry not only looks beautiful but also elegant. （不佳）
+ 3. Gold jewelry looks not only beautiful but also elegant.
+4. Gold jewelry not only looks beautiful but also lasts forever.
+ 对等子句
+Everyone was in the hall, and the door had been closed.
+Most of us were in the hall, the doors had been closed, and the lights were out.
+ A. He did not like us, and everyone knew, but no one admitted it.
+ 对等子句与相关字组
+Either he did not like our hairstyle, or we had offended him in some other way.
+ 相关字组的倒装
+ China is not only the world's most populous state but also the largest market in the 21st century.
+ Not only is China the world's most populous state but also the largest market in the 21st century.（误）
+ Not only is China the world's most populous state but it is also the largest market in the 21st century.
+ 不对称的错误
+ War is destructive, wasteful, and ultimately a futile deed.（误）
+ War is destructive, wasteful, and ultimately futile.
+ The Yangtze River, the most vital source of irrigation water across the width of China and important as a transportation conduit as well, has nurtured the Chinese civilization for millennia. （不佳）
+ The Yangtze River has nurtured the Chinese civilization.
+          S                     V                    O
+ The Yangtze River, the most vital source of irrigation water across the width of China and an important transportation conduit, has nurtured the Chinese civilization for millennia.
+对等子句的省略
+Smoking by pregnant women may slow the growth and generally harm the fetus.（误）
+ Smoking by pregnant women may slow the growth of the fetus,
+                S1                       V1            O1
+ and it may generally harm the fetus.
+      S2          V2                  O2
+Smoking by pregnant women may slow the growth of and generally harm the fetus.
+ 
+第十四章 名词子句
+复句
+ 1. Chicago is a grain-shipping center.
+2. Chicago is a center that ships grain.
+1. He worked overtime for the money.
+2. He worked overtime because he needed the money.
+
+ 1. I saw the mirror.
+2. I saw that the mirror was broken.
+名词子句的种类
+ 来自直述句
+ 1. He didn’t take the money.
+ 2. I believe that.
+    S    V      O
+ I believe that he didn’t take the money.
+S    V                   O
+来自疑问句
+Information Question
+ 1. What happened at his party?
+      S       V
+ 2. I never asked him the question.
+    S           V      O        O
+I never asked him what happened at his party.
+S           V     O              O
+1. Where did he keep the money?
+2. He never revealed the question.
+ He never revealed where he kept the money.
+ Yes/No Question
+ 1. Is it going to rain soon?
+ 2. By looking at the sky, I can tell the question.
+ Either it is going to rain soon or it is not.
+ By looking at the sky, I can tell whether it is going to rain (or not).
+                                S     V                         O
+>>>Whether 与 if
+尽量使用whether来表示「是否」、避免使用if。
+一．Whether只有一种解释，「是否」，if则有「是否」和「如果」两种解释。所以，用whether来表达通常会比用if更清楚。
+ 二．句首位置只能用whether、不能用if来表示「是否」。
+ Whether we can win the big prize will be decided soon.
+三．介系词后面可以用whether不能用if。
+ The manager hinted at whether he would sign the contract.
+名词子句的位置
+名词位置有下列五种：主词必须是名词、动词的受词必须是名词、补语可能是名词、名词的同位格必须是名词、还有介系词的受词也必须是名词。
+ 一、主词位置
+ That子句
+1. Something is strange.
+ 2. He didn't show up on time.
+That he didn't show up on time is strange.
+                 S                         V     C
+放在句首主词位置的that子句，连接词that不能省略，
+ He didn't show up is strange.（误）
+ It is strange (that) he didn't show up on time.
+S  V     C                名词子句
+ Wh- 子句
+1. Where is he hiding now?
+2. The question is a big mystery.
+ Where he is hiding now is a big mystery.
+ It is a big mystery where he is hiding now.
+ 二、动词的受词位置
+ That 子句
+1. The defendant said something.
+2. He didn't do it.
+ The defendant said (that) he didn't do it.
+名词子句作受词使用时，可以省略that。
+1.	I find something strange.
+ 2. He didn't show up on time.
+I find it strange (that) he didn't show up on time.
+Wh-子句
+1. Why had he bought so much of that stock?
+2. He explained the question.
+ He explained why he had bought do much of that stock.
+三、补语位置
+ That子句
+1. The car is ruined. The important thing is that thing.
+2. We are all right.
+ The important thing is (that) we are all right.
+Wh-子句
+1. We all know what happened. The question is this.
+2. Can we do anything about it?
+The question is whether we can do anything about it.
+四、同位格位置
+所谓同位格（appositive）其实就是形容词子句减化之后所留下的名词补语。
+ That子句
+The story (that) he once killed a man might just be true. 他
+不明显的同位格
+I am afraid (that) I can't help you.
+You had better take care that nothing goes wrong.
+ Wh-子句
+The question why the dinosaurs died out may never be answered.
+ 不明显的同位格
+I am not sure what caused the delay.
+ I am not sure of the question what caused the delay.
+ 五、介系词的受词位置
+ 介系词后面也需要受词，但是这个受词应该用的是名词词组而非子句。
+ 1. My response depends on the question.
+          S              V
+ 2. What did he really mean by that?
+ My response depends on what he really meant by that.
+  只有wh-子句才能直接放在介系词后面当受词使用。如果是that子句就不能这样做，要换一种方式：
+1. His response dwells on the fact.
+2. I owe him a favor.
+ His response dwells on the fact (that) I owe him a favor.
+                                   名词            同位格
+评论子句
+ This is your last offer, I suppose?
+ He was really afraid, I believe.
+ This trick, you know, will never work.
+ 引用句
+1. The guard said, “The road is closed.”
+2. The guard said (that) the road was closed.
+“The road is closed,” said the guard.
+“The road is closed,” the guard said.
+The road was closed, said the guard.
+The road was closed, the guard said.
+ 1. The earthquake was a 6.9, said Dr. Chang, Director of the Yangmingshan Geological Observatory.
+ 2. Dr. Chang, Director of the Yangmingshan Geological Observatory, said
+         S                                                                                     V
+that the earthquake was a 6.9.
+          O
+地震几级才是重点，至于是谁说的并不重要。
+ 3. The earthquake was a 6.9, Dr. Chang, Director of the Yangmingshan Geological
+                     O                        S
+Observatory, said.
+            V
+结语
+名词子句有三个重点：
+一、 如果是直述句，外加无意义的连接词that表示「那件事」，可以变成名词子句。
+二、 如果是有疑问词引导的疑问句则不必加连接词，直接以疑问词扮演连接词，表示「那个问题」；没有疑问词的疑问句则要加上whether当连接词。
+三、 名词子句属于名词类，必须放入主要子句中的名词位置（主词、受词、补语、同位格）使用；但是that子句不能放在介系词后面的受词位置。
+ 
+第十五章 副词子句
+ 副词子句是三种从属子句（动词、形容词、副词子句）之中最简单的一种。 可有可无的修饰语，整个删除掉的话也不会影响到主要子句句型的正确性。
+ 副词子句与名词子句的构造比较
+ 来自直述句
+要加各式各样如because, although, if, as, when, where等等「有意义」的连接词，用来表达各式各样的逻辑关系如「原因、让步、条件、状态、时间、地方」等等。
+ 1. I believe that ghosts are real.
+ 2. I believe that, because I have seen one with my own eyes.
+ 1. He said sincerely that he was sorry.
+ 2. He said it so sincerely that his wife forgave him right away.
+so … that 表示「如此…以致于」， 修饰副词sincerely造成的结果。
+ 来自Information Question
+疑问词引导的疑问句要改造成副词子句，做法则是第一：拿掉问号、还原成非疑问句的动词顺序（这个部分和制造名词子句完全相同）；第二：在疑问词前面再加上no matter（表示「不论」），或者在疑问词后面加上-ever的字尾（同样表示「不论」），就会变成副词子句。
+ 1. Where the criminal is hiding is anybody’s guess.
+2. No matter where the criminal is hiding, the police is going to get him soon.
+3. Wherever the criminal is hiding, the police is going to get him soon.
+ 来自Yes/No Question
+这时候whether不再解释为「是否」，而是表示「不论」。如果不加whether，改成加no matter也是一样，仍然表示「不论」。
+1. Whether he’s still alive (or not) is difficult to say.
+2. Whether he’s still alive (or not), I’m not going to marry anyone else.
+ 3. No matter he’s still alive (or not), I’m not going to marry anyone else.
+ 副词子句的种类
+时间副词、地方副词、方法状态的副词、加强语气的副词等等。
+学习副词子句的重点只是在认识各种从属连接词，以便写作时可以选择贴切的连接词来表达各种逻辑关系。
+ 一、时间、地方
+1. He became more frugal after  he got married.
+ 2. I'll be waiting for you until you're married.
+3. It was all over when I got there.
+4. A small town grew where three roads met.
+ 二、条件
+1. If he calls, I'll give him the message.
+若时间是未来，在表示条件的副词子句中，虽然事情尚未发生，也必须采用「假如果真是」的语气来说，所以要采用叙述事实的现在式动词来表示（如第1句中的calls）。
+ 2. He won't have it his way, as long as I'm here.
+                                              副词子句
+ 外加表示「只要…」的连接词as long as构成副词子句，修饰主要子句动词won't have的条件。
+3. Suppose you were ill, where would you go?
+三、原因、结果
+1. As there isn't much time left, we might as well call it a day.
+          副词子句
+既然
+ 2.There's nothing to worry about, now that Father is back. 既然
+
+ 3.He looked so sincere that no one doubted his story.
+ 4.The mother locked the door from the outside, so that the kids couldn't get out when
+they saw fire.
+四、目的
+1.The mother locked away the drugs so that the kids wouldn't swallow any by mistake.
+ 2.I've typed out the main points in boldface, in order that you won't miss them.
+外加表示「为了」的连接词in order that构成副词子句，
+3.I've underlined the key points, lest you miss them.  以免
+ 4.You'd better bring more money, in case (that) you should need it.
+ 五、让步
+1.Although you may object, I must give it a try.
+ 2.While the disease is not fatal, it can be very dangerous.
+ 3.Wh-ever拼法的连接词，若解释为No matter wh-（不论），就表示让步的语气，引导的是副词子句。
+ Whether (= No matter) you agree or not, I want to give it a try.
+Whoever (= No matter who) calls, I won't answer.
+Whichever (= No matter which) way you go, I'll follow.
+However (= No matter how) cold it is, he's always wearing a shirt only.
+ Wherever (= No matter where) he is, I'll get him!
+ Whenever (= No matter when) you like, you can call me.
+六、限制
+1.As far as money is concerned, you needn't worry.
+ 2.Picasso was a revolutionary in that he broke all traditions.
+连接词in that可以视为in the sense that「从某种意义来说」的省略。
+ 七、方法、状态
+1. He plays the piano as a maestro does.
+ 2.He writes as if he is left handed.
+ He writes as if he were left handed.
+He writes as if he was left handed.
+ 一条文法规则
+表示时间与表示条件的副词子句，以现在式代替未来式。 语气问题
+表示时间的副词子句
+ 1.He didn’t tell me when he bought the house.
+ 2.He didn’t tell me the price when he bought the house.
+ 1. Do you know when he will return?
+ 2. He will call you when he returns.
+You can have this computer when I have finished—in about half an hour.
+ 1. I’ll let you know when he will return.
+2.	I’ll let you know when he returns.
+ 表示条件的副词子句
+ 1. I can’t remember if I turned off the gas or not.
+ 2. I have to go back if I didn’t turn off the gas.
+ 1. I have no idea if this plan will work or not.
+ 2. I have a large reward for you if this plan works.
+ I have no idea about the question.
+Will this plan work?
+ 结语
+整个副词子句删掉的话，对主要子句句型的完整性与正确性通常也不会有影响。
+ 
+第十六章 关系子句之一
+形容词子句、又称关系子句。
+关系子句的特色
+关系子句如果没有经过任何省略，都应该以形容词子句看待。
+ 一、两个句子要有交集
+也就是：两个句子间要有一个重复的元素，由此建立「关系」
+For a boyfriend, I'm looking for a man.
+ He is tall, rich, and well-educated.
+ 二、把交集点改写为关系词(wh-)，让它产生连接词的功能
+ 三、将关系子句附于主要子句的交集点（先行词）后面来修饰它（作形容词使用）
+For a boyfriend, I'm looking for a man who is tall, rich, and well-educated.
+ 1. I know that I am right.
+ 2. I know this, because I have proof.
+3.	I know something which nobody else knows.
+ I know something.
+Nobody else knows it.
+ 关系代名词与关系副词
+关系子句与主要子句的交集点，在主要子句中一定是个名词，称为先行词。在关系子句中则有可能是名词、也有可能是副词，改写为关系词之后分别称为关系代名词与关系副词
+关系代名词
+who(whom, whose), which, that
+关系副词
+when, where, how, why
+【关系代名词】   vs 关系副词>>>
+ 关系代名词
+何谓指示性
+「指示性」 限制用法（restrictive usage）
+ 关系子句如果具有指出「哪一个」的功能， 具有指示性。 关系代名词who或which才能够改成that。
+ 1. I met a friend who(that) went to the same high school with me.
+2. I met Jack Wang, who went to the same high school with me.
+ I met a friend who(that) worked at the same company with me.
+ I met Jack Wang, who worked at the same company with me.
+I met a friend, quite by chance, who(that) went to the same high school with me.
+ 关系代名词的省略
+ 1. The man  is  my uncle.
+ 2. You saw him just now.
+ you saw whom just now
+ whom you saw just now
+ 再把关系子句和主要子句合起来成为这个复句：
+ 3. The man [whom you saw just now] is my uncle.
+ 1. The man is my uncle.
+ 2. He  was here just now.
+ who was here just now
+ 3. The man [who was here just now] is my uncle.
+ The man was here just now is my uncle.（误）
+ He is not the man [he used to be].
+ 中括号里原来是：
+ He used to be the man.
+ who he used to be
+ 格的问题
+关系代名词也是代名词类， 也有主格、受格、所有格之别。
+ 人：who, whom, whose
+代表「人」的关系代名词，主格是who、受格是whom。但是大部分情况下都可以选择忽略主格受格的分别、一律采用who。
+ 1. Jack is a man.    杰克是个人。
+ 2. I trust the man completely.
+ (A) Jack is a man whom(who, that, ___) I trust completely.
+ 1. Jack is a man.
+ 2. I have complete faith in him.
+ Jack is a man whom(who, that, ___) I have complete faith in.
+ Jack is a man in whom I have complete faith.
+ 1．Jack is a man.
+ 2. I trust his judgment.
+ Jack is a man whose judgment I trust.
+ 物：which, whose, of which
+代表「物」的关系代名词which并无主格受格之分，这一点比较方便。
+但是，which本身缺乏所有格，它的所有格有两种变通的表示方式：一是借用who的所有格whose、一是采用无生物的所有格方式of which。
+1. I saw a mountain.
+ 2. Its top was completely covered in snow.
+ 3. The top of the mountain was completely covered in snow.
+ I saw a mountain whose top was completely covered in snow.
+ I saw a mountain the top of which was completely covered in snow.
+ I saw a mountain of which the top was completely covered in snow.
+ 何时该使用that ﹖
+ Man is an animal that is capable of reason.
+因为指示的要求更强烈，一般都应该选择用that，如果用who或which就不大恰当。
+ 一、先行词是all, anything, everything之类标示出「明确范围」的字；
+二、先行词有first, next, last, only等等限定符在内、或者有最高级修饰语，因而产生明确的指示时。
+ 1. Money is the only thing that interests him.
+ 2. He's the best man that I can recommend.
+3. Armstrong was the first man that set foot on the moon.
+第十六章 关系子句之二
+何时不该使用that
+反之，如果关系子句缺乏指示的功能，就不该使用具有指示性的that当关系词。 通常会有逗点和先行词隔开。
+ For a boyfriend, I'm considering your brother John, who is tall and rich.
+ 何时不能省略
+关系代名词如果是受词，可以选择省略。
+但是，关系子句如果是放在括号性的逗点中作补充说明、不具有指示性，就不再适合省略受词位置的关系代名词。
+ I like The Da Vinci Code, [which many people like, too].
+主要子句为先行词
+ 1. The whole house was overrun with ants, which was rather weird.
+ 2. The whole house was overrun with ants, which were rather weird.  蚂蚁有点怪异。
+ The whole house was overrun with ants, which frightened the visitor.（不佳）
+一种很好用的办法是加个同位格在关系代名词which前面，
+ 1. The whole house was overrun with ants, a sight which frightened the visitor.
+2. The whole house was overrun with ants, nasty insects which frightened the visitor.
+ 复合关系代名词
+关系代名词与先行词一定有重复。为了避免重复，有时候可以省略掉关系代名词。但是有时候也可以选择把先行词省略掉。
+ 如果要省略先行词，首先这个先行词得是空洞、没有内容的字眼，像是thing, people, anybody等等，没有意义的字才可以省略。其次，关系子句与先行词之间不能有逗点断开。一但有逗点断开，主要子句和关系子句分别都必须「自给自足」，因此不能再有省略。
+ 还有一个很重要的步骤：因为先行词是名词类，属于主要元素、不是可有可无的修饰语，所以一旦省略掉先行词，关系代名词必须改写为「复合关系代名词」来取代它。采用复合关系代名词，等于是把空洞的先行词并入关系代名词中。这时候，关系子句因为兼具形容词子句与先行词两重角色、取代了先行词，所以关系子句也从形容词子句升格为名词子句。
+ 复合关系代名词一共只有what, whatever, whoever(whomever), whichever四个，以下分别介绍。
+ 一、what
+把关系代名词改写为what，可以取代前面省掉的先行词。
+ 1. I have the thing.
+2. You need it.
+ 3. I have the thing [which you need].
+ 4. I have the thing [you need].
+ 5. I have what you need.
+把关系词由that改成复合关系代名词what，表示前面有一个省略掉的先行词。这时候what扮演双重角色：它是先行词the thing、又是关系代名词。
+ 一般的关系代名词如who, which, that，引导的关系子句都是当形容词子句使用、修饰先行词。但是，复合关系代名词如what，它本身就包含先行词如the thing在内，所以它所引导的子句如what you need是名词子句，在第5句中作为主要子句动词have的受词。
+ 二、whatever ~anything
+如果关系代名词的先行词是anything「任何东西」，那么省略先行词时就要采用whatever「不论任何东西」这个复合关系代名词。
+ Anything [that you say now] may be used against you in court.
+你现在不论说什么都有可能在法庭上用来对你不利。
+Whatever you say now may be used against you in court.
+ 三、whichever	~any one
+如果是「任意选哪一个」的意思，可以用whichever来代表先行词的省略。
+ 1. Of these cars, you can take any one.
+ 2. You like it.
+ 3. Of these cars, you can take any one [that you like].
+4. Of these cars, you can take any one you like.
+5. Of these cars, you can take whichever you like.
+ 6. You can take whichever car you like.
+ 四、whoever(whomever)~any person
+如果把关系词who变成whoever，表示先行词「不管是谁」，那么就可以省略掉先行词了。
+ 1. I'll shoot any person.
+ 2. He moves.
+    S   V
+ 3. I'll shoot any person [that moves].
+ 4. I'll shoot [whoever moves].
+ 1. I’ll give 100 dollars to any person.
+ 2. He returns first.
+    S     V
+ I’ll give 100 dollars to any person that returns first.
+ I’ll give 100 dollars to whoever returns first.
+ 1. Any person qualifies for the job.
+ 2. You see the person in this room
+Any person [that you see in this room] qualifies for the job.
+ Whomever you see in this room qualifies for the job.
+关系子句的位置
+关系子句是形容词类、属于修饰语的性质，它修饰的对象就是先行词位置的那个名词。
+ 1. There are two apples in the basket.
+ 2. The basket is lying on the table.   篮子在桌上。
+ 3.There are two apples in the basket which is lying on the table.
+ 1. You can find two apples in the basket.
+ 2. I bought the apples.
+ You can find two apples which I bought in the basket.（不佳）
+ You can find two apples in the basket which I bought.（不佳）
+3.In the basket you can find two apples which I bought.
+ 1. A plague broke out.一场瘟疫爆发。
+ 2. It lasted 20 years.它延续了二十年。
+ A plague which lasted 20 years broke out.（不佳）
+ 3. A plague broke out which lasted 20 years.
+第十六章 关系子句之三
+【关系副词】 vs 关系代名词>>>
+ 一、when ~then
+关系副词when就是时间副词then的改写，具有连接词的功能。
+ 1. The rain came at a time.
+ 2. The farmers needed it most then.
+ 3. The rain came at a time when(that) the farmers needed it most.
+ 4. The rain came at a time the farmers needed it most.
+ *The rain came when the farmers needed it most.
+1. I need some time.
+2. I can be with my daughter then.
+ 3. I need some time when(that) I can be with my daughter.
+ 4. I need some time I can be with my daughter.
+ I need when I can be with my daughter.（误）
+ 先行词是名词，所以不能随便省略。
+ 1. I know the time.
+ 2. He will arrive then.
+ 3. I know the time when(that) he will arrive.
+ 4. I know the time he will arrive.
+ I know when he will arrive.
+只有在采用复合关系代名词时才能够省略先行词。
+ 至于上面那个句子，请换个角度来诠释它：
+ *I know when he will arrive.
+ *I know that he will arrive.
+ 二、where~there
+关系副词where就是地方副词there的改写
+ 1. The car stopped at a place.
+ 2. Three roads met there.
+The car stopped at a place where(that) three roads met.
+ The car stopped at a place three roads met.
+ The car stopped where three roads met.
+ The Johnsons have a place where(that) they can get away from other people.
+ The Johnsons have a place they can get away from other people.
+ The Johnsons have where they can get away from other people.（误）
+ 三、how
+ 1. I never found out the way.
+2. He escaped so.
+ I never found out the way how(that) he escaped.
+ I never found out the way he escaped.
+ I never found out how he escaped.
+ I never found out that he escaped. 「他逃跑了，这件事情我一直不知道。」
+ 四、why
+关系副词why的情况和how差不多
+1. I've forgotten the reason.
+ 2. I called for a reason.
+ 1. I've forgotten the reason why(that) I called.
+ I've forgotten the reason I called.
+ I've forgotten why I called.
+ I've forgotten that I called.
+「我打过电话，这件事我自己都忘记了。」
+ 有逗点隔开时
+括号中的关系子句只有补充说明的功能，失去了指示的功能。这时候关系副词不再能用指示性的that来替代。同时括号内也得自给自足、不能够省略。
+ 1. Shakespeare was born in 1564.
+ 2. Queen Elizabeth I was on the throne then.
+3. Shakespeare was born in 1564, when Queen Elizabeth I was on the throne.
+1. The best museum in Paris is the Louvre.
+ 2. You can see many priceless treasures there.
+ 3. The best museum in Paris is the Louvre, where you can see many priceless treasures.
+【厘清混淆点】
+ 一、Wh-的混淆
+拼成wh-形状、具有连接词功能的字，可以分成三种：
+1.关系词
+1. 关系词，包括关系代名词（who, which）与关系副词（when, where, how, why），引导的子句是关系子句，也就是形容词子句，修饰先行词。
+ 关系代名词
+My father is a man [who always keeps his word].
+Paris, [which has a long history], is a legendary city.
+ 关系副词
+I’ll never forget my high school days, [when life seemed so simple].
+Let’s spend the weekend at Tommy’s, [where we can be quite free].
+Please show me the way [how I can start this motorcycle].
+Money is one reason [why I don’t take any vacations].
+2.疑问词
+ 2. 疑问词（who, which, what, when, where, how, why），引导的子句是名词子句。
+[Who stole the money] will be revealed soon.
+Tell me [which of the two designs is prettier].
+The question is [what you’re going to do about it].
+Nobody knows [when he will return].
+I have a pretty good idea [where he may be hiding].
+The most important thing in fishing is [how you prepare the bait].
+That is [why I need your help].
+3.外加的从属连接词
+ 3. 外加的从属连接词（when, where），引导的子句是时间副词子句与地方副词子句。
+The game ended [when he hit a homerun].
+The ship is to boldly go [where none has gone before].
+ 二、Wh-ever的混淆
+拼成wh-ever形状、具有连接词功能的字，可以分成两种：
+1.复合关系代名词
+1. 复合关系代名词（what(ever), whoever, whichever），解释为anything that, anyone that等等，引导的子句是名词子句，
+[What(ever)（= Anything that） he says] can’t be true.
+I sincerely envy [whoever(= anyone that) lives in that grand mansion].
+I’ll buy [whichever car(= any car that) you recommend].
+2.用法相当于no matter加疑问词
+ 2. 用法相当于no matter加疑问词（whoever, whichever, whatever, whenever, wherever, however），表示「让步」语气，引导的子句是副词子句，
+ [Whoever(= No matter who) told you that story], don’t believe it.
+There will be difficulties [whichever way(= No matter which way) you go].
+[Whatever(= No matter what) you do], just don’t stay put.
+[Whenever(= No matter when) he gets angry], he counts to 10.
+You’ll never find a place like home, [wherever(= No matter where) you may go].
+He can never beat his rival, [however hard(= No matter how hard) he tries].
+ 三、that的混淆
+拼成that、具有连接词功能的字，可以分成
+1. 外加单独无意义的连接词that，引导的是名词子句，
+Are you sure [that everything is all right]?
+ 2. 外加（so that, such that, in order that, in that）等有意义的连接词，引导的是副词子句，
+He started work early [so that he can finish on time].
+It was such a great meal [that everyone of us ate too much].
+ 3. 用法相当于关系代名词（who, which）与关系副词（when, where, how, why），具有指示功能、没有逗点隔开，引导的子句是关系子句（形容词子句），
+He’s the man [that I told you about]. (类似who)我跟你说的就是这个人。
+What’s the best movie [that you’ve ever seen]? (类似which)
+The accident happened at a time [that traffic was heaviest]. (类似when)
+That restaurant is a place [that most gourmets in town go]. (类似where)
+I’ve found several ways [that I can be of help to you]. (类似how)
+Is this the reason [that he left so early]? (类似why)
+ 结语
+关系子句的特色在于关系词不是外加、而是由内含的重复元素改写而来。所有的关系子句都是形容词子句。只有复合关系代名词引导的子句，因为取代了先行词，所以升格为名词子句。关系子句与先行词之间若有逗点隔开，表示这个子句是放在括号内作补充说明之用，也就是不具指示功能。
+ 
+第十八章 倒装句
+ 倒装句是一种把动词（或助动词）移到主词前面的句型。 一般的疑问句都可以算是倒装句。
+ I. 直接移动动词（包括普通动词）
+ A. 引用句
+ The police said, “None was killed in the accident.”
+ "None was killed in the accident," said the police.
+ "None was killed in the accident," the police said.
+ The WHO warns (that) cholera is coming back. 世界卫生组织警告：霍乱死灰复燃。
+ Cholera is coming back, warns the WHO.
+ Cholera is coming back, the WHO warns
+ 倒装还是不倒装？
+ The WHO, a powerful medical and environmental organization under the UN dedicated
+to maintaining world health, warns that Cholera is coming back.
+ Cholera is coming back, the WHO, a powerful medical and environmental organization
+under the UN dedicated to maintaining world health, warns.
+ Cholera is coming back, warns the WHO, a powerful medical and environmental
+organization under the UN dedicated to maintaining world health.
+ B. 类似there is/are的构造
+ A book is there on the desk.
+ There is a book on the desk.
+ There   goes  the train.
+ Here       is your ticket for the opera.
+In Loch Ness dwells a mysterious monster.
+To the west of Japan lies China. To the east spreads the expanse of the Pacific.
+ C. 关系子句
+最后一种以直接移动动词方式来倒装的倒装句是关系子句。
+ 1. The U.S. President is a man.
+ 2. A heavy responsibility, whether he likes it or not, falls on him.
+The U.S. President is a man [on whom a heavy responsibility, whether he likes it or
+                                                                 S
+not, falls].（不佳）
+        V
+ The U.S. President is a man [on whom falls a heavy responsibility, whether he likes
+                                                       V                S
+it or not].
+ The U.S. President is a man [who shoulders a lot of responsibility].
+ II. 助动词或be前移
+假设法语气的副词子句，可以选择把助动词或be倒装到主词前面、取代连接词if。
+   [If     I   had been there], I could have done something to help.
+ [Had I been there], I could have done something to help.
+ [If I knew how], I would gladly do it.
+ III. 助动词或be前移，普通动词加do
+ Not every day do we have such luck.
+ I will not stop waiting for you until you are married.
+ Not until you are married will I stop waiting for you.
+ I seldom see such a beautiful sight.
+
+ Seldom do I see such a beautiful sight.
+I had hardly sat down to work when the phone rang.
+ Hardly had I sat down to work when the phone rang.
+ Hardly anyone knew him.
+ Only I saw him yesterday.
+ I saw him only yesterday.
+ Only yesterday did I see him.
+ 1. Gradually they became close friends.
+2. Only gradually did they become close friends.
+ He not only passed the exam but also scored at the top.
+ Not only did he pass the exam but also scored at the top.（误）
+ Not only did he pass the exam but also he scored at the top.（不佳）
+ Not only did he pass the exam but he also scored at the top.
+ IV. 助动词或be前移，普通动词以助动词do取代，省略述部
+ A. So do I, neither will I之类
+ He likes basketball.         So do I.
+He can speak Spanish.      So can I.
+He is a teacher.       So am I.
+He won’t give up.       Neither will I.
+ B. 比较级
+ 1. Girls like cats more than boys.（不清楚）
+ 2. Girls like cats more [than boys do].
+ 3. Girls like cats more [than they like boys].
+ Girls like cats more [than boys, who as a rule are a cruel lot, do].（不佳）
+
+ Girls like cats more [than do boys], who as a rule are a cruel lot.
+第三篇  高级句型——减化子句
+第十九章 从属子句减化的通则
+ 减化子句
+ 复句当中的从属子句可分成名词子句、形容词子句、副词子句三种，这三种从属子句的减化有一些共通的原则。一般文法书称这三种从属子句的减化结果为「非限定子句」(nonfinite clauses)，并称其中的Ving（动名词或现在分词）、Ven（过去分词）与to V（不定词词组）为「非限定动词」(nonfinite verbs)。
+ 为何不称「非限定子句」？
+ 从属子句减化的基础观念
+ 一．视be为动词，后面的部分包括现在分词、过去分词、不定词词组、形容词、名词等等视为主词补语。
+二．现在分词视为形容词，字尾-ing有「持续、进行」的暗示。
+三．过去分词视为形容词，字尾-en有「被动、完成」的暗示。
+四．语气助动词的减化方式是一律改写为be + to。
+五．不定词词组具有不确定语气，和语气助动词的语气相同。
+ 从属子句减化的通则
+不论是名词子句、形容词子句还是副词子句，所有从属子句减化的共通原则是省略主词与be动词、只保留补语部分。
+ 一、为何省略主词？
+ 1. While he was taking a bath, Archimedes discovered the principle of buoyancy.
+ While taking a bath, Archimedes discovered the principle of buoyancy.
+ 2. Whether it is insured or not, your house, [which is a wooden building], needs
+a fire alarm.
+    O
+ Whether insured or not, your house, a wooden building, needs a fire alarm.
+ 二、为何省略be动词？
+be动词没有意义、省略它不会影响原句的意思。
+这里所谓的省略be动词，包括一般所谓的进行式与被动态在内。
+ 三、没有be动词怎么办？
+ 1. 若有助动词，可减化为不定词
+ You must go at once.
+→You are to go at once.
+ The train will leave in 10 minutes.
+→The train is to leave in l0 minutes.
+ He should do as I say.
+→He is to do as I say.
+ You may call me “Sir.”
+→You are to call me “Sir.”
+Children can't watch this movie.
+→Children are not to watch this movie.
+ He studied hard so that he could get a scholarship.
+He studied hard to get a scholarship.
+He studied hard so as to get a scholarship.
+He studied hard in order to get a scholarship.
+ 2. 若只有普通动词，一律变成Ving
+John remembers that he saw the lady before.
+ John remembers seeing the lady before.
+ 
+第二十章 形容词子句减化
+ 形容词子句就是关系子句；
+1.	The man is here.
+  2. You asked about him.
+ The man [whom you asked about] is here.
+ The man [you asked about] is here.
+ The man [who wants to see you] is waiting outside.
+ The man [wanting to see you] is waiting outside.
+ 连接词的处理
+ Do you know the girl who is sitting next to John?
+ Do you know the girl sitting next to John?
+ 补语为Ven
+ 1. Beer is most delicious.
+2. It is chilled to 6℃.
+ Beer [which is chilled to 6。] is most delicious.
+ Beer chilled to 6℃ is most delicious.
+ Your brother John, [who was wounded in the war], will soon be sent home.
+ Your brother John, wounded in war, will soon be sent home.
+ 补语为Ving
+ The ship [which is coming to shore] is from Japan.
+ The ship coming to shore is from Japan.
+ My old car, [which breaks down every other week], won't last much longer.
+My old car, breaking down every other week, won't last much longer.
+ 减化为复合形容词
+形容词只有两种主要的位置：名词词组中以及补语位置。
+ 现在分词
+A “Big John” is a machine.
+ The machine drills tunnels.
+        S          V       O
+ A “Big John” is a machine that drills tunnels.
+ A “Big John” is a tunnel-drilling machine.
+That magazine is for women.
+ That magazine looks beautiful.
+ That magazine which looks beautiful is for women.
+ That beautiful-looking magazine is for women.
+I’m enjoying the sunset.
+ The sunset is vanishing fast.
+ I’m enjoying the sunset, which is vanishing fast.
+ I’m enjoying the fast-vanishing sunset.
+ 过去分词
+I love these high peaks.
+ These high peaks are covered with snow.
+ I love these high peaks, which are covered with snow.
+ I love these high, snow-covered peaks.
+These apples are beginning to rot.
+These apples were bitten by frost.
+ These apples, which were bitten by frost, are beginning to rot.
+ These apples, bitten by frost, are beginning to rot.
+ These frost-bitten apples are beginning to rot.
+ 补语为to V
+ John is the one who should go this time.
+ John is the one to go this time.
+ 1. 不定词词组的主动、被动判断
+ 1. There’s still one more person to notify.
+2. There’s still one more person to be notified.
+ There’s still one more person.
+ We must notify the person.
+ There’s still one more person whom we must notify.
+ There’s still one more person we must notify.
+There’s still one more person to notify
+ There’s still one more person.
+He must be notified.
+ There’s still one more person who must be notified.
+ 主动与被动孰优孰劣
+ 连贯性
+ When John stepped into his office, the boss was seen waiting there by him.
+ When John stepped into his office, he saw the boss waiting there.
+ Stepping into his office, John saw the boss waiting there.
+ When John stepped out of his office, a car hit him.
+ When John stepped out of his office, he was hit by a car.
+ Stepping out of his office, John was hit by a car.
+ 以连贯性原则判断不定词词组的语态
+ I must stay at the office [because I have some people] to notify.
+ 1. I must stay at the office.
+2. I have some people.
+3. I must notify them.
+I must stay at the office [because I have some people] whom I must notify.
+ The news can’t be released yet [because there are some people] to be notified first.
+ The news can’t be released yet [because there are some people] who must be notified first.
+ The news can’t be released yet [because there are some people] to be notified first.
+2. 不定词有无受词的判断
+ 1. This is exactly the thing       to do.
+ 2. This is exactly the time     to do it.
+ This is exactly the thing which we should do.
+ This is exactly the thing we should do.
+ This is exactly the time when we should do it.
+ This is exactly the time we should do it.
+ 3. 不定词后面有无介系词的判断
+ 1. He will be the toughest guy.
+ 2. You must deal with the guy.
+ He will be the toughest guy that you must deal with.
+ He will be the toughest guy you must deal with.
+ He will be the toughest   guy   to deal with.
+ 4. 不定词的主词不清楚时如何处理
+ I have a job that your brother can do.
+ I have a job your brother can do.
+ I have a job for your brother to do.
+ 补语为一般形容词
+ Hilary Clinton, who is pretty and intelligent, was a popular First Lady.
+ Hilary Clinton, pretty and intelligent, was a popular First Lady.
+形容词只有两种位置：名词词组中(a pretty woman)及补语位置(The woman is pretty)。如果乍看之下两个位置都不是，那么多半就是减化形容词子句残留的补语。
+ 补语为名词
+同位格
+ Bill Clinton, who is an ex-President of the U.S., is a Baby Boomer.
+ Bill Clinton, an ex-President of the U.S., is a Baby Boomer.
+ 
+第二十一章 名词子句减化
+减化后剩下的补语是Ving型态时
+ 一、主词位置
+That I drink good wine with friends is my greatest enjoyment.
+ [That I am drinking good wine with friends] is my greatest enjoyment.
+ Drinking good wine with friends is my greatest enjoyment.
+ Not having a cell-phone can save you a great deal of trouble.
+二、受词位置
+ 1. 动词的受词
+Many husbands enjoy that they do the cooking.
+Many husbands enjoy doing the cooking.
+ 2. 介系词的受词
+ 1. He got used to something.
+ 2. He worked late into the night.
+ He got used to working late into the night.
+ 三、补语位置
+His favorite pastime is that he goes fishing on weekends.
+ His favorite pastime is going fishing on weekends.
+ 四、主词不能省略时
+ 1. 改成S+V+O+C的句型
+ I imagined that a beautiful girl was singing to me.
+ I imagined singing to myself.
+ I imagined a beautiful girl singing to me.
+  2. 用所有格来处理
+That he calls my girlfriend every day is too much for me.
+Calling my girlfriend every day is too much for me.
+ His calling my girlfriend every day is too much for me.
+ 3. 加介系词来处理
+ I am worried that my son lies all the time.
+ I am worried about the fact that my son lies all the time.
+ 1. I am worried about my son's lying all the time.
+ 2. I am worried about my son lying all the time.
+ I’m surprised that there is no index to the book.
+I’m surprised at the fact that there is no index to the book.
+ I’m surprised at there being no index to the book.
+ 五、如何处理被动态
+ That anyone is called a liar is the greatest insult.
+ Called a liar is the greatest insult. （误）
+ Being called a liar is the greatest insult.
+ 1. I am looking forward to something.
+ 2. I am invited to the party.
+  am looking forward to invited to the party.（误）
+ I am looking forward to the invitation to the party.
+ I am looking forward to being invited to the party.
+ The actor’s greatest achievement is that he has been nominated twice for the Oscar.
+ The actor’s greatest achievement is having been nominated twice for the Oscar.
+ 六、动词是单纯的be动词时
+That one is a teacher requires a lot of patience.
+ Being a teacher requires a lot of patience.
+ A teacher requires a lot of patience.
+ That he was busy is no excuse for the negligence.
+ His being busy is no excuse for the negligence.
+ Being busy is no excuse for his negligence.
+ 减化后剩下的补语是to V型态时
+ The children expect that they can get presents for Christmas.
+ The children expect that they are to get presents for Christmas.
+ The children expect to get presents for Christmas.
+ 不定词「不一定是什么词类」，当名词、形容词、副词使用皆可，所以不必顾虑词类是否符合的问题。唯一要注意的是，不定词不适合放在介系词后面。如果放在介系词后面，通常要改为Ving的形式（动名词）。
+ I think it strange that man should fear ghosts.
+ I think it strange to fear ghosts.
+ 一、主词不适合省略时
+ 放在S+V+O+C的受词位置
+有些句型中可以把主词放入受词位置，变成S+V+O+C的句型，
+ I want that you should go. 我希望你去。
+I want that you are to go.
+1.	I want you to go. 我要你去。
+2.	I promised you to go. 我答应你我会去。
+ I promised you that I would go.
+ 放在介系词for后面的受词位置
+ That the Clippers should beat the Lakers was quite a marvelous feat.
+ For the Clippers to beat the Lakers was quite a marvelous feat.
+ 放在介系词of后面的受词位置
+ It is kind of you to say so.
+ It is kind that you can say so.
+ It is kind of you to say so.
+ It was silly of him to believe that story.
+ 弹性处理
+ It takes time to learn skiing well.
+ It takes time that anybody can learn skiing well.
+ It takes time to learn skiing well.
+ It didn’t take Richard much time to learn skiing well.
+It didn’t take much time for Richard to learn skiing well.
+Richard didn’t take much time to learn skiing well.
+ There is/are的句型
+I want that there will be no mistake.
+I want there to be no mistake.
+ 二、来自疑问句的名词子句减化
+名词子句有两种。一种是由直述句外加连接词that而形成成。这种名词子句减化时，无意义的that要省略。另一种是由疑问句改造，通常以疑问词来充当连接词。
+ 1. What should I do?
+ 2. I don't know the question.
+ I don't know what I should do.（我不知如何是好。）
+ I don't know what to do.
+ 1. Should I vote for the KMT?
+ 2. I can't decide the question.
+ I can't decide whether I should vote for the KMT (or not).
+ I can't decide whether to vote for the KMT.
+ Wh- to V 有没有受词
+ He’ll tell us what to do.
+He’ll tell us when to do it.
+ to have Ven
+I hope to have read this book by next weekend.
+He expects to have completed the job before next January.
+to be Ving
+I don’t want to be sitting here all day.
+I don’t want you to be sitting here all day.
+to be Ven
+ to V与Ving的比较
+ He forgot that he should see his dentist that day.
+He forgot to see his dentist that day.
+ He forgot that he saw the man before.
+ He forgot seeing the man before.
+ I love driving on the freeway.
+1.	I would love to drive to work in my own car.
+ 2. I would love that I can drive to work in my own car.
+ I avoid being late to any appointment.
+I avoid that I am late to any appointment.
+ I hope to get to the concert on time.
+ I hope that I can get to the concert on time.
+ 
+第二十二章 副词子句减化
+
+减化为Ving补语
+ While he was lying on the couch, the boy fell asleep.
+ 1. While lying on the couch, the boy fell asleep.
+ 一、连接词是否保留
+2. Lying on the couch, the boy fell asleep.
+ 二、所谓「分词构句」
+
+ 三、没有be动词与助动词时
+ Because we have nothing to do here, we might as well go home.
+ Having nothing to do here, we might as well go home.
+ 四、应该省略的连接词
+句型本身就强烈暗示因果关系，再加上because会十分累赘。
+ 五、应该保留的连接词
+ Although we have nothing to do here, we can't leave early.
+ Although having nothing to do here, we can't leave early.
+ Having nothing to do here, we still can't leave early.
+He raised his hand, as if he was trying to hit her.
+ 1. He raised his hand, as if trying to hit her.
+ 2. He raised his hand, trying to hit her.
+ 六、being的运用
+ As I am a student, I can't afford to get married.
+ As a student, I can't afford to get married.
+ Being a student, I can't afford to get married.
+ 七、兼作介系词的连接词：before, after, since, as
+ Before he was in school, he used to be a naughty child.
+ In school, he used to be a naughty child.
+ Before in school, he used to be a naughty child.（误）
+ Before being in school, he used to be a naughty child.
+before, after, since是身兼连接词与介系词的双重词类。减化时要注意：它会被视为介系词，故后面只能接名词类，必要时得加上being来作词类变化。
+ 八、时态的问题
+ After he wrote the letter, he put it to mail.
+ 1. After writing the letter, he put it to mail.
+ Writing the letter, he put it to mail.（误）
+ 2. Having written the letter, he put it to mail.
+ When he had written the letter, he put it to mail.
+ 九、Dangling Modifier的错误
+ When the child was already sleeping soundly in bed, her mother came to kiss her goodnight.
+ Already sleeping soundly in bed, her mother came to kiss her goodnight.（误）
+Already sleeping soundly in bed, the child did not know it when her mother came to kiss her goodnight.
+ 十、所谓「独立词组」
+ The child already sleeping soundly in bed, her mother came to kiss her goodnight.
+ 十一、保留主词时的注意事项
+减化副词子句时，如果主词不同而需保留，有两点必须注意：第一，连接词要省略。减化子句一般是省略主词、be动词与连接词（视情形决定是否省略）。如果主词要保留，连接词又留下，就只是省掉一个be动词，那么并没有达到减化的效果。
+ When the child already sleeping soundly in bed, her mother came to kiss her goodnight.（误）
+ 这个句子看起来不像减化子句，反而像写错了，漏掉一个be动词。
+ 减化为Ven
+从属子句减化的共同原则是省略主词与be动词。副词子句中如果原本是被动态(be+Ven)，那么减化之后没有了be动词，就会成为Ven的型态。
+ After he was shot in the knee, he couldn't fight.
+ Shot in the knee, he couldn't fight.
+ 一、是否保留连接词
+ Although he was shot in the knee, he killed three more enemy soldiers.
+ Although shot in the knee, he killed three more enemy soldiers.
+ Shot in the knee, he still killed three more enemy soldiers.
+ 二、三个特殊的连接词
+连接词如果要留下来，要注意一点：before, after, since这三个连接词也可以当介系词用。如果其中任何一个出现在减化子句中，由于没有了主词、动词，这个连接词就得当介系词看待，亦即：后面要接名词。
+ Before it was redecorated, the house was in bad shape.
+ Redecorated, the house was in bad shape.
+ Before redecorated, the house was in bad shape. （误）
+ Before being redecorated, the house was in bad shape.
+ Before redecoration, the house was in bad shape.
+ 三、如何应用 having been
+ 许多学习者对having been颇觉困扰。在此用一个例子来说明它的用法：
+ 1. Because they had been warned, they proceeded carefully.
+ 2. Having been warned, they proceeded carefully.
+ 3. Warned, they proceeded carefully.
+ 四、主词不同时
+副词子句减化为Ven，如果主词和主要子句的主词不同，就得把主词留下来，不得省略。
+ When the coffin had been interred, the minister said a few comforting words.
+ (Having been) interred, the minister said a few comforting words.（误）
+ The coffin (having been) interred, the minister said a few comforting words.
+ 五、减化为to V
+ He studied hard in order that he could get a scholarship.
+ He studied hard in order to get a scholarship.
+ I'll only be too glad if I can help.
+ I'll only be too glad to help.
+ 单纯的be动词时
+ 一、介系词词组
+ When you are under attack, you must take cover immediately.
+ When under attack, you must take cover immediately.
+ 二、形容词
+While it is small in size, the company is very competitive.
+ While small in size, the company is very competitive.
+ 三、名词
+Although he was a doctor by training, Asimov became a writer.
+ Although a doctor by training, Asimov became a writer.
+ 改为介系词词组
+ When she arrived at the party, she found all the people gone.
+Upon arriving at the party, she found all the people gone.
+ Upon her arrival at the party, she found all the people gone.
+ When she completed the project, she was promoted.
+ Upon completing the project, she was promoted.
+ Upon completion the project, she was promoted.（误）
+ Upon completion of the project, she was promoted.
+ The construction work was delayed because it had been raining.
+ The construction work was delayed because of rain.
+Although he opposed it, the plan was carried out.
+ Despite his opposition, the plan was carried out.
+ If there should be a fire, the sprinkler will be started.
+ In case of a fire, the sprinkler will be started.
+ Because the exam is only a week away, I have no time to waste.
+ With the exam only a week away, I have no time to waste.
+ 比较级的减化
+ 
+第二十三章 减化子句练习
+ 首先回顾一下减化子句的两大原则：
+ 一、 对等子句中，相对应位置（主词与主词，动词与动词等）如果重复，择一弹性省略。
+二、 从属子句（名词子句、形容词子句与副词子句）中，省略主词与be动词两部分，留下补语。不过主词若非重复或空洞的元素，就应设法保留，以免句意改变。
+例一
+ 1. The patient had not responded to the standard treatment.
+ 2. This fact greatly puzzled the medical team.
+ The patient had not responded to the standard treatment, which greatly puzzled the medical team.（不够清楚 ）
+That the patient had not responded to the standard treatment greatly puzzled the medical team.
+ The patient's not having responded to the standard treatment greatly puzzled the medical team.
+ The patient's failure to respond to the standard treatment greatly puzzled the medical team.
+ 例二
+ 1. The summer tourists are all gone.
+ 2. The resort town has resumed its air of tranquillity.
+ Now that the summer tourists are all gone, the resort town has resumed its air of tranquillity.
+ (With) the summer tourists all gone, the resort town has resumed its air of tranquillity.
+ 例三
+ 1. Confucius must have written on pieces of bamboo.
+ 2. Confucius lived in the Eastern Zhou Dynasty.
+ 3. Paper was not available until the Eastern Han Dynasty.
+ (1+2)   Confucius, who lived in the Eastern Zhou Dynasty, must have written on pieces of bamboo.
+ Confucius, living in the Eastern Zhou Dynasty, must have written on pieces of bamboo.
+(+3)   Confucius, living in the Eastern Zhou Dynasty, must have written on pieces of bamboo, because paper was not available until the Eastern Han Dynasty.
+ Confucius, living in the Eastern Zhou Dynasty, must have written on pieces of bamboo, paper not being available until the Eastern Han Dynasty.
+ 例四
+1. The movable-type press was invented by Gutenberg.
+2. The movable-type press was introduced to England in 1485.
+ 3. This event marked the end of the Dark Ages there.
+ (1+2) The movable-type press, which was invented by Gutenberg, was introduced to England in 1485.
+ The movable-type press, invented by Gutenberg, was introduced to England in 1485.
+ (+3)  The movable-type press, invented by Gutenberg, was introduced to England in 1485, an event which marked the end of the Dark Ages there.
+ The movable-type press, invented by Gutenberg, was introduced to England in 1485, marking the end of the Dark Ages there.
+ 例五
+1. Lee Tenghui was educated in the U.S.
+ 2. Lee Tenghui shows a global view at times.
+ 3. Lee Tenghui deals with economic matters at these times.
+ (1+2)   Because he was educated in the U.S., Lee Tenghui shows a global view at times.
+ Educated in the U.S., Lee Tenghui shows a global view at times.
+ (+3)   Educated in the U.S., Lee Tenghui shows a global view (at times) when he deals with economic matters.
+ Educated in the U.S., Lee Tenghui shows a global view when dealing with economic matters.
+ 例六
+ 1. I'd like something.
+ 2. You will meet some people.
+ 3. Then you can leave.
+ (1+2) I'd like that you (will) meet some people.
+ I'd like you to meet some people.
+ (+3) I'd like you to meet some people before you (can) leave.
+ I'd like you to meet some people before leaving.
+ 例七
+1. I have not practiced very much.
+ 2. I should have practiced very much.
+ 3. I am worried about something.
+ 4. I might forget something.
+ 5. What should I say during the speech contest?
+ (1+2) I have not practiced as much as I should (have practiced).
+ (+3)   Because I have not practiced as much as I should, I am worried about something.
+ Not having practiced as much as I should, I am worried about something.
+ (+4)  Not having practiced as much as I should, I am worried (about the possibility) that I might forget something.
+ Not having practiced as much as I should, I am worried about forgetting something.
+ (+5)  Not having practiced as much as I should, I am worried about forgetting what I should say during the speech contest.
+ Not having practiced as much as I should, I am worried about forgetting what to say during the speech contest.
+ 例八
+1. James Sung was Secretary General of the KMT then.（宋楚瑜当时是国民党秘书长。）
+ 2. James Sung is Governor of Taiwan Province now.（宋楚瑜现在是台湾省长。）
+ 3. James Sung saw something.（宋楚瑜当时见到一件事。）
+ 4. The KMT failed in the important Legislative Yuan election.（国民党在重要的立委选举中失利。）
+ 5. James Sung offered something.（宋楚瑜提议做一件事。）
+ 6. He would assume responsibility.（宋楚瑜愿意负责。）
+ 7. He would tender his resignation.（宋楚瑜将提出辞呈。）
+(1+2)   James Sung was Secretary General of the KMT then and he is Governor of Taiwan Province now.
+ (A) James Sung was Secretary General of the KMT then and Governor of Taiwan Province now.
+ (3+4)   James Sung saw that the KMT failed in the important Legislative Yuan election.
+ (B) James Sung saw the KMT's failure in the important Legislative Yuan election.
+  「宋楚瑜眼见国民党失利。」这句话我们称作句B，也先放着暂时不用。
+ (5+6) James Sung offered that he (would) assume responsibility.
+ James Sung offered to assume responsibility.
+ (+A) James Sung, who was Secretary General of the KMT then and Governor of Taiwan Province now, offered to assume responsibility.
+ James Sung, Secretary General of the KMT then and Governor of Taiwan Province now, offered to assume responsibility.
+ (+B)   Because he saw the KMT's failure in the important Legislative Yuan election,  James Sung, Secretary General of the KMT then and Governor of Taiwan Province now, offered to assume responsibility.
+ Seeing the KMT's failure in the important Legislative Yuan election, James Sung, Secretary General of the KMT then and Governor of Taiwan Province now, offered to assume responsibility.
+ (+7)   Seeing the KMT's failure in the important Legislative Yuan election, James Sung, Secretary General of the KMT then and Governor of Taiwan Province now, offered to assume responsibility by tendering his resignation.
+（眼见国民党在重大的立委选举中失利，当时的国民党秘书长，也就是现在的台湾省长宋楚瑜，表示要提出辞呈以示负责。）
+
+
+

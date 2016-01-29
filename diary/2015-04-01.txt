@@ -1,0 +1,6 @@
+
+mcard get max and min new method new code done, 
+debug, aurora没有时钟，是max min模块的复位没有链接给下一级造成的。在设计中axi stream的复位信号是由最初的一个模块发起。一个一个模块传递，因此需要每个模块把上一个模块中的复位信号发送给下一级。
+
+
+

@@ -1,0 +1,13 @@
+
+libevent
+
+反应堆
+事件驱动机制
+
+注册事件和回调函数，
+还是对select.poll.epoll 的封装 eventtop
+事件循环 event_base
+
+
+不要打电话给我们，我们会打电话通知你
+

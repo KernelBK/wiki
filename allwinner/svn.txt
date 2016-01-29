@@ -1,0 +1,3 @@
+
+git svn clone --ignore-paths="^prebuilt/*" svn://172.16.68.158/homelet/android svn_homelet_android
+

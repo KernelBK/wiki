@@ -1,0 +1,7 @@
+
+上午睡了一小会
+
+增加edk_pcard的testcase
+
+blvds phy如果收到error以后，axi应该响应resp=xx表示错误发生。
+

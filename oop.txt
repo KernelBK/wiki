@@ -1,0 +1,112 @@
+[[design.patterns]]
+
+[[cpp]]
+[[aop]]
+
+编程语言
+	定类的方法, 有的语言没有js, io, proto
+	创建对象的方法
+		new
+		拷贝， 深 浅
+	成员和方法的访问
+		方法和函数的定义是否一致
+		构造函数 constructor
+			默认
+			带参数
+			覆盖，规则
+			调用其他方法
+			静态初始化器 java
+		静态成员
+		overload
+	
+	内部类 inner.class
+
+	继承 [[inheritance]]
+		单继承 or 多继承
+		访问权限， public, protected, private
+		super
+			被子类隐藏了的数据成员
+			已经覆盖了的方法
+			constructor
+		this
+		override
+
+容器
+	保存数据那样保存操作，容器可以当做变量使用
+
+组装对象
+	特质 trait, java的接口
+	混入组装 mixin composition 
+
+对接口编码，不对实现编码
+鸭子类型
+
+适合：图形，网络，消息驱动的平台
+基本观念, 组件 接口
+	程序是由对象组成的；
+	对象之间相互发送消息，协作完成任务；
+
+封装 继承 多态
+
+[[Simula]], 函数调用，需要知道目标对象；静态； c++；
+	widnows的消息机制是动态的，与C++的静态消息机制不配合；
+	面向类设计
+smalltalk，与目标对象无关的消息发送机制；动态；ObjC；
+	基于接口，基于对象的设计
+
+object
+message
+deep.copy.shallow.copy
+
+封装、继承和多态、面向接口编程、优先使用组合而不是继承、将抽象和实现分离
+绑定，通过实例访问方法。
+
+
+类
+	类可以理解为，一组用来描述如何生成对象的代码。
+	：属于类的实例, 对象名.属性
+	 static：属于类， 
+		（类的属性:静态属性，类的对象的属性）
+
+| 非静态成员     | 静态成员          |
+|----------------|-------------------|
+| 属于类的实例   | 属于类            |
+| 类的对象的属性 | 类的属性:静态属性 |
+|                | static            |
+| 对象名.属性    | 类名.属性         |
+|                |                   |
+
+重载
+	运算符重载
+	参数类型，个数
+
+handle 和指针
+
+oop
+class
+	property
+	method
+inheritance
+
+
+多态
+	静态
+		重载	overload, 不同的函数使用相同的函数名，但是参数个数或类型不同。
+		模板	template
+	动态
+		虚函数 	[[virtual.function]]
+		抽象类 	abstract.class pure.virtual.function
+		覆盖	override， 覆盖方法, 覆盖构造函数，覆盖是针对两个类
+
+成员
+方法，函数
+	定义和函数不一样， objective-c
+	重载
+	声明，定义
+	参数，有名objc, verilog
+构造函数
+	重载
+	子类，父类：调用，重载
+	覆盖
+	调用其他函数，或被调用
+

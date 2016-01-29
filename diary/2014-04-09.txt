@@ -1,0 +1,7 @@
+
+pcard验证 flash load args, 修改了load地址。
+
+spi flash地址有两次转换，一次有master到axi slave寻址，一次spi 控制器内部加上一个偏移。
+
+
+

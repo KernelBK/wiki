@@ -1,0 +1,7 @@
+target/src/sde/cfgtoh.mk
+
+host/linux/bin/cfgtoh
+target/src/sde/cfgtoh.mk
+
+$(_SDE_CFGTOH_HWCONFIG_GEN_DIR)/$(_TMCFGTOH_HW_CONFIG).mak: $(_TMCFGTOH_HW_CONFIG).cfg
+    $(call if_changed,$(_SDE_CFGTOH_cfgtomak))

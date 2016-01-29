@@ -1,0 +1,10 @@
+
+mach
+
+cd ~/mozilla-central
+touch mozconfig
+./mach build
+./mach run
+
+hg pull 
+

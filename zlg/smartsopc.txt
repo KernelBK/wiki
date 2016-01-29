@@ -1,0 +1,8 @@
+
+led_test
+│  ├─《SOPC 嵌入式系统实验教程(一)》对应的实验
+│  │  └─for_SmartSOPC_3C25
+│  │      ├─第3章SOPC硬件系统基础实验
+│  │      │  ├─实验1 SOPC快速入门
+│  │      │  │  │  led_test.rar
+

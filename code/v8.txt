@@ -1,0 +1,8 @@
+firefox SpiderMonkey
+safari JavaScriptcore
+chrome [[webkit]] 
+
+hash table, 查找属性和方法
+jit
+gc
+inline cache

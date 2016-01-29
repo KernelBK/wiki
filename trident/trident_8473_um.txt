@@ -1,0 +1,18 @@
+
+141 During the 540us blocking period access to the registers relating to the blocked PLL can not be accesses but any other accesses are as normal.
+142 It supports context switching at frame boundaries with very fast switch time and the ARM926 firmware saves/restores hardware internal contexts.
+146 1 RGU - Reset Generation Unit The Reset Generation Unit (RGU) controls the reset function internal to the device as well as external to the system.
+158 The constrained image that is optionally output on YPrPb is down-scaled to a 960x540 picture and immediately up sampled back to the original HDTV picture size.
+159 This effectively determines the current performance of the chip as measured by the number of XTAL clock pulses in eight periods of the selected process monitor.
+160 2 Input Source Clock Selection All clocks generated in the CGU use similar logic to select the input clock source without producing glitches in the output clock.
+176 The entries in TDMA wheel, priority and least-recently-used lists provide two additional bits, such that not only the agent ID but also the type of DMA request can be specified.
+181 If one of these lower priority channels goes active, the DMAC relinquishes the bus for one cycle each four transfers of the programmed WIDTH irrespective of the size of the transfer.
+186 The Instruction RAM uses 64kB located at base address 0xE0690000, the Data RAM uses 8kB located at base address 0xE06A0000, the configuration registers use 4kB at base address 0xE06A2000.
+187 This effectively means that parity and system errors cannot be reported to external devices or reported back to the chip in the case of an external device signaling an error to the bridge.
+188 In case the number of entries for TDMA, priority and least-recently-used lists are all set to zero, the arbiter defaults to the round-robin algorithm (this is used in boot mode on layer 2).
+207 This mechanism allows the firmware to easily detect startcodes even down to the pathological case where every transport packet has enough ADF stuffing to leave only one or two elementary bytes in each packet.
+208 When a pulse measurement has completed, the 16-bit timing value from the pulse width counter is stored to an 8-deep FIFO along with the level of the pulse just measured and a tag to indicate the data is valid.
+212 Output enable and write enable pins exist and sub-word accesses are accomplished by using byte enable signals that can be programmed to have a timing either identical to the chip select or to the write enable pin.
+223 System software can force the host controller to issue an interrupt the next time the host controller advances the asynchronous schedule by writing a one to the Interrupt on Async Advance Doorbell bit in the USBCMD register.
+226 This bit is set by the Host Controller when the cause of an interrupt is a completion of a USB transaction where the Transfer Descriptor (TD) has an interrupt on complete (IOC) bit set and the TD was from the periodic schedule.
+

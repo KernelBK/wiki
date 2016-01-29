@@ -1,0 +1,25 @@
+
+Universal Verification Components (UVCs)
+
+set_inst_override_by_type
+set_type_override_by_type
+
+seq_item_port
+uvm_config_db
+
+uvm_do
+uvm_do_with
+
+uvm_agent
+	is_active
+
+# lab2
+# lab4 加入真正的reset信号
+
+test (test.sv)
+	test_base (test_collection.sv)
+		router_env
+			input_agent
+				packet_sequence
+				driver
+			reset_agent

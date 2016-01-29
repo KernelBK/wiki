@@ -1,0 +1,66 @@
+Author: Joseph Lee
+E-Mail: fdlixiaojun@gmail.com
+
+内存管理
+
+介绍
+    物理内存按照物理页来管理物理内存
+    物理内存被划分为三个区ZONE_DMA, ZONE_NORMAL, ZONE_HIGHMEM
+    高端内存指物理寻址范围大于虚拟寻址范围，一部分物理内存无法映射到虚拟地址空
+    间。
+内存分配函数
+    alloc_pages();	获得页，返回页结构指针
+    page_address();	将页结构转为逻辑地址
+    __get_free_pages(); 获得页，返回第一个页的逻辑地址
+    get_zerod_page();  	获得被填充为0的页。
+    __free_pages();	释放分配的内存页。
+    free_pages();
+    free_page();
+
+    kmalloc();		按指定字节数，获得内存，返回逻辑地址。
+    在使用以上的分配函数时都需要指定gft_mask标志，分为三类行为标志，区标志
+    （ZONE_DMA和ZONE_HIGHMEM），类别（前两者的特定组合）。
+    kfree();		释放由kmalloc()获得的内存。
+    vmalloc();		一般用于分配大块的内存，kmalloc分配的内存物理上是连续的
+    			而vmalloc()分配的内存物理上可以不连续。
+    vfree();		释放由vmalloc()分配的内存。
+
+    kmem_cache_create();创建高速缓存区
+    kmem_cache_destroy(); 销毁高速缓存区
+    kmem_cache_alloc(); 通过高速缓存区获取对象
+    kemem_cache_free(); 释放对象返回给slab。
+    kmap();		映射一个给定的page结构到内核地址空间。如果是低端内存直
+    			接返回页虚拟地址，如果是高端内存则先建立一个永久映射，
+			再返回地址。由于这个函数会睡眠，只可用在进程上下文
+    kunmap();		解除映射。
+    kmap_atomic();	建立临时映射，不会睡眠的函数。
+    kunmap_atomic();
+
+关键数据结构
+    struct page {};
+    struct zone {};
+    struct slab {};
+
+slab分配器
+    用来管理高速缓存，这个高速缓存是一部分内存用来做高速缓存，这是指分配的内存
+    在回收是并不立即销毁，而是放到一个高速缓存区链表中，以便以后的分配使用，它
+    们被组织成slab，slab又构成了高速缓存区。通常那些非常常用的数据结构都会放在
+    这里，比如task_struct, inode等，此外这样做还有助于减少内存碎片。slab被分为
+    三类，slab_full（已分配）, slab_partial（部分分配）, slab_empty（未分配）。
+    如果slab有空闲则从slab分配，如果slab分配不了，才去请求新的页。
+
+栈上的内存分配，注意溢出，大块内存最好采用动态分配。
+
+高端内存映射
+    永久映射，数量有限，使用kmap和kunmap建立和解除
+    临时映射，使用kmap_atomic建立。
+
+关于每CPU数据
+
+如何选择分配函数
+    通常使用kmalloc()来获得连续的物理内存，当然虚拟地址也是连续的。
+    如果要从高端内存中分配，就得使用alloc_pages()，它会返回一个指向struct page
+    的指针，而高端内存很可能没有映射，没有虚拟地址，只可以通过struct page结构来
+    访问，要想获得真正的指针，应该调用kmap()进行映射。
+    使用vmalloc()来分配大块的内存，它保证虚拟地址的连续，但不保证物理地址连续。
+    性能要比kmalloc低。

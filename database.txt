@@ -1,0 +1,15 @@
+
+database-benchmark
+
+sql
+[[PostgreSQL]]
+[[MySQL]]
+oracle
+
+[[b-tree]]
+索引 indexed.sequential.access.method isam
+
+术语
+	存储过程 store.procedure
+	sql, create procedure 
+	触发器

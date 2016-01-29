@@ -1,0 +1,61 @@
+
+⌥⌘← →     历史编辑点切换
+⇧⌘D          Open Quickly，直接输入文件名，支持查看各种.h .m …
+⌥⌘↑          .h与.m切换
+
+⇧⌘N          New project
+⌘，             Preference
+ 
+⇧⌘E          Zoom editor in
+⌥⇧⌘E       Zoom editor in fully
+ 
+—文件切换—
+⌥⌘← →     历史编辑点切换
+⇧⌘D          Open Quickly，直接输入文件名，支持查看各种.h .m …
+⌥⌘↑          .h与.m切换
+ 
+—File Navigation—
+⌥← →         按word移动光标，向右移动到word尾部，向左移动到word头部
+⌘← →         移动到该行头/尾，
+⇧⌥← →      高亮word
+⇧⌘← →      高亮行
+⌘↑ ↓            移动到文件头/尾
+⌃L               光标所在行放置在编辑器中间
+⌘L               Goto（行号）
+ 
+⌃2               打开method列表（应该叫Function Popup）（与系统的Spaces切换有冲突，看自己习惯了）
+⌘D              BookMark
+⌃4               BookMark列表（BookMark Popup）
+⇧⌘M          打开Bookmarks Smart Group
+ 
+⌘F              搜索
+⌘G ⇧⌘G   （搜索中）下一个/上一个
+⇧⌘F           跨文件搜索
+⌥+双击        以浮动窗口形式查看定文档
+⌥⌘+双击     查看相应文档
+ 
+—Editing Source Code—
+TAB             确认当前补全
+⎋  ⌃，        补全列表
+⌃/               切换到下一个Placeholder
+ 
+⌃⌘←   →    折叠、展开代码段
+⌃⌘↑ ↓         折叠、展开所有method段
+⌃⌥⌘F        打开、关闭当前代码段高亮功能
+ 
+⌘/               快速注释、取消注释
+⌃⌘T           同时编辑当前文件中所有同一变量名
+ 
+—Refactoring—
+⇧⌘J           Refractor对话框
+ 
+—Building and Running—
+⌘B              Build
+⇧⌘B           Build Result窗口
+⌘=  ⇧⌘=    查看warnings、errors
+⌘Enter         Build & Go
+⇧⌘R           打开Console
+⌃⌥⌘R        Clear Console      
+ 
+⌥⇧⌘/        打开文档（这是快捷键么）
+

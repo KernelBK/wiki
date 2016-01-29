@@ -1,0 +1,12 @@
+tail.call 
+
+在递归函数中，递归调用返回的结果中被直接返回。
+
+容易优化成循环
+
+def recsum(x):
+	if x == 1:
+		return x
+	else
+		return x + recsum(x-1)
+

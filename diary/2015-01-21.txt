@@ -1,0 +1,8 @@
+
+[[../发动机]]
+
+word, fast and furious
+终端软件和rtl一起仿真
+	配置
+	数据流
+

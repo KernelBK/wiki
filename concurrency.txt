@@ -1,0 +1,7 @@
+	concurrency 并发
+
+并发性由Erlang虚拟机提供 
+python
+	GIL
+multiprocessing
+监控管理 的方便程度

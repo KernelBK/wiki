@@ -1,0 +1,13 @@
+
+1. https://svn.zlgmcu.com/workflow/main.py/show
+ 
+1. 迁移debian bb2hh的虚拟机，原因太大，占用30G硬盘， 不方便移动。
+1. 还是使用ubuntu系统比较放心， debian用得不多，迁移需要时间。
+1. vritualbox压缩空间无效， vmware压缩空间无效
+
+1. 做一个vmware的备份。加入stardict
+1. 备份bb2hh虚拟机中的eda工具。
+
+ 192.168.4.169    
+
+[[../pc.vmware.ubutnu]]

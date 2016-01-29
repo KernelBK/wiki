@@ -1,0 +1,6 @@
+
+HDFS
+YARN
+MapReduce
+
+[[Cloudera]]

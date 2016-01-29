@@ -1,0 +1,13 @@
+bdb
+
+开源
+文件数据库
+
+并发
+最大256T 数据
+key-value
+
+b+tree
+
+oracle
+

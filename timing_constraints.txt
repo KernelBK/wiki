@@ -1,0 +1,16 @@
+
+timing report
+achieve timing closure
+
+timing path
+	identify the types of timing path in the design
+	global path
+		input paths
+		paths between registered elements
+		output paths
+	specific path
+		purely combinatorial or static paths
+		paths between clock domain
+		multi-cyle paths
+
+

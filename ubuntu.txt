@@ -1,0 +1,51 @@
+
+https://help.ubuntu.com/community/UbuntuMath
+
+[[hello-world]]
+[[mono]]
+[[dpkg]]
+[[apt-mirror]]
+
+avoid "S to skip"; /etc/fatab nobootwait
+
+w3m -dump html > txt
+
+Disk Utility 程序名称 palimpsest
+
+blkid
+vim /etc/fstab
+
+[[apt-get-install-ubuntu14.04]]
+apt-get install vim exuberant-ctags gawk git-core git-svn samba tftpd ssh subversion
+apt-get install nfs-common nfsd samba tftpd
+apt-get install tree
+apt-get install vim openssh-server
+
+texinfo 
+
+可以把定制好的ubuntu系统制作成一个安装盘，免得每次安装完以后需要apt-get install软件。
+
+
+Ubuntu上面提供了一种加密目录的方式，采用的工具是ecryptfs-utils，
+Linux内核提供了dm-crypt 工具来加密文件系统分区，加密后可以防止黑客将磁盘盗走后获取其中的数据。 
+
+= 查看版本 =
+cat /etc/issue
+sudo lsb_release -a
+uname -a
+cat /proc/version
+
+
+# 12.04 
+12.04 配置dns，新建文件 /etc/resolvconf/resolv.conf.d/tail 写入 nameserver 192.168.0.1， 然后重启resolvconf服务
+
+
+
+Reading package lists... Done
+W: GPG error: http://ppa.launchpad.net precise Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 2EA8F35793D8809A
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 2EA8F35793D8809A
+
+path
+
+# libstdc++.so.5
+cp /eda/novas201110/etc/lib/libstdc++/LINUX/libstdc++.so.5 /usr/lib32/

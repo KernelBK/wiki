@@ -1,0 +1,8 @@
+
+ÑéÖ¤ÉÕĞ´ spi flash
+
+pa5000 pcard
+	pcard run microblaze.
+		check reset
+
+[[../chrome]] apb²å¼ş

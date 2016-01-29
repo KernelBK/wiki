@@ -1,0 +1,7 @@
+
+gftp
+
+ftppub 172.16.55.90 pub/xxx local/file
+
+文件传送协议FTP (File Transfer Protocol)   rfc.959
+

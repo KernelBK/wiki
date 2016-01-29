@@ -1,0 +1,20 @@
+
+type.system
+
+动态类型系统 dynamic
+	lisp javascript tcl prolog
+静态类型系统 static
+	c++ java
+	宣告类型 manifest type 
+		mumps ml
+
+强类型 , java, ruby
+弱类型 ，c
+	检查两种类型是否兼容
+
+判断一只鸭子的依据
+	静态类型， 基因
+	动态类型， 外表：叫声，走路的样子
+
+[[strong.type]]
+

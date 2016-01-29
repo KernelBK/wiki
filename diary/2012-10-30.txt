@@ -1,0 +1,17 @@
+
+mmc 
+http://www.imhan.com/tag/MMC/
+在卡的激活过程，MMC使用CMD1来进行激活，而SD卡使用ACMD41来进行激活的。于是，这两条命令也成了主机区分两种卡的类型的关键。
+
+在获取卡的RCA地址时，MMC卡是由主机分配RCA给设备，而SD卡则是由设备返回RCA给主机。
+
+在CMD6的使用方法上也有很大不同。MMC有EXT_CSD的概念，主要用CMD8进行读取，CMD6进行设置。而SD卡则只用CMD6进行UserFunction的设置。SD卡的CMD8主要用于区别SD1.0和SD2.0。
+
+MMC还支持CMD14和CMD19进行主线测试，从而选择合适总线进行通信。SD则不支持。
+
+另外，MMC卡还支持CMD11、CMD20这类数据流操作，因此较多用于媒体设备上。MMC还支持Boot等高级的用法。
+
+
+http://discuz-android.blogspot.com/2010/08/patch-kernel-image-bootimg.html
+	android内核打包
+	

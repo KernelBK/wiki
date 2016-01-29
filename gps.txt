@@ -1,0 +1,12 @@
+
+http://zh.wikipedia.org/zh-cn/全球定位系统
+    所能收联接到的卫星数越多，解码出来的位置就越精确。
+    伪随机码（PRN）
+
+http://zh.wikipedia.org/wiki/地理信息系统
+    
+http://en.wikipedia.org/wiki/Global_Positioning_System
+    originally run with 24 satellites
+    Chinese Compass navigation system http://en.wikipedia.org/wiki/Compass_navigation_system
+        http://en.wikipedia.org/wiki/Local_positioning_system
+http://en.wikipedia.org/wiki/Indoor_positioning_system

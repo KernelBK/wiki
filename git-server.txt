@@ -1,0 +1,7 @@
+
+http://wiki.ubuntu.org.cn/Git%E6%9C%8D%E5%8A%A1%E5%99%A8Gitosis%E5%AE%89%E8%A3%85%E8%AE%BE%E7%BD%AE Git服务器Gitosis安装设置
+
+http://git-scm.com/book/zh
+	Git 协议可能也是最难架设的协议。
+
+git-daemon

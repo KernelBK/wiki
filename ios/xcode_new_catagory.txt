@@ -1,0 +1,7 @@
+
+Click File -> New -> File
+
+Select Objective-C file under Sources in iOS or Mac OS respectively and Click Next
+
+Now under File Type: choose either Category, Protocol, or Extension
+

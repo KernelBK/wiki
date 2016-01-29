@@ -1,0 +1,22 @@
+target thumb C: init <= system/core/init/builtins.c
+target thumb C: init <= system/core/init/init.c
+target thumb C: init <= system/core/init/devices.c
+target thumb C: init <= system/core/init/property_service.c
+target thumb C: init <= system/core/init/util.c
+target thumb C: init <= system/core/init/parser.c
+target thumb C: init <= system/core/init/logo.c
+target thumb C: init <= system/core/init/keychords.c
+target thumb C: init <= system/core/init/signal_handler.c
+target thumb C: init <= system/core/init/init_parser.c
+target thumb C: init <= system/core/init/ueventd.c
+target thumb C: init <= system/core/init/ueventd_parser.c
+
+
+target thumb C: init <= system/core/init/init.c
+	init进程会通过捕获SIGCHLD得知其子进程的死亡，并据情况决定是否重启之。
+	亡的时候，父进程会收到一个SIGCHLD信号，而后父进程通过wait()系统调用，清理子进程僵尸。
+	一个进程死亡的时候，如果它还有子进程，典型地，子进程会被托孤给init进程
+	init会监测init.rc中启动的service并根据情况重启
+
+ref:
+	http://blog.csdn.net/21cnbao/article/details/7686907

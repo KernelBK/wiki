@@ -1,0 +1,3 @@
+languages = dict(English=EnglishGetter, Greek=GreekGetter)
+return languages[language]()
+

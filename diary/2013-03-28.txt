@@ -1,0 +1,3 @@
+
+ card is initialising in SPI mode and not in MMC mode during the CMD0 Reset. 
+

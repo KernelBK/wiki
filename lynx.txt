@@ -1,0 +1,4 @@
+
+Lynx 设计系统是全芯片的设计环境，包括独创的、具有可视化功能且经过生产验证的设计流程，帮助设计人员实现和监控从 RTL 到 GDSII 的设计。
+http://www.synopsys.com/cn/Solutions/LynxDesign/Pages/default.aspx
+

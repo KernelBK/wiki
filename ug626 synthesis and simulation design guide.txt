@@ -1,0 +1,4 @@
+
+Before beginning functional simulation, you must use Compxlib to compile the Xilinx Simulation Libraries for the target simulator.
+
+

@@ -1,0 +1,14 @@
+
+修正 Error PhysDesignRules:2449 错误
+	timing.ucf没有把原来的100Mhz修改过来
+
+在ise中设置全局宏定义在edk的工程中无效
+	综合的时候会先调用xps环境下得脚本，生成ngc，然后ise读入ngc
+	全局宏要在edk的工程中起到作用需要在edk调用xst的时候加入参数
+	ar52274
+
+source properityes, selected "Include as Global File in Compile List."
+
+adc pin电压
+
+

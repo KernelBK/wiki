@@ -1,0 +1,10 @@
+
+xtclsh $myScript <options>"
+'source $myScript'
+
+run_process
+rebuild_project
+
+
+xtclsh pa5000.tcl run_process
+

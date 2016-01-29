@@ -1,0 +1,17 @@
+
+示波记录仪
+
+     整体看来，DL850只是一个常规的示波器，全部功能都是常规示波器功能，相比常规示波，优点有：
+            支持板卡种类多（超过10种板卡）
+            可同时支持8个板卡
+            采样率高，宣传资料显示可达100M/S，不过我们看到的板卡支持最大10M/S，具体由板卡决定
+            存储深度标配250M，可扩展为2G，滚动模式可达50GB
+            硬盘记录功能（记录到存储深度后停止，或者已滚动模式一直记录，该功能非标配功能）
+            History功能可以保存触发发生时的波形，每条History大小为存储深度，最多History条数由物理内存决定
+            可以保存/加载数据，可以保存指定History或者全部History的数据
+            双捕获功能：Main窗口设置为滚动模式，采样率比较低；Capture窗口设置为较高采样率，两个窗口共同查找异常波形；需要设置Capture的存储深度，每次触发时按照Capture存储深度大小保存一个事件，方便后续搜索和查看
+        其他功能和常规示波器一样。
+
+101 A pulse is not received for a period of time equal to four times the period of the previous pulse (T).
+103 A trigger occurs when the specified trigger condition is met, and a waveform is displayed on the screen.
+

@@ -1,0 +1,5 @@
+
+不要将邮件读取协议POP 或IMAP 与邮件传送协议SMTP 弄混。
+
+[[microsoft.exchange.server]]
+

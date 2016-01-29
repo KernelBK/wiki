@@ -1,0 +1,4 @@
+
+grep -i "Memory Usage"
+REAL time 
+

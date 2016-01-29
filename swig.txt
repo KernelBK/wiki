@@ -1,0 +1,10 @@
+
+Simplified Wrapper and Interface Generator
+
+向脚本语言公开C/C++代码
+ruby, perl, tcl, python
+
+1. 易用，脚本接口
+1. 提高性能
+1. 测试
+1. 图形

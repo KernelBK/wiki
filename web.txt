@@ -1,0 +1,50 @@
+搜索 广告系统 BOSS系统 运维 
+访问量 图片存储 
+可维护 效率 性能 用户体验 
+
+id生成 snowflake 
+
+
+blog
+	guiquanz.me 
+
+[[hackingteam]]
+37signals
+github
+[[freebase]]
+reddit
+[[internet_thinking]]
+technology
+	[[ugc]] pgc big-data
+	[[anti-spam]]
+
+[[twitter]] facebook linkedin youtube weibo instagram
+
+[[google]]
+[[amazon]]
+[[facebook]]
+[[wordpress]]
+[[quora]]
+[[stack.exchange]]
+coolshell.cn
+zhihu
+douban
+weibo
+weixin
+cnbeta
+[[ximalaya]]
+
+www.bartleby.com ebooks
+
+www.mrtoyy.com
+
+
+王利芬
+
+kdnet.net 凯迪社区
+[[youtube]]
+[[bookmarklet]]
+有道网页翻译
+pocket
+[[laoyao.net]]
+[[网易]]

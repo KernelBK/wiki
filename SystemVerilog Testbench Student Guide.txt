@@ -1,0 +1,18 @@
+
+synopsys guide
+
+configure
+generator
+transactor
+interface
+dut
+
+coverage
+self check
+
+thread 
+	fork...join, any, none
+	share variables among threads
+		child thread share the same parental variables, ×÷ÓÃÓò
+	wait fork
+

@@ -1,0 +1,66 @@
+zhaochenhao <zhaochenhao@szhklt.com>
+
+wifi 型号: RTL8188CUS 
+连接到A10 USB2上 
+
+device/softwinner/apollo-mele/BoardConfig.mk
+
+/workspace/homlet/lichee/linux-3.0/drivers/net/wireless/rtl8192cu
+
+busybox ifconfig  wlan0
+busybox lsusb -v
+cat /proc/modules     
+
+busybox ping 172.16.55.254
+time busybox wget $f
+
+echo 5 > /proc/sys/kernel/printk
+
+http://www.armadeus.com/wiki/index.php?title=Talk:USB_to_WiFi_adapter
+	echo userspace > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+
+busybox ifconfig wlan0 172.16.55.98 netmask 255.255.255.0
+
+busybox route add default gw 172.16.55.254
+
+ping 172.16.55.90
+ping www.baidu.com
+
+
+
+reg 0xa2c, usb read 4 fail, status:-110 value=0x0, vendorreq_times:1
+
+http://www.a10bbs.com/forum.php?mod=viewthread&tid=459
+	A10_Android内容定制说明文档V2.1.pdf 
+
+bug:
+	usb_write_port_cancel
+		http://www.armadeus.com/wiki/index.php?title=Talk:USB_to_WiFi_adapter
+			fix: echo userspace > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor 
+
+	usb_read_port_complete => urb status(-71)
+	[  114.594075]  fw read cmd failed...
+	[  120.064254] reg 0x1cc, usb read 1 fail, status:-71 value=0x0, vendorreq_times:1
+	[  120.086733] ###=> usb_read_port_complete => urb status(-71)
+
+
+
+	[  487.620264] reg 0x4c, usb read 1 fail, status:-110 value=0x0, vendorreq_times:5
+	[  488.120272] reg 0x4c, usb read 1 fail, status:-110 value=0x0, vendorreq_times:6
+	[  488.620263] reg 0x4c, usb read 1 fail, status:-110 value=0x0, vendorreq_times:7
+	[  489.120273] reg 0x4c, usb read 1 fail, status:-110 value=0x0, vendorreq_times:8
+	[  489.620281] reg 0x4c, usb read 1 fail, status:-110 value=0x0, vendorreq_times:9
+	[  490.120288] reg 0x4c, usb read 1 fail, status:-110 value=0x0, vendorreq_times:10
+	[  490.620282] reg 0x824, usb read 4 fail, status:-110 value=0x0, vendorreq_times:1
+	[  491.120157] reg 0x824, usb read 4 fail, status:-110 value=0x0, vendorreq_times:2
+	[  491.620169] reg 0x824, usb read 4 fail, status:-110 value=0x0, vendorreq_times:3
+	[  492.120162] reg 0x824, usb read 4 fail, status:-110 value=0x0, vendorreq_times:4
+	[  492.620165] reg 0x824, usb read 4 fail, status:-110 value=0x0, vendorreq_times:5
+	[  493.120172] reg 0x824, usb read 4 fail, status:-110 value=0x0, vendorreq_times:6
+	[  493.620183] reg 0x824, usb read 4 fail, status:-110 value=0x0, vendorreq_times:7
+	[  494.120187] reg 0x824, usb read 4 fail, status:-110 value=0x0, vendorreq_times:8
+
+
+	usb 5-1: device descriptor read/64, error -110
+
+

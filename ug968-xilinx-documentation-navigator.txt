@@ -1,0 +1,11 @@
+
+http://v.youku.com/v_show/id_XNDUyNTk1MDY4.html
+
+可以下载全部文档
+Q:怎么打开全部文档
+	A:下载的文档和需要连网的文档标记不一样。不过从另一台机器上复制过来的文档没有还没有进入索引。
+
+崩溃
+C:\Users\yangyaowu\AppData\Local\Xilinx\DocNav
+删除delta1-search**
+

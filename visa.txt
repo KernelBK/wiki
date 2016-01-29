@@ -1,0 +1,36 @@
+
+外交部
+国新办
+主权
+
+
+种类
+	移民签证 immigrant
+		外籍人登记 Alien registration receipt card, green card
+		请求者 petition
+	非移民签证 nonimmigrant 
+
+	旅游
+	访问
+	工作
+	学生
+	定居
+
+中国
+	外交 diplomatic visa
+	公务 service visa
+	官员 official visa
+	礼遇 courtesy visa
+	普通 visa
+
+
+美国
+	37种
+	B-1 B-2
+	H-1 H2B
+	H-3
+	F-1 M-1
+	J-1
+
+job seeker visa
+sponsor work visa

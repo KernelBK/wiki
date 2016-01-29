@@ -1,0 +1,6 @@
+
+保存PyCodeObject
+
+import abc 
+Python将到设定好的path中寻找abc.pyc或abc.dll文件，如果没有这些文件，而只是发现了abc.py，那么Python会首先将abc.py编译成相应的PyCodeObject的中间结果，然后创建abc.pyc文件，并将中间结果写入该文件
+

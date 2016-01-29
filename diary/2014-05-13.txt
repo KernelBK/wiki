@@ -1,0 +1,9 @@
+
+评估 HMCAD1063 adc模块
+	zync7000
+		a9 x2
+
+有一个xib的json读取程序
+	改装到todolist里面
+
+

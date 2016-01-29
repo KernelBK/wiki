@@ -1,0 +1,6 @@
+
+don't call function on objects, you send messages to them. 
+object find and invoke method at runtime, not compile time.
+
+
+

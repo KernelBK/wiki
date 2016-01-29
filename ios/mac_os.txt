@@ -1,0 +1,7 @@
+
+/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs
+
+[[Mavericks]]
+
+file:
+/Applications/Xcode5-DP6.app/Contents/Developer/Documentation/DocSets

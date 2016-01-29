@@ -1,0 +1,8 @@
+
+key words
+	[[prototype]]
+	[[this]]
+
+[[class]]
+[[array]]
+[[object]]

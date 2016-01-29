@@ -1,0 +1,55 @@
+
+[[how.i.met.your.mother]]
+[[Computer.Architecture.5th]]
+[[walking.dead]]
+[[007]]
+[[cpp.primer]]
+[[Justice.Whats.the.Right.Thing.to.Do]]
+[[the.making.of.a.nation]]
+JavaScript
+
+vmm
+linux kernel
+
+
+spec
+usb emmc pci pcie ddr arm amba avalon
+[[usb_20]]
+[[amba2]]
+[[amba4-stream]]
+[[ihi0022d_amba_axi_protocol_spec]]
+[[Professional.Linux.Kernel.Architecture]]
+[[the.c.programming.language]]
+[[Introduction.to.Algorithms.3rd]]
+[[linux.log]]
+[[IHI0051A_amba4_axi4_stream_v1_0_protocol_spec]]
+[[code.complete.2ed]]
+[[design.patterns]]
+pa
+[[verilog]] [[verilog.paper]]
+[[systemverilog]]
+[[verification.methodlogy]]
+[[lixiaolai.writing.185]]
+802.3
+[[Microsoft.Press.Windows.Internals,5th.Edition]]
+[[uvm_users_guide]]
+[[beyond.feelings]]
+[[Seven.Languages.in.Seven.Weeks]]
+uart i2c spi
+synopsys
+[[xilinx_doc_nav]]
+modelsim
+
+[[dl850]]
+[[wt1800]]
+[[nce3]]
+[[nce2]]
+[[the.elements.of.style]]
+[[Understanding.the.Linux.Kernel.3rd]]
+[[Linux.Kernel.Development.3rd]]
+[[a.day.in.the.life.of.lucy]]
+[[pro.git]]
+
+[[vcsmx_ug]]
+[[matlab_help]]
+[[altera]]

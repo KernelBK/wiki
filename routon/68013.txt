@@ -1,0 +1,15 @@
+
+io  
+    IFCONFIG EP2FIFOCFG 
+    OEx 0输出，1输入
+
+51
+    4 clock cycyle = 1 instructin cycle
+    48M/4=12M
+
+delay
+    wt_value = (wi_value*960*fi_value*48000000)/(f_clk*65536*12); 
+    = (10.0*960*372*48000000)/(3579000.0*65536*12)
+
+    定时器 16bit clk/12 模式下溢出时间
+    (12.0/48000000)*65536               

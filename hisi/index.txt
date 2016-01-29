@@ -1,0 +1,21 @@
+
+
+http://172.16.55.55/hg/repos/hisi/h1_linux
+
+hg clone http://172.16.55.55/hg/repos/hisi/h1_linux
+
+[[sdk]] [[sdk_install]]
+	- [[kernel]]
+	- [[smart_card]]
+	- [[tuner]] 
+		[[hi3716cdmo_tuner]]
+
+[[bootloader]]
+
+
+dvb
+
+[[android-dvb]]
+
+[[android-build]]
+

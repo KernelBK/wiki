@@ -1,0 +1,4 @@
+
+float-point
+	file:///C:\Xilinx\14.3\ISE_DS\ISE\coregen\ip\xilinx\primary\com\xilinx\ip\floating_point_v5_0\doc\floating_point_ds335.pdf
+

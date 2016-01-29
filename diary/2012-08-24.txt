@@ -1,0 +1,12 @@
+1. 分析hisi UM和代码中寄存器的操作。
+1. 背单词4000， 刘一男
+
+----
+
+abi和elf
+abi和isa
+abi和os
+abi和compiler
+abi和arch
+他们之间的关系。
+

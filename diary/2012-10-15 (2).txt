@@ -1,0 +1,8 @@
+
+*** Warning - bad CRC, using default environment
+应该是u-boot过大，导致env擦除。
+
+CONFIG_FASTBOOT是全志加入的，在sunxi中没有。
+	只对nand有支持。
+
+sunxi-uboot中没有fastboot的支持，但nand可以完全注释掉(需要nand支持的功能少)。

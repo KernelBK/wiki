@@ -1,0 +1,72 @@
+
+http://blog.csdn.net/luoshengyang/article/details/7747932 Android帧缓冲区（Frame Buffer）硬件抽象层（HAL）模块Gralloc的实现原理分析 
+
+https://community.freescale.com/docs/DOC-93612  Android Graphic UI with GPU  hardware acceleration
+
+drivers/video/sun4i/disp/dev_disp.c
+drivers/video/sun4i/disp/de_bsp/de/disp_lcd.c
+
+http://blog.csdn.net/bonderwu/article/details/5805961
+
+http://blog.csdn.net/myarrow/article/details/7169173 高通Android平台下关于display部分的几个关键问题 
+
+/dev/graphics/fb0
+
+thin film transistor(TFT) 
+liquid crystal display (LCD)
+只有TFT模块才有RGB接口
+
+./drivers/video/sun4i/lcd/
+
+[LCD] lcd_module_init
+
+
+LCD屏的IO口控制如下： 
+
+PC22：LCD_BVCC_EN：LCD屏背光灯开关，输出=1开 
+PC21：LCD_VCC_CON：LCD屏电源开关 输出=1开，输出=0关闭 
+PI03: LCD_PWM_CON ：LCD背光亮度PWM控制信号 输入/上下拉禁止 ，控制亮度时需要控制PWM控制器，调节占空比，调节电压值控制亮度 
+
+
+
+[    4.289463] [DISP] *****************************************************************
+[    4.297225] [DISP] ***
+[    4.299604] [DISP] *** LCD Panel Parameter Check
+[    4.304244] [DISP] ***
+[    4.306610] [DISP] ***             by dulianping
+[    4.311249] [DISP] ***
+[    4.313616] [DISP] *****************************************************************
+[    4.321389] [DISP] *** 
+[    4.323843] [DISP] *** Interface:
+[    4.326991] [DISP] *** Parallel HV Panel
+[    4.331121] [DISP] *** Lcd Frm Disable
+[    4.334882] [DISP] *** 
+[    4.337336] [DISP] *** Timing:
+[    4.340413] [DISP] *** lcd_x:      0
+[    4.343996] [DISP] *** lcd_y:      0
+[    4.347578] [DISP] *** lcd_ht:     0
+[    4.351181] [DISP] *** lcd_hbp:    0
+[    4.354764] [DISP] *** lcd_vt:     0
+[    4.358346] [DISP] *** lcd_vbp:    0
+[    4.361943] [DISP] *** lcd_hspw:   0
+[    4.365531] [DISP] *** lcd_vspw:   0
+[    4.369121] [DISP] *** lcd_frame_frq:  0Hz
+[    4.373240] [DISP] *** 
+[    4.375695] [DISP] *** Err01: Violate "lcd_hbp > lcd_hspw"
+[    4.381200] [DISP] *** Err02: Violate "lcd_vbp > lcd_vspw"
+[    4.386695] [DISP] *** Err03: Violate "lcd_ht >= (lcd_hbp+lcd_x*1+4)"
+[    4.393155] [DISP] *** Err04: Violate "(lcd_vt/2) >= (lcd_vbp+lcd_y+2)"
+[    4.399777] [DISP] *** WRN03: Recommend "lcd_dclk_frq = 0"
+[    4.405295] [DISP] *** 
+[    6.400031] [DISP] *** Try new parameters,you can make it pass!
+[    6.405957] [DISP] *** LCD Panel Parameter Check End
+
+code
+1. Fb_Init
+    DE_BE_get_display_width
+    Display_Fb_Request
+
+Disp_lcdc_init
+    pwm_set_para
+
+pwm_write_reg

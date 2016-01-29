@@ -1,0 +1,6 @@
+
+1. blvds sram interface add avalon bus bridge 
+
+? qsys 自己定义模块的output能不能再qsys生成代码的顶层出现？
+
+1. cyclone blvds没有双向支持，使用普通io尝试。

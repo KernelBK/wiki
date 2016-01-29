@@ -1,0 +1,15 @@
+
+[[Foundations.of.Python.Network.Programming]]
+
+[[socket]]
+[[Reactor]]
+
+分布式应用架构风格 
+	[[rest]]
+		[[Ruby.on.Rails]]
+	do	分布式对象
+	rpc	远程过程调用
+[[soa]]
+
+[[soap]]
+wsdl

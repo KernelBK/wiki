@@ -1,0 +1,16 @@
+
+1. 看编译原理视频
+
+1. 熊杰使用新硬件smc读卡有时钟问题，配合。
+
+1. [ARM与XILINX的恩怨情仇](http://www.openhw.org/Kevin/blog/09-11/179243_2bf9f.html)
+- 美国创业文化的精髓: 技术+商业 的双重创新. 
+- 另一方面的挑战, 来自于摩尔定律. 
+
+1.  itouch4 8g
+http://www.amazon.cn/%E8%8B%B9%E6%9E%9C-iPod-touch-4%E4%BB%A3-8GB-MD057CH-A-%E7%99%BD%E8%89%B2-%E5%A4%9A%E5%AA%92%E4%BD%93%E6%92%AD%E6%94%BE%E5%99%A8/dp/B005U9PFOW
+http://www.360buy.com/product/281998.html/
+
+1. 处理浙江用户的返修机器，反应机器慢。
+
+1. 学习lisp

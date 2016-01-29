@@ -1,0 +1,18 @@
+
+[[Leiningen]]
+
+Clojure = lisp + jvm
+concurrency, [[STM]] [[MVCC]] 
+	ref
+	atom
+	agent
+	var
+	[[Write.Skew]] (写偏序)
+
+string boolean nil character keyword symbol regex number
+list vector map set
+
+type hint 
+java.byte.code
+light table
+

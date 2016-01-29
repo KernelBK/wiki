@@ -1,0 +1,16 @@
+
+iec谐波的频率滤波器没有打开，需要上面打开；
+子卡IEC谐波倍频配置不在HCT4046的合适范围内，子卡修改；
+
+古茂兢(gumaojing)  9:40:15
+由于部分人员对借用产品不重视，造成有30%以上的借用都是延期的。目前687条借用是2015年前借出去未归还的，借了这么久，跟送给客户使用没有什么区别。还有些人，借出去的东西归还了一部分或一部分转成销售，另一部分继续在客户那里。同一个产品，借给客户两台，客户买了一台，另一台继续借给客户，这种情况是不建议的。
+
+原则上，产品只能借用一个月，可以续借两次，一个季度一定要归还。如果借用超过三个月的，要公司高层审批。如果三个月不归还的，公司会考虑强行报废，费用算在个人和分公司名下，直接在当月工资或绩效里扣减，此要求从9月1日实施。
+如果产品的推广期都要三个月以上或者借用就是为了推广产品而由市场部主导的，这方面由市场部负责说明，可以放宽借用条件。
+
+离职人员离职前要归还借出的产品，也可以由其它在职人员接收，如果归还不回来又没人接收的，公司扣减其费用，这部由财务负责监管和执行。
+
+借用的细则后续可以调整，但是过期不还，不按照要求执行并且给公司造成损失的，公司将会处罚，这个原则不会变。
+
+现在发这个通知主要是让大家处理现有的借用数据，也让大家提出建议我们修改细则，力求在满足大家正常推广和销售的情况下保障公司的利益
+f:\get\share\ <*.rar|*.zip|*.7z|*.bz2|*.gz|.tar> <RTX64_2014|SmartPRO_|ZDS20|adobe|android|aoc_screen_plus|arm-linux|asio|bench|boost_1|c51|can|crack|doxgen|duilib|emacs|ethernet|filezilla|firebug|flash|gtk|gui|husbound|icon|jre32|keil|license|lwip|markdown|mcu|md5|mingw|notepad|odbg|ourdev|perl|poco|qemu-|rt-thread|scope|shelljiaoben|tiny|tool|usb|vim|virtual|vs20|webkit-r|wifi|win|xshell|yahei|zigbee|订票|破解|注册机|fm3|CITS25|patch|逗你玩|RS-232|EasyARM|jinshanciba_cidianbao|PowerWord|galaxysmtd|All.zip|protel99se|MindManager|gradle|smd_setup|MPDF60|apl_startkit|JMHY|Kmplayer_Plus|universalviewer|negdata2|MiSetup|fm4|FreeDWGViewer|HiSuiteSetup|SecureCRT|saber>

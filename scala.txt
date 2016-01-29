@@ -1,0 +1,12 @@
+
+scala = java + funcational
+Martin Odersky
+
+语言复杂度和CPP有得一比
+德国设计，瑞士制造。
+
+类型推断
+不变量
+并发
+一切都是对象
+

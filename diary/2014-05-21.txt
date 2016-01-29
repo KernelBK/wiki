@@ -1,0 +1,8 @@
+
+传送axi stream数据到jtag接口
+	ds810 chipscope axi monitor
+
+功率卡回来了
+
+
+

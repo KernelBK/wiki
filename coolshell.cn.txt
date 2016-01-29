@@ -1,0 +1,21 @@
+
+# 11265 python decorator
+
+# 8961 gof 23
+
+# 8754  oop优化操作系统列表
+
+
+# 10337 命令行参数解析
+getopt
+gflags
+ruby commander
+[[lisp]] cmdline
+node.js LineParser
+git git.c
+
+# 5709 api接口设计
+不管怎么封装，大过程小过程抽象层次更高，但本质上还是过程，收到过程语义的约束；
+语言的构造限制了抽象的维度，很难跳出语言的构造
+SQL，html， css，makefile的抽象是为特定领域定制的，从这些抽象看问题往往最为简单；
+

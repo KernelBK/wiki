@@ -1,0 +1,5 @@
+
+blvds slave中的两个模块axi, axis使用一个时钟生成器。
+syntax error, when module name error, compiler can't report  properly.
+syntax error, change clock generator module's arguement of clock input frequency should change the ucf timing constraint consistently.
+completed blvds axis random test. fixed axi4stream when ready not high send data problem

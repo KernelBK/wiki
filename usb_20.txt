@@ -1,0 +1,2 @@
+
+229 All USB devices that fail to complete their transmission at the end of a (micro)frame are prevented from transmitting past a (micro)frame¡¯s end by having the nearest hub disable the port to which the offending device is attached.

@@ -1,0 +1,32 @@
+
+Graydon.Hoare 赠送给Mozilla 
+[[Liigo]]
+
+code/rust
+
+高性能 静态强类型 多范式
+
+实时不能有gc 
+零开销抽象， inline const expr template 
+
+无data-race并发
+函数语言的pattern matching 
+generic
+trait 编译时多态
+	统一了编译和运行时的多态
+运行时叫trait object
+	golang 没有多态
+没有exception ,错误通过enum返回，
+	golang正确也返回错误代码
+	rust错误的时候返回
+module系统, pub, use
+管理系统 [[cargo]] creates.io 
+
+ownership
+lifetime
+
+[[Servo]]
+
+books
+	rust.for.rubyists
+

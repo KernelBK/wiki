@@ -1,0 +1,4 @@
+
+$if(%multiitem%,$if(%discnumber%,Disc %discnumber%,Image),[[%disc%.]%tracknumber%. ]%title%)
+
+$if2(%album artist%,unknown artist)/$if(%multiitem%,$if(%discnumber%,Disc %discnumber%,Image),[[%disc%.]%tracknumber%. ]%title%)

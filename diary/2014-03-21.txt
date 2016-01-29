@@ -1,0 +1,14 @@
+
+xilinx edk(vhdl) dpi(c, matlab)
+不方便使用makefile脚本
+
+
+
+
+1. adc_ctrl加入到pcard edk工程
+
+去掉axi4stream中德tlast 信号
+
+综合edk工程
+
+

@@ -1,0 +1,10 @@
+
+303 When we were children, we always managed to persuade our parents to buy us candies; when we were in the high school, we had to persuade our classmates to play with us; when we applied for a job after graduation, we had better be able to successfully convince the employer that we are qualified employees.
+223 Even though there are critical thinking individuals in any society, they are definitely in minority; the public in whole indeed lack skills of critical thinking, and therefore they are often led by the movies and television.
+206 Today a bachelor's degree may no longer guarantee a decent pay, more and more companies post their want ads claiming that applicants must have at least master's degrees, which take two or three years longer.
+185  We will never know how many women could have done those jobs better than a man could have until the parents of every baby girl decide that their daughter is worth as much as their son.   
+113 Eating out would save time if there were a restaurant nearby, but the closest restaurant is a 30-minute walk away.
+
+308 In command-layer transactors¨Cdrivers and monitors, the transaction-level interface lets the higher layers of the verification envirnment stimulate the DUT by specifying which transactions should be executed or be notified of which transactions have been observed at a given point in time on a DUT interface.
+
+

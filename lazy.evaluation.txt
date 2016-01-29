@@ -1,0 +1,4 @@
+	lazy.evaluation 惰性求值
+
+中间结果不需要求解
+

@@ -1,0 +1,10 @@
+
+formal
+	NetGen Equivalence Checking Flow
+	netgen -ecn conformal | formality [options]
+
+	netgen -ecn formality design.ngd
+
+Synopsys Library Compiler 
+$XILINX/verilog/xeclib  
+

@@ -1,0 +1,10 @@
+
+124 Incorporating a significant amount of example code from this book into your product¡¯s documentation does require permission.
+126 com/), today¡¯s web browsers all include web developer tools that are indispensable for debugging, experimenting, and learning.
+128 This escape sequence is useful when you need to include an apostrophe in a string literal that is contained within single quotes. 
+130 Roughly, an expression is something that computes a value but doesn¡¯t do anything: it doesn¡¯t alter the program state in any way
+147 The undefined value is also returned by functions that have no return value, and the value of function parameters for which no argument is supplied. 
+155 If you agree that this is a valuable source of information, then please pay for that value by purchasing a legal copy (either digital or print) of the book. 
+102 ¡± For the same trademark reasons, Microsoft¡¯s version of the language is formally known as ¡°JScrip
+117 Except for a superficial syntactic resemblance, JavaScript is completely different from the Java programming language.
+

@@ -1,0 +1,5 @@
+
+硬件描述语言
+Lennart.Augustsson 是Haskell的发起者
+
+

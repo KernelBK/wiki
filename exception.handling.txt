@@ -1,0 +1,13 @@
+
+python三种方式
+
+try:
+except Exception,e:
+
+try:
+except Exception,e:
+else:
+
+try:
+except Exception,e:
+finally: # always do

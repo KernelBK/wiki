@@ -1,0 +1,28 @@
+
+5710, 降低spi发送数据的频率
+5730，@王东方 发现卡类型参数不正确，重新烧写板卡
+5720, 一台机器有两张卡出现无法识别的现象，FPGA无法配置，重新烧写固件
+
+copy to work, vm, b, 
+
+12G	aosp_mirror
+372K	bin
+292K	dinner
+653M	dvb
+13M	etc
+1.7M	etc.1
+13M	etc.ubuntu_12.04_64bit
+12G	git_repo
+14G	git_repo_allwinner
+7.3G	git_repo_homlet_android_repo_projects
+2.3G	git_repo_homlet_lichee_repo_projects
+3.3G	git_svn_idr410_android
+1.9G	git_svn_idr410_lichee
+14G	homlet2
+16K	lost+found
+300K	qemu_arm
+113M	stardict
+4.2G	svn_homlet
+24G	trident
+3.2M	wiki
+

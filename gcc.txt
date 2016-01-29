@@ -1,0 +1,20 @@
+
+build 
+	gmp, mpfr, mpc建立一个连接在gcc目录下就可以，不需要每个都编译。
+
+-g debug/release
+-msoft-float
+
+
+http://gcc.gnu.org/wiki/cxx-conversion
+
+
+GCC-3.4.6源代码学习笔记 http://blog.csdn.net/wuhui_gdnt/article/category/654667
+
+http://www.lingcc.com/2012/05/16/12048/ 编译器参考资料
+http://www.lingcc.com/2009/12/22/10404/
+
+http://www.cse.iitb.ac.in/grc/index.php?page=home 
+    http://www.cse.iitb.ac.in/~uday/courses/cs715-09/
+
+http://staff.ustc.edu.cn/~yuzhang/compiler/

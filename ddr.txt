@@ -1,0 +1,20 @@
+
+[[ddr3]]
+
+OCD Off Chip Driver
+MR Mode Register 
+EMR Extended Mode Registers 
+ODT
+
+http://en.wikipedia.org/wiki/Synchronous_dynamic_random_access_memory
+    each bank operates completely independently.
+
+
+官方文档下载 http://www.jedec.org/standards-documents/results/field_25%3A%22JESD79%22
+
+http://en.wikipedia.org/wiki/Prefetch_buffer
+
+memory test
+1. in u-boot
+1. in kernel user space
+    memtester 500M

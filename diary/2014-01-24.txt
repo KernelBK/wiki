@@ -1,0 +1,14 @@
+
+dpi interface demo
+	call dpi in class
+
+vcs xxx.cpp 可以
+vcs -f run.f 里面包含.cpp文件不能识别成cpp文件
+
+
+解决vcs dpi调用C库的问题
+-I. -CFLAGS '-I. -L. -lgmp -lmpfr -lIp_floating_point_v6_1_bitacc_cmodel'
+
+svn新版只有一个.svn目录，而且还是可以在不同目录下切换各种版本。
+
+

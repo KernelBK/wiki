@@ -1,0 +1,8 @@
+
+Scott.Chacon
+
+145 If you want some repositories to be read-only to certain users and read/write to others, access and permissions can be a bit difficult to arrange.
+103 The Git community sorely lacked good introductory material written from the perspective of the end user.   .
+300 If a branch statement occurred on the same line as another type of coverage object (such as an assignment) in the source code, the item number for the other type of coverage object displayed in a coverage report may change from one report to the next, depending on whether branch coverage was enabled.
+284 If the test bench is comprehensive and the coverage model (set of functional coverage metrics) correctly implements the test bench, and the design produces correct results with 100% functional coverage, then there is a high degree of confidence that all important bugs have been found.
+

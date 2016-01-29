@@ -1,0 +1,11 @@
+
+/System/Library/Audio/UISounds
+	去掉拍照的声音   mv photoShutter.caf .photoShutter.caf
+
+
+荔湾区 西提2马路 南方大厦 房间号 到了给我电话接
+客服电话：13631337889     客服QQ：1579348140
+
+广东省 广州市 荔湾区 康王南路 西关大厦A座2102室 创新数码 程晓明收  13826204947
+
+

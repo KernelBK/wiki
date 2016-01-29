@@ -1,0 +1,13 @@
+
+[[synchronous.asynchronous.blocking.nonblocking]]
+
+不使用进程， 线程也能处理多个io相关任务
+
+
+同步 io.multiplexing
+	blocking
+	nonblocking
+异步
+	linux, aio
+	windows, iocp
+	.net beginInvoke

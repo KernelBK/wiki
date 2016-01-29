@@ -1,0 +1,10 @@
+
+
+
+uvm axi4lite
+	questasim 10.1d不能显示新添加的信号。
+	modelsim10.2c下没有这个bug，不过界面的字体实在是太难看。
+		暂时不管
+搞定
+
+

@@ -1,0 +1,7 @@
+
+[[ciqi]]
+
+idea:
+	English/Chinese/... words frequence, words from transcript, book, web page.
+	History Map
+	Old chinese books, from ctext.org/zh

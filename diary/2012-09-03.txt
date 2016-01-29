@@ -1,0 +1,7 @@
+dvb android 测试
+
+android apk如何加载和运行，dalvik如何为每个应用创建实例？
+
+怎么理解 intent 
+	可以从restful的角度，再到一些实例来回到。
+	资源和表现层

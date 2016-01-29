@@ -1,0 +1,5 @@
+	by-name.parameter 传名参数 function.parameter
+
+	半函数 partial, currying
+
+

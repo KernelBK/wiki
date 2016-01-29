@@ -1,0 +1,12 @@
+
+dvb, smartcard 的相关gpio导入到内核的用户空间造成一些问题。
+
+写vimwiki
+
+h1烧到板上的文件系统如果用nfs启动，h3.Desktop时候会把网络弄掉。
+
+189彭亮
+wget ftp://172.16.51.189/libY1120-jinglun-PNX847-20120425D.so
+wget ftp://172.16.51.189/libh2dvbc.so
+wget ftp://172.16.51.189/h3.digital
+

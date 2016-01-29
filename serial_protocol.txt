@@ -1,0 +1,13 @@
+
+[[mgt]]
+	[[serdes]]
+ethernet
+aurora
+pcie
+sata
+sas
+[[srio]]: serial rapidio
+sonet/sdh
+
+[[qos]]
+[[sonet]]

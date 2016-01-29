@@ -1,0 +1,8 @@
+Author: Joseph Lee
+E-Mail: fdlixiaojun@gmail.com
+
+声明和定义，原型
+主要涉及第三章和第八章
+
+typedef
+prototype

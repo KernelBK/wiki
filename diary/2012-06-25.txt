@@ -1,0 +1,11 @@
+
+h2d有一台找不到tuner
+
+整理原来的笔记到vimwiki，
+调查了vimwiki+markdown，发现太折腾，放弃。
+语法高亮。
+
+整一个h2的android系统的板子。
+
+整理h1的uldr, u-boot烧写笔记。
+

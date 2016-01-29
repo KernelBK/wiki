@@ -1,0 +1,17 @@
+
+lsmod
+sun4i_sndspdif 2633 0 - Live 0xbf0b0000
+sndspdif 2871 1 - Live 0xbf0ac000
+sun4i_spdma 4369 1 - Live 0xbf0a7000
+sun4i_spdif 6383 1 - Live 0xbf0a2000
+gpio_sw 96389 0 - Live 0xbf087000
+rtl8150 8910 0 - Live 0xbf080000
+mcs7830 6557 0 - Live 0xbf07a000
+qf9700 8513 0 - Live 0xbf073000
+asix 22500 0 - Live 0xbf068000
+mali 130065 6 - Live 0xbf03b000
+ump 42086 7 mali, Live 0xbf02a000
+sun4i_ir 4340 0 - Live 0xbf025000
+nand 118775 0 - Live 0xbf000000
+
+

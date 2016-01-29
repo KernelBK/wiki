@@ -1,0 +1,8 @@
+
+1. [国外三维集成电路（3D IC）技术发展动态](http://www.istis.sh.cn/list/list.aspx?id=6381)
+- 在设计阶段导入3D IC的概念，可以将一个完整、复杂的芯片，拆分成若干子功效芯片，在不同层实现，既增强了芯片功能，又避免了相关的成本、设计复杂度增加等问题。
+- 市场研究公司Yole Developpment
+- 穿透硅通孔3D IC 互连尚待解决的关键技术难题之一是通孔的刻蚀。
+- 硅穿孔（TSV）
+
+1. http://en.wikipedia.org/wiki/3D_IC

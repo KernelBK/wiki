@@ -1,0 +1,7 @@
+
+计算模块，都放在一个模块内部。可以把需要调试的信号变成寄存器接口，在上位机调试。
+
+adc value ... get max min ... cal and set dac ... cal frequency ...
+计算max min 重新用硬件计算。不需要软件来定时清除。
+
+

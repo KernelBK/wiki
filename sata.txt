@@ -1,0 +1,45 @@
+
+
+
+# protocol 
+link
+	8b10b encoded, K/D
+	primitives// start, stop, request
+		align
+		sync
+		x_rdy
+		r_rdy
+		r_ip
+		wtrm, waiting to terminate
+		r_ok
+		r_err
+		sof, start of frame
+		eof, endo of frame
+		hold
+		holda
+		cont
+		pmreq_s
+		pmreq_p
+		pmack
+		pmnak
+		dmat
+	out of band (oob), used to initialize the sta interface
+		cominit
+		comreset
+		comwake
+packet
+	frame information structures (fis)
+application/command 
+	ata command
+
+lvds
+clock_recovery
+[[cdr]] clock and data recovery
+[[cid]] consecutive identical digits
+
+line_code
+qip intel_quickpath_interconnect replaced the fsb (front-side bus)
+csi common system interface
+yap yet another protocol
+
+[[pci]]

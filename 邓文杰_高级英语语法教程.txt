@@ -1,0 +1,23 @@
+
+tg, transformational grammar, transformational-generative grammar
+	generative grammar
+		Noam Chomsky
+
+全是符号类的分析与法 而且缩写没有给出
+
+NP VP
+NP = noun phase
+VP = verb phase
+D = determiner
+N = noun 
+V = verb
+
+pp = prepositional phase
+AdvP = adverb phase
+CP = complement phase
+IP = inflection phase
+S = sentence 
+
+
+126 By syntax, in this book it refers to the study of the way the sentence is constructed and how the related pans work together.
+132 The present writer believes diat sentence analysis is a significant part of linguistic competence, especially for die English majors. 

@@ -1,0 +1,16 @@
+
+Inner Classes
+
+keywords
+	interface byte enum
+	abstract [[final]] synchronized
+	extends implements
+	super instanceof
+	finally throw
+	strictfp
+	transient
+	volatile
+	assert
+	package
+	import
+

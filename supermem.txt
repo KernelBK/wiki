@@ -1,0 +1,14 @@
+
+pc data change to iphone
+1. import to supermemo, sync
+2. login http://www.supermemo.net , check uuid
+3. change uuid
+4. pack
+4. 
+
+      1、课程解包更换guid导入PC端 SuperMemo UX；
+      2、从PC端同步课程到官网；
+      3、把课程打包并改名为(guid字符串+.smpak)复制到手机"Library\SMPAKs”文件夹；
+      4、从官网同步课程到手机；
+      5、有声有色的课程同步完成。
+

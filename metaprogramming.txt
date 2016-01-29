@@ -1,0 +1,11 @@
+
+写能写程序的程序
+
+Meta Language
+Meta Data
+
+源语言是配置的语法和语义，元数据就是具体的配置；
+就像C语言和C程序的关系；
+
+google [[protocol.buffers]]
+android AIDL

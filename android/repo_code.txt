@@ -1,0 +1,7 @@
+http://www.worldhello.net/2010/08/31/1915.html
+	魔法就在第 23 行，巧妙的通过 python 三引号字串写出了一个能被 python 和 shell script 都能理解的代码，以此为界，代码由 Shell 脚本进入了 Python 的世界。 
+	 .repo/repo/subcmds/ 子目录下，是各个 repo 命令的处理脚本。
+
+main.py
+	_Main
+

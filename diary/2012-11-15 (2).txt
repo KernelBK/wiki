@@ -1,0 +1,10 @@
+
+全志的demo板可以用livesuit烧写：livesuit打开，选择好要烧写的镜像；让后按住recovery键，插上usb，就可以了。
+
+通过bin2fex工具反向script0.bin文件，把wifi的配置从sdio到usb上，由于mmc驱动，配置不成功wifi会重启系统。
+
+可以考虑把demo板的wifi驱动复制到我们自己的板上测试。
+
+h1板，dvb在信号弱时插拔有检测不到线的情况，trident那边支持说是给agc复位没有发出，相关代码我已经查到。
+
+trident的sdk不能编译了

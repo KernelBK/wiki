@@ -1,0 +1,21 @@
+
+用到的计数
+	查询 sphinx
+	Amazon.Web.Service 
+	ubuntu 
+	CDN
+	HAProxy
+	Nginx 
+	Pylons
+	Python
+	Thrigt
+	Tornado
+	Long.Polling Comet
+	MySQL
+
+	
+
+知乎上说，看quora可以锻炼英语，对于情感专栏一看就是一天，根本停不下来。
+
+
+

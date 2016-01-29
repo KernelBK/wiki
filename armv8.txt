@@ -1,0 +1,15 @@
+
+AArch32
+AArch64
+
+spec
+	system level arch
+
+regime 制度
+synonym = same name
+mutual a 相互的(mut+ual=你变我也变=相互的)
+	mutable a 易变的(mut+able能…的=能变的)
+
+The eviction of a cache entry from a cache level can overwrite memory that has been written by another observer only if the entry contains a memory location that has been written to by an observer in the shareability domain of that memory location. 	
+
+193 Each Inner Shareability domain contains a set of observers that are data coherent for each member of that set for data accesses with the Inner Shareable attribute made by any member of that set.

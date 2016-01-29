@@ -1,0 +1,5 @@
+
+http://www.libusb.org/
+
+http://libusb.sourceforge.net/api-1.0/
+

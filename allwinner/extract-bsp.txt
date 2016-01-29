@@ -1,0 +1,6 @@
+
+这个命令，是拷贝kernel下的相关库到android里去一起打包
+实现：
+android4.0\device\softwinner\common
+vendorsetup.sh文件
+

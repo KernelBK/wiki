@@ -1,0 +1,5 @@
+
+aurora 
+	tx_lock 会出现低电平
+	检查 输入的RESET信号
+	

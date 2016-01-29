@@ -1,0 +1,15 @@
+
+synchronous, 等待，顺序一致
+asynchronous, 不等待，顺序不一致；
+
+ajax
+
+4种模式
+	callback, f1(f2)
+	event, f1.on)('done', f2)
+	publish-subcribe pattern or observer pattern, 相比event有了监控
+	promises对象 
+		f1().then(f2).then(f3);
+		f1().then(f2).fail(f3);
+
+

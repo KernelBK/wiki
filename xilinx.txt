@@ -1,0 +1,121 @@
+
+
+[[xilinx/index]]
+
+[[xise]]
+[[coregen]]
+[[xilinx_nouse_files]]
+
+[[xilinx_ise_warning_check]]
+
+[[xilinx_setup]]
+formal
+	NetGen Equivalence Checking Flow
+	netgen -ecn conformal | formality [options]
+[[netgen]]
+[[promgen]]
+
+[[partial_reconfiguration]]
+
+驱动目录
+F:\Xilinx\14.7\LabTools\common\bin\nt64
+
+[[impact]]
+[[isim]]
+file:///D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores
+
+[[ug968-xilinx-documentation-navigator]]
+[[基于AXI4的可编程SOC系统设计]]
+
+# tools
+[[vivado]]
+	ultrafast
+[[planahead]]
+[[edk]], embedded development kit
+	硬件全流程
+	取代[[ise]] project navigator, streamline
+	集成 [[xps]], xilinx platform studio
+		bsb, base system builder
+			mhs, 硬件平台的描述被包含MHS文件中, 
+				端口， PORT
+				IP， BEGIN..END
+			mss
+	集成 sdk，eclipse
+	子目录下有ise
+	ipif接口定制ip核
+	[[ug642 Platform Specification Format Reference Manual]] 
+
+[[ise]]
+	ise中嵌入edk开发
+		new source -> embedded processor, 建立edk工程向导
+	view hdl instantiation template
+
+trd, targeted reference designs
+[[chipscope]]
+
+fpga_editor
+	蓝色区域表示被使用的CLB
+
+Create and Import Peripheral (CIP)
+IP Interconnect (IPIC)
+	
+
+# device
+[[xilinx_7series]]
+[[spartan]]
+
+# ip
+[[aurora]]
+[[rocketio]]
+float [[floating_point_ds335]] [[pg060-floating-point]]
+
+[[microblaze]]
+	lmb: local memory bus
+		ilmb, dlmb
+
+[[xilinx_report]]
+[[logicore-ip]]
+axi
+	[[pg059-axi-interconnect]]
+	[[ug761_axi_reference_guide]]
+
+
+xilinx文档爱用缩写, 什么都要缩写一下
+	结构像大纲，
+	没有例子，可能在course里面，但是要收费，
+	有和altera比较性能
+altera 文档爱吹牛，很平常的功能都喜欢都要说得有多牛逼。
+
+
+[[ug626 synthesis and simulation design guide]] 
+[[UG628 Command Line Tools User Guide ]]
+	[[xtclsh]]
+	xilinx可以用synopsys的dc综合
+	design flow
+	coding style
+	compxlib
+
+ug631 ise release note
+ug973-vivado-release-notes-install-license
+ug625 constraint guide, cgd.pdf timing
+	
+secureip, is a new ip encryption methodology, ieee 1264, 
+	Verilog LRM - IEEE Std 1364-2005 encryption compliant simulator is required.
+	
+$XILINX  D:\Xilinx\14.1\ISE_DS\ISE\verilog
+-f $XILINX/secureip/vcs/vcs_secureip_cell.list.f
+-lca -f $XILINX/secureip/vcs/vcs_secureip_cell.list.f \
+
+[[jtag_axi]]
+[[mdm_microblaze_debug_module]]
+
+ultra_scale
+virtex
+artix
+kintex
+spartan
+
+[[pg054-7series-pcie.pdf]]
+[[xapp1171-pcie-central-dma-subsystem.pdf]]
+
+<.edif|system*.ngc|.ncd|pa500*.ngc|.ngm|.ngd|.xdl|.tmp|.mrp|.twx|.srp|.html|.bak|.map|.srp|.xrpt|.log|.pcf|.mcs|.xbcd|.bit>

@@ -1,0 +1,31 @@
+
+busybox mount -t vfat /dev/block/sda1 /udisk      
+busybox wget ftp://172.16.55.90/usb.hub.test.sh -O usb.hub.test.sh
+
+配置usb0 otg模式，测试。
+
+单独工作wifi
+8m49.36s
+6m25.27s
+10m48.33s
+6m3.84s
+4m59.83s
+6m4.09s real 
+4m59.39s
+7m56.70s
+841.7
+759.9
+
+单独工作copy to udisk
+0m48.33s
+
+copy from udisk
+0m17.58s
+
+
+
+usb read reg error
+[ 6921.240298] reg 0xda8, usb read 4 fail, status:-110 value=0x0, vendorreq_times:1
+[ 6937.270341] reg 0x4e, usb read 1 fail, status:-110 value=0x0, vendorreq_times:1
+
+

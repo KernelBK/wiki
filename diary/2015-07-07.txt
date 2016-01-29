@@ -1,0 +1,41 @@
+
+lvds的iodealy group约束编译问题解决，能不能运行起来还需要检查
+加强data check的检查功能，能够判断出没有数据的板卡；
+连接文件很容易出问题；但是也没有别的好办法；
+仿真edk
+
+
+# blvds?_0
+NET    "smp_clk_p[6]"    LOC = C14 | IOSTANDARD = BLVDS_25;
+NET    "smp_clk_n[6]"    LOC = C13 | IOSTANDARD = BLVDS_25;
+NET    "smp_clk_p[5]"    LOC = E18 | IOSTANDARD = BLVDS_25;
+NET    "smp_clk_n[5]"    LOC = D18 | IOSTANDARD = BLVDS_25;
+NET    "smp_clk_p[4]"    LOC = M24 | IOSTANDARD = BLVDS_25;
+NET    "smp_clk_n[4]"    LOC = L24 | IOSTANDARD = BLVDS_25;
+NET    "smp_clk_p[3]"    LOC = G12 | IOSTANDARD = BLVDS_25;
+NET    "smp_clk_n[3]"    LOC = F12 | IOSTANDARD = BLVDS_25;
+NET    "smp_clk_p[2]"    LOC = R26 | IOSTANDARD = BLVDS_25;
+NET    "smp_clk_n[2]"    LOC = P26 | IOSTANDARD = BLVDS_25;
+NET    "smp_clk_p[1]"    LOC = P24 | IOSTANDARD = BLVDS_25;
+NET    "smp_clk_n[1]"    LOC = N24 | IOSTANDARD = BLVDS_25;
+NET    "smp_clk_p[0]"    LOC = U17 | IOSTANDARD = BLVDS_25;
+NET    "smp_clk_n[0]"    LOC = T17 | IOSTANDARD = BLVDS_25;
+
+
+部门活动					
+活动内容：西冲2日游					时间：7-18
+序号	姓名	性别	身份证	电话号码	备注（是否是家属）
+1	芮文彬	男		18617377386	
+2	赖青松	男	360723198908201613	13128217853	
+3	陈文斌	男		18620921579	
+4	周星杏	女		18620921579	陈文斌家属
+5	陈华	男	330322199112302815	18588216332	
+6	韦盛桂	男	452122198911200659	13112211945	
+7	晋永康	男	340221199007103371	18588754608	
+8	向汝宏	男	450421199104035530	13609719197	
+9	刘国华	男	352202198410043639	18665674708	
+10	程志玲	女	513002198306260828	18664639470	刘国华家属
+11	马亮亮	男	411302199103244815	18613061959	
+12	王晨龙	男	142724199201111210	18665646456	
+13					
+14					

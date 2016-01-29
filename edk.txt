@@ -1,0 +1,64 @@
+
+[[edk_sim]]
+
+IntStyle: default
+Flow: ise
+IntStyle: ise
+Flow: ise
+
+
+
+error Dcm_locked
+连接clock module 的locked 到proc_rst的Dcm_locked
+
+ERROR:EDK - Could not connect MONITOR chipscope_axi_monitor_0's RESET MON_AXI_ARESETN to INSTANCE afifo_32x16_0's RESET port as the latter is itself un-connected.
+
+PORT MON_AXI_ARESETN = proc_sys_reset_0_Peripheral_aresetn
+
+[[mpd]]
+[[xmd]]
+
+ip
+srio
+[[pcie]]
+	[[ds820_axi_pcie.pdf]]
+	pg055-axi-bridge-pcie.pdf
+	[[xapp1171-pcie-central-dma-subsystem.pdf]]
+[[ddr3]]
+	[[ds176_7Series_mis.pdf]]
+	[[ug586_7Series_MIS.pdf]]
+
+[[axi_s6_ddrx_v2_1_0]]
+plb取消了？
+ plb 像axi那样有专门的interconnector
+external port
+
+driver
+
+[[xps]] system.xmp 
+[[xsdk]] -workspace ./SDK
+
+[[edk]], embedded development kit
+	硬件全流程
+	取代ise project navigator, streamline
+	集成 xps, xilinx platform studio
+		bsb, base system builder
+			mhs, 硬件平台的描述被包含MHS文件中, 
+				端口， PORT
+				IP， BEGIN..END
+			mss
+	集成 sdk，eclipse
+	子目录下有ise
+	ipif接口定制ip核
+	[[ug642 Platform Specification Format Reference Manual]] 
+
+
+simgen
+	simgen.opt 含有SDK下的elf文件
+
+linux 下生成仿真环境比windows下更快，而且没有错误。
+windows下用compxlib编译仿真库会漏掉edk，需要在系统中加入环境变量XILINX_EDK，再重新编译一遍才会有edk的库。
+使用图形界面编译会导致vlog没有响应，可能是公司的监控程序导致。cmd需要使用管理员权限运行。
+
+system_tb.v 是自动生成的还是加入的
+

@@ -1,0 +1,10 @@
+
+		reg32(0xf8) = 0x0edd;
+		reg32(0xfc) = 0x07dd;
+
+
+aurora link up
+相位校准fifo数据输入输出 有问题。
+
+uvm仿真全部使用vseq，小的仿真也可以使用edk的仿真系统。
+

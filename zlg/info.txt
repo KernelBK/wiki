@@ -1,0 +1,81 @@
+
+
+[[svn_file]]
+qq群， 44521202
+
+pa passwd, ctrl+shift+alt+HOME, QAZXSWEDCVFR
+
+http://auth.zlgmcu.com:8090/redmine/projects yangyaowu, yangyaowu
+
+http://auth.zlgmcu.com:8000/changelog_page.php
+
+bug系统， yangyaowu yaowu
+	MantisBT
+
+pc passwd baiduf2
+
+春节放假时间为：2015年2月13～25日，共13天，2月26日（初八）上班， 2月28日（周六）上班，其中包含1天周末+5天年假+7天全国放假。
+
+
+\\192.168.0.8\测量仪器\内部共享\工作进度\工作日志
+
+mail: yangyaowu@zlg.cn Shurumima1
+	192.168.0.10
+
+4.04.03.0013  签字笔芯  0.5毫米,适用于晨光#Q7签字笔,黑色   
+4.04.03.0009  签字笔  #Q7,0.5毫米,黑色  
+
+http://erp.zlgmcu.com/AdministrationCenter/AdministrationUI.aspx
+http://share/
+http://project:333/PWA/default.aspx
+
+
+baidu4
+网盘：http://doc2/webdisk/职能部门/FPGA/
+网盘客户端：http://doc2/webdisk/常用软件/办公必备/网盘客户端
+
+
+开发票抬头公司名称：
+广州致远电子股份有限公司（工行卡）
+广州周立功单片机科技有限公司 （建行卡）
+广州求远电子科技有限公司
+
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64; D:\Xilinx\14.7\ISE_DS\EDK\bin\nt64;
+
+https://kyfw.12306.cn/otn/leftTicket/init
+http://192.168.100.250/
+
+春节放假
+1月25日至2月6日
+		 25 26 27 28
+29 30 31
+		 1  2  3  4
+5  6 
+
+点餐
+http://192.168.4.17/asp/menu.asp
+用户名：你中文名字
+密码：123456
+
+[[people]]
+
+download \\192.168.0.204
+
+
+rui \\192.168.4.100
+
+\\192.168.4.85 yangyaowu@zlgmcu.com shurumima1
+
+\\192.168.0.8\测量仪器\内部共享\内部共享\D_待打印内容
+
+系统iso  \\192.168.0.8\测量仪器\软件\基本系统\ISO镜像\windows7
+\\192.168.0.8\测量仪器\软件\自由安装\xinlinx
+
+erp http://erp.zlgmcu.com 杨耀武 shurumima1
+windows yangyaowu zlgmcu13
+qq yangyaowu@zlgmcu.com 2880065369 Shurumima1
+qq 2880065369 yangyaowu@zlg.cn Shurumima1
+
+软件
+\\192.168.23.12
+

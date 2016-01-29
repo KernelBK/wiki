@@ -1,0 +1,10 @@
+
+ function中的this指针很关键，如果没有的话，那就是局部变量或局部函数。
+
+java静态绑定
+js动态绑绑定
+
+function Obj(){
+	this.a=[];
+	this.fn=function(){};
+}

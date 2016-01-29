@@ -1,0 +1,7 @@
+
+1. gerrit 服务安装过程很繁琐。
+1. android 官方提供了源码镜像流程。
+    http://source.android.com/source/downloading.html
+        repo init -u https://android.googlesource.com/mirror/manifest --mirror
+        和普通的源码下载地址不一样。
+        repo init -u https://android.googlesource.com/platform/manifest

@@ -1,0 +1,42 @@
+Android使用了vold替代了udev
+
+ll /sys/block/
+/sys/block/是所有注册的块设备，其实都是连接，是系统帮忙把这些块设备搜集提炼出来以便使用。
+
+target thumb C++: vold <= system/vold/main.cpp *
+target thumb C++: vold <= system/vold/VolumeManager.cpp
+target thumb C++: vold <= system/vold/CommandListener.cpp
+target thumb C++: vold <= system/vold/VoldCommand.cpp
+target thumb C++: vold <= system/vold/NetlinkManager.cpp
+target thumb C++: vold <= system/vold/NetlinkHandler.cpp
+target thumb C++: vold <= system/vold/Volume.cpp
+target thumb C++: vold <= system/vold/DirectVolume.cpp
+target thumb C++: vold <= system/vold/Process.cpp
+target thumb C++: vold <= system/vold/Fat.cpp
+target thumb C++: vold <= system/vold/Loop.cpp
+target thumb C++: vold <= system/vold/Devmapper.cpp
+target thumb C++: vold <= system/vold/ResponseCode.cpp
+target thumb C++: vold <= system/vold/Xwarp.cpp
+target thumb C++: vold <= system/vold/Exfat.cpp
+target thumb C++: vold <= system/vold/Ntfs.cpp
+target thumb C: vold <= system/vold/logwrapper.c
+target thumb C: vold <= system/vold/cryptfs.c
+target thumb C++: libvold <= system/vold/VolumeManager.cpp
+target thumb C++: libvold <= system/vold/CommandListener.cpp
+target thumb C++: libvold <= system/vold/VoldCommand.cpp
+target thumb C++: libvold <= system/vold/NetlinkManager.cpp
+target thumb C++: libvold <= system/vold/NetlinkHandler.cpp
+target thumb C++: libvold <= system/vold/Volume.cpp
+target thumb C++: libvold <= system/vold/DirectVolume.cpp
+target thumb C++: libvold <= system/vold/Process.cpp
+target thumb C++: libvold <= system/vold/Fat.cpp
+target thumb C++: libvold <= system/vold/Loop.cpp
+target thumb C++: libvold <= system/vold/Devmapper.cpp
+target thumb C++: libvold <= system/vold/ResponseCode.cpp
+target thumb C++: libvold <= system/vold/Xwarp.cpp
+target thumb C++: libvold <= system/vold/Exfat.cpp
+target thumb C++: libvold <= system/vold/Ntfs.cpp
+target thumb C: libvold <= system/vold/logwrapper.c
+target thumb C: libvold <= system/vold/cryptfs.c
+
+http://blog.csdn.net/qianjin0703/article/details/6362389

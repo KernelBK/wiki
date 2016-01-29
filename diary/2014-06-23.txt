@@ -1,0 +1,10 @@
+
+七日谈
+
+mwr 0x10004 0x1
+mwr 0x10008 0x0079ff14
+
+
+word to pdf 
+copy hd.yaowu to zlg
+

@@ -1,0 +1,4 @@
+
+orsoc
+	OR1K_startup
+or1200

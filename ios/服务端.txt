@@ -1,0 +1,10 @@
+
+SOA
+SaaS
+
+
+[[REST]]
+
+[[SSH]]
+SOAP
+

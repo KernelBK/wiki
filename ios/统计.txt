@@ -1,0 +1,6 @@
+
+用户行为统计：友盟， flurry, googleanalytics
+销售分析 : app annie
+app crash收集
+app测试发布
+

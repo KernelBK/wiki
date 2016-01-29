@@ -1,0 +1,453 @@
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+pbyATR addr:3a8dbb68
+[SMC] SMCReset begin.
+[SMC] dCardIndex 0.
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+puFfactor:372, puDfactor:1.
+internal_smc_get_atr atr: 3b 6c 00 00 4e 54 49 43 f0 00 53 70 43 61 72 64
+cnxt_smc_get_atr atr: 3b 6c 00 00 4e 54 49 43 f0 00 53 70 43 61 72 64
+~~~~~~~~~~~~~~~pucart:3b,6c
+[SMC] SMCReset end.
+reset  card ART: 
+3b6c00004e544943f000537043617264
+CDSTBCA_SCReset success!!!
+cmd data len:5 :
+0086000008
+[write_size: 05] 00 86 00 00 08 
+[read_size:  0a] 50 52 26 71 aa 0a 35 02 90 86 
+
+retcode data:
+50522671aa0a35029086
+@@@@MSGType 16: Unknown MSG type!!!
+cmd data len:260 :
+00340000ff010203[write_size: 05] 0405060708090a0b0c0d0e0f1011121300 34 00 00 ff 
+1415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3[read_size:  01] 34 
+
+[write_size: ff] 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 a4a5a6a7a8a9aaabacadaeafb0b1b2b343 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff
+-------------info = 22
+CDSTBCA_ShowProgressStrip : byProgress = 0 , byMark = 1
+[read_size:  02] 61 ff 
+
+retcode data[write_size: 05] 00 c0 00 00 ff 
+:
+61ff
+cmd data len:5 :
+00c00000ff
+[read_size:  101] 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 90 34 
+
+retcode data:
+0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f70717273747[write_size: 05] 00 40 00 00 04 
+5767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c[read_size:  01] 40 5c6c7c8c9cacbcccdcecfd0d1d2d3d4d
+
+[write_size: 04] 01 02 03 04 
+5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff9034
+cmd data len:9 :
+004000000401020304
+CDSTBCA_ShowProgressStrip : byProgress = 1 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 2 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 3 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 3 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+[read_size:  02] 90 40 
+
+retcode data:
+9040
+cmd data len:5 :
+0042000004
+[write_size: 05] 00 42 00 00 04 
+CDSTBCA_ShowProgressStrip : byProgress = 4 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 5 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 6 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 6 , byMark = 1
+[read_size:  06] 01 02 03 04 90 42 
+
+retcode data[write_size: 05] 00 44 00 00 :
+010203049042
+cmd data len:9 04 
+:
+004400000401020304
+[read_size:  01] 44 
+
+[write_size: 04] 01 02 03 04 
+CDSTBCA_ShowProgressStrip : byProgress = 7 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 8 , byMark = 1
+[read_size:  02] 90 44 
+
+retcode data[write_size: 05] 00 86 00 00 08 
+:
+9044
+cmd data len:5 :
+0086000008
+[read_size:  0a] 50 52 26 71 aa 0a 35 02 90 86 
+
+retcode data[write_size: 05] 00 38 00 00 08 
+:
+50522671aa0a35029086
+cmd data len:5 :
+0038000008
+[read_size:  02] 6d 00 
+
+retcode data:
+6d00
+@@@@MSGType 18: Unknown MSG type!!!
+@@@@CDSTBCA_DetitleReceived : bstatus = 0
+-------------info = 24
+CDSTBCA_ShowProgressStrip : byProgress = 9 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 9 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 10 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 11 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 12 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 12 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 13 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 14 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 15 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 15 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 16 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 17 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 18 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 18 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 19 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 20 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 21 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 21 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 22 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 23 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 24 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 24 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 25 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 26 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 27 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 27 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 28 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 29 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 30 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 30 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 31 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 32 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 33 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 33 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 34 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 35 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 36 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 36 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 37 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 38 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 39 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 39 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 40 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 41 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 42 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 42 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 43 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 44 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 45 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 45 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 46 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 47 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 48 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 48 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 49 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 50 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 51 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 51 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 52 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 53 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 54 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 54 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 55 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 56 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 57 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 57 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 58 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 59 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 60 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 60 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 61 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 62 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 63 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 63 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 64 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 65 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 66 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 66 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 67 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 68 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 69 , byMark = 1
+==> set_key algorithm(4),keyid(1),key_mask(6)
+CDSTBCA_ShowProgressStrip : byProgress = 69 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 70 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 71 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 72 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 72 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 73 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 74 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 75 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 75 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 76 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 77 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 78 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 78 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 79 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 80 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 81 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 81 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 82 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 83 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 84 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 84 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 85 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 86 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 87 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 87 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 88 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 89 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 90 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 90 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 91 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 92 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 93 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 93 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 94 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 95 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 96 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 96 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 97 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 98 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 99 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 100 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 101 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+pbyATR addr:3a8db98c
+[SMC] SMCReset begin.
+[SMC] dCardIndex 0.
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+puFfactor:372, puDfactor:1.
+internal_smc_get_atr atr: 3b 6c 00 00 4e 54 49 43 f0 00 53 70 43 61 72 64
+cnxt_smc_get_atr atr: 3b 6c 00 00 4e 54 49 43 f0 00 53 70 43 61 72 64
+~~~~~~~~~~~~~~~pucart:00,00
+[SMC] SMCReset end.
+reset  card ART: 
+000000004e544943f000537043617264
+CDSTBCA_SCReset success!!!
+pbyATR addr:3a8db98c
+[SMC] SMCReset begin.
+[SMC] dCardIndex 0.
+puFinternal_smc_get_atr atr: 3b 6c 00 00 4e 54 49 43factor:372, puDfactor:1.
+ f0 00 53 70 43 61 72 64
+cnxt_smc_get_atr atr: 3b 6c 00 00 4e 54 49 43 f0 00 53 70 43 61 72 64
+~~~~~~~~~~~~~~~pucart:00,00
+[SMC] SMCReset end.
+reset  card ART: 
+000000004e544943f000537043617264
+CDSTBCA_SCReset success!!!
+CDSTBCA_ShowProgressStrip : byProgress = 100 , byMark = 2
+CDSTBCA_ShowProgressStrip : byProgress = 101 , byMark = 2
+pbyATR addr:3a8dbaf8
+[SMC] SMCReset begin.
+[SMC] dCardIndex 0.
+puFinternal_smc_get_atr atr: 3b 6c 00 00 4e 54 49 43 f0 00 53factor:372, puDfactor:1.
+ 70 43 61 72 64
+cnxt_smc_get_atr atr: 3b 6c 00 00 4e 54 49 43 f0 00 53 70 43 61 72 64
+~~~~~~~~~~~~~~~pucart:3b,6c
+[SMC] SMCReset end.
+reset  card ART: 
+3b6c00004e544943f000537043617264
+CDSTBCA_SCReset success!!!
+cmd data len:5 :
+0086000008
+[write_size: 05] 00 86 00 00 08 
+[read_size:  0a] 50 52 26 71 aa 0a 35 02 90 86 
+
+retcode data:
+50522671aa0a35029086
+@@@@MSGTyp[write_size: 05] 00 34 00 00 ff 
+e 16: Unknown MSG type!!!
+cmd data len:260 :
+00340000ff0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435[read_size:  01] 34 
+
+[write_size: ff] 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 363738393a3b3c3d3e3f40414243444515 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 464748494a4b4c4d4e4f505152535455c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff
+CDSTBCA_ShowProgressStrip : byProgress = 0 , byMark = 1
+-------------info = 22
+[read_size:  02] 61 ff 
+
+retcode data[write_size: 05] 00 c0 00 00 ff 
+:
+61ff
+cmd data len:5 :
+00c00000ff
+CDSTBCA_ShowProgressStrip : byProgress = 1 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+[read_size:  101] 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 90 34 
+
+retcode data:
+010203040[write_size: 05] 00 40 00 00 04 
+5060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f50515253545[read_size:  01] 5565758595a5b5c5d5e5f6061626364640 
+
+[write_size: 04] 01 02 03 04 
+5666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff9034
+cmd data len:9 :
+004000000401020304
+CDSTBCA_ShowProgressStrip : byProgress = 2 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 3 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 3 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 4 , byMark = 1
+[read_size:  02] 90 40 
+
+retcode data:
+9040
+cmd da[write_size: 05] 00 42 00 00 04 
+ta len:5 :
+0042000004
+CDSTBCA_ShowProgressStrip : byProgress = 5 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 6 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 6 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 7 , byMark = 1
+[read_size:  06] 01 02 03 04 90 42 
+
+retcode data:
+010203049042
+cmd data len:9 [write_size: 05] 00 44 00 00 04 
+:
+004400000401020304
+[read_size:  01] 44 
+
+[write_size: 04] 01 02 03 04 
+CDSTBCA_ShowProgressStrip : byProgress = 8 , byMark = 1
+[read_size:  02] 90 44 
+
+retcode data[write_size: 05] :
+9044
+cmd data len:5 :
+0086000 86 00 00 08 
+00008
+[read_size:  0a] 50 52 26 71 aa 0a 35 02 90 86 
+
+retcode data[write_size: 05] 00 38 00 00 08 
+:
+50522671aa0a35029086
+cmd data len:5 :
+0038000008
+[read_size:  02] 6d 00 
+
+retcode data:
+6d00
+@@@@MSGType 18: Unknown MSG type!!!
+-------------info = 24
+CDSTBCA_ShowProgressStrip : byProgress = 9 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 9 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 10 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 11 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776
+CDSTBCA_ShowProgressStrip : byProgress = 12 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 12 , byMark = 1
+/hdisk/apps/date: option requires an argument -- 'd'
+Try `/hdisk/apps/date --help' for more information.
+CDSTBCA_ShowProgressStrip : byProgress = 13 , byMark = 1
+CDSTBCA_ShowProgressStrip : byProgress = 14 , byMark = 1
+CDSTBCA_WriteBuffer : byBlockID = 1 , dwLen = 43776

@@ -1,0 +1,27 @@
+
+[[elixir]]
+
+Erlang = Prolog + functional + concurrency
+
+Joe Armstrong
+
+feature
+	repl和编译差别较大，repl里面有专门的命令不能用于程序中。
+	逗号（,）分隔函数调用、数据构造和模式中的参数。
+	分号（;）分隔子句。例如函数定义，以及case、if、try..catch和receive表达式。
+	句号（.）（后接空白）分隔函数整体，以及shell里的表达式。
+	VM, beam, 
+	
+
+	
+云风
+
+
+
+Ericsson Language 
+CouchDB
+SimpleDB
+
+http://www.douban.com/group/topic/16895201/
+
+[http://en.wikipedia.org/wiki/Erlang_%28programming_language%29]

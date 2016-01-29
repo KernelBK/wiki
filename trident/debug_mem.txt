@@ -1,0 +1,134 @@
+KAL ioremap of Bank[0] uncached memory from 0x00000000 to 0x00000000
+KAL ioremap of Bank[1] uncached memory from 0x94c00000 to 0xa1000000
+
+KAL ARM926 region     @ P:0x00d00000 == V:0xa3000000, 0x00800000 
+KAL BIS region        @ P:0x01500000 == V:0xa0980000, 0x00040000 
+KAL ADSP region       @ P:0x02a00000 == V:0xa4000000, 0x00848000 
+KAL VDSP region       @ P:0x03400000 == V:0xa0e00000, 0x00180000 
+KAL Malone region     @ P:0x03600000 == V:0xa5000000, 0x042f0000 
+KAL VRAM HD region    @ P:0x21000000 == V:0xa2800000, 0x00788000 
+KAL VRAM SD region    @ P:0x21788000 == V:0xa2400000, 0x003b8100 
+KAL MBVP HD region    @ P:0x21b40100 == V:0xaa000100, 0x017ce000 
+KAL MBVP SD region    @ P:0x2330e100 == V:0xa9800100, 0x00523000 
+KAL KALCSSGEN region  @ P:0x23832000 == V:0xac000000, 0x012a8000 
+KAL KALCSSCON region  @ P:0x01540000 == V:0xae000000, 0x01490000 
+KAL A9 ARM926 region  @ P:0x03300000 == V:0xa2200000, 0x00100000 
+KAL ARM926 TM region  @ P:0x03580000 == V:0xa0d00000, 0x00080000 
+MBVP STDI region      @ P:0x03248000 == V:0xa2100000, 0x00090000 
+KAL Bank[0] cached    @ P:0x00000000 == V:0x00000000, 0 KB
+KAL Bank[0] uncached  @ P:0x00000000 == V:0x00000000, 0 KB
+KAL Bank[1] cached    @ P:0x20000000 == V:0x90000000, 16384 KB
+KAL Bank[1] uncached  @ P:0x24c00000 == V:0xa1000000, 16384 KB
+
+--
+memtester error:
+./memtester -p 0x78f0000 10M
+
+# cat /proc/659/maps 
+00008000-00082000 r-xp 00000000 00:0b 1745425    /memtester
+00089000-0008b000 rwxp 00079000 00:0b 1745425    /memtester
+0008b000-000af000 rwxp 00000000 00:00 0          [heap]
+2aaf1000-2aaf2000 rwxp 00000000 00:00 0 
+2ab8a000-2ab8b000 rwxp 00000000 00:00 0 
+2ab8b000-3738b000 rwxp 00000000 00:00 0 
+7e00a000-7e02b000 rwxp 00000000 00:00 0          [stack]
+--
+2ab8b000-3738b000 rwxp 00000000 00:00 0 
+Size:             204800 kB
+Rss:              204800 kB
+Pss:              204800 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:    204800 kB
+Referenced:       204800 kB
+Swap:                  0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+
+--
+error address:
+0x0076c1fd
+
+# cat /proc/iomem 
+00000000-0fffffff : System RAM
+  0002f000-0068efff : Kernel text
+  006a8000-006ed6c7 : Kernel data
+20000000-2fffffff : System RAM
+d0000000-d7ffffff : nx_2016
+e062a000-e062afff : nx_dmac_1902.1
+e0630000-e0630fff : nx_2016
+e0631000-e0631fff : nx_2017
+e0634000-e0634fff : nx_2016
+  e0634000-e0634fff : gcs_dma
+e0635000-e0635fff : nx_sdiomc.0
+e0638000-e0638fff : sata-apollo.0
+e0669000-e0669fff : gpio_apollo.1
+e066c000-e066cfff : usb-ip9028.0
+  e066c000-e066cfff : ehci_hcd
+e066d000-e066dfff : usb-ip9028.1
+  e066d000-e066dfff : ehci_hcd
+e066e000-e066efff : usb-ip9028.2
+  e066e000-e066efff : ehci_hcd
+e067c000-e067ffff : LIPP_6300ETH.0
+e06bc000-e06bd000 : rtc_apollo
+e06d5000-e06d5fff : gpio_apollo.0
+e06e1000-e06e1fff : uart-ip3106.0
+  e06e1000-e06e1fff : uart-ip3106
+e06e2000-e06e2fff : uart-ip3106.1
+  e06e2000-e06e2fff : uart-ip3106
+e06e3000-e06e3fff : uart-ip3106.2
+  e06e3000-e06e3fff : uart-ip3106
+e06e4000-e06e4fff : uart-ip3106.3
+  e06e4000-e06e4fff : uart-ip3106
+
+/proc/vmallocinfo 
+
+--内核启动内存分配。
+Memory: 256MB 256MB = 512MB total
+Memory: 342180k/342180k available, 182108k reserved, 0K highmem
+Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+    fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+    DMA     : 0xffc00000 - 0xffe00000   (   2 MB)
+    vmalloc : 0xa0800000 - 0xd0000000   ( 760 MB)
+    lowmem  : 0x80000000 - 0xa0000000   ( 512 MB)
+    modules : 0x7e800000 - 0x80000000   (  24 MB)
+      .init : 0x80008000 - 0x8002f000   ( 156 kB)
+      .text : 0x8002f000 - 0x8068e000   (6524 kB)
+      .data : 0x806ac000 - 0x806d5440   ( 166 kB)
+SLUB: Genslabs=11, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+
+target/src/sd/platform/lnxKAL/comps/lnxKKAL/src/linkkal_mem.c
+
+target/src/sd/platform/lnxKAL/comps/lnxUKAL/src/linukal_mem.c
+
+--
+cnxt_cbuf_init
+	
+cnxt_heap_alloc
+	heap_clean_and_flush_cache
+		cnxt_heap_clean_and_flush_cache
+			cnxt_kal_clean_and_inval_d_cache_range
+				cnxt_kal_mem_virt_to_phys
+					cnxt_kal_phys_from_pgtables **关键
+
+cnxt_kal_mem_malloc
+	cnxt_heap_alloc
+		cnxt_heap_clean_and_flush_cache = heap_clean_and_flush_cache
+			cnxt_kal_clean_and_inval_d_cache_range
+
+IOCTL_UKAL_MEMORY_VIRT_PHYS = cnxt_kal_mem_virt_to_phys
+cnxt_lnx_ukal_ioctl
+	copy_from_user	
+	cnxt_kal_kva_from_uva
+	cnxt_kal_mem_virt_to_phys
+	copy_to_user
+
+
+--
+修改页表的进程
+[KAL-7e836a3c]
+[KAL-7e836994]
+[Kvbi]
+

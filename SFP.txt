@@ -1,0 +1,12 @@
+
+qsfp
+sfp: small form-factor pluggable transceiver
+gbic: gigabit interface converter
+xfp: 10-gigabit small from-factor pluggable transceiver
+xenpak: 10 gigabit ethernet transceiver package
+
+smf: single mode fiber
+mmf: multi mode fiber
+
+
+

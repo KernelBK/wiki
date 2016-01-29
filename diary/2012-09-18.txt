@@ -1,0 +1,10 @@
+
+boota: bad boot image magic, maybe not a boot.img?
+
+平常的打包，u-boot没有更新
+
+sd卡启动，读取分区挂载系统，内核参数传递过程？
+
+PhoneixCard的分区能不能需改。
+
+

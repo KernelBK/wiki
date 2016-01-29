@@ -1,0 +1,9 @@
+
+passwd:yaowu1
+modelsim 在modelsim.ini中打开lint检查可以发现综合仿真看不到的错误。
+
+vcs 中lint配置选项多，但是要的结果和modelsim差不多。
+
+检查ise 综合,map错误，
+	front_ctrl, freq_detect reset信号错误。
+

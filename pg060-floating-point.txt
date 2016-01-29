@@ -1,0 +1,6 @@
+
+6.0 以上的浮点ip
+
+全部都是axi stream接口
+The latency of most operators can be set between 0 and a maximum value
+

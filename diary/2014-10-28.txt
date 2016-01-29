@@ -1,0 +1,3 @@
+
+1t, disk format, move data out.
+

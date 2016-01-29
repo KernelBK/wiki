@@ -1,0 +1,2 @@
+
+mknod /dev/gpio cdev 1352 0

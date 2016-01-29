@@ -1,0 +1,5 @@
+
+sata接口挂载硬盘出现的问题，内核中sata驱动能够识别sata设备，报错sata phy没有上电，是由于板上缺少一个电源芯片导致。在控制台看到了sata银盘的设备，android界面不能看到文件系统，logcat显示“Filesystem check failed”a 需要对硬盘分区。
+
+
+

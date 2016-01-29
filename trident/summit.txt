@@ -1,0 +1,50 @@
+(1)   上电运行uldr,uboot，（如果板子上已有uloader和uboot则可以跳过这一步）：
+      1.插上UART启动跳线开关，上电后串口终端软件(如Tera Term)会打印出'C'字符等待加载uloader；
+      2.通过串口终端软件的ymodem协议传送uldr.bin.uartboot_img文件(注意不是uldr.bin)，传送完成后会运行uloader并在最后再次打印出'C'字符等待加载uboot；
+      3.通过串口终端软件的ymodem协议传送u-boot.bin，传送完成后会运行uboot并在最后打印出'Hit any key to stop autoboot:  2'字符，再最后一个字符减为’0‘之前按下任意键；
+ 
+(2)   设置uboot环境变量：
+      setenv uboot_macaddr 1 
+      setenv serverip 172.16.30.89 /* should modify according your LAN env.*/ 
+      setenv ipaddr 172.16.10.132 /* should modify according your LAN env.*/ 
+ 
+      setenv mtdids "sfc0=nx_sfc,nand0=nx_2017" 
+      setenv mtdparts "mtdparts=nx_2017:20m@0k(root),95m@20m(appfs),-(data);nx_sfc:1024k@0k(uldr),512k@1024k(u-boot),4m@1536k(env),5m@5632k(kernel),-(extra)" 
+      gcs sel NAND
+ 
+      setenv bootcmd "sfc read 0x580000 0x5e0000; go 0x8000" 
+      setenv uboot_cmdline 1 
+      setenv bootargs "noinitrd console=ttyS1,115200n8 $mtdparts root=/dev/mtdblock0 rw rootfstype=jffs2 rootflags=noatime" 
+      save 
+      
+(3)   烧写：
+      tftp uldr.bin.uartboot_img;sfc erase 0 0x10000;sfc write 0 $filesize; 
+      tftp u-boot.bin;sfc erase 0x100000 0x80000;sfc write 0x100000 $filesize; 
+      tftp vmlinux.bin;sfc erase 0x580000 0x600000;sfc write 0x580000 $filesize; 
+      set loadaddr 0x08000000;tftp appfs.jffs2.nand;nand erase appfs; nand write appfs $filesize;set loadaddr 0x8000 
+      tftp rootfs.arm.jffs2.nand;nand erase root; nand write root $filesize; 
+      reset
+
+
+tftp uldr.bin.uartboot_img && nand erase 0x0 0x100000 && nand write 0x0 0x100000 
+tftp u-boot.bin && nand erase 0x60000 0x60000;nand write 0x60000 0x60000
+
+tftp uldr.bin.uartboot_img;nand erase 0 0x10000;nand write 0 $filesize; 
+tftp u-boot.bin;nand erase 0x100000 0x80000;nand write 0x100000 $filesize; 
+tftp vmlinux.bin;nand erase 0x180000 0x600000;nand write 0x180000 $filesize; 
+set loadaddr 0x08000000;tftp appfs.jffs2.nand;nand erase appfs; nand write appfs $filesize;set loadaddr 0x8000 
+tftp rootfs.arm.jffs2.nand;nand erase root; nand write root $filesize; 
+
+ 
+
+setenv mtdids "nand0=nx_2017" 
+setenv mtdparts "mtdparts=nx_2017:1024k@0k(uldr),512k@1024k(u-boot),5m@1536k(kernel),15m@7m(root),90m@22m(appfs),-(data)" 
+setenv bootcmd "nand read 0x180000 0x500000; go 0x8000" 
+setenv uboot_cmdline 1 
+setenv bootargs "noinitrd console=ttyS1,115200n8 $mtdparts root=/dev/mtdblock3 rw rootfstype=jffs2 rootflags=noatime"
+
+---
+set mtdparts 'mtdparts=nx_2017:1024k@0k(uldr),512k@1024k(u-boot),5m@1536k(kernel),32m@7m(root),100m@39m(appfs),-(datac)'
+set nandparts 'mtdparts=nx_2017:1024k@0k(uldr),512k@1024k(u-boot),5m@1536k(kernel),32m@7m(root),100m@39m(appfs),-(datac)'
+set bootargs "noinitrd console=ttyS1,115200n8 ${mtdparts} " 	 
+

@@ -1,0 +1,8 @@
+
+通用网关接口CGI (Common Gateway Interface)
+
+	CGI 脚本(script)
+
+one-proc-per-request模型，效率低下；
+
+

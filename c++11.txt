@@ -1,0 +1,22 @@
+
+C++11 仍然缺少一些很有用的库如 XML API，socket，GUI、反射——以及自动垃圾收集
+
+feature
+	lambda
+	auto
+	deltype
+	初始化
+
+	delete default, 控制构造函数，拷贝函数，析构函数，赋值函数的生成；
+
+	nullptr
+	委托构造，基类的构造不能成为派生类类的构造
+	右值引用
+	move语义
+
+
+	C++11.STL
+	线程库
+	新的智能指针， c++98 is auto_ptr, c++11 use shared_ptr and unique_ptr 
+	新算法， all_of(), any_of(), none_of(), copy_n() 
+

@@ -1,0 +1,14 @@
+
+1. blvds, sim, 接收端采用9bit同步，blvds空闲时为低电平。
+1. beyond compare
+1. 
+1. s1, s2, blvds_start总是为1，不断向外发送数据。
+1. reset, blvds_start为1
+     blvds_start的条件需要在rx_valid==1的时候判断，
+	 由于BLVDS_S_ADDR的值为0，而rx_data的默认值也为0，导致blvds_start一直为1.
+
+
+1. 查avs有没有写入操作, 没有关系，avs只和寄存器交互。
+
+
+

@@ -1,0 +1,9 @@
+setfreq 387
+setsymb 6875000
+setqam  64
+select 1
+play 657 658 
+settype 5
+
+setfreq 339
+play 4369 4370

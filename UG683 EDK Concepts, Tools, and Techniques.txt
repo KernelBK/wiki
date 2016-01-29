@@ -1,0 +1,12 @@
+
+Xilinx recommends using the BSB wizard to create the foundation for any new embedded design project.
+
+Microprocessor Peripheral Description (MPD
+
+IP Repository Search Path
+Platgen
+Simgen
+
+Create and Import Peripheral (CIP)
+Hardware > Create or Import Peripheral.
+

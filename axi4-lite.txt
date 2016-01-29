@@ -1,0 +1,5 @@
+[[axi]]
+
+AXI4-Lite does not support AXI IDs. This means all transactions must be in order, and all accesses use a single fixed ID value.
+
+

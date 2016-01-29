@@ -1,0 +1,16 @@
+
+*((volatile u32 *)0x798000e0)
+
+u'(n) = u(n) - Ri*i(n)
+i'(n) = i(n) - u(n)/Ru
+
+u'(n) = u(n) + (-Ri) * i(n)
+i'(n) = i(n) + (-1/Ru) * u(n)
+
+u'(n) = u(n) + a * i(n)
+i'(n) = i(n) + b * u(n)
+a = (-Ri)
+b = (-1/Ru)
+
+Ru=2*10^6¦¸£¬5A-Ri=0.1¦¸£¬50A-Ri=0.002¦¸
+

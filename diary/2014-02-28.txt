@@ -1,0 +1,7 @@
+
+spartan6 
+axi4stream aresetn需要一个inputoutput接口
+blvds 接口
+
+verilog里面2B的codign style
+

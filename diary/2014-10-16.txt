@@ -1,0 +1,9 @@
+
+[u,t]=gensig('sin', 0.02, 0.1, 0.000005); 
+
+滤波模块matlab验证
+
+
+频响平坦度配置参数
+
+word doctor who

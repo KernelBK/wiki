@@ -1,0 +1,17 @@
+
+process
+	init
+	kthreadd
+	task_struct *
+
+booting
+	u-boot
+		args
+			cmdline,tag
+			/proc/cmdline
+			Documents *
+	read image
+		vmlinux.lds
+			_start : kernel entry point
+
+	booting log

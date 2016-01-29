@@ -1,0 +1,9 @@
+
+测频模块仿真
+需要0.02*32n更新一次数据
+
+重写pcard_cal模块，读取校准参数和运算分离。
+
+
+acrobat run javascript
+

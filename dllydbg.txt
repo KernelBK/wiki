@@ -1,0 +1,2 @@
+
+Ollydbg is 32-bit assembler level analysing debugger for Microsoft Windows.

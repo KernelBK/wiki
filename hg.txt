@@ -1,0 +1,3 @@
+
+vim查看hg log 输出
+hg log -p |  vim -R -

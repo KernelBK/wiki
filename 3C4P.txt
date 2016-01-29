@@ -1,0 +1,12 @@
+
+4C4P
+consumer
+company
+competitors
+collaborators
+
+product
+price
+place
+promotion
+

@@ -1,0 +1,7 @@
+
+aurora仿真单独的rx,tx模块。
+
+aurora 在vcs仿真的时候不能够rx_lock不能lock.
+modelsim没有这个问题
+
+使用modelsim仿真，dpi使用matlab的库文件都需要重新弄。

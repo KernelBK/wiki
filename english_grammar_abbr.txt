@@ -1,0 +1,42 @@
+
+词典缩略语表   ABBREVIATIONS
+abbr  abbreviation  (略)  略语  
+adj, adjj  adjective(s)  (形)  形容词  
+adv, advv  adverb(s)  (副)  副词  
+adv part  adverbial particle  (副接)  副词接语  
+aux  auxiliary  (助)  助动词  
+[C]  countable noun  (可数)  可数名词  
+conj  conjunction  (连)  连接  
+def art  definite article  (定冠)  定冠词  
+eg  for example  (例如)  例如  
+esp  especially  (尤指)  尤指  
+etc  and the others  (等)  等等  
+ie  which is to say  (意即)  意即  
+indef art  indefinite article  (不定冠词)  不定冠词  
+inf  infinitive  (不定词)  不定词  
+int  interjection  (感)  感叹词  
+n  noun(s)  (名)  名词  
+neg  negative(ly)  (否定)  否定的(地)  
+part adj  participial adjective  (分形)  分词形容词  
+pers  person  (人称)  人称  
+pers pron  personal pronoun  (人称代)  人称代名词  
+pl  plural  (复)  复数(的)  
+pp  past participle  (过去分词)  过去分词  
+pref  prefix  (字首)  字首  
+prep  preposition(al)  (介词)  介词，介系词，介词的  
+pron  pronoun  (代)  代名词  
+pt  past tense  (过去)  过去式  
+sb  somebody  (某人)  某人  
+sing  singular  (单)  单数(的)  
+sth  something  (某事物)  某物或某事  
+suff  suffix  (字尾)  字尾  
+[U]  uncountable noun  (不可数)  不可数名词  
+US  America(n)  (美)  美国(的)  
+v  verb(s)  (动)  动词  
+[VP]  Verb Pattern  (动型)  动词类型  
+vi  verb intransitive  (不及物动词)  不及物动词  
+vt  verb transitive  (及物动词)  及物动词  
+→  look at  (察看)  参看  
+♂  male  (男性)  男性(的)  
+♀  female  (女性)  女性(的)  
+

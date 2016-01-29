@@ -1,0 +1,5 @@
+
+1. master读取slave端的状态。验证完成。
+
+
+onacagent

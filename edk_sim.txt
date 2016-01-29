@@ -1,0 +1,40 @@
+
+edk工程仿真
+
+cp -a edk edk_sim
+去掉microblzae,和附属的模块
+加入axi_ext_master
+改名
+
+ PORT s_axi_awaddr = axi_ext_master_conn_0_S_AXI_AWADDR, DIR = I, VEC = [31:0]
+ PORT s_axi_awlen = axi_ext_master_conn_0_S_AXI_AWLEN, DIR = I, VEC = [7:0]
+ PORT s_axi_awsize = axi_ext_master_conn_0_S_AXI_AWSIZE, DIR = I, VEC = [2:0]
+ PORT s_axi_awburst = axi_ext_master_conn_0_S_AXI_AWBURST, DIR = I, VEC = [1:0]
+ PORT s_axi_awcache = axi_ext_master_conn_0_S_AXI_AWCACHE, DIR = I, VEC = [3:0]
+ PORT s_axi_awprot = axi_ext_master_conn_0_S_AXI_AWPROT, DIR = I, VEC = [2:0]
+ PORT s_axi_awvalid = axi_ext_master_conn_0_S_AXI_AWVALID, DIR = I
+ PORT s_axi_awready = axi_ext_master_conn_0_S_AXI_AWREADY, DIR = O
+ PORT s_axi_wdata = axi_ext_master_conn_0_S_AXI_WDATA, DIR = I, VEC = [31:0]
+ PORT s_axi_wstrb = axi_ext_master_conn_0_S_AXI_WSTRB, DIR = I, VEC = [3:0]
+ PORT s_axi_wlast = axi_ext_master_conn_0_S_AXI_WLAST, DIR = I
+ PORT s_axi_wvalid = axi_ext_master_conn_0_S_AXI_WVALID, DIR = I
+ PORT s_axi_wready = axi_ext_master_conn_0_S_AXI_WREADY, DIR = O
+ PORT s_axi_bresp = axi_ext_master_conn_0_S_AXI_BRESP, DIR = O, VEC = [1:0]
+ PORT s_axi_bvalid = axi_ext_master_conn_0_S_AXI_BVALID, DIR = O
+ PORT s_axi_bready = axi_ext_master_conn_0_S_AXI_BREADY, DIR = I
+ PORT s_axi_araddr = axi_ext_master_conn_0_S_AXI_ARADDR, DIR = I, VEC = [31:0]
+ PORT s_axi_arlen = axi_ext_master_conn_0_S_AXI_ARLEN, DIR = I, VEC = [7:0]
+ PORT s_axi_arsize = axi_ext_master_conn_0_S_AXI_ARSIZE, DIR = I, VEC = [2:0]
+ PORT s_axi_arburst = axi_ext_master_conn_0_S_AXI_ARBURST, DIR = I, VEC = [1:0]
+ PORT s_axi_arcache = axi_ext_master_conn_0_S_AXI_ARCACHE, DIR = I, VEC = [3:0]
+ PORT s_axi_arprot = axi_ext_master_conn_0_S_AXI_ARPROT, DIR = I, VEC = [2:0]
+ PORT s_axi_arvalid = axi_ext_master_conn_0_S_AXI_ARVALID, DIR = I
+ PORT s_axi_arready = axi_ext_master_conn_0_S_AXI_ARREADY, DIR = O
+ PORT s_axi_rdata = axi_ext_master_conn_0_S_AXI_RDATA, DIR = O, VEC = [31:0]
+ PORT s_axi_rresp = axi_ext_master_conn_0_S_AXI_RRESP, DIR = O, VEC = [1:0]
+ PORT s_axi_rlast = axi_ext_master_conn_0_S_AXI_RLAST, DIR = O
+ PORT s_axi_rvalid = axi_ext_master_conn_0_S_AXI_RVALID, DIR = O
+ PORT s_axi_rready = axi_ext_master_conn_0_S_AXI_RREADY, DIR = I
+
+
+

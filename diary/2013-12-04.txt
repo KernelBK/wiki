@@ -1,0 +1,8 @@
+
+1. xilinx design flow
+1. xilinx float ip
+1. learn axi4-stream
+1. xilinx aurora protocol and ip
+1. 5楼把ip和工位绑定
+1. 和周宇争执电脑配置
+

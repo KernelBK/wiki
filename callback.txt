@@ -1,0 +1,6 @@
+
+.net delegate
+java anonymous inner class
+java7, closure
+c++, tr1::function/bind
+

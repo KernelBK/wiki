@@ -1,0 +1,32 @@
+
+programming language:
+c++
+python
+R
+matlab
+sql
+
+tools:
+HDFS Hadoop Distributed filesystem
+MapRecude  page rank
+Tez Spark
+Pig Hive
+Impala Presto Drill
+Strom 流计算平台
+KV Store, Cassandra, HBase, MongoDB
+spark 
+sql
+
+paper:
+
+
+all data
+big data
+open data
+open government data
+my data
+
+教育 运输 消费品 电力 石油 天然气 医疗护理 消费金融
+
+
+

@@ -1,0 +1,5 @@
+
+blvds 一端发送0，接收端为1，
+	改换slot5
+	改换rx, tx
+	vio check

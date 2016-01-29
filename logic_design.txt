@@ -1,0 +1,19 @@
+
+tips
+	接口设计，参数化内部参量，便于软件修改；
+	控制逻辑集中
+
+业务，算法，协议
+
+state machine, pipeline, fifo, queue 
+clock domain, 时钟来源ddr, pcie, clock gen module
+timing, power, resource, performance 平衡
+接口
+	high, ddr, pcie, srio, serdes, gtp, 
+	low, io, i2c, spi, flash
+调试, chipscope
+工具
+chip公司，xilinx altera lattice actel 
+	
+可测试，可诊断，可靠
+

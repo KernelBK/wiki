@@ -1,0 +1,87 @@
+
+A. S. Hornby  Oxford Advanced Learner's Dictionary of Current English
+
+句子 = 名词短语+动词短语
+s = np + vp
+	np, noun phrase, Det + N
+	vp, verb phrase, Aux + V.
+
+
+名词短语
+	名词词组: 限定符 + 形容词 + 名词
+	主语，宾语， 补语 (s o c)
+	名词
+		性
+		所有格
+		数
+
+动词短语
+	
+
+动词
+	句法作用
+		限定；人称，数，时态，语态，语气 和主语保持一致
+		非限定；to, -ing, -ed; 主 宾 补 定 状
+	含义：
+		实义 
+			及物
+			不及物
+		联系, 系动词+表语
+			be 
+			seem, look, become, get, grow, feel, turn, appear, remain
+		[[助动词]]
+			基本
+			情态
+	转化，跨类
+	形式：原型，-s, -ed, -ing
+	含义：
+		动作
+			瞬时， jump, hit, knock, kick, nod, throw
+			限界， build, bind, gather, make, mend, produce, write 
+			持续， continue, lie, remain, stay
+			变化，转移，arrive, leave, land, change, die, grow, winden
+		静态
+			思想， believe, know, realize, suppose, think, understand
+			好恶，hate, like, perfer, love
+			感觉，see, hear, smell, ache, itch, feel, hurt
+			关系，be, belong, contain, have, own, posess
+	原型 [[第三人称单数]] 过去式 过去分词 现在分词
+	过去式 过去分词 
+		规则
+		不规则
+同位语 appositive
+
+名词性从句
+	s o c a 
+	代喂疑
+形容词性从句
+	定语 
+	限制性定语从句，不可分割
+	非限制性定语从句，补充说明
+	who whom that which 
+	when where why
+	翻译 合并 分译
+
+副词性分句 = 状语分句
+	when as where if though 
+	分类：修饰性 评注性 连接性
+		修饰性  修饰 v c 状语 to do -ing -ed  整个句子
+			时间，地点，方式，程度，原因，结果，目的，条件，让步
+			after, as, before, once, since, till, untill, when, whenever, while, as long as
+				immediately
+			where, wherever
+			as, as if, as though 
+			how, the way, like
+			so.. that, such... that
+			because, since, as, seeing that, now that, in that, on the ground that, for the reason that, by reason that
+			though, although
+		评注性 连接性
+
+非限定性 动词 从句
+	名词 形容词 副词 特征
+
+复句
+	并列连词 and, or, but
+	从句； 主 宾 补 定 状 同位
+	从属连词 关系代词 关系副词; what, when, where, which, who, that
+

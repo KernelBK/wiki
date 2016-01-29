@@ -1,0 +1,52 @@
+
+约束求解失败，会造成其他的约束也失败。
+
+randc 周期随机
+集合成员资格
+constraint c1 {x inside {3, 5, [9:15], [24:32], [y:2*y], z};} 
+
+
+book
+	[[SystemVerilog for Verification]]
+	[[UVM1.1应用指南及源代码分析_20111211版]]
+	[[SystemVerilog与功能验证]]
+
+内置函数 built-in methods 
+
+SystemVerilog for Design 和SystemVerilog for Verification
+Stuart Sutherland发表在EEdesign, May 23, 2003上的一篇文章：An Overview of SystemVerilog 3.1
+
+systemverilog for verification
+A Practical Guide to Adopting the Universal Verification Methodology
+
+
+[[ovm]]的类库层次结构
+[[uvm]]
+[[dpi]] 调用C语言
+	Q: matlab
+验证计划的制定
+验证什么功能, 对功能点的描述需要明确
+验证收敛
+
+[[名导电子]]
+[[SystemVerilog Testbench Student Guide]]
+
+Using C functions in SystemVerilog Simulations
+
+wiki	
+	data timeline: static and automatic
+	logic reg
+	registers memories
+		logic [1:0][2:0] my_pack[32]
+	interface
+		modport
+
+
+
+376 The evaluation of a sequence that references a named sequence is performed in the same way as if the named sequence was con-tained as a lexical part of the referencing sequence, with the formal arguments of the named sequence replaced by the actual ones and the remaining variables in the named sequence resolved according to the scope of the declaration of the named sequence. 
+232 Accellera shall not be responsible for identifying patents for which a license may be required by an Accellera standard or for conducting inquir-ies into the legal validity or scope of those patents that are brought to its attention. 
+216 On the other hand, if a property has only explicit semantic leading clocks, then the incoming outer clock has no effect on the clocking of the property since the explicit clock events replace the incoming outer clock. 
+198 Further-more, the viewpoint expressed at the time a standard is approved and issued is subject to change due to devel-opments in the state of the art and comments received from users of the standard. 
+186 If an identifier that has not been declared as a data type appears in an alias statement, then an implicit net is assumed, following the same rules as implicit nets for a module instance. 
+140 By publication of this standard, no position is taken with respect to the existence or validity of any patent rights in connection therewith. 
+

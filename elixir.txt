@@ -1,0 +1,10 @@
+
+run on the erlang virtual machine (BEAM)
+½è¼øÁËrubyµÄÓï·¨
+everything is an expression
+meta programming
+polymorphism via protocol
+
+
+
+

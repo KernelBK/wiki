@@ -1,0 +1,13 @@
+
+7z a -t7z -mx=9 -mmt -ms -m0=LZMA2 %%~fa.7z %%~fa
+7z a -t7z -mx9 -mmt=4 -ms=4g
+
+c:\Program Files\7-Zip
+
+7z a archive1.zip subdir\
+
+
+e 解压
+7zG e shooter.number_files\* -oshooter.sub_files\
+
+

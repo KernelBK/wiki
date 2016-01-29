@@ -1,0 +1,13 @@
+
+翻译的
+Architectural.Styles.and.the.Design.of.Network-based.Software.Architectures
+Architectural Styles and the Design of Network-based Software Architectures
+软件架构、架构元素、组件、连接器、数据、配置、架构属性、架构风格
+
+尽管架构的设计和源代码结构的设计关系密切，它们其实是分离的设计活动。
+关注软件在运行时的特性，是Fielding的软件架构研究方法与其他研究者明显的不同之处。
+	软件架构就好像是大楼的架构，而软件结构则好像是大楼的设计图纸。假如大楼的设计图纸丢失了，大楼并不会立即倒塌，因此不能将大楼的设计图纸看作是大楼的架构本身。
+
+软件架构是软件系统在运行时的抽象，而软件结构则是静态源代码的属性
+JavaScript战胜Java Applet是因为它更符合REST的要求
+Roy Fielding

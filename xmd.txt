@@ -1,0 +1,10 @@
+
+10. At the XMD prompt, type the following:
+a. mb. XMD connects to the MicroBlaze processor.
+b. stop. The processor stops so that you can read and write to the registers.
+c. mwr 0x7c600000 0x1. The LEDs on the board begin to blink.
+d. mrd 0x7c600000. Confirm that you read back the value 0x00000001.
+e. mwr 0x7c600000 0x0. The LEDs stop blinking.
+
+
+

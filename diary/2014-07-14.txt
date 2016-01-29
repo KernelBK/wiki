@@ -1,0 +1,10 @@
+
+
+aurora 调试，
+	loopback
+	gtp
+
+背板的loopback可以运行
+
+可以用loopback测试
+

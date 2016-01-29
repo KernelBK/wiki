@@ -1,0 +1,34 @@
+
+[[scheduing]]
+
+= device driver =
+- module 
+	- modinfo 查看模块的依赖关系
+- [[alsa]]
+- bluetooth
+- [[dbus]]
+- [[gdb]]
+- [[interrupt]]
+- [[memory]]
+- [[net]]
+- [[nfs]]
+- [[uart]]
+- hdmi
+- [[hotplug]]
+
+- vfs
+- [[RCU]]
+
+[[proc]]
+sys
+# debug
+[[oops]]
+
+[[copy_from_user]]
+	
+=  books =
+ldd3
+eldd
+lkd
+[[ulk3]] 深入理解linux内核(中文第三版-2009.1第四次印刷)勘误表
+[[Professional_Linux_Kernel_Architecture]]

@@ -1,0 +1,29 @@
+
+IHI0051A
+qualifier 限定
+
+master, slave, interconnect
+
+byte: data, position, null
+stream 
+	transfer: signal tvalid, tready handshake
+	packet: transfer+
+	frame: packet+
+
+interface
+	tstrb: position byte
+	tkeep: null byte
+
+In a data stream the low order bytes of the data bus are the earlier bytes in the stream.
+
+data merging, packing, width conversion
+
+requires that all transfers remain ordered. 
+
+differences between the AXI4-Stream interface and the AXI4 write data channel
+	interleaving
+	length
+	data width
+	tid, tdest
+	tuser
+	tkeep, null bytes

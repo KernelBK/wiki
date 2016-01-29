@@ -1,0 +1,6 @@
+
+amazon web services
+
+amazon.linux
+amazon.machine.image
+

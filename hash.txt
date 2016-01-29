@@ -1,0 +1,7 @@
+
+Ëã·¨ time33 
+	perl, berkeley db, apache, mfc, stl
+
+nHash = nHash*33 + *key++;
+
+[[blizzard]]

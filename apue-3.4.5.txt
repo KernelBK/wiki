@@ -1,0 +1,636 @@
+Author: Joseph Lee
+E-Mail: fdlixiaojun@gmail.com
+
+出错处理
+当UNIX函数出错时，常常返回一个负值，整型变量errno通常被设置为含有附加信息的一
+个值。头文件<errno.h>定义了符号errno以及可以赋予它的各种常量，这些常量都以字
+母E开头。
+errno，如果没有出错，则其值不会被清除。所以只有在出错时才应该检验该值。任意
+一个函数都不会把errno设置为0。
+
+#include<string.h>
+char *strerror(int errnum);
+此函数将errnum映射为一个出错字符串，并且返回此字符串的指针。
+#include <stdio.h>
+void perror(const char *msg);
+perror函数基于errno的当前值，在标准出错上打印一条出错消息，形式为：
+[string msg]: [error string base errno]\n
+
+restrict关键字是C99中引入对指针进行修饰的，用于编译器优化，它指定该指针是访问
+它所指向区域的唯一方式。
+
+#include <fcntl.h>
+int open(const char *pathname, int oflag, ... /* mode_t mode */ );
+成功返回文件描述符，出错返回-1； 第三个参数仅在创建文件时使用。
+oflag, 三个有且仅有一个的标志O_RDONLY, O_WRONLY, O_RDWR以及一些可选标志
+文件名长度大于NAME_MAX时会返回错误（Linux）
+第三个参数模式是用来指定st_mode的，这个参见后面stat数据结构的内容。
+
+#include <fcntl.h>
+int creat(const char *pathname, mode_t mode);
+成功返回只写的文件描述符，出错返回-1；
+等价于 open(pathname, O_WRONLY | O_CREAT | O_TRUNC, mode);
+历史上open函数的第二个参数值可能是0, 1, 2，无法用open函数来创建文件，所以需要
+多一个creat函数，现在creat函数已经可以完全不用了。creat函数返回的是只写的文件
+描述符，这一点要注意。
+
+#include <unistd.h>
+int close(int fd);
+成功返回0，出错返回-1。
+文件关闭会释放该进程在该文件上的所有锁。
+
+#include <unistd.h>
+off_t lseek(int fd, off_t offset, int whence);
+成功返回新的文件偏移，失败返回-1。通常打开文件的偏移是个非负整数。
+已经打开文件的偏移可以通过lseek来设置
+whence参数用来设置offset的基准 SEEK_SET表示从文件头部开始offset位置，SEEK_CUR
+表示从当前开始offset位置，SEEK_END表示从文件尾部开始offset位置。
+由于lseek返回调用后的文件偏移，我们可以用当前0偏移来确定当前文件的偏移
+同样可以用这个函数来判断某个文件是否支持seek。通常文件的当前偏移必须是非负整数
+但是某些特定设备允许负的偏移。但对于常规文件，偏移必定是非负的。
+lseek函数可以在文件中创造出洞来，这个洞磁盘并不会给它分配空间。文件大小会变化
+但是并不会给洞分配磁盘块。
+
+#include <unistd.h>
+ssize_t read(int fd, void *buf, size_t nbytes);
+成功返回读到的字节数，读到文件尾返回0，失败返回-1。
+实际读到的字节数小于请求的字节数的可能是因为：常规文件读到EOF；终端通常按行读；
+网络缓存大小小于请求字节数；管道内的内容少于请求字节数；面向记录的设备每次按记
+录返回；被信号打断。
+
+#include <unistd.h>
+ssize_t write(int fd, const void *buf, size_t nbytes);
+成功返回写入的字节数，失败返回-1。通常返回值等于请求写入的字节数，否则，发生错
+误。通常是由写满或者超出了给定进程的文件大小限制。
+
+文件共享
+内核使用三个数据结构来表征一个打开的文件，它们的关系决定了一个进程如何共享文件
+1. 每个进程在进程表中有一项，表示该进程所打开的文件描述符，可以看作向量，每文
+件描述符一个入口。关联到每个文件描述符的有：文件描述符标志和到一个文件表项的指
+针。
+2. 内核为所有打开的文件维护了一个文件表。每个文件表项包括：文件状态标志（读、
+写、添加、同步和非阻塞）；当前文件偏移；到该文件v-node表项的指针。
+3. 每个打开的文件（或者设备）有一个v-node数据结构包含了文件类型和文件操作方法
+等信息。对于大多数文件，v-node也包含文件的i-node。该信息时在文件打开时从磁盘上
+读取的。（Linux没有v-node，相反，它使用一个通用的i-node数据结构。尽管实现不同，
+v-node和通用i-node在概念上是相同的都是指向一个特定文件系统的i-node数据结构。）
+v-node机制是用来支持多种类型的文件系统的。Linux使用了文件类型无关的i-node和文
+件类型相关的i-node来实现这种类似的结构。
+当两个进程同时打开一个文件时，进程表中的entry是各自的不同的，file table也是各自
+的不同的（由于不同的文件偏移） ，而v-node表则是同一的。
+文件描述符标志：目前只有一个就是FD_CLOEXEC (close-on-exec) 表示当该标志设置时，
+原先打开的文件描述符会被关闭，没有设置则不关闭。存放在进程表项中
+文件状态标志：读、写、添加、同步、非阻塞等，存放在文件表项中。
+
+原子操作
+#include <unistd.h>
+ssize_t pread(int fd, void *buf, size_t nbytes, off_t offset);
+ssize_t pwrite(int fd, const void *buf, size_t nbytes, off_t offset);
+
+#include <unistd.h>
+int dup(int fd);
+int dup2(int fd1, int fd2);
+复制文件描述符
+
+#include <unistd.h>
+int fsync(int fd);
+int fdatasync(int fd);
+成功返回0，出错返回-1；
+void sync(void);
+传统UNIX系统实现会在内核中有一个缓冲区
+sync简单的将所有改动的块缓冲区写入并返回，不会等待磁盘。sync通常会在一个系统守
+护进程update中被周期性的调用（通常每30秒）。保证了定期冲刷内核块缓冲区。sync命
+令也是调用sync函数的。
+fsync仅引用由文件描述符指定的一个文件，并等待磁盘写入完成才返回。它主要给应用
+程序来使用，比如数据库需要保证写入成功。它也会同时更新文件属性。
+fdatasync，类似fsync，但是不更新文件属性。
+
+#include <fcntl.h>
+int fcntl(int fd, int cmd, ... /* int arg */ );
+成功根据cmd返回，出错返回-1
+fcntl可以更改一个打开文件的属性
+fcntl可以由五个用途：复制一个已经存在的文件描述符（cmd = F_DUPFD）；获得或者设
+置文件描述符标志（cmd = F_GETFD 或 F_SETFD）；获取或者设置文件状态标志（cmd = 
+F_GETFL或者F_SETFL）；或取或者设置匿名IO所有者（cmd = F_GETOWN或F_SETOWN）；或
+取或者设置记录锁（cmd = F_GETLK, F_SETLK或者F_SETLKW）。
+复制文件描述符F_DUPFD，会复制文件描述符，新的文件描述符作为函数返回值返回。
+获得文件描述符标志F_GETFD，返回文件描述符标志。FD_CLOEXEC
+设置文件描述符标志F_SETFD
+获得文件状态标志F_GETFL，（O_RDONLY, O_WRONLY, O_RDWR
+	O_APPEND, O_NONBLOCK, O_SYNC, O_DSYNC, O_RSYNC, O_FSYNC, O_ASYNC）
+	前三个的掩码O_ACCMODE。
+设置文件状态标志F_SETFL。文件访问模式标志是不可以改变得。
+获得接收SIGIO和SIGURG信号的进程ID（返回正值）或者进程组ID（返回负值） F_GETOWN
+设置接收SIGIO和SIGURG信号的进程ID或者进程组ID，正数arg指定进程ID，负值arg的绝对
+	值指示进程组ID
+
+#include <unistd.h>		/* System V */
+#include <sys/ioctl.h>		/* BSD and Linux */
+#include <stropts.h>		/* XSI Streams */
+int ioctl(int fd, int request, ...);
+出错返回-1，成功返回其它值
+
+#include <sys/stat.h>
+int stat(const char *restrict pathname, struct stat *restrict buf);
+int fstat(int fd, struct stat *buf);
+int lstat(const char *restrict pathname, struct stat *restrict buf);
+成功返回0，出错返回-1。
+
+struct stat {
+	mode_t	st_mode;	/* 文件类型和模式（权限） */
+	ino_t	st_ino;		/* i-node号 */
+	dev_t	st_dev;		/* 文件系统设备号 */
+	dev_t	st_rdev;	/* 特殊文件设备号 */
+	nlink_t	st_nlink;	/* 链接数 */
+	uid_t	st_uid;		/* 所有者uid */
+	gid_t	st_gid;		/* 所有者组id */
+	off_t	st_size;	/* 常规文件，大小，字节为单位 */
+	time_t	st_atime;	/* 最近访问时间 */
+	time_t	st_mtime;	/* 最近修改时间 */
+	time_t	st_ctime;	/* 最近文件状态更改时间 */
+	blksize_t	st_blksize;	/* 最好IO块大小 */
+	blkcnt_t	st_blocks;	/* 分配的磁盘块大小 */
+};
+
+
+文件类型：
+常规文件
+目录文件：包含其他文件名字和到这些文件信息的指针。任何对该目录文件有读权限的进
+程都可以读目录内容，但是只有内核可以直接写目录文件。
+块设备文件：提供到设备的固定大小单元访问的缓冲IO的文件类型
+字符设备文件：提供到设备可变大小单元访问的不缓冲IO的文件类型，系统内的设备或者
+是块设备文件，或者是字符设备文件
+FIFO：用于进程间通信的一种文件，有时叫做命名管道。
+套接字：用于进程间网络通信的一种文件。套接字也可以用于单机上的进程间非网络通信。
+符号链接：指向其它文件的文件
+
+文件类型编码在stat数据结构的st_mode成员中。可以用如下宏来判断一个文件是什么类
+型，参数为stat结构的st_mode成员：S_ISREG(), S_ISDIR(), S_ISCHR(), S_ISBLK(),
+	S_ISFIFO(), S_ISLNK(), 	S_ISSOCK()
+POSIX允许将IPC对象实现成文件，比如消息队列，信号，共享内存等。以下宏可以在stat
+文件中判断IPC类型，它们不使用stat结构的st_mode成员作参数，而使用指向stat结构的
+指针S_TYPEISMQ(), S_TYPEISSEM(), S_TYPEISSHM()，但是没有一个这里提到的UNIX系统
+将这些对象实现成文件。
+
+设置用户ID和设置组ID
+每个进程关联了六个以上（包括六个）的ID：
+实际用户ID和实际组ID；
+有效用户ID和有效组ID，补充组ID（用于文件访问权限检查）；
+保存设置用户ID和保存设置组ID；当一个程序执行时包含有效用户ID和有效组ID的拷贝。
+通常有效用户ID等于实际用户ID，有效组ID等于实际组ID。每个文件都有一个属主和属组。
+属主由st_uid确定，属组有st_gid确定。
+
+当我们执行一个程序文件的时候，进程的有效用户ID通常是实际用户ID，有效组ID通常是
+实际组ID。但是可以把某个文件的模式字st_mode中设置一个特殊标志，使得在执行该文
+件的时候以该文件的属主来执行，即进程的有效用户ID为文件的属主。类似的另外一个位
+也可以设置，使得有效组ID为文件的属组(st_gid)。这样在st_mode中的这两个位就被称
+为设置用户ID位和设置组ID位。
+这两个位可以用S_ISUID和S_ISGID宏来测试。
+
+文件存取权限
+st_mode值还编码了文件的存取权限位。所有类型的文件都有存取权限。每个文件有九个
+权限位，分类三个类别。掩码宏如下：
+#include <sys/stat.h>
+S_IRUSR, S_IWUSR, S_IXUSR, S_IRGRP, S_IWGRP, S_IXGRP, S_IROTH, S_IWOTH, S_IXOTH
+这里的用户指的是文件属主。
+目录的读权限和执行权限：读权限允许我们获得目录下的文件名，执行权限允许我们访问
+该目录下的文件。
+删除一个指定的文件，需要文件所在目录的写和执行权限，而不需要关心文件本身的权限
+可执行文件必须是常规文件。
+每当一个进程打开，创建和删除一个文件时内核都会进行文件访问测试，如果支持的话，
+两个所有者ID是文件的属性，两个有效ID和补充组ID是进程的属性。内核的测试过程是：
+1. 如果（进程的）有效用户ID是0（超级用户），允许访问。这给了超级用户访问整个系
+统的权限。
+2. 如果（进程的）有效用户ID等于文件属主ID，则如果合适用户权限设置的话允许访问。
+3. 如果（进程的）有效组ID或者其中一个补充组ID等于文件的属组ID，则如果合适组访
+问权限设置的话允许访问。否则拒绝访问。
+4. 如果合适的其他（other）访问权限设置的话，允许访问，否则拒绝访问。
+四步按序列尝试，并且如果已经在某一步上匹配（允许或者拒绝），则后续不进行测试。
+
+新文件或目录的所有权
+新文件的用户ID被设置为（进程的）有效用户ID，组ID的话POSIX规定可选以下一种实现：
+1. （进程的）有效组ID作为新文件的组ID
+2. 新文件的组ID是新文件所在目录的组ID
+
+#include <unistd.h>
+int access(const char *pathname, int mode);
+成功返回0，出错返回-1。
+用于测试实际用户ID和实际组ID对文件的访问权限，mode是如下常量的或运算结果。
+R_OK, W_OK, X_OK, F_OK(测试文件存在)
+
+#include <sys/types.h>
+#include <sys/stat.h>
+mode_t umask(mode_t mask);
+返回上个文件模式的创建掩码
+用来设置进程的文件创建模式掩码并返回旧的值。无错误返回值。
+mask由九种常量的或运算构成
+
+#include <sys/stat.h>
+int chmod(const char *pathname, mode_t mode);
+int fchmod(int fd, mode_t mode);
+成功返回0，出错返回-1；
+前者操作指定文件，后者操作已经打开的文件。更改一个文件的权限位，（进程的）有效
+用户ID必须等于文件属主ID或者进程拥有超级用户权限。
+这里mode有S_ISUID（执行设置用户ID），S_ISGID（执行设置组ID），S_ISVTX（），
+S_IRWXU（属主读写执行），S_IRWXG，（属组读写执行），S_IRWXO（其它读写执行），
+以及九个权限位
+粘滞位Linux下对于常规文件没有意义，在其他系统中，该位仅有超级用户可以设置。
+早期粘滞位用来在程序退出时将程序的正文段保存在交换区以便加快下次载入的速度。如
+今这个功能已经不重要甚至消失了。在同时代的某些系统中粘滞位的功能被扩展，粘滞位
+可以设置到目录文件，如果一个目录被设置了粘滞位，那么目录内的文件只有在用户对该
+目录有写权限或者拥有该文件或者拥有该目录或者是超级用户时才可创建和删除。
+
+#include <unistd.h>
+int chown(const char *pathname, uid_t owner, gid_t group);
+int fchown(int fd, uid_t owner, gid_t group);
+int lchown(const char *pathname, uid_t owner, gid_t group);
+成功返回0，出错返回-1
+用于改变文件的属主和属组，如果参数中的owner或者group是-1，则对应ID不会改变
+Linux只允许超级用户改变文件的属主和属组。
+
+文件大小
+st_size成员说明了以字节计数的文件大小。这个只对常规文件、目录文件和符号链接文
+件有意义。Solaris还定义了管道的文件大小表示管道内可读字节数。
+对于常规文件，允许文件大小为0。这样读到的第一个字符就是EOF
+对于目录文件，文件大小通常是某个数字的倍数，比如说16或者512
+对于符号链接文件，文件大小就是链接的文件的文件名大小
+st_blksize和st_blocks，前者指该文件IO操作时推荐的块大小，后者指该文件分配的512
+字节块数量。出于效率考虑，一次read或者write读写st_blksize大小的块。
+注意512字节大小的块是系统相关的，不可移植。
+
+#include <unistd.h>
+int truncate(const char *pathname, off_t length);
+int ftruncate(int fd, off_t length);
+成个返回0，出错返回-1
+用于将文件截断到指定长度，如果原来文件大于这个指定长度，那么就截断到这个大小，
+如果小于的行为则是系统相关的。
+
+文件系统
+i-node是固定长度的项，包含了文件的大部分信息。每个i-node有一个链接计数器计数指
+向该i-node的目录项的数目。当链接技术减到0时，该文件就会被删除。
+这个链接计数在st_nlink中，类型为nlink_t，这叫做硬链接。硬链接有数量限制LINK_MAX
+i_node包含文件的所有信息：文件类型，文件访问权限位，文件大小，到文件数据块的指
+针等等。stat数据结构内的大部分信息是从i-node中获取的。有两项是存在目录项中的：
+文件名和i-node号。至于文件名长度，目录记录长度这里不讨论。i-node号的数据类型
+是ino_t。
+为什么硬链接不可以跨文件系统？
+因为目录项内的i-node号指向相同文件系统的一个i-node，我们不可以把一个目录项指向
+一个不同的文件系统。
+同分区内重命名的过程或者mv的过程：不需要移动数据，仅需要在目录中增加一个目录项
+指向已有的i-node，然后unlink老的目录项。
+目录的链接数：目录至少关联到目录名和.两个链接，最小链接数为2（叶目录），每在目
+录下创建新的目录项，该目录的链接数就增加1。这里的目录下指直接子目录，即子目录
+的创建和删除会影响父目录的链接数量。
+
+#include <unistd.h>
+int link(const char *existingpath, const char *newpath);
+成功返回0，失败返回-1
+创建一个硬链接。如果新的路径名已经存在则出错。只创建最后一级，路径前面的必须是
+已经存在的。创建和链接增加应该是原子操作。给目录建立硬链接需要具有超级用户权
+限。因为这会引起文件系统中出现环。
+
+#include <unistd.h>
+int unlink(const char *pathname);
+成功返回0，出错返回-1
+此函数删除目录项并将pathname引用文件的链接计数减1，出错则不作更改。
+注意：被进程打开的文件即使链接数为0，也不会删除。在关闭文件的时候内核会检查打
+开该文件的进程数，如果为0，再检查该文件的链接数，如果也为0，则删除该文件。
+超级用户可以使用该函数删除目录，但建议使用rmdir
+
+#include <stdio.h>
+int remove(const char *pathname);
+成功返回0，出错返回-1
+对于文件，remove功能与unlink相同，对于目录remove功能与rmdir相同
+
+#include <stdio.h>
+int rename(const char *oldname, const char *newname);
+成功返回0，出错返回-1
+ISO C 对文件定义了这个函数（C标准不处理目录），POSIX做了扩展。
+如果newname已经存在，则删除newname，然后将oldname更名为newname，这里newname引
+用的如果是一个目录的话，这个目录应该是空目录。对于符号链接，则只处理符号链接
+本身。这里写权限。
+
+符号链接
+符号链接是指向一个文件的间接指针，硬链接直接指向文件的i节点。与硬链接不同，符号
+链接可以跨文件系统，而且不需超级用户权限就可以创建指向目录的符号链接。
+注意：要考虑所调用函数是否跟随符号链接（即解引用）
+
+#include <unistd.h>
+int symlink(const char *actualpath, const char *sympath);
+成功返回0，出错返回-1
+该函数创建一个指向actualpath的新目录项sympath，这是一个符号链接。
+#include <unistd.h>
+ssize_t readlink(const char *restrict pathname, char *restrict buf,
+		 size_t bufsize);
+成功返回读到的字节数，出错返回-1。
+由于open会跟随符号链接，用这个函数来访问符号链接本身。在buf中返回的内容不以null
+字符终止。
+
+文件时间
+st_atime	文件数据最后访问时间
+st_mtime	文件数据最后修改时间
+st_ctime	i节点最后更改时间
+系统没有保存对i节点的最后访问时间。
+
+#include <utime.h>
+int utime(const char *pathname, const struct utimbuf *times);
+成功返回0，出错返回-1
+可以用来更新文件最后访问时间和数据最后更改时间
+struct utimbuf {
+	time_t actime;		/* access time */
+	time_t modtime;		/* modification time */
+};
+这里的两个时间是日历时间即从1970年1月1日0点0分0秒所经过的秒数
+st_ctime不能这样更改。
+
+#include <sys/stat.h>
+int mkdir(const char *pathname, mode_t mode);
+成功返回0，出错返回-1
+此函数创建一个新的空目录。
+#include <unistd.h>
+int rmdir(const char *pathname);
+成功返回0，出错返回-1
+此函数可以删除一个空目录。
+
+对目录具有访问权限的任一用户都可读目录，但为了防止文件系统混乱，只有内核才能写
+目录。
+#include <dirent.h>
+DIR *opendir(const char *pathname);
+成功返回指针，出错返回NULL
+struct dirent *readdir(DIR *dp);
+成功返回指针，若在目录结尾或出错返回NULL
+void rewinddir(DIR *dp);
+int closedir(DIR *dp);
+成功返回0，出错返回-1
+long telldir(DIR *dp);
+返回与dp关联的目录中的当前位置
+void seekdir(DIR *dp, long loc);
+struct dirent {
+	ino_t d_ino;
+	char d_name[NAME_MAX+1];
+};
+目录中各目录项的顺序与实现有关，通常并不按字母顺序排列。
+
+#include <unistd.h>
+int chdir(const char *pathname);
+int fchdir(int fd);
+成功返回0，出错返回-1
+更改当前工作目录，仅影响调用chdir的进程本身，而不影响其它进程。
+#include <unistd.h>
+char *getcwd(char *buf, size_t size);
+成功返回buf，出错返回NULL
+返回绝对路径
+应用：fchdir提供了一种返回先前工作目录的便捷方法，就是更改工作目录前先使用open
+函数打开当前目录，然后更改目录，当要切换回来时再调用fchdir即可。
+
+设备特殊文件
+每个文件系统所在的存储设备都由其主、次设备号表示。设备号所用的数据类型为dev_t，
+主设备号标识设备驱动程序，次设备号标识特定的子设备。我们可以用宏major和minor来
+访问主、次设备号。Linux需要包含<sys/type.h>
+系统中与每个文件关联的st_dev值是系统的设备号，st_rdev只有设备特殊文件才有值。
+此值包含实际的设备号。
+
+标准IO
+流和FILE对象
+流有定向（orientation），即面向ASCII字符还是宽字符。如果创建时没有确定，则后续
+如果在未定向流上使用宽字符函数，则流被设置为面向款字符的，如果在未定向流上使用
+单字符函数，则流被设置为面向单字符。寒暑freopen可以清除一个流的定向，而fwide可
+以设置流的定向。
+
+#include <stdio.h>
+#include <wchar.h>
+int fwide(FILE *fp, int mode);
+若流是宽定向的返回正值，若流是字节定向的返回负值，若流是未定向的返回0。
+mode为负，设为字节定向
+mode为正，设为宽字符定向
+mode为0，不改变流的定向，返回该流的定向。
+注意：fwide函数不改变已定向流的定向，并且没有出错返回，但是会设置errno。
+FILE对象返回包含了管理该流所需要的所有信息，比如：实际的文件描述符，缓冲区位置
+和大小，已缓冲的长度，出错标志等。
+
+对一个进程预定义了三个流，并且它们可以自动被进程使用，它们是标准输入，标准输
+出，标准出错。通过三个预定义指针访问stdin，stdout，stderr。定义在<stdio.h>中
+
+缓冲
+全缓冲：磁盘一般是全缓冲的，缓冲区满或者强制冲洗才会冲洗
+行缓冲：终端通常是行缓冲的。遇到换行符执行实际IO。
+不缓冲：标准出错是不缓冲的
+冲洗：将缓冲区内容写到磁盘；对于终端驱动则是丢弃已经缓冲的数据。
+#include <stdio.h>
+void setbuf(FILE *restrict fp, char *restrict buf);
+int setvbuf(FILE *restrict fp, char *restrict buf, int mode, size_t size);
+成功返回0，出错返回非零
+这两个函数用来更改缓冲类型。mode参数：_IOFBF, _IOLBF, _IONBF
+
+#include <stdio.h>
+int fflush(FILE *fp);
+成功返回0，出错返回EOF，如果fp是NULL，则冲洗所有输出流。
+
+#include <stdio.h>
+FILE *fopen(const char *restrict pathname, const char *restrict type);
+FILE *freopen(const char *restrict pathname, const char *restrict type,
+	      FILE *restrict fp);
+FILE *fdopen(int fd, const char *type);
+成功返回文件指针，出错返回NULL
+fopen打开一个指定文件返回流指针
+freopen打开一个指定文件到指定流指针，如果该流已经打开则先关闭该流，如果该流已
+经定向，则清除该流定向。此函数一般用于打开三个预定义流。
+fdopen将文件描述符与一个流关联。它常用于由创建管道和网络通信通道函数返回的描述
+符。因为这类特殊类型的文件不能用fopen打开。
+type参数制定对IO流的读写方式，ISO C规定了15种
+r rb	读打开
+w wb	写打开并截断至0，或为写而创建
+a ab	添加；为在文件尾写而打开，或为写创建
+r+ r+b rb+ 为读写打开
+w+ w+b wb+ 为读写打开并将文件截断至0，或为读写而创建
+a+ a+b ab+ 为在文件尾读和写而打开或创建
+对于fdopen，type含义稍有不同，由于文件已经打开，所以并不会截断文件。如果用添写
+的方式打开文件，则每次都写在文件的尾端，如果同时有多个进程写，则会正确写入。
+当以读写方式打开一文件时，具有一些限制：
+如果没有fflush, fseek, fsetpos或rewind，则在输出后不能直接跟随输入
+如果没有fseek，fsetpos或rewind，或者一个输入操作没有到达文件尾端，则在输入操作
+之后不能直接跟随输出。
+
+#include <stdio.h>
+int fclose(FILE *fp);
+成功返回0，出错返回EOF
+关闭文件前，冲洗缓冲区的输出数据，丢弃缓冲区的输入数据，如果标准IO库自动分配了
+缓冲区，释放该缓冲区。
+
+读和写流
+面向字符IO
+#include <stdio.h>
+int getc(FILE *fp);
+int fgetc(FILE*fp);
+int getchar(void);
+成功则返回下一个字符，到达文件尾端或者出错返回EOF。
+getc和fgetc的区别在于getc可以被实现为宏，而fgetc不可。这样引入了三点区别：
+1. getc的参数不可以是有副作用的表达式
+2. fgetc的地址可以作为参数传递给另外一个函数
+3. fgetc调用时间可能要长于getc
+为了区分出错还是到达文件尾段有函数
+#include <stdio.h>
+int ferror(FILE *fp);
+int feof(FILE *fp);
+若为真，返回非0值，否则返回0
+void clearerr(FILE *fp);
+大多数实现中为FILE维持了两个标志，出错标志和文件结束标志。
+
+#include <stdio.h>
+int ungetc(int c, FILE *fp);
+成功则返回字符c，出错返回EOF。不可回送EOF，但可以在EOF之后回送，这会清除文件
+结束标志。
+用ungetc压送回字符，并没有将它们写到文件中或设备上，所以如果调用fflush的话并不
+会对文件或设备写入回送的字符。
+#include <stdio.h>
+int putc(int c, FILE *fp);
+int fputc(int c, FILE *fp);
+int putchar(int c);
+成功返回c，出错返回EOF
+
+面向行IO
+#include <stdio.h>
+char *fgets(char *restrict buf, int n, FILE *restrict fp);
+char *gets(char *buf);
+成功返回buf，到达文件尾或者出错返回NULL。
+fgets指定buf长度n，每次读到换行或者n-1则输出，然后接着读。buf总是以null字符结
+尾，不推荐gets，因为不能指定缓冲区大小，可能会导致缓冲区溢出漏洞。
+对于换行符，gets删除换行符，fgets保留换行符。
+
+#include <stdio.h>
+int fputs(const char *restrict str, FILE *restrict fp);
+int puts(const char *fp);
+成功返回非负值，出错返回EOF。
+fputs将字符串写到指定流，但是null不输出，并不一定就是按行输出。而puts的话将字符
+串输出到标准输出，null不输出，并在后面添加输出一个换行符。为了省却判断是否输出
+换行符的麻烦，推荐使用fputs
+
+二进制IO
+一次读或写一个结构的需求
+#include <stdio.h>
+size_t fread(void *restrict ptr, size_t size, size_t nobj, FILE *restrict fp);
+size_t fwrite(const void *restrict ptr, size_t size, size_t nobj,
+	      FILE *restrict fp);
+返回读或写的对象数量
+这里size指单个对象的大小（sizeof），nobj指对象的数量。对于读，如果碰到文件尾端
+返回的数量可以小于指定的数量，然后调用ferror和feof确定。对于写，数量不等将出错。
+注意：二进制读只能读同一个系统上已写的数据，这是由于：结构成员的偏移量会因编译
+器和系统而不同；浮点值和多字节整数的表示也有可能不同。
+
+流定位
+#include <stdio.h>
+long ftell(FILE *fp);
+成功返回当前文件偏移，出错返回-1L
+off_t ftello(FILE *fp);
+成功返回当前文件偏移，出错返回-1
+以上二者区别在于前者假定偏移可以用long型整数表示
+int fseek(FILE *fp, long offset, int whence);
+成功返回0，出错返回非0
+int fseeko(FILE *fp, off_t offset, int whence);
+成功返回0，出错返回非0
+上述二者区别在于前者的偏移为long型整数，后者则是off_t类型
+whence三种情形：SEEK_SET, SEEK_CUR, SEEK_END
+对于二进制文件，偏移是以字节为单位的。对于文本文件，则不一定，这时whence一定要
+是SEEK_SET，而offset或者为0，或者为ftell所返回的值
+
+void rewind(FILE *fp);
+此函数使一个流设置到文件的起始位置
+
+int fgetpos(FILE *restrict fp, fpos_t *restrict pos);
+int fsetpos(FILE *fp, const fpos_t *pos);
+这两个函数是C标准引进的，fgetpos将文件偏移的当前值存入pos指向的对象中，在以后调
+用fsetpos时，可以使用该对象。需要移植到非UNIX系统的应用程序应该使用这两个函数。
+
+格式化IO
+#include <stdio.h>
+int printf(const char *restrict format, ...);
+int fprintf(FILE *restrict fp, const char *restrict format, ...);
+成功返回输出的字符数，出错返回负值
+int sprintf(char *restrict buf, const char *restrict format, ...);
+int snprintf(char *restrict buf, size_t n, const char *restrict format, ...);
+成功返回存入数组的字符数，出错返回负值。
+printf将格式化数据输出到标准输出，fprintf将格式化数据输出到指定流
+sprintf将格式化数据输出到指定buf，并在buf后增加null字符构成字符串，但该null字
+符不在返回值中计算。这里缓冲区大小未指定，所以有缓冲区溢出的危险。
+snprintf指定了缓冲区的大小，超过缓冲区大小的尾端字符都会被丢弃。snprintf至多存
+放n-1个有效字符（不包括null）到缓冲区。
+格式化控制
+%[flags][fldwidth][precision][lenmodifier]convtype
+flags: -(左对齐)，+(总是显示符号)，空格(如果第一个字符不是符号，则在其前面加一
+个空格)，#(指定另一种转换形式，比如16进制)，0(添加前导0而不是空格进行填充)
+fldwidth说明最小字段宽度。如果转换得到的字符较少，则用空格填充，字段宽度是一个
+非负十进制数，或者是一个星号(*)。
+precision说明整型转换后最少输出数字位数，浮点数转换后小数点后的最少位数，字符
+串转换后的最大字符数。精度是一个句点，后接一个可选的非负十进制整数或是一个星号
+宽度和精度的星号表示，一个整形参数指定宽度或精度的值，该整型参数正好位于被转换
+的参数之前。
+lenmodifier说明参数长度（是char，short，long等，有无符号）
+convtype是非可选的，控制如何解释参数。
+
+#include <stdio.h>
+#include <stdarg.h>
+int vprintf(const char *restrict format, va_list arg);
+int vfprintf(FILE *restrict fp, const char *restrict format, va_list arg);
+成功返回输出字符数，出错返回负值
+int vsprintf(char *restrict buf, const char *restrict format, va_list arg);
+int vsnprintf(char *restrict buf, size_t n, const char *restrict format,
+	      va_list arg);
+成功返回存入数组的字符数，出错返回负值。
+
+#include <stdio.h>
+int scanf(const char *restrict format, ...);
+int fscanf(FILE *restrict fp, const char *restrict format, ...);
+int sscanf(const char *restrict buf, const char *restrict format, ...);
+成功返回指定的输入项数，出错或遇到EOF则返回EOF。
+scanf族输入函数用于分析输入字符串，并将字符序列转换成指定类型的变量。
+除转换说明和格式字符外，格式字符串的其他字符必须与输入匹配，否则，停止后续处理，
+不再读输入的其余部分。
+格式
+%[*][fldwidht][lenmodifier]convtype
+星号用于抑制转换。
+#include <stdio.h>
+#include <stdarg.h>
+int vscanf(const char *restrict format, va_list arg); 
+int vfscanf(FILE *restrict fp, const char *restrict format, va_list arg);
+int vsscanf(const char *restrict buf, const char *restrict format, va_list arg);
+
+#include <stdio.h>
+int fileno(FILE *fp);
+可以获得流对应的文件描述符
+
+临时文件
+#include <stdio.h>
+char *tmpnam(char *ptr);
+返回指向唯一路径名的指针
+FILE *tmpfile(void);
+成功返回文件指针，出错返回NULL
+tmpnam产生临时文件路径名，tmpfile创建临时文件，类型wb+
+tmpnam最多调用次数是TMP_MAX，每次调用产生一个和现有文件名不同的路径名。如果ptr
+为NULL，则产生的路径名位于一个静态区中，指向该静态区的指针作为函数返回值返回，
+每次调用tmpnam都会重写该静态区。若ptr不为NULL，则假定它指向一个长度至少为
+L_tmpnam个字符的数组，该常量定义在<stdio.h>中。
+#include <stdio.h>
+char *tempnam(const char *directory, const char *prefix);
+返回指向路径名的唯一指针
+tempnam是tmpnam的变体，允许调用者指定所产生的路径名的目录和前缀。目录的选择按
+优先顺序如下：
+1. TMPDIR环境变量
+2. directory非NULL指定
+3. <stdio.h>中的字符串P_tmpdir作为目录
+4. 将本地目录通常是/tmp作为目录
+如果prefix为非NULL，则它最多应该包含5个字符。
+#include <stdlib.h>
+int mkstemp(char *template);
+成功返回文件描述符，出错返回-1
+类似于tmpfile，但是返回的是文件描述符。临时文件的名字用template字符串参数选择。
+该字符串是一个路径名，最后6个字符设置为xxxxxx，这6个会被替换以生成唯一文件。如
+果mkstemp成功返回，template保存生成的临时文件的文件名，mkstemp生成的临时文件需
+要手动unlink。这点与tmpfile不同。
+利用tmpnam和tempnam有一个不足之处在于得到路径名和创建文件之间有个时间窗口，这个
+期间可能有别的进程创建了同名文件，从这一点来看应该利用tmpfile或者mkstemp。
+tmpfile通常是调用tmpnam生成一个路径名，然后创建一个文件，并立即unlink它。
+
+标准IO的不足和替代软件
+标准IO的不足主要在于效率低，存在大量的数据复制。
+替代库有快速IO库fio，sfio，ASI等
+用于嵌入式的uClibc和newlibc等。

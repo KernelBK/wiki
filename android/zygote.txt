@@ -1,0 +1,20 @@
+
+target thumb C: libcutils <= system/core/libcutils/zygote.c
+system/core/libcutils/zygote.c: In function 'send_request':
+system/core/libcutils/zygote.c:153: warning: pointer of type 'void *' used in arithmetic
+target thumb C++: libdvm <= dalvik/vm/native/dalvik_system_Zygote.cpp
+dalvik/vm/Init.cpp: In function ‘bool dvmInitAfterZygote()’:
+host C++: libdvm <= dalvik/vm/native/dalvik_system_Zygote.cpp
+target thumb C++: libandroid_runtime <= frameworks/base/core/jni/com_android_internal_os_ZygoteInit.cpp
+target thumb C++: libdvm_assert <= dalvik/vm/native/dalvik_system_Zygote.cpp
+target thumb C++: libdvm_interp <= dalvik/vm/native/dalvik_system_Zygote.cpp
+target thumb C++: libdvm_sv <= dalvik/vm/native/dalvik_system_Zygote.cpp
+
+HTC Android手机号称的1秒快速启动，根据我们的跟踪就是关机时候杀进程，然后suspend，之后resume回来
+
+dalvik/vm/native/dalvik_system_Zygote.cpp
+	Dalvik_dalvik_system_Zygote_forkSystemServer
+		forkAndSpecializeCommon 会fork出SystemServer
+			unsetSignalHandler
+
+	runSelectLoopMode()不断监听来自应用程序的透过ActivityManagerService的启动需求，并fork出相应的进程

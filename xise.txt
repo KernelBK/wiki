@@ -1,0 +1,7 @@
+
+log
+	vim *r
+	vim *rp
+
+<property xil_pn:name="Configuration Rate spartan6" xil_pn:value="22" xil_pn:valueState="non-default"/>
+

@@ -1,0 +1,31 @@
+
+iphone.6sp
+
+[[iphone.history]]
+	[[功能主义]] [[包豪斯]]
+	移情设计
+	unibody
+
+
+| iphone4s | iphone5 |   |   |
+|----------|---------|---|---|
+| 140      | 132     |   |   |
+|          |         |   |   |
+
+[[apps]]
+
+http://iphone.autonavi.com/data/ 高德导航数据包下载
+
+http://mobile.amap.com/2D.html 高德地图 离线数据包
+
+iphone 4s sn: DX3KKF6ZDTD2
+
+iphone 6p sn: FK2P37N3G5QW
+iphone 6sp sn: 
+
+序列号开头字母
+	C深圳
+	D成都
+	F郑州
+
+[[new.iphone]]

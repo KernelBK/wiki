@@ -1,0 +1,14 @@
+
+DAC控制逻辑完成，已经验证。
+电机卡逻辑部件获得采样后的最大值最小值，软核程序根据自动电平控制的算法读取10ms的测量值进行自动控制。
+电机卡和硬件有关的接口全部测试完成，包括spi 595, dac, blvds, aurora, adc.
+
+电机卡获得采样后的最大值最小值
+	还是使用以前的模块，只占用了1个fless32
+
+python rename file and folder skip link type files.
+
+重新整理仿真环境
+	全部使用vseq的env，包括axi4lite axi4stream x2
+
+

@@ -1,0 +1,5 @@
+
+264 If at least two entities are waiting to advance to the Path Combiner block via distinct entity input ports, then the notification sequence is important because the first port to be notified of the change is the first to advance an entity to the Path Combiner block.
+225 The origin of the body-fixed coordinate frame is the center of gravity of the body, and the body is assumed to be rigid, an assumption that eliminates the need to consider the forces acting between individual elements of mass.
+
+

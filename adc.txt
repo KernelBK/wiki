@@ -1,0 +1,21 @@
+
+[[AD]]
+
+adc, analog-to-digital converter
+bandwidth, sampling rate
+signal to noise ratio, accuracy
+resolution
+
+adc types
+
+ad9265
+	16bit
+	125msps
+	差分流水线
+	spi配置
+
+msps: million samples per second, 一次ad转换说需要的时间倒数
+积分型
+逐次比较型
+全并行/串并行型
+

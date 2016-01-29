@@ -1,0 +1,5 @@
+
+pc.ibm-t43
+pc.dell
+[[pc.vmware.ubutnu]]
+[[pc.zlg]]

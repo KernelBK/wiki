@@ -1,0 +1,94 @@
+
+[[轻松实现高速串行]]
+
+[[ibert]]
+
+k7
+	sync_clk = user_clk
+
+    BUFG user_clk_buf_i
+    (
+        .I(GT_CLK),
+        .O(USER_CLK)
+    );
+ IBUFDS_GTE2 IBUFDS_GTE2_CLK1
+ (
+ .I(GTXQ2_P),
+ .IB(GTXQ2_N),
+ .CEB(1'b0),
+ .O(GT_REFCLK1),
+ .ODIV2()
+ );
+
+aurora_8b10b_v8_3_loopback_exdes
+	aurora_8b10b_v8_3_loopback
+		output             TX_OUT_CLK;
+		input              INIT_CLK_IN;
+    	input              USER_CLK;
+	    input              SYNC_CLK;
+		input              GT_REFCLK1;
+		
+
+debug notes
+simulation
+version
+
+reset to channel_up 100,000ns
+channel_up to tready 32,000ns
+
+
+
+
+|          |      |   |   |   |
+|----------|------|---|---|---|
+| GT_CLK   | 100M |   |   |   |
+| USER_CLK | 6.5  |   |   |   |
+| SYNC_CLK |      |   |   |   |
+|          |      |   |   |   |
+
+GT_CLK
+USER_CLK
+SYNC_CLK
+
+
+xlinx
+link-layer protocol
+point-to-point
+increases bandwidth through bonded lanes
+
+serdes
+full duplex 
+simplex channels
+
+license not free in asic/assp
+
+8b10b
+aurora_8b10b_protocol_spec_sp002
+	pad octet, octet 字节
+	control symbol sequences, called ordered sets
+	pdu: protocol data unit
+	data and control
+	user PDUs are mapped to channel PDUs
+		scp: start channel 
+		ecp: end channel
+	pcs: physical coding sublayer
+	pma: physical medium attachment
+
+pg046
+	The PE pipeline delay increases as the AXI4-Stream interface width increases.
+	pe: protocol engine
+	25% overhead of Aurora 8B/10B protocol encoding
+		overhead 花费
+	ufc: user flow control
+	nfc: native flow control
+	streaming or framing
+
+Data transfer begins after the CHANNEL_UP signal goes high.
+
+defines:
+	physical layer interface: electrical level and symbol coding
+does not define: 
+	error detection and recovery
+	data switch, address scheme
+
+[[ni]] 

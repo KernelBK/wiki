@@ -1,0 +1,47 @@
+
+= trident android sdk 编译android文件系统的过程 =
+* foo=/workspace/trident/trident_android_sdk3.1.1/SRC
+* cd $foo
+* source pnx8400_a9_env.sh summit retail singlehd_license_free
+* cd $foo/target/build/systems/linux/android_test/
+* make
+ 这个过程会编译sdk生成文件系统。<br>
+ 编译的过程中会用到$foo/open_source_archive/linux/android/gingerbread_system.tar.gz文件。
+ 这个文件有$foo/open_source_archive/linux/android/gingerbread_234/目录下的makefile编译生成。
+
+= 生成文件目录 =
+* /workspace/trident/trident_android_sdk3.1.1/SRC/target/output/imgs/summit-singlehd_license_free-gcc-4.4.0_uclibc-linux-retail/rootfs.tmplt/
+* /workspace/trident/trident_android_sdk3.1.1/SRC/target/output/imgs/summit-singlehd_license_free-gnu-4.4.0-linux-retail/appfs-android_test/opt
+
+= 编译过程分析 =
+
+$foo/target/src/sd/apps/android
+
+<pre><code>
+target/build/systems/linux/android_test
+	all: sdk change_toolchain copy
+		sdk:
+			uldr,uboot,kernel
+			rootfs*
+			platform(kal)*
+			standby, front_end, audio, video
+			znusb* \\transcode
+			pvr,vpmfb,alsaDrv
+			hw_cursor \\android 新加入
+			zenba_app
+			android_test
+		change_toolchain:
+			source android_env.sh *
+
+</code></pre>
+			
+
+1.source android_env.sh
+
+
+= 看log =
+logcat
+
+文件系统mount以后会隐藏原来的文件，nfs复制数据会看不到。
+
+

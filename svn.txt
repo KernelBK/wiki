@@ -1,0 +1,20 @@
+
+[[code_subversion]]
+
+svn checkout 可以设置忽略文件列表，图形界面比较方便。
+
+
+'W:\2\fpga\1\pcores\pcard_adc_ctrl_v1_00_a\verdiLog' is scheduled for addition,
+ but is missing
+
+
+svn 的setting里面可以设置global ignore pattern，可以忽略.git
+
+提交删除了的文件麻烦
+
+svn: xxx is scheduled for addition, but is missing
+solve:
+svn revert file
+svn ci -m "revert"
+
+

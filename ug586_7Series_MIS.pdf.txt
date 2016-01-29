@@ -1,0 +1,6 @@
+
+ug586_7Series_MIS
+app_wdf_data [APP_DATA_WIDTH – 1:0] Input This provides the data for write commands.
+
+app_cmd, 0 write, 1 read
+

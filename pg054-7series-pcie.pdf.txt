@@ -1,0 +1,10 @@
+[[pci]]
+
+1-lane, 2-lane, 4-lane, and 8-lane Endpoint and Root Port configurations at up to 5 Gb/s (Gen2)
+
+configurable for Endpoint and Root Port applications
+PCI Express Base Specification, rev. 2.1
+
+TLP Transaction Layer Packets
+Physical link interface initialization
+

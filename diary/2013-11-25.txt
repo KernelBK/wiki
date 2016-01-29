@@ -1,0 +1,6 @@
+
+1. quartus打开了错的文件，编译了好几遍。
+1. cfi_128M flash固化，流程有很多细节。
+	nios on chip ram initalizaion, 需要去掉jtag uart
+1. 从新焊接连线
+1. 

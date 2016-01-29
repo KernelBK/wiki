@@ -1,0 +1,69 @@
+
+[[svn]]
+- [[trident]]
+- [[hisi]]
+[[evaluation|评估]]
+
+# dvb
+- [[smart_card]]
+- [[ca_certification]] [[yongxin]]
+- [[h2dvbc]]
+- [[h3.digital]]
+- [[dvb]]
+- [[csa]]
+
+= flow =
+- [[nand_program]]
+- [[summit]]
+- [[boot_cmd]]
+
+= device =
+- [[bluetooth]]
+- alsa
+- [[dvb]]
+- [[gpio]] pinmux [[gpio_power]]
+- [[hdmi]]
+- [[i2c]]
+- [[ir]]
+- [[smart_card]]
+- [[standby]]
+- [[uart]]
+- [[wifi]]
+- [[adsl]]
+- dma
+- memory
+- framebuffer
+- irrx
+- [[cec]]
+
+- [[cortex-a9]]
+- [[bootloader]]
+- [[hwconfig]]
+- [[kernel]]
+- 
+- [[android_apollo]]
+- [[android_kronos]]
+
+= sw =
+- [[systa]]
+- [[player]] gstreamer ffmpeg
+- [[h2dvbc]]
+-
+- [[h1_upgrade]]
+- [[h3.digital]]
+- [[network]]
+= sdk =
+- [[smart_card]]
+ 
+= source code read =
+- [[platform]] 
+- [[video_subsystem_init_code_read]]
+- [[note_code_read]]
+ 
+= bug fix = 
+- [[kernel_dirty_problem]]
+- [[sdk115_mem_allloc]]
+- [[sdk330_mem_alloc_new]]
+- [[debug_mem]]
+- [[ca_certification]] [[yongxin]]
+- 

@@ -1,0 +1,11 @@
+./target/output/objs/pnx8473_hirf_moca_debug/include/generated/utsrelease.h
+#define UTS_RELEASE "2.6.34-gd1c0abe-svn"
+
+target/output/objs/pnx8473_hirf_moca_debug/include/config/kernel.release
+
+http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#def_dirty
+A working tree is said to be "dirty" if it contains modifications which have not been
+committed to the current branch. 
+So, to me that means you started with a particular branch of the kernel (or some part of it) 
+and then made some modifications to some code in there, but did not commit those changes 
+to the branch. The result is that the build (or some part of it) is tagged as "dirty".

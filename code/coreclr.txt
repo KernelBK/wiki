@@ -1,0 +1,9 @@
+
+.NET Core Runtime (CoreCLR)
+	.NET Core is part of ASP.NET 5 
+	subset of the .NET Framework
+
+Book of the Runtime
+
+
+

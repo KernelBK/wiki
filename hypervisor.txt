@@ -1,0 +1,21 @@
+
+http://en.wikipedia.org/wiki/Hypervisor
+    http://en.wikipedia.org/wiki/Embedded_hypervisor
+
+hypervisor
+    task(address space, memory, capability)
+    thread
+    communication(IPC)
+
+l4
+Binary compatible for applications
+    Off!the!shelf VMM (e.g. QEmu on L4Linux)
+
+
+[[codezero]] 
+http://en.wikipedia.org/wiki/REX_OS
+    Qualcomm 
+    REX is an L4A Pistachio embedded micro-kernel and Iguana operating system combination and has extensive Qualcomm and HTC modifications and extensions.
+    REX is not POSIX compliant or open source
+    L4Ka::Pistachio
+

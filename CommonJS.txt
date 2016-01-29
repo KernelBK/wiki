@@ -1,0 +1,4 @@
+
+浏览器不兼容CommonJS，因为缺少： module exports require global 
+
+require() 用于加载模块

@@ -1,0 +1,3 @@
+内测升级修改的地方
+* /hdisk/etc/update.ini
+* /hdisk/etc/CsSM/CsSM-cfg.ini 

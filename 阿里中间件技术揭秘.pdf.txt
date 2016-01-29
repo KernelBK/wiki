@@ -1,0 +1,11 @@
+
+淘宝平台架构部 
+业务逻辑单元(Business Unit)
+
+工厂比喻
+工单系统
+
+双11
+
+ZooKeeper ConfigServer 
+

@@ -1,0 +1,117 @@
+
+<pre> <code class="">
+8192cu 429487 0 - Live 0x7ef7e000
+snd_cnxt 21975 1 - Live 0x7ef71000
+snd_pcm 69008 2 snd_cnxt, Live 0x7ef55000
+snd_page_alloc 3612 1 snd_pcm, Live 0x7ef4f000
+snd_timer 17535 1 snd_pcm, Live 0x7ef44000
+snd 40647 4 snd_cnxt,snd_pcm,snd_timer, Live 0x7ef30000
+pvrnxpdc 10490 0 - Live 0x7ef27000 (P)
+pvrsrvkm 146569 1 pvrnxpdc, Live 0x7eef3000 (P)
+vpmfbDrv 54716 2 - Live 0x7eedd000
+lnxpvrDrv 424814 5 snd_cnxt,vpmfbDrv, Live 0x7ee5e000
+lnxtmvssDrv 3292250 2 vpmfbDrv,lnxpvrDrv, Live 0x7eaf9000 (P)
+lnxtmasDrv 444906 3 snd_cnxt,lnxpvrDrv,lnxtmvssDrv, Live 0x7ea7a000 (P)
+lnxcssDrv 908937 7 snd_cnxt,lnxpvrDrv,lnxtmvssDrv,lnxtmasDrv, Live 0x7e97a000 (P)
+lnxfssDrv 287323 1 lnxpvrDrv, Live 0x7e925000 (P)
+lnxscsDrv 288670 6 snd_cnxt,vpmfbDrv,lnxtmvssDrv,lnxtmasDrv,lnxcssDrv,lnxfssDrv, Live 0x7e8d1000
+lnxplatDrv 400845 9 snd_cnxt,lnxpvrDrv,lnxtmvssDrv,lnxtmasDrv,lnxcssDrv,lnxfssDrv,lnxscsDrv, Live 0x7e858000
+lnxnotifyqDrv 21444 7 lnxpvrDrv,lnxtmvssDrv,lnxtmasDrv,lnxcssDrv,lnxfssDrv,lnxscsDrv,lnxplatDrv, Live 0x7e84c000
+lnxKKALDrv 181288 14 snd_cnxt,pvrnxpdc,pvrsrvkm,vpmfbDrv,lnxpvrDrv,lnxtmvssDrv,lnxtmasDrv,lnxcssDrv,lnxfssDrv,lnxscsDrv,lnxplatDrv,lnxnotifyqDrv, Live 0x7e80f000
+lnxplatnativeDrv 31831 1 lnxplatDrv, Live 0x7e800000
+
+Audio
+Content
+FrontEnd
+KAL
+PVR
+Video
+
+./audio/lnxDrv/comps/lnxtmasUsr/src/tmasInit.c
+./video/lnxDrv/comps/lnxtmvssUsr/src/vssInit.c
+./platform/lnxKAL/comps/lnxUKAL/src/linukal_thread.c
+
+target/src/sd/platform/lnxKAL/comps/lnxKALIO/inc/lnxKALIO_*
+ioctl调用号(cmd)定义
+
+./platform/lnxKAL/comps/lnxKALIO/src/lnxKALIO.c
+cnxt_lnx_ukal_ioctl
+
+cnxt_audio_drv_ioctl
+cnxt_vss_drv_ioctl
+cnxtfb_ioctl
+cnxt_scd_module_ioctl
+cnxt_demod_ioctl
+cnxt_fss_drv_ioctl
+cnxt_lnx_demod_ioctl
+cnxt_lnx_notifyq_ioctl
+
+--
+platform
+
+tmplatAtag/
+tmplatCheckpoint/
+tmplatClocklib/
+tmplatDma/
+tmplatEeprom/
+tmplatGpio/
+tmplatHandle/
+tmplatHeap/
+tmplatIic/
+tmplatIrblaster/
+tmplatIrrx/
+tmplatLcdPanel/
+tmplatModem/
+tmplatPanelButtons/
+tmplatPanelLeds/
+tmplatPll/
+tmplatPwm/
+tmplatQueue/  ***
+tmplatSerial/
+tmplatSerialRedirector/
+tmplatSpi/
+tmplatVersion/
+tmplatVsmDma/
+
+target/src/sd/pvr/lnxDrv/comps/lnxpvrDrv/src/cnxt_pvr_drv_module.c
+/* Array of pointers to an array of function pointers*/
+CNXT_LNX_PAFN cnxt_pvr_drvs[]  = {
+   pipe_pipeline_fn,           /*   PIPE_LNX_DRIVER_PIPELINE, */
+   pipe_tuner_fn,              /*   PIPE_LNX_DRIVER_PL_TUNER, */
+   pipe_audio_fn,              /*   PIPE_LNX_DRIVER_PL_AUDIO, */
+   pipe_video_fn,              /*   PIPE_LNX_DRIVER_PL_VIDEO, */
+   pipe_demux_fn,              /*   PIPE_LNX_DRIVER_PL_DEMUX, */
+   pipe_demux_filter_fn,       /*   PIPE_LNX_DRIVER_PL_DEMUX_FILTER, */
+   pipe_audio_presentation_fn, /*   PIPE_LNX_DRIVER_PR_AUDIO, */
+   pipe_video_presentation_fn,  /*   PIPE_LNX_DRIVER_PR_VIDEO, */
+   cnxt_playback_fn,                  /* CNXT_LNX_DRIVER_PLAYBACK*/
+   cnxt_record_fn,                     /* CNXT_LNX_DRIVER_RECORD */
+#if(VIDEO_VIP656_BASEBAND_INPUT == YES)
+   pipe_avinput_fn
+#endif
+};
+
+pipe_demux_fn
+	pipe_lnx_demux_obj_open
+		/* populate the type for the object */                                                                                
+   		pObj->Type       = PIPE_DEMUX_OBJ_TYPE;                                                                               
+   		/* populate the method for the object */                                                                              
+   		pObj->get_attrib          = pl_demux_get_attrib;                                                                      
+   		pObj->subscribe_event     = pl_demux_subscribe_event;                                                                 
+   		pObj->config              = pl_demux_config;                                                                          
+   		pObj->add_filter          = pl_demux_add_filter;                                                                      
+   		pObj->remove_filter       = pl_demux_remove_filter;                                                                   
+   		pObj->set_video_pid       = pl_demux_set_video_pid;                                                                   
+   		pObj->set_audio_pid       = pl_demux_set_audio_pid;                                                                   
+   		pObj->record_config       = pl_demux_record_config;                                                                   
+   		pObj->record_pid_config   = pl_demux_record_pid_config;                                                               
+   		pObj->demux_play_ctrl     = pl_demux_play_ctrl;                                                                       
+   		pObj->demux_record_ctrl   = pl_demux_record_ctrl;                                                                     
+   		pObj->set_pcr_pid         = pl_demux_set_pcr_pid;                                                                     
+   		pObj->clock_recovery_ctrl = pl_demux_clock_recovery_ctrl;                                                             
+   		pObj->set_descrambler_key = pl_demux_set_pid_descrambler;                                                             
+   		pObj->set_descrambler_iv =  pl_demux_set_pid_descrambler;  
+
+PVR (Personal Video Recorder) features are provided by the TSP to support recording and
+playback of MPEG programs.
+</code> </pre>

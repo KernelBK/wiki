@@ -1,0 +1,37 @@
+
+f=/workspace/trident/trident_kronos_android_4.0.3/SRC
+
+= check out android source 4.0.3 =
+repo init -u /workspace/aosp_mirror/platform/manifest.git --repo-url=/workspace/aosp_mirror/tools/repo.git/ -b android-4.0.3_r1
+repo sync
+repo start 4.0.3 --all
+repo branches
+
+----
+= android 源码编译 =
+cd $f/open_source_archive/linux/android/ics_403
+make android_install  #主要是打补丁。
+make compile		
+make copy_system_tar  #打包成指定的文件，然后复制到指定位置。
+cp ics_system.tar.gz ../
+
+= trident sdk 编译 =
+cd $f
+source pnx8400_a9_env.sh stb498_667Mhz retail kronos_singlehd_license_free
+cd $f/target/build/systems/linux/android_test
+make
+make copy  #编译完android源码以后生成文件系统，将android生成的文件系统加入到这个sdk中，最后生成一个文件系统。
+
+= 文件系统 =
+tar xf $f/target/output/flash_bin/systems/android_test-stb498_667Mhz-kronos_singlehd_license_free-gcc-4.5.2_uclibc-x86_64-linux-retail/rootfs.tar.gz
+cd opt
+tar xf $f/target/output/flash_bin/systems/android_test-stb498_667Mhz-kronos_singlehd_license_free-gcc-4.5.2_uclibc-x86_64-linux-retail/appfs.tar.gz
+cd ..; ln -s opt/system .
+
+
+----
+
+- 4.8G	SRC/
+- 24G	android-4.0.3/
+- 13G	android-4.0.3/out/
+

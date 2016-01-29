@@ -1,0 +1,11 @@
+
+
+
+格，特殊的偏序集
+
+关系理论
+	lambda
+	表达式的求值过程映射成为对一个关系求自反传递闭包。
+	闭包可以抽象成为关系运算。
+
+Programming.Language.and.Lambda.Calculi

@@ -1,0 +1,5 @@
+
+
+performs mathematical operations on a sampled discrete-time signal to reduce or enhance certain aspects of that signal.
+
+[[iir_digital_filter]]

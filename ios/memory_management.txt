@@ -1,0 +1,12 @@
+
+
+谁创建，谁释放
+
+arc
+
+reference count
+
+alloc +1 
+retain +1
+
+cocoa

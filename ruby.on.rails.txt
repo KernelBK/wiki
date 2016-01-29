@@ -1,0 +1,21 @@
+
+Rails核心的ActiveRecord框架，就用元编程实现了一门简便易用的语言，以便编写连接数据库表的类。
+框架 Builder和ActiveRecord
+
+
+
+alluin one 的方式，相对的是搭积木的方式；
+
+rails
+
+model-view-controller mvc framework
+
+database, web services, web pages
+data transfer: json, xml
+display, ui: html, css, javascript
+
+CoC, [[convention.over.configuration]]
+[[active.record]]
+
+
+

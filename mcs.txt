@@ -1,0 +1,11 @@
+
+xapp518
+
+Intel MCS-86 Hexadecimal Object (MCS) file
+	ASCII text file
+	hexadecimal
+	<delimiter><DataLength><Address><RecordType><Data><CheckSum>
+	1			1			2		1			0-255	1
+	:			10			0000	00					xx
+	
+

@@ -1,0 +1,3 @@
+
+wifi的问题主要集中在usb上
+	usb vbus gpio

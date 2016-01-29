@@ -1,0 +1,5 @@
+
+Because XPS handles width and clock conversion configurations automatically
+
+1-16 masters and slaves
+

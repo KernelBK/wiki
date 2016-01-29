@@ -1,0 +1,16 @@
+
+[[5730]]
+
+Çø±ð
+	chip, 45t, 45
+	pcb, 
+		front spi code
+		pin
+	xilinx project, 
+		ngc related ip
+		aurora change to lvds
+
+lvds max bps 200mbsp
+required 32bit*2channle*2mbps sample rate = 128mbsp
+28*(4.0/(32+4)) = 14.3
+

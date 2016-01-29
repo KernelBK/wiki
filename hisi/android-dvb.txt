@@ -1,0 +1,1 @@
+HiSTBAndroidV400R001C00SPC020/software/ics/device/hisilicon/godbox/driver/sdk

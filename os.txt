@@ -1,0 +1,21 @@
+
+ microkernel
+
+virtualisation
+- [[kernel/index|linux-kernel]] //operation sytem
+- [[sel4]]
+- 
+- [[vmm]]
+
+
+windows
+linux
+unix
+rtos
+ucos
+rtlinux
+ecos
+[[VxWorks]]
+
+u-boot
+pmon

@@ -1,0 +1,3 @@
+
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\promgen -s 131072 -u 0 K7.bit  -spi -w -p mcs -o K7.mcs
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\promgen -s 65536  -u 0 45T.bit -spi -w -p mcs -o 45T.mcs

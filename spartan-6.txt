@@ -1,0 +1,27 @@
+
+io delay
+	ug831 select io
+		[[ds162]] data sheet
+
+memory interface
+	[[ug388]]
+	[[ug416]] Spartan-6 FPGA Memory Interface Solutions User Guide
+	Memory Interface Generator (MIG)
+	memory controller block (MCB)
+
+evaluation development board
+	spartan-6 sp605
+		device: xc6slx45t
+		fgg484
+		-3
+
+float ds335
+
+gtp ug386
+	
+device: xc6slx45t
+	fmul64, lo, 18
+	fmul32, lo, 14.727
+	fadd64, lo, 17.809
+	fadd64, lo, 2clk, 10.602
+	fadd64, lo, 3clk, 

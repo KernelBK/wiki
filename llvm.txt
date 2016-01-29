@@ -1,0 +1,92 @@
+
+http://clang.llvm.org/comparison.html
+
+http://llvm.linuxfoundation.org/index.php/Main_Page
+
+1. http://llvm.org/docs/GettingStarted.html
+- svn, git下载源码， 编译
+- 目录结构的描述
+- http://llvm.org/doxygen/
+- In LLVM, almost all code exists in libraries, making it very easy to share code among the different tools.
+llvm态度真好
+
+1. [使用Flex Bison 和LLVM编写自己的编译器](http://coolshell.cn/articles/1547.html)
+CMake
+
+1. [为LLVM移植一个新的后端所需的几个基本步骤](http://www.freescaleic.org/XiongfeiGUO/blog/09-05/170393_57ca4.html)
+
+- http://www.openhw.org/XiongfeiGUO/profile/ 
+clang c语言前端
+llvm-gcc
+
+成功的关键是性能和适应能力
+
+http://www.drdobbs.com/architecture-and-design/the-design-of-llvm/240001128
+
+1. [Mac OS X 背后的故事（八）三好学生Chris Lattner的LLVM编译工具链](http://www.programmer.com.cn/9436/)
+- 编译器已经学会了上面所介绍的内存管理规则，会自动在编译程序时把这些代码插进去。
+- LLVM作者 Chris Lattner ()
+	- 他的硕士毕业论文提出了一套完整的在编译时、链接时、运行时甚至是在闲置时优化程序的编译思想，直接奠定了LLVM的基础。
+	- 2000年LLVM开始开发，2005年Apple雇了Chris Lattner
+	- GCC的代码耦合度太高，不好独立，而且越是后期的版本，代码质量越差
+	- Mac OS X 10.6 Snow Leopard 完全得益于LLVM的技术
+	- Grand Centrual Dispatch所用到的“代码块”语法， 这被很多人看作是带lambda的C
+	- LLVM自身的新前端——Clang
+	- 错误提示更精确
+	- 既然你能发现我漏写了release，你为什么不能帮我自动加上呢？于是ARC被集成进Clang
+	- 原生支持调试多线程程序的调试器LLDB
+	- C++0x标准
+	- libc++则原生支持C++0x
+	- BSD代码整体要比GNU的高一些，GNU代码永无休止地出现各种严重的安全问题
+	- GPL协议第三版发布时，和FreeBSD的协议甚至是冲突的。这也正是为什么FreeBSD中包含的GNU的C++运行库还是2007年以GPLv2发布的老版本，而不是支持C++0x的但依GPLv3协议发布的新版本。
+	
+
+1. clang前端已经代替了lex, yacc
+
+
+1. [Linus Torvalds的短视](http://www.programmer.com.cn/6617/)
+- Apple重要的是利益而不是折腾，即使是开源也是利益驱动。
+- 像类似Linux开发组那样自以为是但代码又写得差的开源项目，Apple事后也遇到不少，比如GCC编译器项目组[1]。虽然大把钞票扔进去，在先期能够解决一些问题，但时间长了这群人总和Apple过不去，并以自己在开源世界的地位恫吓之，最终Apple由于受不了这些项目组人员的态度、协议、代码质量，觉得还不如自己造轮子来得方便，因此Apple推动了类似LLVM这样宏伟的项目，并且在短短几年内，使其成为最领先的开源软件技术。这无异于扇了Linux小组、GCC小组一记响亮的耳光。
+
+1. 2007-07-25-LLVM-2.0-and-Beyond.pdf
+	
+1. Introduce LLVM from a hacker’s view.
+
+1. [從LLVM談 Portable Native Client Software Fault Isolation技術](http://loda.hala01.com/2012/07/%E5%BE%9Ellvm%E8%AB%87-portable-native-client-software-fault-isolation%E6%8A%80%E8%A1%93/)
+- 「不，知識是有限的，只有愚蠢才是無限的。」by  叔本華
+- Google的Native Client技術
+- Google將LLVM的跨平台特性與Native Client進行結合,發展了名為Portable Native Client的新技術,讓基於LLVM所開發的BitCode可以透過瀏覽器下載到不同的平台上,再藉由PNaCl Translate技術,把BitCode根據不同平台的差異轉為適應於該平台的Native Code,並藉由原本的Native Client SFI 技術,確保既有跨平台的特性,又兼顧潛在的安全問題.
+
+
+# llvm bitcode
+http://llvm.org/docs/BitCodeFormat.html
+
+LLVM (Low Level Virtual Machine) 筆記   http://loda.hala01.com/2012/05/llvm-low-level-virtual-machine-%E7%AD%86%E8%A8%98/
+	C/C++ 都可以直接編譯為LLVM BitCode
+	所產生的BitCode除了可以透過LLI（LLVM Interpreter)執行外,也可直接轉譯為所在平台的機械碼
+	c/cpp代码一次编译就可以取得跨品台的特新
+	http://arstechnica.com/apple/2007/10/mac-os-x-10-5/11/#llvm
+	http://arstechnica.com/apple/2009/08/mac-os-x-10-6/9/
+	http://linuxtoy.org/archives/llvm-and-clang.html   LLVM 与 Clang 介绍
+	SSA (Static Single Assignment)
+	當BitCode要執行時,還需要透過LLI (LLVM Interpreter)或LLC (LLVM Compiler)來進行直譯或是編譯為目標平台原始碼的過程.
+	LLVM延伸的重要應用Native Client(Nacl) 與 Portable Native Client (PnaCl).
+	Google 瀏覽器Chrome 10之後加入對Native Client的支援.   類似微軟早期在Internet Explorer上支援的 ActiveX OCX元件
+	http://code.google.com/p/ppapi/wiki/Concepts  Native Client Pepper v2  
+	LLVM Assembly,最值得參閱的文件為’ LLVM Language Reference Manual’,可參考的網頁位置在http://llvm.org/docs/LangRef.html 
+	
+	愛因斯坦說,“ 在科學上,每一條道路都應該走一走. 發現一條走不通的道路,就是對於科學的一大貢獻.科學史只寫某人某人取得成功,在成功者之前探索道路，發現 ‘此路不通‘ 的失敗者統統不寫,這是很不公平的“ 
+	法拉第曾說,“ 人心是偏向於錯誤的,人會在自己強烈需要的事情上,欺騙自己.即使尋找印證，也要符合自己的欲望“
+	
+從LLVM談 Portable Native Client Software Fault Isolation技術 	http://loda.hala01.com/2012/07/%E5%BE%9Ellvm%E8%AB%87-portable-native-client-software-fault-isolation%E6%8A%80%E8%A1%93/
+	「不，知識是有限的，只有愚蠢才是無限的。」by  叔本華
+	安全機制確保
+		User/Kernel Mode
+		Virtualization
+		Inner/Outer Sandbox機制 SFI( Software Fault Isolation) LLVM與Google的Native Client
+	Google將LLVM的跨平台特性與Native Client進行結合,發展了名為Portable Native Client的新技術
+		讓基於LLVM所開發的BitCode可以透過瀏覽器下載到不同的平台上,再藉由PNaCl Translate技術,把BitCode根據不同平台的差異轉為適應於該平台的Native Code,並藉由原本的Native Client SFI 技術,確保既有跨平台的特性,又兼顧潛在的安全問題.
+	Portable NaCl SFI
+		1,Native Client: A Sandbox for Portable, Untrusted x86 Native Code (In the 2009 IEEE Symposium on Security and Privacy,http://research.google.com/pubs/pub34913.html)
+		2,Adapting Software Fault Isolation to Contemporary CPU Architectures (Publication Year 2010,http://research.google.com/pubs/pub35649.html)
+		

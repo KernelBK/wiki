@@ -1,0 +1,15 @@
+
+u-boot中没有网络，无法从nfs启动。
+
+整个img文件，包含boot,system,recovery...是怎么合成的? 烧写工具又是怎么区分和划分分区。
+
+Q: Dianxinos 
+	Include Dianxinos Files for ODM build
+
+ssh://SuoZhi@221.4.213.95/git_repo/crane_sdk_docs.git
+
+http://www.cnx-software.com/2012/05/06/editing-allwinner-a10-board-configuration-files-script-bin/
+	bin2fex evb.bin > evb.fex 已经被人破解
+		https://github.com/amery/sunxi-tools
+
+

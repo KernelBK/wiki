@@ -1,0 +1,8 @@
+
+
+1. svn ci
+1. blvds_trans_check 仿真。
+	结果，能够接收发送的0
+ 
+1. blvds接口需要修改为1根线，不能使用usb 的se0判断传输结束。
+1. 

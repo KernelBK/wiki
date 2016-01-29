@@ -1,0 +1,26 @@
+
+编程语言理论 programming.language.theory 
+
+微积分
+线性代数
+概率
+具体数学
+数学分析
+抽象代数
+[[离散数学]]
+形式逻辑 formal.logic
+一阶逻辑 first-order logic
+数理逻辑
+	霍恩子句 [[horn.clause]]
+
+
+reflective	反射 [[离散数学]]
+泛函 functional, 函数式 语言更依赖数学，
+	数学中，函数，一个定义域到值的映射
+	计算机，procedure, function
+	确定性 副作用， 函数外的变量导致输入和输出的关系不一定。
+	纯函数语言中，通过变量不可变，保证了编程语言中的函数和数学中的函数一致性。a=a+1是不行的。
+
+
+程序设计语言理论基础
+

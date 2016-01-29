@@ -1,0 +1,8 @@
+
+foundation
+[[free.software.foundation]]
+apache
+open [[osf]] 
+mozilla
+linux
+

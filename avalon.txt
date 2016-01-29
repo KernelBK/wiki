@@ -1,0 +1,15 @@
+
+arbitration shares
+
+like ahb burst split 
+
+
+# timing
+	setup
+	read wait
+	write wait
+	hold
+
+pipelined transfers
+ready latency
+

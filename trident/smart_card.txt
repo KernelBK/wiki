@@ -1,0 +1,151 @@
+/home/jinglun/h1/trident/others/smc_demo/
+
+/home/jinglun/h1/trident/sdk/target/src/sd/content/drivers/comps/tmcssSmartcard
+
+/home/jinglun/h1/trident/sdk/target/output/objs/summit-dualhd_license_free-gnu-4.4.0-linux-debug/comps/generated/lib/armgnu_linux_el_cortex-a9/_flo_linux_mp_g
+/home/jinglun/h1/trident/script
+./shared_lib_make.sh
+
+cnxt_smc_init
+	internal_smc_event_handler_task
+
+----
+
+smart card驱动
+target/src/sd/content/drivers/comps/tmcssSmartcard/src/smc_instance.c
+
+编译 
+source /home/jinglun/h1/trident/build/h1_env
+make
+
+wget ftp://172.16.55.90/smc_demo -O /smc_demo
+
+----
+
+卡读写测试程序
+/home/jinglun/h1/trident/others/dvb/smc_demo3/
+
+编译后，驱动模块的位置
+cp /home/jinglun/h1/trident/sdk/sdk_out/rootfs/lib/modules/2.6.34/extra/lnxcssDrv.ko /ftp
+cp /home/jinglun/h1/trident/sdk/sdk_out/rootfs/opt/lib/liblnxcssUsr.so /ftp
+
+wget ftp://172.16.55.90/lnxcssDrv.ko -O /lib/modules/2.6.34/extra/lnxcssDrv.ko
+
+echo 0 > /sys/class/gpio/gpio80/value
+
+
+- [[h2dvbc]]
+
+# code 
+
+target/src/sd/content/drivers/comps/tmcssSmartcard/src/smc_prv.c
+
+	internal_smc_isr
+		// 处理卡插入，拔出，掉电
+		// ATR超时
+		// 接收数据
+		// 发送数据
+		internal_smc_atr_complete //接收的协议判断
+		internal_smc_parse_atr
+
+	cnxt_smc_get_atr
+	internal_smc_get_atr
+		pUnitInst->pCard->uAtr
+
+
+	cnxt_smc_init
+		/* Power Management Initialization */  
+   		gSMCDriverInst.SMCPmOps.request =  internal_smc_pm_request;    
+   		gSMCDriverInst.SMCPmOps.prepare =  internal_smc_pm_prepare;     
+   		gSMCDriverInst.SMCPmOps.execute =  internal_smc_pm_execute;     
+   		gSMCDriverInst.SMCPmOps.complete=  internal_smc_pm_complete;    
+   		gSMCDriverInst.SMCPmOps.recover =  internal_smc_pm_recover;     
+   		Retcode = internal_smc_pm_init(&gSMCDriverInst.SMCPmOps); 
+		
+		internal_smc_init_hardware
+
+	SMC_INT_CARDUNPOWERED_MASK //卡电源电压
+	
+	PIO_SC0_VOLT_CTRL //3V，5V电压选择
+
+	cnxt_smc_powerdone_card
+		internal_smc_powerdone_card
+
+	internal_smc_read_write
+		internal_smc_new_rw_job
+		internal_smc_start_rw_job
+			CNXT_SMC_RW_JOB_DESCRIPTOR
+			pRwJob->puTxPtr          = pToSmcBuf; // 要写入数据的指针。
+			uBytesToFifo = NUM_SMC_DATA; // 发送的数据量大于NUM_SMC_DATA，只发NUM_SMC_DATA个数据，其他的数据在中断中发送。
+				NUM_SMC_DATA // 值为16，是smc发送fifo的大小。	
+			internal_smc_isr // 中断处理函数里面也要处理数据的收发。
+				uBytesinFifo = pCard->pRwJob->uBytesToTx;  // 处理没有发送完的数据。
+				中断里面数据还没有发送完，还会继续调用internal_smc_start_rw_job进行发送
+		SMC_CHTIME_REG 超时有专门的寄存器。
+	
+	cnxt_smc_set_config_timeout
+		The function cnxt_smc_set_config_timeout() can be used to set the time out value for the data transaction. 
+		CNXT_SMC_CONFIG_TIMEOUT    Timeout
+		uBlktime = uWwiValue * iBaudRateTable[pCard->CommParam.uDI] * 960;
+		
+
+	典型的fifo设备驱动，在把数据发送给fifo的时候，会判断fifo的状态，如果fifo还有空间就发送数据。
+	trident的smc驱动的思路是以一个fifo长度的数据为一组进行发送，这样使用fifo没有让fifo起到作用。
+
+target/src/sd/content/drivers/comps/tmcssSmartcard/src/smc_instance.c
+
+## user space ioctl call
+
+cnxt_smc_get_atr
+	NXT_LNXDRV_IOCTL(css_fd,CNXT_LNX_CSS_DRIVER_SMC, CNXT_SMC_GET_ATR_FN, stGetAtr);
+		cnxt_css_drv_ioctl
+			cnxt_css_drvs
+				cnxt_smc_fn
+					cnxt_lnx_smc_get_atr // copy to user
+						cnxt_smc_get_atr
+=======
+
+---
+白卡
+answer to reset (16B)
+3b 6c 00 02 83 01 86 38 dc 08 30 67 16 03 13 47
+
+TS	3b
+T0	6c
+	Y1 = 6 (0110) TB1,TC1 使用T=0协议
+	K  = c
+
+TA TB TC TD	
+00 02 83 01
+86 38 dc 08
+30 67 16 03
+
+命令：00 A4 04 00 05 F9 5A 54 00 06
+应答：6a 81 
+
+
+smart卡的命令。
+选择主目录：00 A4 00 00 02 3F 00 
+取随机数： 00 84 00 00 08 
+
+---
+永新卡
+测试命令。
+00 A4 04 00 05 F9 5A 54 00 06
+
+永新卡的ATR
+3b 6c 00 00 4e 54 49 43 32 6b 70 06 4a 03 00 00 
+
+
+---
+武汉广电
+3b 6c 00 00 4e 54 49 43 31 90 59 11 4a 03 00 00
+
+
+internal_smc_init_pll_clock
+	internal_smc_cal_numerator_denominator
+
+----
+卡需要支持T1, T14, PPS
+
+ca接口采用7816协议。

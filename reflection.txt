@@ -1,0 +1,14 @@
+	reflection type.[[introspection]] 反射 自省
+
+对象是如何在运行期取得自身信息
+如果传一个对象给你，你可以查出它有什么
+能力
+
+python
+	dir()
+	type()
+	__dict__
+	__name__
+	__doc__
+
+

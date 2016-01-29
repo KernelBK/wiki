@@ -1,0 +1,6 @@
+
+1.3 是python2
+wordhelperwin 是python没有词频功能。
+
+http://wordhelper.weebly.com/index.html
+ https://github.com/long5092/wordhelper 

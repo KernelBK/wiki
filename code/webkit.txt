@@ -1,0 +1,10 @@
+
+
+parsing : html xml css js
+layout
+rendering : text graphics
+image decoding
+gui interaction
+network access
+hardware acceleration
+

@@ -1,0 +1,9 @@
+
+下拉刷新特效
+
+EGORefreshTableHeaderDelegate
+
+
+	ViewDidLoad
+		view.delegate = self;
+		_refreshHeaderView = view;

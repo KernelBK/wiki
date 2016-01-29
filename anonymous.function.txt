@@ -1,0 +1,11 @@
+
+also known as [[lambda.expression]]
+
+closure
+currying
+
+python
+	map
+	filter
+	fold
+

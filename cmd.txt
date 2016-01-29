@@ -1,0 +1,58 @@
+
+xcopy /e /y /d 
+
+目录下shift+右键，在此处打开cmd窗口
+
+for %%i in () do (
+)
+
+列出当前目录下的所有子目录
+for /f "delims=" %%a in ('dir/ad/b .') do (
+	echo %%~nxa
+	echo %%~fa
+)
+
+列出当前目录下所有.git的目录
+for /r %cd% %%i in (.git) do (	if exist %%i (
+			echo %%i
+		)
+	)
+
+set /a t=%time:~0,2%
+if %t% gtr 20 (goto :redo)
+if %t% lss  8 (goto :redo)
+
+
+set /p path="path:"
+
+netstat -ano
+
+mspaint
+
+@echo off
+set tree_file="tree_%date:~0,10%.%time:~0,2%.txt"
+echo %tree_file%
+tree /f . > %tree_file%
+
+需要设置时间格式，yyyy-mm-dd
+# bad
+set dt="%date:~0,10%.%time:~0,2%%time:~3,2%"
+
+# good
+set hh=%time:~0,2%
+set dt=%date:~0,10%.%hh: =0%%time:~3,2%
+
+set /a t=%time:~0,2%
+
+# subdir find .git 
+for /r %cd% %%i in (.git) do (	if exist %%i (
+			echo %%i
+			cd %%i 
+			cd ..
+			git svnup
+		)
+	)
+
+:redo
+goto :redo
+

@@ -1,0 +1,21 @@
+The activity arrow is displayed in black if the activity is synchronous and red if it is asynchronous.
+aurora k7 pcard 仿真
+
+K6 rxp
+K5 rxn
+
+liyongqiang(李永强)  14:22:27
+热烈祝贺：
+南京同事：周明威成交HPC-3000---100套，后续机会有4-500套
+终端客户：库柏电子科技（上海）有限公司 
+购买方：上海通伊洲工贸有限公司 
+过程：经过努力，明威推荐客户搭载Zigbee模块手持机HPC-3000以及单独Zigbee模块，对客户的GPRS模块以及手持设备进行替换，成功实现销售！
+liyongqiang(李永强)  14:27:11
+华东同事非常给力
+另外，徐双莲，也成功销售我们HPC-6000超高频机器项目20台，首期先出货1台进行调试，是我们最高级的手持机设备，全公司该产品销售第一人；
+机器配置：超高频RFID+3G+二维+GPS+摄像头
+继续热烈祝贺和表扬！
+
+
+global history
+

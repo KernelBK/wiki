@@ -1,0 +1,5 @@
+http://linux.sgms-centre.com/misc/netiquette.php 
+
+1. 在当前的版本分支下重行配置sys_config1 
+1. ctp 中断需要进一步处理
+

@@ -1,0 +1,12 @@
+
+PING (Packet InterNet Groper)
+
+traceroute
+
+PING用来测试两个主机之间的连通性。
+?
+PING使用了ICMP回送请求与回送回答报文。
+?
+PING是应用层直接使用网络层ICMP的例子，它没有通过运输层的TCP或UDP。
+ q	
+

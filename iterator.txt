@@ -1,0 +1,8 @@
+
+将算法和数据结构解耦
+使用Iterator迭代过程中，不可修改集合元素
+
+stl
+
+从first(含first)到last(不含last)的区间
+

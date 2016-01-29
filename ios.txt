@@ -1,0 +1,31 @@
+[[ios/index]]
+
+[[ios_app]]
+[[关屏录像]]
+
+
+#iphonedev on irc.freenode.net
+
+
+[http://www.ef.com.cn/labs/zh-cn/job.aspx]
+
+3.  对Cocoa/UIKit框架及iOS SDK有深入理解
+
+4.  精通Xcode工具系列，包括Interface Builder 和 Instruments/Shark
+
+7.  对流程管理，如Agile有实践经验
+
+第一阶段：语言基础
+
+Mac系统使用、常用UNIX指令、C语言、Objective-C语言、Foundation框架。
+第二阶段：iOS基础
+
+AppDelegate & UIApplication，基本控件（IBOutlet & IBAction），Controller & View，设备旋转及屏幕适配，UIView Animation & 核心动画，Quartz2D，手势处理 & 加速计，音频、音效及音频处理工具，多媒体：视频、相机、相册、滤镜，手机功能：电话、短信、通讯录，本地化。
+第三阶段：iOS高级
+
+数据存储：NSCoder、SQLite、Core Data，网络交互及多线程，设计模式：MVC、单例、观察者、代理，高级控件优化、自定义控制器容器，开发者账号申请，真机调试，发布应用，内购，支付，流媒体，加密，广告，Game Center & 社交服务（新浪、Facebook、Twitter），iCloud，Map kit & Core Location，推送机制，蓝牙连接，内存分析工具，单元测试，XMPP，iOS7新特性，Auto Layout，Images.xcassets，Sprite Kit Game，源代码管理工具：svn & git，二维码。
+第四阶段：Cocos2d-x
+
+简介 & 安装，场景图，Node、Director、Scene、Layer、Sprite、Label、Menu、Action、 Schedule……多场景切换，精灵及纹理 & Texture Packer，滚屏处理，粒子效果&粒子编辑器，瓦片地图 & 地图编辑器，Box2D&Physics Editor。
+（项目实战贯穿在各个阶段）
+

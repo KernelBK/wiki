@@ -1,0 +1,62 @@
+
+为啥随手发的牢骚有人看，辛苦写的文章没人看呢
+
+---- 
+
+# 博客 http://tianchunbinghe.blog.163.com
+
+1. [写在离开网易一周年之际 ](http://tianchunbinghe.blog.163.com/blog/static/70012012614115741163/)
+- 里面也有很多优秀的员工和即便还不那么优秀但也很热爱工作的员工，这就给那些有事业心的人提供了相当不错的平台。
+- 公司的缺点基本只在管理层上，越往上越差。
+- 但真正让我得以在职业道路上顺风顺水的原因，还是我明确的定位：我要在有限的三年时间里把我为之奉献多年的软件彻底维护好，其他一切都是次要的。后来逐渐地，所有人都看出了这一点，包括竞争对手在内，这样一来各种事情反而好办了；没有私心的人通常很难对付，而与我为敌经常会站在产品的对立面上。
+- 我要把从自然语言里学到的比较语言学知识用在计算机语言里，将计算机语言的发展史视为数千年里人类语言发展史的缩影。
+- 一年中的大部分日子我都可以整天沉浸在技术工作中，高效率地处理各种问题而几乎不需要和领导或者其他同事讨论。这正是我期待的工作环境。
+
+1. [告别网易](http://tianchunbinghe.blog.163.com/blog/static/70012011612103841288/)
+- 丁磊始终无法理解我多年来对 Lisp 事业的执着和我在该领域的成就，甚至因为我的关系对这门语言深恶痛绝；为了纠正这种不正确的主张，我有必要彻底投身该领域，并将之在国内发扬光大。
+- 最重要的就是安抚过去手下的兄弟们——受过气的帮他们出气，钱不够的找老板要钱。
+
+1. http://tianchunbinghe.blog.163.com/blog/static/700120126211101474/
+- [国际 Lisp 会议](http://www.international-lisp-conference.org/2012/index.html)
+- http://common-lisp.net/project/cl-net-snmp/
+- Alpha 工作站
+-  Symbolics Open Genera 2.0 
+-  AlphaStation DS10 工作站 
+-  Tru64 Unix 4.0F操作系统
+- Lisp Machine 
+- 让世界理解当初 MIT 那帮 Lisp 黑客们究竟达到了怎样的高度
+- Structured FrameMaker 排版工具和传统排版工具的不同
+- 排版软件的极限，问题在于所有的段落样式之间都是扁平关系，标题和正文之间显然具有某种从属关系，但软件并不知情，也无法表达这种关系。
+- FrameMaker 在最后几个大版本里引入的 Structure Authoring 特性（结构化创作）解决了这个问题。现在 FrameMaker 可以将整个文档视为一个树状的结构，用户通过定义样式和各种样式之间的从属关系能够将整个文档按照其本身的逻辑结构分层管理。
+- http://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture
+- http://en.wikipedia.org/wiki/S1000D
+
+1. [Lisp 宣言 ](http://tianchunbinghe.blog.163.com/blog/static/70012009222374381/)
+- 从本质上来讲都跟我不幸生在了中国有关。
+- 我做事一直试图同时满足三个原则：1. 具备法律依据和理论支持；2. 遵循社会公序良俗；3. 追求长远利益。
+- 用知识和思想武装自己以免受社会阴暗面的腐蚀
+- Lisp 先驱们正在排着队依次离开人世，或者在经历了创业的失败之后逐渐淡出人们的视线。
+- 要想充分了解一个事物的本质，必须首先去了解它的整个历史。
+- 很多人都不相信，30 年前的规模达几十万行甚至上百万行代码的商业 Lisp 软件至今仍然无与伦比。
+- 规模达 100 万行核心 Lisp 代码的古老软件 (Gensym G2)
+
+1. http://tianchunbinghe.blog.163.com/blog/static/700120111071352730/?suggestedreading&wumii
+- 可以说Lisp语言家族长达50年的发展史就是整个计算机发展史的缩影。
+- 如果要用一句话来描述Common Lisp中的OO与C++/Java/SmallTalk等语言的OO有何不同，那就是Common Lisp对象系统完全不是基于消息传递的，而是基于广义函数的。
+- 通过加载补丁，Lisp系统可以在运行中被任意修改，这对24×7的服务端程序的平滑升级尤为有利。
+- Clojure 高速发展中的新兴Lisp方言
+- 前缀表达式是有很多优点的：首先它彻底消除了运算符结合性问题，令表达式毫无歧义可言；其次它让语言处理器更加简单高效，避免了语法分析的困难。
+- 《On Lisp》（作者Paul Graham，也就是《黑客与画家》一书的作者）
+- C和Lisp是编程语言的两个极端
+- http://common-lisp.net/project/lispbox/
+- 洪峰？曾经在国内的一位lisp大牛，现在移民苏黎世了。 http://www.hongfeng.ch/   
+
+1.  [侃侃那些美丽的编程语言（上） ](http://blog.csdn.net/albert_lee/article/details/5578781)
+- http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+- 巴克斯的题目就是： 程序能从冯诺依曼体系中摆脱出来么？ 说的就是函数式语言。
+- 《Real World Haskell》
+- Haskell 的特点就是 纯函数式，强类型，惰性计算。
+- Smalltalk重新受到关注，是因为一个web框架： seaside。
+
+1. Lisp的永恒之道
+- 

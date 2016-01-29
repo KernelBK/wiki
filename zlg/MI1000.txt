@@ -1,0 +1,6 @@
+
+倡亭卩匂
+Normal、FM、AM、PM、FSK、PWM、Sweep、Burst、Noise、Arb、Pluse、DC
+
+humin
+

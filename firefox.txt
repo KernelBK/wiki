@@ -1,0 +1,22 @@
+
+[[FirefoxBuildEnv]]
+[[mozillaBuild]]
+mozilla_vm
+	root passwd:firefox-dev
+
+
+
+[[sqlite_manager]]
+
+http://shuai.be/archives/disable-firefox-view-pdf/
+在Firefox地址栏中输入 about:config 然后在里面搜索 pdfjs 然后双击 pdfjs.disabled 使其值由 false 变为 true。
+
+about:config
+将network.standard-url.escape-utf8改为false
+
+
+firefox下载的时候进行病毒扫描
+
+在地址栏输入about:config，找到Browser.download.manager.scanWhenDone，双击设置为false即可。
+
+

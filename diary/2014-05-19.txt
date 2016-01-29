@@ -1,0 +1,6 @@
+
+objc design pattern
+
+[[../xiaomi]]
+[[../meizu]]
+

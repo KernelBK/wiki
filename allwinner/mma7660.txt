@@ -1,0 +1,3 @@
+
+MMA 3-axis Accelerometer: 0.3 mA by Freescale Semiconductor Inc.
+	http://www.imhan.com/archives/97/

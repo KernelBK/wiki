@@ -1,0 +1,9 @@
+
+电机卡重新整理测频思路，重写模块。
+软核需要用到中断。
+
+新模块没有200k的更新信号
+	freq_update input write as output that is reversed.
+
+提高效率，流程，避免错误，团队
+

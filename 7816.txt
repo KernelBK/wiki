@@ -1,0 +1,66 @@
+
+协议的组织像公式一样。
+
+ISO 7816-3
+    signal level
+    the initial etu is 1/9600 s
+
+clk确定 baudrate=9600
+
+    卡插入信号：PD5
+    复位信号：PD7
+    I/O：TXD0 RXD0
+
+activation
+
+clk = 3.579Mhz = 3579000
+    reset 40 000 clock cycles =  40000*(1.0/3579000) 
+    (40000*(1.0/3579000)) / (1.0/(48000000/4))
+    0.001 / (1.0/(48000000/4))
+    12000000
+    clk cycle is differ from etu duration
+
+插卡->供电（无短路）->复位
+
+T=0
+    
+atr
+    和默认参数比较，如果比匹配，报告错误，停止读卡功能。
+    perform a deactivation when fial to get atr in a time
+    Parameters F, D, I, P, N
+        N = Extra guard time 
+        I P  = current voltage 
+        work etu = (1/D)*(F/fs) s
+    F = clock rate conversion integer
+    f = clk freq
+
+guard time
+    前后两个字符之间的最小时间间隔
+    GT=12 etu stop bit of uart = 2
+    min GT = 11 etu ?
+    GT = 12etu + R*N/f
+        作为串口接收从起始位开始，发送方给1,2个停止位没有影响，Extra guard time也不影响接收。
+        串口发送在N>0的时候需要考虑Extra guard time
+
+waiting time
+    前后两个字符之间的最大时间间隔
+        超时可以用来识别未响应的卡
+
+error and repetition
+    uart 有么？
+
+
+
+    串口0/1 波特率计算
+     
+    CPU时钟48MHz(CLKSPD[1:0]=10)
+     
+    使用Timer1作为波特率发生器，Timer1时钟源为CLKOUT/4(T1M=1)
+     
+    串口0/1波特率加倍(SMOD0/1=1)
+     
+    Baud Rate=2×CLKOUT/（32×4×（256-TH1））
+     
+    TH1 = 0xB2  Baud Rate = 9615
+     
+    TH1 = 0xAE  Baud Rate = 9146

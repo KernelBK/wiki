@@ -1,0 +1,11 @@
+
+45t自动配置脚本
+
+blvds debug 
+	k7 axi4lite xbar mb端没有连接时钟
+	write not respone
+		加入bvalid超时处理
+
+子卡没有做处理
+
+

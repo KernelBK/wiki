@@ -1,0 +1,26 @@
+fcal dut
+
+fcal verify
+	test
+	tb_top
+	axi agent
+	fcal_data agent
+		* c dpi gloden model
+			* call frm matlab
+		seqr	
+			* wave, noice generate
+	register file
+	
+axi bfm pgk
+	self verify
+
+axi module verify
+	uart
+	my axi module
+
+axi bus 
+
+fcal uvc
+axi uvc
+
+

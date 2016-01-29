@@ -1,0 +1,109 @@
+
+
+./hdisk/applib/libY1120-jinglun-PNX847-20120425D.so
+./hdisk/applib/libh2dvbc.so
+./hdisk/apps/h3.digital
+
+/home/jinglun/h1/trident/others/player/h2dvbc/main.c
+/home/jinglun/h1/trident/others/player/h2dvbc/smart_card.c
+
+= bug fix =
+
+/sys/devices/platform/gpio_apollo.1/gpio/gpio101/value
+
+
+# code
+
+h2dvbcUI/Makefile
+
+	PROGRAMS := h3.digital
+
+h2dvbcUI/tvMain.c
+
+	main
+		clutter_main
+
+	tvInit
+	g_tvUi
+
+h2dvbc/db_interface.c 
+  操作的下面的数据结构，提供操作他们的接口。
+
+	P_NODE db_view[MAX_PROGRAM_NUM];                                                                                                      
+	UINT16 db_tv_view[MAX_TV_NUM];                                                                                                        
+	UINT16 db_radio_view[MAX_RADIO_NUM];                                                                                                  
+	P_NODE db_search_view[MAX_SEARCH_PROGRAM_NUM];                                                                                        
+	SYSTEM_DATA system_config; 
+	
+h2dvbcUI/tv.c
+  主要负责界面的显示
+
+	tvPlayMain
+		tvPlay
+		iptvplay
+
+h2dvbcUI/clistview.c
+  网格控件源程序 
+
+h2dvbcUI/tvPlayMain.c 
+
+	play_init
+		play_handler_thread
+			play_channel
+				FE_297e_SearchParams_t search_param; 
+				search_param.Frequency_Khz = p_node.Frequency_Khz;  
+				search_param.Modulation = p_node.Modulation;  
+				lock = tuner_frequency_search(&search_param);
+				play_change_program  // h2dvbc/main.c 换台
+				
+				
+h2dvbc/main.c
+  播放和CA访问接口 
+
+	play_change_program
+		SYS_LIVE_PIPELINE_CONFIG    LiveCfg; // trident sdk
+		play_create_config_objects(LiveCfg); 
+		pSysTestPipeObj[i] = PIPE_OBJ_CREATE ( pipeline );
+		internal_sys_test_config_channel(&LiveCfg, i, TRUE, FALSE, 0)
+		PIPE_PIPELINE_CFG PipeCfg; 
+		if(pSysTestPipeObj[i]->config ( pSysTestPipeObj[i], &PipeCfg ) != PIPE_STATUS_OK) 
+		dtv_reconfig_codec(&LiveCfg, i, TRUE, FALSE, 0);   
+		internal_sys_test_start_live(&LiveCfg, i, FALSE, 0)
+		set_cur_play_video_audo_pid(p_node.video_pid,p_node.audio_pid);  
+		open_cat_pmt_monitor_resource(p_node.pmt_pid);
+		h2_player_enable_surface(true); 
+
+		CNXT_SMC_CONFIG_TIMEOUT    Timeout
+		ca_type = get_ca_type();  // 决定使用那家的CA
+		tf_lock_service
+		dvt_lock_service
+		ca_close_ecm_emm
+
+h2dvbc/cas_com.c
+  ecm, emm授权信息
+
+	set_cur_play_video_audo_pid
+	ca_close_ecm_emm
+	get_ca_type
+
+h2dvbc/psi_si.c
+  节目信息
+
+	open_cat_pmt_monitor_resource
+
+h2dvbc/tf_ca.c  
+   永新CA库接口
+
+	tf_lock_service
+	CDSTBCA_SCPBRun
+		SMCDataExchange
+
+h2dvbc/dvt_ca.c
+  数码CA库接口
+
+	dvt_lock_service
+	DVTSTBCA_SCAPDU
+
+h2dvbc/smart_card.c
+   smc接口
+

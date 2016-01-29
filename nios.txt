@@ -1,0 +1,23 @@
+
+Creating Memory Initialization Files
+1. nios ii Command Shell
+1. cd xxx; make mem_init_generate
+1. add *.qip
+1. 
+
+!jtag debug might be holding the cpu in reset
+
+·ÂÕæ£¿
+²»ÓÃeclipse?
+
+file:///D:/altera/12.0/nios2eds/documents/index.htm
+file:///D:/altera/12.0/nios2eds/documents
+
+reg base
+*_bsp/system.h
+
+
+# booting
+ cfi flash
+ epcs
+ on-chip ram

@@ -1,0 +1,47 @@
+
+https://svn/svn_projects_2014/PM201401080-02/Software/MBFPGA
+
+https://svn/svn_projects_2014/PM201401080-02/Hardware/                  
+liuyingbin=rw         # ÁõÓ¢±ó
+weixiaozhong=rw       # ÎºĞ¡ÖÒ
+liuyucai=rw           # ÁõÓñ²Å
+panchengfei=rw        # ÅË³É·É
+dongxu=rw             # ¶­Ğñ
+chenhongliang=rw      # ³ÂºìÁÁ
+ 
+https://svn/svn_projects_2014/PM201401080-02/Software/DSP/
+liuyingbin=rw         # ÁõÓ¢±ó
+weixiaozhong=rw       # ÎºĞ¡ÖÒ
+gongyujian=rw         # ¹­Óğ¼ı
+songyuanrui=rw        # ËÎÔªÈğ
+yangtao=rw            # Ñîèº
+ 
+https://svn/svn_projects_2014/PM201401080-02/Software/MBFPGA/
+liuyingbin=rw         # ÁõÓ¢±ó
+weixiaozhong=rw       # ÎºĞ¡ÖÒ
+huapixiang=rw         # »ªØ§Ïé
+tiancheng=rw          # Ìï³É
+https://svn/svn_projects_2014/PM201401080-02/Software/SAMPFPGA/
+liuyingbin=rw         # ÁõÓ¢±ó
+weixiaozhong=rw       # ÎºĞ¡ÖÒ
+yangyaowu=rw          # ÑîÒ«Îä
+ 
+https://svn/svn_projects_2014/PM201401080-02/share/
+liuyingbin=rw         # ÁõÓ¢±ó
+weixiaozhong=rw       # ÎºĞ¡ÖÒ
+liuyucai=rw           # ÁõÓñ²Å
+panchengfei=rw        # ÅË³É·É
+dongxu=rw             # ¶­Ğñ
+chenhongliang=rw      # ³ÂºìÁÁ
+gongyujian=rw         # ¹­Óğ¼ı
+songyuanrui=rw        # ËÎÔªÈğ
+yangtao=rw            # Ñîèº
+yangyaowu=rw          # ÑîÒ«Îä
+huapixiang=rw         # »ªØ§Ïé
+tiancheng=rw          # Ìï³É
+pangjun=rw            # ÅÓ¾ü
+jinyongkang=rw        # ½úÓÀ¿µ
+chenwenbin=rw         # ³ÂÎÄ±ó
+chenhongrui=rw        # ³ÂºéÈñ
+qinkun=rw             # ÇØÀ¤
+ 

@@ -1,0 +1,15 @@
+Bank=0 BankOffset=0x00D00000 PoolSize=0x00800000
+Bank=0 BankOffset=0x01500000 PoolSize=0x00040000
+Bank=0 BankOffset=0x01540000 PoolSize=0x01490000 //0x029d0000
+Bank=0 BankOffset=0x02A00000 PoolSize=0x00848000
+Bank=0 BankOffset=0x03248000 PoolSize=0x00090000
+Bank=0 BankOffset=0x03300000 PoolSize=0x00100000
+Bank=0 BankOffset=0x03400000 PoolSize=0x00180000
+Bank=0 BankOffset=0x03580000 PoolSize=0x00080000
+Bank=0 BankOffset=0x03600000 PoolSize=0x042f0000
+
+Bank=1 BankOffset=0x01000000 PoolSize=0x00788000
+Bank=1 BankOffset=0x01788000 PoolSize=0x003b8100
+Bank=1 BankOffset=0x01b40100 PoolSize=0x017CE000
+Bank=1 BankOffset=0x0330E100 PoolSize=0x00523000
+Bank=1 BankOffset=0x03832000 PoolSize=0x012A8000

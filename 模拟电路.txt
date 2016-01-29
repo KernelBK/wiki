@@ -1,0 +1,45 @@
+
+[[electronics]]
+
+Rzaavi, Design of Analog CMOS Integrated Circuits 
+Digital Integrated Circuits A Design Perspective  
+拉扎维 模拟cmos集成电路设计
+高等教育版 电子技术基础
+
+berkeley ee140 ee240
+paul gray 
+Jim 
+
+仿真
+	model关系很大
+	没用过的电阻电容不测试一下，不敢用标准的model仿真
+电路图
+	电路实际上是电场和磁场描述的
+	回路
+	大信号 小信号
+	分地
+	每个信号都看成一个回路
+	介电常数 
+	趋肤效应 
+	过孔 寄生电容
+	干扰源 干扰回路 
+	非线性 复杂网络
+
+示波器 
+	选择
+	测量
+		上升时间
+		探头 接地
+		jitter测量
+
+	tsmc 
+pcb layout
+	stack up, 阻抗匹配，串扰减小，布局，地平面的分割
+	工具， protel， cadence, mentor, orcad, allegro 
+	Howard, Stephen 
+	pcb材料， FR-4 Roger 
+	fab厂家提供设计的极限，过孔，线宽 
+	仿真 hspice 
+	信号完整性
+
+[[国家电网]]

@@ -1,0 +1,7 @@
+
+
+新建空模块挂到edk axi interconnection上
+	使用xilinx官方模板
+浮点数比较
+	按符号位，指数，尾数的顺序做字典比较
+

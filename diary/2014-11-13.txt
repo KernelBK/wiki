@@ -1,0 +1,6 @@
+
+
+
+看功率分析仪相关的文档
+aurora link lost问题调试，检查aurora模块的soft err, hard err, link等信号。
+

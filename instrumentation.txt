@@ -1,0 +1,21 @@
+
+[[33500]]
+
+[[oscilloscope]]
+signal_generator
+[[multimeter]]
+
+[[归一化]]
+[[crest_factor]] 峰值因子 
+active_power
+reactive_power
+apparent_power
+power_factor
+fundamental wave
+rms, root mean square
+mean
+rmean
+dc
+ac
+delta
+

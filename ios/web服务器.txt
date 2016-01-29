@@ -1,0 +1,27 @@
+
+基于http:  J2EE, asp.net, php, ruby on rails
+关键不在于选用什么服务器技术，而在于和客户端之间定的协议。
+协议类容可以选用xml和json方式发送
+ajax
+
+ios
+	NSURLConnection
+	NSURLRequest
+		get
+		post
+
+	数据库
+		mysql
+
+定义api
+	
+
+linux
+python
+Django
+MySQL
+
+MongoDB
+Redis
+
+

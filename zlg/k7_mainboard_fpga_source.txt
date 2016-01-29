@@ -1,0 +1,191 @@
+clock domain
+aurora 
+	
+| module | clock    | MHz | from |
+|--------|----------|-----|------|
+| axi    |          | 125 |      |
+|        |          |     |      |
+| ddr3   | sys_clk  |     |      |
+|        | ref_clk  |     |      |
+|        | ui_clk   |     |      |
+|        |          |     |      |
+|        |          |     |      |
+| aurora | user_clk |     |      |
+|        | ref_clk  |     |      |
+|        |          |     |      |
+
+= pa5000 module = 
+
+../../edk_sim/pa5000.mhs
+../../edk_sim/simulation/behavioral/pa5000.v
+
+    aurora_mult_chn
+		aurora_mult_chn_0_aurora_ch0_rx_data
+    auto_range
+		auto_range_ctrl
+		auto_range_logic
+    custom_sgdma
+		sgdma_ctrl
+		sgdma_logic
+			// ddr3 access
+			// full axi4 if
+			// 读取描述符FIFO，根据描述符内容读取源数据并转成AXI MASTER总线写入目地地址
+    ddr3_ctrl
+		debug port: dbg_
+    mem_manage
+    nomal_calc
+		nomal_calc_ctrl
+		calc_int
+    	assign cacl_int_event = p_calc_done & udc_calc_done & idc_calc_done &
+    	                        umn_calc_done & imn_calc_done & urms_calc_done & 
+    	                        irms_calc_done;    
+		power_calc
+			calc_start
+			data_end
+		trace  data_end  from
+			data_extract sig: data_extract_done
+				storage_manager
+					peak_detc
+						float_scale
+							data_check
+								aurora_mult_chn
+
+	float_scale
+		// 数据流乘上一个系数
+		float_scale_ctrl
+		float_scale_logic
+	delta_channels
+		delta_unit
+
+    spi_protocol
+    srio_bridge
+		data_extract_0_ch0_write_valid
+    storage_arb
+		storage_arb_logic
+			sig: app_en
+			round_cnt
+		storage_manager_0_data_store_valid_ch0
+		storage_arb_0_ddr3_rd_valid_ch8_0
+		ddr3 ui master
+    storage_manager
+		// 进入 adc数据，输出
+		// 更新周期，地址
+		output: update_ch0
+		storage_manager_logic
+				// 更新周期设置
+				ping_lo_addr_ch0
+				// 各通道ADC数据输入
+				// 各通道存储地址输出
+				// 各通道当前存储段位信息输出
+				// 各通道更新周期输出
+    		reg    [511:0]     data_store_ch0; // 数据格式为{I511U511...I3U3,I2U2,I1U1,I0U0}
+			// advantage: 和通道的数据率无关，和通道数量无关。
+			// defect:  地址的配置是否可以复用？ 
+						stoarge arb 中需要很多很大的fifo存储地址数据。
+							更通用的方法是把写地址发生器做成一个dma样的东西，
+							写ddr3的接口做成优化的仿存接口，只要满足ddr的写入条件就写入。
+		storage_ctrl_if
+			// 配置addr
+			// pa_smp_start
+
+
+    data_extract
+		// 支持等间隔抽取和峰值压缩抽取
+		data_extract_ctrl
+		data_extract_logic
+			// 根据抽取间隔确定从源地址读取的数据个数, 
+				// (data_len + 3'd7) & 26'h3FFFFF8;  //向上圆整到8的整数倍
+			// 抽取后的数据写入到DDR3
+
+
+    sync_pll_mgr
+		storage_manager_0_update_ch0
+		storage_manager_0_data_valid_ch0
+    sys_int_ctrl
+		pcie_int_ctrl
+		mb_int_ctrl
+    wave_extract
+		storage_arb_0_ddr3_rd_valid_ch8_0
+	
+	data_check
+		data_check_ctrl
+		data_check_logic  // x7 同步头检测
+		
+	peak_detc 
+		//( 测量区间 更新周期
+		// input: 子卡数据
+		ch0_adc_valid_i
+		ch0_adc_data_i
+		// 提取出UI信息，U先接收，I后接收
+		// 数据延迟2拍
+		// input: 更新周期输入
+			input: update_ch0
+		// 峰值检测
+			peak_detc_logic
+		// axi if
+			peak_detc_ctrl
+				input: ch0_i_p_peak
+
+	sync_pll_mgr
+		sync_pll_cfg
+		pll_src_ctrl
+		sync_src_ctrl
+
+
+
+= dataflow / datapath=
+trace aurora_mult_chn to 
+	data_check
+		nomal_calc
+
+	pa5000_top
+		pa5000
+microblaze
+	axi2axi connector
+		blvds_tx x7
+		auto range
+	axi_intc
+	aurora_mult_chn
+	data_extract
+	mem_manage
+	nomal_calc
+	peak_detc
+	spi_protocol
+	srio_bridge
+	storage_arb
+	storage_manager
+	sync_pll_mgr
+	wave_extract
+	sys_int_ctrl
+
+axi_pcie
+	axi_bram
+	key_bram
+	axi_pcie.s_axi_ctl
+	custom_sgdma
+		axi_pcie
+	mem_manage
+	spi_protocol
+		key_bram
+	sys_int_ctrl
+
+= xilinx module =
+axi_bram_ctrl
+axi_intc
+axi_interconnect_front
+axi_interconnect_key
+axi_interconnect_pcie
+axi_interconnect_sgdma
+bram_block
+debug_module
+key_bram_block
+key_bram_ctrl
+microblaze
+microblaze_bram_block
+microblaze_d_bram_ctrl
+microblaze_dlmb
+microblaze_i_bram_ctrl
+microblaze_ilmb
+proc_sys_reset
+
+

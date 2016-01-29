@@ -1,0 +1,11 @@
+
+1. 还14元，给人事
+
+1. 看an552 blvds的设计
+	stratix iii可以使用sstl完成blvds
+1. quicksopc_3c25 板的资料。
+1. 找有差分关系的pin
+1. smartsopc_3c25的工程，新的顶层，复位。
+1. 使用blvds的pin
+
+

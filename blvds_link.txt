@@ -1,0 +1,10 @@
+
+blvds link
+
+两边都是axi接口
+fifo，对于axi4接口需要，aix4lite接口不需要
+
+可以用config表示，aw, ar，size, burst等信息
+
+addr
+

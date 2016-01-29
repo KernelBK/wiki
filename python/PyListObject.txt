@@ -1,0 +1,7 @@
+
+Python中的列表和C++的STL中的vector更为相似。
+，PyListObject所采用的内存管理策略和C++中vector采取的内存分配策略是一样的
+PyList_New
+PyList_SetItem
+
+

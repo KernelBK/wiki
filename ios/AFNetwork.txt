@@ -1,0 +1,6 @@
+
+[[ASIHTTPRequest]]
+	Reachability
+	不更新
+
+

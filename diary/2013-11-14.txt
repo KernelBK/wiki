@@ -1,0 +1,12 @@
+
+1. blvds, nios ii弄了一上午，不能执行下载的程序，后来发现是板上连线压住了。
+1. #1 是仿真问题，reg int_clear在控制条件的同一拍变化；
+1. blvds slave cmd wdata情况下crc的判断条件是再state_crc, master端才是在ack时判断。
+
+[[../lcd]]
+ dp
+
+1. 中文分词, 写了一个提取汉字词语频的工具
+1. 根据jieba分词弄了一个提取单个汉字的工具
+1. sata protocol，pcie等wikipedia
+

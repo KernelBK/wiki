@@ -1,0 +1,68 @@
+[[u-boot]]
+[[pack]]
+
+https://github.com/hno/uboot-allwinner/wiki
+
+http://forum.doozan.com/read.php?6,8481
+	按照这个流程操作ok
+	注意sd卡需要放在slot 0
+
+http://rhombus-tech.net/allwinner_a10/a10_mmc_boot/
+	https://github.com/hno
+
+http://rhombus-tech.net/allwinner_a10/a10_boot_process/
+	brom -> boot0 -> boot1 -> boot.axf -> u-boot -> kernel
+	brom
+		arm start 0xffff0000
+		check pin
+		load 4k data from sdcard slot 0, offset 8k to internal sram
+			jump to boot0
+			sys_config.fex -> *.bin -> 放在boot0的开头
+			MMC boot: the SPL - Second Program Loader: sun4i-spl.bin
+				boot1
+					on MMC: the SPL loads u-boot
+		load boot0 from nand 
+		load boot0 from mmc boot
+		load boot0 form sdcard slot 2
+
+
+编译，打包
+homlet/lichee/buildroot/docs
+	./pack -B sdcard -c sun4i -p test -b evb-v13
+
+u-boot 支持fastboot命令
+
+分区划分
+.fex文件
+
+卡量产升级教程 http://pbpai.net/1/show.php?itemid=29230&page=1
+	量产走的应该是revoery文件系统。
+		recovery是从buildroot来的？
+
+PhoenixCard
+	这个工具可以完成sd/mmc卡的可启动模式烧写，只需要提供一个镜像文件。
+
+
+boot code
+    config.lds
+        arm_board/arm_start.S
+
+
+boot1/core/start/eGon2_start.c
+    eGon2_start
+        script_relocation 决定了后面是否能够读取gpio控制。
+            if(script_exist)
+
+eGon2_printf
+
+boot1/core/make.cfg
+    TARGET          = $(WORKSPACEPATH)/egon/boot1_sdmmc.bin
+build.sh
+    cp -rf $TEMP_WORKSPACE/egon/boot1_sdmmc.bin $BOOT1_CORE_OUT_DIR/sdcard/boot1.bin
+tools/pack/pack
+    cp -rf eGon/storage_media/sdcard/boot1.bin out/card_boot1.fex
+
+boot1 file:
+chips/sun4i/wboot/bootfs/boot.axf
+ref: http://jas-hacks.blogspot.co.uk/2012/08/hackberry-a10-bootloader.html
+

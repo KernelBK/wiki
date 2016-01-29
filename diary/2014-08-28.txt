@@ -1,0 +1,7 @@
+
+edk 综合时序问题
+
+edk 新加入的cal, int2float模块时钟没有连接
+uvm warning都可以造成错误，需要注意。
+
+

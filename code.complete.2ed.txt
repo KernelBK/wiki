@@ -1,0 +1,241 @@
+
+还没有看到好的英文版，只有chm转pdf
+
+metaphor 改变着说=隐喻
+	meta=改变
+	phor=带来
+
+The best is the enemy of the good.
+defensive programming
+a smart programmer will develop code accordingly  ...
+
+244 Many years ago, Edsger Dijkstra cautioned against the hazards of complexity: "The competent programmer is fully aware of the strictly limited size of his own skull; therefore, he approaches the programming task in full humility" (Dijkstra 1972).
+229 The research and realworld experience gathered into this handbook will inform and stimulate your thinking about your projects, enabling you to take strategic action so that you don't have to fight the same battles again and again.
+199 The comparison between the wave theories of sound and light was so productive that scientists spent a great deal of effort looking for a medium that would propagate light the way air propagates sound.
+189 After trying a thousand different materials for a light bulb filament with no success, Thomas Edison was reportedly asked if he felt his time had been wasted since he had discovered nothing.
+188 Neither the authors, Microsoft Corporation, nor its resellers, or distributors will be held liable for any damages caused or alleged to be caused either directly or indirectly by this book. 
+186 Requirements can be assumed rather than developed; architecture can be shortchanged rather than designed; and testing can be abbreviated or skipped rather than fully planned and executed.
+185 By far the most common project risks in software development are poor requirements and poor project planning, thus preparation tends to focus on improving requirements and project plans.
+181 By comparing a topic you understand poorly to something similar you understand better, you can come up with insights that result in a better understanding of the less-familiar topic. 
+174 In software construction, trying to create truly original work is often less effective than focusing on the reuse of design ideas, code, and test cases from previous projects.
+169 In addition to being widely scattered, much of the accumulated wisdom about construction has resided outside written sources for years (Hildebrand 1989, McConnell 1997a).
+148 Galileo discovered laws the Aristotelians could not discover because their model led them to look at different phenomena and ask different questions.
+147 One key to successful programming is avoiding arbitrary variations so that your brain can be free to focus on the variations that are really needed.
+144 A good metaphor is simple, relates well to other relevant metaphors, and explains much of the experimental evidence and other observed phenomena.
+140 Plauger says, "The more dogmatic you are about applying a design method, the fewer real-life problems you are going to solve" (Plauger 1993).
+138 After you have read Introduction to Java, Advanced Java, and Advanced Advanced Java, what book do you read to learn more about programming.
+1136    The statement "We need to optimize our automated data-entry system to keep up with orders for the Gigatron" is a poor problem definition.
+129 This is a sensible approach since no one can reasonably expect you to estimate your schedule before you know what you're building.
+125 In the day-to-day rush of grinding out the latest project, however, few experts take the time to share what they have learned.
+109 Requirements specifications and design documents can go out of date, but the source code is always up to date.
+103 Many programs are still buggy, late, and over budget, and many fail to satisfy the needs of their users.
+
+Chapter 1. Welcome to Software Construction
+        1.1. What Is Software Construction?
+        1.2. Why Is Software Construction Important?
+        1.3. How to Read This Book 
+Chapter 2. Metaphors for a Richer Understanding of Software Development
+        2.1. The Importance of Metaphors
+        2.2. How to Use Software Metaphors
+        2.3. Common Software Metaphors 
+Chapter 3. Measure Twice, Cut Once: Upstream Prerequisites
+        3.1. Importance of Prerequisites
+        3.2. Determine the Kind of Software You're Working On
+        3.3. Problem-Definition Prerequisite
+        3.4. Requirements Prerequisite
+        3.5. Architecture Prerequisite
+        3.6. Amount of Time to Spend on Upstream Prerequisites 
+Chapter 4. Key Construction Decisions
+        4.1. Choice of Programming Language
+        4.2. Programming Conventions
+        4.3. Your Location on the Technology Wave
+        4.4. Selection of Major Construction Practices 
+Chapter 5. Design in Construction
+        5.1. Design Challenges 
+        5.2. Key Design Concepts 
+        5.3. Design Building Blocks: Heuristics 
+        5.4. Design Practices 
+        5.5. Comments on Popular Methodologies 
+        6.1. Class Foundations: Abstract Data Types (ADTs) 
+        6.2. Good Class Interfaces 
+        6.3. Design and Implementation Issues 
+        6.4. Reasons to Create a Class 
+        6.5. Language-Specific Issues 
+        6.6. Beyond Classes: Packages 
+        7.1. Valid Reasons to Create a Routine 
+        7.2. Design at the Routine Level 
+        7.3. Good Routine Names 
+        7.4. How Long Can a Routine Be? 
+        7.5. How to Use Routine Parameters 
+        7.6. Special Considerations in the Use of Functions 
+        7.7. Macro Routines and Inline Routines 
+Chapter 8. Defensive Programming
+        8.1. Protecting Your Program from Invalid Inputs 
+        8.3. Error-Handling Techniques 
+        8.5. Barricade Your Program to Contain the Damage Caused by Errors
+        8.6. Debugging Aids
+        8.7. Determining How Much Defensive Programming to Leave in Production Code
+        8.8. Being Defensive About Defensive Programming 
+Chapter 9. The Pseudocode Programming Process
+        9.1. Summary of Steps in Building Classes and Routines
+        9.2. Pseudocode for Pros
+        9.3. Constructing Routines by Using the PPP
+        9.4. Alternatives to the PPP 
+
+Chapter 10. General Issues in Using Variables
+        10.1. Data Literacy
+        10.2. Making Variable Declarations Easy
+        10.3. Guidelines for Initializing Variables 
+        10.5. Persistence 
+        10.6. Binding Time 
+        10.7. Relationship Between Data Types and Control Structures 
+        10.8. Using Each Variable for Exactly One Purpose 
+Chapter 11. The Power of Variable Names
+        11.1. Considerations in Choosing Good Names 
+        11.2. Naming Specific Types of Data 
+        11.3. The Power of Naming Conventions 
+        11.4. Informal Naming Conventions 
+        11.5. Standardized Prefixes 
+        11.6. Creating Short Names That Are Readable 
+        11.7. Kinds of Names to Avoid 
+Chapter 12. Fundamental Data Types
+        12.1. Numbers in General 
+        12.3. Floating-Point Numbers 
+        12.4. Characters and Strings 
+        12.5. Boolean Variables 
+        12.6. Enumerated Types 
+        12.7. Named Constants 
+        12.9. Creating Your Own Types (Type Aliasing) 
+        13.3. Global Data 
+Chapter 14. Organizing Straight-Line Code
+        14.1. Statements That Must Be in a Specific Order
+        14.2. Statements Whose Order Doesn't Matter 
+        15.1. if Statements 
+        15.2. case Statements 
+        16.1. Selecting the Kind of Loop 
+        16.2. Controlling the Loop 
+        16.3. Creating Loops Easily—From the Inside Out 
+        16.4. Correspondence Between Loops and Arrays 
+Chapter 17. Unusual Control Structures
+        17.1. Multiple Returns from a Routine 
+        17.4. Perspective on Unusual Control Structures 
+Chapter 18. Table-Driven Methods
+        18.1. General Considerations in Using Table-Driven Methods
+        18.2. Direct Access Tables
+        18.3. Indexed Access Tables
+        18.4. Stair-Step Access Tables
+        18.5. Other Examples of Table Lookups 
+Chapter 19. General Control Issues
+        19.1. Boolean Expressions
+        19.2. Compound Statements (Blocks)
+        19.3. Null Statements
+        19.4. Taming Dangerously Deep Nesting
+        19.5. A Programming Foundation: Structured Programming
+        19.6. Control Structures and Complexity 
+
+Chapter 20. The Software-Quality Landscape
+        20.1. Characteristics of Software Quality
+        20.2. Techniques for Improving Software Quality
+        20.3. Relative Effectiveness of Quality Techniques
+        20.4. When to Do Quality Assurance
+        20.5. The General Principle of Software Quality 
+Chapter 21. Collaborative Construction
+        21.1. Overview of Collaborative Development Practices
+        21.2. Pair Programming
+        21.3. Formal Inspections
+        21.4. Other Kinds of Collaborative Development Practices Comparison of Collaborative Construction Techniques 
+        22.1. Role of Developer Testing in Software Quality 
+        22.2. Recommended Approach to Developer Testing 
+        22.3. Bag of Testing Tricks 
+        22.4. Typical Errors 
+        22.5. Test-Support Tools 
+        22.6. Improving Your Testing 
+        22.7. Keeping Test Records 
+        23.1. Overview of Debugging Issues
+        23.2. Finding a Defect
+        23.3. Fixing a Defect
+        23.4. Psychological Considerations in Debugging
+        23.5. Debugging Tools—Obvious and Not-So-Obvious 
+        24.1. Kinds of Software Evolution 
+        24.2. Introduction to Refactoring 
+        24.3. Specific Refactorings 
+        24.4. Refactoring Safely 
+        24.5. Refactoring Strategies 
+
+Chapter 25. Code-Tuning Strategies
+        25.1. Performance Overview
+        25.2. Introduction to Code Tuning
+        25.3. Kinds of Fat and Molasses
+        25.4. Measurement 
+        25.6. Summary of the Approach to Code Tuning 
+Chapter 26. Code-Tuning Techniques 
+        26.3. Data Transformations 
+        26.4. Expressions 
+        26.6. Recoding in a Low-Level Language
+        26.7. The More Things Change, the More They Stay the Same 
+Chapter 27. How Program Size Affects Construction 
+        27.1. Communication and Size 
+        27.2. Range of Project Sizes 
+        27.3. Effect of Project Size on Errors 
+        27.4. Effect of Project Size on Productivity 
+        27.5. Effect of Project Size on Development Activities 
+Chapter 28. Managing Construction 
+        28.1. Encouraging Good Coding 
+        28.2. Configuration Management 
+        28.3. Estimating a Construction Schedule 
+        28.5. Treating Programmers as People 
+        28.6. Managing Your Manager 
+        29.1. Importance of the Integration Approach 
+        29.2. Integration Frequency—Phased or Incremental? 
+        29.3. Incremental Integration Strategies 
+        29.4. Daily Build and [[Smoke Test]] 
+        30.1. Design Tools 
+        30.2. Source-Code Tools 
+        30.3. Executable-Code Tools 
+        30.4. Tool-Oriented Environments 
+        30.5. Building Your Own Programming Tools 
+        30.6. Tool Fantasyland 
+        31.1. Layout Fundamentals 
+        31.2. Layout Techniques 
+        31.3. Layout Styles 
+        31.4. Laying Out Control Structures 
+Additional Resources Key Points 
+Chapter 32. Self-Documenting Code
+        32.6. IEEE Standards Additional Resources Key Points 
+Chapter 33. Personal Character
+        33.3. Curiosity
+        33.7. Laziness
+        33.9. Habits Additional Resources Key Points Key Points
+        35.3. Periodicals Bibliography Index < Free Open Study >
+        31.5. Laying Out Individual Statements 
+        31.6. Laying Out Comments 
+        31.7. Laying Out Routines 
+        31.8. Laying Out Classes 
+        32.1. External Documentation 
+        32.2. Programming Style as Documentation 
+        32.3. To Comment or Not to Comment 
+        32.4. Keys to Effective Comments 
+        32.5. Commenting Techniques 
+        33.1. Isn't Personal Character Off the Topic? 
+        33.2. Intelligence and Humility 
+        33.4. Intellectual Honesty 
+        33.5. Communication and Cooperation 
+        33.6. Creativity and Discipline 
+        33.8. Characteristics That Don't Matter As Much As You Might Think 
+Chapter 34. Themes in Software Craftsmanship
+        34.1. Conquer Complexity
+        34.2. Pick Your Process
+        34.3. Write Programs for People First, Computers Second
+        34.4. Program into Your Language, Not in It
+        34.5. Focus Your Attention with the Help of Conventions
+        34.6. Program in Terms of the Problem Domain
+        34.7. Watch for Falling Rocks
+        34.8. Iterate, Repeatedly, Again and Again
+        34.9. Thou Shalt Rend Software and Religion Asunder 
+Chapter 35. Where to Find More Information
+        35.1. Information About Software Construction
+        35.2. Topics Beyond Construction
+        35.4. A Software Developer's Reading Plan 
+        35.5. Joining a Professional Organization 
+
+

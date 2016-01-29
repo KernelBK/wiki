@@ -1,0 +1,28 @@
+
+贝能国际 面试邀请，具体如下：
+面试时间：2013-9-2,14:00（周一下午2点）
+面试职位：ADC（单片机软件工程师）
+公司地址：广州市天河区棠下涌东路400号之二中科商业大厦401
+联系电话：020-85547526，85548073
+联系人   ：张小姐
+公司主页：www.burnon.com 
+下周一下午2点到那边面试 
+
+QQ:2653873244
+
+http://www.burnon.com/cn/index.shtml
+
+http://www.microchip.com.cn/community/html/recruit.shtml
+
+usb
+
+ddr 电压 ddr是2.5v ddr2是1.8v ddr3是1.5v左右 
+SDRAM工作电压为3.3V
+DDR SDRAM工作电压为2.5V
+DDR2 SDRAM工作电压为1.8V
+DDR3内存标准电压是1.5V，
+
+内存 封装 http://baike.baidu.com/view/201249.htm 
+
+电机控制
+

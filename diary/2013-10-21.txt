@@ -1,0 +1,7 @@
+
+1. 还补助15元
+1. erp申请usb线，电源
+1. 焊接blvds连接线。
+1. 做一个连线测试工程 blvds_trans_check
+
+

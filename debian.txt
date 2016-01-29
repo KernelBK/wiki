@@ -1,0 +1,5 @@
+
+download
+http://mirrors.163.com/debian/
+http://cdimage.debian.org/debian-cd/
+ttp://cdimage.debian.org/debian-cd/7.0.0-live/amd64/iso-hybrid/debian-live-7.0.0-amd64-gnome-desktop.iso

@@ -1,0 +1,28 @@
+
+I/CameraService(   88): Opening camera 0
+E/V4L2CameraDevice(   88): ERROR opening V4L interface: Device or resource busy
+E/CameraService(   88): Could not open camera 0: 1
+I/CameraService(   88): Destroying camera 0
+W/CaptureActivity( 1651): Unexpected error initializating camera
+W/CaptureActivity( 1651): java.lang.RuntimeException: Fail to connect to camera service
+W/CaptureActivity( 1651): 	at android.hardware.Camera.native_setup(Native Method)
+W/CaptureActivity( 1651): 	at android.hardware.Camera.<init>(Camera.java:302)
+W/CaptureActivity( 1651): 	at android.hardware.Camera.open(Camera.java:279)
+W/CaptureActivity( 1651): 	at com.tencent.mtt.zxing.a.c.a(Unknown Source)
+W/CaptureActivity( 1651): 	at com.tencent.mtt.zxing.CaptureActivity.a(Unknown Source)
+W/CaptureActivity( 1651): 	at com.tencent.mtt.zxing.CaptureActivity.surfaceChanged(Unknown Source)
+W/CaptureActivity( 1651): 	at android.view.SurfaceView.updateWindow(SurfaceView.java:1126)
+W/CaptureActivity( 1651): 	at android.view.SurfaceView.access$000(SurfaceView.java:87)
+W/CaptureActivity( 1651): 	at android.view.SurfaceView$3.onPreDraw(SurfaceView.java:185)
+W/CaptureActivity( 1651): 	at android.view.ViewTreeObserver.dispatchOnPreDraw(ViewTreeObserver.java:590)
+W/CaptureActivity( 1651): 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:1642)
+W/CaptureActivity( 1651): 	at android.view.ViewRootImpl.handleMessage(ViewRootImpl.java:2467)
+W/CaptureActivity( 1651): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+W/CaptureActivity( 1651): 	at android.os.Looper.loop(Looper.java:137)
+W/CaptureActivity( 1651): 	at android.app.ActivityThread.main(ActivityThread.java:4424)
+W/CaptureActivity( 1651): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/CaptureActivity( 1651): 	at java.lang.reflect.Method.invoke(Method.java:511)
+W/CaptureActivity( 1651): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:784)
+W/CaptureActivity( 1651): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:551)
+W/CaptureActivity( 1651): 	at dalvik.system.NativeStart.main(Native Method)
+

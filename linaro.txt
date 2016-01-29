@@ -1,0 +1,31 @@
+http://www.linaro.org/linux-on-arm/meet-the-team/mike-levine/
+
+http://blogs.arm.com/software-enablement/564-linaro%E7%B3%BB%E5%88%97%E6%96%87%E7%AB%A0%E7%AC%AC%E4%B8%80%E7%AF%87%EF%BC%8Clinaro%E4%BB%8B%E7%BB%8D/
+   2010年6月，由安谋(ARM)、国际商用机器公司(IBM)、飞思卡尔(Freescale)、三星电子(Samsung Electronics)、意法爱立信(ST-Ericsson)、德州仪器(TI) 这6家公司宣布合资成立英文名为Linaro的非营利性软件公司。 
+   每六个月，技术指导委员会(Technical Steering Committee, TSC)会向各工作组提出未来路线图，工作组则以此制定详细的开发蓝图。Linaro的大部分开发成果都会直接提交到已有的开源社区上游项目 (upstream project)。把所有代码都放入上游项目可以确保所有人都能立即得到能够运行在最新平台上的最新代码，并因此受益。
+   和传统软件企业不同的是Linaro没有为大部分员工提供固定的办公场所。
+   因此员工需要短期出差到世界各地的会议地点和同事一起面对面的工作
+
+现在Linaro拥有五个工作组：
+
+    内核整合组 (Kernel Consolidation)
+    工具链组 (Toolchain)
+    电源管理组 (Power management)
+    图形组 (Graphics)
+    多媒体组 (Multimedia)
+   
+http://www.linaro.org/careers/linaro/
+    https://wiki.linaro.org/TSC/2011-03-15
+    https://wiki.linaro.org/TSC/2010-09-15
+
+
+    Linaro的LAVA（Linaro的自动验证架构）开发了一个自动测试系统。
+
+
+introduce
+I started learning about computers more than 20 years ago
+I've been developing software professionally for almost ten years, and I've focused on embedded and mobile software for the last five. In my job, 
+
+After many years working in the world of IC/SOC design and Linux/Android embedded products, I am focused on bringing Android to more devices to encourage more developers to leverage the power of Android and more people to have access to the technology.
+
+I holds an engineering degree from 

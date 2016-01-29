@@ -1,0 +1,16 @@
+
+register based vm 
+	×Ö½ÚÂë¸ü¼òµ¥
+	add 1, 2, r1
+
+	lua
+
+stack based 
+	push 1
+	push 2
+	add
+	push eax
+
+	clr
+	jvm
+	python

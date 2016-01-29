@@ -1,0 +1,10 @@
+
+
+encryption
+	OpenPGP
+
+claws_mail
+thunderbird_mail
+evolution_mail
+
+[[foxmail]]

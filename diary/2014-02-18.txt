@@ -1,0 +1,32 @@
+
+被参观，产品和技术分离
+	类容取消
+
+AXI4-Stream? Protocol Assertions
+uvm wave gen
+	matlab sin
+
+done
+edk生成hdl错误，库的原因，解决。
+
+
+
+compxlib -s vcs_mx -l all -arch all -lib all -w -exclude_superseded -dir  xilinx_vcs_mx_lib64  -verbose
+
+microblaze_v8_30_a = /eda/xilinx/xilinx_mti_se_lib64/edk/microblaze_v8_30_a
+这个14.1的modelsim.ini
+14.7的没有这个
+
+compxlib edk 编译不过，在xps中无法“generate hdl files”
+在xps的图形界面里面从新编译。
+
+ERROR:EDK:3593 - Unable to locate the precompiled library microblaze_v8_50_c.
+   The file
+   /eda/xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_50_c
+   /hdl/vhdl/microblaze_types_pkg.vhd is distributed by Xilinx encrypted and
+   will not be read by any simulator. Please use compxlib to setup the EDK
+   precompiled libraries and provide the path to them using the -E switch.
+ERROR:EDK:1172 - Error while creating simulator compile scriptmake: *** [simulation/behavioral/system_setup.sh] Error 1
+
+
+

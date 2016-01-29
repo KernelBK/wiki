@@ -1,0 +1,46 @@
+
+drivers/usb/serial/option.c 
+
+android:
+    frameworks/base/telephony 
+    hardware/ril/reference-ril
+    logcat -b radio
+    logcat -b radio -s RILD
+
+pppd call evdo
+pppd call unicom
+
+sim卡，在usb 3g模块上，和A10之间没有连接。
+
+
+android RIL
+http://en.wikipedia.org/wiki/Radio_Interface_Layer
+    patent http://www.freepatentsonline.com/6826762.html
+        GSM AT interface as defined in GSM specifications 07.05 and 07.07. 
+
+http://en.wikipedia.org/wiki/AT_command
+    AT commands: "AT" meaning attention
+http://en.wikipedia.org/wiki/Point-to-Point_Protocol
+
+目前市面上 3g dongle 都是通过USB 接口形式存在，一般以CD－ROM 或USB storage 出现，即“ZeroCD”，里面自带有在PC 上运行的驱动，安装完驱动后dongle 会自动切换到 modem 设备。
+使用AT 命令来进行控制dongle 与基站通讯，使用pppd 来拨号上网。
+
+
+dongle 模块通讯的命令遵循3GPP_27 serial 对AT command 的规范说明。
+
+evdo
+189卡的EVDO帐号密码都不是CARD。帐号为ctnet@mycdma.cn，密码为:vnet.mobi。拨号#777
+
+
+
+
+#stop ril-daemon
+
+cat /dev/ttyUSB0 &
+echo -e 'ATI/r' > /dev/ttyUSB0
+
+
+service 3g-adapt /system/bin/busybox sh /system/bin/3g-adapt.sh
+    user root
+    group root
+    oneshot

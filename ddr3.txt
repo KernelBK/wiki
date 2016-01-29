@@ -1,0 +1,20 @@
+xilinx [[mig]]
+[[mig_7series_v1_9_ddr3_7Series]]
+
+页突发模式
+full-page burst
+
+access time and cycle time
+
+QDR II+ SRAM
+
+xilinx
+	[[ug586_7Series_MIS.pdf]]
+	[[ds176_7Series_mis.pdf]]
+
+JEDEC Standard JESD79-3E: DDR3 SDRAM, JEDEC Solid State Technology Association
+JEDEC Standard JESD79-2F: DDR2 SDRAM Specification, JEDEC Solid State Technology Association
+www.jedec.org
+
+JESD79-x 
+x = 2 3 4

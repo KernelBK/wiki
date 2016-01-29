@@ -1,0 +1,5 @@
+
+Magnet uri scheme
+
+解决[[bt]] 不稳定，关闭的问题
+基于hash来定位文件

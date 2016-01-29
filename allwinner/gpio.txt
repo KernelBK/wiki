@@ -1,0 +1,29 @@
+
+
+
+# power button
+cat /sys/class/gpio_sw/PH7/data   
+
+echo 1 > /sys/class/gpio_sw/PH7/data
+
+cat /proc/interrupts | busybox  grep  usb     
+
+insmod /system/vendor/modules/gpio_sw.ko 
+
+/sys/class/gpio_sw
+
+code:
+drivers/sunxi_gpio
+
+arch/arm/mach-sun4i
+
+drivers/sunxi_gpio/gpio_sw.c
+    gpio_sw_probe
+        gpio->cdev.port = get_gpio_member_value(gpio->cdev.pio_hdle,pdata->name,port_5 );                     
+        if(gpio->cdev.port== 'H' - 'A' + 1)
+    sprintf(pdatesw[i].name, "gpio_pin_%d", i+1);
+    
+
+arch/arm/mach-sun4i/sys_config.c   
+    gpio_set_one_pin_io_status
+    PIO_REG_CFG

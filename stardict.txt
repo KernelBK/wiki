@@ -1,0 +1,15 @@
+
+修改字典
+http://bbs.duokan.com/forum/thread-75176-1-1.html.
+1、第一步使用getdict这个软件，将mdx文件转化为utf-8编码的txt文件（自动转为带tab制表符的txt）。
+2、然后使用支持正则表达式的编辑器：入emeditor、 notepad++ 、editplus等，将多余标记删除。
+3、鉴于目前多看的词典对标记支持有限，建议只保留 \n换行符号，其他代码一律清空。
+4、最后用用stardict-editor，就是stardict的词典生成工具生成词典文件，拷贝入对应目录。
+如果是修改stardict，使用stardict-editor，直接反向编译，生成txt文件，然后参考上面流程。
+完活！
+
+vim
+sudo apt-get install stardict
+字典 /usr/share/stardict/dic
+sdcv
+

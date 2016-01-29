@@ -1,0 +1,30 @@
+caseinterview.com
+
+1.逻辑思维
+2.商业敏感性 
+3.定量思维。
+4 交流能力
+
+given a question, situation, problem or challenge and asked to resolve the situation.
+
+mostly used in hiring for management consulting and investment banking jobs.
+
+book
+Management.Consulting.A.complete.Guide.to.the.Industry
+Think.Fast
+How.to.Get.into.the.top.consulting.firms 
+Case.Interview.Success
+crack.the.Case.system.complete.case.interview.prep
+
+pdf
+[[management.consulting.a.guide.to.the.profession.4th]]
+
+
+“中国结婚钻戒市场的规模有多大？” （取材于和君咨询案例之潮宏基珠宝战略咨询）
+操办该案例的咨询师王丰的思路是：
+step a-中国每年的结婚人数是多少？---民政部门统计数据
+step b-购买钻戒的平均比例是多少？---调研或者经验给出大致比例
+step c-钻戒的平均价格是多少？---销售柜台询问
+得出结果只需要简单的乘法
+
+[[销售]]

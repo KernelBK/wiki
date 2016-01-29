@@ -1,0 +1,20 @@
+
+[[lisp]]
+
+理论基础
+	 [[lambda.calculus]]
+	 formal system
+
+feature
+	值不可变， 需要修改先copy
+	函数无副作用, side effect
+	函数像变量一样使用，创建，修改，传递, 头等值
+	尾递归优化，每次递归都重用stack
+
+tech
+	[[map_reduce]], foreach, find_if, count_if
+	[[pipeline]], action list
+	递归，recursing
+	curring ， 多个参数分解为多个参数，每层函数返回一个函数去接收下一个参数，bind_1st, bind_2nd
+	高阶函数
+

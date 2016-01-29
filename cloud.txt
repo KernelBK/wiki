@@ -1,0 +1,31 @@
+
+思路：把专业的事情交给专业的人去做
+
+[[Hadoop]]
+	对Hadoop的改进： Apache.Pig, Cascading, jaql, oozie, tez, spark
+SaaS 卖软件
+	gmal, github, 
+PaaS 卖平台
+	[[SAE]]
+	docker
+IaaS 卖平台，卖虚拟机
+	[[AWS]], [[Azure]], [[Openstack]]
+
+GFS
+BigTable
+chubby
+aws
+linode
+
+稳定 灵活 易用
+[[docker]]
+[[sla]]
+
+金融 去 IEO 
+leanCloud
+[[daoCloud]]
+qiniu
+ibm 蓝云
+vmware cloud.foundry
+[[docCloud]]
+cloud9

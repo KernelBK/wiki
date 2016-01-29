@@ -1,0 +1,13 @@
+
+1. 状态机的latch, 控制和输入同时动作照成问题。
+1. 状态机跑飞，state_next 总是为02， 
+
+1. 状态机case中if语句需要补充全else，否者会不对。
+1. vcs_example仿真流程。
+1. 给blvds添加fpga网表仿真流程。
+	重新连接了fpga_top，包含m,s1,s2，
+	发现浪费时间，fpga_top连线太多不一定能够成功fit
+
+1. 补全fs_state状态机
+1. s1, rxd没有数据？ 可能是连线。
+

@@ -1,0 +1,22 @@
+
+word freqency generate script read txt by line.
+
+add forder view
+
+user 
+	list_word_frequency
+	list_item_content
+		book
+		film
+		article
+
+array_all_words, index by number
+array_all_item
+	content {title, index, word_frequency}
+
+data generate
+	content word freq
+		gen {word, frequency}, {word_index, frequency}
+	user get content's word freqency
+		content's {word_index, frequency} - user's {word_index}, {word, freqency}
+

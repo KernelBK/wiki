@@ -1,0 +1,10 @@
+adb connect 172.16.55.132:5555
+adb shell "busybox mount /dev/mmcblk0p1 /system -o rw,remount"
+adb push libdvbdongle.so /system/lib
+
+adb shell
+rm vendor
+adb push dvb100.hex /vendor/dvbdongle
+adb push cyfirmwireload /vendor/dvbdongle
+
+

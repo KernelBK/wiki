@@ -1,0 +1,5 @@
+
+ruby
+brew.sh
+
+[[rails-i18n]]

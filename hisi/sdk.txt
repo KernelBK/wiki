@@ -1,0 +1,19 @@
+
+/workspace/hisi/Hi3716CV100R001C00SPC093/
+	software 目录是有效的
+	sample  source  为hiplayer的东西和我们无关
+
+/workspace/hisi/Hi3716CV100R001C00SPC093/software/Hi3716CV100R001C00SPC093
+
+source/osdrv
+	linux-2.6.35
+
+source/msp/ecs/drv
+
+
+
+
+open("/dev/"UMAP_DEVNAME_OTP, O_RDWR, 0);
+
+
+SCD（Start Code Detect）// 不是trident 的standby control driver.

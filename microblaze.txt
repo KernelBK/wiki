@@ -1,0 +1,8 @@
+
+C_ENDIANNESS
+little-endian when using [[AXI4]]
+big-endian using PLB
+
+MicroBlaze Processor Reference Guide (UG081).
+
+FPU instructions are not pipelined

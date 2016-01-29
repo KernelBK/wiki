@@ -1,0 +1,5 @@
+	仿函数 functor
+
+oo
+使一个类看上去像一个函数
+类中实现operator()

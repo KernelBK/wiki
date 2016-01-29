@@ -1,0 +1,3 @@
+
+clojure的STM实现是基于MVCC(Multiversion Concurrency Control)——多版本并发控制
+

@@ -1,0 +1,12 @@
+
+Resource Acquire Is Initialization
+
+资源获取就是初始化
+资源管理，避免内存泄露的方法。
+保证对象最终会销毁
+
+对资源的所有权分类
+	常性类型 boost:share_ptr<>
+	变性类型 std::auto_ptr
+
+

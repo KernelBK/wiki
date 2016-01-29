@@ -1,0 +1,5 @@
+
+在他之前，没有知道线性规划到底属于哪个复杂类（complexity class)
+
+[[George.Danzig]]
+

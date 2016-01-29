@@ -1,0 +1,42 @@
+
+[[Computer.Architecture]]
+[[Computer.Architecture.5th]]
+
+First, the virtual elimination of assembly language programming reduced the need for object-code compatibility. 
+the virtual 虚拟化 
+elimination of assembly language programming  语法作用是什么？ n+n
+虚拟化，消除了汇编语言，减少代码兼容性的需求。
+
+By 2003, this growth led to a difference in performance of about a factor of 25 versus if we had continued at the 25% rate.
+在2003年，这样的增长导致25倍性能的不同，相对于以前的25%的增长率。
+
+125 Historical Perspectives material that explores the development of the key ideas presented in each of the chapters in the text.
+历史观点的材料，在于考察关键计划的开发，在每一章的正文中给出。
+
+As new research and experience broaden our understanding, changes in research methods or professional practices, may become necessary. 
+当新研究和经验拓宽我们的理解，改变研究方法或专业实践变得有必要。
+
+135 Other aspects of computer design were called implementation, often insinuating that implementation is uninteresting or less challenging.
+
+139 This principle applies when determining how to spend resources, since the impact of the improvement is higher if the occurrence is frequent.
+144 In addition, two significant changes in the computer marketplace made it easier than ever before to succeed commercially with a new architecture.
+150 We believe this approach will work for explicitly parallel computers of the future just as it worked for the implicitly parallel computers of the past. 
+151 The last decade saw the rise of smart cell phones and tablet computers, which many people are using as their primary computing platforms instead of PCs. 
+152 Practitioners and researchers must always rely on their own experience and knowledge in evaluating and using any information or methods described herein.
+154 He was also involved in the Network of Workstations (NOW) project, which led to cluster technology used by Internet companies and later to cloud computing.  star
+
+161 We believe that the field has continued to mature and move toward the rigorous quantitative foundation of long-established scientific and engineering disciplines.
+
+170 Today, some question whether DRAM capacity can improve at all in 5 to 7 years, due to difficulties in manufacturing an increasingly three-dimensional DRAM cell [Kim 2005].
+200 The field is changing daily and must be studied with real examples and measurements on real computers, rather than simply as a collection of definitions and designs that will never need to be realized.
+
+292 Our position is that the only consistent and reliable measure of performance is the execution time of real programs, and that all proposed alternatives to time as the metric or to real programs as the items measured have eventually led to misleading claims or even mistakes in computer design.
+
+301 By detecting all modifications to the guest’s page table, the VMM can ensure the shadow page table entries being used by the hardwae for translations correspond to those of the guest OS environment, with the exception of the correct physical pages substituted for the real pages in the guest tables.
+328 This assignment can be done before the instruction types are known, by simply preallocating the reorder buffer entries sequentially to the instructions in the packet using n available reorder buffer entries and by ensuring that enough reservation stations are available to issue the whole bundle, independent of what it contains.
+                                                                                                                                    
+359 Dynamically shared libraries (which allow a library to be loaded and linked at runtime only when it is actually invoked by the program rather than loaded and linked statically before the program is run)
+370 Unfortunately, it is quite difficult to bound the performance of a processor with reasonable issue restrictions; not only is the space of possibilities quite large, but the existence of issue restrictions requires that the parallelism be evaluated with an accurate instruction scheduler, making the cost of studying processors with large numbers of issues very expensive.
+374 The micro-op buffer preforms loop stream detection and microfusion—If there is a small sequence of instructions (less than 28 instrctions or 256 bytes in length) that comprises a loop, the loop stream detector will find the loop and directly issue the micro-ops from the buffer, eliminating the need for the instruction fetch and instruction decode stages to be activated.
+435 Although the amount of computation assigned to a thread, called the grain size, is important in considering how to exploit thread-level parallelism efficiently, the important qualitative distinction from instruction-level parallelism is that thread-level parallelism is identified at a high level by the software system or programmer and that the threads consist of hundreds to millions of instructions that may be executed in parallel.
+

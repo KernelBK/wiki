@@ -1,0 +1,9 @@
+
+[[devref.pdf]]
+
+	[[xtclsh]]
+[[compxlib]]
+
+When the XILINX_EDK environment variable is set and EDK compilation is selected
+
+

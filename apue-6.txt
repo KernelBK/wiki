@@ -1,0 +1,180 @@
+Author: Joseph Lee
+E-Mail: fdlixiaojun@gmail.com
+
+系统数据文件和信息
+/etc/passwd文件
+每此用户登录和每次执行ls -l命令都会访问该文件
+passwd文件，叫做用户数据库，包含许多字段。
+用户名，密码密文，用户ID，组ID，注释，起始工作目录，启动shell，用户访问类别，
+下次修改密码时间，帐户过期时间
+密码文件各项通过分号分隔。
+root的用户ID为0，现在密码密文处仅存放一个占位符，如果密码为空这里为空。
+如何使一个用户不能登录系统，设定起始shell。可用的几种方案包括：
+	/dev/null
+	/bin/true 以成功状态（零）退出
+	/bin/false 以失败状态（非零）退出
+	/usr/sbin/nologin 打印可配置的出错信息，以非零值退出
+nobody帐户，UID=65534，GID=65534，无任何特权的帐户，进可以访问Other可读写的文件
+
+获取password文件信息的函数
+#include <pwd.h>
+struct passwd *getpwuid(uid_t uid);
+struct passwd *getpwnam(const char *name);
+struct passwd *getpwent(void);	/* 返回passwd文件中的下一项 */
+成功返回指针，失败返回NULL，getpwent返回的顺序不确定
+通常，返回的内容保存在静态区，每次调用都会覆盖前次调用的结果。
+void setpwent(void);		/* 返回到开始 */
+void endpwent(void);		/* 关闭文件 */
+
+密码文件，阴影文件
+单向加密的，通过密文无法判断出明文的
+历史上，用户密码从64个字母表中[a-zA-Z0-9./]中生成13位的密文。也有用md5摘要算法
+的，每个密码生成31位字符的密文。
+阴影文件数据结构spwd包括
+用户名，密码密文，上次密码修改距今的时间，允许修改至今的时间，要求修改密码还剩
+余的时间，警告过期还剩的时间，帐户过期还剩的时间，帐户过期多久
+#include <shadow.h>
+struct spwd *getspnam(const char *name);
+struct spwd *getspent(void);
+成功返回指针，失败返回NULL
+void setspent(void);
+void endspent(void);
+
+组文件
+/etc/group
+结构 group
+组名，密码密文，组ID，指向独立用户名的指针数组
+#include <grp.h>
+struct group *getgrgid(gid_t gid);
+struct group *getgrnam(const char *name);
+structgroup getgrent(void);
+成功返回指针，失败返回NULL
+void setgrent(void);
+void endgrent(void);
+
+补充组ID
+一个用户可以属于一个pwsswd文件中指定的一个组，此外还可以是多个组的成员。
+#include <unistd.h>
+int getgroups(int gidsetsize, gid_t grouplist[]);
+成功返回补充组ID的数量，出错返回-1
+#include <grp.h>
+#include <unistd.h>
+int setgroups(int ngroups, const gid_t grouplist[])
+成功返回0，出错返回-1。
+initgroups(const char *username, gid_t basegid);
+getgroups返回补充组ID的数量，并填充传入的数组。setgroups由超级用户调用，设置当
+前进程的补充组ID为数组内容。ngroups指明补充组ID数量，该值不能大于NGROUPS_MAX
+initgroups通过getgrent读取整个组文件，然后调用setgroups为它指定的用户初始化补
+充组ID。
+initgroups会被login程序调用，在我们登录的时候。
+
+数据信息文件列表
++-----------+--------------+--------+---------+----------------------------+
+|Description|Data file     |Header  |Structure|Additional keyed lookup func|
++-----------+--------------+--------+---------+----------------------------+
+|passwords  |/etc/passwd   |pwd.h   |passwd   |getpwnam, getpwuid          |
++-----------+--------------+--------+---------+----------------------------+
+|groups     |/etc/group    |grp.h   |group    |getgrnam, getgrgid          |
++-----------+--------------+--------+---------+----------------------------+
+|shadow     |/etc/shadow   |shadow.h|spwd     |getspnam                    |
++-----------+--------------+--------+---------+----------------------------+
+|hosts      |/etc/hosts    |netdb.h |hostent  |gethostbyname, gethostbyaddr|
++-----------+--------------+--------+---------+----------------------------+
+|networks   |/etc/networks |netdb.h |netent   |getnetbyname, getnetbyaddr  |
++-----------+--------------+--------+---------+----------------------------+
+|protocols  |/etc/protocols|netdb.h |protoent |getprotobyname, getprotobynumber|
++-----------+--------------+--------+---------+----------------------------+
+|services   |/etc/services |netdb.h |servent  |getservbyname, getservbyport|
++-----------+--------------+--------+---------+----------------------------+
+
+登录记账，utmp文件，wtmp文件
+utmp文件：保存所有当前登录用户的信息
+wtmp文件：保存所有的登录登出信息
+数据结构
+	struct utmp {
+		char ut_line[8];	/* tty line: "ttyh0", "ttyd0", ... */
+		char ut_name[8];	/* login name */
+		long ut_time;		/* seconds since Epoch */
+	};
+登录的时候，填满一个这种结构并由登录程序写入utmp文件，同样的结构会被添加到wtmp
+文件后面。登出的时候，utmp文件内的项由init进程擦除，新的项被添加到wtmp文件，
+wtmp文件的登出项中ut_name字段被填0。重启的时候特殊的项被添加到wtmp文件内。
+who程序读取utmp文件并打印其内容，last程序读取wtmp文件并打印选中的内容。
+位置/var/run/utmp和/var/log/wtmp
+
+系统标识
+#include <sys/utsname.h>
+int uname(struct utsname *name);
+成功返回非负值，出错返回-1。
+调用时传入一个数据结构，由该函数填充后返回。
+	struct utsname {
+		char sysname[];
+		char nodename[];
+		char release[];
+		char version[];
+		char machine[];
+	};
+#include <unistd.h>
+int gethostname(char *name, int namelen);
+成功返回0，出错返回-1
+用户返回主机名，该名字通常用于在TCP/IP网络中作为主机的名字。namelen参数指出名字
+缓冲区的长度。如果长度足够，返回的c风格的字符串。如果空间不足，没有规定要返回c
+风格字符串
+
+时间和日期函数
+#include <time.h>
+time_t time(time_t *calptr);
+成功返回时间值，出错返回-1
+基础时间 1970年1月1日0时0分0秒 UTC
+时间以time_t形式表示，称作日历时间
+UNIX以UTC方式保存时间而不是本地时间
+ 自动处理转换
+ 将时间和日期作为一个量保存
+
+time函数返回当前时间值，如果参数calptr不是NULL则在该位置也保存一个副本。
+#include <sys/time.h>
+int gettimeofday(struct timeval *restrict tp, void *restrict tzp);
+始终返回0。
+规定tzp的唯一合法值是NULL，有些实现用于传递一个timezone信息。
+此函数将当前时间信息保存到tp所指的timeval对象中
+	struct timeval {
+		time_t tv_sec;
+		long   tv_usec;
+	};
+
+	struct tm {
+		int tm_sec;	/* 秒[0-60] */
+		int tm_min;	/* 分[0-59] */
+		int tm_hour;	/* 时[0-23] */
+		int tm_mday;	/* 月内第几天[1-31] */
+		int tm_mon;	/* 从1月起第几个月[0-11] */
+		int tm_year;	/* 从1900年起第几年 */
+		int tm_wday;	/* 从星期日起第几天[0-6] */
+		int tm_yday;	/* 从1月1日起第几天[0-365] */
+		int tm_isdst;	/* daylight saving time flag: 大于0, 0, 小于0 */
+	};
+
+#include <time.h>
+struct tm *gmtime(const time_t *calptr);
+struct tm *localtime(const time_t *calptr);
+返回指针
+时间转换函数，gmtime将日历时间转换为UTC的打散了的时间（即时分秒年月日等）
+localtime将日历时间转换为本地的打散了的时间
+time_t mktime(struct tm *tmptr)；
+成功返回日历时间，出错返回-1。
+
+char *asctime(const struct tm *tmptr);
+char *ctime(const time_t *calptr);
+返回C风格字符串，26字节长得字符串。
+asctime将打散时间转换为字符串，ctime将日历时间转换为字符串
+
+size_t strftime(char *restrict buf, size_t maxsize,
+		const char *restrict format,
+		const struct tm *restrict tmptr);
+空间足够（包括'/0'）的话返回字符串中字符数（不包括'/0'），否则返回0。
+类似printf的时间值格式化函数。
+
+允许秒大于59是为了允许a leap second。出了月内第几天外，都是0开头算起。
+daylight saving time大于0表示起作用，0表示不起作用，小于0表示不可用
+
+TZ环境变量

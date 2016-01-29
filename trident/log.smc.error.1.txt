@@ -1,0 +1,30 @@
+Unable to handle kernel paging request at virtual address 2bee01d7
+pgd = 8b33c000
+[2bee01d7] *pgd=00000000
+Internal error: Oops: 5 [#1] SMP
+last sysfs file: /sys/devices/platform/gpio_apollo.1/gpio/gpio78/value
+Modules linked in: irrx_dev 8192cu snd_cnxt snd_pcm snd_page_alloc snd_timer snd pvrnxpdc(P) pvrsrvkm(P) vpmfbDrv lnxpvrDrv lnxtmvssDrv(P) lnxtmasDrv(P) lnxcssDrv(P) lnxfssDrv(P) lnxscsDrv lnxplatDrv lnxnotifyqDrv lnxKKALDrv lnxplatnativeDrv
+CPU: 0    Tainted: P            (2.6.34 #1)
+PC is at kmem_cache_alloc+0x54/0xbc
+LR is at do_execve+0x40/0x248
+pc : [<800bcd58>]    lr : [<800c8240>]    psr: 20000093
+sp : 8b32df40  ip : 80b07090  fp : 00000400
+r10: 00000000  r9 : 8b32c000  r8 : 8b32dfb0
+r7 : 2bee01d7  r6 : 000080d0  r5 : 60000013  r4 : 806bb6c0
+r3 : 00000000  r2 : 8002e090  r1 : 00ad9000  r0 : 806bb6c0
+Flags: nzCv  IRQs off  FIQs on  Mode SVC_32  ISA ARM  Segment user
+Control: 10c57c7d  Table: 0b33c04a  DAC: 00000015
+Process h3.Notice (pid: 1774, stack limit = 0x8b32c2f8)
+Stack: (0x8b32df40 to 0x8b32e000)
+df40: 806e4ba4 00000000 8b2e1000 8b2e1000 7e2137ec 7e214bcc 00000000 800c8240
+df60: 3294e9c4 00000000 800cc82c 8b2e1000 8b32dfb0 7e214bcc 7e2137ec 800301c4
+df80: 8b32c000 00000000 00000400 8003374c 8b32dfb0 00000004 7e2137ec 7e2137ec
+dfa0: 0000000b 80030040 00000004 7e2137ec 3294e9c4 7e2137ec 7e214bcc 3296db78
+dfc0: 00000004 7e2137ec 7e2137ec 0000000b 3296c000 3294e9c4 3296c000 00000400
+dfe0: 7e2147f0 7e2137d8 328d1d94 328d19e8 60000010 3294e9c4 00000000 00000000
+[<800bcd58>] (kmem_cache_alloc+0x54/0xbc) from [<800c8240>] (do_execve+0x40/0x248)
+[<800c8240>] (do_execve+0x40/0x248) from [<8003374c>] (sys_execve+0x34/0x54)
+[<8003374c>] (sys_execve+0x34/0x54) from [<80030040>] (ret_fast_syscall+0x0/0x30)
+Code: e082c001 e3570000 0a000012 e5903010 (e7973003) 
+---[ end trace 377093316bede897 ]---
+

@@ -1,0 +1,24 @@
+
+内部网关协议OSPF(Open Shortest Path First)
+
+	“最短路径优先”是因为使用了Dijkstra 提出的最短路径算法SPF
+
+链路状态数据库(link-state database)
+	这个数据库实际上就是全网的拓扑结构图，它在全网范围内是一致的（这称为链路状态数据库的同步）
+
+OSPF 的五种分组类型
+?
+类型1，问候(Hello)分组。
+?
+类型2，数据库描述(Database Description)分组。
+?
+类型3，链路状态请求(Link State Request)分组。
+?
+类型4，链路状态更新(Link State Update)分组，
+用洪泛法对全网更新链路状态。
+?
+类型5，链路状态确认(Link State Acknowledgment)
+分组。
+
+指定的路由器(designated router)
+

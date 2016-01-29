@@ -1,0 +1,14 @@
+
+GMP, GNU Multiple Precision Arithmetic
+MPFR, GNU Multiple Precision Floating point Reliable
+
+[[fpu]]
+[[ieee754-1985]]
+ieee854-1987
+ieee854-2008
+
+fix
+http://www.myexception.cn/c/323824.html
+参数"%f"是运行时的，按照规则编译器是不可能知道你希望第二个参数是浮点数类型，所以也就不可能把int类型的2自动转换成浮点类型的2。
+另外%f需要的是64位的double，现在你只提供了低32位，高32位只能依赖栈里原有的数据。double类型最高12位小于1003，对应的十进制数就肯定小于0.000001，所以很容易就会输出0.000000
+

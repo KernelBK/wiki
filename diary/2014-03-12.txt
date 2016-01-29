@@ -1,0 +1,13 @@
+
+axi4stream的一个2B错误，
+include了examples里面的 axi4stream_rx_driver.sv文件，应该include sv里面的文件。
+
+axi4stream scoreboard
+	完成
+
+coverage collect
+
+wave gen sequencer
+
+
+

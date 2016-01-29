@@ -1,0 +1,12 @@
+
+
+Support for Read-only and Write-only masters and slaves
+
+corssbar
+data width converter
+clock converter
+protocol converter
+data fifo
+register slice
+
+[[trustzone]]

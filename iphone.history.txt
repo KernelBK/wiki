@@ -1,0 +1,43 @@
+[[iphone]]
+iphone 2g
+	iphone os 1.0
+	电容屏，没有多余按键
+	safari, 双指缩放
+	3.5寸，当时的大屏
+	金属背壳
+3g
+	gps, 3g
+	塑料背壳
+	icloud: mobileme
+3gs
+	指南针
+	复制粘贴
+	spotlight
+	推送
+4
+	双玻璃
+	前置摄像头，闪光灯
+	Retina
+	iOS
+		多任务后台
+		facetime
+	天线门
+4s
+	siri
+	imessage
+
+5
+	屏幕4.0寸
+5s 
+	土豪金
+	touch id
+	5c
+6,6p
+	4.7, 5.5
+	continuity
+	healthkit
+
+iphone6s
+	dual source  soc
+		tsmc samsung
+	

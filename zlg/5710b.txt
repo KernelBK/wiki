@@ -1,0 +1,12 @@
+
+cbit, 8bit
+adc, clock不反向了
+自检
+
+新的
+	温度传感器，x2, 一个引脚，空过方波占空比计算温度； 和背板有接口，直接连接即可。
+	spi flash使用了x4模式
+
+
+[[spi_flash_x1_x4.log.x4]]
+[[spi_flash_x1_x4.log.x1]]

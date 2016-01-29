@@ -1,0 +1,13 @@
+
+消息队列
+mailbox
+异步，发送和接受消息现在不同的进程中完成。
+
+IBM WebSphere MQ
+Oracle Advaned.Queuing
+Java Message Service
+
+
+RabbitMQ 
+Apache Qpid
+

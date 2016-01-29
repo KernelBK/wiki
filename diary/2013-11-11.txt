@@ -1,0 +1,8 @@
+
+1. nios
+1. qsys, sopc改变后，需要在nios bsp中更新bsp
+1. qsys, 接口名称不理想可以在*.qsys中修改。
+
+1. apple
+	m7
+		sensor hub

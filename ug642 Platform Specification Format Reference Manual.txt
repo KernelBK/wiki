@@ -1,0 +1,20 @@
+
+psf_rm.pdf
+
+没有axi接口的ip能不能连接进入系统
+
+mhs: microprocessor hardware specification
+mpd: microprocessor peripheral definition
+pao: peripheral analyze order
+mui: microprocessor ip user interface
+bbd: black-box definition
+mss: microprocessor software specification
+mld: microprocessor driver definition
+
+BUS_STD	
+The Xilinx-known BUS_STD values are DCR, LMB, OPB, PLB, DSOCM, ISOCM, FSL. You can also define your own bus standards.
+	
+BUS_TYPE
+BUS_TYPE are MASTER, MASTER_SLAVE, SLAVE, and MONITOR.
+point-to-point INITIATOR, TARGET.
+

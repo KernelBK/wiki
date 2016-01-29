@@ -1,0 +1,74 @@
+.span12 a {
+line-height:18px;
+}
+
+.span12 ul {
+	list-style: square;
+	padding-left: 15px; 
+	}
+.span12 ol {   
+	list-style: decimal;
+	padding-left: 15px; 
+        }
+
+/* Tables */
+table {
+    width: 100%;
+    background: #ddd;
+    border-spacing: 3px;
+    }
+caption {
+    font: italic normal normal 12px/22px Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    color: #666;
+    }
+tr {
+    margin: 1px;
+    border: 1px solid #ddd;
+    }
+td {
+    padding: 3px;
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    }
+tr.alt td, tr.even td {
+    background: #eee;
+    }
+th {
+    padding: 3px;
+    color: #fff;
+    background: #DD4814; 
+    border: 1px solid #ddd;
+    }
+th a {
+    font-weight: bold;
+    color: #eee;
+    }
+
+.span12 h1:after{content:'¶'; color:#FDA972;}
+.span12 h2:after{content:'¶¶'; color:#999;}
+.span12 h3:after{content:'¶¶¶'; color:#999;}
+.span12 h1:after, h2:after, h3:after{display:none;}
+.span12 h1:hover:after, h2:hover:after, h3:hover:after{display:inline;}
+
+h1{font-size:1.3em;}
+h2{font-size:1.1em;}
+h3{font-size:1.1em;}
+h4{font-size:1em;}
+h1, h2, h3, h4, h5, h6 {
+    text-shadow: 2px 2px 6px #CCC;
+}
+h1 {
+    border-bottom: 4px solid #888;
+}
+h2 {
+    border-bottom: 4px solid #EEE;
+}
+h3 {
+    border-bottom: 1px dashed #DDD;
+}
+
+hr {border: none; border-top: 1px solid #ccc; width: 100%;}
+del {text-decoration: line-through; color: #777777;}
+
+

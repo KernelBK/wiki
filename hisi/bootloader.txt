@@ -1,0 +1,11 @@
+set ipaddr 172.16.55.144
+set serverip 172.16.55.90
+
+setenv bootcmd 'tftp hi_kernel.bin;bootm'
+
+setenv bootargs 'mem=704M console=ttyAMA0,115200 root=/nfs/root rootfstype=yaffs2 mtdparts=hinand:1M(boot),4M(kernel),980M(rootfs),1M(baseparam),1M(logo),20M(fastplay),-(others) nfsroot=172.16.55.90:/home/nfs_h1 ip=172.16.55.144:172.16.55.90:172.16.55.254:255.255.255.0:neo-hisi:eth0:off mmz=ddr,0,0xAC000000,320M DmxPoolBufSize=0x200000'
+
+kmod/load
+ insmod  /kmod/usb/ohci-hcd.ko 不能要，否则会起不来。
+ 
+ 

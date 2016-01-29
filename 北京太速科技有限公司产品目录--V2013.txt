@@ -1,0 +1,12 @@
+
+lwip
+[[rapidio]]
+AD器件采用ADS62P49
+cpci
+TI DSP TMS320C6678
+FPGA XC5VLX110T-1FF1136
+SFP光纤
+[[SFP]] SFP+
+
+软件无线电系统
+

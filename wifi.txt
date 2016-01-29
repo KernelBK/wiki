@@ -1,0 +1,14 @@
+
+poe
+lan wan
+ikuai panabit
+
+openwrt
+ddwrt
+vxworks
+
+[[tp-link]]
+
+802.11g 54Mbps
+802.11n 30Mbps
+802.11ac, 2.4G/5GË«Æµ£¬ 1167Mbps

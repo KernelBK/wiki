@@ -1,0 +1,5 @@
+
+使用基本的 URI
+使用互联网媒体类型表现数据，通常使用的是 JSON
+使用 HTTP 请求方法来支持操作（比如 GET、PUT、POST 或者 DELETE 等 HTTP 动词
+

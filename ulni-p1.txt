@@ -1,0 +1,524 @@
+Author: Joseph Lee
+E-Mail: fdlixiaojun@gmail.com
+
+第一部分 背景知识
+这一部分一共分三章讲述，第一章介绍术语，工具，编程规范等基础；第二章讲述关键的
+数据结构，其中包括最重要的两个sk_buff和net_device；第三章讲述用户空间到内核之
+间的接口，比如用户层的配置工具等如何与内核进行通信。
+
+***********************
+内核一些通用的编程规范
+***********************
+    关于内存分配
+        kmem_cache_create, kmem_cache_destroy, kmem_cache_alloc, kmem_cache_free
+        kmalloc, kfree, kfree_skb等封装了上述函数。
+	这些函数通过slab分配器获得内存。
+    缓存和散列表
+        利用缓存来提高性能，如（L3和L2之间映射的缓存，ARP cache）以及路由表缓存
+	缓存查找函数通常查找并更新
+	缓存常利用散列表实现，内核提供了散列表的实现。
+    引用计数
+        通常利用xxx_hold和xxx_release或者xxx_get和xxx_put来增加和减少引用计数。
+	什么情况下增加数据结构的引用计数？
+    回收机制
+        同步方式
+	异步方式
+	    启动一个定时器定时检查有没有数据结构需要释放，通常引用计数为零的就
+	    释放掉。
+    函数指针和虚拟函数表（VFT）
+        要检查函数指针是否为空以后再调用
+	函数指针给阅读代码带来麻烦，因为你必须确定它是怎么被初始化的。
+    goto
+    向量定义
+        有时会在数据结构末尾定义一个可选的块，在这个可选块的位置用一个占位符来
+	表示，用到这个可选数据结构时就实现它，而占位符则指向该位置，否则占位符
+	仅仅指向数据结构末尾。
+    条件编译，一般用来确定是否支持某个功能
+        是否在数据结构中包含某个成员
+	是否包含某个函数的某个部分
+	是否包含某个函数的某个原型
+	选择某个正确的函数定义
+    编译时的分支预测优化
+    互斥
+        自旋锁
+	读写锁
+	RCU
+	信号量（semaphore），在网络代码中用的较少。
+    网络字节序和主机字节序
+        htons, htonl, ntohs, ntohl
+	这些函数总是被调用，而这些函数的实现则是系统相关的
+	如果传入的是只读变量则使用 __constant_xxx 函数
+    捕捉BUG
+        BUG_ON()，打印错误消息并panic
+	BUG_TRAP()，打印警告消息
+    统计
+       最好统计特定条件的出现，比如cache查询的失败和成功次数，内存分配和失败的
+       情况等等。
+    测量时间
+        tick和jiffies的使用
+
+************
+一些应用程序
+************
+    iputils，包含ping, arping等
+    net-tools
+    iproute2
+
+******************
+数据结构：sk_buff
+******************
+struct sk_buff	the socket buffer
+			include/linux/skbuff.h
+			net/core/skbuff.c
+    总体介绍：
+        这里存放了一个报文，该结构被网络所有的层用来存放它们的头部、信息域以及
+	其他信息。
+    字段分类：
+        该数据结构的字段可以粗略的分为四类：
+            Layout, General, Feature-specific, Management functions
+    使用范围：
+        这个数据结构被许多不同的网络层用到，比如链路层的MAC协议，网络层的IP协
+	议，传输层的TCP和UDP协议，此外在层次间传递数据时也会用到。在从一层传递
+	到上/下一层时，会加上或减去适当的头部，这个比在层间拷贝数据要有效率的多
+
+    Layout类别的字段，与skb本身相关
+    skb_reserve
+        用于在一个skbuff前面增加空间，以便插入头部。也用于对齐进入帧的IP头部。
+	用来组织和方便查找skb本身的字段（Layout类别的字段）。内核以双链表的方
+	式来维护所有的sk_buff数据对象，但管理方式要比传统的双链表复杂。该链表
+	要求能够迅速找到表头，所以增加了新的数据结构sk_buff_head，它用来作为链
+	表的头部。
+		struct sk_buff_head {
+			/* These two members must be first */
+			struct sk_buff	*next;
+			struct sk_buff	*prev;
+
+			__u32		qlen;
+			spinlock_t	lock;
+		};
+	qlen成员用来表示链表中的元素个数。lock用来保证并发访问安全。
+	每个sk_buff对象都包含有指向单一sk_buff_head的指针，该指针名字为list。
+	当前版本似乎已经去掉了这个字段。
+    struct sock *sk字段
+        指向拥有这个buffer的sock数据结构的指针。当数据时由本地产生或者由本地接
+	收时需要这个指针，因为数据和套接字相关信息会被L4协议使用。当buffer不会
+	向前传递时，该指针为NULL。
+    unsigned int len字段
+        buffer内的数据块大小。该长度包括main数据和fragments数据大小。当buffer
+	在协议栈中移动时，该值会改变，因为会有头部的添加和删除。即该长度计算协
+	议的头部。
+    unsigned int data_len字段
+        与len不同，它仅计算fragments中的数据的大小
+    unsigned int mac_len字段
+        计算MAC头大小
+    atomic_t users字段
+        引用计数，通过skb_get和kfree_skb来间接访问它
+    unsigned int truesize字段
+        表示整个buffer的大小，包括sk_buff数据结构本身。通过alloc_skb函数来初始
+	化，申请len+sizeof(sk_buff)大小的内存空间。当skb->len变化时，该字段会
+	变化
+    unsigned char *head字段
+    unsigned char *end字段
+    unsigned char *data字段
+    unsigned char *tail字段
+        这四个字段用来表示buffer（包括协议头部）的边界和里面的数据，head和end
+	指针指向buffer的始端和尾端，data和tail指向实际数据的始端和尾端。在head
+	和data之间可以存放协议头部，在tail和end之间可以存放新数据。
+-   void (*destructor) (...)
+	这个函数指针可以初始化为buffer删除时的清理函数。如果buffer不属于一个套
+	接字的话，一般不会初始化这个函数。否则，它一般会设为sock_rfree或者
+	sock_wfree。这两个函数用来更新socket维护的队列中的内存大小。
+
+    通用字段，与特定内核功能无关的字段
+-   struct timeval_stamp	+   ktime_t tstamp
+        通常只对接收到的报文有意义。它表示报文何时被接收到或者何时被调度到发送
+	通过函数netif_rx()调用net_timestamp()来设置，后者由设备驱动程序在接收
+	到一个报文后调用
+    struct net_device *dev
+        用来描述发送和接收的设备。
+        当收到一个报文时，设备驱动程序更新这个字段，使其指向代表接收接口的数据
+	结构。当一个报文要被发送时，这个参数代表通过什么设备来发送它。设置过程
+	比接收要复杂。有时这是一个抽象的虚拟设备。
+-   struct net_device *input_dev
+	表示接收设备
+-   struct net_device *real_dev
+	仅对虚拟设备有效，用来代表虚拟设备所关联的实际设备。Bonding和VLAN接口回
+	用到它。
+-   union {...} h		+   sk_buff_data_t transport_header
+-   union {...} nh		+   sk_buff_data_t network_header
+-   union {...} mac		+   sk_buff_data_t mac_header
+	这三个是TCP/IP协议栈的协议头，其中h是第四层，nh是第三层，mac是第二层。
+	当收到一个报文时，第n层协议的处理函数负责处理该层的头部，该头部由第n-1
+	层协议传递过来的buffer的skb->data指针指向，该层协议更新skb->data之后，
+	将其传往n+1层协议的处理函数。
+	当发送一个报文时，正好把这个过程倒转过来。
+-   struct dst_entry dst	+   unsigned long _skb_dst
+	这个字段用于路由子系统。
+-   char cb[40]			+   char cb[48]
+	这是一个control buffer，用于存放私有数据信息，由每层内部使用。比如tcp会
+	在其中存放一个tcp_skb_cb数据结构，该结构定义于include/net/tcp.h。
+-   unsigned int csum		+   union {__wsum csum; ...}
+-   unsigned char ip_summed	+   unsigned char ipsummed:2
+	校验码和关联的状态标志。
+-   unsigned char cloned	+   unsigned char cloned:1
+	一个布尔标志，当设置时表示该数据结构是另一个sk_buff的克隆
+-   unsigned char pkt_type	+   unsigned char pkt_type:3
+	根据L2目标地址区分帧类型，可能值定义与include/linux/if_packet.h中，对于
+	以太网，该字段由函数eth_type_trans()来初始化。
+	PACKET_HOST, PACKET_MULTICAST, PACKET_BROADAST, PACKET_OTHERCAST,
+	PACKET_OTHERHOST, PACKET_OUTGOING, PACKET_LOOPBACK, PACKET_FASTROUTE
+    __u32 priority
+        这个字段指明了将要被发送或转发的报文的QoS类别。如果是本地产生的报文，则
+	socket层定义该值。如果是转发的报文，函数rt_tos2priority()（在ip_forward
+	中调用）根据IP头部中的服务类型ToS定义该值。该参数与DSCP无关。
+    unsigned short protocol
+        L2层设备驱动程序的下一高层协议。可选值定义于/include/linux/if_ether.h。
+	典型的协议有IP，IPv6，ARP。
+-   unsigned short security
+	曾用于IPsec，表示报文的安全等级
+
+    按功能特定的字段，内核支持模块化，某些字段根据功能可以增删。
+-   unsigned long nfmark
+-   __u32 nfcache
+-   __u32 nfctinfo		+   unsigned char nfctinfo:3
+    struct nf_conntrack *nfct
+-   unsigned int nfdebug
+    struct nf_bridge_info *nf_bridge
+        这些字段用于netfiler功能（防火墙模式）
+-   union {...} private
+	用于高性能并行接口
+    __u32 tc_index
+    __u32 tc_verd
+-   __u32 tc_classid
+	这些字段用于流量控制。
+    struct sec_path *sp
+    	这个字段用于IPSec协议族用来跟踪变换。
+
+    管理功能字段，用来操作skb的大量函数，通常短小简单。这些函数通常都有两个版本
+    一种前面有"__"开头，另一种没有。通常没有的表示经过封装后增加了有效性检测或
+    者加锁机制。
+    分配buffer
+    	alloc_skb()，简单分配一个sk_buff
+	dev_alloc_skb()，为接收报文分配一个sk_buff
+    释放buffer
+        kfree_skb()
+	dev_kfree_skb()
+    操作指针来在帧头部或者尾部预留空间
+    预留和对齐
+        skb_reserve()
+	skb_put()
+	skb_push()
+	skb_pull()
+
+    skb_shared_info数据结构和skb_shinfo()函数
+        struct skb_shared_info {
+	};
+	#define skb_shinfo(SKB)	((struct skb_shared_info *) ((SKB)->end))
+
+    克隆和拷贝skb
+        skb_clone()
+
+
+    链表管理函数
+        skb_queue_head_init()
+	skb_queue_head(), skb_queue_tail()
+	skb_dequeue(), skb_dequeue_tail()
+	skb_queue_purge()
+	skb_queue_walk()
+	
+
+******************
+数据结构：net_device
+******************
+struct net_device				include/linux/netdevice.h
+    每个网络设备在内核中都表示为一个net_device，该数据结构包含了软件和硬件的配
+    置信息。可以表示一个实际的硬件也可以是一个虚拟的设备。
+    所有的net_device设备被安排到一个全局的链表中，通过全局变量dev_base来访问。
+    网络设备可以归类为两类，一类是以太网卡，一类是令牌环卡。
+    net_device数据结构的字段大致可以分为如下几类：
+        配置：Configuration
+	统计：Statistics
+	设备状态：Device status
+	链表管理：List management
+	流量管理：Traffic management
+	功能相关：Feature specific
+	通用信息：Generic
+	函数指针：Function pointers (or VFT)
+
+    标识符，net_device数据结构包含三个标示符
+        int ifindex，在注册时调用dev_new_index为每个设备分配一个唯一的ID 
+	int iflink，通常用于（虚拟）隧道设备，用来标识连接到隧道另一端的实际设备
+	unsigned short dev_id，当前由IPv6使用。
+
+    配置，某些配置字段由内核根据设备类型分配给一个缺省值，另外一些则由设备驱动
+    来填写。当然，驱动可以更改默认值，甚至某些时可以在运行时通过诸如ifconfig之
+    类的命令来更改的。
+        char name[IFNAMESIZ]，设备名字，比如eth0
+	unsigned long mem_start
+	unsigned long mem_end
+	    设备用来和内核通信的共享内存区域。它们仅可以由设备驱动访问和初始
+	    化，高层驱动不需要关心这个。
+	unsigned long base_addr
+	    IO地址和设备自由存储之间的映射基址
+	unsigned int irq
+	    设备用于和内核通信的中断号。它可以由多个设备共享，驱动通过
+	    reqeust_irq()和free_irq()来分配和释放该irq。
+	unsigned char if_port
+	    这个接口使用的端口类型
+	unsigned char dma
+	    设备使用的DMA通道（如果有的话）。在kernel/dma.c中定义了如何来从内核
+	    获取和释放一个DMA通道，reqeust_dma()和free_dma()。在获得DMA通道以后
+	    可以调用enable_dma()和disable_dma()来启用和禁止它。
+	unsigned short flags
+	unsigned short gflags
+	unsigned short priv_flags		include/linux/if.h
+	    标志中的某些位表示网络设备的能力（比如支持多播等）以及其它的一些表
+	    示设备状态的变化（比如IFF_UP或者IFF_RUNNING等）。设备驱动常在初始化
+	    时设置其中的能力位，在发生外部事件时由内核更改状态位。通过ifconfig
+	    可以方便的设置和检查很多位。
+	int features
+	    用于存储设备能力的标志位图。并不是冗余的数据，这些features表示了设
+	    备与CPU通信的能力，比如是否支持DMA到高端内存，是否硬件检查校验码。
+	    这些特性由设备驱动初始化，这些特性定义为NETIF_F_XXX，位于net_device
+	    数据结构中。
+	unsigned mtu
+	    表示设备所能处理的最大传输单元大小。以下是各个协议的MTU大小
+	    PPP				296
+	    SLIP			296
+	    Ethernet			1500
+	    ISDN			1500
+	    PLIP			1500
+	    Wavelan			1500
+	    EtherChannel		2024
+	    FDDI			4352
+	    Token Ring 4MB/s IEEE802.5	4464
+	    Token Bus IEEE 802.4	8182
+	    Token Ring 16MB/s IBM	17914
+	    Hyperchannel		65535
+	    MTU大于1500的以太网报文，IEEE叫做jumbo帧，用于GBit以太网以增加吞吐
+	    量，因为这样帧数少，中段少，占用CPU少，头部开销小等等。
+    	unsigned short type		include/linux/if_arp.h
+	    设备所属的类（以太网，帧中继等）
+	unsigned short hard_header_len
+	    设备头部大小，比如以太网头部为14B，头部长度定义于每种设备的头文件中
+	unsigned char broadcast[MAX_ADDR_LEN]
+	    链路层广播地址
+	unsigned char dev_addr[MAX_ADDR_LEN]
+	unsigned char addr_len
+	    设备的链路层地址。addr_len指定了设备地址的长度。以太网地址为8字节
+	int promiscuity
+	    混杂模式，一个计数器，非零时处于混杂模式。
+    
+    接口类别和端口，有些设备可以有多种连接口（通常是BNC + RJ45）并且允许选择其
+    中的一种，这个参数用来设置设备的端口类别。
+
+    混杂模式
+        在检查性能或者出于安全考虑以及Bridging的时候都会启用。promiscuity是计数
+	器而不是一个简单的标志是因为可能有多个应用请求混杂模式。通常调用函数
+	dev_set_promiscuity()来访问它。
+	当promiscuity非零时，还会同时设置flag的IFF_PROMISC标志。
+
+    统计信息
+        net_device包含一个名为priv的指针指向由驱动设置的私有数据结构，用来存放
+	接口的统计信息。统计信息包括发送和接收的报文数量，出错的次数等。
+
+    设备状态
+        为了控制和网络接口卡的交互，每个设备驱动会维护一些信息，比如时间戳和标
+	志等来指出接口需要哪类行为。
+	unsigned long state		include/linux/netdevice.h
+	    网络队列子系统使用的一些标志集合。它们通过枚举类型netdev_state_t定
+	    义。每个位通过set_bit()和clear_bit()操作来置位或者清位。
+	enum {...} reg_state 设备的注册状态
+	unsigned long trans_start
+	    最后一次帧传输启动时间（以jiffies为计数单位），设备驱动在启动发送
+	    前设置它。
+	unsigned long last_rx
+	    最后一个报文接收到的时间
+	struct net_device *master
+	    某些协议允许组合多个设备抽象成一个设备，比如EQL协议，Bonding协议，
+	    TEQL协议等。这些设备中的某个设备被挑选出来担当一个特殊的角色，称为
+	    主设备（Master）。
+	spinlock_t xmit_lock
+	int xmit_lock_owner
+	    序列化到驱动函数hard_start_xmit函数的访问。这表示每个CPU在同一时刻
+	    内在一个给定设备上只可以执行一个发送。xmit_lock_owner是拥有锁的CPU
+	    的ID号。单CPU上它通常为0，SMP上如果没有CPU持有锁，它为-1。如果驱动
+	    支持，可以不需要加锁发送。
+	void *atalk_ptr
+	void *ip_ptr
+	void *dn_ptr
+	void *ip6_ptr
+	void *ec_ptr
+	void *ax25_ptr
+	    指向特定协议私有数据结构的指针
+
+    链表管理
+        net_device对象被插入到一个全局的链表和两个散列表中。以下字段用于完成这
+	些任务
+	struct net_device *next;
+	struct hlist_node name_hlist;
+	struct hlist_node index_hlit;
+
+    链路层多播
+        多播可以在二层和三层上实现，通过使用特定地址或者在头部使用特定控制信
+	息，可以实现链路层多播。以太网本身就支持多播。
+	struct dev_mc_list *mc_list
+	int mc_count
+	int allmulti
+
+    流量管理
+        struct net_device *next_sched
+	struct Qdisc *qdisc
+	struct Qdisc *qdisc_sleeping
+	struct Qdisc *qdisc_ingress
+	struct list_head qdisc_list
+
+	spinlock_t queue_lock
+	spinlock_t ingress_lock
+	unsigned long tx_queue_len
+
+    功能特定字段
+        struct divert_blk *divert
+	struct net_bridge_port *br_port
+	void (*vlan_rx_register) (...)
+	void (*vlan_rx_add_vid) (...)
+	void (*vlan_rx_kill_vid) (...)
+	int netpoll_rx
+	void (*poll_controller) (...)
+
+    通用信息字段
+        atomic_t refcnt
+	int watchdog_timeo
+	struct timer_list watchdog_timer
+	int (*poll) (...)
+	struct list_head poll_list
+	int quota
+	int weight
+	const struct iw_handler_def *wireless_handlers
+	struct iw_public_data *wireless_data
+	struct list_head todo_list
+	struct class_device class_dev
+
+    函数指针
+        用于发送和接收帧
+	增加或解析buffer中的链路层的头部
+	改变端口配置
+	接收统计信息
+	于某个特定功能交互
+	struct ethtool_ops *ethtool_ops
+	int (*init) (...)
+	int (*uninit) (...)
+	int (*destructor) (...)
+	int (*open) (...)
+	int (*stop) (...)
+	struct net_device_stats* (*get_stats) (...)
+	struct iw_statistics* (*get_wireless_stats) (...)
+	int (*hard_header) (...)
+	int (*rebuild_header) (...)
+	int (*hard_header_cache) (...)
+	int (*hard_header_update) (...)
+	int (*hard_header_parse) (...)
+	int (*neigh_setup) (...)
+	int (*do_ioctl) (...)
+	int (*set_multicast_list) (...)
+	int (*set_mac_address) (...)
+	int (*set_config) (...)
+	int (*change_mtu) (...)
+	int (*tx_timeout) (...)
+	int (*accept_fastpath) (...)
+
+******************
+数据结构：sock
+******************
+struct sock
+    该结构包含了socket的网络信息。
+
+
+涉及到的文件
+include/linux/if.h
+include/linux/if_arp.h
+include/linux/if_ether.h
+include/linux/if_packet.h
+include/linux/skbuff.h
+include/linux/netdevice.h
+include/linux/slab.h
+
+kernel/time.c
+kernel/dma.c
+
+mm/slab.c
+
+drivers/net/...
+
+net/core/skbuff.c
+
+
+*********************************
+用户层怎么和内核的网络子系统打交道
+*********************************
+了解怎样和在哪个位置给/proc中增加了一个目录
+内核如何确定一个给定ioctl的handler，并作什么处理
+netlink提供了哪些函数
+当前接口提供给用户的配置
+
+*********************************
+内核怎么导出内部信息到用户空间？ 
+*********************************
+    proc虚拟文件系统
+        内核以文件的形式导出其内部信息，这些文件并不实际存在于物理磁盘上，但是
+	可以访问其内容，读取甚至修改，但是不可以在其中增加或者删除任何文件和目
+	录。它不可以作为模块编译。
+    sysctl (/proc/sys目录)
+	这个目录允许用户空间读取和更改内核变量，但并不是每个变量都可以更改。内
+	核会显式声明某个变量在这里可见。用户可以通过sysctl系统调用和procfs来访
+	问这些值。
+    sys虚拟文件系统
+        它同样不可以以模块方式编译。
+    ioctl系统调用
+        操作一个文件，通常用于操作特殊设备文件，对这些特殊设备文件标准的文件系
+	统调用不能处理。ioctl也可以操作套接字描述符。
+    netlink套接字
+        这是最新和推荐的与内核网络子系统通信的机制。大多数内核网络功能可以同时
+	使用netlink或者ioctl接口。
+
+
+******************
+procfs和sysctl对比
+******************
+通常procfs导出只读的内核信息，而sysctl控制的信息大部分是可写的。
+如果是导出巨量的数据，采用procfs，如果只是一个变量或者数据结构则可以用sysctl
+大多数网络功能在初始化时（启动或模块加载的时候）会在/proc下注册一个或多个文件。
+当用户读这个文件时，会间接导致内核调用一系列的函数来返回需要的输出。
+    proc_mkdir，在/proc文件系统下创建目录。
+    proc_net_fops_create
+    proc_net_fops_remove		include/linux/proc_fs.h
+        在/proc/net下创建和删除文件，这两个函数封装了如下通用API
+	    create_proc_entry
+	    remove_proc_entry
+sysctl 目录/proc/sys
+
+*****
+ioctl
+*****
+一个ioctl调用是如何执行的？
+经过多层次的分发，最终被分配到实际的执行处理函数。
+网络不分的ioctl命令在include/linux/sockios.h中列出。设备驱动可以定义自己私有的
+命令，利用SIOCDEVPRIVATE到SIOCDEVPRIVATE+15这个范围内的代号。
+
+**************
+netlink socket
+**************
+定义于RFC 3549
+代表为了IP网络配置位于用户空间和内核之间的推荐使用的接口。netlink也可以作为一种
+内核消息系统机制，可以在多个用户空间进程之间通信。
+对于netlink套接字，你可以使用标准的套接字API来操作。netlink使用新的域PF_NETLINK
+仅支持SOCK_DGRAM类型，并定义了几个协议类型，比如NETLINK_ROUTE, NETLINK_FIREWALL
+（Netfilter），所有的这些定义在include/linux/netlink.h中，以NETLINK_XXX开头。
+对于netlink套接字，端点通常是由打开该套接字的进程的PID标识的，特殊值0表示内核。
+目标PID可以是一个单一的进程PID，也可以是一个进程组ID，或者两者的混合，通过这个
+来支持单播和多播以发送通知消息。另外一个能力是可以发送正的或者负的ACK消息。
+netlink相对于传统的方法比如ioctl的优点在于内核可以发起一个传输而不是仅仅应答一
+个用户层的请求。
+
+当你应用一个配置更新时，内核的处理函数会请求一个信号量（rtnl_sem）来保证对保存
+网络配置信息的数据结构的互斥访问。不管是通过ioctl或者netlink都会这样做。

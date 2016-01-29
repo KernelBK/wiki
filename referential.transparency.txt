@@ -1,0 +1,8 @@
+	引用透明性 referential.transparency
+
+functional
+	erlang
+
+为了跟踪某个值(项式)，我们赋予它一个名字
+(虫日X); 从此往后， X的引用可以被传递给程序的任意部分，但X指代的值却恒定不变。
+Java中的字符串之所以是常量	

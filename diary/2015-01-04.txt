@@ -1,0 +1,11 @@
+
+../zlg/PaDevMgr
+
+mcard
+	k7不需要修改
+
+done
+	front ctrl需要打一拍
+	fw需要编译，调试
+	验证前端读取
+

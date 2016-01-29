@@ -1,0 +1,5 @@
+
+243 An example of this is where the same information applies to every byte in a transfer and it is more efficient to indicate the additional information once only for the entire transfer rather than replicating it for each byte within the transfer.
+
+
+

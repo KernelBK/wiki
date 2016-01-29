@@ -1,0 +1,10 @@
+
+
+CTS(Compatibility Test Suite)
+http://source.android.com/compatibility/overview.html
+
+http://blog.csdn.net/jianguo_liao19840726/article/details/7222814
+	只有通过CTS测试的设备才有可能获得Android的商标和享受Android Market的权限
+	在android源代码目录下输入make cts命令来编译CTS
+	out/host/linux-x86/cts/
+

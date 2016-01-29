@@ -1,0 +1,70 @@
+
+ACID, 原子，一致，隔离，持久
+无类型
+
+
+http://en.wikipedia.org/wiki/SQL_injection
+
+
+查询百词斩提供的单词
+
+SELECT book_id, topic_word
+FROM ts_topic_data_all, ts_allid_info 
+WHERE ts_topic_data_all.topic_id=ts_allid_info.topic_id
+
+SELECT ts_book_info.book_id, book_name, topic_word
+FROM ts_topic_data_all, ts_allid_info, ts_book_info
+WHERE ts_topic_data_all.topic_id=ts_allid_info.topic_id and  ts_allid_info.book_id=ts_book_info.book_id
+
+SELECT book_name, topic_word, topic_word_interpret
+FROM ts_topic_data_all, ts_allid_info, ts_book_info
+WHERE ts_topic_data_all.topic_id=ts_allid_info.topic_id and  ts_allid_info.book_id=ts_book_info.book_id
+
+SELECT book_name, topic_word, word_etyma, topic_word_interpret
+FROM ts_topic_data_all, ts_allid_info, ts_book_info, ts_topic_data_info
+WHERE ts_topic_data_all.topic_id=ts_allid_info.topic_id and  
+    ts_allid_info.book_id=ts_book_info.book_id and
+    ts_topic_data_info.topic_id=ts_topic_data_all.topic_id
+
+SELECT book_name FROM ts_book_info
+
+ts_topic_data_all
+    topic_word_transform
+    topic_word_interpret
+    topic_word_example
+    topic_word_accent
+
+ts_topic_data_info
+    mean_en
+    word_etyma
+    word_variants
+    shot_phrase
+
+SELECT topic_complete, topic_word, topic_read
+FROM ts_topic_data_all
+
+SELECT ts_allid_flag_info.topic_id, ts_topic_data_all.topic_word, ts_allid_flag_info.update_flag, ts_topic_data_info.update_flag, updated_at
+FROM ts_allid_flag_info, ts_topic_data_all, ts_book_offline_check_info, ts_topic_data_info 
+WHERE ts_allid_flag_info.topic_id=ts_topic_data_all.topic_id and ts_topic_data_all.topic_word="swarm" and
+    ts_book_offline_check_info.topic_id=ts_topic_data_all.topic_id and
+    ts_topic_data_info.topic_id=ts_topic_data_all.topic_id
+
+SELECT ts_allid_flag_info.topic_id, ts_topic_data_info.topic_id
+FROM ts_allid_flag_info, ts_topic_data_info
+WHERE ts_allid_flag_info.update_flag=ts_topic_data_info.update_flag
+
+SELECT ts_allid_flag_info.update_flag, ts_topic_data_info.update_flag
+FROM ts_allid_flag_info, ts_topic_data_info
+WHERE ts_allid_flag_info.topic_id=ts_topic_data_info.topic_id
+
+
+SELECT ts_allid_flag_info.topic_id, ts_topic_data_all.topic_word, ts_allid_flag_info.update_flag, ts_topic_data_info.update_flag, updated_at
+FROM ts_allid_flag_info, ts_topic_data_all, ts_book_offline_check_info, ts_topic_data_info 
+WHERE ts_allid_flag_info.topic_id=ts_topic_data_all.topic_id and ts_topic_data_all.topic_word="1373558405" and
+    ts_book_offline_check_info.topic_id=ts_topic_data_all.topic_id and
+    ts_topic_data_info.topic_id=ts_topic_data_all.topic_id
+
+SELECT update_flag
+FROM ts_allid_flag_info 
+WHERE ts_allid_flag_info.topic_id="5940"
+

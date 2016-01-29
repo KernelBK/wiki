@@ -1,0 +1,3 @@
+
+很多oop不提供多继承， 所以提供单独的interface机制；
+c++通过multiple inheritance abstract class 实现interface

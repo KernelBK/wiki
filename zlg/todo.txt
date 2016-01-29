@@ -1,0 +1,14 @@
+
+pa5000功率卡bug
+增加滤波器延迟
+pa5000l功率卡
+todo
+	coregen 生成需要的模块:ddr, 仿真，综合，加入edk环境。
+	uvm wave gen sequencer
+	新工程模板，axi总线互联
+	uvm axi4stream bfm
+	uvm reg model
+done
+	uvm axi4lite bfm
+
+

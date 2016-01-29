@@ -1,0 +1,10 @@
+
+卡生产
+	可以用以一卡sd卡写另一张emmc
+recovery
+硬件测试
+
+card0与uart冲突？所以u-boot没有支持mmcboot
+
+a10-tools
+	makeSD.sh 好像可以烧写sd卡

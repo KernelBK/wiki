@@ -1,0 +1,12 @@
+
+nps
+dau
+
+
+okr
+	stay focus - make impact
+
+eg.
+	weibo	活跃用户数
+	gov		[[gdp]] gdp增长率 社会综治 招商引资 计划生育 安全生产
+

@@ -1,0 +1,12 @@
+
+apb
+	master_driver -> addr
+	monitor 
+		collect peek
+	slave_seq_lib 
+		 p_sequencer.addr_trans_port.peek(util_transfer);
+		 send seq
+	slave driver
+
+模仿的时候每一步都不能堵死
+

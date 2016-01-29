@@ -1,0 +1,49 @@
+
+[[code/swi-prolog]]
+
+
+应用
+	matlab mex
+	theorem.proving
+	expert.system
+	rule-based logical query
+		searching databases
+		voice control system
+		filling templates
+
+PROgramming in LOGic
+变种 [[Datalog]]
+
+声明式编程语言
+逻辑编程语言
+Prolog基于数据库，但是其数据由逻辑规则和关系组成
+数据以逻辑规则的形式存在
+
+
+# syntax
+	Horn.clause
+
+事实
+规则 relation
+	合一
+查询 query
+
+clause
+	rule
+		Head :- body
+			Head is true if Body is true
+			,/2		and
+			;/2		or
+	fact
+		cat(tom). = cat(tom) :- true
+
+?-
+
+
+
+知识库
+原子（atom）
+变量的值可以改变，原子则不能。
+
+
+

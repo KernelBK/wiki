@@ -1,0 +1,9 @@
+
+类似于com和corba分布式组件架构
+rpc 远程过程调用
+
+binder 运行在linux的内核空间
+用户空间
+	client
+	server
+	service manager

@@ -1,0 +1,2607 @@
+338aa58 vm eda
+338aa56 vm self ubuntu14
+system_top_map.ngm 1215 Adobe Acrobat 9 Pro 
+system_top_map.ngm 1215 DG8Setup_1240E.exe
+1218 tools.zip wiki wiki
+1221 svnr376005, pa5000, fpga, k7
+books.4iphone.7z
+D:\work\pa5000lp.svn\1\in2\books.4iphone.7z
+已复制         1 个文件。
+Sending        ise\system_top_map.ngm
+Transmitting file data .
+Committed revision 376014.
+books.4iphone.long.7z
+D:\work\pa5000lp.svn\1\in2\books.4iphone.long.7z
+已复制         1 个文件。
+Sending        ise\system_top_map.ngm
+Transmitting file data .
+Committed revision 376016.
+commit_all_nodelay.bat
+D:\work\pa5000lp.svn\1\in2\commit_all_nodelay.bat
+已复制         1 个文件。
+Sending        ise\system_top_map.ngm
+Transmitting file data .
+Committed revision 376125.
+请按任意键继续. . .
+
+7z920-x64 (1).msi
+D:\work\pa5000lp.svn\1\in2\7z920-x64 (1).msi
+系统找不到指定的文件。
+
+等待 1902 秒，按一个键继续 ...
+autoit-v3-setup.exe
+D:\work\pa5000lp.svn\1\in2\autoit-v3-setup.exe
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 380747.
+
+等待 1884 秒，按一个键继续 ...
+CAJViewer 7.2.self.exe
+D:\work\pa5000lp.svn\1\in2\CAJViewer 7.2.self.exe
+系统找不到指定的文件。
+
+等待 1900 秒，按一个键继续 ...
+commit_all_delay.bat
+D:\work\pa5000lp.svn\1\in2\commit_all_delay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 380748.
+
+等待 1901 秒，按一个键继续 ...
+commit_all_nodelay.bat
+D:\work\pa5000lp.svn\1\in2\commit_all_nodelay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 380749.
+
+等待  777 秒，按一个键继续 ...
+cpu-z_1.67.1-setup-cn.exe
+D:\work\pa5000lp.svn\1\in2\cpu-z_1.67.1-setup-cn.exe
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 380780.
+
+等待 1857 秒，按一个键继续 ...
+Dictionary of Word Roots and Affix Forms (English-Chinese).ld2
+D:\work\pa5000lp.svn\1\in2\Dictionary of Word Roots and Affix Forms (English-Chinese).ld2
+系统找不到指定的文件。
+
+等待 1893 秒，按一个键继续 ...
+eetop.cn_CyUSBSerial_v3.0.11.0.zip
+D:\work\pa5000lp.svn\1\in2\eetop.cn_CyUSBSerial_v3.0.11.0.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 380782.
+
+等待 1887 秒，按一个键继续 ...
+eudic_win.zip
+D:\work\pa5000lp.svn\1\in2\eudic_win.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 380783.
+
+等待 1885 秒，按一个键继续 ...
+Everything-1.3.4.686.x86.Multilingual-Setup.exe
+D:\work\pa5000lp.svn\1\in2\Everything-1.3.4.686.x86.Multilingual-Setup.exe
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 380785.
+
+等待 1896 秒，按一个键继续 ...
+Everything.rar
+D:\work\pa5000lp.svn\1\in2\Everything.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 380788.
+
+等待 1901 秒，按一个键继续 ...
+
+commit_all_delay.bat
+D:\work\pa5000lp.svn\1\in2\commit_all_delay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383232.
+commit_all_nodelay.bat
+D:\work\pa5000lp.svn\1\in2\commit_all_nodelay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383252.
+mit-scheme-9.2-i386-win32.exe
+D:\work\pa5000lp.svn\1\in2\mit-scheme-9.2-i386-win32.exe
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383278.
+New Oriental Dictionary of English Roots & Affixes.ld2
+D:\work\pa5000lp.svn\1\in2\New Oriental Dictionary of English Roots & Affixes.ld2
+系统找不到指定的文件。
+OKEasyRecovery.exe
+D:\work\pa5000lp.svn\1\in2\OKEasyRecovery.exe
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383303.
+Oracle_VM_VirtualBox_Extension_Pack-5.0.6-103037.vbox-extpack
+D:\work\pa5000lp.svn\1\in2\Oracle_VM_VirtualBox_Extension_Pack-5.0.6-103037.vbox-extpack
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383328.
+Oxford Advanced Learner's Dictionary.ld2
+D:\work\pa5000lp.svn\1\in2\Oxford Advanced Learner's Dictionary.ld2
+系统找不到指定的文件。
+pcmaster_6.13_full.zip
+D:\work\pa5000lp.svn\1\in2\pcmaster_6.13_full.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383359.
+pp.exe
+D:\work\pa5000lp.svn\1\in2\pp.exe
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383382.
+QQ HRTX1.88.1978.exe
+D:\work\pa5000lp.svn\1\in2\QQ HRTX1.88.1978.exe
+系统找不到指定的文件。
+remove-empty-floder-v2.2-setup.exe
+D:\work\pa5000lp.svn\1\in2\remove-empty-floder-v2.2-setup.exe
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383407.
+sogou_pinyin_74c.exe
+D:\work\pa5000lp.svn\1\in2\sogou_pinyin_74c.exe
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383437.
+splayer.rar
+D:\work\pa5000lp.svn\1\in2\splayer.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383459.
+tortoisehg-3.1-hg-3.1+2-x64.msi
+D:\work\pa5000lp.svn\1\in2\tortoisehg-3.1-hg-3.1+2-x64.msi
+系统找不到指定的文件。
+TortoiseSVN-1.8.8.25755-x64-svn-1.8.10.1409644624.msi
+D:\work\pa5000lp.svn\1\in2\TortoiseSVN-1.8.8.25755-x64-svn-1.8.10.1409644624.msi
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383491.
+vimwiki-2-1.vba
+D:\work\pa5000lp.svn\1\in2\vimwiki-2-1.vba
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383507.
+VirtualBox-4.3.30-101610-Win.exe
+D:\work\pa5000lp.svn\1\in2\VirtualBox-4.3.30-101610-Win.exe
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383559.
+VirtualBox-5.0.6-103037-Win.exe
+D:\work\pa5000lp.svn\1\in2\VirtualBox-5.0.6-103037-Win.exe
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383629.
+VistanitaDuplicateFinder-v3.96H.rar
+D:\work\pa5000lp.svn\1\in2\VistanitaDuplicateFinder-v3.96H.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383646.
+Windows6.1-KB2506143-x64.msu
+D:\work\pa5000lp.svn\1\in2\Windows6.1-KB2506143-x64.msu
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383670.
+Windows7-USB-DVD-tool.exe
+D:\work\pa5000lp.svn\1\in2\Windows7-USB-DVD-tool.exe
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383688.
+winmaster.exe
+D:\work\pa5000lp.svn\1\in2\winmaster.exe
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383704.
+Word Roots memory Dictionary.ld2
+D:\work\pa5000lp.svn\1\in2\Word Roots memory Dictionary.ld2
+系统找不到指定的文件。
+Xmgr5.zip
+D:\work\pa5000lp.svn\1\in2\Xmgr5.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383746.
+Xshell_5.0.526.rar
+D:\work\pa5000lp.svn\1\in2\Xshell_5.0.526.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383789.
+快用苹果助手_2.1.exe
+D:\work\pa5000lp.svn\1\in2\快用苹果助手_2.1.exe
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383818.
+淘宝图片批量处理_3.2.zip
+D:\work\pa5000lp.svn\1\in2\淘宝图片批量处理_3.2.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383842.
+致远电子网盘客户端_x64_1.2.758.msi
+D:\work\pa5000lp.svn\1\in2\致远电子网盘客户端_x64_1.2.758.msi
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 383861.
+请按任意键继续. . .
+请按任意键继续. . .
+
+100g
+D:\work\pa5000lp.svn\1\in2\100g
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 384063.
+200g
+D:\work\pa5000lp.svn\1\in2\200g
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 384093.
+20g
+D:\work\pa5000lp.svn\1\in2\20g
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 384125.
+50g
+D:\work\pa5000lp.svn\1\in2\50g
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 384150.
+_commit_all_delay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_delay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 384169.
+_commit_all_nodelay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_nodelay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 384184.
+请按任意键继续. . .
+100g
+D:\work\pa5000lp.svn\1\in2\100g
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 385384.
+200g
+D:\work\pa5000lp.svn\1\in2\200g
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 385408.
+20g
+D:\work\pa5000lp.svn\1\in2\20g
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 385425.
+50g
+D:\work\pa5000lp.svn\1\in2\50g
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 385428.
+_commit_all_delay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_delay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 385430.
+_commit_all_nodelay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_nodelay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 385431.
+请按任意键继续. . .
+
+Longman.Advanced.Grammar.pdf
+D:\work\pa5000lp.svn\1\in2\Longman.Advanced.Grammar.pdf
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 386882.
+
+等待 710 秒，按一个键继续 ...
+Story.pdf
+D:\work\pa5000lp.svn\1\in2\Story.pdf
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 386885.
+
+english.grammar.xxy.rar
+D:\work\pa5000lp.svn\1\in2\english.grammar.xxy.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 386889.
+
+等待 422 秒，按一个键继续 ...
+grammar.xyy.less.p2.rar
+D:\work\pa5000lp.svn\1\in2\grammar.xyy.less.p2.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 386893.
+
+等待   0 秒，按一个键继续 ...
+grammar.xyy.less.rar
+D:\work\pa5000lp.svn\1\in2\grammar.xyy.less.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 386901.
+
+等待   0 秒，按一个键继续 ...
+Robert.Mckee Story.Substance.Structure.Style. Screenwriting.pdf
+D:\work\pa5000lp.svn\1\in2\Robert.Mckee Story.Substance.Structure.Style. Screenwriting.pdf
+系统找不到指定的文件。
+
+等待   0 秒，按一个键继续 ...
+[我爱问连岳Ⅱ].连岳.扫描版.pdf
+D:\work\pa5000lp.svn\1\in2\[我爱问连岳Ⅱ].连岳.扫描版.pdf
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 386919.
+
+等待  41 秒，按一个键继续 ...
+[我爱问连岳Ⅲ].连岳.扫描版.pdf
+D:\work\pa5000lp.svn\1\in2\[我爱问连岳Ⅲ].连岳.扫描版.pdf
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 386937.
+
+等待 707 秒，按一个键继续 ...
+[暧昧的品位--王家卫的电影世界].鼐康.扫描版.pdf
+D:\work\pa5000lp.svn\1\in2\[暧昧的品位--王家卫的电影世界].鼐康.扫描版.pdf
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 386940.
+
+等待   0 秒，按一个键继续 ...
+_commit_all_delay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_delay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 386990.
+
+等待   0 秒，按一个键继续 ...
+_commit_all_nodelay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_nodelay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387047.
+
+等待   0 秒，按一个键继续 ...
+《文学回忆录》全本木心.docx
+D:\work\pa5000lp.svn\1\in2\《文学回忆录》全本木心.docx
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387092.
+
+等待   0 秒，按一个键继续 ...
+剑桥插图法国史.世界知识出版社.pdf
+D:\work\pa5000lp.svn\1\in2\剑桥插图法国史.世界知识出版社.pdf
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387106.
+
+等待   0 秒，按一个键继续 ...
+叶永昌 新编英语阅读手册 英语语法_10425828.pdf
+D:\work\pa5000lp.svn\1\in2\叶永昌 新编英语阅读手册 英语语法_10425828.pdf
+系统找不到指定的文件。
+
+等待   0 秒，按一个键继续 ...
+我一生中的书[美]亨利·米勒.杨恒达等译.中国人民大学出版社(2004).pdf
+D:\work\pa5000lp.svn\1\in2\我一生中的书[美]亨利·米勒.杨恒达等译.中国人民大学出版社(2004).pdf
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387121.
+
+等待   0 秒，按一个键继续 ...
+我爱问连岳.连岳着.作家2007[原版扫描·清晰完整·详细书签].pdf
+D:\work\pa5000lp.svn\1\in2\我爱问连岳.连岳着.作家2007[原版扫描·清晰完整·详细书签].pdf
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387161.
+
+等待   0 秒，按一个键继续 ...
+曾大学－电影学院－026－故事：材质、结构、风格和银幕剧作.pdf
+D:\work\pa5000lp.svn\1\in2\曾大学－电影学院－026－故事：材质、结构、风格和银幕剧作.pdf
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387172.
+
+等待   0 秒，按一个键继续 ...
+超越LOGO设计.pdf
+D:\work\pa5000lp.svn\1\in2\超越LOGO设计.pdf
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387179.
+
+等待   0 秒，按一个键继续 ...
+请按任意键继续. . .
+请按任意键继续. . .
+asdf asdf as.txt
+D:\work\pa5000lp.svn\1\in2\asdf asdf as.txt
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387542.
+eyin.rar
+D:\work\pa5000lp.svn\1\in2\eyin.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387544.
+_commit_all_delay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_delay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387545.
+_commit_all_nodelay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_nodelay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387546.
+请按任意键继续. . .
+
+
+ac97.rar
+D:\work\pa5000lp.svn\1\in2\ac97.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387550.
+acpi.rar
+D:\work\pa5000lp.svn\1\in2\acpi.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387551.
+adc.rar
+D:\work\pa5000lp.svn\1\in2\adc.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387552.
+afifo.rar
+D:\work\pa5000lp.svn\1\in2\afifo.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387553.
+ahci.rar
+D:\work\pa5000lp.svn\1\in2\ahci.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387554.
+algorithm.rar
+D:\work\pa5000lp.svn\1\in2\algorithm.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387556.
+android.rar
+D:\work\pa5000lp.svn\1\in2\android.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387557.
+axie.rar
+D:\work\pa5000lp.svn\1\in2\axie.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387558.
+bus.rar
+D:\work\pa5000lp.svn\1\in2\bus.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387559.
+can.rar
+D:\work\pa5000lp.svn\1\in2\can.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387560.
+clang.rar
+D:\work\pa5000lp.svn\1\in2\clang.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387561.
+clock_domin.rar
+D:\work\pa5000lp.svn\1\in2\clock_domin.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387562.
+clock_gating.rar
+D:\work\pa5000lp.svn\1\in2\clock_gating.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387563.
+cpci.rar
+D:\work\pa5000lp.svn\1\in2\cpci.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387564.
+ctags.rar
+D:\work\pa5000lp.svn\1\in2\ctags.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387565.
+cygwin.rar
+D:\work\pa5000lp.svn\1\in2\cygwin.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387566.
+dir_tree.rar
+D:\work\pa5000lp.svn\1\in2\dir_tree.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387567.
+dma.rar
+D:\work\pa5000lp.svn\1\in2\dma.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387569.
+doc_writer.rar
+D:\work\pa5000lp.svn\1\in2\doc_writer.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387571.
+empty_files_tree.rar
+D:\work\pa5000lp.svn\1\in2\empty_files_tree.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387572.
+routon_workspace_files.rar
+D:\work\pa5000lp.svn\1\in2\routon_workspace_files.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387573.
+tree_2013-12-27. 8.rar
+D:\work\pa5000lp.svn\1\in2\tree_2013-12-27. 8.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387574.
+tree_2014-04-23. 9.rar
+D:\work\pa5000lp.svn\1\in2\tree_2014-04-23. 9.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387575.
+uart.rar
+D:\work\pa5000lp.svn\1\in2\uart.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387576.
+ubuntu.rar
+D:\work\pa5000lp.svn\1\in2\ubuntu.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387577.
+USBTMC.rar
+D:\work\pa5000lp.svn\1\in2\USBTMC.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387578.
+vb.rar
+D:\work\pa5000lp.svn\1\in2\vb.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387580.
+vim.rar
+D:\work\pa5000lp.svn\1\in2\vim.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387581.
+visio.rar
+D:\work\pa5000lp.svn\1\in2\visio.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387582.
+vmware.rar
+D:\work\pa5000lp.svn\1\in2\vmware.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387583.
+wget.rar
+D:\work\pa5000lp.svn\1\in2\wget.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387584.
+writing.rar
+D:\work\pa5000lp.svn\1\in2\writing.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387585.
+xtreme.rar
+D:\work\pa5000lp.svn\1\in2\xtreme.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387586.
+_commit_all_delay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_delay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387588.
+_commit_all_nodelay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_nodelay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387589.
+请按任意键继续. . .
+请按任意键继续. . .
+
+altium.rar
+D:\work\pa5000lp.svn\1\in2\altium.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387593.
+
+等待 707 秒，按一个键继续 ...
+avos.rar
+D:\work\pa5000lp.svn\1\in2\avos.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387594.
+
+等待   0 秒，按一个键继续 ...
+bluetooth.rar
+D:\work\pa5000lp.svn\1\in2\bluetooth.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387604.
+
+等待   0 秒，按一个键继续 ...
+centos.rar
+D:\work\pa5000lp.svn\1\in2\centos.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387606.
+
+等待   0 秒，按一个键继续 ...
+database.rar
+D:\work\pa5000lp.svn\1\in2\database.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387607.
+
+等待   0 秒，按一个键继续 ...
+ddr.rar
+D:\work\pa5000lp.svn\1\in2\ddr.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387608.
+
+等待   0 秒，按一个键继续 ...
+debussy.rar
+D:\work\pa5000lp.svn\1\in2\debussy.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387609.
+
+等待   0 秒，按一个键继续 ...
+dsp.rar
+D:\work\pa5000lp.svn\1\in2\dsp.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387610.
+
+等待   0 秒，按一个键继续 ...
+duilib.rar
+D:\work\pa5000lp.svn\1\in2\duilib.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387611.
+
+等待   0 秒，按一个键继续 ...
+electric_standard.rar
+D:\work\pa5000lp.svn\1\in2\electric_standard.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387616.
+
+等待   0 秒，按一个键继续 ...
+emacs.rar
+D:\work\pa5000lp.svn\1\in2\emacs.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387619.
+
+等待 496 秒，按一个键继续 ...
+empty_files_tree.txt
+D:\work\pa5000lp.svn\1\in2\empty_files_tree.txt
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387621.
+
+等待 701 秒，按一个键继续 ...
+ethernet.rar
+D:\work\pa5000lp.svn\1\in2\ethernet.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387622.
+
+等待   0 秒，按一个键继续 ...
+flash.rar
+D:\work\pa5000lp.svn\1\in2\flash.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387632.
+
+等待   0 秒，按一个键继续 ...
+floating_point.rar
+D:\work\pa5000lp.svn\1\in2\floating_point.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387660.
+
+等待 528 秒，按一个键继续 ...
+foobar.rar
+D:\work\pa5000lp.svn\1\in2\foobar.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387668.
+
+等待 709 秒，按一个键继续 ...
+fortran.rar
+D:\work\pa5000lp.svn\1\in2\fortran.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387669.
+
+等待   0 秒，按一个键继续 ...
+gcc.rar
+D:\work\pa5000lp.svn\1\in2\gcc.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387691.
+
+等待 335 秒，按一个键继续 ...
+git.rar
+D:\work\pa5000lp.svn\1\in2\git.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387700.
+
+等待 674 秒，按一个键继续 ...
+go.rar
+D:\work\pa5000lp.svn\1\in2\go.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387701.
+
+等待 697 秒，按一个键继续 ...
+golang.rar
+D:\work\pa5000lp.svn\1\in2\golang.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387702.
+
+等待   0 秒，按一个键继续 ...
+google.rar
+D:\work\pa5000lp.svn\1\in2\google.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387719.
+
+等待   0 秒，按一个键继续 ...
+gpib.rar
+D:\work\pa5000lp.svn\1\in2\gpib.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387731.
+
+等待   0 秒，按一个键继续 ...
+gpu.rar
+D:\work\pa5000lp.svn\1\in2\gpu.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387741.
+
+等待 662 秒，按一个键继续 ...
+haskell.rar
+D:\work\pa5000lp.svn\1\in2\haskell.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387743.
+
+等待   0 秒，按一个键继续 ...
+hg.rar
+D:\work\pa5000lp.svn\1\in2\hg.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387752.
+
+等待   0 秒，按一个键继续 ...
+intel.rar
+D:\work\pa5000lp.svn\1\in2\intel.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387762.
+
+等待 599 秒，按一个键继续 ...
+irda.rar
+D:\work\pa5000lp.svn\1\in2\irda.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387764.
+
+等待 706 秒，按一个键继续 ...
+jvm.rar
+D:\work\pa5000lp.svn\1\in2\jvm.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387765.
+
+等待   0 秒，按一个键继续 ...
+lisp.rar
+D:\work\pa5000lp.svn\1\in2\lisp.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387805.
+
+等待 678 秒，按一个键继续 ...
+llvm.rar
+D:\work\pa5000lp.svn\1\in2\llvm.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387807.
+
+等待 709 秒，按一个键继续 ...
+lua.rar
+D:\work\pa5000lp.svn\1\in2\lua.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387808.
+
+等待   0 秒，按一个键继续 ...
+makefile.rar
+D:\work\pa5000lp.svn\1\in2\makefile.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387828.
+
+等待   0 秒，按一个键继续 ...
+routon_workspace_files
+D:\work\pa5000lp.svn\1\in2\routon_workspace_files
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387839.
+
+等待   0 秒，按一个键继续 ...
+tree_2013-12-27. 8.txt
+D:\work\pa5000lp.svn\1\in2\tree_2013-12-27. 8.txt
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387854.
+
+等待   0 秒，按一个键继续 ...
+tree_2014-04-23. 9.txt
+D:\work\pa5000lp.svn\1\in2\tree_2014-04-23. 9.txt
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387864.
+
+等待   0 秒，按一个键继续 ...
+usb.rar
+D:\work\pa5000lp.svn\1\in2\usb.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387879.
+
+等待   0 秒，按一个键继续 ...
+vcs_mx.rar
+D:\work\pa5000lp.svn\1\in2\vcs_mx.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387895.
+
+等待 614 秒，按一个键继续 ...
+verilog.rar
+D:\work\pa5000lp.svn\1\in2\verilog.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387902.
+
+等待 707 秒，按一个键继续 ...
+win2003.rar
+D:\work\pa5000lp.svn\1\in2\win2003.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387903.
+
+等待   0 秒，按一个键继续 ...
+word.rar
+D:\work\pa5000lp.svn\1\in2\word.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387915.
+
+等待   0 秒，按一个键继续 ...
+_commit_all_delay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_delay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387925.
+
+等待 231 秒，按一个键继续 ...
+_commit_all_nodelay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_nodelay.bat
+已复制         1 个文件。
+cpp.rar
+D:\work\pa5000lp.svn\1\in2\cpp.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387945.
+
+等待   0 秒，按一个键继续 ...
+dsp_research.rar
+D:\work\pa5000lp.svn\1\in2\dsp_research.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387991.
+
+等待   0 秒，按一个键继续 ...
+ios.rar
+D:\work\pa5000lp.svn\1\in2\ios.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 387999.
+
+等待   0 秒，按一个键继续 ...
+java.rar
+D:\work\pa5000lp.svn\1\in2\java.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388007.
+
+等待   0 秒，按一个键继续 ...
+javascript.rar
+D:\work\pa5000lp.svn\1\in2\javascript.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388008.
+
+等待   0 秒，按一个键继续 ...
+network.rar
+D:\work\pa5000lp.svn\1\in2\network.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388010.
+
+等待   0 秒，按一个键继续 ...
+python.rar
+D:\work\pa5000lp.svn\1\in2\python.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388011.
+
+等待   0 秒，按一个键继续 ...
+systemverilog.rar
+D:\work\pa5000lp.svn\1\in2\systemverilog.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388012.
+
+等待   0 秒，按一个键继续 ...
+uvm.rar
+D:\work\pa5000lp.svn\1\in2\uvm.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388014.
+
+等待   0 秒，按一个键继续 ...
+_commit_all_delay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_delay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388016.
+
+等待   0 秒，按一个键继续 ...
+_commit_all_nodelay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_nodelay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388017.
+
+c.rar
+D:\work\pa5000lp.svn\1\in2\c.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388028.
+
+等待   0 秒，按一个键继续 ...
+clojure.rar
+D:\work\pa5000lp.svn\1\in2\clojure.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388036.
+
+等待   0 秒，按一个键继续 ...
+japan.rar
+D:\work\pa5000lp.svn\1\in2\japan.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388043.
+
+等待   0 秒，按一个键继续 ...
+Microsoft.rar
+D:\work\pa5000lp.svn\1\in2\Microsoft.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388050.
+
+等待   0 秒，按一个键继续 ...
+mips.rar
+D:\work\pa5000lp.svn\1\in2\mips.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388060.
+
+等待   0 秒，按一个键继续 ...
+modbus.rar
+D:\work\pa5000lp.svn\1\in2\modbus.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388075.
+
+等待   0 秒，按一个键继续 ...
+motor.rar
+D:\work\pa5000lp.svn\1\in2\motor.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388083.
+
+等待   0 秒，按一个键继续 ...
+net.rar
+D:\work\pa5000lp.svn\1\in2\net.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388094.
+
+等待   0 秒，按一个键继续 ...
+openstack.rar
+D:\work\pa5000lp.svn\1\in2\openstack.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388102.
+
+等待   0 秒，按一个键继续 ...
+pci.rar
+D:\work\pa5000lp.svn\1\in2\pci.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388110.
+
+等待   0 秒，按一个键继续 ...
+perl.rar
+D:\work\pa5000lp.svn\1\in2\perl.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388134.
+
+等待   0 秒，按一个键继续 ...
+php.rar
+D:\work\pa5000lp.svn\1\in2\php.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388287.
+
+等待   0 秒，按一个键继续 ...
+pkgconfig.rar
+D:\work\pa5000lp.svn\1\in2\pkgconfig.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388356.
+
+等待   0 秒，按一个键继续 ...
+powerlink.rar
+D:\work\pa5000lp.svn\1\in2\powerlink.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388550.
+
+等待   0 秒，按一个键继续 ...
+prolog.rar
+D:\work\pa5000lp.svn\1\in2\prolog.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388736.
+
+等待   0 秒，按一个键继续 ...
+qemu.rar
+D:\work\pa5000lp.svn\1\in2\qemu.rar
+已复制         1 个文件。
+svn: E175012: Commit failed (details follow):
+svn: E175012: Unable to connect to a repository at URL 'http://doc2/svn_webdisk/webdisk/projects/2015%E5%B9%B4/PM-03-2015030017-01/Software/SAMPFPGA/tmp/ise'
+svn: E175012: Connection timed out
+
+等待   0 秒，按一个键继续 ...
+quartus.rar
+D:\work\pa5000lp.svn\1\in2\quartus.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388740.
+
+等待   0 秒，按一个键继续 ...
+R.rar
+D:\work\pa5000lp.svn\1\in2\R.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388745.
+
+等待   0 秒，按一个键继续 ...
+racket.rar
+D:\work\pa5000lp.svn\1\in2\racket.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388748.
+
+等待   0 秒，按一个键继续 ...
+rapidio.rar
+D:\work\pa5000lp.svn\1\in2\rapidio.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388749.
+
+等待   0 秒，按一个键继续 ...
+REST.rar
+D:\work\pa5000lp.svn\1\in2\REST.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388760.
+
+等待   0 秒，按一个键继续 ...
+ruby.rar
+D:\work\pa5000lp.svn\1\in2\ruby.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388765.
+
+等待   0 秒，按一个键继续 ...
+rust.rar
+D:\work\pa5000lp.svn\1\in2\rust.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388772.
+
+等待   0 秒，按一个键继续 ...
+scala.rar
+D:\work\pa5000lp.svn\1\in2\scala.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388781.
+
+等待   0 秒，按一个键继续 ...
+scheme.rar
+D:\work\pa5000lp.svn\1\in2\scheme.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388804.
+
+等待 631 秒，按一个键继续 ...
+sdram.rar
+D:\work\pa5000lp.svn\1\in2\sdram.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388807.
+
+等待   0 秒，按一个键继续 ...
+serdes.rar
+D:\work\pa5000lp.svn\1\in2\serdes.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388811.
+
+等待   0 秒，按一个键继续 ...
+shell.rar
+D:\work\pa5000lp.svn\1\in2\shell.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388817.
+
+等待   0 秒，按一个键继续 ...
+spi.rar
+D:\work\pa5000lp.svn\1\in2\spi.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388838.
+
+等待 313 秒，按一个键继续 ...
+sql.rar
+D:\work\pa5000lp.svn\1\in2\sql.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388844.
+
+等待   0 秒，按一个键继续 ...
+srio.rar
+D:\work\pa5000lp.svn\1\in2\srio.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388852.
+
+等待   0 秒，按一个键继续 ...
+svn.rar
+D:\work\pa5000lp.svn\1\in2\svn.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388857.
+
+等待   0 秒，按一个键继续 ...
+swift.rar
+D:\work\pa5000lp.svn\1\in2\swift.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388884.
+
+等待   0 秒，按一个键继续 ...
+synplify.rar
+D:\work\pa5000lp.svn\1\in2\synplify.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388896.
+
+等待   0 秒，按一个键继续 ...
+taglist.rar
+D:\work\pa5000lp.svn\1\in2\taglist.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388907.
+
+等待   0 秒，按一个键继续 ...
+tcl.rar
+D:\work\pa5000lp.svn\1\in2\tcl.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388926.
+
+等待   0 秒，按一个键继续 ...
+tex.rar
+D:\work\pa5000lp.svn\1\in2\tex.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388942.
+
+等待   0 秒，按一个键继续 ...
+triz.rar
+D:\work\pa5000lp.svn\1\in2\triz.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388951.
+
+等待   0 秒，按一个键继续 ...
+_commit_all_delay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_delay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388974.
+
+等待   0 秒，按一个键继续 ...
+_commit_all_nodelay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_nodelay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 388976.
+
+等待   0 秒，按一个键继续 ...
+请按任意键继续. . .
+请按任意键继续. . .
+in2.7z
+D:\work\pa5000lp.svn\1\in2\in2.7z
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389023.
+reading_notes.7z
+D:\work\pa5000lp.svn\1\in2\reading_notes.7z
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389056.
+_commit_all_delay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_delay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389057.
+_commit_all_nodelay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_nodelay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389059.
+请按任意键继续. . .
+
+altera.rar
+D:\work\pa5000lp.svn\1\in2\altera.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389128.
+
+等待   0 秒，按一个键继续 ...
+arm.rar
+D:\work\pa5000lp.svn\1\in2\arm.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389138.
+
+等待   0 秒，按一个键继续 ...
+c#.rar
+D:\work\pa5000lp.svn\1\in2\c#.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389156.
+
+等待   0 秒，按一个键继续 ...
+design.patterns.rar
+D:\work\pa5000lp.svn\1\in2\design.patterns.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389172.
+
+等待   0 秒，按一个键继续 ...
+erlang.rar
+D:\work\pa5000lp.svn\1\in2\erlang.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389180.
+
+等待 393 秒，按一个键继续 ...
+modelsim.rar
+D:\work\pa5000lp.svn\1\in2\modelsim.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389184.
+
+等待   0 秒，按一个键继续 ...
+objective-c.rar
+D:\work\pa5000lp.svn\1\in2\objective-c.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389188.
+
+等待   0 秒，按一个键继续 ...
+pcie.rar
+D:\work\pa5000lp.svn\1\in2\pcie.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389195.
+
+等待   0 秒，按一个键继续 ...
+qt.rar
+D:\work\pa5000lp.svn\1\in2\qt.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389199.
+
+等待   0 秒，按一个键继续 ...
+sata.rar
+D:\work\pa5000lp.svn\1\in2\sata.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389202.
+
+等待   0 秒，按一个键继续 ...
+signal.and.system.rar
+D:\work\pa5000lp.svn\1\in2\signal.and.system.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389209.
+
+等待   0 秒，按一个键继续 ...
+systemc.rar
+D:\work\pa5000lp.svn\1\in2\systemc.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389212.
+
+等待   0 秒，按一个键继续 ...
+verdi.rar
+D:\work\pa5000lp.svn\1\in2\verdi.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389221.
+
+等待   0 秒，按一个键继续 ...
+web.rar
+D:\work\pa5000lp.svn\1\in2\web.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389229.
+
+等待   0 秒，按一个键继续 ...
+weixin.rar
+D:\work\pa5000lp.svn\1\in2\weixin.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389245.
+
+等待   0 秒，按一个键继续 ...
+windows.rar
+D:\work\pa5000lp.svn\1\in2\windows.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389271.
+
+等待   0 秒，按一个键继续 ...
+_commit_all_delay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_delay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389283.
+
+等待   0 秒，按一个键继续 ...
+_commit_all_nodelay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_nodelay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389288.
+
+等待   0 秒，按一个键继续 ...
+请按任意键继续. . .
+请按任意键继续. . .
+
+0.Computer.tech.books.7z
+D:\work\pa5000lp.svn\1\in2\0.Computer.tech.books.7z
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389316.
+Arch.rar
+D:\work\pa5000lp.svn\1\in2\Arch.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389318.
+compiler.rar
+D:\work\pa5000lp.svn\1\in2\compiler.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389319.
+cpu_arch.rar
+D:\work\pa5000lp.svn\1\in2\cpu_arch.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389322.
+linux.rar
+D:\work\pa5000lp.svn\1\in2\linux.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389351.
+programming_language.rar
+D:\work\pa5000lp.svn\1\in2\programming_language.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389353.
+_commit_all_delay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_delay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389354.
+_commit_all_nodelay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_nodelay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389356.
+请按任意键继续. . .
+请按任意键继续. . .
+
+blog.yufeng.info.rar
+D:\work\pa5000lp.svn\1\in2\blog.yufeng.info.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389417.
+books_2015-12-30.1637.efu
+D:\work\pa5000lp.svn\1\in2\books_2015-12-30.1637.efu
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389418.
+coolshell.cn.rar
+D:\work\pa5000lp.svn\1\in2\coolshell.cn.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389420.
+paulgraham.com.rar
+D:\work\pa5000lp.svn\1\in2\paulgraham.com.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389421.
+www.ruanyifeng.com.rar
+D:\work\pa5000lp.svn\1\in2\www.ruanyifeng.com.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389422.
+www.yinwang.org.rar
+D:\work\pa5000lp.svn\1\in2\www.yinwang.org.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389423.
+_commit_all_delay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_delay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389424.
+_commit_all_nodelay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_nodelay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389425.
+请按任意键继续. . .
+
+empty_by_type_2015-10-23.18.7z
+D:\work\pa5000lp.svn\1\in2\empty_by_type_2015-10-23.18.7z
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389566.
+prj_20150701_2015-12-31.17.7z
+D:\work\pa5000lp.svn\1\in2\prj_20150701_2015-12-31.17.7z
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+iTools.exe
+D:\work\pa5000lp.svn\1\in2\iTools.exe
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389698.
+iTunes64_12.3.2.35.exe
+D:\work\pa5000lp.svn\1\in2\iTunes64_12.3.2.35.exe
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389699.
+_commit_all_delay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_delay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389700.
+_commit_all_nodelay.bat
+D:\work\pa5000lp.svn\1\in2\_commit_all_nodelay.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389701.
+请按任意键继续. . .
+
+Beyond Compare 3.rar
+D:\work\pa5000lp.svn\1\in2\Beyond Compare 3.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389714.
+eyin.rar
+D:\work\pa5000lp.svn\1\in2\eyin.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389715.
+MDictPC.rar
+D:\work\pa5000lp.svn\1\in2\MDictPC.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389716.
+Picasa2.rar
+D:\work\pa5000lp.svn\1\in2\Picasa2.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389717.
+source insight3.5中文版.rar
+D:\work\pa5000lp.svn\1\in2\source insight3.5中文版.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389719.
+ZzFlash1.4.rar
+D:\work\pa5000lp.svn\1\in2\ZzFlash1.4.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389720.
+ZzFlash1.6特别版.rar
+D:\work\pa5000lp.svn\1\in2\ZzFlash1.6特别版.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389721.
+易我数据恢复向导2.1安装版.rar
+D:\work\pa5000lp.svn\1\in2\易我数据恢复向导2.1安装版.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389722.
+请按任意键继续. . .
+
+ciqi_20140521.7z
+D:\work\pa5000lp.svn\1\in2\ciqi_20140521.7z
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389756.
+
+等待   0 秒，按一个键继续 ...
+coreutils-5.3.0.exe
+D:\work\pa5000lp.svn\1\in2\coreutils-5.3.0.exe
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389768.
+
+等待   0 秒，按一个键继续 ...
+FileRecv.rar
+D:\work\pa5000lp.svn\1\in2\FileRecv.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389793.
+
+等待   0 秒，按一个键继续 ...
+JsonViewerPackage.rar
+D:\work\pa5000lp.svn\1\in2\JsonViewerPackage.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389816.
+
+等待   0 秒，按一个键继续 ...
+UltraISO.rar
+D:\work\pa5000lp.svn\1\in2\UltraISO.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389824.
+
+等待   0 秒，按一个键继续 ...
+VISPRO.rar
+D:\work\pa5000lp.svn\1\in2\VISPRO.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389833.
+
+等待   0 秒，按一个键继续 ...
+wiki_2015.rar
+D:\work\pa5000lp.svn\1\in2\wiki_2015.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389930.
+请按任意键继续. . .
+请按任意键继续. . .
+
+iphone.4s.app.bk.7z
+D:\work\pa5000lp.svn\1\in2\iphone.4s.app.bk.7z
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 389949.
+请按任意键继续. . .
+请按任意键继续. . .
+
+in2.rar
+D:\work\pa5000lp.svn\1\in2\in2.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 390455.
+请按任意键继续. . . in2.rar
+D:\work\pa5000lp.svn\1\in2\in2.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 390627.
+请按任意键继续. . . 
+in2.rar
+D:\work\pa5000lp.svn\1\in2\in2.rar
+已复制         1 个文件。
+_done.rar
+D:\work\pa5000lp.svn\1\in2\_done.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 390686.
+_done_2015.rar
+D:\work\pa5000lp.svn\1\in2\_done_2015.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 390691.
+_to_phone.rar
+D:\work\pa5000lp.svn\1\in2\_to_phone.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 390697.
+四大名著 汇评本.rar
+D:\work\pa5000lp.svn\1\in2\四大名著 汇评本.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 390704.
+new_dir_by_year.bat
+D:\work\pa5000lp.svn\1\in2\new_dir_by_year.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 391840.
+card_5710b_2015-12-30.1457.rar
+D:\work\pa5000lp.svn\1\in2\card_5710b_2015-12-30.1457.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 392304.
+card_5710b_2016-01-08.0851.rar
+D:\work\pa5000lp.svn\1\in2\card_5710b_2016-01-08.0851.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 392305.
+new_dir_by_year.bat
+D:\work\pa5000lp.svn\1\in2\new_dir_by_year.bat
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 392306.
+card_fpga_2016-01-08.0929
+D:\work\pa5000lp.svn\1\in2\card_fpga_2016-01-08.0929
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 392316.
+trash.7z
+D:\work\pa5000lp.svn\1\in2\trash.7z
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 392317.
+.7z.001
+D:\work\pa5000lp.svn\1\in2\.7z.001
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 392593.
+.7z.002
+D:\work\pa5000lp.svn\1\in2\.7z.002
+已复制         1 个文件。
+.7z.003
+D:\work\pa5000lp.svn\1\in2\.7z.003
+已复制         1 个文件。
+.7z.004
+D:\work\pa5000lp.svn\1\in2\.7z.004
+已复制         1 个文件。
+.7z.005
+D:\work\pa5000lp.svn\1\in2\.7z.005
+已复制         1 个文件。
+card_fpga_2016-01-08.0929
+D:\work\pa5000lp.svn\1\in2\card_fpga_2016-01-08.0929
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 392648.
+trash.7z
+D:\work\pa5000lp.svn\1\in2\trash.7z
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 392650.
+trash2.7z
+D:\work\pa5000lp.svn\1\in2\trash2.7z
+vm_work.7z.001
+D:\work\pa5000lp.svn\1\in2\vm_work.7z.001
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 392716.
+vm_work.7z.002
+D:\work\pa5000lp.svn\1\in2\vm_work.7z.002
+已复制         1 个文件。
+vm_work.7z.003
+D:\work\pa5000lp.svn\1\in2\vm_work.7z.003
+已复制         1 个文件。
+vm_work.7z.004
+D:\work\pa5000lp.svn\1\in2\vm_work.7z.004
+已复制         1 个文件。
+vm_work.7z.005
+D:\work\pa5000lp.svn\1\in2\vm_work.7z.005
+已复制         1 个文件。
+vm_work.7z.006
+D:\work\pa5000lp.svn\1\in2\vm_work.7z.006
+已复制         1 个文件。
+log.txt
+D:\work\pa5000lp.svn\1\in2\log.txt
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 392863.
+log.txt
+D:\work\pa5000lp.svn\1\in2\log.txt
+已复制         1 个文件。
+vm_work.7z.002
+D:\work\pa5000lp.svn\1\in2\vm_work.7z.002
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 392882.
+vm_work.7z.003
+D:\work\pa5000lp.svn\1\in2\vm_work.7z.003
+已复制         1 个文件。
+vm_work.7z.004
+D:\work\pa5000lp.svn\1\in2\vm_work.7z.004
+已复制         1 个文件。
+vm_work.7z.005
+D:\work\pa5000lp.svn\1\in2\vm_work.7z.005
+已复制         1 个文件。
+vm_work.7z.006
+D:\work\pa5000lp.svn\1\in2\vm_work.7z.006
+已复制         1 个文件。
+1
+D:\work\pa5000lp.svn\1\in2\1
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393702.
+linux-history.7z
+D:\work\pa5000lp.svn\1\in2\linux-history.7z
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393706.
+Ubuntu_workspace.vmdk
+D:\work\pa5000lp.svn\1\in2\Ubuntu_workspace.vmdk
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393753.
+card_5720_2015-12-18.0918.rar
+D:\work\pa5000lp.svn\1\in2\card_5720_2015-12-18.0918.rar
+已复制         1 个文件。
+Updating '.':
+At revision 393847.
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393848.
+open_subdir_ise.bat
+D:\work\pa5000lp.svn\1\in2\open_subdir_ise.bat
+已复制         1 个文件。
+Updating '.':
+At revision 393848.
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393849.
+work.zlg.rar
+D:\work\pa5000lp.svn\1\in2\work.zlg.rar
+已复制         1 个文件。
+Updating '.':
+At revision 393853.
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393855.
+empty_nouse_files.7z
+D:\work\pa5000lp.svn\1\in2\empty_nouse_files.7z
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393858.
+empty_nouse_files_20150814.rar
+D:\work\pa5000lp.svn\1\in2\empty_nouse_files_20150814.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393859.
+_empty_by_type.7z
+D:\work\pa5000lp.svn\1\in2\_empty_by_type.7z
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393860.
+_empty_files.7z
+D:\work\pa5000lp.svn\1\in2\_empty_files.7z
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393861.
+01.blvds_link.7z
+D:\work\pa5000lp.svn\1\in2\01.blvds_link.7z
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393864.
+build.card_p_45.lvds_test.rar
+D:\work\pa5000lp.svn\1\in2\build.card_p_45.lvds_test.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393868.
+case.bug0012866.iec切换错误.rar
+D:\work\pa5000lp.svn\1\in2\case.bug0012866.iec切换错误.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393874.
+case.bug0015623.波形出现竖线.rar
+D:\work\pa5000lp.svn\1\in2\case.bug0015623.波形出现竖线.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393877.
+case.card_flash_logic_analysis.rar
+D:\work\pa5000lp.svn\1\in2\case.card_flash_logic_analysis.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393883.
+case.card_flash_readback.rar
+D:\work\pa5000lp.svn\1\in2\case.card_flash_readback.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393892.
+case.svn_pa5000.7z
+D:\work\pa5000lp.svn\1\in2\case.svn_pa5000.7z
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393904.
+case.固件pa后缀文件生成.rar
+D:\work\pa5000lp.svn\1\in2\case.固件pa后缀文件生成.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393912.
+case.用户体验整理.rar
+D:\work\pa5000lp.svn\1\in2\case.用户体验整理.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393913.
+case.相位校准.校准系数(相位系数中仅含相位电压).rar
+D:\work\pa5000lp.svn\1\in2\case.相位校准.校准系数(相位系数中仅含相位电压).rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393914.
+iphone4s.temp.bigpage.dotx
+D:\work\pa5000lp.svn\1\in2\iphone4s.temp.bigpage.dotx
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393915.
+iphone4s.temp.dotx
+D:\work\pa5000lp.svn\1\in2\iphone4s.temp.dotx
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393916.
+PaTerminal.7z
+D:\work\pa5000lp.svn\1\in2\PaTerminal.7z
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393917.
+Simulation_System.7z
+D:\work\pa5000lp.svn\1\in2\Simulation_System.7z
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 393918.
+filelist_book_getfiles.7z
+D:\work\pa5000lp.svn\1\in2\filelist_book_getfiles.7z
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394407.
+_6sp6.5x55.dotx
+D:\work\pa5000lp.svn\1\in2\_6sp6.5x55.dotx
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394412.
+vm_7z.7z.001 git_clone_soruce
+D:\work\pa5000lp.svn\1\in2\vm_7z.7z.001
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394419.
+vm_7z.7z.002
+D:\work\pa5000lp.svn\1\in2\vm_7z.7z.002
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394432.
+vm_7z.7z.003
+D:\work\pa5000lp.svn\1\in2\vm_7z.7z.003
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394441.
+
+ubuntu14.04_64b.7z.001
+D:\work\pa5000lp.svn\1\in2\ubuntu14.04_64b.7z.001
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394484.
+ubuntu14.04_64b.7z.002
+D:\work\pa5000lp.svn\1\in2\ubuntu14.04_64b.7z.002
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394491.
+ubuntu14.04_64b.7z.003
+D:\work\pa5000lp.svn\1\in2\ubuntu14.04_64b.7z.003
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394498.
+ubuntu14.04_64b.7z.004
+D:\work\pa5000lp.svn\1\in2\ubuntu14.04_64b.7z.004
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394560.
+ubuntu14.04_64b.7z.005
+D:\work\pa5000lp.svn\1\in2\ubuntu14.04_64b.7z.005
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394569.
+ubuntu14.04_64b.7z.006
+D:\work\pa5000lp.svn\1\in2\ubuntu14.04_64b.7z.006
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394581.
+ubuntu14.04_64b.7z.007
+D:\work\pa5000lp.svn\1\in2\ubuntu14.04_64b.7z.007
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394592.
+new_tools_install.7z.001
+D:\work\pa5000lp.svn\1\in2\new_tools_install.7z.001
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394772.
+new_tools_install.7z.002
+D:\work\pa5000lp.svn\1\in2\new_tools_install.7z.002
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394787.
+new_tools_install.7z.003
+D:\work\pa5000lp.svn\1\in2\new_tools_install.7z.003
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394800.
+new_tools_install.7z.004
+D:\work\pa5000lp.svn\1\in2\new_tools_install.7z.004
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394833.
+胡海鸥_经济学.7z.001
+D:\work\pa5000lp.svn\1\in2\胡海鸥_经济学.7z.001
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394845.
+blog.zip
+D:\work\pa5000lp.svn\1\in2\blog.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394881.
+[論語徴残欠]. 上,下論.zip
+D:\work\pa5000lp.svn\1\in2\[論語徴残欠]. 上,下論.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394887.
+二十四史全译补页 书签全.zip
+D:\work\pa5000lp.svn\1\in2\二十四史全译补页 书签全.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394902.
+老子道徳真経. 巻1-2  王弼 註 ; 陸徳明 音義 ; 宇恵 考訂.zip
+D:\work\pa5000lp.svn\1\in2\老子道徳真経. 巻1-2  王弼 註 ; 陸徳明 音義 ; 宇恵 考訂.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394911.
+肉蒲団. 巻之1-4  情隠先生 編次 倚翠楼主人 訳.zip
+D:\work\pa5000lp.svn\1\in2\肉蒲団. 巻之1-4  情隠先生 編次 倚翠楼主人 訳.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394919.
+肉蒲団小説. 巻之1-4  情隠先生,情痴反正道人 編次 ; 情死還魂社友 批評.zip
+D:\work\pa5000lp.svn\1\in2\肉蒲団小説. 巻之1-4  情隠先生,情痴反正道人 編次 ; 情死還魂社友 批評.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394936.
+論語. 巻第1-10  何晏 集解.zip
+D:\work\pa5000lp.svn\1\in2\論語. 巻第1-10  何晏 集解.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394937.
+金匱心典 巻上中下  張仲景 著  尤恰 集註.zip
+D:\work\pa5000lp.svn\1\in2\金匱心典 巻上中下  張仲景 著  尤恰 集註.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394954.
+黄帝内経霊枢紀【ブン】. 巻第1  伊沢【ハッ】軒 口授.zip
+D:\work\pa5000lp.svn\1\in2\黄帝内経霊枢紀【ブン】. 巻第1  伊沢【ハッ】軒 口授.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394978.
+.vimrc
+D:\work\pa5000lp.svn\1\in2\.vimrc
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394992.
+yyw.xcs
+D:\work\pa5000lp.svn\1\in2\yyw.xcs
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394994.
+zlg1_theme.themepack
+D:\work\pa5000lp.svn\1\in2\zlg1_theme.themepack
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 394995.
+New York Institute of Photography.zip
+D:\work\pa5000lp.svn\1\in2\New York Institute of Photography.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395010.
+胡海鸥_经济学.7z.002
+D:\work\pa5000lp.svn\1\in2\胡海鸥_经济学.7z.002
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395020.
+胡海鸥_经济学.7z.003
+D:\work\pa5000lp.svn\1\in2\胡海鸥_经济学.7z.003
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395027.
+傷寒論. 巻第1-10  張仲景 述 ; 王叔和 撰次.zip
+D:\work\pa5000lp.svn\1\in2\傷寒論. 巻第1-10  張仲景 述 ; 王叔和 撰次.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395377.
+美国纽约摄影学院摄影教材(上下册)无密码全目录版.zip
+D:\work\pa5000lp.svn\1\in2\美国纽约摄影学院摄影教材(上下册)无密码全目录版.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395395.
+肉蒲団. 巻之1-4  情隠先生 編次 ; 倚翠楼主人 訳.zip
+D:\work\pa5000lp.svn\1\in2\肉蒲団. 巻之1-4  情隠先生 編次 ; 倚翠楼主人 訳.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395403.
+論語. 巻之1-10  朱熹 集註 ; 後藤[芝山] 点.zip
+D:\work\pa5000lp.svn\1\in2\論語. 巻之1-10  朱熹 集註 ; 後藤[芝山] 点.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395408.
+开源中国(v1.7.6-含记录).ipa
+D:\work\pa5000lp.svn\1\in2\开源中国(v1.7.6-含记录).ipa
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395435.
+手机营业厅(v3.2000-含记录).ipa
+D:\work\pa5000lp.svn\1\in2\手机营业厅(v3.2000-含记录).ipa
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395442.
+掌上生活(v4.4.0-含记录).ipa
+D:\work\pa5000lp.svn\1\in2\掌上生活(v4.4.0-含记录).ipa
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395447.
+网际直通车(v5.1.0-含记录).ipa
+D:\work\pa5000lp.svn\1\in2\网际直通车(v5.1.0-含记录).ipa
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395461.
+锤子便签(v2.5.1-含记录).ipa
+D:\work\pa5000lp.svn\1\in2\锤子便签(v2.5.1-含记录).ipa
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395478.
+胡海鸥_经济学.7z.007
+D:\work\pa5000lp.svn\1\in2\胡海鸥_经济学.7z.007
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395523.
+重広補註黄帝内経素問. 巻第1-24  王冰 撰.zip
+D:\work\pa5000lp.svn\1\in2\重広補註黄帝内経素問. 巻第1-24  王冰 撰.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395531.
+金匱要略註解. 巻之1-23  張仲景 [原著] ; 名古屋玄医 註.zip
+D:\work\pa5000lp.svn\1\in2\金匱要略註解. 巻之1-23  張仲景 [原著] ; 名古屋玄医 註.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395554.
+難経小解. 1-6 c高邦淑 著.zip
+D:\work\pa5000lp.svn\1\in2\難経小解. 1-6 c高邦淑 著.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395561.
+難経本義. 巻之上,下  滑寿 著.zip
+D:\work\pa5000lp.svn\1\in2\難経本義. 巻之上,下  滑寿 著.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395562.
+新編金瓶梅 第1-10集  曲亭馬琴 著 歌川国安 画.zip
+D:\work\pa5000lp.svn\1\in2\新編金瓶梅 第1-10集  曲亭馬琴 著 歌川国安 画.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395647.
+新編金瓶梅. 第1-10集  曲亭馬琴 著 ; 歌川国安 画.zip
+D:\work\pa5000lp.svn\1\in2\新編金瓶梅. 第1-10集  曲亭馬琴 著 ; 歌川国安 画.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395657.
+欧路词典(v6.1.0-含记录).ipa
+D:\work\pa5000lp.svn\1\in2\欧路词典(v6.1.0-含记录).ipa
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395663.
+胡海鸥_经济学.7z.006
+D:\work\pa5000lp.svn\1\in2\胡海鸥_经济学.7z.006
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395674.
+webdisk_svn.7z
+D:\work\pa5000lp.svn\1\in2\webdisk_svn.7z
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395732.
+品质管理公开.rar
+D:\work\pa5000lp.svn\1\in2\品质管理公开.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395747.
+职能部门.rar
+D:\work\pa5000lp.svn\1\in2\职能部门.rar
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 395748.
+易経集註. 序目,巻之1-24  程頤 伝 ; 朱[熹] 本義 ; 昌易 [標註].zip
+D:\work\pa5000lp.svn\1\in2\易経集註. 序目,巻之1-24  程頤 伝 ; 朱[熹] 本義 ; 昌易 [標註].zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 396237.
+胡海鸥_经济学.7z.004
+D:\work\pa5000lp.svn\1\in2\胡海鸥_经济学.7z.004
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 396256.
+胡海鸥_经济学.7z.005
+D:\work\pa5000lp.svn\1\in2\胡海鸥_经济学.7z.005
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 396270.
+重刻荘子南華真経. 巻1-10  郭象 注 ; 千葉玄之 読.zip
+D:\work\pa5000lp.svn\1\in2\重刻荘子南華真経. 巻1-10  郭象 注 ; 千葉玄之 読.zip
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 396276.
+
+D:\work\pa5000lp.svn\1\in2\win7ssd.baiduf4.7z.008
+已复制         1 个文件。
+Sending        chipscope_ila_0.cdc
+Transmitting file data .
+Committed revision 396401.
+win7ssd.baiduf4.7z.009
+D:\work\pa5000lp.svn\1\in2\win7ssd.baiduf4.7z.009
+已复制         1 个文件。
+Sending        chipscope_ila_0.cdc
+Transmitting file data .
+Committed revision 396408.
+win7ssd.baiduf4.7z.010
+D:\work\pa5000lp.svn\1\in2\win7ssd.baiduf4.7z.010
+已复制         1 个文件。
+Sending        chipscope_ila_0.cdc
+Transmitting file data .
+Committed revision 396436.
+win7ssd.baiduf4.7z.011
+D:\work\pa5000lp.svn\1\in2\win7ssd.baiduf4.7z.011
+已复制         1 个文件。
+Sending        chipscope_ila_0.cdc
+Transmitting file data .
+Committed revision 396466.
+win7ssd.baiduf4.7z.001
+D:\work\pa5000lp.svn\1\in2\win7ssd.baiduf4.7z.001
+已复制         1 个文件。
+Sending        ise\45t_pcard.mcs
+Transmitting file data .
+Committed revision 396486.
+win7ssd.baiduf4.7z.002
+D:\work\pa5000lp.svn\1\in2\win7ssd.baiduf4.7z.002
+已复制         1 个文件。
+Sending        ise\45t_pcard.mcs
+Transmitting file data .
+Committed revision 396511.
+win7ssd.baiduf4.7z.003
+D:\work\pa5000lp.svn\1\in2\win7ssd.baiduf4.7z.003
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 396540.
+win7ssd.baiduf4.7z.004
+D:\work\pa5000lp.svn\1\in2\win7ssd.baiduf4.7z.004
+已复制         1 个文件。
+Sending        ise\system_top.bit
+Transmitting file data .
+Committed revision 396564.
+win7ssd.baiduf4.7z.005
+D:\work\pa5000lp.svn\1\in2\win7ssd.baiduf4.7z.005
+已复制         1 个文件。
+Sending        chipscope_ila_0.cdc
+Transmitting file data .
+Committed revision 396605.
+win7ssd.baiduf4.7z.006
+D:\work\pa5000lp.svn\1\in2\win7ssd.baiduf4.7z.006
+已复制         1 个文件。
+Sending        chipscope_ila_0.cdc
+Transmitting file data .
+Committed revision 396640.
+win7ssd.baiduf4.7z.007
+D:\work\pa5000lp.svn\1\in2\win7ssd.baiduf4.7z.007
+已复制         1 个文件。
+Sending        chipscope_ila_0.cdc
+Transmitting file data .
+Committed revision 396673.
+

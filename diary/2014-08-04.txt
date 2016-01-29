@@ -1,0 +1,8 @@
+
+595控制spi cs clk连接反了，改正。
+aurora仿真。
+
+bit转mcs脚本
+
+int2float32仿真
+封装检查

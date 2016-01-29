@@ -1,0 +1,5 @@
+
+compile.h
+在对Python源代码进行编译的时候，对于一段Code（Code Block），会创建一个PyCodeObject与这段Code对应。
+当进入新的作用域时，就开始了新的一段Code。
+[[pyc]]

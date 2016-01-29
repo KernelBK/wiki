@@ -1,0 +1,13 @@
+
+000 每 General works, Computer science and Information
+100 每 Philosophy and psychology
+200 每 Religion
+300 每 Social sciences
+400 每 Language
+500 每 Pure Science
+600 每 Technology
+700 每 Arts & recreation
+800 每 Literature
+900 每 History & geography
+
+

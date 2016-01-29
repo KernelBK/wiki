@@ -1,0 +1,5 @@
+http://www.worldhello.net/2010/11/10/2059.html
+	代码审核服务器
+	向 Git 版本库的推送（Push）必须要经过 Gerrit 服务器
+	Gerrit 管理下的 Git 版本库
+	https://review.source.android.com/

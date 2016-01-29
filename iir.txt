@@ -1,0 +1,11 @@
+
+[[matlab]]
+	fdatool
+
+xilinx 
+	infinite impulse response filter structures in xilinx fpgas
+
+signal flow graph
+	address
+	multiplier
+	delay, store the passed value

@@ -1,0 +1,9 @@
+
+aaa = ['xxx', 'yyy']
+for item in aaa:
+
+.append()
+.sort()
+[]
+del
+

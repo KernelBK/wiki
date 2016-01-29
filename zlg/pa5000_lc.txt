@@ -1,0 +1,7 @@
+
+管脚
+fpga工程，ise，edk，sdk，coregen
+子卡和背板的接口模块
+前端控制码
+
+

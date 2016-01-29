@@ -1,0 +1,31 @@
+
+[[devstack]]
+
+compute
+network
+object store
+image
+authentication
+blockstorage
+front ui
+
+
+Core Projects
+OpenStack Compute(Nova)
+OpenStack Object Storage(Swift)
+Image Service (Glance)
+Identity (Keystone)
+Dashboard (Horizon)
+Network Connectivity (Quantum)
+
+AWS 	OpenStack 
+ec2 	nova 
+S3 	swift 
+EBS 	nova-volume 
+ELB 	Atlas-LB
+SQS 	Burrow
+Console 	Dashboard
+IAM 	Keystone
+VPC 	Quantum
+RDS 	RedDwarf 
+

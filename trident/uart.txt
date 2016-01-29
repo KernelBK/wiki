@@ -1,0 +1,43 @@
+
+m3_start中的uart初始化
+scf_uart_init
+	internal_scf_uart_init
+		internal_scf_uart_hw_init
+
+
+lzj的代码
+main
+	PowerManage
+		PowerOn
+		PowerOff
+		PanicHandle
+			ReportEventToCE3100 
+	UartReceiveData
+		BcspHandle
+			BcspReceive
+			hci_event_handler
+			hci_acl_handler
+				UartSendData
+					creat_bcsp_header
+					PutTxBuf
+				hci_disconnectin
+			ack
+			bcsp_link_establish
+		MessageReceive
+			MessageHandle
+		BcspSend
+			UartTxData
+
+interrupt:
+uart0_tx_isr
+uart0_rx_isr
+timer1_ovf_isr
+wdt_isr
+
+== files modified by uart with dma patch.
+- arch/arm/mach-apollo/nx_dmac_1902_dev.c
+- arch/arm/mach-apollo/pnx8492.c
+- drivers/dma/nx_dmac_1902.c
+- drivers/serial/Kconfig
+- drivers/serial/ip3106.c
+

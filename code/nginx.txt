@@ -1,0 +1,15 @@
+
+lighty
+
+monitor+worker
+master
+
+事件处理
+	ngx_event_s
+
+状态机
+
+dir	
+	auto 编译脚本
+	conf
+

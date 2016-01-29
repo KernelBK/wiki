@@ -1,0 +1,9 @@
+
+1. 看 xilinx 文档
+	docnav 不能连网无法使用
+	xps, ise, cip, vivado流程
+	根据流程操作
+
+看 pa6000用户手册
+
+项目计划没有

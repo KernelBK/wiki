@@ -1,0 +1,11 @@
+
+uvm cadance ref lab
+	porting apb uart to axi uart
+	run apb bfm simulation
+
+dpi
+call c function from matalb
+
+计划验证环境
+	重用
+

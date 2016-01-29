@@ -1,0 +1,5 @@
+标准模板库 standard template library
+Alexander.Stepanov
+
+template, 算法和容器的解耦
+

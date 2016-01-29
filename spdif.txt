@@ -1,0 +1,6 @@
+
+digital audio interconnect cable
+	fibre optic cable with [[toslink]] connector
+	data link layer protocol
+	physical layer specification
+[[aes]]

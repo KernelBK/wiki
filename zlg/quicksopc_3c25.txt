@@ -1,0 +1,2 @@
+
+file:///Y:\bus_blvds\fpga\SmartSOPC_standard_3C25.blvds

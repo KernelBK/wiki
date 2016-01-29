@@ -1,0 +1,15 @@
+
+scheme
+
+:DISPlay:MODE Calib
+:PHASe:CALib:REGister:ALL 17
+:DISPlay:MODE NUM
+:MEAS:RAND OFF
+:NUM:NORM:ITEM1 URMS,1
+:INPut:SYNChronize:ELEMent1 U1
+:NUM:NORM:NUM 1
+:VOLTage:CALib:REGister:MASK:ELEMent1 120
+
+:VOLTage:CALib:REGister:MASK:ELEMent1 130
+:VOLTage:CALib:REGister:MASK:ELEMent1 132
+

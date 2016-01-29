@@ -1,0 +1,13 @@
+
+repo改为多个版本工具都能用的工具
+
+收集编译错误
+	在编译命令后加入收集的方法
+
+
+sv 
+	coverage 
+	random
+ 
+uvm_book_examples
+	ch4

@@ -1,0 +1,5 @@
+node_webkit [[nw.js]]
+
+[[electron]]
+解决了不知道如何嵌入cef到应用界面的问题。
+

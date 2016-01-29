@@ -1,0 +1,8 @@
+
+float point unit
+
+transcendental 先进的
+
+[[microcode]]
+
+[[通用处理器浮点与多媒体功能部件设计.pdf]]

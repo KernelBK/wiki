@@ -1,0 +1,9 @@
+
+deps/v8/src
+deps “¿¿µ
+	v8
+	http_parser
+	opensslzlib
+	zlib
+	uv
+src

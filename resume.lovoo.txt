@@ -1,0 +1,18 @@
+
+你们也许是从github上我的项目lang_features，了解到我编程技能，尤其是go语言编程能力。
+对于编程语言，我都是从程序设计语言和编译器设计去了解，这个角度可以使我更深入了解一门语言，而且在特性上还能做到没有遗漏。
+目前为止，我浏览过开源的编程语言源码有：clang clojure dotnet erlang-otp gcc go haskell io ipython jdk7u-jdk llvm lua lua2 mono monodevelop node.js OpenJDK-Research php python racket rails ruby rust scala swi-prolog v8。
+
+经历
+从我的工作经历和计算机知识层面来看，尤其特别适合系统级调试和性能优化。
+网站性能优化
+	知道一个小网站到大网站的迭代过程。
+	能够权衡使用各种现有的技术，从成熟度，难度，稳定性。
+
+我目前在中国，有过德国工作的一点点经历。
+
+
+I am of great hornor to introduce myself to you. You known me mybe my Github project(link) that about programming skill especially about go langguage technlolgy. 
+After I known programming language and compiler, I ready can understand the computer language more deeply. 
+8 years working on SoC logic chip design and linux/Android driver development, I have fullstack knowledge about computer, include computer architecture, operation system and compiler.
+I am well qualified for the job 

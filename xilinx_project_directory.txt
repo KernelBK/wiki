@@ -1,0 +1,40 @@
+
+可以很多工程用这个目录结构
+也可以在这个目录结构中包含多的fpga工程
+
+mkdir -p rtl axi4lite_ip axi4lite_vip sim_vcs fpga 
+
+add axi4lite module in project
+m=
+mkdir -p axi4lite_ip/$m axi4lite_vip/$m sim_vcs/$m
+
+xilinx_project_directory
+	rtl
+	axi4lite_ip
+		ip1
+		ip2
+		...
+	verification_lib	
+		ip1
+			sv
+			example
+		ip2
+			..
+		..
+	sim_vcs
+		Makefile
+		ip1
+			Makefile
+			run.f
+		ip2
+			...
+		...
+	fpga
+		coregen
+		prj1
+			pcore -> axi4lite_ip/ip*
+			fpga_top.v
+			coregen
+		prj2
+	
+

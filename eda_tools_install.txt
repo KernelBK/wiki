@@ -1,0 +1,29 @@
+bb2hh F04DA23AFBA4
+
+其中一个115网盘：
+账号: wang.zekun@163.com
+密码: eetop123456
+http://bbs.eetop.cn/viewthread.php?tid=339265&extra=&page=1
+
+http://www.blogbus.com/bb2hh-logs/235327910.html
+	虚拟机文件下载地址：http://115.com/lb/5lbckfcku2l#debian.zip 115网盘礼包码：5lbckfcku2l，任何想在windows下学习IC设计的都可以下载，然后导入到virtualbox中，即可。bb和root的密码都是hong
+	
+[[synopsys]]
+verdi b065
+vcs0906 b66 b052
+
+ubuntu 12.04
+apt-get install csh
+
+mv /bin/sh /bin/sh.bk
+ln -s /bin/bash /bin/sh
+
+在.bashrc中设置export VCS_ARCH_OVERRIDE=linux解决
+
+启动license
+lmgrd -c /usr/synopsys/license/synopsys.Dat
+
+[[bb2hh]] F04DA23AFBA4
+
+# libstdc++.so.5
+cp /eda/novas201110/etc/lib/libstdc++/LINUX/libstdc++.so.5 /usr/lib32/

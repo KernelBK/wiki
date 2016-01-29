@@ -1,0 +1,13 @@
+
+robot=off
+
+wget -m 
+    
+需要下载某个目录下面的所有文件。命令如下
+wget -c -r -np -k -L -p www.xxx.org/pub/path/
+
+-r 递归
+-np 递归的时候不搜索上一层目录
+-c 断电续传
+-L 不进入其他主机
+-p 下载所有文件

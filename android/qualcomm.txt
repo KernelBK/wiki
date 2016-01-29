@@ -1,0 +1,29 @@
+http://en.wikipedia.org/wiki/Qualcomm
+
+http://en.wikipedia.org/wiki/Snapdragon_%28system_on_chip%29
+	http://en.wikipedia.org/wiki/Xiaomi_MI-One
+		http://en.wikipedia.org/wiki/Xiaomi_Tech_Company 
+			http://en.wikipedia.org/wiki/MIUI 
+				MIUI is based on Android 4.0.3 ICS and CyanogenMod 9 sources. 
+				MITalk (a Blackberry Messenger clone), MINotes, MIBackup, MIMusic, and MIGallery.
+					论坛xda-developers 
+	http://en.wikipedia.org/wiki/Baidu_Yi  百度要把原有的应用替换成自己的
+	http://en.wikipedia.org/wiki/Rooting_(Android_OS) 
+	http://en.wikipedia.org/wiki/List_of_Android_Launchers 
+
+		http://en.wikipedia.org/wiki/ADW.Launcher 就是CyanogenMod
+			https://github.com/boombuler/ADWLauncher2.git
+	http://en.wikipedia.org/wiki/Ubuntu_for_Android
+		http://www.ubuntu.com/devices/android
+
+	http://en.wikipedia.org/wiki/List_of_open_source_Android_applications
+		http://www.aopensource.com/ 被墙
+
+  
+
+http://en.wikipedia.org/wiki/Comparison_of_Android_devices
+
+http://wiki.cyanogenmod.com/index.php?title=Main_Page 
+
+求伯君
+雷军

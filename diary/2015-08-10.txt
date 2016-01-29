@@ -1,0 +1,6 @@
+
+“按照理论上比较合理的方式”
+升级校准实验室的机器；
+data2mem -bm "implementation/system_bd" -p xc6slx45tcsg324-2 -bt "implementation/system.bit"  -bd "../sdk/pcard_sw/Debug/pcard_sw.elf" tag microblaze_0  -o b implementation/download.bit 
+测试关闭一些没有的bug
+

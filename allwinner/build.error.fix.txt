@@ -1,0 +1,91 @@
+
+1._FORTIFY_SOURCE”重定义
+
+build/core/combo/HOST_linux-x86.mk line 61：
+
+    -HOST_GLOBAL_CFLAGS += -D_FORTIFY_SOURCE=0
+    +HOST_GLOBAL_CFLAGS += -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0
+
+修改build/core/combo/HOST_linux-x86.mk 61行，将 HOST_GLOBAL_CFLAGS += -D_FORTIFY_SOURCE=0 修改成 HOST_GLOBAL_CFLAGS += -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0
+
+2.错误: reference ‘counts’ cannot be declared ‘mutable’ [-fpermissive]
+external/oprofile/libpp/format_output.h
+
+自己动手修改。去除mutable。
+
+3.external/gtest/src/../include/gtest/internal/gtest-param-util.h:122:11: 错误： ‘ptrdiff_t’不是一个类型名
+In file included from external/gtest/src/../include/gtest/gtest-param-test.h:157:0,
+                 from external/gtest/src/../include/gtest/gtest.h:69,
+                 from external/gtest/src/../src/gtest.cc:34,
+                 from external/gtest/src/gtest-all.cc:36:
+
+解决方法：
+$vim external/gtest/src/../include/gtest/internal/gtest-param-util.h
+#include <cstddef>
+
+4.host Executable: test-librsloader (out/host/linux-x86/obj/EXECUTABLES/test-librsloader_intermediates/test-librsloader)
+host StaticLib: libui (out/host/linux-x86/obj/STATIC_LIBRARIES/libui_intermediates/libui.a)
+out/host/linux-x86/obj/STATIC_LIBRARIES/libLLVMSupport_intermediates/libLLVMSupport.a(Signals.o): In function `PrintStackTrace':
+/home/shaocq/ics4.0.1/external/llvm/lib/Support/Unix/Signals.inc:219: undefined reference to `dladdr'
+/home/shaocq/ics4.0.1/external/llvm/lib/Support/Unix/Signals.inc:231: undefined reference to `dladdr'
+out/host/linux-x86/obj/STATIC_LIBRARIES/libLLVMSupport_intermediates/libLLVMSupport.a(Threading.o): In function `llvm::llvm_execute_on_thread(void (*)(void*), void*, unsigned int)':
+/home/shaocq/ics4.0.1/external/llvm/lib/Support/Threading.cpp:96: undefined reference to `pthread_create'
+/home/shaocq/ics4.0.1/external/llvm/lib/Support/Threading.cpp:91: undefined reference to `pthread_attr_setstacksize'
+/home/shaocq/ics4.0.1/external/llvm/lib/Support/Threading.cpp:100: undefined reference to `pthread_join'
+out/host/linux-x86/obj/STATIC_LIBRARIES/libLLVMSupport_intermediates/libLLVMSupport.a(Mutex.o): In function `MutexImpl':
+/home/shaocq/ics4.0.1/external/llvm/lib/Support/Mutex.cpp:69: undefined reference to `pthread_mutexattr_init'
+/home/shaocq/ics4.0.1/external/llvm/lib/Support/Mutex.cpp:75: undefined reference to `pthread_mutexattr_settype'
+/home/shaocq/ics4.0.1/external/llvm/lib/Support/Mutex.cpp:80: undefined reference to `pthread_mutexattr_setpshared'
+/home/shaocq/ics4.0.1/external/llvm/lib/Support/Mutex.cpp:89: undefined reference to `pthread_mutexattr_destroy'
+out/host/linux-x86/obj/STATIC_LIBRARIES/libLLVMSupport_intermediates/libLLVMSupport.a(Mutex.o): In function `llvm::sys::MutexImpl::tryacquire()':
+/home/shaocq/ics4.0.1/external/llvm/lib/Support/Mutex.cpp:143: undefined reference to `pthread_mutex_trylock'
+collect2: ld 返回 1
+make: *** [out/host/linux-x86/obj/EXECUTABLES/test-librsloader_intermediates/test-librsloader] 错误 1
+make: *** 正在等待未完成的任务....
+
+解决方法：
+$vim external/llvm/llvm-host-build.mk
+LOCAL_LDLIBS := -lpthread -ldl
+
+5.collected 3100 test methods in 225 junit test classes
+target Strip: libchromium_net (out/target/product/generic/obj/lib/libchromium_net.so)
+target Java: LatinIME (out/target/common/obj/APPS/LatinIME_intermediates/classes)
+target Dex: Music
+target Strip: libandroid_runtime (out/target/product/generic/obj/lib/libandroid_runtime.so)
+host C++: llvm-rs-cc <= frameworks/compile/slang/slang_rs_export_foreach.cpp
+frameworks/compile/slang/slang_rs_export_foreach.cpp: 在静态成员函数‘static slang::RSExportForEach* slang::RSExportForEach::Create(slang::RSContext*, const clang::FunctionDecl*)’中:
+frameworks/compile/slang/slang_rs_export_foreach.cpp:247:23: 错误： variable ‘ParamName’ set but not used [-Werror=unused-but-set-variable]
+cc1plus：所有的警告都被当作是错误
+
+解决方法：
+$ vim frameworks/compile/slang/Android.mk
+#local_cflags_for_slang := -Wno-sign-promo -Wall -Wno-unused-parameter -Werror
+local_cflags_for_slang := -Wno-sign-promo -Wall -Wno-unused-parameter
+
+6.external/mesa3d/src/glsl/linker.cpp:623:33: 警告：   ‘virtual ir_visitor_status remap_variables(ir_instruction*, gl_shader*, hash_table*)::remap_visitor::visit(ir_dereference_variable*)’所隐藏 [-Woverloaded-virtual]
+external/mesa3d/src/glsl/linker.cpp: 在函数‘void assign_varying_locations(gl_shader_program*, gl_shader*, gl_shader*)’中:
+external/mesa3d/src/glsl/linker.cpp:1394:49: 错误： expected primary-expression before ‘,’ token
+external/mesa3d/src/glsl/linker.cpp:1394:50: 错误： ‘varyings’在此作用域中尚未声明
+external/mesa3d/src/glsl/linker.cpp:1394:58: 错误： ‘offsetof’在此作用域中尚未声明
+external/mesa3d/src/glsl/linker.cpp:1395:48: 错误： expected primary-expression before ‘,’ token
+external/mesa3d/src/glsl/linker.cpp:1412:47: 错误： expected primary-expression before ‘,’ token
+external/mesa3d/src/glsl/linker.cpp:1412:48: 错误： ‘position’在此作用域中尚未声明
+external/mesa3d/src/glsl/linker.cpp:1414:47: 错误： expected primary-expression before ‘,’ token
+external/mesa3d/src/glsl/linker.cpp:1414:48: 错误： ‘pointSize’在此作用域中尚未声明
+external/mesa3d/src/glsl/linker.cpp:1424:47: 错误： expected primary-expression before ‘,’ token
+external/mesa3d/src/glsl/linker.cpp:1424:48: 错误： ‘position’在此作用域中尚未声明
+external/mesa3d/src/glsl/linker.cpp:1428:47: 错误： expected primary-expression before ‘,’ token
+external/mesa3d/src/glsl/linker.cpp:1428:48: 错误： ‘frontFacingPointCoord’在此作用域中尚未声明
+external/mesa3d/src/glsl/linker.cpp:1431:47: 错误： expected primary-expression before ‘,’ token
+external/mesa3d/src/glsl/linker.cpp:1431:48: 错误： ‘frontFacingPointCoord’在此作用域中尚未声明
+external/mesa3d/src/glsl/linker.cpp: 在函数‘void link_shaders(const gl_context*, gl_shader_program*)’中:
+external/mesa3d/src/glsl/linker.cpp:1734:49: 错误： expected primary-expression before ‘,’ token
+external/mesa3d/src/glsl/linker.cpp:1734:50: 错误： ‘fragColor’在此作用域中尚未声明
+external/mesa3d/src/glsl/linker.cpp:1734:59: 错误： ‘offsetof’在此作用域中尚未声明
+make: *** [out/host/linux-x86/obj/STATIC_LIBRARIES/libMesa_intermediates/src/glsl/linker.o] 错误 1
+解决方法：
+vim external/mesa3d/src/glsl/linker.cpp
+添加：
+#include <cstddef>
+
+

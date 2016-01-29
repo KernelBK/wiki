@@ -1,0 +1,12 @@
+
+../实业
+
+总结一些FPGA带软核设计的划分原则
+C语言中的一些好风格和坏风格
+什么样的设计不会出现太大的问题，不会引起繁琐的重构
+	代码大全里面有总结？
+
+mcard, check whether calibration arguement is load right.
+
+mcard, range set, argument laod, mode and phase sel
+

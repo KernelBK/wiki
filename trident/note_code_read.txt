@@ -1,0 +1,140 @@
+
+<pre> <code class="C">
+video/drivers/comps/tmvssDDSystem/inc/vss_system.h
+
+172 typedef struct
+173 {
+174    LPREG  pWrite;
+175    LPREG  pRead;
+176    LPREG  pStart;
+177    LPREG  pEnd;
+178 } CNXT_VSS_TEMPEST_BUF_DESC;
+179 
+
+video/drivers/comps/tmvssDDSystem/src/vss_system.c
+600    CNXT_VSS_TEMPEST_BUF_DESC  CmdDescriptor;
+ 583                   CNXT_VSS_TEMPEST_BUF_DESC  *pCmdDescAddr,
+
+ drivers/comps/tmvssDDVPP/src/vpp_private.h
+ 246    /* virtual address of the Stream Command Buffer */                                                                
+ 247    CNXT_VSS_TEMPEST_BUF_DESC        *pCmdDescriptor;                                                                 
+ 248    /* virtual address of the Stream Message Buffer */                                                                
+ 249    CNXT_VSS_TEMPEST_BUF_DESC        *pMsgDescriptor;    
+
+drivers/comps/tmvssDDVideo/inc/vdec_host_api.h
+ 683 typedef enum                                                                                                        
+ 684 {                                                                                                                   
+ 685   VDEC_CMD_DECODER_INTERFACE_DESCRIPTOR = 1,                                                                        
+ 686   VDEC_CMD_VIDEO_STREAM_DESCRIPTOR = 2,                                                                             
+ 687   VDEC_CMD_SYNC_STC = 3,                                                                                            
+ 688   VDEC_CMD_VIDEO_FREEZE_CONTROL = 5,                                                                                
+ 689   VDEC_CMD_DISPLAY_CONTROL = 6,                                                                                     
+ 690   VDEC_CMD_FLUSH_STILL = 8,                                                                                         
+ 691   VDEC_CMD_VIDEO_DPB_BUFFER_ATTACH = 11,                                                                            
+ 692   VDEC_CMD_VIDEO_DPB_BUFFER_DETACH = 12,                                                                            
+ 693   VDEC_CMD_PVR_COMMAND_LIST_UPDATE = 13,                                                                            
+ 694   VDEC_CMD_STREAM_GET_DIAG = 14,                                                                                    
+ 695   VDEC_CMD_VIDEO_FREE_USER_DATA_SLOT = 15,                                                                          
+ 696   VDEC_CMD_FLUSH_CACHE = 16,                                                                                        
+ 697   VDEC_CMD_VIP_VIDEO_CONTROL = 17,                                                                                  
+ 698   VDEC_CMD_ARM926_INTS_ENABLE = 32,                                                                                 
+ 699   VDEC_CMD_ARM926_INTS_DISABLE = 33                                                                                 
+ 700 } COMMAND_CODE_TYPE;       
+
+
+drivers/comps/tmvssDDSystem/inc/vss_system.h
+cnxt_vss_send_command
+命令的格式
+ 618    uCommandWord = uCommand | (uIndex << 8) | (uNumberArgs << 16) | (uParam << 24);
+
+ 632    HW_BUFFER_WRITE_WORD_BY_SHARED_BASE( &CmdDescriptor, uCommandWord ); 
+CmdDescriptor 是一个队列的管理指针，有队头，队尾，起点，终点。
+172 typedef struct
+173 {                                                                                                                      
+174    LPREG  pWrite;
+175    LPREG  pRead; 
+176    LPREG  pStart;                                                                                                      
+177    LPREG  pEnd;
+178 } CNXT_VSS_TEMPEST_BUF_DESC;
+
+ 37 typedef volatile unsigned long *LPREG;
+
+ 648       HW_BUFFER_WRITE_WORD_BY_SHARED_BASE( &CmdDescriptor, uParameterWord );
+发送其他的参数
+
+HW_BUFFER_WRITE_WORD_BY_SHARED_BASE
+这个太牛逼了，物理地址和虚拟地址的关系太清楚了。说明还是得看pWrite是从哪里来的。
+ 74       u_int32 uOffset = ((u_int32)((desc)->pWrite) - PHYSICAL_ADDRESS((void*)(gVFWMemInfo.uTempestBaseStart))); \    
+ 75       u_int32 uWriteAddrVirtual = (gVFWMemInfo.uTempestBaseStart + uOffset);                         \    
+pWrite的操作是+1，他改变的是CmdDescriptor地址的内容，不是对地址操作。
+
+
+internal_malone_hw_init
+CmdDescriptor赋值：
+ 1850    gVideoDriverInst.pMsgDescriptor      = (TEMPEST_BUF_DESC *)
+ 1851       (LPREG)(gVideoSharedRAMStart + VDEC_DID_OFFSET + DID_OFFSET_MSG_BUFFER_DESC);
+ 1852    gVideoDriverInst.pCmdDescriptor      = (TEMPEST_BUF_DESC *)
+ 1853       (LPREG)(gVideoSharedRAMStart + VDEC_DID_OFFSET + DID_OFFSET_CMD_BUFFER_DESC);
+CmdDescriptor结构体成员的值不能够明显的看到，队列的大小也就不不知了。
+
+1804    gVideoSharedRAMStart = gVFWMemInfo.uVDECStartAddr;
+
+
+internal_vss_load_vfw
+开内存，得到了这些地址，为什么又是虚地址又是实地址，应该和内存管理的方式有关系，没有细看。
+1162    pSharedStart = pMemAllocated;                                                                                    
+1163    pSharedStartPhy = (void *)((u_int32)(PHYSICAL_ADDRESS(pMemAllocated)));          
+
+1141    /* Allocate the Tempest Shared Memory Region*/                                                                   
+1142    RetStatus = cnxt_kal_mem_malloc(                                                                                 
+1143                                   CNXT_POOL_ID_A9_ARM926,                                                           
+1144                                   uApolloShareRamSize,                                                              
+1145                                   CNXT_MEM_ALIGN_DEFAULT, /* Must be 1MB aligned by KAL */                          
+1146                                   (void **)&pMemAllocated); 
+
+1168    /* remember the pointer so it can be freed later PHYSICAL_ADDRESS(pMemAllocated)*/
+1169    pVFWMemInfo->pMemAllocatedTempestShared = pMemAllocated;
+1170    pVFWMemInfo->uTempestBaseStart    = (u_int32)pSharedStart;
+1171    pVFWMemInfo->uTempestBaseStartPhy = (u_int32)pSharedStartPhy;
+1172    pVFWMemInfo->uVFWCodeStart        = (u_int32)pCodeStart;
+
+复位Arm926
+1203    CNXT_SET( GLOBALREG_A926_RESET_VECTOR_REG1,                                                                      
+1204              GLOBALREG_A926_RESET_VECTOR_A926_RESET_VECTOR_RW,                                                      
+1205              ((u_int32)pCodeStartPhy) >> 16 );  
+
+
+internal_malone_hw_init
+ 1801    cnxt_vss_arm926_init();
+开内存（926，TM），载入fw
+Tempest Shared Memory will be used by VDEC, VPP and VBI
+take ARM926 out of reset
+
+ 1856    /* Register the ARM926 to A9 interrupt. */
+ 1857    Retcode = cnxt_kal_ipc_int_register( IPC0_INT_A926_TO_A9, internal_video_msg_avail_isr, FALSE );
+
+ 1865    /* Enable the ARM926->A9 interrupt. */
+ 1866    Retcode = cnxt_kal_ipc_int_enable( IPC0_INT_A926_TO_A9 );
+
+internal_video_msg_avail_isr
+ 2363       HW_BUFFER_READ_WORD_BY_SHARED_BASE( gVideoDriverInst.pMsgDescriptor, uMessage ); 
+
+HW_BUFFER_WRITE_WORD_BY_SHARED_BASE
+ 64 /* Notes:      WARNING: The result will be unpredictable unless                         */
+ 65 /*               the following precondition is met:                                     */
+ 66 /*               THE WRITE POINTER MUST NOT BE MODIFIED BY OTHER                        */
+ 67 /*               PROCESSES OR PROCESSORS!!!                                             */
+ 68 /*               THE BUFFER ITSELF IS RELATIVE TO THE SHARED RAM START WITHIN           */
+ 69 /*               THE SAME VIRTUAL SPACE!                                                */
+ 70 /*                                                                                      */
+向队列中写数据，增加写指针。arm926会改变读指针么？
+
+===========================================================================================================================
+internal_vss_check_arm926
+检查arm926的复位状态，通过这一位还可以控制arm926的复位。
+ 947     *pbARM926Alive = ((CNXT_GET(RESET_RST_GRESET2_REG_REG1, 0x00001000) >> 12) == 0)? TRUE: FALSE;
+
+ ../inc/hwIpheaders/phmodIpReset.h
+ 190    #define RESET_RST_GRESET2_REG_REG1  (RESET_BASE_UNIT1 + 0x14)
+
+</code> </pre>

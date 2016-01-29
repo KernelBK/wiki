@@ -1,0 +1,111 @@
+
+mtest 0x40000000 0x48000000
+
+u-boot 
+	spl
+		CONFIG_SPL
+
+https://github.com/hipboi/mksunxiboot
+	这个工具可以直接使得u-boot是可以直接启动，原理还是SPL
+	./mksunxiboot u-boot.bin u-boot-mmc.bin
+	dd if=u-boot-mmc.bin of=/dev/sdb bs=1024 seek=8
+
+fatls mmc 0:2
+
+setenv ipaddr 172.16.55.144;setenv serverip 172.16.55.90; setenv bootargs "root=/dev/nfs rw nfsroot=serverip:/home/nfs_h1     ip=ipaddr:serverip:gatewayip:255.255.255.0:stb_006037031510:eth0:off console=ttyS1,115200n8"
+
+set bootargs "console=ttyS0,115200 root=/dev/mmcblk0p7 init=/init loglevel=8 mac_addr=00:00:00:00:00:00"
+setenv bootcmd run boot_normal
+
+u-boot中可以mmc part 看到分区，修改启动的地址
+set bootcmd "mmc read 0x48000000 0x22000 0x10000; boota 0x48000000"
+
+chips/sun4i/configs/crane/default/env.cfg
+
+include/configs/sun4i.h
+	配置env, nand/mmc
+
+include/configs/sunxi-common.h
+	CONFIG_MMC_SUNXI_SLOT
+
+
+common/cmd_fastboot.c
+
+board/allwinner/a10-evb/a10-evb.c 
+	打印 fastboot partitions
+	
+uEnv.txt 也可以存放u-boot变量
+
+arch/arm/cpu/u-boot.lds
+ENTRY(_start) 
+	arch/arm/cpu/armv7/start.S
+		lowlevel_init	arch/arm/cpu/armv7/lowlevel_init.S
+			s_init arch/arm/cpu/armv7/sunxi/board.c
+			
+arch/arm/cpu/armv7/sunxi
+
+arch/arm/cpu/armv7/start.S
+	board_init_f arch/arm/lib/board.c
+	board_init_r arch/arm/lib/board.c  start_armboot是旧版本的入口地址
+		global_data gd_t		arch/arm/include/asm/global_data.h
+		bd_info 	arch/arm/include/asm/u-boot.h
+		init_sequence arch/arm/lib/board.c
+		main_loop common/main.c
+
+tag_header
+
+do_bootm
+	boot_fn = boot_os[images.os.os];
+		do_bootm_linux
+
+do_boota
+	do_boota_linux
+
+U-Boot调用内核前，CPU必须满足下面的条件：
+（1）CPU寄存器的设置
+	r0=0
+	r1=机器码
+	r2=内核参数标记列表在RAM中的起始地址
+（2）CPU工作模式
+	禁止IRQ与FIQ中断
+	CPU为SVC模式
+（3）使数据Cache与指令Cache失效
+
+tip:
+include/common.h 
+	打开DEBUG的位置
+
+2012新u-boot和以往的不一样
+http://blog.chinaunix.net/uid-1718717-id-599559.html U-boot-2011-06-rc3工作流程 
+http://blog.csdn.net/juana1/article/details/6706054 新u-boot源码分析
+http://blog.chinaunix.net/uid-1718717-id-602032.html boot linux
+http://blog.chinaunix.net/uid-1718717-id-602683.html add cmd
+
+# mmc
+
+include/configs/sunxi-common.h
+	CONFIG_MMC_SUNXI_SLOT
+
+board_init_r
+	mmc_initialize drivers/mmc/mmc.c
+		board_mmc_init
+			sunxi_mmc_init drivers/mmc/sunxi_mmc.c
+				mmc_resource_init
+					SUNXI_MMC2_BASE
+				mmc_register		
+				SUNXI_MMCDBG
+				mmc_send_cmd
+				mmc_init
+					mmc_send_op_cond
+
+sdc_no 
+
+drivers/mmc/mmc.c
+find_mmc_device
+mmc_startup
+
+sunxi_mmc 寄存器定义
+
+
+	printf("in %s line:%d\n",__FUNCTION__,__LINE__);
+

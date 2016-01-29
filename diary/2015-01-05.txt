@@ -1,0 +1,10 @@
+
+周攀峰(zhoupanfeng)  15:01:51
+不能合在一起，合在一起就变成性功能了
+
+
+考虑把pice, ddr3, srio等模块使用一个假的接口模块替代，以便于加快仿真速度。
+
+了解axi pcie 的功能，再设计中的作用。
+
+read k7 mainboard firmware source code. 

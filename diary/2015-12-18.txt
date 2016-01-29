@@ -1,0 +1,15 @@
+
+芮文彬(ruiwenbin)  17:29:41
+@林海全：EIM接口IP提交该目录
+https://svn/svn_old_instrument/SoC/SoC_IP/Peripherals/imx6_eim_interface
+@胡祀鹏，包信息IP及波形缩放放以下目录，缩放IP可参考下面的第二个SVN。
+https://svn/svn_old_instrument/SoC/SoC_IP/Video_Image_Processing/roll_wave_zoom
+https://svn/svn_old_instrument/SoC/SoC_IP/Video_Image_Processing/image_zoom_controller
+@赖青松 向汝宏 把你们的PID算法IP整理到以下目录，若两IP有功能区别，自建子目录。你们协商整理一下。
+
+SVN已提交申请，等审批下来才能用
+
+
+5720 谐波不更新，只有一张卡。
+
+

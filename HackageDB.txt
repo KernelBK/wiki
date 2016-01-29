@@ -1,0 +1,3 @@
+
+haskell 包管理工具 
+cabal install libxxx

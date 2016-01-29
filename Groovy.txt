@@ -1,0 +1,5 @@
+
+XML Ç×ºÍ
+
+http://groovy-lang.org/closures.html
+

@@ -1,0 +1,12 @@
+list
+	car
+	cdr
+	[[cons]]
+	[[null]] ?
+
+?
+atom
+eq
+[[lat]]
+
+atom

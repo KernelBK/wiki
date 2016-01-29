@@ -1,0 +1,4 @@
+
+代理服务器(proxy server)又称为万维网高速缓存(Web cache)，它代表浏览器发出HTTP 请求。
+
+

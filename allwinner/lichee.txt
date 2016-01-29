@@ -1,0 +1,44 @@
+
+build.sh -p sun4i_crane -k 3.0
+
+cd tools/pack/chips/sun4i/wboot/
+./pack -B sdcard -c sun4i -p test -b evb-v13
+
+buildroot
+	  在buildroot/tools/pack下面是一个Linux打包工具,它可以替代Android SDK中的tools
+
+build.sh 
+	buildroot/scripts/common.sh
+		buildroot/scripts/build_pack.sh
+			tools/pack/pack
+	
+		buildroot/build.sh
+			./scripts/build_${PLATFORM}.sh $MODULE 进行交叉工具链安装 
+			./scripts/build_sun4i_crane.sh all
+				arm-2010.09-50-arm-none-linux-gnueabi-i686-pc-linux-gnu.tar.bz2 
+				mv arm-2010.09 external-toolchain 重命名
+
+
+linux-3.0
+	arch/arm/mach-sun4i/pm/standby
+		binary standby.elf standby.bin
+		
+	arch/arm/configs
+	modules/*  都是些驱动
+	modules/mali
+
+u-boot
+
+rootfs
+
+硬件检测功能编译
+
+文件系统生成
+文件系统打包
+buildroot/scripts/common.sh
+        (cd ${BR_DIR}; make target-generic-getty-busybox; make target-finalize)
+		            (cd ${BR_DIR};  make LICHEE_GEN_ROOTFS=y rootfs-ext4)
+
+buildroot/scripts/common.sh
+	U_BOOT_DIR=$CUR_DIR/u-boot-sunxi 切换u-boot源码的目录
+

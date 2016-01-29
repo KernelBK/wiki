@@ -1,0 +1,8 @@
+
+aurora simulation	
+	change receive to axi interface.
+	use axi stream interface to stimulate the aurora.
+	clock problem, user clock come form aurora module.
+
+aurora blvds 系统级的仿真
+

@@ -1,0 +1,13 @@
+
+ad5623
+	18xxx0
+	19xxx0
+
+sdram 访问的特点对于dsp和cpu的需求有不同的要求。
+	对于流式的数据只需要满足带宽的要求即可? 
+
+check get files
+
+k7 mainboard code
+	stoarge manageer
+

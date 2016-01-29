@@ -1,0 +1,2 @@
+
+$PATH:/home/jinglun/h1/homelet/lichee/buildroot/output/external-toolchain/bin/

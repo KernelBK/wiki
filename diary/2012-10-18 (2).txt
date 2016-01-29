@@ -1,0 +1,26 @@
+
+a10 usb wifi hub 需要复位才能有效
+
+[  512.954043]  fw read cmd failed...
+[  515.590066] wlan0: no IPv6 routers present
+
+
+[  543.030161] reg 0x1d0, usb write 4 fail, status:-110 value=0x1000001, vendorreq_times:4
+[  543.530175] reg 0x1d0, usb write 4 fail, status:-110 value=0x1000001, vendorreq_times:5
+[  544.030178] reg 0x1d0, usb write 4 fail, status:-110 value=0x1000001, vendorreq_times:6
+[  544.400044] rtw_scan_timeout_handler, fw_state=808
+[  544.530342] reg 0x1d0, usb write 4 fail, status:-110 value=0x1000001, vendorreq_times:7
+[  545.030206] reg 0x1d0, usb write 4 fail, status:-110 value=0x1000001, vendorreq_times:8
+[  545.530206] reg 0x1d0, usb write 4 fail, status:-110 value=0x1000001, vendorreq_times:9
+[  546.030695] reg 0x1d0, usb write 4 fail, status:-110 value=0x1000001, vendorreq_times:10
+[  546.370051] ==>pwr_state_check_handler .fw_state(8)
+[  546.374949] ==> rtw_ps_cmd  , enqueue CMD 
+[  546.530224] reg 0x4c, usb write 1 fail, status:-110 value=0x0, vendorreq_times:1
+[  547.030217] reg 0x4c, usb write 1 fail, status:-110 value=0x0, vendorreq_times:2
+[  547.381589] rtw_android_priv_cmd: Android private cmd "SCAN-ACTIVE" on wlan0
+[  547.390378] rtw_android_priv_cmd: Android private cmd "SCAN-PASSIVE" on wlan0
+[  547.530236] reg 0x4c, usb write 1 fail, status:-110 value=0x0, vendorreq_times:3
+[  548.030239] reg 0x4c, usb write 1 fail, status:-110 value=0x0, vendorreq_times:4
+
+[ 2842.738076] rtw_android_priv_cmd: Android private cmd "SCAN-PASSIVE" on wlan0
+

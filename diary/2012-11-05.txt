@@ -1,0 +1,8 @@
+
+
+wget ftp://172.16.55.90/memtester
+
+cat /proc/sys/kernel/printk
+busybox echo 5 > /proc/sys/kernel/printk
+
+http://ubuntu-tweak.com/

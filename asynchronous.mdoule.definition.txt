@@ -1,0 +1,8 @@
+amd
+异步模块定义
+
+require([module], callback);
+
+require.js
+curl.js
+

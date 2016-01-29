@@ -1,0 +1,23 @@
+
+WARNING:Xst:1895 trimmed
+
+"D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\_pn.exe" "D:\work\.xise"
+
+define.v
+	add source to project
+	source properityes, selected "Include as Global File in Compile List."
+
+
+xilinx ise
+
+constraints
+	[[timing_constraints]]
+	ucf: user constraints file
+	xcf: xst constraints file 
+	trace: timing reporter and circuit evaluator
+
+	placement constraints
+	synthesis constraints
+	xst: xilinx synthesis technology
+
+ug625

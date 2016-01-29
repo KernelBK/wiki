@@ -1,0 +1,12 @@
+
+web, app
+	front-end
+		交互, 业务逻辑
+		jsp, java, js, css, html
+	back-end
+		业务逻辑
+		java, c++
+
+system, infrastructure
+	搜索引擎，数据访问
+	云计算， IaaS,Paas,Saas, java, python

@@ -1,0 +1,59 @@
+
+day  1
+	御和酒家，早茶，148, credit_card
+	毛家湾，27， credit_card
+	麦当劳，27， credit_card
+	超市，58.7， credit_card
+day  2
+	huan, 奶嘴，140，credit_card
+day  3
+	alipay, 79.6，credit_card
+	超市，9, credit_card
+	星巴克办卡，88, credit_card
+	麦当劳，27， credit_card
+	alipay, 9.9, credit_card
+day  4
+day  5
+day  7
+day  8
+day  9
+day 10
+	麦当劳，10，credit_card
+	衣服，68，credit_card
+	衣服，229， credit_card
+	特力普思，318.4， credit_card
+day 11
+	agoda, 406.32, credit_card
+	agoda, 625.44, credit_card
+day 12
+	麦当劳，25，credit_card
+day 13
+day 14
+	麦当劳，19，credit_card
+day 15
+day 17
+	屈臣氏，111.9， credit_card、
+	alipay, 164, credit_card
+day 18	
+	摩登百货，224.5， credit_card
+	吃饭，185， credit_card
+day 19
+	alipay, 280, credit_card
+day 20
+day 21
+	好又多，139.1， credit_card
+	alipay,	78, credit_card
+	花费，49.25， credit_card
+day 22
+day 23
+day 24
+	麦当劳，9，credit_card
+day 25
+day 26
+day 27
+day 28
+day 29
+	水果，17.7， credit_card
+day 30
+	麦当劳，18，credit_card
+

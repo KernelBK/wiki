@@ -1,0 +1,8 @@
+
+pcard, 在计算完后进入fifo，可以防止pcard阻塞造成的问题。
+
+matlab验证的方案。
+
+blvds解决的问题，fpga io信号打两拍，ibufds参数改为FAST.
+
+

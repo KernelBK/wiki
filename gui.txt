@@ -1,0 +1,16 @@
+
+mfc
+[[wtl]]
+[[wpf]]
+wxWidgets
+[[qt]]
+[[gtk]]
+
+[[cocoa]]
+
+borland
+	owl vcl
+
+[[browser]]
+	XULRunner
+	[[CEF]]

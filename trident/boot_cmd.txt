@@ -1,0 +1,20 @@
+
+<pre> 
+setenv ethaddr 00:25:8f:13:82:28
+setenv serverip 172.16.55.90
+setenv ipaddr 172.16.55.88
+
+setenv uboot_macaddr 1
+setenv uboot_cmdline 1
+
+setenv bootargs "root=/dev/nfs rw nfsroot=172.16.55.90:/workspace/trident/apollo_nfs ip=172.16.55.88:172.16.55.90:172.16.55.254:255.255.255.0:localhost:eth0:off console=ttyS1,115200n8"
+setenv bootargs "root=/dev/nfs rw nfsroot=172.16.55.90:/home/nfs_h1 ip=172.16.55.88:172.16.55.90:172.16.55.254:255.255.255.0:localhost:eth0:off console=ttyS1,115200n8"
+
+tftpboot 0x100000 vmlinux.ub
+bootm 0x100000
+
+setenv bootcmd "tftp 0x100000 172.16.55.90:vmlinux.ub;bootm 0x100000"
+setenv bootcmd "tftp 0x100000 172.16.55.90:uImage;bootm 0x100000"
+
+saveenv
+</pre>

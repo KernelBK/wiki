@@ -1,0 +1,8 @@
+[[chromium]]
+
+chrome://flags/
+
+
+http://www.chromi.org/tag/chromium
+http://www.thechromesource.com/category/tutorials/
+

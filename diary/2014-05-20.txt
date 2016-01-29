@@ -1,0 +1,5 @@
+
+virtualbox 安装mac os mavericks
+	体验很不好，不如vmware.
+
+

@@ -1,0 +1,32 @@
+
+
+write_project_tcl
+
+不想ise要单独打开各种工具，vivado
+UltraFast
+HLS 
+	c/c++/systemC to rtl
+constraint
+	ucf to xdc, ug903
+
+migrating, ug911
+	ip
+
+design flow, ug892, ug888
+	tcl, ug894
+		vivado -mode tcl
+		vivado -mode batch -source <your_Tcl_script>
+
+意大利
+new exciting line
+all programming
+
+alias vivado='vivado *.xpr'
+alias vivado_sh='vivado -mode tcl'
+alias vivado_source='vivado -mode batch -source '
+
+#compile sim lib
+echo compile_simlib -simulator modelsim -language all -directory vivado_modelsim_lib > gen_vivado_modelsim_lib.tcl
+vivado_sh 
+source gen_vivado_modelsim_lib.tcl 
+

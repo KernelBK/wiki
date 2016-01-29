@@ -1,0 +1,11 @@
+
+非功性：扩展性 性能 一致性
+[[cap.theorem]]
+
+进化 
+	key-value
+	bigTable
+	Document
+	全文搜索
+	Graph数据库
+

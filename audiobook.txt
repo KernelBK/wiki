@@ -1,0 +1,74 @@
+[[accent]]
+
+[[audio_timeline]]
+
+bend 
+lick
+stick
+
+I capture the castle
+安徒生童话
+王尔德
+I Robot
+Neil.Gainman
+Nicholas.Sparks
+Benidict Cumberbatch
+Domonata
+
+On Writing
+Malcolm.Gladwell
+Earthsea 海地传说 Ursula.Leguin
+
+
+narrator
+reader
+	[[Emilia.Fox]] 夜莺嗓音
+	Joyce Lin
+	Scott.Brick  600+
+	Simon.Vance  800+
+		狄更斯
+		Robinson Cursoe
+		苏菲的世界
+		万物简史
+		大仲马
+			The Three Musketeer
+			基督山伯爵
+	Frank.Muller 300+
+		John Grisham
+		Stephen King
+	George Guidall
+		黑暗塔
+	Jim Dale, 童书
+		哈利波特 Harry Potter
+	Lorelai King
+	Juliet Stevenson
+
+
+
+	[[NewBery]]
+
+演员读书
+BC, [[Benedict.Cumberbatch]]
+	卡萨诺瓦
+小自由， [[Martin.Freeman]]  
+	银河系漫游指南 2-5
+油炸叔， Stephen.Fry
+	银河系漫游指南 
+	维尼熊
+Ralph Fiennes
+Dan Stevens
+David Tennant
+Alan Rickman
+Emilla Fox 狐狸姐
+	傲慢与偏见
+	我的秘密城堡
+	Never Let Me Go
+Judith Dench , 007中的M， 诗歌
+Jodie Foster , 沉默的羔羊 女主 
+	第三类接触
+
+
+分类
+水平，声音特色， 销量，时间，作品数量， 性别, 出版公司
+作者本人朗读，口音，
+

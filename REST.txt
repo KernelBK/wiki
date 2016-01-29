@@ -1,0 +1,34 @@
+[[RESTful.Web.API]] 
+
+REpresentational State Transfer
+	表征状态传输
+	架构约束：客户-服务器、无状态、缓存、统一接口、分层系统、按需代码；
+	通过get/post/put/delete等标准http方法对资源限制执行crud操作；
+
+一切皆资源 resource
+	api操作的对象只能是资源，ID 
+	操作，CRUD
+
+是设计风格不是标准
+
+Roy Fielding
+	[[http1.1]]
+	[[http]]
+[[uri]]
+hypermedia as the engine of application state 
+
+RESTful
+[[roa]] Resource-Oriented Architecture
+
+rest web api
+	[[sinatra]]
+
+[[open_api]]
+
+paper 
+	[[架构风格与基于网络的软件架构设计]]
+books
+	REST.in.Practice 2010
+	REST.API.Design.rulebook 2011
+	RESTfull.Web.Services 2007
+	RESTfull.web.apis

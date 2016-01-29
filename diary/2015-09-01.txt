@@ -1,0 +1,9 @@
+
+io lang
+prolog
+
+5730, 没有卡调试自检;
+pa5000b, 低成本电机卡;
+给laiqingsong讲解电价卡；
+
+5720, spi不停更新

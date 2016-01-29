@@ -1,0 +1,17 @@
+
+flickr
+craigslist
+linkedin
+tribes
+ryze
+friendster
+43things
+
+blog
+tag
+sns
+rss
+wiki
+
+[[ajax]]
+

@@ -1,0 +1,15 @@
+
+<协议>://<主机>:<端口>/<路径>
+
+[[12306]]
+
+cnbeta
+http://coolshell.cn/
+
+http://www.ruanyifeng.com/blog/
+http://www.wangxiaofeng.net/
+http://www.yeeyan.org/
+http://fengtang.com/
+http://www.solidot.org/
+
+http://www.wefiler.com/#site/home

@@ -1,0 +1,7 @@
+
+CFNetwork
+	get post put delete
+
+	gzip
+	cookie
+

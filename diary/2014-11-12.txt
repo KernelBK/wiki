@@ -1,0 +1,8 @@
+
+协助调试，协助分析adc没有数据的问题，由于没有adc_start信号。
+
+整理工程，按照edk, ise整合在一起，更容易从linux迁移到 windows。
+
+
+check adc start
+

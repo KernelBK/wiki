@@ -1,0 +1,18 @@
+[[PaDevMgr.xml]]
+[[PaDevMgr.k7.xml]]
+[[PaDevMgr_card0.xml]]
+//192.168.100.133/share/PaDevMgr.k7.xml
+//192.168.100.121/share/PaDevMgr.k7.xml
+
+
+调试工具，可以读取寄存器
+
+可以配置界面更加方便地显示寄存器和名称。
+
+<mem dev="k7" name="CARD_0" target="1" addr="0x40000" size="128"  desc="CARD_0 前端寄存器">
+    <var name="ID"           size="4" view="hex"                             />
+    <var name="Version"        size="4" view="signed"  desc="工作模式"         />
+    <var name="info"    size="4" view="float"   desc="电压前端控制"     />
+    <var name="inf2"    size="4" view="float"   desc="电流前端控制"     />
+</mem>
+

@@ -1,0 +1,7 @@
+
+402 A program terminates when two events occur ¨D first, the program must be killed by another process or by a user (this is usually don by sending a SIGTERM or SIGKILL signal, which is equivalent to terminating the process regularly); second, the parent process from which the process originates must invoke or have already invoked the wait4 (read: wait for) system call when the child process terminates.
+350 Whereas just 10 years ago a strict distinction was made between relatively simple academic systems available in source code and commercial variants with varying performance capabilities whose sources were a well-guarded secret, nowadays anybody can download the sources of Linux (or of any other free systems) from the Internet in order to study them.
+316 The kernel supports different scheduling policies (completely fair scheduling, real-time scheduling, and scheduling of the idle task when there is nothing to do), and scheduling classes allow for implementing these policies in a modular way: Code from one class does not need to interact with code from other classes.
+308 How the kernel implements this behavior depends on the underlying architecture, but it is obvious that the kernel can reconstruct the desired information by considering the kernel mode stacks of both processes ¨D which are naturally simultaneously available to the kerel, which can access all memory at will.
+
+

@@ -1,0 +1,22 @@
+
+锁屏背景
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\Background
+gpedit.msc
+C:\Windows\System32\oobe\info\backgrounds\backgroundDefault.jpg
+
+直接使用admin登陆系统，
+ctrl+shift+f3
+ctrl+shift+delete
+
+net user administrator /active:yes
+
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList
+Administrator.PCxxxxx
+
+key
+
+ide装完系统，可以在配置成为ahci模式
+	修改注册表msahci，start=0，如果只修改bios会蓝屏
+

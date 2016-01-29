@@ -1,0 +1,106 @@
+
+
+[[uvm_ml]]
+[[uvm_syntax_error]]
+
+[[SystemVerilog Verification UVM 1.1 Student Guide 2012.09-SP1]]
+[[oop]]
+[[ces_uvm-1.1_2011.12]]
+[[A Practical Guide to Adopting the Universal Verification Methodology(UVM)]]
+[[UVM1.1应用指南及源代码分析_20111211版]]
+[[uvm_users_guide_1.1.pdf]]
+[[uvm_ref_flow]]
+/workspace/sv/uvm_ref_flow_1.2/uvm_book/examples_lib
+
+test_lib.v
+	include xxx_tb.v
+	class test_base
+	create xxx_tb
+
+xxx_tb.v	
+	include ./*.v
+	create xxx_env	
+	create sb
+	connect env -> sb
+
+tb_top.v
+	include uvm_pkg
+	include xxx_pkg
+	include vif
+	vif
+	run_test
+	dut
+# vcs 编译错误	
+	`uvm_*宏使用错误可能造成`ifndef错误。
+
+打包
+
+ubus 
+	env 使用变量控制monitor, master num, slave num的创建
+
+固定的顶层名字
+
+tb_top
+	(uvm_root 得知tb_top,
+	 run_test)
+	base_test
+		test_lib.sv
+
+
+container
+	agent
+		dirver
+		sequencer
+		monitor
+	environment
+		testbench topology
+tlm
+	export
+	port
+
+factory method
+	创建对象的接口
+The uvm_sequence class has a handle req that is typed to the sequence item parameter.
+clock 
+reset
+	reset_phase
+
+[[Migrating_to_UVM_how_and_why.pdf]]
+
+uvm_seq_item_pull_imp uvm_seq_item_pull_port
+driver
+	seq_item_port.get_next_item
+	seq_item_port.item_done
+
+`uvm_do
+`uvm_do_with
+virtual sequence
+uvm_config_db get set 
+port tlm
+$time
+
+	finish
+		raise/drop objection
+
+key uvm elements
+	uvm_test
+	uvm_env
+	uvm_agent
+	uvm_sequencer
+	uvm_sequence
+	uvm_sequence_item
+	uvm_driver
+	tlm
+
+cadence uvm培训视频 http://www.youku.com/playlist_show/id_17869812.html
+
+文档下载 http://www.accellera.org/downloads/standards/uvm
+
+代码仓库
+git clone git://git.code.sf.net/p/uvm/code uvm-code
+
+phase
+	在UVM中，官方的说法是：phase是使tb中各种各样的component按照各自的需求可以阶段性执行的一种自动化的机制。
+	factory机制
+	http://bbs.eetop.cn/viewthread.php?tid=383872
+

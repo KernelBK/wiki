@@ -1,0 +1,38 @@
+
+
+
+岗位要求：
+
+1、大学本科以上学历，电子相关专业，2年及以上相关经验；
+
+2、熟悉verlog/system verilog/c等语言，有RTL代码验证经验者优先。
+
+ 
+
+职位主要责任：
+
+1、负责设计二部的RTL代码验证；
+
+2、根据人员情况适当参与FPGA验证、SVT验证等工作。
+
+招聘邮箱：jobs@anyka.com
+
+http://laoyaoba.com/forums/viewthread.php?tid=23938 star5
+胡胜发 Norman Hu 
+安凯的融资规模都是在国内都是首屈一指的。
+安凯就是在手机市场，由于种种原因没有搞好
+
+瑞芯微电子
+
+[[flash]]
+[[amba]]
+[[timing]]
+
+后仿真
+linux_driver 驱动向平台注册
+处理器验证
+跨时钟域 afifo
+C语言 valotile struct 
+
+公司的核心在于算法 芯片是支持部门
+

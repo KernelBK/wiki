@@ -1,0 +1,25 @@
+
+重复型或并发型
+/etc/services 包含了熟知的端口号
+数字越大说明R F C的内容越新。
+网络层（ I P）提供点到点的服务，
+而运输层（ T C P和U D P）提供端到端的服务。
+[[snap]]
+PPP SLIP
+SCLIP
+[[mtu]]
+[[Loopback.Interface]]
+[[ip]]
+
+
+
+	[[tcpip-1]]
+	[[tcpip-app-tcp]]
+	[[tcpip-arp]]
+	tcpip-icmp
+	tcpip-igmp
+	tcpip-ip
+	tcpip-link
+	tcpip-tcp
+	tcpip-udp
+ 

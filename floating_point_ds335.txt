@@ -1,0 +1,9 @@
+
+OPERATION1 6 INPUT Operation: Specifies the operation to be performed. Implemented when the core is configured for both add and subtract operations, or as a programmable comparator.
+
+OPERATION_ND 1 INPUT New Data: Must be set High to indicate that operand A, operand B and OPERATION, the latter when required as described above, are valid.
+
+OPERATION_RFD 1 OUTPUT Ready For Data: Set High by core to indicate that it is ready for new operands.
+
+RDY 1 OUTPUT Output Ready: Set High by core when RESULT is valid.  
+

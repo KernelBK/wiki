@@ -1,0 +1,10 @@
+
+采样率2M/s
+
+WT1800的电机评价功能使检测旋转方向和测量电角度成为可能
+调零
+
+
+167 For example, the efficiency cannot be computed correctly if elements or wiring units used in the computation have different power units, such as W (watt) and J (joule).
+168 Correct measured values may not be obtained immediately after the PLL source or its frequency changes, because the PLL circuit inside the WT1800 redetects the frequency.
+

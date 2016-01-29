@@ -1,0 +1,63 @@
+
+    .probe          = sunximmc_probe,
+
+sunximmc_init
+        ret = script_parser_fetch(mmc_para,"sdc_used", &used, sizeof(int)); 
+			// 分析fex配置文件的参数 arch/arm/mach-sun4i/sys_config.c
+            platform_device_register(&awmmc_device[i]); // 可以通过修改这里，决定mmc platform probe的顺序。
+
+
+[mmc_pm]: no sdio card used in configuration
+[mmc]: sunximmc_init
+[mmc]: sunxi mmc controller using config : 0x5
+[mmc]: sunxi-mmc.0: pdev->name: sunxi-mmc, pdev->id: 0
+[mmc]: mmc 0 power off !!
+[mmc]: mmc0 Probe: base:0xe8920000 irq:32 dma:0 pdes:0xe7ba8000, ret 0.
+[mmc]: sunxi-mmc.2: pdev->name: sunxi-mmc, pdev->id: 2
+[mmc]: mmc 2 power off !!
+[mmc]: mmc2 Probe: base:0xe8922000 irq:34 dma:0 pdes:0xe7bac000, ret 0.
+
+
+
+mmc 
+busybox fdisk -l /dev/block/mmcblk?                 
+busybox dd if=/dev/block/mmcblk0 of=/dev/block/mmcblk1 bs=2000M
+busybox dd if=/dev/block/mmcblk0p7 of=/dev/block/mmcblk1p7 bs=327680
+
+mkdir -p 1 2
+busybox mount /dev/block/mmcblk0p2 1
+busybox mount /dev/block/mmcblk1p2 2
+busybox cp 1/linux/u-boot.bin.mmc2 2/linux/u-boot.bin
+sync
+
+
+root@android:/ # busybox fdisk -l /dev/block/mmcblk?                           
+Omitting empty partition (14)
+
+Disk /dev/block/mmcblk0: 1980 MB, 1980760064 bytes
+1 heads, 16 sectors/track, 241792 cylinders
+Units = cylinders of 16 * 512 = 8192 bytes
+
+Partition table entries are not in disk order
+Omitting empty partition (14)
+
+Disk /dev/block/mmcblk1: 1962 MB, 1962934272 bytes
+1 heads, 16 sectors/track, 239616 cylinders
+Units = cylinders of 16 * 512 = 8192 bytes
+
+              Device Boot      Start         End      Blocks  Id System
+/dev/block/mmcblk1p1          184833      482176     2378751+  b Win95 FAT32
+Partition 1 does not end on cylinder boundary
+/dev/block/mmcblk1p2   *        4609        6656       16384   6 FAT16
+Partition 2 does not end on cylinder boundary
+/dev/block/mmcblk1p3               1      184833     1478656  85 Linux extended
+Partition 3 does not end on cylinder boundary
+/dev/block/mmcblk1p5            6657        8704       16384  83 Linux
+/dev/block/mmcblk1p6            8705       12800       32768  83 Linux
+/dev/block/mmcblk1p7           12801       53760      327680  83 Linux
+/dev/block/mmcblk1p8           53761      119296      524288  83 Linux
+/dev/block/mmcblk1p9          119297      121344       16384  83 Linux
+/dev/block/mmcblk1p10         121345      125440       32768  83 Linux
+/dev/block/mmcblk1p11         125441      141824      131072  83 Linux
+/dev/block/mmcblk1p12         141825      143872       16384  83 Linux
+/dev/block/mmcblk1p13         143873      184832      327680  83 Linux

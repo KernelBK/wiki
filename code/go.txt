@@ -1,0 +1,8 @@
+
+src/cmd/go
+
+type
+	struct String 
+	Slice
+
+runtime

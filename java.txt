@@ -1,0 +1,98 @@
+
+网上很多例子是没法使用的，比如List list新的java不支持，需要使用List<String> list;
+
+spec
+	[[jls8]]
+	jvms8	
+
+[[java/index]]
+[[java_jdk_install]]
+
+[[jre]] 
+[[jdk]]
+[[jvm]]
+
+	java.me
+	[[java.se]]
+	[[java.ee]] 
+
+
+feature
+	Java语言中声明数组时不能指定其长度, int a[5];    //非法
+	Java只支持单继承
+	继承的关键字用的是“extends”，即子类不是父类的子集，而是对父类的“扩展”。
+	只有方法，没有函数
+	可变参数，有指定类型
+	接口提供多继承性的好处，而且没有（多继承的）缺点。
+	无论是super还是this，都必须放在构造方法的第一行。
+	Java 中绑定的所有方法都采用后期绑定技术，除非一个方法已被声明成final 静态初始器（Static Initializer）是一个存在与类中方法外面的静态块。静态初始器仅仅 在类装载的时候（第一次使用类的时候）执行一次。
+	接口之间也可以继承
+	一个类可以实现多个接口
+	接口不会继承变量
+	接口是一种特殊的抽象类
+	优先选用接口，尽量少用抽象类。
+	需要定义子类的行为，又要为子类提供共性的功能。选择抽象类
+	非静态内部类不能有静态声明
+
+
+
+jsr-133
+
+final 语法应该超高亮
+enum 出现在java 1.5
+
+	内存对象逃逸问题 escape
+
+半动态特性
+ClassLoader
+反射
+动态代理
+反转控制 依赖注入
+
+
+没有操作符重载
+没有默认参数
+没有多继承，引入接口
+没有io stream
+没有指针
+
+java浏览器程序部能运行
+浏览器的设置中要打开java插件
+控制面板中要设置java阻止的网址
+
+[[nio]]
+java.se
+jdbc
+mysql
+javascript
+jquery
+easyui
+extjs
+ajax
+javaEE
+spring
+hibernate
+WebService
+	JAX-WS, CXF, Axis2
+	JAX-RS, Jersey, Restlet
+JPA
+MyBatis
+Gradle
+Maven
+Ant 
+Ive
+Guava
+JVM 
+	Scala
+	Groovy
+Netty
+
+blog
+	http://blog.csdn.net/lonelyroamer/article/details/7868820
+	Java 7 终于有了 switch on string 和 try with resource、
+	Java 8 终于有了 lambda
+		Java 8 大概相当于 .NET Framework 3.0, 2006
+
+pragmatist
+
+[[RowSet]]

@@ -1,0 +1,6 @@
+
+serializer/deserializer
+	convert data between serial data and parallel interfaces in each direction.
+	parallel in serial out
+	serial in parallel out
+

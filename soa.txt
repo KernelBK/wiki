@@ -1,0 +1,6 @@
+
+Service Oriented Ambiguity 面向服务架构
+3个主要元素
+	服务
+	企业服务总线 [[esb]]
+	政策和过程

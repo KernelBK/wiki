@@ -1,0 +1,16 @@
+
+http://zh.wikipedia.org/wiki/藍牙
+    来自古老北欧国王Harald Blåtand，借国王的姓“Blåtand”当名称，直接翻译成中文为“蓝牙”（Blå＝蓝、Tand＝牙）。
+    蓝牙规范（Profile）是指蓝牙通信在那一种用途下应该使用的通信协定和相关的规范。
+    SIG认为蓝牙设备有4个最基本的Profile：
+
+    General Access Profile（GAP）
+    Service Discovery Application Profile（SDAP）
+    Serial Port Profile（SPP）
+    General Object Exchange Profile（GOEP）
+
+    
+
+    
+http://en.wikipedia.org/wiki/Bluetooth
+

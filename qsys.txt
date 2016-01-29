@@ -1,0 +1,6 @@
+
+Qsys does not add source files to the Quartus II project automatically. Qsys generates an IP variation file (.qip) that should be added to your Quartus II project.
+
+
+1. component需要单一时钟
+1. bidir类型的信号不能export

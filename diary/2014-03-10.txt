@@ -1,0 +1,5 @@
+
+blvds axi link ต๗สิ
+	uvm 
+
+

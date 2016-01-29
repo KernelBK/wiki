@@ -1,0 +1,5 @@
+
+X:\homlet\lichee\tools\pack
+
+PhoenixCard 卡启动模式烧写 img镜像。
+

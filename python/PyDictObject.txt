@@ -1,0 +1,6 @@
+
+可以看作是C++中的map，即map<PyObject*, PyObject*>。
+
+关联容器的实现都会基于设计良好的数据结构。比如C++的STL中的map就是一种关联容器，map的实现基于RB-tree（红黑树）。RB-tree是一种平衡二元树，
+关联容器中的一个（键，值）元素对称为一个entry或slot。
+	PyDictEntry;

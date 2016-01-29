@@ -1,0 +1,446 @@
+
+
+
+视野，不如《软件随想录》简单透彻。
+	虽然把传统的管理方法用在技术管理上说的一无是处，但是..
+
+	看待技术人员的角度
+	个人和团体的关系
+
+
+项目和产品是有区别的
+
+成功更靠产品，说以项目管理放到次要位置。
+
+File: 人件.pdf
+
+Annotation summary:
+
+--- Page 3 ---
+
+Highlight (yellow), 2014-10-15 19:05, Solvery:
+特别变态的是：公司搬迁
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+私党的控制
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+产品质量要求降低
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+开始产生的团队效应
+
+
+--- Page 5 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+有一 种神圣不可侵犯的工业标准，那就是禁止检讨我们失败的原因
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+我们与所有那些已经 离开项目组的人员保持联系，以便寻找问题的根源。
+
+
+--- Page 6 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+高科技的幻觉
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+我们所有其他局外人只是他们工作成果的应用者
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+我们主要在从事人类交流的业务
+
+
+--- Page 8 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+我们很少去注意他们每个人如何适合一个整体
+
+
+--- Page 9 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+你应该以一个什么样的比例把时间花在实际做这项任务上？不是百分之百。应该预备一些时间用于集思广益、研究新方法，想出如何避免做一些子任务阅读、培训、还有游手好闲的办法
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+我们花去大量时间努力把事情做完，并且几乎没有足够的时间问这个关键问题：?这件事应该彻底做完吗？
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+经理们总是不停地吹嘘他们的人员的加班时数和能从这些人身上榨取更多时间的小把戏
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+西班牙人的理论坚持认为地球上只有一个固定数量的价值
+
+
+--- Page 10 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+持西班牙人的理论的经理梦想通过不付钱要求员工加班加点的简单手段达到新的生产力水平
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+旋转木马的人生只剩下一圈了，只有最后一次中奖机会了
+
+Squiggly underline (red), 2014-10-17 18:54, Solvery:
+陌生人
+
+
+--- Page 12 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+一张能够真正按时完成的进度表是没有价值的，因为它没有对工作人员带来压力
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+求生的本能、自尊的本能、生育的本能、占领疆土的本能
+
+
+--- Page 19 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+技术是在飞速发展，但是（又是高科技幻觉）你所做的大部分工作并不是真正的高科技。
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+软件业界的生产力每年都提高了３％到５％，仅略微比钢铁工业和汽车工业好一点点。
+
+
+--- Page 23 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+编码战争的首要成果之一就是证明了参赛者个人之间有巨大的不同
+
+
+--- Page 24 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+那些有十年工作经验的人并不一定比那些只有两年工作经验的人强，在工作经验与绩效之间没有什么关系
+
+
+--- Page 25 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+绩效最好的人聚集在一些公司，而绩效最差的人聚集在另外一些公司
+
+
+--- Page 27 ---
+
+Squiggly underline (red), 2014-10-17 18:54, Solvery:
+羊抬头看着》 （The 
+
+Sheep Look Up
+
+
+--- Page 31 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+30%的时间，人们是噪音的感受者，其余的时间，他们是噪音的制造者。
+
+
+--- Page 37 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+最重要的窍门是改变态度
+
+
+--- Page 38 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+员工述说有关他们对环境问题的关心，却被当作是追求地位而不予考虑
+
+
+--- Page 39 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+算术需要的、与逻辑有关的那部分大脑没有受音乐的干扰——而有另外一部分大脑在听音乐。
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+左脑的顺序处理中心
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+创造性的飞跃包括在右脑的功能中
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+创造性是一种损失时我们经常注意不到的东西
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+一个领域的?所有者?通过统一每件事的方式行使和展示着他的控制权
+
+
+--- Page 40 ---
+
+Squiggly underline (red), 2014-10-17 18:54, Solvery:
+[[建筑的永恒之道]]克里斯多夫.亚历山大是位建筑师和哲学家，以他对设计过程的观察而著称。
+
+Squiggly underline (red), 2014-10-17 18:54, Solvery:
+形之合成笔记
+
+
+--- Page 41 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+元规划代替规划总图
+
+
+--- Page 42 ---
+
+Squiggly underline (red), 2014-10-17 18:54, Solvery:
+模式语言
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+以思考为生计的人
+
+
+--- Page 44 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+聚餐，小组就难以维持
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+谁做这项工作往往比这项工作如何做的影响要大
+
+
+--- Page 45 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+因此为你工作过任何一段时间的人，在工作结束与工作开始时或多或少是一个样。
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+如果一开始他们就不是适合干那项工作的人，那么他们也从来不会适合干那项工作。 
+
+
+--- Page 46 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+我们每个人对与常人大相径庭的人有某一种潜移默化的不安意识
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+工作贡献还不如剪短的头发和领带重要
+
+
+--- Page 47 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+有代表性的是没有什么自信心的二级和三级经理，他们对任何一种不愿意随大流的行为都感到不舒服
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+引进合适的、即使是与公司标准有出入的人，让他们成为他们自己。
+
+
+--- Page 49 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+那个人可能在结束两年测试所涉及的任务后，花二十年做其它事情
+
+
+--- Page 55 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+大 M 方法论（Methodology）和小 m 方法论（methodology）
+
+
+--- Page 56 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+在澳大利亚，罢工占用的劳务时间几乎和工作时间一样多
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+同级评审
+
+
+--- Page 57 ---
+
+Highlight (yellow), 2014-10-17 18:54, Solvery:
+好的工作经历总带有一定程度的挑战性
+
+
+--- Page 63 ---
+
+Highlight (yellow), 2014-10-18 11:16, Solvery:
+最明显的防范管理策略是死板的大方法论（
+
+
+--- Page 64 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+团队需要知道它是在什么目标下形成，那个目标可以是任意的，但是至少它得存在。
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+没有人可以成为多个胶冻团队的成
+
+
+--- Page 65 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+可能接下去的项目得随着时间的推移逐步地裁员，以便人事机构可以有效地将人员转向新的项目，
+
+
+--- Page 66 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+在管理层从未出现过胶冻团队。如果经理们与团队有联系，也只是因为他们担任着双重角色：一方面是经理而另一方面是小组成员。他们被所管理的人当作兼职同事获得了认可
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+成功又带来成功
+
+
+--- Page 67 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+好的经理会为团队提供频繁而又容易一起实现成功的机会
+
+
+--- Page 70 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+自然权威
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+师傅知道如何做这项工作而徒弟不知道。向这种权力称臣不会贬低任何人的身份，
+
+
+--- Page 72 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+只要允许他们在某个方面感到独特，他们在其它方面就能和别人一致。
+
+
+--- Page 74 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+在我们祖传的记忆深处的某个地方，埋藏着一个观念，就是认为工作是费力的。如果你乐意做某事，那就不是真正的工作
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+过去20 年间每个伟大的进步都在减少我们对工作的疯狂
+
+
+--- Page 76 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+引入大量的里程碑和检查点
+
+
+--- Page 77 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+因为愚蠢的主意经常会把其他人引领向思考聪明的主意
+
+
+--- Page 79 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+在苏维埃社会，特别在共产党员中，有一个普遍深入的的生活劝告系统。事实上每个党员都有一个顾问，每个人每周要与顾问见面，以帮助他们做生活决定，解决婚姻和职业问题，保持政治观点的一致。顾问起着代替父母的作用。
+
+
+--- Page 82 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+领导的速度决定了一群人的速率
+
+
+--- Page 85 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+我们越来越不迷恋这个比喻了
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+个人的成功或失败与作为一个整体的团队的成功或失败是如此的不相干。这是一个不完美的状况，
+
+
+--- Page 86 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+软件成熟度
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+CMM
+
+Squiggly underline (red), 2014-10-21 14:00, Solvery:
+软件的艺术状态 —— 论 文 精 选 》 （ Software State-of-the-Art: Selected Papers ） 
+
+[Dorset House 1990]
+
+
+--- Page 88 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+随着公司的?成熟?,它们越来越不愿意冒险。
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+提高水平意味着风险会增加。你越熟练，应对的风险就越多。
+
+
+--- Page 89 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+不要让任何事情挡住你的路
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+你需要高超的技巧，是为了接受更有风险的项目
+
+
+--- Page 91 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+谁是我们现在工作方法的大师
+
+Squiggly underline (red), 2014-10-21 14:00, Solvery:
+管理变革 （Managing Transitions）
+
+
+--- Page 92 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+改变建立在对外来因素引进的基础上，外来因素是促成改变的催化剂。没有催化剂，就不 会有对渴望改变的认知。外部因素可能是来自外部的作用力或者是由于 你所处的视野发生了某些变化而使 你产生的认识。 
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+谁都不会喜欢在困境中挣扎的感 觉；你仅仅知道用旧方法你会好过一 些，不幸的是通过混乱的这段通路是 绝对必要的，并且绝对没有捷径可走
+
+
+--- Page 94 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+一笔投资是用一种资产去买另外一种资产。价值没有被用完，只是从一种形式转换成为另外一种形式
+
+
+--- Page 96 ---
+
+Squiggly underline (red), 2014-10-21 14:00, Solvery:
+马奇诺防线
+[[马奇诺防线]]
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+30，000 人年的软件经验
+
+
+--- Page 97 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+学习受公司留住人才的能力的限制。 如果人的流动量大，学习就不可能坚持或者根本不会进行。
+
+
+--- Page 98 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+把团队这个词用于一个小组不能确保它有一个团队的任何特征。它可能还是一个结合不紧密的、没有共同目标和价值观或混合技能的个体的集合
+
+
+--- Page 99 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+会议的目的是达成共识
+
+
+--- Page 102 ---
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+亚里斯多德的政治是好的管理的重要实践
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+积极加固感情是使所有事情好转的关键。  
+
+Highlight (yellow), 2014-10-21 14:00, Solvery:
+你没有什么不舒服， 只是老了
+
+
+(report generated by GoodReader)
+
+

@@ -1,0 +1,45 @@
+
+srio: serial rapidio
+
+** packet-switch
+message and read/write
+in-order packet delivery
+
+rapidio standard is defined in three layers:
+	logic
+		direct io
+		dma
+			主设备可以直接读写从设备的存储器
+			nwrite
+			nwrite_r
+			swrite, stream write
+			nread
+		message passing
+	transport
+		packet-switch
+		device: endpoint, switch
+	physical
+
+part1 
+	3.5 RapidIO has double-word (8-byte) aligned big-endian data payloads
+	Table 4-2. General Field Definitions for All Request Packets
+		ftype, format type
+		wdptr
+		rdsize
+		wrsize
+		rsrv, reserved
+		srcTID,
+		transaction
+		address
+	Bit Stream Format
+lane width 1 2 4 8 16
+
+flow control, ? 是以种等待？
+	pcie, usb3.0
+
+逻辑，传输，物理
+
+背板 SerDes: Serialize Deserialize
+根据数据信号的跳变回复时钟
+
+

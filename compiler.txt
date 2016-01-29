@@ -1,0 +1,83 @@
+[[parsing]]
+[[crosstool-ng]]
+
+compiler course
+http://www.cs.princeton.edu/courses/archive/spring03/cs320/details.htm
+
+http://www.stanford.edu/class/cs143/
+
+
+http://en.wikipedia.org/wiki/Compiler
+    http://en.wikipedia.org/wiki/Compiler_optimization
+        locally scoped techniques are easier to implement than global ones but result in smaller gains. 
+        optimize different machines just by altering the machine description parameters.
+    http://en.wikipedia.org/wiki/Compiler_correctness
+        Compiler validation with formal methods involves a long chain of formal, deductive logic.
+
+http://staff.ustc.edu.cn/~yiyun
+
+# tiny cc [[tcc]]
+
+
+# [[llvm]]
+http://en.wikipedia.org/wiki/LLVM
+
+# [[gcc]]
+
+
+# 缩写
+
+stmt Statement 
+
+= 发展 =
+新语言，新平台出现一般都会有某种应用需求在驱使。
+特定的问题，都有适合的程序设计语言来解决。
+
+
+http://www.cnblogs.com/JeffreyZhao/archive/2010/08/30/1812515.html
+
+= books =
+
+龙书 http://en.wikipedia.org/wiki/Dragon_Book_%28computer_science%29
+	Alfred V. Aho,
+		fgrep algorithm has become known as the Aho-Corasick algorithm
+		egrep and fgrep
+		他的同事写了yacc, lex, awk
+   	Monica S. Lam, 
+	Ravi Sethi,
+		印度人
+   	and Jeffrey D. Ullman 
+		著作很多，有数据库，数据结构，算法，编程语言。
+
+程序设计语言第三版 [[programming_language_pargmatics_3e]]
+
+[http://en.wikipedia.org/wiki/Parsing]
+
+[http://www.cs.berkeley.edu/~hilfingr/cs164/public_html/lectures/ CS 164: Supplementary Lecture Notes ]
+
+[[compiler_turing|因与编译有关的贡献而获得图灵奖者]]
+
+哈工大课件 [http://cst.hit.edu.cn/comp/teaching/?p=cware.htm]
+	克林是在研究神经细胞中，建立了自动机，他用这种自动机 来识别语言：对于按照一定的规则构造的任一个自动机，该 自动机就定义了一个语言，这个语言由该自动机所能识别的 所有句子组成。
+	正规式到正规文法的转换
+
+http://bbs.chinaunix.net/forum.php?mod=viewthread&tid=3590202&page=3#pid21509946
+http://linux.chinaunix.net/hellogcc2010/
+
+llvm
+
+# 吉林大学
+
+1. 语义错误
+- 静态
+- 动态
+
+1. 标识符表
+
+1. 遍
+
+1. 元程序（meta program）
+- lisp程序和数据统一表示
+
+语法分析检查token和token的位置关系。
+

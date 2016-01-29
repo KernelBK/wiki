@@ -1,0 +1,4 @@
+
+1. 查查xilinx secureip 的vcs需要注意什么？
+	如果不行就试试modelsim仿真
+

@@ -1,0 +1,6 @@
+PyStringObject对象的Intern机制其目的是对于被Intern之后的字符串，在整个Python运行时，系统中都只有唯一的与该字符串对应的PyStringObject对象。
+
+PyString_InternInPlace
+
+string_concat
+

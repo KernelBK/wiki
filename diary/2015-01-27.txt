@@ -1,0 +1,15 @@
+
+电机卡 脉冲模式调试
+	上位机软件还没有写好，需要配置一些默认数据。
+	发现的错误	
+		高低电平配置寄存器的位宽只有12位，应该为32位
+		模式寄存器的位
+
+电流和speed波形颜色相同
+
+
+
+http://assets.fluke.com.cn/campaign/VERTICAL_FPQ_bookfree_2015-01-07.html
+
+web 
+

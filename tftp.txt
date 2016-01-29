@@ -1,0 +1,14 @@
+
+简单文件传送协议TFTP (Trivial File Transfer Protocol
+
+sudo apt-get install tftpd tftp xinetd 
+apt-get install tftpd-hpa tftp-hpa
+
+/etc/default/tftpd-hpa 
+
+启动和停止
+启动
+/etc/init.d/tftpd-hpa start
+停止
+/etc/init.d/tftpd-hpa stop
+

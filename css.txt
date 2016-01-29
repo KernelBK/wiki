@@ -1,0 +1,35 @@
+
+Cascading style sheets
+内容和表现解耦
+
+selector {declaration1; declaration2; ...}
+selector {property: value}
+h1 {color:red; font-size;14px;}
+
+选择器
+	选择器分组 	h1,h2,h3 {}
+	派生选择器 	h1 strong {}
+	id选择器	#red {} id="red"
+	类选择器	.center {}	class="center"
+	属性选择器	[title]{}
+
+样式
+	背景
+	文本
+	字体
+	连接
+	列表
+	表格
+	轮廓
+
+框模型
+	border
+	margin
+	padding
+	element
+
+CSS加入编程元素，这被叫做"CSS预处理器"（css preprocessor）。
+
+SASS是一种CSS的开发工具，SASS是一种CSS的开发工具。
+
+

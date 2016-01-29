@@ -1,0 +1,19 @@
+
+build/core/Makefile
+    BUILT_SYSTEMIMAGE := $(systemimage_intermediates)/system.img
+    INSTALLED_SYSTEMIMAGE := $(PRODUCT_OUT)/system.img
+
+
+# recovery
+out/host/linux-x86/bin/mkbootfs out/target/product/apollo-mele/recovery/root | out/host/linux-x86/bin/minigzip > out/target/product/apollo-mele/ramdisk-recovery.img
+
+out/host/linux-x86/bin/mkbootimg  --kernel out/target/product/apollo-mele/kernel  --ramdisk out/target/product/apollo-mele/ramdisk-recovery.img --base 0x40000000 --output out/target/product/apollo-mele/recovery.img
+
+# system
+make_ext4fs -s -l 335544320 -a system out/target/product/apollo-mele/obj/PACKAGING/systemimage_intermediates/system.img out/target/product/apollo-mele/system
+
+PATH=out/host/linux-x86/bin:$PATH out/host/linux-x86/b̸in/imgdi̾ff out/target/product/apollo-mele/boot.img out/target/product/apollo-mele/recovery.img out/target/product/apollo-mele/obj/PACKAGING/recovery_patch_intermediates/recovery_from_boot.p
+
+# boot.img
+1. lichee/out/android/bImage android/device/*/apollo-mele/kernel
+1. out/host/linux-x86/bin/mkbootimg  --kernel out/target/product/apollo-mele/kernel  --ramdisk out/target/product/apollo-mele/ramdisk-recovery.img --base 0x40000000 --output out/target/product/apollo-mele/recovery.img

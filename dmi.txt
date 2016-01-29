@@ -1,0 +1,3 @@
+
+连接Intel Platform 南北桥的BUS；或者连接CPU和PCH的BUS
+

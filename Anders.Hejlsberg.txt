@@ -1,0 +1,4 @@
+
+Anders Hejlsberg，微软.NET的首席架构师，编程语言设计和实现的顶尖高手。
+http://www.artima.com/intv/choices.html
+

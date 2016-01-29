@@ -1,0 +1,544 @@
+深入理解linux内核(中文第三版-2009.1第四次印刷)勘误表
+
+前言
+
+0.1 P1, 第二段
+原书: Out of this work and with a lot of support from O'Reilly editor Andy Oram ...
+中文版: 除了这些工作, 还有来自O'Reilly编辑Andy Oram的支持...
+勘误: "Out of"翻译成"除了"不妥, 应该翻译为: 由于这些工作和O'Reilly编辑Andy Oram的支持...
+
+0.2 P6
+勘误: 原书介绍了"Safari"这个标志: 这个标志出现在O'Reilly的书上的时候, 表示这本书是"online"的, 可以在O'Reilly的网站上的
+"虚拟图书馆"上找到这本书, 并且可以很容易地复制源代码片段, 下载章节等, 并且这一切都是免费的, 网址是: http://safari.oreilly.com.
+不明白为什么中文版把这段给删除了.
+
+第一章 绪论
+
+1.1 P7, 注1
+勘误: Linus同学的姓氏被写错了, Torvaeds应该为: Torvalds.
+
+1.2 P7, 第一段
+勘误: (System V Release 4) SRV4应该为: (System V Release 4) SVR4.
+
+1.3 P7, 第三段
+勘误: (General Pwblic License, GPL)应该为: (General Public License, GPL).
+
+1.4 P8, 第五段
+勘误: (application programming interfale, API)应该为: (application programming interface, API).
+
+1.5 P8, 第五段
+原书: a well-defined environment in which user programs should run.
+中文版: 指定了用户程序应当运行的一个已定义好的环境.
+勘误: 这个"定义好的环境"不是用户程序运行的, 而是"用户程序在这个环境中运行", 所以应当翻译为: 指定了一个可以让用户程序运行
+的环境.
+
+1.6 P9, 第一段
+勘误: (即SVR4)应该为: (即SVR2).
+
+1.7 P10, 第四段
+勘误: SRV4应该为: SVR4.
+
+1.8 P12, alpha
+勘误: Compag应该为: Compaq.
+
+1.9 P14, 第二段
+原书: The other programs are less crucial utilities; they can provide a wide variety of interactive experiences for the user
+as well as doing all the jobs the user bought the computer for.
+中文版: 其它程序是一些不太重要的实用程序,尽管这些实用程序为用户提供了与计算机进行广泛交流的经验(以及用户买计算机要做的所有工作).
+勘误: 实用程序提供的是"经验"?! 应该翻译为: 其它程序是一些不太重要的实用程序, 这些程序为用户提供交互式的
+体验界面并完成用户的所有工作(用户买来计算机的目的是在计算机上运行一些程序, 让这些程序完成用户的工作).
+
+1.10
+勘误: P15中倒数第二段的"惟一"和P16倒数第一段的"唯一"哪个"wei"字是正确的?
+
+1.11 P17, 倒数第二段
+勘误: 系统程序员必须提出良定义的软件接口...应该为: 系统程序员必须提出良好定义的软件接口...
+
+1.12 P19, 第二段
+勘误: pcothname应该为: pathname.
+
+1.13 P33, 第三段
+原书: Just like files, IPC resources are persistent: they must be explicitly deallocated by the creator
+process, by the current owner, or by a superuser process.
+中文版: 与文件一样, IPC资源是持久不变的, 进程创建者, 进程拥有者或超级用户进程必须显示地释放这些资源.
+勘误: 应该翻译为: 与文件一样, IPC资源是持久不变的, IPC资源必须被它的创建者, 当前所有者或超级用户显示释放.
+
+1.14 P33, 最后一段
+原书: (i.e., until the parent or the child is required to write into a page)
+中文版: (也就是说, 直到父或子进程需要时才写进页)
+勘误: 应该翻译为: (也就是说, 直到父或子进程写一个页时(才复制这个页)).
+
+1.15 P34, 第一段
+勘误: SIGCHILD应该为: SIGCHLD.
+
+1.16 P35, 第二段
+勘误: SIGTTOUT应该为: SIGTTOU.
+
+1.17 P36, 第一段
+原书: a request for a block of contiguous virtual addresses can be satisfied by allocating a group of 
+page frames having noncontiguous physical addresses.
+中文版: 一块连续的虚拟地址请求可以通过分配一组非连续的物理地址页框而得到满足.
+勘误：应该翻译为: 连续的虚拟地址请求可以通过分配一组物理地址非连续的页框得到满足.
+
+第二章 内存寻址
+
+2.1 P51, 倒数第二段
+原书: The two-level scheme reduces the memory by requiring Page Tables only for those virtual memory
+regions actually used by a process.
+中文版: 二级模式通过只为进程实际使用的那些虚拟内存区请求页表来减少内存容量.
+勘误: 物理内存容量也能减少? 应该翻译为: 二级模式通过只为进程实际使用的那些虚拟内存区请求页表来减少内存使用.
+
+2.2 P59, 倒数第三段
+中文版: ... 该原理既适用程序结构和也适用数据结构...
+勘误: ... 该原理既适用程序结构也适用数据结构...
+
+2.3 P61, 倒数第二段
+勘误: (Page Cache Disablt)应该为: (Page Cache Disable).
+
+2.4 P64, P65
+勘误: 这两页很多地方都出现了"Air"这个单词, 原书中使用的也是"Air", 我个人认为都应该改为: Dir.
+
+2.5 P64, PMD_SHIFT第三段
+原书: PMD_SIZE(2PMD_SHIFT).
+勘误: 这段原书表述也有错误, PMD_SIZE的值应该是2的PMD_SHIFT次方而不是2PMD_SHIFT.
+
+第三章 进程
+
+3.1 P85, 第四段
+中文版: 只要其中一个修改共享资源, 另一个就立即查看这种修改.
+勘误: 只要其中一个修改共享资源, 另一个就立即能看到这种修改.
+
+3.2 P88, P89
+勘误: pidmap-array应该为: pidmap_array.
+
+3.3 P89, 第三段
+原书: it should be possible to *a* send a signal specifying a PID that affects all threads in the group.
+中文版: 把指定PID的信号发送给组中的所有线程.
+勘误: 什么是"指定PID的信号"?! 原书中的"a send a signal"第一个"a"应该去掉, 这句话应该翻译为: 信号发送给指定PID的线程组,
+这个信号会作用于该组中所有的线程.
+
+3.4 P89, 倒数第一段
+原书: a small data structure linked to the process descriptor, namely the thread_info structure, and the Kernel Mode
+process stack.
+中文版: 一个是内核态的进程堆栈, 另一个是*紧挨*进程描述符的小数据结构thread_info, 叫做线程描述符.
+勘误: 一个是与进程描述符有关(联系)的小数据结构thread_info, 叫做线程描述符, 另一个是内核态的进程堆栈.
+
+3.5 P90, 图3-2
+勘误: 我觉得原书和中文版中current位置都错了, current指向的是task_struct结构, 而不是thread_info结构.
+
+3.6 P91, 倒数第一段
+中文版: 用栈存放进程描述符的另一个优点...早先的Linux版本没有把内核栈与进程描述符存放在一起...
+勘误: 这个表述和原书一致, 但是准确地说, 这里的"进程描述符"应该是"线程描述符".
+
+3.7 P93, 表3-1
+勘误: 这个表中关于list_entry(p,t,m)的翻译驴唇不对马嘴, 应该理解翻译: list_entry(p,t,m)宏返回t*,
+t是一个结构, 这个结构里含有成员m, m的类型是struct list_head, p是指向这个成员m的指针.
+
+3.8 P98, 魔数常量
+中文版: 这个大数就应当是接近黄金比例的2^32的一个素数.
+勘误: 什么叫做"接近黄金比例的2^32"?! 应当翻译为: 将2^32做黄金分割, 这个大数是最接近黄金分割点的素数.
+
+3.9 P99, 第一段
+勘误: 它在进程描述符的pid字段中, 应该为: 它在进程描述符的pids字段中.
+
+3.10 P101, 第三段
+勘误: 第三段和第一段重复, 而且还漏掉了很多东西, 原书第三段翻译如下: 处于TASK_INTERRUPTIBLE和TASK_UNINTERRUPTIBLE
+状态的进程被分成很多类, 每一类代表一个事件, 在这种情况下, 进程状态不能充分描述这个进程, 于是有必要构造一个队列,
+这就是"等待队列".(有多种原因可以让进程进入TASK_INTERRUPTIBLE和TASK_UNINTERRUPTIBLE状态, 如等待缓冲区被填充, 等待
+锁被释放等, 于是就构造一个链表, 链表中的进程都在等待同一事件的产生.).
+
+3.11 P102, 第二段
+勘误: "thundering herd"被翻译成"雷鸣般兽群", 这个翻译太"直接"了, 在<UNIX网络编程>卷1套接口API一书中, 也有类似的词语,
+但是被翻译成"惊群效应", 个人认为"惊群效应"更为贴切.
+
+3.12 P106, 表3-7, RLIMIT_LOCKS
+勘误: 文件锁的最大值, 应该为: 文件锁数量的最大值.
+
+3.13 P107, 第二段
+勘误: 只要用户注册进系统, 应该为: 只要用户登录进系统.
+
+3.14 P108, 第三段
+勘误: "尽管"二字是不是多余?!
+
+3.15 P112, 注6
+勘误: movl prev 应该是: movl %eax, prev.
+
+3.16 P112, 1,2
+勘误: 这里的1,2没有错误, 但是和源代码的顺序不符, 根据源代码的执行顺序, 1,2顺序要颠倒一下.
+
+3.17 P113, 5
+勘误: prev-P->thread.fs, prev-P->thread.gs 应该为: prev_p->thread.fs, prev_p->thread.gs.
+
+3.18 P113, 注7
+勘误: 只要产生的一个线性地址位于个断点区域中之一 应该为: 只要产生的一个线性地址位于这四个断点区域中的一个时.
+
+3.19 P114, 最后一段
+中文版: 不过, 通过简单地跳转到__switch_to()函数来调用该函数.
+勘误: 联系中文版上下文, 这句话不太通顺, 应该为: 不过, __switch_to()函数是通过简单地跳转被调用的.
+
+3.20 P122, 5.b
+勘误: 因此而迫使子进程先于父进程运行. "因此而"?! 读起来别扭, 应该为: 因此迫使子进程先于父进程运行.
+
+3.21 P124, 4
+勘误: 除非进程没有root权限, 应该为: 除非进程有root权限.
+
+3.22 P125, 14
+勘误: 原书有误, tsk->set_chid_tid 应该为: tsk->set_child_tid.
+
+3.23 P126, 25.a
+勘误: 原书有误, tsk->current->tgid 应该为: current->tgid.
+
+第四章
+4.1 P137, 异常
+原书: Generated when the CPU detects an anomalous condition while executing an instruction.
+中文版: 当CPU执行指令时探测到的一个反常条件所产生的异常.
+勘误: 这句翻译的不通顺, 应该翻译为: CPU执行指令过程中探测到反常条件时产生异常.
+
+4.2 P138, 第二段
+中文版: 因为一些未知的原因, Intel把这个8位的无符号整数叫做一个向量.
+勘误: "因为一些未知的原因", 原文根本没有这句话.
+
+4.3 P138, 第三段
+勘误: (Programmable Interrupt Controuer, PIC)应该为: (Programmable Interrupt Controller, PIC).
+
+4.4 P138, 第1点
+原书: If two or more IRQ lines are raised...
+中文版: 如果有条或两条以上的IRQ线上产生信号...
+勘误: 如果有两条或两条以上的IRQ线上产生信号...
+
+4.5 P139, 2.d
+原书: Wait until the CPU acknowledges the Interrupt signal by writing into one of the Programmable Interrupt Controller
+(PIC) I/O ports.
+中文版: 等待, 直到CPU通过把这个中断信号写进可编程中断控制器的一个I/O端口来确认它.
+勘误: 中断控制器需要应答, 但是应答的方式根本不是"把这个中断信号写进可编程中断控制器的一个I/O端口", 而是写一个特殊的字节
+(PIC的这种工作方式同样取决于对PIC的初始化, P161第三段有一句话: mask_and_ack_8259()函数通过把适当的字节发往8259A I/O端口来
+应答所接受的IRQ)因此, 应该翻译为: 等待, 直到CPU通过写PIC的一个I/O端口来应答.
+
+4.6 P150, set_task_gate(n,addr)
+原书: Insert a task gate in the nth IDT entry.
+中文版: 在IDT的第n个表项中插入一个中断门.
+勘误: 在IDT的第n个表项中插入一个任务门.
+
+4.7 P169, 第一段
+原书: If it is clear, no further occurrence of the Interrupt has been delivered to another CPU.
+中文版: 如果该标志清0, 那么, 中断的进一步出现不传递给另外一个CPU.
+勘误: 如果该标志清0, 那么, 说明其他CPU上没有出现该中断(这个翻译需要联系上下文理解).
+
+4.8 P169, 第五段
+中文版: 一个硬件设备出现在这条IRQ线程上.
+勘误: 一个硬件设备出现在这条IRQ线上.
+
+4.9 P169, 代码片断
+勘误: 原书有误, 条件语句少了个括号, 应该为: 
+if ((irq_desc[irq].status & (IRQ_PENDING | IRQ_REPLAY))
+	== IRQ_PENDING) {.
+	
+4.10 P171, 第三大段
+勘误: 最后一句话的括号位置不对.
+
+4.11 P171, 最后一段
+原书: Assume a program wants to address the /dev/fd0 device file, which corresponds to the first floppy disk on the system.
+中文版: 假定一个程序想访问/dev/fd0设备文件对应于系统中的第一个软盘.
+勘误: 翻译不通顺, 应该翻译为: 假定一个程序想访问/dev/fd0设备文件, /dev/fd0设备文件对应于系统中的第一个软盘.
+
+4.12 P171, 最后一段
+原书: The program can do this either by directly accessing /dev/fd0 or by mounting a filesystem on it.
+中文版: 程序要做到这点, 可以通过直接访问/dev/fd0, 也可以通过在系统上安装一个文件系统.
+勘误: "也可以通过在系统上安装一个文件系统"翻译的不对, 根据实际情况理解应该翻译为: 要访问软盘, 可以直接访问/dev/fd0, 也可以
+把/dev/fd0(这个软盘设备上包含了某种文件系统)挂载到某个目录下.
+
+4.13 P172, 第一段
+勘误: SA-SAMPLE-RANDOM应该为: SA_SAMPLE_RANDOM.
+
+4.14 P172, 第3点
+勘误: 这段原书描述也不对, *new的flags字段根本没有IRQ_DISABLED这些标志(*new的flags字段可以设置的标志是SA_SHIRQ等), 根据实际代码
+很容易看出这个错误.
+
+4.15 P173, 第五段
+勘误: 原书有误, BUILD_INTERRUPT宏产成的代码执行顺序和中文版(原书)有不同, 根据实际代码来看, 顺序为: (1)压入IRQ-256到栈中, 
+(2)保存寄存器,(3)调用C函数.
+
+4.16 P182, 6.b
+勘误: TASKLET-STATE-RUN应该为: TASKLET_STATE_RUN.
+
+4.17 P183, 第一段
+原书: In fact, a deferrable function cannot make any assumption about the process that is currently running when it is executed.
+中文版: 事实上, 可延迟函数被执行时不可能有任何正在运行的进程.
+勘误: 这句翻译不对. 由于中断事件是外部事件, 因此中断发生的时候, 根本不能确定哪个进程正在运行, 而可延迟函数运行在中断上下文, 所以, 
+应该翻译为: 事实上, 可延迟函数执行时不能对当前运行的进程做任何假设(不能确定哪个进程在运行). 
+
+4.18 P187, 代码片断
+勘误: jpm resume_kernel应该为: jmp resume_kernel.
+
+4.19 P190, 检测重调度标志
+勘误: thread_info descriptor描述符的flags标志...应该为: thread_info描述符的flags标志...
+
+第七章 进程调度
+
+7.1 P258, 第一段
+勘误: schednling应该为: scheduling.
+
+7.2 P259, 第四段
+中文版: 而后者则需要大量CPU时间的数值计算应用程序.
+勘误: 不通顺, 应该为: 而后者则*是*需要大量CPU时间的数值计算应用程序.
+
+7.3 P266, 表7-4
+勘误: Unsigned long cpu_load 应该为: unsigned long cpu_load.
+
+7.4 P268, 第二段
+勘误: ayyays 应该为: arrays.
+
+7.5 P270, 2.a
+中文版: 那么, 只要一个逻辑CPU运行队列中的所有进程都有比另外一个逻辑CPU上已经在执行的进程(有)低得多的优先级.
+勘误: 不通顺, 括号中的"有"字应该去掉. 这段翻译过来的中文可以理解, 但是和原文不符, 原文提到了"物理CPU(physical CPU)"
+的概念, 而译文却对这个概念只字未提.
+
+第八章
+
+8.1 P298, 第二段
+勘误: Eone应该为: Zone.
+
+8.2 P298, 表8-3 节点描述符字段
+勘误: struct zone_t [] node_zones 应该为: struct zone [] node_zones,
+struct zonelist_t [] node_zonelists 应该为: struct zonelist [] node_zonelists.
+
+8.3 P300, 第二段
+原书: the ZONE_HIGHMEM zone includes page frames that cannot be directly accessed by the kernel *through*
+the linear mapping in the fourth gigabyte of linear address space.
+中文版: ZONE_HIGHMEM区包含的内存页不能由内核直接访问, *尽管*它们也线性地映射到了线性地址空间的第4个GB.
+勘误: ZONE_HIGHMEM区包含的内存页不能由内核*通过*线性地址空间的第4个GB直接访问. ZONE_HIGHMEM区根本没有被映射
+到内核地址空间的第四个GB, "through"应该被翻译为"通过"而不是"尽管".
+
+8.4 P300, 表8-4 管理区描述符的字段
+勘误: Unsigned long [] lowmem_reserve 应该为: unsigned long [] lowmem_reserve, 
+struct list head active_list 应该为: struct list_head active_list,
+struct list head inactive_list 应该为: struct list_head inactive_list.
+
+8.5 P304, 第一段
+勘误: 页框被名为"伙伴系统"的部分来处理. 中文版少了半个引号.
+
+8.6 P305, 表8-6 用于请求页框的一组标志值
+勘误: GFP_HIGHUSER __GFP_WAIT|__GFP_IO|__GFP_FS_|_GFP_HIGHMEM 应该为: GFP_HIGHUSER __GFP_WAIT|__GFP_IO|__GFP_FS|__GFP_HIGHMEM
+
+8.7 P306, 高端内存页框的内核映射
+中文版: 896MB边界以上的页框并不映射在内核线性地址空间的第4个GB......即不适用于ZONE_HIGHMEM内存管理区的页框.
+说明: 这里没有错误, 但是很明显, 8.7的描述和上面8.3的描述相矛盾.
+
+8.8 P309, 第一个代码片段
+勘误: vaddr = (unsigned long ) page->virtual; 应该为: vaddr = (unsigned long ) page_address(page);
+
+8.9 P309, 第二段
+原书: Next, the kmap_high() function checks whether the page frame is already mapped by invoking page_address().
+中文版: 接下来, kmap_high()函数检查页框是否已经通过调用page_address()被映射.
+勘误: page_address()函数只起检查作用, 它并不进行内存映射操作, 应该翻译为: 接下来, kmap_high()函数通过调用
+page_address()函数来检查页框是否已经被映射.
+
+8.10 P311, 第五段
+原书: the latter is assigned to the index ...
+中文版: 把后者赋给下标 ...
+勘误: 后者的值(被赋值)为 ...
+
+8.11 从P314开始到317中的代码片段使用了几个宏, 分别是: ClearPagePrivate(...), SetPagePrivate(...), 这几个宏和原书一致,
+但是实际代码是__ClearPagePrivate(...), __SetPagePrivate(...). 或许原书作者认为它们的功能是相同的.
+
+8.12 P316, 第四段
+勘误: (1<order) 应该为: (1<<order).
+
+8.13 P319, 管理区分配器
+原书: 
+The Zone Allocator
+... This component must locate a memory zone that includes a number of free page frames large enough to satisfy the memory request.
+中文版: 
+管理区分配器
+... 该成分必须分配一个包含足够多空闲页框的内存管理区 ...
+勘误: "内存管理区"的概念已经在P299定义, 根据上下文理解, 这里的zone不是"内存管理区"的意思, 而是"管理区内的一个或者多个内存页框".
+因此, 应该翻译为: ... 该成分必须分配一个包含足够多空闲页框的内存区 ...
+
+8.14 P321, 第3点
+中文版: 实际阈值由 the can_try_harder 和 gfp_high确定.
+勘误: 去掉"the".
+
+8.15 P324, 第四段
+原书: the initial addresses of the data structure are less prone to be concentrated on physical addresses whose values are a
+power of 2.
+中文版: 数据结构的起始地址不是物理地址的2的幂次方.
+勘误: 数据结构的起始物理地址不是2的幂次.
+
+8.16 P327, 倒数第二段
+原书: The slab allocator chooses the second solution when the size of the objects is smaller than 512MB or when internal fragmentation
+leaves enough space for the slab descriptor and object descriptors(as described later)inside the slab.
+中文版: 当对象小于512MB时, 或者当内碎片在slab内部为slab描述符将在后面介绍(及对象描述符)留下足够的空间时, slab分配器选择第二种方案.
+勘误: 当对象小于512MB或者在slab描述符和对象描述符(稍后描述)后面有足够的空间时, slab分配器选择第二种方案.
+
+8.17 P331, 从高速缓存中释放slab第二个条件
+原书: A timer function invoked periodically determines that there are fully unused slabs that can be released.
+中文版: 被周期性调用的定时器函数确定*是否*有完全未使用的slab能被释放.
+勘误: 被周期性调用的定时器函数确定有未使用的slab能被释放.
+
+8.18 P333, 图8-5中的第二行描述文字
+勘误: 应该为: 具有外部对象描述符的slab.
+
+8.19 P335, 图8-6
+勘误: num+osize 应该为: num*osize.
+
+8.20 P343, 图8-7
+勘误: vmallot区 应该为: vmalloc区.
+
+8.21 P344, 第3点
+原书: and terminates by returning the initial address of the noncontiguous memory area.
+中文版: 并以返回这个非连续内存区的起始地址而结束.
+勘误: 个人认为原书描述也有不当, 最后一句话应该翻译为: 并以返回非连续内存区的描述符的地址(vm_struct *)而结束.
+
+8.22 P345, 代码片段
+勘误: if (!area_pages) { 应该为: if (!area->pages) {.
+
+8.23 P346, 第一段
+原书: The last crucial step consists of fiddling with the page table entries used by the kernel to indicate that each page frame 
+allocated to the noncontiguous memory area is now associated with a linear address included in the interval of contiguous linear
+addresses yielded by vmalloc().
+中文版: 最后至关重要的步骤是修改内核使用的页表项, 以此表明分配给非连续内存区的每个页框现在对应着一个线性地址, 这个线性地址被包含在
+vmalloc()产生的*非*连续线性地址区间中.
+勘误: 最后至关重要的步骤是修改内核使用的页表项, 以此表明分配给非连续内存区的每个页框现在对应着一个线性地址, 这个线性地址被包含在
+vmalloc()产生的连续线性地址区间中.
+
+
+第九章
+
+9.1 P355, 表9-2: 内存描述符中的字段(续)
+原书: unsigned long nr_ptes /* Number of Page Tables of this process */
+中文版: unsigned long nr_ptes /* this 进程的页表数 */
+勘误: 去掉"this".
+
+9.2 P355, 表9-2: 内存描述符中的字段(续)
+原书: int core_waiters /* Number of lightweight processes that are *dumping* the contents of the 
+					process address space to a core file */
+中文版: int core_waiters /* 正在把进程地址空间的内容*卸载*到转储文件中的轻量级进程的数量 */
+勘误: /* 正在把进程地址空间的内容*倾泻*(或译为"写", 总之不是"卸载"的意思)到转储文件中的轻量级进程的数量 */
+
+9.3 P357, 最后一段
+原书: every time a high linear address has to be remapped, the kernel updates a canonical set of Page Tables
+*rooted* at the swapper_pg_dir master kernel Page Global Directory.
+中文版: 每当一个高端地址被重新映射时, 内核就更新*根目录*在swapper_pg_dir主内核页全局目录中的常规页表集合.
+勘误: rooted, 应该被翻译为"被定位在...", 而不是"根目录"的意思, "根目录"和"/"发生混淆.
+
+9.4 P358, 表9-3: 线性区对象的字段
+原书: struct vm_area_struct * vm_next /* Next region in the process list */
+中文版: struct vm_area_struct * vm_next /* 进程链表中的下一个线性区 */
+勘误: 个人认为, 原书也有不当, 严格来说, 应该是"进程拥有的线性区链表中的下一个线性区".
+
+9.5 P362, 第二段
+原书: Searching an element in a red-black tree is thus very efficient.
+中文版: 在红-黑树中搜索一个元素*因此而变得*非常高效.
+勘误: 这个翻译没有问题, 但是联系上下文理解有点别扭, 在红-黑树中搜索本来就很高效, 应该是
+"普通树具备了红-黑树的性质后(那么这个普通树就变成了红-黑树)会使搜索变的高效", 而按照中文版
+的翻译, 好像红-黑树被改进之后"因此而变得"非常高效.
+
+9.6. P362, 第五段
+原书: The *head* of the red-black tree is referenced by the mm_rb field of the memory descriptor.
+中文版: 红-黑树的首部由内存描述符的mm_rb字段所指向.
+勘误: 个人觉得这里的"head"应该为"root", 应该翻译为"红-黑树的根由内存描述符的mm_rb字段描述".
+mm_rb字段实际上是"包含指针的结构体", 它本身并不是指针.
+
+9.7. P366, 第六段
+原文: Finally, the find_vma_prepare() function locates the position of the new leaf in the red-black
+tree that corresponds to a given linear address and returns the addresses of the *preceding* memory
+region and of the parent node of the leaf to be inserted.
+中文版: 最后, 函数find_vma_prepare()确定新叶子节点在与给定线性地址对应的红-黑树中的位置, 并返回*前一个*
+线性区的地址和要插入的叶子节点的父节点的地址.
+勘误: "preceding"是"前述"的意思, 而不是"前一个", 实际上, 英文原文隐含的描述了一个线性区, find_vma_prepare()
+函数返回的是这个线性区的地址(没有返回父节点地址, 线性区描述符中包含了这个父节点), 将"preceding"翻译成"前一个"
+不恰当. 这段应该理解翻译为"函数find_vma_prepare()确定新叶子节点在红-黑树中的位置, 并返回父节点所在线性区的
+描述符的地址.".
+
+9.8 P368, 第一段
+勘误: TASK-SIZE应该为: TASK_SIZE.
+
+9.9 P368, 第三段
+原书: The function invokes find_vma() to locate the first memory region ending after the
+search's starting point.
+中文版: 函数调用find_vma()以确定搜索起点之后第一个线性区终点的位置.
+勘误: 函数调用find_vma()以确定终点位置在搜索点之后的第一个线性区.
+
+9.10 P368, 第四段
+勘误: TASK-SIZE应该为: TASK_SIZE.
+
+9.11 P370, 第一段
+原书: Both flags *refer to* the VM_SHARED flag in the vm_area_struct descriptor.
+中文版: 这两个标志都*指向*vm_area_struct描述符中的VM_SHARED标志.
+勘误: 又不是指针, 怎么指向? 这两个标志都与vm_area_struct描述符中的VM_SHARED标志有关.
+
+9.12 P371, 第一段
+勘误: VM-LOCKED应该为: VM_LOCKED.
+
+9.13 P371, 第4点, 代码后的解释
+原书: The find_vma_prepare() function also checks whether a memory region that overlaps the new interval
+already exists.
+中文版: find_vma_prepare()函数也检查是否还存在与新区间重叠的线性区.
+勘误: 个人认为原书也有不当, 应当是do_mmap_pgoff()函数而不是find_vma_prepare()函数.
+
+9.14 P372, 第一段
+原文: *In case* it succeeds in expanding the preceding memory region, the function jumps to step 12.
+中文版: *万一*在扩展前一个线性区时获得成功, 则跳转到第12步.
+勘误: *一旦(如果)*扩展前一个线性区成功, 则跳转到第12步.
+
+9.15 P373, 第13点
+勘误: make-pages-present()应该为: make_pages_present().
+
+9.16 P373, 第四段
+原书: In the first phase(steps 16)...In the second phase(steps 712).
+说明: 原书有错误, 应该是(steps 1~6)...(steps 7~12).
+
+9.17 P374, 注6
+原书: the region must be replaced by two new smaller regions.
+中文版: 就必须用用个较小的新线性区取代该线性区.
+勘误: 就必须用两个较小的新线性区取代该线性区.
+
+9.18 P379, 第二个代码片段
+原文: if (!(error_code & 0x101))
+中文版: if (!(error_code & 0x101))
+勘误: if (!(error_code & 5)), 原文以及译文中的101应该是二进制, 而不是十六进制.
+
+9.19 P380, 第三段
+原文: if the first memory region ending after address.
+中文版: 如果在address之后结束*处*的第一个线性区包含address.
+勘误: 如果在address之后结束的第一个线性区包含address.
+
+9.20 P383, 第三段
+勘误: 所有的宏中的"-"替换成"_".
+
+9.21 P379, 最后一个代码片段
+原书: if (!down_read_trylock(&tsk->mm>mmap_sem)) {
+中文版: if (!down_read_trylock(&tsk->mm>mmap_sem)) {
+勘误: 原书有误, 应该是: if (!down_read_trylock(&tsk->mm->mmap_sem)) {
+
+9.22 P391, 注12
+勘误: current->mm-pgd应该为: current->mm->pgd.
+
+9.23 P394, 第一段
+原书: if it does, then the process is dumping the contents of the memory to a core file.
+中文版: 进程就把内存的所有内容卸载到一个转储文件中.
+勘误: mm->core_waiters的含义是: 正在写转储文件的轻量级进程数量, 中文版翻译的完全不对, 正确翻译应该是: 如果mm->core_waiters
+不为0, 那么说明有轻量级进程正在把进程上下文的内容写入到转储文件.
+
+第十三章 I/O体系结构和设备驱动程序
+
+13.1 P525, 最后一段
+原书: The sysfs filesystem is a special filesystem similar to /proc that is usually mounted on the /sys directory.
+中文版: sysfs文件系统是一种特殊的文件系统, 被安装于/sys目录下的/proc文件系统相似.
+勘误: (翻译人员是不是一点也不了解linux系统? 但凡有一点linux常识, 都知道/proc和/sys目录吧. 怎么成了/proc被安装在/sys?!),
+应该翻译为: sysfs文件系统是一种特殊的被安装于/sys目录的文件系统, 和proc(proc文件系统被安装于/proc目录)文件系统相似.
+
+13.2 P526, 第一段
+中文版: 或许, 在不远的将来...
+勘误: 不是"在不远的将来", 而是"在接下来的一段时间内", 这句话应该理解翻译: /proc和/sys目录是linux系统的特殊目录, 它们有
+特殊的目的, 将来可能从系统中删除这两个目录, 但是, "接下来的一段时间内", 它们仍然存在, 并且是共存的.
+
+13.3 P527, 注2
+勘误: kobjeckt应该为: kobject.
+
+13.4 P527, 表13-2
+勘误: 原书有误, struct k_ref kref 应该为: struct kref kref.
+
+13.5 P527, 最后一段
+勘误: 原书有误, k_ref 应该为: kref.
+

@@ -1,0 +1,6 @@
+
+GStreamer 是一个 基于流水线的多媒体框架，基于GObject，以C语言写成。
+
+GStreamer采用基于插件（plugin）和管道（pipeline）的体系结构，框架中的所有的功能模块都被实现成可以插拔的组件（component），能够很方便地安装到任意管道上。
+
+[http://en.wikipedia.org/wiki/Category:Multimedia_frameworks]

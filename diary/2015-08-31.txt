@@ -1,0 +1,20 @@
+
+自检，使用32*3位寄存器，按位表示错误代码；
+
+5730加入iir 64bit支持
+
+iir 64bit 更新
+
+pa5000b谐波测试
+
+pa5000b的功率卡和电机卡改版
+
+*.7z;*.rar;*.zip;*.bz2;*.tgz;*.gz;*.tar;*.iso
+
+;*.chm;*.txt;*.nh;*.caj;*.kdh;*.xps
+
+f:\get\share\ <*.rar|*.zip|*.7z|*.bz2|*.gz|.tar> <RTX64_2014|SmartPRO_|ZDS20|adobe|android|aoc_screen_plus|arm-linux|asio|awk|bench|boost_1|c51|can|crack|doxgen|duilib|emacs|ethernet|filezilla|firebug|flash|gtk|gui|husbound|icon|jre32|keil|license|lwip|markdown|mcu|md5|mingw|notepad|odbg|perl|poco|qemu-|rt-thread|scope|shelljiaoben|tiny|tool|usb|vim|virtual|vs20|webkit-r|wifi|win|xshell|yahei|zigbee|订票|破解|注册机|fm3|CITS25|patch|逗你玩|RS-232|EasyARM|jinshanciba_cidianbao|PowerWord|galaxysmtd|All.zip|protel99se|MindManager|gradle|smd_setup|MPDF60|apl_startkit|JMHY|Kmplayer_Plus|universalviewer|negdata2|MiSetup|fm4|FreeDWGViewer|HiSuiteSetup>
+
+[[../code.interview]]
+
+给huan讲解，写日记的方法。

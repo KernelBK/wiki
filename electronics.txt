@@ -1,0 +1,32 @@
+
+[[electrical_term]]
+[[hwardware.interface]]
+公司
+[[company]]
+[[high_speed_connection]]
+
+[[logic_design]]
+[[pcb]]
+	[[Altium.Designer]]
+[[instrumentation]]
+	[[oscilloscope]]
+	signal_generator
+	[[multimeter]]
+	[[pll]]
+circuit
+time-domain frequency-domain rlc-circuit
+
+希腊语：成比例的
+
+wikipedia
+	electrical_engineering	
+		电的商业化，电灯还是电报？
+		1893， 计量单位标准化
+		从物理学分离
+		1885， 大学开课
+		1882， Thomas Edison
+		war of currents, ac dc 之争
+
+[[dsp]]
+
+

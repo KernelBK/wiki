@@ -1,0 +1,5 @@
+
+global history
+
+edk工程迁移 ，sdk目录处理
+

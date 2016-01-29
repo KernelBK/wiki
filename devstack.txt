@@ -1,0 +1,4 @@
+
+devstack 会从 OpenStack git 仓库里下载代码，并在你的主机或虚机理部署OpenStack：
+
+

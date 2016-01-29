@@ -1,0 +1,18 @@
+
+
+ARM_EABI_TOOLCHAIN=/hd/workspace/homlet/android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin
+
+javac -J-Xmx512M -target 1.5 -Xmaxerrs 9999999 -encoding UTF-8 -g -bootclasspath 
+
+javac-J-Xmx512M-target1.5-Xmaxerrs9999999-encodingUTF-8-g-bootclasspathout/target/common/obj/JAVA_LIBRARIES/core_intermediates/classes.jar-classpathout/target/common/obj/JAVA_LIBRARIES/android.policy_intermediates/classes.jar:out/target/common/obj/JAVA_LIBRARIES/core_intermediates/classes.jar:out/target/common/obj/JAVA_LIBRARIES/core-junit_intermediates/classes.jar:out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar:out/target/common/obj/JAVA_LIBRARIES/filterfw_intermediates/classes.jar:out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar-extdirs-dout/target/common/obj/JAVA_LIBRARIES/services_intermediates/classes@out/target/common/obj/JAVA_LIBRARIES/services_intermediates/classes/java-source-list-uniq
+
+java-Xms16M-Xmx1536M-jar/workspace/homlet/android/out/host/linux-x86/framework/dx.jar--dex--output=out/target/common/obj/APPS/android.core.tests.libcore.package.com.no-core-tests-res_intermediates/noproguard.classes-with-local.dexout/target/common/obj/APPS/android.core.tests.libcore.package.com.no-core-tests-res_intermediates/noproguard.classes.jar
+
+传给java的JVM_ARGS="-Xmx1748m -Xms1048m -XX:MaxPermSize=1024m"没有起作用。
+
+build/core/definitions.mk
+	JXmx1536M
+https://android-review.googlesource.com/#/c/35080/1/core/definitions.mk
+
+使用Scala + sbt + sbt-android-plugin开发Android应用程序
+

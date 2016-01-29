@@ -1,0 +1,363 @@
+scenarios 脚本
+
+advanced oop
+
+bus transaction 
+	error injection
+	random delays
+
+class partition
+queue a[$]
+
+http://spearzone.com/mb/systemverilog/
+
+SystemVerilog for Verification, Second Edition, Errata
+
+Thank you to everyone who has sent me the mistakes they found in my book, SystemVerilog for Verification, first edition. Like a hardware project, the book has "bugs". Both hardware and books should be verified by someone other than the person who created it. Now if I can only figure out how to perform constrained random testing of text...
+
+This page will show any functional mistakes in the SECOND EDITION of the book. Code that does not work, explanations that are incorrect, etc. Simple typos and bad English are not included. The apostrophes point left and right in some examples - blame FrameMaker!
+
+Remember - if you are the first to find a mistake in a chapter, you get a free, autographed copy. There are 12 chapters, so that is 12 copies. This offer is open only to residents of the USA, as overseas shipping is too high. You must have a legal copy of the book.
+
+Chapter 1 Verification Guidelines
+
+None
+Chapter 2 Data Types
+
+Page 29, Sample 2.7, the last line should be: 
+descend = '{default:1}; // Sets all elements to 1 Also, delete the last sentence of the previous paragraph.
+Page 30, Sample 2.9, the fourth-to-last line should be: 
+md = '{'{9, 8, 7}, '{3{32'd5}}};
+Page 32, Sample 2.13, the last three lines should be: 
+  $display("src[1:4] %s dst[1:4]",
+           (src[1:4] == dst[1:4]) ? "==" : "!=");
+end
+Page 35, the paragraph after Sample 2-17 should say: 
+Line F allocates 20 new elements, and copies the existing 5 elements of dyn to the beginning of the array.
+Page 39, Sample 2.21, the first few lines should be: 
+initial begin
+   bit [63:0] assoc[bit [63:0]], idx = 1;
+Page 42, 2nd paragraph, last sentence: 
+just change the type of rand_idx to string
+Page 51, Sample 2-38, the sixth line should have a shorter constant:
+my_struct_s st = '{32'haaaa_aaaa,
+Page 55, Section 2.12:
+Before enumerated types, you had to use text macros. Their global scope is too broad, and, in most cases, are not visible in the debugger.
+Page 57, the third to last sentence should read: 
+This is similar to a for-loop that tries to step through the values 0 to 3 with an index declared as bit [1:0].
+Page 58, Sample 2.51, the second to last line should be:
+$display("C2 is %0d / %s", c2, c2.name);
+Page 60, Sample 2.53, in the 6th to last line, shortened the task name to: 
+my_log($psprintf("%s %5d", s, 42));
+Chapter 3 Procedural Statements and Routines
+
+Page 70, Sample 3.12, the last three lines should be: 
+    checksum ^= a[i];
+  $display("The array checksum is %0d", checksum);
+endfunction
+Page 75, Sample 3.25: 
+logic [7:0] local_addr;
+local_addr = addr << 2; // Bug solved
+Page 77, section 3.7.4, the first sentence should be: 
+"The system task $time returns an integer scaled to the time unit of the current module, ..."
+Chapter 4 Connecting the Testbench and Design
+
+Page 87: ignore the [Au3] note in the right margin.
+Page 91, Sample 4.15, the nineth line should be:
+  assign ifc.w = local_wire;
+Page 98, Figure 4.6, the bottom signal should be labelled: TEST arbif.cb.grant
+Page 105 and 106, Sample 4.32. Module instances outside of a module are not legal according to the latest interpretation of the LRM, so the explanation at the bottom of 105 and sample 4.32 are very different. 
+
+"Sample 4-32 shows a program that is instantiated in a module that is implictly instantiated in the top-level scope. The program can use a relative or absolute reference to the clk signal in the module. You may want to use a macro to hold the hierarchical path so that when the path changes, you only have to change one piece of code. The LRM does not allow explicit instantiation of modules at the top-level scope." 
+Sample 4.32 Cross-module references with $root
+module top;
+  bit clk;
+  test t1(.*);
+endmodule
+
+`define TOP $root.top
+program automatic test;
+  initial begin
+    // Absolute reference
+    $display("clk=%b", $root.top.clk);
+    $display("clk=%b", `TOP.clk);    // With macro
+
+    // Relative reference
+    $display("clk=%b", top.clk);
+    end
+endprogram
+Chapter 5 Basic Object Oriented Programming
+
+Page 133, section 5.7, swapped words. The sentence should read: 
+A SystemVerilog handle can only point to objects of one type, so they are called "type-safe."
+Page 149, Sample 5.25, last line should be: 
+endfunction : create
+Page 152, Sample 5.30, misspelling in second comment: 
+// Construct a new Statistics object
+Page 155, Sample 5.35, wrong copy on line 5! 
+dst = src.copy();
+Chapter 6 Randomization
+
+Page 167, last paragraph, second sentance should read: 
+In Sample 6.2, since there are no random variables, randomize() just checks the value of age to see if it is in the bounds specified by the constraint c_teenager.
+Page 168, Sample 6-3, 12th line should be: 
+    dst inside {[CONGEST_ADDR-10:CONGEST_ADDR+10]};
+Page 171, Sample 6.10, the last two constraints are missing ']':
+b inside ([$:4], [20:$]}; // 0 <= b <= 4 || 20 <= b <= 127
+e inside ([$:4], [20:$]}; // 0 <= e <= 4 || 20 <= e <= 63
+Page 173, Sample 6.14, the 12th line should be: 
+repeat (20_000)
+Page 188, Sample 6.34, first line should be:
+typedef enum {READ8, READ16, READ32} read_e;
+Page 193, Sample 6.40, need to include the class definition in the program block. 
+// test.sv
+program automatic test;
+`include "packet.sv"
+constraint Packet::c_external {length == 1; }
+...
+Page 212, Sample 6-70, third line:
+atm_gen new_gen; // New ATM generator
+Page 214, Sample 6.72, the build() method should be:
+function void build(); 
+  foreach (gen[i]) begin 
+    // Build all components 
+    gen[i] = new(); 
+    drv[i] = new(); 
+    if (cfg.is_100[i]) 
+      drv[i].set_speed(100); 
+  end 
+endfunction 
+Chapter 7 Threads and Interprocess Communication
+
+Page 236, Sample 7-26, the 3rd to last line should not have () as triggered is an event property, not a method.
+wait(gen_done.triggered); // Wait for finish
+Page 237, Sample 7-27 and 7-28, the create / start loop should pass the event to the constructor, not the run method.
+initial begin
+  foreach (gen[i]) begin
+    gen[i] = new(done[i]); // Create N generators
+    gen[i].run(); // Start them running
+end
+Page 249, Sample 7.41, after the class declaration: 
+  endclass : Consumer
+
+  Producer p;
+  Consumer c;
+Page 250, Sample 7.43, add some declarations: 
+program automatic mbx_evt;
+mailbox mbx;
+Page 251, Sample 7.44, after the class declaration: 
+  endclass : Consumer
+
+  Producer p;
+  Consumer c;
+
+initial begin
+    mbx = new();
+Page 252, Sample 7.46, same as previous: 
+  endclass : Consumer
+
+  Producer p;
+  Consumer c;
+
+initial begin
+    mbx = new();
+    rtn = new();
+Page 255, Sample 7-49, second line, run_for_n_trans needs to be rand:
+  rand bit [31:0] run_for_n_trans;
+Chapter 8 Advanced Object Oriented Programming and Testbench Guidelines
+
+Page 264, Sample 8.4, the last assignment should be: 
+  ifc.cb.src <= tr.src;
+Page 282, Sample 8-25, first line should be:
+class BadTr extends Transaction;
+Page 282, second to last paragraph. The original wording is unclear, so try the following:
+OOP languages such as SystemVerilog have two constructs to allow you to build a shareable base class. The first is an abstract class, which is a class that can be extended, but not instantiated directly. It is defined with the virtual keyword. The second is a pure virtual method, which is a prototype without a body. A class extended from an abstract class can only be instantiated if all virtual methods have bodies. The pure keyword specifies that a method declaration is a prototype, and not just an empty virtual method. Lastly, pure virtual methods can only be declared in an abstract class. An abstract class can contain pure virtual methods, virtual methods with and without a body, and non-virtual methods. Note that if you define a virtual method without a body, you can call it, but it just immediately returns.
+Page 286, last line should be:
+This is because a typical callback uses only one of them. If a class has even one pure virtual method without an implementation, OOP rules won't allow you to instantiate it.
+Page 288, Sample 8.32, the correct scoreboard function should be save_expected: 
+  function void save_expected(input Transaction tr);
+Chapter 9 Functional Coverage
+
+Page 303, Sample 9-2, the transaction must be declared before the covergroup. 
+Transaction tr;
+
+covergroup CovPort;
+  coverpoint tr.port; // Measure coverage
+endgroup
+
+initial begin
+  CovPort ck;
+  ...
+Page 311, Sample 9-11, the third line should have "option", not "options". 
+  { option.auto_bin_max = 2; } // Divide into 2 bins
+Page 312, Sample 9-13, the second line should have "option", not "options". 
+  option.auto_bin_max = 2; // Affects port & data
+Page 312, Section 9.6.4, the last sentence of the first paragraph should be: 
+For example, sampling a 3-bit header length (0:7) plus a 4-bit payload length (0:15) creates only 24 or 16 bins, which may not be enough if your transactions can actually be from 0 to 22 bytes long.
+Page 318, Sample 9-27, the fourth line should have "option", not "options". 
+  option.auto_bin_max = 4; // 0:1, 2:3, 4:5, 6:7
+Page 318, Samples 9-26, -27, and -28, the third from last line should not have any square brackets: 
+  ignore_bins hi = {6,7}; // Ignore upper 2 values
+Page 321, Section 9.7.2, final line: 
+other values, 1 or 3, are not seen.
+Chapter 10 Advanced Interfaces
+
+Page 344, Sample 10.19, the foreach loop has two mistakes: 
+  foreach (driver[i]) begin
+    int j = i; // Missing semicolon
+    fork
+    begin
+      driver[j].reset();
+      driver[j].load_op();
+    end
+    join_none
+  end // Missing end
+Chapter 11 A Complete SystemVerilog Testbench
+
+Page 357, sample 11-6, the 14th line should be:
+cfg = new(numRx, numTx);
+Otherwise this is accessing program-level parameters instead of local variables.
+Page 363, sample 11-12, the 14th line should be:
+$write("%sConfig: numRx=%0d, numTx=%0d, nCells=%0d (", prefix, numRx, numRx, nCells);
+Chapter 12 Interfacing with C
+
+Page 383, Sample 12.4, the second line should be: 
+output int sum);
+Page 387, last paragraph, change the third sentance to:
+If you need more than one instance of a module that calls C code, the C code needs to store its variables somewhere other than in static variables.
+Page 390, Figure 12-1, the bit labels 39:31 should be 39:32.
+Page 391, Figure 12-1, the bit labels 39:31 should be 39:32.
+Page 402, section 12.5.3, remove the sentence:
+In Sample 12.24, the C code assumed that the array had five elements, numbered 0.4.
+References
+
+Page 421, the VMM was copyrighted 2006, even though it was published in 2005.
+
+
+SystemVerilog for Verification, Third Edition, Errata
+
+Thank you to everyone who has sent me the mistakes they found in my book, SystemVerilog for Verification, third edition. Like a hardware project, the book has "bugs". Both hardware and books should be verified by someone other than the person who created it. Now if I can only figure out how to perform constrained random testing of text...
+
+This page will show any functional mistakes in the THIRD EDITION of the book. Code that does not work, explanations that are incorrect, etc. Simple typos and bad English are not included.
+
+Remember - if you are the first to find a mistake in a chapter, you get a free, autographed copy. There are 12 chapters, so that is 12 copies. This offer is open only to residents of the USA, as overseas shipping is too high. You must have a legal copy of the book.
+
+Chapter 1 Verification Guidelines
+
+Page 9 section 1.7, second line
+These values are the easiest to create - just call $random().
+Chapter 2 Data Types
+
+Page 33
+These dimensions can be specified in the [msb:lsb] format, or [size].
+Page 37 (shortened last sentence)
+As a shortcut, a $, as in [1:$], stands for the maximum value, [1:2], in first line of the initial block of Sample 2.23.
+Page 54, Sample 2.49, 8th line
+$display("Timeout - %s", message);
+Chapter 3 Procedural Statements and Routines
+
+Page 74
+The ^= compound statement in Sample 3.11 ...
+Page 75, Sample 3.12, 9th line
+@(posedge bus_enable) data = bus_data;
+Chapter 4 Connecting the Testbench and Design
+
+Page 90, Sample 4.3, add a declaration for rst:
+logic rst;
+Page 92, Sample 4.6, change compare operator here and throughout the chapter:
+if (arbif.grant !== 2'b01)
+Page 116, Sample 4.37, change compare operator:
+if (arbif.cb.grant !== 2'b01)
+Chapter 5 Basic Object Oriented Programming
+
+Page 153, after Sample 5.25, all references to handle "t" should be "tr"
+However, if transmit tries to modify the handle, the result won't be seen in the initial block, as the tr argument was not declared as ref.
+As shown above, transmit can modify data[0] in the object without changing the value of tr.
+Chapter 6 Randomization
+
+Page 172, Section 6.2.6, last paragraph, remove extra "and hold"
+Your constrained random testbench should not purposefully setup and hold requirements.
+Page 184, Sample 6.22 is missing endclass
+Page 185, Sample 6.24 and 6.25 are missing endclass
+Page 186, Sample 6.26 is missing endclass
+Page 189, Sample 6.31 is easier to read with parentheses
+(x==0) -> (y==0) ;
+Page 194, last line.
+See Sample 6.65 for another example of post_randomize.
+Page 204, Sample 6.49, line 3.
+constraint c_set_four { strobe.sum() with (int'(item)) == 4; }
+Chapter 7 Threads and Interprocess Communication
+
+Page 243, Sample 7.19, add the following comment
+// Task must be in a class or an automatic program or module
+Chapter 8 Advanced Object Oriented Programming and Testbench Guidelines
+
+Page 276, Sample 8.2 is missing endclass.
+Page 304, Sample 8.34
+class Generator #(type T=BaseTr);
+mailbox #(T) gen2drv;
+T blueprint; // Blueprint object 
+
+function new(input mailbox #(T) gen2drv);
+Page 310, Sample 8.44, starting at line 17
+config_db#(Tiny)::set("Null", null); // Test null handles
+
+config_db#(int)::get("i", k); // Fetch an int
+$display("fetched value (%0d) of i (%0d) ", k, i);
+Page 315, Sample 8.51, remove the second line with m_children as it is not needed.
+Page 315, Sample 8.52, line 3, add default argument value
+pure virtual function svm_object create_object(string name="");
+Chapter 9 Functional Coverage
+
+Page 337, Sample 9.8, need to construct the coverage object.
+CovDst8 covdst;
+function new();
+  covdst = new();
+endfunction
+Page 339, Section 9.7.2
+You can also explicitly define bins as shown in Section 9.7.5.
+Page 339, Section 9.7.3, second paragraph
+... explicitly define bins as shown in Section 9.7.5.
+Page 346, Section 9.7.11, first paragraph
+... explicitly define bins that you want to cover as shown in Section 9.7.5.
+Page 346, Section 9.7.11, last line
+bins, which is 6 in this case.
+Chapter 10 Advanced Interfaces
+
+Page 368, Sample 10.7, first line
+typedef virtual Tx_if.TB vTx_t;
+Page 369, Sample 10.7, second line
+while (Tx.cb.en !== 0) // Wait for enable deassert
+Chapter 11 A Complete SystemVerilog Testbench
+
+Page 413, Sample 11.27, method pre_tx argument list is wrong
+virtual task pre_tx(input Driver drv, 
+        input UNI_cell cell, 
+        inout bit drop);
+Chapter 12 Interfacing with C
+
+Page 419, second paragraph
+The LRM limits imported functions results to "small values".
+Page 434, Sample 12.22, first line
+import "DPI-C" function void fib_oa(inout bit [31:0] data[]);
+Page 434, Sample 12.22, eighth line, remove the second argument
+  fib_oa(data);
+Page 434, Sample 12.23, first line
+void fib_oa(const svOpenArrayHandle data_oa, const int size) {
+Page 450
+Use the routine svGetScope to get a handle to the current scope, and then use that handle in a call to svSetScope to make the C code think it is inside another context.
+Page 451, Sample 12.50
+C: c_display called from scope top.b1
+C: calling top.b1.sv_display
+SV: In top.b1.sv_display
+
+C: c_display called from scope top
+C: calling top.b1.sv_display
+SV: In top.b1.sv_display
+Page 453:
+> simv +script="perl hello.pl"
+Index
+
+Page 460
+Find_index method, 43-45, 300
+

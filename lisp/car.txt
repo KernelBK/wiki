@@ -1,0 +1,4 @@
+[[cdr]]
+- car 返回list中的第一个元素， cdr返回最后一个元素
+
+the primitive car is defined only for non-empty lists.

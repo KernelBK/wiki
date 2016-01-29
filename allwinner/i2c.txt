@@ -1,0 +1,6 @@
+
+drivers/i2c/busses/i2c-sunxi.c 
+    i2c_sunxi_probe
+        request_irq
+        i2c_sunxi_hw_init
+            clk_enable   arch/arm/mach-sun4i/clock/clock.c

@@ -1,0 +1,7 @@
+deep.copy.shallow.copy 浅拷贝 深拷贝 
+
+python
+	切片操作 copied_list = original_list[:]
+	dict.copy() deepcopy()
+	利用工厂函数 list(),  dict()
+

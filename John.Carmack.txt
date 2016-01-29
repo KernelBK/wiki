@@ -1,0 +1,13 @@
+
+id
+id_software
+q3a
+fps
+
+
+开平方算法
+0x5f3759df
+	Chris.Lomont 证明了
+
+gamedev.net
+

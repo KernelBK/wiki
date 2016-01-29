@@ -1,0 +1,15 @@
+
+算法
+	根扫描清理 三色标记 移动内存
+
+
+	垃圾回收 
+
+gc
+	javascript, java, 
+
+缺点
+	不可预测  unpredicatability, completely unpredicatable
+
+
+C# Mono

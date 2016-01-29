@@ -1,0 +1,26 @@
+
+arch
+	基于库
+
+core topic
+	[[ast]]
+	libclang 
+		python
+	type system
+
+dirs	
+	docs
+	include
+	lib
+
+dyn_cast<>
+
+sema
+ast
+codegen
+lexer
+parser
+
+
+llvm 前端
+	怎么衔接

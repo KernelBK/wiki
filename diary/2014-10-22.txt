@@ -1,0 +1,11 @@
+
+输入电压测量
+
+reading
+sort notes
+
+浮点计算在特定数值出错
+使用了microblaze，再使用chipscope不是很方便。
+
+找到fpcs的时序约束
+

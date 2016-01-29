@@ -1,0 +1,11 @@
+
+coregen	
+	floating point
+		floating_point_v6_1_bitacc_cmodel_lin64
+			代码很别扭，如果能用dpi接口，这个用处应该不大。
+			用于早期仿真和C语言的误差
+
+uvm_ref_flow_2013.05
+	仿真没有时钟信号
+	调试方法学习
+

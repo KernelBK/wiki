@@ -1,0 +1,3 @@
+sdk/eclipse/plugins/com.android.ide.eclipse.ddms/src/com/android/ide/eclipse/ddms
+
+sdk/ddms

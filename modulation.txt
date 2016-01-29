@@ -1,0 +1,14 @@
+
+modulator demodulator detector demod
+modem, modulator - demodulator
+fdm, frequency division multiplexing
+qam, quadrature amplitude modulation
+fm, frequency modulation
+psk, phase-shift keying
+fsk, frequency-shift keying
+ask, amplitude-shift keying
+ook, on-off keying
+
+[[line_code]]
+
+

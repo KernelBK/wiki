@@ -1,0 +1,27 @@
+[[xilinx]]
+
+artix
+	XC7A35T
+kintex
+virtex
+virtex-7
+virtex-7xt
+virtex-7ht
+
+clb
+slice
+io
+clocking
+
+transceiver
+	gtp gtx gth
+	pcie ethernet
+	sonet/otu
+	interlaken
+	pon
+	rapidio
+	display_port
+	qpi
+	sata
+	aurora
+

@@ -1,0 +1,99 @@
+[[network.programming]]
+network
+	tcp udp ip
+[[socket]]
+长连接 
+rfc
+cs [[p2p]]
+[[router]]
+	packet.switching
+	分组
+	转发表
+	端口
+	分层
+	osi [[tcp.ip]]
+	application, transport, 
+		network, 
+		interface
+			[[csma.cd]]
+			mac llc
+			[[ppp]]
+		[[ethernet]]
+	网桥
+	面向连接
+
+	[[network.protocol]] 网络协议
+	entity 	实体 
+	协议是水平的，服务是垂直的
+	服务访问点 Service Access Point 
+	
+snmp
+
+	vpn
+	nat
+[[ssl]]
+securty
+[[firewall]]
+[[rtsp]]
+[[skype]]
+	[[rtp]]
+	[[rtcp]]
+p2p
+wireless
+[[ap]]
+
+
+clojure 
+Hadoop
+big-data MapReduce GFS TFS bigtable dynamo 
+network programming 
+	[[web]] : [[nginx]] apache tengine lighttpd
+	反向代理 [[reverse_proxy]]
+web, app
+	front-end
+		交互, 业务逻辑
+		jsp, java, js, css, html
+	back-end
+		业务逻辑
+		java, c++
+
+system, infrastructure
+	搜索引擎，数据访问
+	云计算， , java, python
+BaaS, Backend as a Service
+	[[avos_cloud]]
+IaaS
+Paas
+Saas
+[[物联网]]
+
+
+web framework
+	python flask
+
+网络爬虫
+网络安全 攻击
+验证码
+并发
+html
+会议
+
+
+http://en.wikipedia.org/wiki/Computer_network
+    http://en.wikipedia.org/wiki/Network_topology
+    http://en.wikipedia.org/wiki/List_of_important_publications_in_computer_science#Computer_networks
+    http://citeseerx.ist.psu.edu/stats/articles
+
+    http://en.wikipedia.org/wiki/Lists_of_important_publications_in_science
+
+[[陈硕]]
+奈奎斯特 
+香农
+码分多址CDMA (Code Division Multiple Access)
+同步光纤网SONET (Synchronous Optical Network
+
+book
+	Richard.Stevens 
+		[[tcp.ip.illustrated]]
+		[[unp]]
+	Jon.C.Snader Effective.tcp.ip.programming

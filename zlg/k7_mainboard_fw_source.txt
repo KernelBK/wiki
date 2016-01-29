@@ -1,0 +1,209 @@
+= src/main.c =
+mem2srio
+main
+	SysIntInit
+	SysInit
+	SrioInit
+	transfer_protocol_init
+    	ch = DataAcqQue.ucQueData[DataAcqQue.ucQueRdPtr++];
+	// 常规计算抽取
+	// 自动量程
+	// 波形数据抽取
+	// for debug
+	// 抽取数据到DSP
+	
+	
+= src/DataMgr.h =
+	DATA_QUEUE_TYPEDEF DataAcqQue;
+	DATA_MGR_TYPEDEF DataMgr;
+	AUTO_RNG_TYPEDEF AutoRngCfg;
+	RNG_SCAN_TYPEDEF RngScan;
+	INTEG_CTRL_TYPEDEF IntegCtrl;
+
+= src/DataMgr.c =
+    SysIntInit
+    SetupInterruptSystem
+    sgdmaHandler
+    sysIntHandler
+    spiRecHandler
+    DataHandler
+    RngCtrl
+    RngBoundaryScan
+    AutoRngSetting
+    RngChangeEvent
+    AutoRngSmpRestart
+    SysInit
+
+
+
+= src/comm/inc/PaMgr.h =
+	PA_CORE gCore;
+		PA_CFG_DATA_IN Cfg[7] // k7配置struct 
+			// 更新周期，采样点数，同步源，量程
+ 	PA_COMM gComm;
+    	PA_COMM_API Api;
+    	PA_COMM_OEM Oem;
+
+= src/comm/src/PaComm.c =
+	PcieIsr	
+		// 命令检查，数据校验
+		PA_CMD, *PPA_CMD;  // 5. 命令/应答协议
+    	fxn = gCommCtx.Oem.GetCmdFxn(cmd->CmdID);
+				PA_COMM_CTX gCommCtx
+    				PA_COMM_OEM Oem;
+    	fxn();
+	PaCommInit
+	_CmdBlkWrDev
+
+= src/comm/inc/PaCmd.h =
+	PA_CMD_ID
+	PA_EVN_ID
+= src/comm/src/PaCmd.c =
+	CmdBlkWrDone // 处理下载完成的数据块
+		_CmdDnLoadConfig
+			PaParseConfig
+	GetCmdFxn
+    	const CMD_FXN_R tbl[] = DEF_CMDS_R();
+			DEF_CMDS // 命令在这里定义
+        return r->Fxn;
+		// 同样的功能不能不用宏实现么
+    _CmdControl
+    CmdBlkWrInit
+    CmdBlkWrReset
+    CmdBlkRdInit
+    CmdBlkRdReset
+    CmdBlkRdDone
+    _CmdDnLoadConfig
+    _CmdUpLoadConfig
+    PaMemCpy
+    PaMemCpyS
+    _CmdWrDev
+    _CmdRdDev
+    _CmdWrDevS
+    _CmdRdDevS
+    _CmdAdcCtrl
+    _CmdWaveExtract
+    _CmdSrioCtrl
+    _CmdIntegCtrl
+    _CmdAdcStat
+    _CmdGetCardRegBase
+
+= src/comm/src/PaMgr.c =
+	IntrToPcie
+	PaCoreInit
+		PaCommInit
+	PaHeartbeat
+= src/comm/src/PaCfg.c =
+	PaParseConfig
+		PA_CFG_DATA
+= src/comm/src/PaDebug.c =
+
+= src/comm/inc/PaCfg.h =
+	PA_CFG_DATA
+		PA_CFG_ITEM Items[1];
+			Id
+			Size
+			Data
+    PaBrdType 
+    PaHwMode
+    PaSwMode
+    Pa1kVRange
+    Pa5ARange
+    Pa50ARange
+    PaVchFilterN
+    PaVchFilterC
+    PaAchFilterN
+    PaAchFilterC
+    PaVchFreqFilter
+    PaAchFreqFilter
+    PA_BOARD_REG		// PA功率卡前端配置寄存器
+    PA_CFG_ID 			// 运行有关的配置都在这里了。
+    PA_CFG_DT
+    PA_CFG_ITEM
+
+
+src/comm/inc/PaDatEx.h
+src/comm/inc/PaCfgEx.h
+src/comm/inc/PaDebug.h
+src/comm/inc/PaPublic.h
+src/comm/inc/PaCmdEx.h
+src/comm/inc/PaTypes.h
+src/comm/inc/PaComm.h
+
+= src/pa5000.h =
+	// edk中的寄存器地址都在这里定义
+	// 没有像通常情况一样在寄存器的宏定义加上前缀REG_
+= src/platform.c =
+    enable_caches
+    disable_caches
+    init_uart
+    init_platform
+    cleanup_platform
+
+src/platform_config.h
+src/platform.h
+
+= src/srio/srio_basic.c =
+	srio_free
+    srio_function_list
+    SrioEmptyHandler
+    SrioISRCommon
+    SrioInit
+    SrioNWrite
+    SrioSWrite
+    SrioNRead
+    SrioDoorbell
+    SrioISR
+
+= src/srio/srio_transfers.c =
+    SrioBlockWrite
+    SrioBlockRead
+
+src/srio/srio_hw.h
+src/srio/srio.h
+
+src/transfer_protocol/transfer_protocol.h
+= src/transfer_protocol/transfer_protocol.c =
+    fifo_clear
+    dsp_addr_push
+    dsp_addr_pop
+    blockTransfer
+    dsp_nwriter_hdlr
+    transfer_protocol_init
+
+
+= files =
+src/comm/src/PaComm.c
+src/comm/src/PaCmd.c
+src/comm/src/PaMgr.c
+src/comm/src/PaCfg.c
+src/comm/src/PaDebug.c
+
+src/comm/inc/PaCfg.h
+src/comm/inc/PaCmd.h
+src/comm/inc/PaDatEx.h
+src/comm/inc/PaCfgEx.h
+src/comm/inc/PaDebug.h
+src/comm/inc/PaPublic.h
+src/comm/inc/PaCmdEx.h
+src/comm/inc/PaTypes.h
+src/comm/inc/PaMgr.h
+src/comm/inc/PaComm.h
+
+src/DataMgr.c
+src/DataMgr.h
+src/lscript.ld
+src/main.c
+
+src/pa5000.h
+src/platform.c
+src/platform_config.h
+src/platform.h
+
+src/srio/srio_basic.c
+src/srio/srio_transfers.c
+src/srio/srio_hw.h
+src/srio/srio.h
+
+src/transfer_protocol/transfer_protocol.h
+src/transfer_protocol/transfer_protocol.c

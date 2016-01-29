@@ -1,0 +1,11 @@
+
+[[William.Strunk]]
+
+Edward A. Tenney, The Elements and Practice of Composition
+
+241 9 And so long as a man is reasoning he cannot surrender himself to that fine intoxication that comes of much motion in the open air, that begins in a sort of dazzle and sluggishness of the brain, and ends in a peace that passes comprehension.
+223 Many a tame sentence of description or exposition can be made lively and emphatic by substituting a transitive verb, whenever possible in the active voice, for some such perfunctory expression as there is, or could be heard.
+222 Similarly, if the scope of the discussion includes a number of works, the writer will as a rule do better not to take them up singly in chronological order, but to aim from the beginning at establishing general conclusions.
+219 If there is room at the end of a line for one or more syllables of a word, but not for the whole word, divide the word unless this involves cutting off only a single letter or cutting off only two letters of a long word.
+178 A common fault is to use as the subject of a passive construction a noun which expresses the entire action, leaving to the verb no function beyond that of completing the sentence.
+

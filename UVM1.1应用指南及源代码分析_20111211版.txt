@@ -1,0 +1,91 @@
+
+
+一个analysis port可以和多个IMP相连接进行通信
+
+sequence
+	sequence负责transaction的产生，并通过sequencer发送给driver
+
+	在不同的case中，把不同的sequence设置成sequencer的main_phase的default_sequence。
+		当sequencer执行到main_phase时，发现有default_sequence，那么它就会把这个sequence启动起来。
+	uvm_sequence_item
+	uvm_sequence
+	uvm_sequencer
+	body
+		uvm_do
+
+tlm
+	port, export, imp
+		UVM天生的把一个port定为了只能执行某种操作
+		PORT是可以发起put，get，transport等操作，其目标对象都是export
+		控制流 高优先级->低优先级
+		只有发起者才能调用connect函数
+		一定要使用IMP 来终结连接关系。PORT 和EXPORT 都不能做为连接关系的终点。
+		操作也分成了阻塞和非阻塞
+	analysis port, analysis export
+		可以连接多个IMP
+		像是一个广播
+		只有一种操作write
+		没有阻塞和非阻塞的概念
+		用的最多
+
+field_automation
+	uvm_object_utils_begin
+		factory机制
+	帮助完成了：print compire, pack, unpack, 标志位
+
+
+vum
+	uvm_object
+		uvm_object_utils
+	uvm_component
+		uvm_component_utils
+uvm_frontdoor
+uvm_backdoor
+
+uvm_test。在test里面实例化env，在env里面实例化scoreboard，reference model，agent，在agent里面实例化driver和monitor
+
+uvm_top 根
+
+phase自动执行
+build_phase
+connect_phase
+
+在定义一个类的时候，UVM强烈推荐使用uvm_component_utils或uvm_object_ utils宏来把它们注册。
+factory的本质：重写了new函数
+	很多人把factory的本质理解成是一张表
+uvm_info 
+	+UVM_VERBOSITY=UVM_HIGH
+::type_id::create
+	使用factory的方式实例化
+uvm_component_utils
+	在定义一个类的时候，UVM强烈推荐使用uvm_component_utils或uvm_object_ utils宏来把它们注册。
+
+starting_phase.raise_objection(this);
+starting_phase.drop_objection(this);
+在sequence中，这个指向phase的指针的名字是starting_phase。
+
+很多人把factory的本质理解成是一张表
+uvm_config_db
+
+env
+	agent
+		sequencer
+			实现sequence之间同步的最好的方式就是使用virtual sequence
+				virtual sequencer	
+		driver
+		monitor
+	scoreboard
+	reference model
+
+	port
+		port, exort, imp
+
+phase
+	function, 不耗cpu时间
+	run	
+		reset，configure，main，shutdown
+
+search key word
+	解决
+	问题
+	小心

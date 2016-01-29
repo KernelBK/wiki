@@ -1,0 +1,8 @@
+
+aurora
+
+pcard板上也使用了demo
+
+k7 
+	pll not locked
+

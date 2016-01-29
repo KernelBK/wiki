@@ -1,0 +1,6 @@
+
+blvds通了。
+解决state_sm_data阶段不停发送数据的问题，加入限制条件。
+
+blvds pcard 3 接收
+

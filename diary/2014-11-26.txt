@@ -1,0 +1,18 @@
+
+todo 
+	install vivado 14.2 in ubuntu
+
+XC7K325T-2FFG900C,FFG-900,Xilinx,RoHS
+1.05.04.0110   20PCS  此物料交期已确认，厂商下周三安排快递，11-27可到仓
+
+定义电机卡控制寄存器。
+提供华丕祥调试功能的功率卡固件，加入两路adc的控制和数据信号。
+
+
+get
+
+看vivado的文档
+
+要求修改发送数据的过程，adc_start=0, adc停止采集，aurora停止发送数据，中间的计算结果清空。下次adc_start=1，adc开始采集，第一包数据加上包头。
+
+

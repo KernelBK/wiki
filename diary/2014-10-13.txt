@@ -1,0 +1,10 @@
+
+net use x:/delete
+subst x: 
+
+调试子卡
+	adc_start, cnvst, 
+	aurora tready.
+
+准备一台整机
+

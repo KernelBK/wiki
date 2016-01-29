@@ -1,0 +1,4 @@
+
+[[../email]]
+
+--with-apr=/usr/local/apr --with-apr-util=/usr/local/apr-util

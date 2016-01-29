@@ -1,0 +1,6 @@
+
+- service apache2 stop 
+- service apache2 start
+
+开机不启动
+- mv /etc/rc2.d/S91apache2 /etc/rc2.d/.S91apache2

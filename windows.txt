@@ -1,0 +1,27 @@
+
+[[windows.internals]]
+
+mfc
+wtl
+SilverLight 
+asp.net
+c#
+owl
+vcl
+atl
+
+
+[[apps]]
+
+shutdown -s -t 3000
+
+驱动精灵
+万能驱动
+
+[[rar]]
+[[cmd]]
+[[mkv]]
+[[win7]]
+
+[[MinGW]]
+

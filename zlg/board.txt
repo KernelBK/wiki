@@ -1,0 +1,3 @@
+
+stratixIII_3sl150_dev
+SmartSOPC_3C25

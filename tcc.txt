@@ -1,0 +1,39 @@
+
+编译原理及实践 Compiler.Construction-Principles.and.Practice
+    http://www.cs.sjsu.edu/~louden/cmptext/ 
+
+https://github.com/TinyCC/TinyCC
+http://repo.or.cz/w/tinycc.git
+https://en.wikipedia.org/wiki/Tiny_C_Compiler
+
+treeNode 
+
+ST_FUNC int tcc_preprocess(TCCState *s1)
+
+tcc.c
+    main
+        tcc_default_target
+        tcc_output_file
+        tcc_add_file
+            tcc_add_file_internal
+                tcc_compile
+                    next
+                        next_nomacro
+                    decl
+                        decl0
+                tcc_preprocess
+                    next
+                        next_nomacro_spc
+                            next_nomacro1
+                                preprocess
+        tcc_new
+            tcc_define_symbol
+                parse_define   parse after #define 
+
+code
+./configure --extra-cflags=" -g -O0"
+
+gdb --args ./tcc -E  examples/ex3.c
+
+gdb:
+p file->buf_ptr 

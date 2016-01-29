@@ -1,0 +1,6 @@
+
+1. 原来安装的ise和matlab在一起太大，现在放到d盘，重装ise, 重新编译modelsim的仿真库。
+1. vbox装deepin-xp-sp3
+1. xilinx axi bfm 没有license
+
+看安华高历史

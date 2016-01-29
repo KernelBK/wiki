@@ -1,0 +1,8 @@
+envsetup.sh Ìá¹©µÄÃüÁî
+	findmakefile
+	cgrep resgrep
+	godir
+	m mm mmm
+
+http://blog.csdn.net/wait2kyears/article/details/6226867
+

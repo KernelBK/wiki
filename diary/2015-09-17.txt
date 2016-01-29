@@ -1,0 +1,12 @@
+
+5730 也加入spi lock
+5720 加入spi lock的方式以后，测试了一晚上，没有问题。
+
+
+data2mem -bm "implementation/pa5000_bd" -p xc7k325tffg900-2 -bt
+"implementation/pa5000.bit"  -bd "../sdk/pa5000_mb/Debug/pa5000_mb.elf" tag
+microblaze_0  -o b implementation/download.bit
+
+
+
+

@@ -1,0 +1,138 @@
+/home/jinglun/h1/trident/sdk/target/src/sd/bootldr/comps/uLoader
+
+/home/jinglun/h1/trident/sdk/target/build/linux/sub-systems/bootldr dualhd.ini
+包含*.ini文件。
+
+#config
+/home/jinglun/h1/trident/sdk/target/src/configs/hwconfig/summit.cfg
+
+#pin mux config
+/home/jinglun/h1/trident/sdk/host/pin_local_calc
+
+##uLoader
+/home/jinglun/h1/trident/sdk/target/src/sd/bootldr/comps/uLoader
+/home/jinglun/h1/trident/sdk
+source trident_sdk_env
+make uldr
+mv /home/jinglun/h1/trident/sdk/target/output/routon_h1/uldr.bin.uartboot_img /workspace/tftpboot/
+
+#u-boot
+/home/jinglun/h1/trident/sdk/target/src/sd/bootldr/comps/tmbssuboot/u-boot-2009.08
+touch ../makefile
+
+
+#source code analysis
+start_armboot
+	
+
+c_main
+	download_boot_image_do
+		download_from_flash
+			nx_download_data_from_nand_flash
+
+地址的配置
+target/src/configs/swconfig/bare.cfg
+SSBOOT_IMAGE_FLASH_OFFSET = 0x100000
+SSBOOT_MAX_IMAGE_LENGTH = 0x80000
+SSBOOT_IMAGE_HDR_LENGTH = 0x1000
+SSBOOT_IMAGE_SCAN_LENGTH = 0x80000
+SSBOOT_IMAGE_DDR_ADDR = 0x4000000
+SSBOOT_ENV_FLASH_OFFSET = 0x160000
+SSBOOT_ENV_FLASH_LENGTH = 0x20000
+
+
+开机画面
+get_mem_map_ataglist
+
+Attached is a example of put spash logo to uboot.   
+ Please try with following steps to convert a img to the header file:   
+ 1. Go to website http://www.gimp.org/ to download image tool gimp.exe.   2. Install the tool into your pc. 
+ 3. Run the tool and open your logo file(bmp, jpg, etc.) in the tool  
+ 4. Select menu File-
+Save as.... to save your image file to .h. For
+ example, if your image file name is logo.bmp, please save it as   
+ logo.h. 
+ 5. Open file logo.h, you can see the image has been converted to RGB   
+ format image array as " static char *header_data = ..." 
+ 6. Open Apollo_logo.h in Shiner SDK uboot. 
+ 7. Copy the converted imge data from logo.h to Apollo_logo.h 
+ 8. Change the logo width and height parameters in Apollo_logo.h as   
+ following: 
+       static unsigned int width = 720; 
+       static unsigned int height = 450; 
+
+ 9. Clean and rebuild uboot and burn it into flash. 
+ 10. Reset your board. 
+
+ Then you can see the boot logo is changed to your image. 
+ Current logo's max size must be less than SD resolution (720x576), otherwise the logo would be abnormal. 
+
+
+
+ --
+ 开机的时候，除了向内核传递bootargs外，同时传递ethaddr，btaddr，uuid三个变量。 
+ printenv 
+ bootargs=bootargs=root=/dev/nfs rw nfsroot=172.16.55.91:/home/nfs_h1 ip=172.16.55.140:172.16.55.91:172.16.55.254:255.255.255.0:stb_006037031510:eth0:off mtdparts=nx_2017:1024k@0k(uldr),1024k@1024k(u-boot),8m@2048k(kernel),1014m@10m(rootfs),-(extra) console=ttyS1,115200n8 
+ ethaddr=00:63:37:62:83:12 
+ btaddr=00:63:37:62:83:12:23 
+ uuid=routon_h1_id0001 
+
+ 实际向内核传递的参数为 
+ bootargs=bootargs=root=/dev/nfs rw nfsroot=172.16.55.91:/home/nfs_h1 ip=172.16.55.140:172.16.55.91:172.16.55.254:255.255.255.0:stb_006037031510:eth0:off mtdparts=nx_2017:1024k@0k(uldr),1024k@1024k(u-boot),8m@2048k(kernel),1014m@10m(rootfs),-(extra) console=ttyS1,115200n8 ETHADDR=00:63:37:62:83:12 BTADDR=00:63:37:62:83:12:23 UUID=routon_h1_id0001 
+
+ 由于这些参数最终会传向linux的env，而env惯例都是大写的，所以我们暂时也用大写传递给内核。
+
+--
+uldr
+internal_scf_enter_active_standby
+	scf_clockpll_set_powerstate
+
+--
+i2c
+i2c-1 E06C6000
+
+--
+<pre> <code class="">
+__nxp_setup_ddr_controller
+	__nxp_get_config_ddr_size
+	__nxp_load_ddr_size_tbl
+	__nxp_get_config_ddr_freq
+	__nxp_load_ddr_freq_tbl
+		__nxp_get_config_ddr_size
+			_IP_2036_UNIT_0_SIZE
+	__nxp_load_ddr_budget_array
+	__nxp_fine_tune_ddr
+
+</code> </pre>
+
+--
+memory allocation
+BankOffset=0x00D00000 PoolSize=0x00800000
+BankOffset=0x01500000 PoolSize=0x00040000
+BankOffset=0x02A00000 PoolSize=0x00848000
+BankOffset=0x03400000 PoolSize=0x00180000
+BankOffset=0x03600000 PoolSize=0x042f0000
+BankOffset=0x01000000 PoolSize=0x00788000
+BankOffset=0x01788000 PoolSize=0x003b8100
+BankOffset=0x01b40100 PoolSize=0x017CE000
+BankOffset=0x0330E100 PoolSize=0x00523000
+BankOffset=0x03832000 PoolSize=0x012A8000
+BankOffset=0x01540000 PoolSize=0x01490000
+BankOffset=0x03300000 PoolSize=0x00100000
+BankOffset=0x03580000 PoolSize=0x00080000
+BankOffset=0x03248000 PoolSize=0x00090000
+
+ifconfig eth0 172.16.55.134 netmask 255.255.255.0 
+wget ftp://172.16.55.90/nfs_h2_dvb_td_b_hs5.tar.gz 
+wget ftp://172.16.55.90/nfs_h2_sdk3_org_dvb_td_b_hs5.tar.gz
+
+
+--
+ssboot_exec_addr  configs/swconfig/bare.cfg:SSBOOT_IMAGE_DDR_ADDR = 0x4000000
+
+----
+
+src/boot.S
+	/* Copy load view to execution view of initialized RW data. */
+	__nxp_initialize_data_areas:
+	/* Stack Base Addresses */

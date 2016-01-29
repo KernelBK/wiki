@@ -1,0 +1,16 @@
+
+烧写
+	SST25VF016B-75-4I-S2AF
+	M25P64VMF6P
+
+单个mcs可以成功
+
+xsdk failed open jtag uart/ cable
+	恶心问题，通过在linux环境下，又到win下，解决，可能是虚拟机的问题。
+
+xsdk 编码在windows下为GBK, linux下为utf-8
+修改了xps的硬件，如何更新。
+
+
+jtag下载线也可能有问题。
+

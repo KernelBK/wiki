@@ -1,0 +1,4 @@
+
+和widnows共享文件
+mount -t vboxsf name_in_share mount_point
+

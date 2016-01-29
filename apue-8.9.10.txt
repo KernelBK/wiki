@@ -1,0 +1,471 @@
+Author: Joseph Lee
+E-Mail: fdlixiaojun@gmail.com
+
+进程控制
+
+创建新进程
+程序执行
+程序终止
+进程属性
+
+进程标识符
+每个进程有一个非负的唯一的整数标识符，但是进程号是可以重用的，进程终止以后，它
+的ID就可以被重用了。大多数实现了延迟重用的算法。
+
+两个特殊进程（依实现不同）：
+0号进程：调度器，一般叫做交换程序，是内核的一部分，是一个系统进程。
+1号进程：init进程，由内核在bootstrap处理之后调用
+         程序文件/sbin/init，负责启动系统到一个特定状态
+	 读取的文件和启动的程序，/etc/rc*文件，/etc/inittab以及/etc/init.d目录
+	 特点：以超级用户运行的用户进程，永远不会退出，是所有孤儿进程的父进程
+
+#include <unistd.h>
+pid_t getpid(void);
+返回调用进程的进程号
+pid_t getppid(void)
+返回调用进程父进程的进程号
+uid_t getuid(void);
+返回调用进程的实际用户ID
+uid_t geteuid(void);
+返回调用进程的有效用户ID
+gid_t getgid(void);
+返回调用进程的实际组ID
+gid_t getegid(void);
+返回调用进程的有效组ID
+这几个函数没有错误返回。
+
+fork函数
+#include <unistd.h>
+pid_t fork(void);
+在子进程中返回0，父进程中返回子进程的进程ID，出错返回-1。
+这个函数调用一次返回两次，向父进程返回子进程ID是因为一个父进程可以拥有多个子进
+程，没有一个能够获取子进程ID的函数。在子进程中返回0也是这个道理，因为子进程只能
+有一个父进程，并且可以通过getppid获知父进程的id，并且0号进程是内核，返回的0不可
+能是进程ID。
+子进程是父进程的拷贝，比如父进程的数据空间，堆，栈，注意是拷贝而不是共享，父子
+进程共享代码段。现代实现大都不在fork之后实际执行拷贝，因为一般fork之后会执行
+exec，而是采用了写时拷贝的技术，那些本要复制的区域由父子进程共享，并且由内核设
+置为只读，当其中一个进程要写这些区域的时候，内核才会对那一块内存进行拷贝，通常
+是一个虚拟页。
+通常我们无法获知子进程是在父进程之前还是之后被执行，这个依赖于调度算法。
+
+文件共享
+fork的一个特性就是父进程中所有打开的文件描述符都会被复制一份到子进程，这里复制
+就类似于调用dup函数。父子进程共享每个打开描述符的文件表项，所以父子进程有相同
+的文件偏移。当父子进程对文件偏移进行操作的时候，需要进行同步。
+通常有两种方法来处理fork滞后的文件描述符：一种是父进程等待子进程完成，父进程不
+去操作文件描述符，子进程退出后文件描述符是一个确定状态；另一种是父子进程各管自
+己，fork之后，父子进程关闭各自不需要的文件描述符，保证二者没有共享的打开的文件
+描述符，这种情况常用在网络服务器中。
+
+出了打开的文件，子进程继承了父进程巨量的信属性，也有一些属性不同。这些不同包括
+fork返回值，pid，ppid，子进程的tms_utime，tms_stime，tms_cutime和tms_cstime值都
+被设为0，子进程中挂起的信号被清除，子进程的挂起信号集被设置为空。
+fork出错通常有两种可能：一是系统内的进程太多了；二是该用户进程数量达到了限制。
+fork的两种用法：一中是进程想要复制自身，从而让父进程和子进程同时执行不同的代码
+片段。这在网络服务器中很常见，父进程等待服务请求，当请求到来时，fork一个子进程
+处理请求，自己继续等待请求。二是进程希望执行不同的程序，这在shell中很常见。这种
+情况下，子进程会在fork返回之后马上执行一个exec。
+
+vfork函数
+类似fork，但使用的语境不同。有争议的函数。
+该函数用在新进程要执行一个新程序的情况下，vfork创建了一个新进程，但是不拷贝父
+进程的地址空间到子进程，子进程在vfork之后简单的调用exec或者退出。当子进程在调
+用exec和exit之前，运行在父进程的地址空间，这是个优化。除了不拷贝意外，vfork可
+以保证子进程首先运行知道子进程调用exec或者exit。
+
+exit函数
+进程可以有五种正常退出方式
+1. 在main中return，等价于调用exit
+2. 调用exit函数，此函数有ISO C定义。调用时会回调由atexit注册的退出处理函数。并
+   关闭所有的标准IO流。
+3. 调用_exit或者_Exit函数，ISO C定义了_Exit来不经回调退出处理函数就直接退出。在
+   Unix系统中这两个函数不会冲洗标准IO。_exit由exit调用，处理UNIX系统特定的细节。
+4. 从进程的最后一个线程的启动例程中执行return，线程的返回值不作为进程的返回值。
+   而是进程以0状态退出。
+5. 在进程的最后一个线程中调用pthread_exit函数。不管传递给pthread_exit的参数是多
+   少，进程始终以0状态退出。
+进程还有五种异常退出方式：
+1. 调用abort，这是下一种方式的特例，它产生一个SIGABRT信号。
+2. 进程接收到了特定信号。进程自身就可以产生信号。
+3. 最后一个线程响应一个取消请求。
+不管进程如何终止，内核都执行一样的代码。内核关闭进程所有打开的文件描述符，释放
+它正在使用的内存空间等。
+内核会为不正常退出的进程产生一个终止状态，指出不正常终止的原因。通常进程的父进
+程可以通过调用wait或者waitpid函数获得终止状态。
+判断退出状态的宏（略）
+WIFEXITED(status); WIFSIGNALED(status); WIFSTOPPED(status); WIFCONTINUED(status)
+如果父进程在子进程之前终止，init就会变为孤儿进程的父进程，当一个进程终止的时候，
+内核会检查所有的活动进程，查看终止的进程是否是某个仍存在的进程的父进程，如果是
+该进程的父进程ID会被切换为1，这样可以保证每个进程都有一个父进程。
+如果子进程在父进程之前终止，内核会保存每个终止进程的少量信息，直到它的父进程调
+用wait或者waitpid。这些信息包括pid，终止状态，花费的CPU时间。内核会回收所有占用
+的内存空间和关闭所有打开的文件。这类进程叫做僵死进程。
+被init收养的进程终止时会怎么样？
+init会调用一个wait族的函数获取终止信息，从而防止僵死进程产生。
+
+wait和waitpid函数
+当一个进程终止（正常或者不正常）时，内核会向它的父进程发送一个SIGCHLD信号。父
+进程可以选择忽略这个信号或者是提供一些处理。缺省是忽略。这里我们应该主要到调用
+wait或者waitpid会：
+  如果所有的子进程都仍在运行，则阻塞父进程
+  如果其中一个子进程退出，立即返回它的终止状态
+  如果没有子进程，立即返回错误。
+当收到SIGCHLD信号时，我们期待wait会立即返回，但如果我们任意调用它，则会阻塞。
+#include <sys/wait.h>
+pid_t wait(int *statloc);
+pid_t waitpid(pid_t pid, int *statloc, int options);
+成功返回进程ID，出错返回-1或0
+两个函数的区别：wait会阻塞调用者知道有一个子进程终止，而waitpid有一个选项可以
+防止阻塞；waitpid可以指定等待哪个进程。
+参数statloc是一个指向integer的指针，返回的终止状态保存在这个位置，可以是NULL
+确定返回状态的宏定义在<sys/wait.h>中，它们都以WIF开头。
+waitpid的参数pid用来控制怎么解析等待的pid（大于、小于还是等于），当pid参数：
+    等于1，等待任意子进程终止，等同于wait
+    大于0，等待特定的pid
+    等于0，等待进程组ID等于调用进程的子进程终止
+    小于-1 等待进程组ID等于pid参数绝对值的子进程。
+waitpid的参数option用于控制waitpid，它等于0或者如下常数的或运算值
+  WCONTINUED, WNOHANG, WUNTRACED
+waitpid提供了wait所不具备的三种特性
+
+waitid函数（略）
+#include <sys/wait.h>
+int waitid(idtype_t idtype, id_t id, siginfo_t *infop, int options);
+成功返回0，出错返回-1。
+
+wait3和wait4函数
+这两个函数比wait，waitpid和waitid多实现的功能就是可以传递一个参数进去，由内核
+返回一个已终止进程和它的子进程使用的资源的总结。
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+pid_t wait3(int *statloc, int options, struct rusage *rusage);
+pid_t wait4(pid_t pid, int *statloc, int options, struct rusage *rusage);
+成功返回进程号，出错返回-1。
+返回的资源信息是，使用的用户CPU时间，系统CPU时间，缺页数，收到的信号数量等。
+
+竞争条件
+当多个进程试图对共享数据进行操作，但是最后的结果又依赖于进程执行的顺序，这时就
+会产生竞争。
+如果父进程要等待子进程终止，那么调用wait是一种方法，如果子进程要等待父进程终止
+那么轮询是一种方法。但这都将耗费CPU时间。
+为了避免竞争条件和轮询，进程间需要进行通行。UNIX中可以使用信号机制，也可以使用
+各种形式的进程间通信（IPC）。
+
+exec函数
+#include <unistd.h>
+int execl(const char *pathname, const char *arg0, ... /* (char *)0 */);
+int execv(const char *pathname, char *const argv[]);
+int execle(const char *pathname, const char *arg0, ...
+	   /* (char *)0 */, char *const envp[]);
+int execve(const char *pathname, char *const argv[], char *const envp[]);
+int execlp(const char *filename, const char *arg0, ... /* (char *)0 */);
+int execvp(const char *filename, char *const argv[]);
+出错返回-1，成功不返回值
+这里l表示list，v表示vector，说明的是参数表传递方式的区别。l把新程序的每个命令行
+参数都说明为一个单独的参数，这种参数表以空指针结尾（即最后一个参数是NULL）。而
+v则应该先构造一个指向各参数的指针数组，然后传递该指针数组。
+以e结尾的函数可以传递一个指向环境字符串指针数组的指针。其它四个则使用调用进程的
+environ变量为新程序复制现有环境变量。
+参数filename如果包含'/'，则认为是路径名，否则按PATH目录搜索可执行文件，注意不会
+搜索当前目录。如果搜索到的不是编译的机器可执行文件，则当作shell脚本执行。
+基本的进程控制原语：创建进程fork，执行新程序exec，处理终止exit和等待终止wait。
+每个系统对参数表和环境表的长度都会有限制，限制由ARG_MAX给出。为了摆脱对参数表长
+度的限制，可以适用xargs命令，将长参数表分解成几部分。
+在大多数系统实现中，只有execve是系统调用，其余五个是库函数，最终要调用execve。
+
+更改用户ID和组ID
+在UNIX系统中，特权是基于用户ID和组ID的。当程序需要获得或者收回权限，需要更换自
+己的用户ID或组ID，使得新ID具有合适的权限。
+#include <unistd.h>
+int setuid(uid_t uid);
+int setgid(gid_t gid);
+成功返回0，出错返回-1。
+setuid和setgid可以用来设置实际用户ID和有效用户ID以及实际组ID和有效组ID。
+#incldue <unistd.h>
+int setreuid(uid_t ruid, uid_t euid);
+int setregid(gid_t rgid, gid_t egid);
+成功返回0，出错返回-1
+设置实际用户/组ID和有效用户/组ID的值
+#include <unistd.h>
+int seteuid(uid_t uid);
+int setegid(gid_t gid);
+成功返回0，出错返回-1。
+这两个函数类似于setuid和setgid但只更改有效用户ID和有效组ID。
+这一族函数不会影响附加组ID。
+
+解释器文件
+许多系统对解释器文件第一行长度有限制，形如#!的行
+脚本可以指定解释器，而exec只能使用/bin/sh
+
+system函数
+#include <stdlib.h>
+int system(const char *cmdstring);
+当cmdstring为NULL时，可以用来确定一个操作系统是否支持system函数。sytem在其实现
+中调用了fork，exec和waitpid，因此有三种返回值：
+ -1：fork调用失败或者waitpid返回除EINTR之外的错误。同时设置errno
+ exit(127)：exec执行失败
+ waitpid的返回值：三个函数都执行成功。
+如果一个进程以特殊权限运行，它又想生成另一个进程执行另一个程序，则它应当直接调
+用fork和exec，而且fork之后，exec之前要改成普通权限。设置用户ID和设置组ID的程序
+决不应当调用system函数。
+
+进程记账
+如果系统支持，每当进程结束时，内核就会一条记账记录。
+函数acct用于启用和禁止进程记录。唯一使用这一函数的是accton命令。
+记账记录对应于进程而不是程序。
+
+用户标识
+任意进程都可以得到其实际用户/组ID和有效用户/组ID。
+一个用户可以有多个登录名，即一个用户ID可以对应多个登录名字。
+可以使用getuid()获得用户ID，可以使用getlogin获得用户登录名
+#include <unistd.h>
+char *getlogin(void);
+成功返回字符串指针，出错返回NULL。
+如果调用此函数的进程没有连接到用户登录时所用的终端，则本函数会失败，通常这些进
+程称为守护进程（daemon）。
+
+进程时间
+可测量的三种时间：墙上时钟，用户CPU时间和系统CPU时间
+进程通过times函数获得它自己以及已终止子进程的上述值。
+#include <sys/times.h>
+clock_t times(struct tms *buf);
+成功返回已流逝的墙上时钟时间（单位是时钟滴答数），若出错则返回-1。
+	struct tms {
+		clock_t tms_utime;	/* 用户CPU时间 */
+		clock_t tms_stime;	/* 系统CPU时间 */
+		clock_t tms_cutime;	/* 已终止子进程的用户CPU时间 */
+		clock_t tms_cstime;	/* 已终止子进程的系统CPU时间 */
+	};
+所有此函数返回的clock_t都用_SC_CLK_TCK（由sysconf函数返回的每秒时钟滴答数）变
+换成秒数
+getrusage函数返回CPU时间以及其他资源的使用情况。
+
+=====第九章======
+终端登录
+init进程读取/etc/inittab，为每个终端调用一次fork，生成的子进程执行exec(getty)
+各个进程的实际用户ID和有效用户ID都是0。init以空环境（变量）执行getty程序。
+getty为终端设备调用open函数，以读写方式把终端打开，一旦设备被打开，则文件描述
+符0、1、2被设置到该设备。然后getty输出"login"之类的信息。等待用户键入用户名，
+当用户键入用户名之后，getty的工作完成，然后它exec(login)程序，login能执行多项
+工作，因为它得到了用户名，所以可以调用getpwname取得用户的口令文件登录项，然后
+调用getepass提示Password，接着读用户的口令，调用crypt将键入口令加密，并与
+shadow文件中储存的密文比对。如果比对失败，login调用exit退出，父进程init得到子
+进程的情况后，再次fork，getty，login，如此重复。如果登录成功，login将会初始化
+起始工作目录，调用chown改变终端的所有权，改变终端的访问权限，调用setgid和
+initgroups设置进程的组ID。用login得到的信息初始化环境变量。login进程改变为登录
+用户的用户ID，并调用用户的登录shell。
+
+网络登录
+通过串行终端登录和网络登录的主要（物理上的）区别是通过网络登录时，终端和计算机
+之间的连接不是点对点的。终端登录时，init知道有那些终端设备可以用来登录，并为每
+个设备生成一个getty进程但是在网络登录情况下，所有的登录都经由内核的网络设备驱
+动程序，事先并不清楚有多少这样的登录。我们不是使一个进程等待每个可能的登录，而
+是等到一个网络连接请求的到达。为了使同一个软件既能处理终端登录又能处理网络登
+录，系统使用了一种叫做伪终端（pseudo terminal）的软件驱动程序，它可以仿真串行
+终端的运行行为，并将终端操作映射为网络操作。
+BSD网络登录过程
+inetd守护进程，等待大多数网络链接。当一个网络连接请求到达时，它执行一次fork，然
+后生成的子进程执行适当程序。以telnet连接为例。客户请求telnet链接之后，服务进程
+telnetd会打开一个伪终端设备，并用fork分成两个进程，父进程处理通过网络的通信，子
+进程则执行login程序。父子进程通过伪终端相链接。在调用exec之前，子进程使其文件描
+述符的0、1、2与伪终端相连，登录正确，则按照终端登录之后的步骤进行。
+Linux使用xinetd网络守护进程而不是inetd守护进程。
+
+进程组
+每个进程出了有一个进程ID，还属于一个进程组。进程组是一个或多个进程的集合。通常
+它们于同一作业相关联，可以接收来自同一终端的信号。每个进程组有一个进程组ID，类
+型为pid_t。
+#include <unistd.h>
+pid_t getpgrp(void);
+返回调用进程的进程组ID。
+#include <unistd.h>
+pid_t getpgid(pid_t pid);
+成功返回pid所属的进程组ID，出错返回-1。若pid为0，则等价于getpgrp();
+组长进程：每进程组可以有一个，其进程ID等于进程组ID。它可以创建进程组，创建该组
+的进程。
+进程组生存期：进程组创建开始到最后一个进程离开。与组长进程生存期无关，最后一个
+进程可以是终止，可以是转移到其他进程组。
+#include <unistd.h>
+int setpgid(pid_t pid, pid_t pgid);
+成功返回0，出错返回-1；
+这个函数创建或加入进程组；
+一个进程只能为它自己或者是它的子进程设置进程组ID。当它的子进程调用了exec之后它
+就不能改变子进程的进程组ID了。
+
+会话session
+会话是一个或多个进程组的集合。
+#include <unistd.h>
+pid_t setsid(void);
+成功返回进程组ID，出错返回-1
+这个函数创建新会话。
+会话首进程：创建该会话的进程。
+一个不是组长的进程创建一个会话则：它变为会话首进程；它变为新进程组的组长。该进
+程没有控制终端。如果该进程已经是组长，则创建会话会失败。为避免这种通常fork以后
+等父进程终止，然后创建新会话。
+没有会话id的概念，
+#include <unistd.h>
+pid_t getsid(pid_t pid);
+成功返回会话首进程的进程组ID，出错返回-1。
+
+控制终端
+一个会话可以有一个控制终端，这通常是登录到其上的终端设备或者伪终端设备。
+控制进程：建立与控制终端连接的会话首进程
+前台进程组
+后台进程组
+#include <unistd.h>
+pid_t tcgetpgrp(int fd);
+成功返回前台进程组的进程组ID，出错返回-1
+int tcsetpgrp(int fd, pid_t pgrpid);
+成功返回0，出错返回-1
+在fd上打开的终端与前台进程组相连。
+#include <termios.h>
+pid_t tcgetsid(int fd);
+成功则返回会话首进程的进程组ID，出错返回-1。
+
+作业控制（略）
+孤儿进程组（略）
+
+信号
+信号是软件中断，信号提供了一种处理异步实践的方法，每个信号都有一个名字，名字都
+以SIG开头。在头文件<signal.h>中，信号们被定义为整数。不存在编号为0的信号。
+信号产生条件：特定终端组合按键；硬件异常（除0，段错误）；使用kill命令；使用kill
+函数；满足软件条件时通知相关进程可以发信号。
+信号处理手段：忽略信号；捕捉信号；执行系统默认动作。
+信号们（略）
+core文件（略）
+
+signal函数
+#include <signal.h>
+void (*signal(int signo, void (*func)(int)))(int);
+成功则返回信号以前的处理配置，出错返回SIG_ERR
+signal函数由ISO C规定。
+signo参数表示信号名。func的值是常量SIG_IGN（忽略信号）、SIG_DFL（执行缺省操作）
+或者信号处理程序的地址（捕捉信号）。
+signal函数的返回值是一个函数地址。该函数地址指向之前的信号处理程序地址。
+
+不可靠信号（略）早期Unix系统的特性
+
+被中断的系统调用（略）
+
+可重入函数，为什么要要求可重入？（以malloc为例解答）（略）
+不可重入的函数：使用静态数据结构；调用了malloc和free；是标准IO函数。
+一般在信号处理程序中，要保存errno值，退出时恢复。
+
+SIGCLD信号，注意与SIGCHLD不同，有特殊性（略）
+
+可靠信号
+产生信号（generation），发送信号，意义类似
+递送信号（delivery），对信号采取某种动作
+在信号产生和递送之间的时间间隔，称信号是未决的。
+进程可以调用sigpending函数查看有哪些信号被阻塞。
+进程可以阻塞一个信号的递送。则该信号保持为未决状态直到解除阻塞或者忽略。在此期
+间进程可以改变对此信号的处理方式。
+同一信号多次阻塞是否保持多个信号取决于实现，大部分只保留一个。
+多个信号同时递送的顺序未作规定，一般优先递送与进程相关的信号。
+每个进程都有进程屏蔽字，类型sigset_t，它规定了当前被阻塞递送到该进程的信号集。
+进程可以调用sigprocmask来检测和更改当前信号屏蔽字。
+
+kill和raise函数
+#include <signal.h>
+int kill(pid_t pid, int signo);
+int raise(int signo);
+成功返回0，出错返回-1
+kill函数将信号发送给进程或进程组，raise则允许进程向自身发送信号。
+kill的pid参数有4种情况：大于0发送给进程号为pid的进程；等于0发送给调用进程所在的
+进程组；等于-1发送给所有系统进程（受权限约束）；小于0发送给指定进程组。
+权限：超级用户进程可以将信号发送给所有进程，其他则要求发送者的实际或有效用户ID
+等于接收者的实际或有效用户ID。
+signo等于0表示空信号，此时kill仍然执行错误检查，但不发送信号，这常被用来确定一
+个进程是否存在。如果进程不存在，返回-1，且设置errno为ESRCH。由于存在时间差和进
+程号重用，这个应答并不那么有精确。
+
+alarm和pause函数
+#include <unistd.h>
+unsigned int alarm(unsigned int seconds);
+返回0或以前设置的闹钟剩余秒数；
+此函数用于在超时后产生SIGALRM信号，此信号默认终止调用alarm的进程。
+每个进程只能有一个闹钟时间，如果之前登记过闹钟且没有超时，再次调用将返回还剩余
+描述并重新设置闹钟。如果再次调用的参数是0，则取消前次闹钟。
+#include <unistd.h>
+int pause(void);
+返回-1且errno设为EINTR
+
+信号集
+用于表示多个信号的数据类型，数据类型sigset_t表示信号集。
+信号集处理函数
+#include <signal.h>
+int sigemptyset(sigset_t *set);
+int sigfillset(sigset_t *set);
+int sigaddset(sigset_t *set, int signo);
+int sigdelset(sigset_t *set, int signo);
+成功返回0，出错返回-1
+int sigismember(const sigset_t *set, int sino);
+真返回1，假返回0，出错返回-1。
+#include <signal.h>
+int sigprocmask(int how, const sigset_t *restrict set,
+		sigset_t *restrict oset);
+此函数用来检测或更改进程的信号屏蔽字
+成功返回0，出错返回-1
+
+#include <signal.h>
+int sigpending(sigset_t *set);
+此函数返回当前未决的信号集
+成功返回0，出错返回-1
+
+#include <signal.h>
+int sigaction(int signo, const struct sigaction *restrict act,
+	      struct sigaction *restrict oact);
+此函数检查修改与指定信号的信号处理程序
+成功返回0，出错返回-1。
+	struct sigaction {
+		void (*sa_handler)(int);
+		sigset_t sa_mask;
+		int sa_flags;
+		void (*sa_sigaction)(int, siginfo_t *, void *);
+	};
+	struct sig_info {
+		int si_signo;	/* 信号名 */
+		int si_errno;	/* 错误号 */
+		int si_code;	/* 附加信息 */
+		pid_t si_pid;	/* 发送者进程ID */
+		uid_t si_uid;	/* 发送者进程的实际用户ID */
+		void *si_addr;	/* 导致出错的地址 */
+		int si_status;	/* 退出值或信号名 */
+		long si_band;	/* SIGPOLL的band号 */
+	};
+
+#include <setjmp.h>
+int sigsetjmp(sigjmp_buf env, int savemask);
+直接调用则返回0，从siglongjmp调用返回非0值。
+void siglongjmp(sigjmp_buf env, int val);
+用于信号处理程序中的非局部跳转。 
+
+#include <signal.h>
+int sigsuspend(consgt sigset_t *sigmask);
+返回-1，并将errno设置为EINTR。
+用于等待信号捕捉和处理的原子操作。
+
+#include <stdlib.h>
+void abort(void);
+发送SIGABRT信号给进程，使异常程序终止。 
+
+#include <unistd.h>
+unsigned int sleep(unsigned int seconds);
+返回0或者未休眠够的秒数。
+此函数使调用进程被挂起，直到时间超时或者调用进程捕捉到了一个信号，并从信号处理
+程序返回。
+如同alarm一样，由于进程调度等问题，时间会迟一些，并不精确。
+
+作业控制信号（略）
+
+信号名字extern char *sys_siglist[];
+#include <signal.h>
+void psignal(int signo, const char *msg);
+字符串msg（通常是程序名）输出到标准出错文件，后接一个冒号和一个空格，接着对该信
+号进行说明。类似于perror
+#include <string.h>
+char *strsignal(int signao);
+返回描述该信号的字符串指针。

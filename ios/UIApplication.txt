@@ -1,0 +1,15 @@
+
+开始时显示UIWindow
+UIView
+
+应用程序生命周期
+	UIApplicationDelegate, 决定应用程序如何响应事件
+		启动，关闭
+		系统事件：来电，警告
+
+失去焦点会调用委托类的 applicationWillResignActive
+	再次获得焦点 applicationDidRecomeActive
+锁屏 applicationWillResignActive
+	applicationDidBecomeActive
+	applicationDidReceiveMemoryWarning
+

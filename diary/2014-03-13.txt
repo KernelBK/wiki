@@ -1,0 +1,12 @@
+
+sv call matlab to generate and show wave.
+	write and read value file between
+
+plot(x,y)， x,y需要有相同的数量
+dpi 函数不能直接传递数组，要用open array svOpenArrayHandle
+
+mxGetPr把mxArray类型的数据变成普通c数组
+handle和指针的不同
+
+
+falu的浮点模块没有延迟，仿真的时候一步就出结果

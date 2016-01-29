@@ -1,0 +1,52 @@
+
+ref:
+http://workbloom.com/resume/sample/project-engineer.aspx
+
+timezone
+
+Education 
+    2004.09¡ª2008.06:	B.S. , major in Automation, Hubei Unversity of Technology
+
+SKILLS:
+	- Familiar with Microarchitecture, SOC, IC Frontend Design, Operating System, etc.
+    - Bus protocol: Wishbone/AHB/AXI
+	- Programming Language: Good at C/C++£¬familiar with Java, Python, Assembly, Verilog, VHDL.
+	- Platform: Programming experience in Linux, Android;
+	- Proficient in Linux kernel, Linux device drivers and GCC toolchain, crossbuild.
+	- Linux tool: bash, vim, git, svn, MS Word, Latex.
+	- Time and task management
+
+PROFESSIONAL EXPERIENCE
+    - Routon, Wuhan
+    - Loongson 
+        2008/7¡ª¡ªnow:		(place:	Microprocessor Research Center of ICT)
+        Researching on finding the most optimized options provided by GCC compiler using "acovea" tool. Improve this tool to test SPECCPU2000 for higher score.
+        Focus on optimizing the pipeline characteristics of GCC compiler. Add the exact godson instruction latencies and pipeline descriptions into GCC code in order to do the best of static scheduling.
+        Focus on adding the 128-bit memory-access instructions to GCC compiler in order to make the full use of GODSON3¡¯s 128-bit data accessing width.
+        Focus on building the tool-chain for GODSON. Add the special instructions of GODSON to the assembler. Take charge of the native and cross tool-chain¡¯s maintenance.
+
+        OR1200 SOC 
+        Leading the OR1200 CPU verification and it¡¯s SOC design.
+        Deep verify the OR1200 CPU,  to unify the RTL code and it¡¯s architecture documents, and fix some bug in RTL and linux kernel proting problem.
+        Design the OR1200 SOC with wishbone bus , and FPGA verification plan.
+
+        Participated in the Design of Loongson-2F southbridge Chip 
+        Mainly worked on USB IP integertion , include system function verification, FPGA verification.
+        Well understand USB 2.0 and EHCI, OHCI protocol. 
+        Developed LPC (Low Pin Count) interface in the northbridge using Verilog HDL, accomplished functional and timing simulation.
+
+        LTE SOC
+        Deveoloped  AXI interface crossbar and AXI multiplexer and AXI to AHB bridge.
+        Top level module integation, include four DSP, one stack processor and a lot of peripheral. evaluated the area and timing in the DC and resource used in FPGA.
+
+        Acted as one of the main contributors to the design of verification platform which used Cacende's xtreme accelactor. 
+     
+    - RoboCup(The Robot World Cup)
+        do the game in Small Size League. mainly worked at motion control system. Win the game in German.
+    - 
+
+Language Skills 
+
+    - Proficiency: CET-4, CET-6
+
+Personal

@@ -1,0 +1,6 @@
+
+
+
+看代码的应用：code.editor textastic, codenavigator, codeviewer2
+看verilog使用textastic比较好用。
+

@@ -1,0 +1,32 @@
+
+[[trident_8473_um]]
+
+-- git
+
+-- 一些目录的使用
+#others dir
+/home/jinglun/h1/trident/others/x-server/build-xserver-xorg/xorg-server-1.7.6
+config.sh #执行configure关键是配置参数。
+
+--uuid
+routon_h1_id0001     1467688771085486
+routon_h1_id0002     3159637535112699
+routon_h1_id0003     0706572637504384
+
+routon_h1_id0004     8822427746346788
+
+（trident）
+routon_h1_id0005     8121737413646300
+routon_h1_id0006     9955285483440090
+
+（万博）
+routon_h1_id0007     5537994017247867
+
+routon_h1_id0008     3435028512626272
+
+routon_h1_id0009     6561975113062928
+routon_h1_id0010     8360544071674626
+routon_h1_id0011     0204713425610753
+routon_h1_id0012     7934502576371508
+
+

@@ -1,0 +1,7 @@
+
+auxiliary verb
+	be, been, being, am, is, are, was, were
+	have, has, had
+	shall, will, should, would
+	do, does, did
+

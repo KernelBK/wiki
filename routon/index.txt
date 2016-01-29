@@ -1,0 +1,31 @@
+
+2011.2.14 start
+
+- qemu_arm_ubuntu
+- crosstool-ng
+- cross-compile
+- android
+- linux kernel
+
+- smartcard
+- dvb
+  * dvb涉及到的内容太多，而且技术封闭。
+- u-boot uldr porting
+ 
+[[2013]]
+
+[[android-device-antutu]]
+
+[[info]]
+[[contacts]]
+
+[[dvb-dangle]]
+[[finger]]
+
+ 
+= porject =
+- [[../h1/index|h1]]
+	- chip: trident pnx8473
+	- 
+	
+TODO:

@@ -1,0 +1,27 @@
+pa5000 低成本
+git svn clone -r277436:HEAD --ignore-paths="^操作系统及终端软件/udisk_files/SYS.GHO" http://doc2/svn_webdisk/webdisk/projects/2015%E5%B9%B4/PM-03-2015030017-01/share pa5000lp_share
+
+记录仪 dl850
+URL: http://doc2/svn_webdisk/webdisk/projects/2015%E5%B9%B4/PM-03-2015060005-01
+start 300295
+git svn clone -r300294:HEAD http://doc2/svn_webdisk/webdisk/projects/2015%E5%B9%B4/PM-03-2015060005-01/share
+
+dept.competency
+dept.communication
+http://doc2/svn_webdisk/webdisk 
+git svn clone --ignore-paths="*" http://doc2/svn_webdisk/webdisk 1
+git svn clone --ignore-paths="^projects*|^svn_produces*|^部门间沟通*|^常用软件*|^个人目录*|^品质管理公开*|^职能部门*|^资料归档*" http://doc2/svn_webdisk/webdisk 4
+
+
+
+pa5000
+https://svn/svn_projects_2014/PM201401080-02/Software/SAMPFPGA
+git svn clone --ignore-paths="^固件*" -r992:HEAD https://svn/svn_projects_2014/PM201401080-02/share
+
+
+https://svn/svn_old_instrument/SoC
+Soc
+SoC_IP/Configuration_Programming/Remote_Update_Xilinx
+	[[远程更新模块]] 
+
+

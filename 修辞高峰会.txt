@@ -1,0 +1,69 @@
+
+# 比较
+# five times more likely to A than to B.
+R: Without a clear incentive, a manager is five times more likely to stick to an old policy than to switch to a new one.
+
+# not so much A as B.
+R: The collapse of the currencies of various Asian countries was attributable not so much to raid by speculators like George Soros as to irresponsible monetary policies of those countries.
+
+# as ... as 
+B: Chinese is as difficult to learn as or more difficult to learn than English.
+R: Chinese is as least as difficult to learn as English.
+
+R: Compared with the low scoring rates of soccer, those of basketball are far higher per game.
+
+High-pay occupations such as banking and law attact many aspirants every year.
+
+Manual laborers are more stongly opposed to immigrants than to white-collar workers.
+
+Nurses often often have to work as hard as technicians.
+
+Manual laborers are more stongly opposed to immigrants than are white-collar workers, whose jobs are not seriously threatened by outsiders that swarm into this country.
+
+ch4 代名词
+Not until the last moment will a man tell his wife about his extramarital affair, and it is a leading cause of divorce.
+Not until the last moment will a man tell his wife about his extramarital affair; such secrecy is a leading cause of divorce.
+; such belated confessions are a leading cause of divorce.
+; such affars are leading cause of divorce.
+
+ch5 dangling modifier
+1. Ving
+Seeking to facilitate the New Deal, F.D.R. nominated serveral Justices to server on the Supreme Court.
+
+When one uses a filter on a computer monitor, the radition can be cut down by more than 90%.
+Using a filter on a computer monitor, one can cut down the radiation by more than 90%.
+A filter on a computer monitor cuts down the radiation by more than 90%.
+By using a filter on a computer monitor, one can dut down the radiation by more than 90%.
+1. Ven
+Because the patient's tooth was eaten hollow by germs, the dentist decided to do a root canal.
+The paient's tooth eaten hollow by germs, the dentist decided to do a root canal.
+
+An excellent observer of human nature, Henry James created novels that have proved an enduring source of enlightenment.
+
+
+For some women, calorific food is something to be resisted, even when they are quite hungry.
+Some women consider calorific ood something to be resisted even when quite hungry.
+
+The biographer says that Kim Dae Jung clutivated an interst in botany while in jail.
+Kim Dae Jung, says the biographer, cultivated an interest in botany while in jail.
+
+ch6 agreement
+人称，主动一致
+单复数
+可数不可数
+时态
+
+ch7 修饰语
+形容词 副词
+单词 片语 子句 
+
+Under a diect order form the gerneral, the soldier was transferred from a base where he had served for two years.
+The soldier was transferred from a base where, under a direct order form the general, he had served for two years.
+
+
+Some long-haul drivers skip sleep and avoid drowsiness by drinking a lot of coffee, a subtance that many reduce their alertness.
+..., a practice that may reduce their alertness.
+
+A yellow rock containing iron sulfide, which is a very common compound, is sometimes mistaken for gold.
+A yellow rock, which contains iron sulfide and is very common, is sometimes mistaken for gold.
+

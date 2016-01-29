@@ -1,0 +1,42 @@
+
+yacc
+
+YACC parser for Ada expressions, for GDB.
+
+inferior 
+	GDB represents the state of each program execution with an object called an inferior.
+	
+	
+事件循环机制
+	文件描述符表示事件源
+	事件源
+		用户接口 
+			breakpoint _create, delete, modify, 
+			tracepoint _create, delete, modify,
+			archiecture_changed
+			nr_gdb_events
+		
+		目标程序
+
+	Observer模式， 事件发生，通知Observer，Observer回调
+	gdb_notifier
+	event_queue
+	sighandler_list
+	
+gdbserver
+	server.c
+
+main
+	gdb_main
+	captured_main
+	gdb_init
+		inti_cli_cmds
+	captured_command_loop
+	current_interp_command_loop
+
+调试功能
+	linux, ptrace 系统调用
+	windows, winapi
+
+远程
+	remote.c

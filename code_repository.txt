@@ -1,0 +1,7 @@
+
+git://git.kernel.org/pub/scm/docs/man-pages/man-pages.git
+
+https://github.com/progit/progit.git
+
+http://git.chromium.org/gitweb/
+git://git.webkit.org/WebKit.git

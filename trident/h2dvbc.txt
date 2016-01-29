@@ -1,0 +1,24 @@
+
+来自yangmuye的svn://172.16.51.49
+
+/home/jinglun/h1/trident/others/player/h2dvbc
+
+编译
+makefile 修改
+-DIR_LOCAL       = player/svn49
++DIR_LOCAL       = player/h2dvbc
+
+source /home/jinglun/h1/trident/sdk/trident_sdk_env 
+make
+
+cp /home/jinglun/h1/trident/sdk/sdk_out/objs/comps/generated/lib/armgnu_linux_el_cortex-a9/_flo_linux_mp/libh2dvbc.so /ftp
+
+wget ftp://172.16.55.90/libh2dvbc.so -O /hdisk/applib/libh2dvbc.so
+
+
+----
+永新和数码的流不一样，在我们这边程序也能够使用一个套。
+init_ca
+     ca_type_t ca_type = TF_CA; // 永新
+     ca_type_t ca_type = DVT_CA; // 数码
+

@@ -1,0 +1,13 @@
+
+1. ssd hdd test
+
+|             | ssd | has ssd | hdd |   |
+|-------------|-----|---------|-----|---|
+| pdf2txt     |     |         | 60s |   |
+| install ise |     |         |     |   |
+
+1. simulation gtp xilinx ip in vcs 
+	知道了secureip 仿真方法
+	没加debussy出现stack overflow
+	加了debussy后出现segmention fault
+

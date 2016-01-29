@@ -1,0 +1,44 @@
+
+checklist
+1. phase
+
+
+a b c, a b, k, a0 a1 b0 b1 b2
+r1, r2, p1, p2, x, y0, y1, x0, x1
+
+fps_cal, fps_find_arg, fps_cal_d
+
+floating point shedule
+浮点运算调度
+
+支持浮指令
+	浮点op(加，减，乘，除，比较，定转浮)
+	寄存器移动
+	nop
+	bypass
+
+input: arg, bypass_phase_sel, 
+	axi4stream(m,s)
+
+pc:
+	start: ，axi4stream的tready &tvalid==1
+	pc+1: 计算完成， OPERATION_RFD==1
+	end: pc==max
+
+inst: op, rs, rt, rd, bypass, 
+
+cal_valid
+mov_valid
+
+开始：数据进入，axi4stream的tready &tvalid==1
+结束：pc==max
+
+
+浮点部件空闲， OPERATION_RFD==1
+	驱动tvalid=1
+
+[[../floating_point_ds335]]
+
+
+falu可以定制
+寄存器，参数可以定制

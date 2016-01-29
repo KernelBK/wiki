@@ -1,0 +1,16 @@
+core
+	media
+
+target thumb C++: libmedia_jni <= frameworks/base/media/jni/android_media_MediaPlayer.cpp
+target thumb C++: libmedia_jni <= frameworks/base/media/jni/android_media_MediaRecorder.cpp
+target thumb C++: libmedia_jni <= frameworks/base/media/jni/android_media_MediaScanner.cpp
+target thumb C++: libmedia_jni <= frameworks/base/media/jni/android_media_MediaMetadataRetriever.cpp
+target thumb C++: libmedia_jni <= frameworks/base/media/jni/android_media_ResampleInputStream.cpp
+target thumb C++: libmedia_jni <= frameworks/base/media/jni/android_media_MediaProfiles.cpp
+target thumb C++: libmedia_jni <= frameworks/base/media/jni/android_media_AmrInputStream.cpp
+target thumb C++: libmedia_jni <= frameworks/base/media/jni/android_media_Utils.cpp
+target thumb C++: libmedia_jni <= frameworks/base/media/jni/android_mtp_MtpDatabase.cpp
+target thumb C++: libmedia_jni <= frameworks/base/media/jni/android_mtp_MtpDevice.cpp
+target thumb C++: libmedia_jni <= frameworks/base/media/jni/android_mtp_MtpServer.cpp
+
+

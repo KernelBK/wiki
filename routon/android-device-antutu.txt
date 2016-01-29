@@ -1,0 +1,28 @@
+
+机型 MK808 
+方案 瑞芯微 (rockchip)
+安兔兔跑分 9784
+ram     1709
+cpu-int 1886
+cpu-fp  1590
+2d-draw [1280*672]1402
+3d-draw [1280*672]2362
+db io   555
+sd/w    7.6MB/s 76
+sd/r    >50MB/s 204
+cpu freq 1608MHz(x2)
+
+机型 ONDA MID
+方案 Amlogic 8726-M6 (Meson6 g12)
+安兔兔跑分 9807
+ram     1860
+cpu-int 2448
+cpu-fp  1701
+2d      [800*1232]725
+3d      [800*1232]2301
+db io   545
+sd/w    7.8MB/s 78
+sd/r    >50MB/s 203
+cpu freq 1512MHz (x2)
+
+

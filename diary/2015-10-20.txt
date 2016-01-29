@@ -1,0 +1,15 @@
+
+5412 移植, 合并5422和5710. 
+
+5730 幅频校准参数加载问题解决。
+scpi python连接。
+
+:DISPlay:MODE Calib
+:PHASe:CALib:REGister:ALL 17
+:MEAS:RAND OFF
+:INPut:CURRent:EXTSensor:ALL ON
+:INPUT:CURRENT:SRATIO:ALL 1000
+:NUM:NORM:ITEM1 IRMS,1
+:INPut:SYNChronize:ELEMent1 I1
+:NUM:NORM:NUM 1
+

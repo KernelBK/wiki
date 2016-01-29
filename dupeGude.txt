@@ -1,0 +1,10 @@
+
+find duplicate files
+
+cross-platform
+	linux, osx, windows
+python 3
+
+edition
+	standard, music, picture
+	

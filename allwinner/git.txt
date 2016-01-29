@@ -1,0 +1,108 @@
+
+cd .repo
+rm -rf manifests  manifests.git  manifest.xml  repo
+repo init -u ssh://git@172.16.55.226/repo/lichee/manifest.git -m lichee.xml
+repo init -u ssh://git@172.16.55.226/repo/android4.0/manifest.git
+
+服务器IP地址: 172.16.55.226
+
+1.生成key
+    运行ssh-keygen
+    将~/.ssh/id_rsa.pub改名为"用户名.pub"的形式发给我，待我添加到认证列
+表
+    添加之后可通过 ssh jinglun@172.16.55.226 登录服务器，sudo密码为
+123456
+
+2.下载repo
+    git clone ssh://git@172.16.55.226/repo/repo.git
+    将repo文件添加到可执行路径
+    cp repo/repo /usr/bin/repo
+    chmod a+x /usr/bin/repo
+
+3.下载android4.0
+    mkdir android4.0
+    cd android4.0
+    repo init -u ssh://git@172.16.55.226/repo/android4.0/manifest.git
+    repo sync
+    repo start ics-exdroid --all
+
+4.下载lichee（对应4.0）
+    cd ..
+    mkdir lichee
+    cd lichee
+    repo init -u ssh://git@172.16.55.226/repo/lichee/manifest.git -m
+lichee.xml
+    repo sync
+    repo start lichee-dev --all
+
+5.下载android4.1
+    cd ..
+    mkdir android4.1
+    cd android4.1
+    repo init -u ssh://git@172.16.55.226/repo/android4.0/manifest.git -b
+jb-exdroid
+    repo sync
+    repo start jb-exdroid --all
+
+6.下载lichee-jb（对应4.1）
+    cd ..
+    mkdir lichee-jb
+    repo init -u ssh://git@172.16.55.226/repo/lichee-jb/manifest.git -b
+jb-exdroid -m lichee-jb.xml
+    repo sync
+    repo start lichee-jb --all
+
+目前测试通过git push可以提交，通过repo upload无法提交，需要加入Gerrit来
+审核，现在下载的代码，以后加入Gerrit之后可能需要重新下载
+
+
+
+----
+
+ssh://JingLun@61.143.53.198/git_repo/
+
+
+快速下载android代码
+cd .repo
+rm -rf manifests  manifests.git  manifest.xml  repo
+repo init -u ssh://JingLun@61.143.53.198/git_repo/manifest.git  -m lichee.xml
+
+github repository
+repo init -u git@github.com:allwinnerwk/manifest.git 
+
+cd android
+repo sync
+
+repoa git br v1.6 homlet-apollo-lichee-v1.6
+repoa git br v1.6 homlet-apollo-android-v1.6
+repoa git diff v1.4 v1.6
+
+repoa git br v1.8 homlet-apollo-lichee-v1.8
+repoa git br v1.8 homlet-apollo-android-v1.8
+repoa git diff v1.6 v1.8
+
+
+----
+download method v1.6
+新仓库 
+git clone ssh://JingLun@61.143.53.198/git_repo/repo.git
+repo init -u ssh://JingLun@61.143.53.198/git_repo/manifest.git --mirror 
+
+git clone git://git@172.16.55.90/git_repo/homlet/repo.git
+
+  remotes/origin/a13-4.2
+  remotes/origin/jb-exdroid
+  remotes/origin/master
+
+
+官方指导
+repo init -u ssh://JingLun@61.143.53.198/git_repo/manifest.git -b jb-exdroid -m lichee-jb.xml
+repo init -u ssh://JingLun@61.143.53.198/git_repo/manifest.git -b jb-exdroid
+
+本地服务器 下载
+repo init -u ssh://git@172.16.55.90/git_repo/manifest.git -b jb-exdroid -m lichee-jb.xml
+repo init -u ssh://git@172.16.55.90/git_repo/manifest.git -b jb-exdroid
+
+repoa git br 10-v1.5 exdroid4.0.4r1-a10-v1.5release
+repoa git br lichee-jb remotes/lichee/lichee-jb
+

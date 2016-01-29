@@ -1,0 +1,13 @@
+
+d:\vm_work
+ubuntu-10.04
+xilinx ise 14.7
+trash
+pa5000
+workspace
+
+d:\vm_workspace_disk
+matlab
+
+
+F04DA23AFBA4

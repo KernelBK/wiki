@@ -1,0 +1,110 @@
+%title dvb
+
+target/src/sd/pvr/lnxDrv/comps/lnxpvrDrv/src/cnxt_pvr_drv_module.c
+
+pl_tuner_tune
+	cnxt_demod_tune
+
+CNXT_DEMOD_HW_TDA10024
+
+target/src/sd/front_end/drivers/comps/tmfssDemod
+
+cnxt_iic_write_indexed_reg
+
+internal_demod_tune
+
+--配置
+target/src/sd/front_end/drivers/comps/tmfssDemod/src/hw_tda10024/hw_tda10024.c
+TDA10024_NO_OF_UNITS 通道的数目 
+
+cable线插拔没有显示没有信号，和agc复位有关。
+#define TDA10024_CONNECT_TIMEOUT_COUNT 3
+#define TDA10024_AGC_RESET_COUNT 10
+--
+sdk 81 路径
+/workspace/trident/sdk_18250/apollo_sdk_81
+
+--dvb trident nxp 方案
+target/src/sd/front_end/drivers/comps/tmfssDemod/src/demod_low_level.c
+和dvb前端有关的接口，通过：
+#if (DEMOD_UNITS_INCLUDE_TDA10024 == 1)                                                                                  
+extern CNXT_DEMOD_INIT_FN internal_demod_tda10024_hw_init;                                                               
+#endif /*DEMOD_UNITS_INCLUDE_TDA10024*/ 
+封装了10024, 18250相关的访问。
+
+--dvb 太和方案
+FE_297e_InitHAL
+
+main 
+	FE_297e_Init
+		TunerInit
+			entr_active
+				entr_cfgIcRev
+					entr_regRd
+						ChipSetField
+							ChipSetOneRegister
+								ChipSetRegisters
+									I2cReadWrite
+						entr_user_2wb_rd
+
+entr_active
+
+typedef enum {
+    ENTR_ok,
+    ENTR_err_rw,
+    ENTR_err_not_calibrated,
+    ENTR_err_not_implemented,
+    ENTR_err_invalid_parameter,
+    ENTR_err_unknown,
+    ENTR_err_ifcsm_timeout,
+    ENTR_err_ifcsm_fail,
+    ENTR_err_ifAccTop_setTtPwr,
+    ENTR_err_tfcSm_timeout,
+    ENTR_err_tfcSm_fail, //10
+    ENTR_err_tfCal_fail,
+    ENTR_err_freqPllSm_timeout,
+    ENTR_err_freqPll_unlocked,
+    ENTR_err_cfgCalDet_timeout,
+    ENTR_err_tfSetCh_fail,
+    ENTR_err_unsuported_ic_rev
+} ENTR_return;
+
+entr_cfgIcRev 出错。
+dieRev = 16
+dieCfg = 0
+
+en/Entr_EN4020_Tuner.c
+3411     ChipSetField(Stv_InternalParams->hDemod,F297e_I2CT_EN,1);//hanhan 
+打开tuner i2c en, 
+
+3415         retVal = entr_user_2wb_rd((ENTR_uint8) tunerCfg->b2wAddress,reg,&tunerCfg->tunerData.regImage[reg],1);//hanhan
+向0xc0地址
+
+TunerInit
+	ChipOpen
+		ChipGetHandleFromName
+			ChipGetFirst
+				ChipFindNode
+ 923             case TUNER_EN4020:
+
+
+== dvb tuner demod待机 ==
+
+SDK没有待机接口，但是看到cnxt_tvenc_set_standby接口。
+
+如果需要加入待机，需要通过i2c访问tuner,demod来操作里面的寄存器，这个接口可以加在front_end驱动里面，然后有应用程序调用。
+
+== systa test ==
+* echo pkill Xorg > /a
+* echo pkill h3* >> /a
+
+ifconfig eth0 172.16.55.144 netmask 255.255.255.0
+wget ftp://172.16.55.90/systa
+chmod +x systa
+
+= bug fix =
+DVB子卡上电需要在驱动初始化tuner之前，否则应用程序不能够加载tuner。
+
+卡复位需要等待一个时间 BWT(block waiting time)
+http://leijiye.blog.163.com/blog/static/5699763720103135131428/ Understanding Smart Card Timing  
+

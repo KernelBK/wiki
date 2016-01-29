@@ -1,0 +1,7 @@
+
+搭建起int2float的uvm验证环境
+精简ubus作为模板。
+	还需要slave为passive
+
+wave gen
+

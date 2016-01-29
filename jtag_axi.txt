@@ -1,0 +1,7 @@
+
+像virtual jtag在xilinx是没有现成的
+
+可以用bscan做一个
+cse
+
+mdm_microblaze_debug_module

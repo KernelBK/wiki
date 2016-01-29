@@ -1,0 +1,8 @@
+
+CALIB_FACTORS_USING
+
+中断接收频率的改变
+
+main
+	while 不断读取电压电流的量程，判断是否改变。
+

@@ -1,0 +1,169 @@
+
+<pre> <code class="">
+left  0xE06D5000
+right 0xE0669000
+
+power led
+pio008 -> left[0]
+on  mw.l 0xE06D5038 0x00100100
+off	mw.l 0xE06D5040 0x00100000
+
+status led
+pio027 -> left[10]
+on  mw.l 0xE06D5038 0x04000000
+off mw.l 0xE06D5038 0x04000400
+
+0xffff0000
+0xffffffff
+
+pio190 -> left[72]
+mw.l 0xe06ea114 0xbfff0036
+mw.l 0xE06D5010 0x00365555
+mw.l 0xE06D5048 0x01000100 (on)
+mw.l 0xE06D5048 0x01000000 (off)
+
+pio191 -> left[73]
+mw.l 0xe06ea114 0x7fff0036
+mw.l 0xE06D5010 0x00395555
+mw.l 0xE06D5048 0x02000200 (on)
+mw.l 0xE06D5048 0x02000000 (off)
+
+pio161 -> left[49]
+mw.l 0xE06D500C 0xfffffffb
+mw.l 0xE06D5044 0x00020002
+mw.l 0xE06D5044 0x00020000
+
+pio009 -> left[1]
+mw.l 0xE06D5000 
+mw.l 0xE06D5038 0x000100001
+mw.l 0xE06D5038 0x000100000
+
+pio008 -> left[0]
+mw.l 0xE06D5000 0xffedffea
+mw.l 0xE06D5038 0x00010001
+mw.l 0xE06D5038 0x00010000
+
+
+__PINMUX_TBL_START: .word 0xDEADBEEF
+
+    .word GPIO_PIN_MUX_REG_0_VAL
+    .word GPIO_PIN_MUX_REG_1_VAL
+    .word GPIO_PIN_MUX_REG_2_VAL
+    .word GPIO_PIN_MUX_REG_3_VAL
+    .word GPIO_PIN_MUX_REG_4_VAL
+    .word GPIO_PIN_MUX_REG_5_VAL
+    .word GPIO_PIN_MUX_REG_6_VAL
+    .word GPIO_SEC_PIN_MUX_REG_0_VAL
+    .word GPIO_SEC_PIN_MUX_REG_1_VAL
+    .word GPIO_SEC_PIN_MUX_REG_2_VAL
+    .word GPIO_SEC_PIN_MUX_REG_3_VAL
+    .word GPIO_SEC_PIN_MUX_REG_4_VAL
+    .word GPIO_SEC_PIN_MUX_REG_5_VAL
+    .word GPIO_SEC_PIN_MUX_REG_6_VAL
+    .word ALT_PIN_MUX_REG_0_VAL
+    .word ALT_PIN_MUX_REG_1_VAL
+    .word ALT_PIN_MUX_REG_2_VAL
+
+__PINMUX_TBL_END: .word 0xDEADBEED
+
+#define GPIO_PIN_MUX_REG_0_VAL 0x00000700
+#define GPIO_PIN_MUX_REG_1_VAL 0x3000
+#define GPIO_PIN_MUX_REG_2_VAL 0x00002030
+#define GPIO_PIN_MUX_REG_3_VAL 0x00
+#define GPIO_PIN_MUX_REG_4_VAL 0x007BE000
+#define GPIO_PIN_MUX_REG_5_VAL 0xffff0036
+#define GPIO_PIN_MUX_REG_6_VAL 0x000000e2
+#define GPIO_SEC_PIN_MUX_REG_0_VAL 0x0000c000
+#define GPIO_SEC_PIN_MUX_REG_1_VAL 0x0
+#define GPIO_SEC_PIN_MUX_REG_2_VAL 0x00000180
+#define GPIO_SEC_PIN_MUX_REG_3_VAL 0x0
+#define GPIO_SEC_PIN_MUX_REG_4_VAL 0x00000000
+#define GPIO_SEC_PIN_MUX_REG_5_VAL 0x0
+#define GPIO_SEC_PIN_MUX_REG_6_VAL 0x0
+#define ALT_PIN_MUX_REG_0_VAL 0x100000
+#define ALT_PIN_MUX_REG_1_VAL 0x01f0d000
+#define ALT_PIN_MUX_REG_2_VAL 0x0
+
+ffff0f78 <__PINMUX_TBL_START>:
+ffff0f78:   deadbeef    .word   0xdeadbeef
+ffff0f7c:   00000700    .word   0x00000700
+ffff0f80:   00003000    .word   0x00003000
+ffff0f84:   00002030    .word   0x00002030
+ffff0f88:   00000000    .word   0x00000000
+ffff0f8c:   007be000    .word   0x007be000
+ffff0f90:   ffff0036    .word   0xffff0036
+ffff0f94:   000000e2    .word   0x000000e2
+ffff0f98:   0000c000    .word   0x0000c000
+ffff0f9c:   00000000    .word   0x00000000
+ffff0fa0:   00000180    .word   0x00000180
+    ...
+ffff0fb4:   00100000    .word   0x00100000
+ffff0fb8:   01f0d000    .word   0x01f0d000
+ffff0fbc:   00000000    .word   0x00000000
+
+ffff0fc0 <__PINMUX_TBL_END>:
+ffff0fc0:   deadbeed    .word   0xdeadbeed
+
+Apollo # md 0xffff0f78
+ffff0f78: deadbeef 00000700 00003000 00002030    .........0..0 ..
+ffff0f88: 00000000 007be000 ffff0036 000000e2    ......{.6.......
+ffff0f98: 0000c000 00000000 00000180 00000000    ................
+ffff0fa8: 00000000 00000000 00000000 00100000    ................
+ffff0fb8: 01f0d000 00000000 deadbeed deadbeed    ................
+
+Apollo # md 0xE06EA100
+e06ea100: 00000700 00003000 00002030 00000000    .....0..0 ......
+e06ea110: 007be000 ffff0036 000000e2 00000000    ..{.6...........
+e06ea120: 0000c000 00000000 00000180 00000000    ................
+e06ea130: 00000000 00000000 00000000 00000000    ................
+e06ea140: 00100000 01f0d000 00000000 00000000    ................
+
+/workspace/trident/apollo_sdk/target/src/configs/hwconfig
+
+reg: alt0, val: 0x00180020
+reg: cfgo0, val: 0x10800000 
+reg: gmux0, val: 0x00011300 
+reg: gmux1, val: 0x00000080 
+reg: gmux2, val: 0x00000030 
+reg: gmux4, val: 0x007be000 
+reg: gmux5, val: 0x00060000 
+reg: gmux6, val: 0x00000060 
+reg: smux2, val: 0x00000180 
+reg: smux4, val: 0x00000001 
+
+cfgo is RST_CONFIG_REG(page 365).
+RST_CONFIG_REG 0xE06E6030
+</code> </pre>
+
+= 内核中操作gpio: =
+<pre> <code class="">
+cd /sys/class/gpio/
+echo 73 > export 
+cd gpio73
+echo out  > direction
+echo 1 > value
+echo 0 > value
+cd ..
+echo 73 > unexport
+</code> </pre>
+
+pio118 -> left[31]
+mw.l 0xE06D5010 0xbfefffef
+md 0xE06D503c 1
+
+pio045 -> right[21]
+md 0xE0669004 1
+md 0xE066903c 1
+
+
+mw.l 0xE06D5038 0x040476bd
+
+中断
+md 0xE06D50E0 1
+md 0xE06D50AC 1
+
+md 0xE06D50FC 1
+
+--
+新板子更改gpio修改流程:
+

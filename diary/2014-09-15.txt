@@ -1,0 +1,25 @@
+
+
+
+edk pcard 
+	顶层加入激励
+		check adc data
+		system reset and clock signal	
+	int2float add resetn siganl
+		don't forget rebuild edk
+	check system reset signal
+add axi4lite read and write.
+fixed pcard cal not clock connection, arg_bus.
+
+
+
+对着svn恢复版本
+
+
+huapixiang 两个问题， 板卡之间速度到达不对齐，数据计算。
+
+ad_tx
+cal
+front_ctrl
+	spi
+	ad 顺序

@@ -1,0 +1,7 @@
+
+[[Alonzo.Church]]
+
+单一带参数的函数
+
+lambda x:x*x
+def func(x): return x*x

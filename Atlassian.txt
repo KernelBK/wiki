@@ -1,0 +1,10 @@
+
+分布式团队管理
+	jira
+	confluence 
+	Hipchat
+	BitBucket, Stash
+	FishEye
+	Crucible
+	Bamboo
+

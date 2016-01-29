@@ -1,0 +1,198 @@
+
+part
+win7
+	[[PaDevMgr]]
+	PaTerminal
+[[k7_mainboard]]
+	[[k7_mainboard_fpga_source]]
+	[[k7_mainboard_fw_source]]
+[[card_p]]
+[[mcard]]
+
+[[k7_blvds_test_report]]
+[[calibration_workplace]]
+
+
+todo
+	电机卡，k7计算
+		模块仿真， edk系统仿真，去掉仿真慢的模块
+	k7fpga了解
+		pcie
+		ddr3
+		srio
+	dsp
+	x86
+
+	地址空间，在blvds link master端进行map，可以空洞访问。
+
+	cal 时序约束
+	mcard 代码丢失
+	blvds link master and front control master axi access can not  lock each other.
+	arg flash load
+	arg flash update
+	float calucation acurate
+	资源优化，幅频校准优化
+
+	数据打包超时，不做处理，由于有相位校准运算需要移动点。
+	谐波模式采样率发生变化，相位校准需要有应对方式。
+
+	校准计算验证平台。
+	DC、AC分量的计算
+	采样时钟采用背板的100M时钟，adc start信号需要和计数值一起配合作用，进来出去打两拍。
+	子卡复位
+
+[[TMS320C6657]]
+
+[[谐波]]
+[[谐波测量]]
+[[功率积分]]
+
+[[pa]]
+
+
+直流分量 交流分量
+
+[[pa5000_docs]]
+
+[[mcard]]
+[[blvds]]
+[[k7]]
+[[xilinx_flash_program]]
+
+接口顺序
+电压 mvch 0 a 
+电流 mach 1 b 
+电压 0x00795d14
+电流 0x00782314
+
+ 
+测频
+升级，校准数据，
+校准计算
+
+校准模式，控制
+
+
+比对pin脚
+加入mb核验证
+
+
+校准系数
+硬件固定参数 a
+增益 a b c 
+相位 a b n
+幅频 (f, d) *31
+
+iir滤波器 5个, 只能从aixl4ite接口写入，其他参数还可以spi flash读取
+
+spi flash
+	SST25VF016B-75-4I-S2AF
+
+幅频运算 f, f', d'
+
+(3+32+32+3+1)*2
+
+(6+5+1+32*2)*2
+
+[[fpcs]]
+----
+
+front_ctrl
+	out: freq, scale, filter
+
+pcard_cal
+	in: freq, scale, filter
+
+adc设置, 档位切换, 旁路
+	flush pipeline
+	flush ddr memory
+
+固件更新
+
+模式
+	测量
+		档位切换
+			加载校准参数
+				flush pipeline
+				flush ddr memory
+			（模拟开关）
+	校准
+		旁路
+
+
+[[svn_pa5000]]
+
+魏小忠; 潘成飞; 董旭; 陈红亮; 弓羽箭; 宋元瑞; 杨韬; 杨耀武; 华丕祥; 田成; 庞军; 晋永康; 陈文斌; 陈洪锐; 秦坤
+
+设计和测量标准
+精度指标通过赛宝实验室认证
+
+编号：PM201401080-02   
+项目名称：PA5000功率分析仪  
+产品型号：PA5000
+
+测频
+校准
+测量
+
+[[pa5000_verify]]
+
+
+[[../pa5000_pre]]
+
+功率卡 电机卡 判断？
+	读pio决定
+	单个处理or两个单独处理
+
+adc_ctrl -> int_to_float -> dc_cal -> phase_cal -> iir_filter -> data_send
+	[[../float_point]]
+隔离
+	低速 光耦
+	高数 光纤
+endianness: little-endian
+max-frequency: 
+	100M，
+	流水，每拍都要有数据输出
+clock-domain: 
+	一个
+float-point: 
+	舍入模式
+	浮点数的表示 double-precision, ieee754
+	例外和处理
+		报告中断？停止运算
+	xilinx coregen 没有提供pipeline的float运算单元，没有乘加，64位的运算延迟为18.ns
+		需要消耗更多的逻辑资源
+
+fpga: spartan6
+	logic cell
+	dsp48a
+connection with k7, serdes
+	pa6000用的pcie, 带宽有限制
+	srio
+	aurora
+clock-in: from big fpga k7
+在线更新
+[[../aurora]]
+
+remote_update front_ctrl pll_ctrl hard_check hard_ver cmd_rec
+
+[[校准]]
+
+误差
+	[[adc]]
+	运算
+
+时钟域
+数据采集到显示的延时
+数据流
+
+xilinx	
+	k7
+	s6
+
+
+\\192.168.0.8\测量仪器\内部共享\内部共享\文件备份\PA
+
+隔离 125M*16
+
+

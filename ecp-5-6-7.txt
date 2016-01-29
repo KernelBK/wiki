@@ -1,0 +1,5 @@
+Author: Joseph Lee
+E-Mail: fdlixiaojun@gmail.com
+
+链接，内存分配和映射，可执行文件，运行时数据结构
+主要涉及第五章，第六章和第七章

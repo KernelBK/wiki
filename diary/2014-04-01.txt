@@ -1,0 +1,13 @@
+
+[[../cs193p]]
+../番茄工作法
+
+仿真了M25P64 vhdl的模型和verilog的M25P64在读取方面没有差别，但是vhdl和verilog, sv等联合仿真比较麻烦，所以使用verilog的模型仿真。
+pcard设计增加升级模式，在这个模式下只有升级模块工作。
+
+pcard系统仿真，需要做一个virtual sequencer, 把axi4stream, ad_tx, axi4lite组合起来。
+	virtual sequencer 管理所有的sequencer, 可以让他们有一定的顺序。
+		delay, ad_tx, axi4lite, axi4stream
+	uvm编译顺序很烦人
+
+	测频模块仿真

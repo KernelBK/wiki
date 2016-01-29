@@ -1,0 +1,110 @@
+Author: Joseph Lee
+E-Mail: fdlixiaojun@gmail.com
+
+进程环境
+/*
+ * 主函数如何被调用，程序怎么样执行，命令行传输如何传递
+ * 典型内存结构是则那样嗯的
+ * 如何分配额外的内存
+ * 怎样使用环境变量
+ * 程序如何终止
+ * longjmp和setjmp
+ * 进程资源限制
+ */
+
+启动例程，main函数前发生了什么。
+C程序执行从调用main函数开始，当一个C程序由内核执行时，一个特殊的启动例程exec函
+数族中的某一个在main函数之前会被调用。可执行程序指定这个函数为程序的其实地址，
+这是由链接器指定的。这个函数从内核获得数据，从命令行参数和环境变量获得数据，然
+后就在后面调用main函数。
+
+程序终止一共有8种情况，5中正常退出，3种异常退出
+	从main返回；调用exit，_exit，_Exit；从启动例程的最后一个线程返回；
+		在最后一个线程中调用pthread_exit
+	调用abort；接收到信号；最后一个线程响应一个取消请求
+
+当main函数返回时，exit函数会被调用。如果启动过程用C语言编写（一般为汇编）就是：
+	exit(main(argc, argv));
+
+命令行参数，argv[argc]是一个NULL指针，即命令行参数以NULL指针结束
+每个程序会被传递一个命令行参数列表，一个环境变量列表。
+环境变量列表是一个字符串指针数组。是一组name value对，多数预定义的名字是大写的。
+访问环境变量通常通过getenv和putenv来操作。
+
+一个C程序的构成
+	正文段：指令，通常是共享的，仅在内存中保留一份副本，通常只读
+	初始化数据段，简称数据段，包含初始化的全局变量
+	未初始化数据段，简称BSS，为初始化的全局变量
+	栈，自动变量存储区，函数调用时stack frame保存区
+	堆，动态分配内存区，位于BSS和stack之间
+
+共享库
+优点：节省内存空间，方便库升级
+缺点：会增加运行时时间开销，程序第一次调用或者共享库函数第一次调用时
+
+内存分配函数
+#include <stdlib.h>
+void *malloc(size_t size);
+void *calloc(size_t nobj, size_t size);
+void *realloc(void *ptr, size_t newsize);
+malloc分配特定字节大小的内存，分配的内存内的数据未初始化
+calloc分配特定数量特定大小对象的内存，分配的内存内的数据初始化为0
+realloc增加或减少之前分配的内存，分配的内存内的数据未初始化
+三个函数返回的内存都是数据对齐的。由于void*可以转化为任意指针，所以不需要强制
+类型转换
+realloc可能会引起内存拷贝，当当前位置不够分配时，会拷贝到一个新地址，然后释放
+原来的内存，返回指向新地址的指针。此时我们不可以有任何对旧地址的引用。realloc
+的第二个参数是新申请内存的大小，不是差值。
+void free(void *ptr);
+分配函数通常由sbrk系统调用实现。这个系统调用会扩展或压缩进程的堆。虽然sbrk可以
+扩展或者压缩进程的堆空间，但是通常malloc的内存不会在free之后返回给内核，而是
+保留到malloc池中以便下一次分配。
+通常的实现都会分配比请求大小大一些的内存空间，在多出来的位置存放分配块的大小，
+指向下一个分配块的指针等信息。要注意防止破坏这些信息。
+
+其他类型的内存分配函数
+libmalloc, vmalloc, quik-fit
+alloca，在栈上进行内存分配，函数返回时会自动free掉分配的内存。
+
+环境变量操作
+#include <stdlib.h>
+char *getenv(const char *name);
+返回指向name对应的值，找不到则返回NULL。
+int putenv(char *str);
+int setenv(const char *name, const char *value, int rewrite);
+int unsetenv(const char *name);
+成功返回0，出错返回非0。
+putenv把形如name=value的字符串设置到环境变量表中，如果name已经存在，则删除旧的
+添加新的。
+setenv将value设置到name，如果name存在，且rewrite非零，则更新。如果rewrite为0，
+则不更新，且不返回错误。
+unsetenv删掉某个name的环境变量，如果不存在则出错。
+注意putenv和setenv的区别，在Linux上，putenv直接把我们传递给它的参数放到环境变量
+表中，如果是分配在栈上的，那么这将可能会出错。
+更新环境变量列表的话，更新项是通过删除旧的，添加新的来进行的。
+
+setjmp和longjmp函数，实现函数间跳转
+#include <setjmp.h>
+int setjmp(jmp_buf env);
+直接调用的话返回0，从longjmp返回的话返回非0
+void longjmp(jmp_buf env, int val);
+主要用于栈深的时候直接跳出来。
+
+getrlimit和setrlimit函数
+每个进程的资源都有一些限制，可以通过getrlimit函数查询，setrlimit更新
+#include <sys/resource.h>
+int getrlimit(int resource, struct rlimit *rlptr);
+int setrlimit(int resource, const struct rlimit *rlptr);
+成功返回0，出错返回非零。
+	struct rlimit {
+		rlim_t rlim_cur;	/* 软限制：当前限制 */
+		rlim_t rlim_max;	/* 硬限制：rlim_cur的最大值 */
+	};
+
+进程可以改变软限制到一个小于或等于硬限制的值
+进程可以减小硬限制值到一个大于或等于它软限制值的值，但普通用户不能增加硬限制值
+超级用户可以增加硬限制值
+resource参数可以是一系列预定义常数值
+RLIMIT_AS, RLIMIT_CORE, RLIMIT_CPU, RLIMIT_DATA, RLIMIT_FSIZE, RLIMIT_LOCKS,
+RLIMIT_MEMLOCK, RLIMIT_NOFILE, RLIMIT_NPROC, RLIMIT_RSS, RLIMIT_SBSIZE,
+RLIMIT_STACK, RLIMIT_VMEM

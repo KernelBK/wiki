@@ -1,0 +1,71 @@
+
+[[quicklisp]]
+
+lisp = LISt Processor
+[[John.McCathy]]
+
+特性
+	[[S-expression]]
+	[[higher.order.function]]
+	[[lazy.evaluation]]
+	[[closure]]
+	数据即代码，代码即数据，S表达式统一了数据和代码之间，“这不就是我们每天打交道的配置文件吗？”
+	不限制表达的语义，语法和语义解耦
+	既可以视为线性表又可以视为树
+
+Paul.Graham
+	Lisp的list是一种可嵌套的树形结构，和XML的语法形式一样，在语义表达方面没有本质区别；
+	Lisp本身是一种定义语言的语言，即元语言。
+	面向语言编程
+	lisp宏
+	输入和输出都是s-expression，把一种DSL转换成另一种DSL
+
+方言
+	[[scheme]]
+	common.lisp
+
+[http://lisp.org.cn/wiki/lisp/common-lisp]
+
+[[lispbox]]
+
+# 语法
+
+- t 的值总是定义为 t，nil 的值总是定义为 nil
+- t 和 nil 这样的符号被称为自解析符号，因为他们解析为自身。
+- 自解析符号称为关键字；任一以冒号开头的符号都是关键字。
+- conses car cde 不好理解
+- 读取-解析-打印循环
+- 一个语句是一个原子,或者一个列表。如果语句是一个列表，LISP 视它的第一个元素为函数名；它递归的解析其余的元素，然后将它们的值作为参数来调用这个函数。
+-  quote 取消其参数的绑定状态
+- function 使得解释器将其参数视为一个函数而不是解析值
+
+1. http://en.wikipedia.org/wiki/Lisp_%28programming_language%29
+- The name LISP derives from "LISt Processing". 
+- Lisp programs can manipulate source code as a data structure, giving rise to the macro systems that allow programmers to create new syntax or even new domain-specific languages embedded in Lisp.
+- (function arg1 arg2 arg3)
+- [[lisp/car]] 返回list中的第一个元素， cdr返回最后一个元素
+
+# On Lisp
+- 随着软件复杂度的增长，自底向上设计的重要性也日益提高。
+- 一个自底向上的程序由一系列的层写成，每一层都作为更高一层的编程语言。
+- 驾驭宏是从编写正确的Lisp 程序走向编写漂亮的程序过程中最重要的一步。
+- 多数关于编程的书籍，包括Lisp 编程书籍，采用的都是那些你可以用任何其它语言编写的程序。
+- 用Lisp 扩展Lisp 程序
+
+1. http://blog.csdn.net/albert_lee/article/category/743683
+- Lisp的代码本身就是语法树，宏是操作语法树的。因此能获得可编程的编程语言的能力。
+- quicklisp Lisp库管理工具。
+- 双向备份同步工具unison , 用 Ocaml开发
+- [Common Lisp Condition System手记](http://www.feime.net/2011/common-lisp-condition-system%E6%89%8B%E8%AE%B0/)
+
+# ANSI Common lisp(Paul Graham)
+- Why learn Lisp? Because it lets you do things that you can't do in other languages.
+- learning Lisp will teach you more than just a new language—it will teach you new and more powerful ways of thinking about programs.
+- 
+
+http://cnlox.is-programmer.com/tag/lisp
+    
+开发环境
+	clozure ccl
+	sbcl steel bank common lisp
+	[[slime]]

@@ -1,0 +1,14 @@
+
+1. blvds pin 方向没错
+1. blvds_trans_check，重新连线，使用blvds pin，内部只用一个信号。
+	s1数据传输有误，检查了PIN没有其他的占用，
+	暂时先不使用s1接口，先验证s2
+1. m发送42, s2接收同步出错。
+1.  txoe=1后，立即发送数据1会丢失。
+1. avalon slave 地址参数不能够传递到模块, 需要手动修改qsys_blvds/synthesis/qsys_blvds.v 
+1. master接收sync错误。
+	加大turn around时间，解决!!
+	
+----
+
+[[../xilinx]]

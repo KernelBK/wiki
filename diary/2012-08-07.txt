@@ -1,0 +1,21 @@
+
+1. 卡兼容，需要进一步的确认答案。会寄一张卡回来。
+1. 海思卡读写。
+1. 8024因为有电容过大使其保护。
+8035有一个test mode，在cmdvcc变成低的时候，如果io也为低就进入这个模式。
+
+The TDA8035 implements a test mode for production test purpose. This mode is not intended to be used in application.
+This mode is entered by keeping IOUC Low when pulling CmDVCCN to low.
+To avoid entering this test mode when activating the card, it is mandatory that IOUC is forced to high when CMDVCCN is pulled to low.
+
+
+http://www.wanglianghome.org/cgi-bin/wiki.cgi/ChineseResume
+http://www.wanglianghome.org/cgi-bin/wiki.cgi/%E5%A4%A7%E4%BA%8B%E8%AE%B0
+- 从事编译工作
+- emacs elisp
+- 2000研究生毕业
+- 2008年使用git
+ 
+http://blog.csdn.net/netcasper/article/details/364258
+《组织行为学精要》,《公司政治》它们帮助我更加清晰地意识到作为公司雇员，我是如何被管理的，以及如何保护自己，避免走弯路。
+

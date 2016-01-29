@@ -1,0 +1,5 @@
+
+外部网关协议BGP
+BGP发言人(BGP speaker)
+
+

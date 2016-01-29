@@ -1,0 +1,21 @@
+
+key words
+	[[cast]] dynamic_cast static_cast const_cast reinterpret_cast 
+	template
+	virtual
+	friend
+	wchar_t
+	mutable
+	typeid
+	explicit
+
+
+[[virtual.function]]
+
+[[vector]]
+iterator
+[[container]]
+for.range
+for_each
+Associative containers
+

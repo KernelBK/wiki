@@ -1,0 +1,24 @@
+
+cp /home/jinglun/h1/trident/sdk/sdk_out/rootfs/lib/modules/2.6.34/extra/lnxcssDrv.ko /ftp
+cp /home/jinglun/h1/trident/sdk/sdk_out/rootfs/opt/lib/liblnxcssUsr.so /ftp
+
+wget ftp://192.168.2.2/lnxcssDrv.ko -O /lib/modules/2.6.34/extra/lnxcssDrv.ko
+wget ftp://192.168.2.2/liblnxcssUsr.so -O /hdisk/lib/liblnxcssUsr.so
+
+wget ftp://192.168.2.2/libh2dvbc.so -O /hdisk/applib/libh2dvbc.so
+
+wget ftp://192.168.2.114:210/libh2dvbc.so -O /hdisk/applib/libh2dvbc.so
+wget ftp://192.168.2.114:210/h3.digital -O /hdisk/applib/h3.digital
+
+----
+
+set bootargs $bootargs_debug
+run nandboot
+
+#set environment variable
+export LD_LIBRARY_PATH=/hdisk/lib:/hdisk/applib:/hdisk/applib/gphoto:/usr/local/lib:/usr/lib:/lib:/mnt/lib:/hdisk/bluez/lib:$LD_LIBRARY_PATH
+export PATH=/hdisk/apps:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/scripts:/mnt/bin
+export LANG="zh_CN.UTF-8"
+export DISPLAY=":0.0"
+h3.digital
+

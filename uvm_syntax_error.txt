@@ -1,0 +1,17 @@
+
+Error-[MFNF] Member not found
+../sv/ubus_env.sv, 68
+"ubus_master_agent::type_id"
+  Could not find member 'type_id' in class 'ubus_master_agent', at 
+  "../sv/ubus_master_agent.sv", 7.
+
+缺少 `uvm_component_utils
+
+`uvm_component_utils_begin
+`uvm_component_utils_end
+为空也会出错
+
+include的顺序不对也会报错。
+
+
+

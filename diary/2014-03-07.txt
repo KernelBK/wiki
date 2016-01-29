@@ -1,0 +1,10 @@
+
+axi4lite 
+	一个master, 一个slave接口
+
+调试blvds_axi_link
+
+数据流很难完备验证
+控制流验证比较容易发现问题，但是激励很难自动化。
+
+

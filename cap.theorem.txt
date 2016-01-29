@@ -1,0 +1,7 @@
+
+consistency 
+availability 
+partition tolerance 
+
+在分布式系统中3个要素最多只能实现两个；
+NoSQL 放弃的是一致性

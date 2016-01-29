@@ -1,0 +1,3 @@
+
+/home/jinglun/h1/trident/sdk/target/src/sd/platform/lnxplat/comps/lnxplatLirc
+

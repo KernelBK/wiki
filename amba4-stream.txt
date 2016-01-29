@@ -1,0 +1,10 @@
+
+272 Master and slave components are not required to support null bytes, therefore any interconnect that is capable of inserting null bytes in a stream should also be capable of removing them before the stream arrives at a destination that is not capable of handling null bytes. 
+248 Upon expiry or termination of this Licence by You or by ARM LICENSEE shall stop using the relevant AMBA Specification and destroy all copies of the relevant AMBA Specification in your possession together with all documentation and related materials.
+246 If you do not agree to the terms of this licence, arm is unwilling to license the relevant amba specification to you and you may not use or copy the relevant amba specification and you should promptly return the relevant amba specification to arm.
+243 An example of this is where the same information applies to every byte in a transfer and it is more efficient to indicate the additional information once only for the entire transfer rather than replicating it for each byte within the transfer.
+239 The relevant amba specification is provided ¡°as is¡± with no warranties express, implied or statutory, including but not limited tony warranty of satisfactory quality, merchantability, noninfringement or fitness for a particular purpose.
+224 Note Interface compatibility does not provide a guarantee that two components will function together because higher level considerations, such as the format of shared data structures, also need to be taken into consideration.
+187 A permanently LOW TLAST signal might also affect the interleaving of streams across a shared channel because the interconnect can use the TLAST signal to influence the arbitration process. 
+166 Note A common usage model is for an interconnect to generate the TDEST information for an outgoing stream based on the TID information provided by the incoming stream.119 Position bytes are typically used when the data stream is performing a partial update of information at the destination.
+

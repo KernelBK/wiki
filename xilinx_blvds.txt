@@ -1,0 +1,8 @@
+
+26 oe 
+27 o
+28 i
+
+ug381
+ug471
+	The LVDS I/O standard is only available in the HP I/O banks.

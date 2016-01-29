@@ -1,0 +1,80 @@
+
+day  0
+day  1
+	alipay, 24.1, credit_card
+	江南味道, 优惠券 40，113, credit_card
+	Nike 卫裤，359, credit_card
+	优衣库，huan 小羽绒服，袜子，337, credit_card
+day  2
+day  3
+	水果，25.2, credit_card
+day  4
+day  5
+	元宵节，大鱼，230, credit_card
+day  7
+	优衣库，huan_young_brother ，衣服，258, credit_card
+	麦当劳，48, credit_card
+	taobao, 32, credit_card
+day  8
+	taobao, 23, credit_card
+day  9
+day 10
+	麦当劳，43, credit_card
+	taobao, 14, credit_card
+day 11
+	taobao, 挎包，41.98, credit_card
+day 12
+	百果园，水果，38.3, credit_card
+	taobao, 12, credit_card
+day 13
+	birthday dinner, 九毛九 pay 270, alipay to biyan.
+	birthday cake pay 100
+day 14
+day 15
+	文娟 请早茶，天鲜阁， 216， 打车 pay 10
+	逛街， 岗顶，水，6
+	超市，洗漱包，梳子，20, 20, credit_card
+	体育西路，买鞋，958, credit_card
+	星巴克，36
+	晚饭，云南米线，30
+	huan younger brother 好乐买， 买鞋，537, credit_card
+day 17
+	麦德龙，红酒，零食，64.8, credit_card
+day 18
+day 19
+	牛肉面 30
+day 20 
+	ducheng 106
+day 21
+	cyb 请麻田会，爬山 越秀公园
+	冒菜 30 团购
+	爱奇艺账号，1.1， credit_card
+day 22
+	麦当劳, 19, credit_card
+	711, 14, credit_card
+	爬山 火炉山
+	山水豆腐 5
+	肥仔烧排骨 90 
+day 23
+	ducheng 93 +15
+	全家 超市，有活动，42
+day 24
+	ducheng  113
+	福满家超市， 35， credit_card
+day 25
+	ducheng  118
+	credit_card, 还款， 3013
+day 26
+	ducheng  136
+	百果园， 20.3, credit_card
+	phone bill, credit_card， 29.55
+day 27
+	ducheng  139
+	水果 , credit_card
+day 28
+	huan ma, phone bill, 49.95, credit_card， 13764497603
+	huan younger brother, 29.7, credit_card， 15236410750
+day 29
+day 30
+day 31，便利店，7.5, credit_card， ? 
+	huan.sister 于凯发烧，儿童医院，挂号 4

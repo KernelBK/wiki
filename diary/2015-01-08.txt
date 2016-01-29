@@ -1,0 +1,37 @@
+
+k7 mainboard, edk_sim 
+	ddr3 改写为仿真模块完成
+		使用的了systemverilog的 associative array,
+		仿真脚本需要处理, vlog需要加上参数-sv,
+	edk全系统仿真
+		storage arb控制ddr3的app接口，连接到ddr3,
+		storage manager提供数据给arb, 
+		解决，reset反了，init_calib_complete需要从0到1的过程，帮助round_cnt 复位。
+
+
+debug, mcard pulse z have no signal output
+
+spi da
+spi 595
+	default value
+	fw control
+	write
+adc 
+	cnvst 200k/s
+	adc sig (sclk, sdout) 固定输入，查看变化
+pulse_z to k7
+
+pwa
+接线补偿在子卡中实现，增加了2位寄存器进行补偿和不补偿的配置。经过抽取数据流的数据验算后正确。
+
+
+ddr3 xilinx datasheet ds586.
+
+
+付绒(furong)  15:59:28
+通知：今天开会重申，方案与计划流程到总经理处的由项目经理知会总经理审核。
+刘工：请通知研发项目经理。
+大家有问题请提出。其它流程项目管理会推动。总经理处。立项由市场知会总经理，方案与计划，由项目经理知会总经理
+朱旻(zhumin)  16:14:51
+请将流程标准化才有执行力，一切未经标准化的流程都是伪流程。
+

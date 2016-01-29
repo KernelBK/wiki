@@ -1,0 +1,42 @@
+
+[[agilent]]
+
+Howard Vollum
+Jack Murdock
+
+history
+1946, time base triggered oscilloscope, model 511
+1957, plug-in oscilloscope, 530, 540
+	spectrum analyzer
+	waveform sampler
+	cable tester
+	transistor curve tracer
+
+	delayed trigger
+1961, completely portable oscilloscope, 321
+	rechargeable batteries
+	transistor age 
+1964, 560 series, rectangular crt
+	analog storage, 564
+1966, 400 series,
+1970, 5000 and 7000 series, 
+	custom designed intergrated circuits 
+	crt's were all rectangular and were all fabricated by tektronix
+1978, 7104, 1Ghz bandwidth
+
+off-the-shelf, generally available components
+custom designed, specially selected components, own factory
+
+spin-offs
+	mentor graphics
+	planar systems
+	floating point systems
+	cascade microtech
+	merix corporation
+	anthro corporation
+
+notable employee
+	[[Jean Auel]]: technical writer
+
+tekwiki
+

@@ -1,0 +1,9 @@
+
+[[usb]]
+sata
+pcie
+srio
+[[dmi]]
+[[qpi]]
+[[ht]]
+

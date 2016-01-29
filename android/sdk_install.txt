@@ -1,0 +1,6 @@
+
+http://developer.android.com/sdk/installing/index.html
+
+add-apt-repository "deb http://archive.canonical.com/ lucid partner"
+apt-get update
+apt-get install sun-java6-jdk

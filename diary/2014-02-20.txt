@@ -1,0 +1,14 @@
+
+讨论参数存储 格式, 类别代表地址
+	补充文档
+
+
+todo
+	axi 互联模块生成
+		基于一个模板生成各个模块的接口，然后再重命名
+			python脚本修改文件名和目录名
+			bash替换文件内容
+处理svn的问题
+
+
+xilinx axi interconnection 的地址分配, slave得到的是什么地址

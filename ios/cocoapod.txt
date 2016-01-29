@@ -1,0 +1,13 @@
+
+[[gem]]
+sudo gem install
+pod setup
+
+pod update
+
+Pods项目 -> libPods.a
+资源 Pods-resources.sh
+Pods.xconfig配置
+
+~/.cocoapods
+

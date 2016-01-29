@@ -1,0 +1,14 @@
+
+sdcard mount不正确
+
+
+[    0.853114] loop: module loaded
+[    0.956532] SATA AHCI Phy Power Failed!!
+[    1.060489] SATA AHCI Phy Calibration Failed!!
+[    1.064956] sw_ahci sw_ahci.0: controller can't do PMP, turning off CAP_PMP
+[    1.071932] sw_ahci sw_ahci.0: forcing PORTS_IMPL to 0x1
+[    1.077294] sw_ahci sw_ahci.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl platform mode
+[    1.085750] sw_ahci sw_ahci.0: flags: ncq sntf pm led clo only pio slum part ccc 
+[    1.093780] scsi0 : sw_ahci_platform
+[    1.097651] ata1: SATA max UDMA/133 mmio [mem 0x01c18000-0x01c18fff] port 0x100 irq 56
+

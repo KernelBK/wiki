@@ -1,0 +1,33 @@
+
+export ARCH=arm
+export CROSS_COMPILE=/workspace/homlet/lichee/buildroot/output/external-toolchain/bin/arm-none-linux-gnueabi-
+make menuconfig
+make tags
+
+arch/arm/mach-sun4i
+
+arch/arm/mach-sun4i/pm/standby
+arch/arm/mach-sun4i/pm/standby/standby.c
+	main
+		standby();
+			/* cpu enter sleep, wait wakeup by interrupt */
+			asm("WFI");
+
+
+busybox dd if=/dev/zero of=/dev/block/nanda
+
+寄存器手册 http://rhombus-tech.net/allwinner_a10/A10_register_guide/
+
+[[wifi]]
+ 
+[[mmc]]
+
+[[sys_config]]
+
+[[net]]
+
+SOFTWINNER DMA Driver, (c) 2003-2004,2006 Simtec Electronics
+	http://www.simtec.co.uk/
+
+include/linux/vermagic.h
+	VERMAGIC_STRING 

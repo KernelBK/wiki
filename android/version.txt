@@ -1,0 +1,4 @@
+查看android的版本
+build/core/version_defaults.mk  PLATFORM_VERSION
+
+grep "PLATFORM_VERSION :=" build/core/version_defaults.mk 

@@ -1,0 +1,5 @@
+
+64Mb
+8388608 bytes
+128 sectors( 512Kbits, 65536Bytes each)
+

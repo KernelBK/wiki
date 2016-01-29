@@ -1,0 +1,9 @@
+
+[[vs2008]]
+[[vs2012]]
+[[vs2015]]
+
+visual.assist.x
+productivity.power.tools
+
+c#

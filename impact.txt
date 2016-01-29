@@ -1,0 +1,12 @@
+gen_mcs.bat
+batch mode
+
+[[promgen]]
+
+文档中有帮助，
+在impact中操作的时候会出现BATCH MODE的字样，复制到*.cmd中可以运行。
+
+ESN device is not available for this cable.
+线的问题；
+
+    <property xil_pn:name="Configuration Rate spartan6" xil_pn:value="22" xil_pn:valueState="non-default"/>

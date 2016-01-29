@@ -1,0 +1,9 @@
+
+170 For example, Figure 9-1 shows the waveforms for an input and output port of a module that models a buffer with a module path delay of seven time units between these ports.
+151 Obtaining VCS Consumption of CPU Resources You can now capture the CPU resource statistics for compilation and simulation using the switch -reportstats.
+137 If not specified, or if the value specified is "0", then the port values of all the instances under the specified instance will be dumped.
+136 Synopsys recommends you use full-debug or partial-debug mode until the design correctness is achieved, and then switch to optimized mode. 
+336 If the operands in these expressions are neither the original nor the delayed versions of the reference or data signals, and if these operands are signals that do not change value between value changes on the original reference and data signals and their delayed versions, then it does not matter when VCS MX evaluates these expressions.
+205 Save time in cases where changes to the design do not require changes to the testbench by recompiling only the design after making changes to it and then running simv with the previously compiled testbench.
+
+

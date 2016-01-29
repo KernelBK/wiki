@@ -1,0 +1,17 @@
+
+http://en.wikipedia.org/wiki/ITU-R_BT.656
+    27 Mbyte/s
+    4:2:2 YCbCr
+    http://www.itu.int/rec/R-REC-BT.656-5-200712-I/en
+        居然有中文翻译的文档下载
+            翻译得好，可以用于学习
+    http://en.wikipedia.org/wiki/CCIR_601
+    http://en.wikipedia.org/wiki/YCbCr
+        
+        
+www.intersil.com/data/an/an9728.pdf
+    4:2:2 YCbCr
+    timing codes embedded withini the video stream.
+        reduces the number of wires
+    
+        CCIR656=CCIR601+HSYNC+VSYNC

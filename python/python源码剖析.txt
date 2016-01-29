@@ -1,0 +1,11 @@
+
+4 parts
+	[[import]], core [[modules]], library, user-defined modules
+	[[interpreter]]
+	[[runtime]]
+
+small_ints 小整数对象池
+string intern
+
+dict 实现 hash table, not c++ stl red-black tree.
+

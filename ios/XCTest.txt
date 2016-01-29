@@ -1,0 +1,9 @@
+
+Xcode 4及之前的SenTestKit，OCUnit
+Xcode 5中自带的测试框架 XCTest
+Xcode 6, [[XCTestExpectation]]
+
+文件名或Target名都以Tests结尾
+每一个名字中以“test”开始的方法被标识用来测试
+
+

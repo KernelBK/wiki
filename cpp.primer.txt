@@ -1,0 +1,28 @@
+
+followed by the remaining 120 or so lines in which the word "element" occurs.
+后面省略了大约 120 行。
+Dereferencing 解引用
+
+
+
+158 This change in the language definition can surprise people accustomed to using an older compiler when they instead use a compiler that adheres to the standard.
+
+170 Because a loop might add elements, we tend to write our loops to test the current size on each pass rather than store a copy of what the size was when we entered the loop.
+
+172 Over the years, the focus of the languageand of C++ programmershas grown beyond a concentration on run-time efficiency to focus on ways of making programmers more efficient. 
+
+179 From those operations we can then determine what data the class will require to accomplish its tasks and whether it will need to define any functions to support the implementation.
+通过这些操作，可以决定该类完成其功能所需要的数据，以及是否需要定义一些函数来支持该类的实现。
+:
+185 However, the third step of name lookup considers the surrounding scope declarations that appear before the member definition, and the declaration for the global function verify is found.
+189 On most machines, a function call does a lot of work: registers are saved before the call and restored after the return; the arguments are copied; and the program branches to a new location.
+
+190 The operator's size_t parameter is initialized automatically with a value that represents the number of bytes required to store an array of the given number of elements of the specified type.
+用表示存储特定类型给定数目元素的数组的字节数值自动初始化操作符的 size_t形参。
+
+217 The result, all too often, is that readers get bogged down in issues of low-level programming or the complexities of writing type definitions and never really understand the power of programming in a more abstract way.
+
+221 It is used on problems small enough to be solved by a single programmer after a few hours' work to problems requiring enormous systems consisting of tens of millions of lines of code developed and modified over many years.
+note: to problems, compare the problems small enough.
+242 Function members are part of the interface (and hence public ) when they are operations that users of the type are expected to use and part of the implementation when they perform operations needed by the class but not defined for general use.
+

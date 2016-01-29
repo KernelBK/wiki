@@ -1,0 +1,7 @@
+
+Aurora 8B 10B、PCIe 2.0、SRIO 2.0三种协议比较
+
+[[TMS320]]
+
+KeyStone Architecture Serial RapidIO (SRIO) User Guide.pdf
+

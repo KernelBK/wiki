@@ -1,0 +1,5 @@
+
+functions, system, processing, memory, storage, networking, human interface
+layers,  user space interface, virtual, bridges, functional, devices control, hardware interfaces, electronics
+
+

@@ -1,0 +1,6 @@
+
+device/softwinner/common/vendorsetup.sh
+	pack
+	device/softwinner/apollo-mele/package.sh
+		./pack 
+

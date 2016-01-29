@@ -1,0 +1,5 @@
+
+porting steps
+1. sys_config1.fex
+1. tools/pack
+1. init.sun4i.rc

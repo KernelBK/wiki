@@ -1,0 +1,30 @@
+Author: Joseph Lee
+E-Mail: fdlixiaojun@gmail.com
+
+可变长参数列表
+
+用于遍历未具名和未知类型的参数列表
+可变长参数列表的关键在于：在每个参数名字都不确定的情况下，如何遍历整个参数表。
+
+#include <stdarg.h>
+void va_start(va_list ap, last);
+type va_arg(va_list ap, type);
+void va_end(va_list ap);
+void va_copy(va_list dest, va_list src);
+
+假定最后一个参数last是带可变参数列表的函数f的最后一个命名参数。则在f内声明
+va_list类型变量ap并使之依次指向每个未具名参数。
+va_start()宏初始化ap，使之指向第一个未命名参数。ap被使用前，必须调用va_start()，
+带可变参数列表的函数f必须至少有一个命名参数。
+每调用一次va_arg返回一个参数，并且ap指向下一个参数。va_arg使用一个类型名来决定
+返回的参数类型和步进的大小。最后va_end做最后的清理工作，必须在函数返回前调用。
+在va_start()之后第一次调用va_arg()宏会返回last之后的参数。接下来的调用返回剩余
+的参数值。
+如果ap被传递给了一个使用va_arg(ap, type)的函数（比如标准IO库中v打头的函数），
+则在函数返回之后ap的值是未定义的。
+va_end()在一个函数中对应每个va_start()宏，在调用va_end(ap)之后，变量ap就是未定
+义了。
+
+注意，函数参数表中的...只能出现在参数表的末尾。
+va_arg参数类型注意，char和short会被扩展成int，float会被扩展成double，使
+用时要注意传入正确的转换后的参数类型和返回的强制类型转换。

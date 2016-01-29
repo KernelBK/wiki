@@ -1,0 +1,275 @@
+[[computer.books]]
+[[computer.people]]
+[[job]]
+[[todo]]
+[[android/index|android]]
+./diary/
+
+----
+# big topic
+- [[micro-architecture]]
+	- soc sopc cpu dsp
+	- x86
+	- arm
+	- mips
+	- openrisc
+	- 
+	- dhrystone spec2000 embc
+	- OpenMP
+- [[kernel/index|linux-kernel]] //operation sytem
+- [[os]]
+- [[distributed.computing]]
+- [[parallel.computing]]
+- [[amdahl's.law]]
+- [[compiler]] [[programming_language]]
+    [[tcc]]
+    - [[gcc]] crosstool-ng doxygen
+	- [[llvm]]
+	- [[clang]]
+- algorithm
+- [[quantum_computer]] [[量子计算机]]
+- [[data_mining]]
+- [[software_engineering]]
+- [[systems_engineering]]
+- [[control_enginerring]]
+-
+ [[patent]]
+- [[code_repository]]
+
+# life
+- [[hotel]]
+----
+[[routon/index|routon]]
+- [[trident/index|trident]] 
+- [[hisi/index|hisi]]
+- [[allwinner/index|allwinner]]
+- [[routon/dvb-dangle|our_dvb]]
+- [[stb]]
+
+- [[apple]]
+	- ipad: [[itunes]] 
+	- [[mac_os_x]]
+	- [[itouch]]
+	- 越狱 : PPGhost 
+	- 第三方同步工具 : itools [[pp-helper|pp助手]] 
+	- 
+	- [[eudic]]
+	- [[apple-marking-research]]
+
+----
+- [[ef]]
+- [[test]]
+
+----
+[[platform]]
+- [[android/index|android]]
+- linux-platform
+- [[ios]]
+- [[windows]]
+
+framework
+- wpf mfc
+cocoa 
+----
+# tools tip
+- [[windows]] [[vnc]]
+- ios
+- [[ubuntu]] [[debian]] centos rhel cygwin [[dos2unix]]
+- [[tar]] [[ftp]] [[wget]] deb 
+- ssh [[telnet]]
+- diff [[patch]] 
+- [[tee]]
+- [[md5sum]]
+- qemu 
+- [[vmware]] [[virtualbox]] vbox
+- service: [[tftp]] [[vsftpd]] [[nfsd]] smbd([[samba]]) 
+- [[pidgin]]
+- [[vim]] taglist ctags  [[cscope]] [[cflow]] [[vimwiki]] [[emacs]] [[sdcv]]
+- [[Sublime.Text]]
+- [[stardict]]
+- [[bash]] awk [[sed]] cut calc
+- [[makefile]]
+- [[ifconfig]]
+- [[version_control]] : svn [[hg]] [[git]] [[github]] [[git-server]] [[git-daemon]] [[gerrit]] [[mercurial]]
+- [[apache2]]
+- lex yacc (flex bison)
+- gcc make makefile pkgconfig [[gdb]] autoconf automake dejagnu lint [[trace]] strace profile oprofile gprofile
+- 内存泄漏调试工具: 
+- license : gpl
+- filesystem : [[busybox]] ubifs yaff2 [[img]]
+- 
+# internet [[web]]
+- [[network]]
+	tcp udp ip
+web, app
+	front-end
+		交互, 业务逻辑
+		jsp, java, js, css, html
+	back-end
+		业务逻辑
+		java, c++
+
+
+system, infrastructure
+	搜索引擎，数据访问
+	云计算， IaaS,Paas,Saas, java, python
+
+web framework
+	python flask
+
+svn + [[redmine]]  
+[[LDAP]]
+
+# app
+- beyong-compare
+- ibm-lotus 
+- xshell  [[hypertrm]]  putty scuritcrt
+- visio
+- [[chrome]] [[firefox]] ie 
+- gtalk sametime skeype qq msn
+- dropbox
+- kmplayer gplayer foobar minilyrics
+- emule
+- [[goagent]]
+- [[search_engine]] : [[aspseek]]
+- mysql [[sql]]
+- 
+# link
+- weibo
+- linkedin 
+- douban
+- xiami
+- google reader music
+- verycd
+- 
+- eetop
+- opengpu [http://www.opengpu.org/forum.php]
+- ieee
+- [[hust-lib]]
+
+# software module
+- [[kernel/index|kernel]]
+- bootloader u-boot pmon 
+- gui : clutter directfb xorg framebuffer gtk qt motif
+- jvm
+- [[hypervisor]]
+- mpeg2 h264
+- [[webkit]]
+- [[RESTful|restful]]
+- [[tdd]]
+- 
+- [[unicode]]
+ 
+# hardware
+[[protocol]]
+- [[finger]]
+- [[usb]] echi ohci
+- sata ahci
+- fpu [[float]]
+- [[ddr]] memory 
+- superio
+- ethernet wifi
+- [[bluetooth]]
+- [[gps]] location
+- pci
+- [[lcd]]
+- adc dac (analog to digital)
+- [[hyperlink]] not ht [[hypertransport]]
+- 
+- [[dvb]]
+- [[7816|smartcard]]
+- [[sdmmc]] sdio  [[nand_flash]] nor_flash 
+- i2s ac97
+- [[ITU-R_BT.656]]
+- rtc
+- gpio
+- acpi
+- spi
+- hpi
+- lio
+- lpc
+- can
+- ps2
+- ejtag
+- serial | [[uart]] [[7816]] irda
+- [[i2c]]
+- twi(two-wire interface)
+- ssc(Synchronous Serial Controller)
+- ir
+- cvbs tv-out
+- [[touch-panel]]
+
+- gpu display_controler
+- amba axi ahb apb wishbone corssbar [[avalon]]
+- afifo arbiter clock_domin clock_gating 
+- [[dma]] [[edma]]
+- ecc
+- lfsr (LinearFeedbackShiftingRegister)
+- tcm tpm 
+
+- pcb: 
+	- 高端 alegro 
+	- powerpcb 新名字叫 pads
+- Package: bga qfp
+
+# [[ic_design]]
+- simulate and debug: [[modelsim]] [[verdi]] / debussy xtreme  
+- rtl netlist gdsii
+- synopsys : vcs dc pt dft
+- cadence: ncverilog ic_backend
+- [[low_power]]
+- [[tcl]]
+- [[verilog]] vhdl
+- systemc [[systemverilog]] 
+- esl (Electronic system-level design and verification)
+- 
+- lte 3gpp
+- fpga [[altera]] [[xilinx]] ise quartus 
+- [[3d-ic]]
+- 
+- timing setup hold
+- pll dds 
+- rf
+- tape-out
+- verilog-a [[spice]] 
+- 
+- pad
+- die wafer
+- 硬件木马（hardware Trojan horse）技术
+
+# programming language
+- oo
+- c cpp 
+	[[malloc]]
+- [[go]]
+- bash
+- [[python]] [[lua]]
+- [[ruby]] rails [[railsinstaller]] 
+- perl 
+- [[erlang]]
+- sql
+- [[lisp]] 
+- 
+- [[java]] [[jdk]] [[jvm]] javabean awt swing
+- tex [[docbook]] [[markdown]]
+- 知识管理 : [[wiki]] mediawiki [[jira]] confluence bugzilla testdirector 
+- rails jquery 
+- [[css]] [[javascript]] [[xml]] dom json
+- tex
+- R
+- [[matlab]]
+
+# 别人在用的好工具
+- sourceinsight (find, [[grep]], vim已经习惯了) 
+- svn-monitor (系统变慢)
+- wine (图形界面还是windows的好)
+- virtualbox(还是vmware更强大)
+- 
+- [[tw2cn]]
+
+[[english]]
+
+[[copyright]]
+
+[[kernel-talk-huan]]
+

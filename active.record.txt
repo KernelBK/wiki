@@ -1,0 +1,8 @@
+
+object.relational.mapping [[orm]]
+mvc 中的M，处理数据和业务逻辑；
+
+Martin.Fowler 
+
+多约定，少配置；
+
