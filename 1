@@ -1,1 +1,384 @@
-<.DS_Store|.README.md.swp|.app.js.swp|.arclint|.babelrc|.bash_history|.bashrc|.bookignore|.bowerrc|.buckconfig|.buckversion|.bzrignore|.clang-tidy|.classpath|.commit-template|.coveragerc|.csslintrc|.cvsignore|.dir-locals.el|.dockerignore|.document|.env|.erlang|.eslintignore|.eslintrc|.fileheader|.flowconfig|.foreverignore|.gdbinit|.gitattributes|.gitconfig|.gitk|.gitmirror|.gitmirrorall|.gitmodules|.godir|.hgignore|.hgtags|.hooks-config.bash|.htaccess|.jscsrc|.jshintignore|.jshintrc|.kitchen.cloud.yml|.kitchen.yml|.koans|.nojekyll|.npmrc|.package.json.swp|.prev-version|.pydevproject|.pylintrc|.ratignore|.reviewboardrc|.rspec|.rubocop.yml|.rubocop_todo.yml|.ruby-gemset|.ruby-version|.slather.yml|.style.yapf|.tag|.tgitconfig|.toc.md.swp|.travis-setup.sh|.travis.blacklist|.travis.sh|.vimrc|.watchmanconfig|.yardopts|.ycm_extra_conf.py>
+
+Sub setpicsize() '设置图片大小
+    Dim n '图片个数
+    Dim picwidth
+    Dim picheight
+    On Error Resume Next '忽略错误
+    For n = 1 To ActiveDocument.InlineShapes.Count 'InlineShapes类型图片
+    picheight = ActiveDocument.InlineShapes(n).Height
+    picwidth = ActiveDocument.InlineShapes(n).Width
+    ActiveDocument.InlineShapes(n).Height = picheight * 0.4 '设置高度为1.1倍
+    ActiveDocument.InlineShapes(n).Width = picwidth * 0.4 '设置宽度为1.1倍
+    Next n
+    For n = 1 To ActiveDocument.Shapes.Count 'Shapes类型图片
+    picheight = ActiveDocument.Shapes(n).Height
+    picwidth = ActiveDocument.Shapes(n).Width
+    ActiveDocument.Shapes(n).Height = picheight * 0.4 '设置高度为1.1倍
+    ActiveDocument.Shapes(n).Width = picwidth * 0.4 '设置宽度为1.1倍
+    Next n
+End Sub
+Sub 字体设置()
+ 
+    Selection.WholeStory
+    Selection.Font.Size = 10
+    Selection.Font.Name = "华文楷体"
+End Sub
+Sub 换行替换()
+'
+' 宏2 宏
+'
+'
+    Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "^p^p"
+        .Replacement.Text = "^p"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchByte = True
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    Selection.Find.Execute Replace:=wdReplaceAll
+End Sub
+Sub 替换文本1()
+'
+' 宏2 宏
+'
+'
+    Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "$$$$"
+        .Replacement.Text = ""
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchByte = True
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+
+    Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "^p　　"
+        .Replacement.Text = "^p"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchByte = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    
+    Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "^p  "
+        .Replacement.Text = "^p"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchByte = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    
+    
+    Selection.WholeStory
+    With Selection.ParagraphFormat
+        .SpaceBeforeAuto = False
+        .SpaceAfterAuto = False
+        .FirstLineIndent = CentimetersToPoints(0.75)
+    End With
+End Sub
+
+Sub 调整格式保存PDF()
+'
+' 调整格式保存PDF 宏
+'
+'
+    WordBasic.PageSetupPaper Tab:=1, PaperSize:=9, TopMargin:="0.2", _
+        BottomMargin:="0.75", LeftMargin:="0.2", RightMargin:="0.2", Gutter:="0", _
+         PageWidth:="6", PageHeight:="55", Orientation:=0, FirstPage:=0, _
+        OtherPages:=0, VertAlign:=0, ApplyPropsTo:=4, FacingPages:=0, _
+        HeaderDistance:="0", FooterDistance:="0", SectionStart:=2, _
+        OddAndEvenPages:=0, DifferentFirstPage:=0, Endnotes:=0, LineNum:=0, _
+        CountBy:=0, TwoOnOne:=0, GutterPosition:=0, LayoutMode:=2, DocFontName:= _
+        "", FirstPageOnLeft:=0, SectionType:=1, FolioPrint:=0, ReverseFolio:=0, _
+        FolioPages:=1
+    ActiveDocument.Save
+    ActiveDocument.ExportAsFixedFormat OutputFileName:= _
+        "D:\reading\_to_iphone\1\" & ActiveDocument.Name & ".pdf", ExportFormat:=wdExportFormatPDF, _
+        OpenAfterExport:=False, OptimizeFor:=wdExportOptimizeForPrint, Range:= _
+        wdExportAllDocument, From:=1, To:=1, Item:=wdExportDocumentContent, _
+        IncludeDocProps:=True, KeepIRM:=True, CreateBookmarks:= _
+        wdExportCreateNoBookmarks, DocStructureTags:=True, BitmapMissingFonts:= _
+        True, UseISO19005_1:=False
+    Application.WindowState = wdWindowStateNormal
+End Sub
+
+
+Sub 批量运行宏()
+
+    Dim mydialog As FileDialog, i As Integer, sFile As String
+    
+    ' On Error Resume Next '忽略错误
+    
+    '定义一个文件选取对话框
+    Set mydialog = Application.FileDialog(msoFileDialogFilePicker)
+    With mydialog
+        .Filters.Clear '清除所有文件筛选器中的项目
+        .Filters.Add "所有 WORD 文件", "*.doc?", 1 '增加筛选器的项目为所有WORD文件
+        .AllowMultiSelect = True '允许多项选择
+        .Show
+        If .SelectedItems.Count = 0 Then
+            MsgBox "没有选择任何文件！", vbExclamation + vbOKOnly, "提示"
+            Exit Sub
+        End If
+        
+        For i = 1 To .SelectedItems.Count
+            sFile = .SelectedItems(i)
+            Documents.Open FileName:=sFile
+            Call 字体设置
+            Call 换行替换
+            Call 调整格式保存PDF
+            ActiveDocument.Close True
+        Next
+
+        MsgBox "文件处理完毕！" & vbCrLf & vbCrLf & "共处理了 " & .SelectedItems.Count & " 个文件。", vbInformation + vbOKOnly, "提示"
+    End With
+
+End Sub
+
+Sub text2word_subdir()
+    Dim doc As Document, sFile As String, i As Integer
+    ChangeFileOpenDirectory "D:\reading\_to_iphone\_gen2\file_2mb"
+    sFile = Dir("*.txt")
+    Do While sFile <> ""
+        sFileNew = Left(sFile, Len(sFile) - 4)
+        If Dir(sFileNew & ".docx", vbNormal) = "" Then
+            Debug.Print sFileNew
+        End If
+    Loop
+End Sub
+
+Sub text2word(ByVal sFile As String)
+            sFileNew = Left(sFile, Len(sFile) - 4)
+            If Dir(sFileNew & ".docx", vbNormal) = "" Then
+
+ 
+                Documents.Open FileName:=sFile, ConfirmConversions:= _
+                    True, ReadOnly:=False, AddToRecentFiles:=False, PasswordDocument:="", _
+                    PasswordTemplate:="", Revert:=False, WritePasswordDocument:="", _
+                    WritePasswordTemplate:="", Format:=wdOpenFormatEncodedText, XMLTransform:="", _
+                    Encoding:=936
+                    
+
+                ActiveDocument.SaveAs FileName:=sFileNew & ".docx", FileFormat:= _
+                    wdFormatXMLDocument, LockComments:=False, Password:="", AddToRecentFiles _
+                    :=False, WritePassword:="", ReadOnlyRecommended:=False, EmbedTrueTypeFonts _
+                    :=False, SaveNativePictureFormat:=False, SaveFormsData:=False, _
+                    SaveAsAOCELetter:=False
+                Call 字体设置
+                Call 替换文本1
+                Call 换行替换
+                WordBasic.PageSetupPaper Tab:=1, PaperSize:=9, TopMargin:="0.2", _
+                    BottomMargin:="0.75", LeftMargin:="0.2", RightMargin:="0.2", Gutter:="0", _
+                     PageWidth:="6", PageHeight:="55", Orientation:=0, FirstPage:=0, _
+                    OtherPages:=0, VertAlign:=0, ApplyPropsTo:=4, FacingPages:=0, _
+                    HeaderDistance:="0", FooterDistance:="0", SectionStart:=2, _
+                    OddAndEvenPages:=0, DifferentFirstPage:=0, Endnotes:=0, LineNum:=0, _
+                    CountBy:=0, TwoOnOne:=0, GutterPosition:=0, LayoutMode:=2, DocFontName:= _
+                    "", FirstPageOnLeft:=0, SectionType:=1, FolioPrint:=0, ReverseFolio:=0, _
+                    FolioPages:=1
+                ActiveDocument.Save
+
+
+                ActiveDocument.Close True
+
+            End If
+End Sub
+
+Sub text2word_with_phone_format()
+    Dim mydialog As FileDialog, i As Integer, sFile As String
+    
+    ' On Error Resume Next '忽略错误
+    
+    '定义一个文件选取对话框
+    Set mydialog = Application.FileDialog(msoFileDialogFilePicker)
+    With mydialog
+        .Filters.Clear '清除所有文件筛选器中的项目
+        .Filters.Add "所有 WORD 文件", "*.txt", 1 '增加筛选器的项目为所有WORD文件
+        .AllowMultiSelect = True '允许多项选择
+        .Show
+        If .SelectedItems.Count = 0 Then
+            MsgBox "没有选择任何文件！", vbExclamation + vbOKOnly, "提示"
+            Exit Sub
+        End If
+        
+        On Error Resume Next
+        For i = 1 To .SelectedItems.Count
+            sFile = .SelectedItems(i)
+             'Documents.Open FileName:=sFile
+            
+            sFileNew = Left(sFile, Len(sFile) - 4)
+            If Dir(sFileNew & ".docx", vbNormal) = "" Then
+
+ 
+                Documents.Open FileName:=sFile, ConfirmConversions:= _
+                    True, ReadOnly:=False, AddToRecentFiles:=False, PasswordDocument:="", _
+                    PasswordTemplate:="", Revert:=False, WritePasswordDocument:="", _
+                    WritePasswordTemplate:="", Format:=wdOpenFormatEncodedText, XMLTransform:="", _
+                    Encoding:=936
+                    
+
+                ActiveDocument.SaveAs FileName:=sFileNew & ".docx", FileFormat:= _
+                    wdFormatXMLDocument, LockComments:=False, Password:="", AddToRecentFiles _
+                    :=False, WritePassword:="", ReadOnlyRecommended:=False, EmbedTrueTypeFonts _
+                    :=False, SaveNativePictureFormat:=False, SaveFormsData:=False, _
+                    SaveAsAOCELetter:=False
+                Call 字体设置
+                Call 替换文本1
+                Call 换行替换
+                WordBasic.PageSetupPaper Tab:=1, PaperSize:=9, TopMargin:="0.2", _
+                    BottomMargin:="0.75", LeftMargin:="0.2", RightMargin:="0.2", Gutter:="0", _
+                     PageWidth:="6", PageHeight:="55", Orientation:=0, FirstPage:=0, _
+                    OtherPages:=0, VertAlign:=0, ApplyPropsTo:=4, FacingPages:=0, _
+                    HeaderDistance:="0", FooterDistance:="0", SectionStart:=2, _
+                    OddAndEvenPages:=0, DifferentFirstPage:=0, Endnotes:=0, LineNum:=0, _
+                    CountBy:=0, TwoOnOne:=0, GutterPosition:=0, LayoutMode:=2, DocFontName:= _
+                    "", FirstPageOnLeft:=0, SectionType:=1, FolioPrint:=0, ReverseFolio:=0, _
+                    FolioPages:=1
+                ActiveDocument.Save
+
+
+                ActiveDocument.Close True
+
+            End If
+            
+
+
+        Next
+
+        MsgBox "文件处理完毕！" & vbCrLf & vbCrLf & "共处理了 " & .SelectedItems.Count & " 个文件。", vbInformation + vbOKOnly, "提示"
+    End With
+End Sub
+Sub 宏1()
+'
+' 宏1 宏
+'
+'
+    ActiveDocument.SaveAs FileName:="xxa.docx", FileFormat:= _
+        wdFormatXMLDocument, LockComments:=False, Password:="", AddToRecentFiles _
+        :=True, WritePassword:="", ReadOnlyRecommended:=False, EmbedTrueTypeFonts _
+        :=False, SaveNativePictureFormat:=False, SaveFormsData:=False, _
+        SaveAsAOCELetter:=False
+End Sub
+ 
+Sub 宏2()
+'
+' 宏2 宏
+'
+'
+    ChangeFileOpenDirectory "D:\reading\_to_iphone\1\作家集\巴尔扎克\"
+    Selection.InsertFile FileName:="《人间喜剧》全本_傅雷译.txt", Range:="", _
+        ConfirmConversions:=True, Link:=False, Attachment:=False
+    ActiveWindow.ActivePane.VerticalPercentScrolled = 0
+    ActiveWindow.ActivePane.VerticalPercentScrolled = 67
+    ActiveWindow.ActivePane.VerticalPercentScrolled = 41
+    ActiveWindow.ActivePane.VerticalPercentScrolled = 12
+    Selection.InsertFile FileName:="【法】巴尔扎克《高老头》.txt", Range:="", _
+        ConfirmConversions:=True, Link:=False, Attachment:=False
+    ChangeFileOpenDirectory "C:\Users\yangyaowu\Desktop\"
+    ActiveDocument.SaveAs FileName:="1.docx", FileFormat:=wdFormatXMLDocument, _
+         LockComments:=False, Password:="", AddToRecentFiles:=True, WritePassword _
+        :="", ReadOnlyRecommended:=False, EmbedTrueTypeFonts:=False, _
+        SaveNativePictureFormat:=False, SaveFormsData:=False, SaveAsAOCELetter:= _
+        False
+End Sub
+Sub 宏3()
+'
+' 宏3 宏
+'
+'
+    Documents.Add DocumentType:=wdNewBlankDocument
+    ChangeFileOpenDirectory "D:\reading\_to_iphone\1\禅门公案"
+    Application.Move Left:=189, Top:=96
+    Documents.Open FileName:="禅门公案.txt", ConfirmConversions:= _
+        True, ReadOnly:=False, AddToRecentFiles:=False, PasswordDocument:="", _
+        PasswordTemplate:="", Revert:=False, WritePasswordDocument:="", _
+        WritePasswordTemplate:="", Format:=wdOpenFormatEncodedText, XMLTransform:="", _
+        Encoding:=936
+End Sub
+
+
+
+Sub Test()
+Dim iPath As String, i As Long
+Dim t
+t = Timer
+    With Application.FileDialog(msoFileDialogFolderPicker)
+        .Title = "请选择要查找的文件夹"
+        If .Show Then
+            iPath = .SelectedItems(1)
+        End If
+    End With
+    
+    If iPath = "False" Or Len(iPath) = 0 Then Exit Sub
+    
+    i = 1
+    Call GetFolderFile(iPath, i)
+   MsgBox Timer - t
+    MsgBox "文件名链接获取完毕。", vbOKOnly, "提示"
+  
+End Sub
+ 
+Sub run_gen_text2docx()
+    Dim i As Long
+    i = 1
+    Call GetFolderFile("D:\reading\_to_iphone\_gen2\file_2mb", i)
+End Sub
+Private Sub GetFolderFile(ByVal nPath As String, ByRef iCount As Long)
+Dim iFileSys
+'Dim iFile As Files, gFile As File
+'Dim iFolder As Folder, sFolder As Folders, nFolder As Folder
+     Set iFileSys = CreateObject("Scripting.FileSystemObject")
+    Set iFolder = iFileSys.GetFolder(nPath)
+    Set sFolder = iFolder.SubFolders
+    Set iFile = iFolder.Files
+ 
+    With ActiveSheet
+        For Each gFile In iFile
+           ' .Hyperlinks.Add anchor:=.Cells(iCount, 1), Address:=gFile.path, TextToDisplay:=gFile.Name
+            iCount = iCount + 1
+            Debug.Print iCount, gFile
+            text2word (gFile)
+            
+        Next
+    End With
+    
+    '递归遍历所有子文件夹
+    For Each nFolder In sFolder
+        Call GetFolderFile(nFolder.Path, iCount)
+    Next
+End Sub
+
