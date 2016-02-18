@@ -1,0 +1,32 @@
+                ActiveDocument.ExportAsFixedFormat OutputFileName:= _
+                    sFileNew & ".pdf", ExportFormat:=wdExportFormatPDF, _
+                    OpenAfterExport:=False, OptimizeFor:=wdExportOptimizeForOnScreen, Range:= _
+                    wdExportAllDocument, From:=1, To:=1, Item:=wdExportDocumentContent, _
+                    IncludeDocProps:=True, KeepIRM:=True, CreateBookmarks:= _
+                    wdExportCreateNoBookmarks, DocStructureTags:=True, BitmapMissingFonts:= _
+                    True, UseISO19005_1:=False
+
+
+Sub test3()
+Dim wb As Workbook
+Dim i As Long
+Dim t
+t = Timer
+    With Application.FileSearch 
+        .NewSearch 
+        .LookIn = ThisWorkbook.path  
+        .SearchSubFolders = True 
+        .Filename = "*.txt" 
+       ' .FileType = msoFileTypeExcelWorkbooks
+        If .Execute() > 0 Then 
+            For i = 1 To .FoundFiles.Count
+                'On Error Resume Next
+                Cells(i, 1) = .FoundFiles(i) 
+            Next i
+        Else
+             MsgBox "没找到文件"
+        End If
+     End With
+ MsgBox Timer - t
+End Sub
+

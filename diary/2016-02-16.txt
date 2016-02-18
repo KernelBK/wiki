@@ -1,0 +1,60 @@
+
+5412b 电机卡调试。dac时序问题。
+
+Sub docx2pdf_subdir()
+	Dim doc As Document, sFile As String
+    ChangeFileOpenDirectory "D:\reading\_to_iphone\"
+	sFile = Dir(".docx")
+	Do While sFile <> ""
+	Next
+End Sub
+
+Sub text2word_with_phone_format()
+    Dim mydialog As FileDialog, i As Integer, sFile As String
+    
+    ' On Error Resume Next '忽略错误
+    
+    '定义一个文件选取对话框
+    Set mydialog = Application.FileDialog(msoFileDialogFilePicker)
+    With mydialog
+        .Filters.Clear '清除所有文件筛选器中的项目
+        .Filters.Add "所有 WORD 文件", "*.doc?", 1 '增加筛选器的项目为所有WORD文件
+        .AllowMultiSelect = True '允许多项选择
+        .Show
+        If .SelectedItems.Count = 0 Then
+            MsgBox "没有选择任何文件！", vbExclamation + vbOKOnly, "提示"
+            Exit Sub
+        End If
+        
+        For i = 1 To .SelectedItems.Count
+            sFile = .SelectedItems(i)
+            Documents.Open FileName:=sFile
+
+    Documents.Add Template:= _
+        "C:\Users\yangyaowu\AppData\Roaming\Microsoft\Templates\6sp6x55.dotx", _
+        NewTemplate:=False, DocumentType:=0
+    Selection.InsertFile FileName:=i, Range:="", _
+        ConfirmConversions:=True, Link:=False, Attachment:=False
+            Call 字体设置
+            Call 换行替换
+            Call 调整格式保存PDF
+            ActiveDocument.Close True
+        Next
+
+        MsgBox "文件处理完毕！" & vbCrLf & vbCrLf & "共处理了 " & .SelectedItems.Count & " 个文件。", vbInformation + vbOKOnly, "提示"
+    End With
+    
+    ChangeFileOpenDirectory "D:\reading\_to_iphone\"
+    Documents.Open FileName:="高尔泰-寻找家园9.8.txt", ConfirmConversions:=True, _
+        ReadOnly:=False, AddToRecentFiles:=False, PasswordDocument:="", _
+        PasswordTemplate:="", Revert:=False, WritePasswordDocument:="", _
+        WritePasswordTemplate:="", Format:=wdOpenFormatAuto, XMLTransform:="", _
+        Encoding:=936
+    ActiveWindow.Close
+
+    Selection.WholeStory
+    Selection.Font.Name = "华文楷体"
+    Selection.Font.Size = 10
+    ActiveWindow.ActivePane.VerticalPercentScrolled = 0
+End Sub
+
