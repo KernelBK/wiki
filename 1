@@ -128,7 +128,7 @@ Sub 调整格式保存PDF()
     ActiveDocument.Save
     ActiveDocument.ExportAsFixedFormat OutputFileName:= _
         "D:\reading\_to_iphone\1\" & ActiveDocument.Name & ".pdf", ExportFormat:=wdExportFormatPDF, _
-        OpenAfterExport:=False, OptimizeFor:=wdExportOptimizeForPrint, Range:= _
+        OpenAfterExport:=False, OptimizeFor:=wdExportOptimizeForOnScreen, Range:= _
         wdExportAllDocument, From:=1, To:=1, Item:=wdExportDocumentContent, _
         IncludeDocProps:=True, KeepIRM:=True, CreateBookmarks:= _
         wdExportCreateNoBookmarks, DocStructureTags:=True, BitmapMissingFonts:= _
@@ -181,6 +181,20 @@ Sub text2word_subdir()
     Loop
 End Sub
 
+Sub docx2pdf(ByVal sFile As String)
+	sFileNew = Left(sFile, Len(sFile) - 5)
+	If Dir(sFileNew & ".pdf", vbNormal) = "" Then
+		Documents.Open FileName:=sFile
+		ActiveDocument.ExportAsFixedFormat OutputFileName:= _
+		    sFileNew & ".pdf", ExportFormat:=wdExportFormatPDF, _
+		    OpenAfterExport:=False, OptimizeFor:=wdExportOptimizeForOnScreen, Range:= _
+		    wdExportAllDocument, From:=1, To:=1, Item:=wdExportDocumentContent, _
+		    IncludeDocProps:=True, KeepIRM:=True, CreateBookmarks:= _
+		    wdExportCreateNoBookmarks, DocStructureTags:=True, BitmapMissingFonts:= _
+		    True, UseISO19005_1:=False
+		ActiveDocument.Close True
+	End If
+End Sub
 Sub text2word(ByVal sFile As String)
             sFileNew = Left(sFile, Len(sFile) - 4)
             If Dir(sFileNew & ".docx", vbNormal) = "" Then

@@ -1,12 +1,27 @@
+[[微信]]
+[[weixin.dev]]
 
 "微信是一种生活方式"
+
+平台
+	用户
+	信息
+	电商
+	入口
+	入口的入口
+	生态系统
+
+排版
+	
+
+用户数量
+	2013 4y
 
 打赏
 	医疗 财经 科技
 [[公众号]]
 应用号
 
-[[微信公众平台入门到精通]]
 
 file:///D:\Dropbox\career\2013\weixin
 嵌入式开发+杨耀武+18696198189
@@ -18,8 +33,8 @@ WeChat的个人频道 http://v.qq.com/vplus/wechat?pgv_ref=aio2012&ptlang=2052
 微信四个官方网站的地址如下：
 微信官网 weixin.qq.com
 微信网页版 wx.qq.com
-微信公众平台 mp.weixin.qq.com
-微信开放平台 open.weixin.qq.com
+[[微信公众平台]] mp.weixin.qq.com
+微信开放平台 open.weixin.qq.com 
 
 张小龙
 

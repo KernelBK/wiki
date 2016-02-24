@@ -1,6 +1,7 @@
 
 [[apple-dev]]
 
+[[apple.pay]]
 [[podcast]]
 [[ipad]]
 [[ipadmini]]
