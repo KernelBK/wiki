@@ -1,0 +1,12 @@
+
+2013.9
+
+AppServ http://www.appservnetwork.com
+	Apache
+	php
+	MySQL	
+		InnoDB
+	phpMyAdmin
+
+
+都是开发技术，举了3个例子。
