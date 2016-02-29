@@ -1,7 +1,14 @@
 
-[[cherry]]
+[[cherry]] 鼻祖
 hhkb
 SteelSeries
 Razer
 Filco 日本 
+
+按键 轴
+	黑， 重
+	青， 两次落感，咔嚓，听起来爽
+	茶， 单词落感，和薄膜键盘体验一样
+	白
+	红
 
