@@ -1,4 +1,4 @@
 ÇğÆæ
-lambda
+[[lambda]]
 
 

@@ -1,5 +1,6 @@
 
 
+[[vivado入门与提高]]
 write_project_tcl
 
 不想ise要单独打开各种工具，vivado

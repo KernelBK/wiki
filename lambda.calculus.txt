@@ -5,3 +5,8 @@
 
 lambda x:x*x
 def func(x): return x*x
+
+ http://blog.csdn.net/g9yuayon/article/details/790953
+
+每一个 lambda 其实就像是一个电路模块。它从电线端子得到输入，然后输出一个结果。
+Y combinator

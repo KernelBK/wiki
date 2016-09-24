@@ -1,5 +1,10 @@
-	[[http1.1]]
+[[http1.1]]
+rfc.2616
+
+获取HTTP Request，返回HTTP Response
+
 
 超文本传送协议HTTP (HyperText Transfer Protocol)
 超文本标记语言 HTML (HyperText Markup Language
 
+[[Spring]] 作为Java系的全栈(full-stack)开发框架

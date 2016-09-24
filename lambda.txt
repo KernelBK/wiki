@@ -23,3 +23,15 @@ Hoare logic
 Lisp, Scheme, 和ML这三种基于lambda算子的语言采用eager evaluation
 Haskell和Mrianda这两种基于lambda算子的语言采用lazy evaluation
 
+Lambda 算子计算规则
+其实真正的规则就俩：alpha和beta。Alpha规则又叫转换(conversion)规则，而beta规则又叫简化(reduction)规则。
+
+http://www.cppblog.com/vczh/
+good math, bad math之Lambda算子简介
+lambda算子简介1.a
+lambda算子 1.b
+lambda算子3:阿隆佐.丘齐(Alonzo Church)的天才
+lamdba算子4：布尔值和选择
+Lambda算子5a：Why oh why Y?
+Lambda算子5b：How of Y
+

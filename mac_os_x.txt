@@ -16,5 +16,5 @@ Mac OS X 10.6 Snow Leopard: the Ars Technica review http://arstechnica.com/apple
 vim是个问题
 map <M-d> <C-d>
 
-brew
+[[brew]]
 
