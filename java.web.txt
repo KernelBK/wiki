@@ -1,0 +1,49 @@
+
+java服务器工程师，主要从事java网络通信和中间件，大数据等等工作
+
+tomcat是java应用服务器（动态解析，如JSP）
+Tomcat只是一个servlet容器
+
+网站架构
+    负载均衡
+    F5 的负载均衡设备叫BIG-IP
+    Niginx
+    Apache
+    
+    应用服务器
+    Tomcat
+    Jetty
+
+    缓存服务器
+    Redis
+    Memcached
+
+    数据库服务器
+    MySQL
+
+    TCP服务器
+    Netty
+    Mina
+
+    优化
+    动静分离
+    缓存热点数据
+    集群
+    CDN
+    SSO
+    
+J2EE
+    前端
+        HTML
+        js
+        ajax
+    后端
+        jsp Servlet
+        框架 Spring Mybatis Hibernate Structs2 Play2
+        HTTP
+        web容器 Tomcat Jetty
+        JSON
+        全文搜索 Lucense Solr
+        抓包 Fiddller WireShark Burp
+
+    测试

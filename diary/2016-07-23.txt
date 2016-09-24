@@ -1,0 +1,126 @@
+
+杨 耀 武
+个人信息                                                                                     
+性别：男
+出生年月： 1984-03-13
+手机：86-18620465915
+电邮：solvery@163.com 
+
+教育背景                                                                                     
+湖北工业大学 工科学士 自动化系  2004.09 –2008.06
+
+专业技能                                                                                     
+编程语言：C、C++、Java、Python，Verilog, SystemC，SystemVerilog
+EDA工具：Xilinx的ISE、PlanAhead、Vivado，Altera的Quartus，
+验证平台：ModelSim，Verdi(Debussy)，UVM，Matlab，
+Unix工具：Shell、Vim、Git、Wiki 
+接口协议：axi/ahb/apb、nand、sd/sdio/mmc/emmc、SmartCard（7816）、USB、Ethernet、Bluetooth、Zigbee
+高速接口：DDR3, PCI-E，SRIO, Aurora
+软件平台：Unix/Linux，Windows
+
+工作经历                                                                                     
+2013.09 至 2016.08  广州致远电子 FPGA系统工程师
+负责公司的事全不的内容
+
+
+2011.02 至 2013.08  武汉精伦电子股份有限公司 系统软件工程师
+参与机顶盒相关产品和方案的预研，负责调研方案，以满足产品的功能，功耗，性能，开发难度，结构等要求的平衡。
+负责公司机顶盒 “精伦H1” 产品的BSP开发，主要工作有：
+研究厂商提供的SDK，在Dezhiyuanmo板上进行CPU，GPU，接口的性能评估，及早发现项目中还存在的风险以保证方案的可行性；
+设计产品量产流程和升级方案；搭建了nfs和qemu ubuntu-arm的开发环境，使得开发、调试效率提高；
+重新构建了一套更高效的GCC交叉编译工具链，支持vfp，整体上提升了产品的性能；
+负责移植的模块：u-boot, 内核配置，GPIO，SmartCard，Nand Ecc, Bluetooth L2cap协议栈移植到Cortex-M3。
+负责平板电脑身份证阅读器产品的BSP开发。
+文件系统的存储介质移植，从Nand flash移植到EMMC。
+模块调试：LCD，触摸屏，中兴3G模块，指纹模块，GPS。
+2010.02 –2012.01  北京国睿中数科技股份有限公司  IC前端工程师
+参与调研TI C66xx, ADI TS203,Freescale MPC8641D等公司的DSP方案，包括指令集，流水线，以及和SDP有关的加速部件。
+负责Openrisc的系统态验证，rtl仿真运行Linux。解决了指令cache不一致和tlb处理错误的bug。负责FPGA平台验证。
+两项专利。分别是：“一种跨时钟域的时序仿真装置和方法”，“一种源代码保护的装置和方法”。进行专利检索，分析可行性。与专利代理人交互对专利进行完善，扩大专利的权利要求。
+安装IC工具、维护license服务器。
+2008.07 –2010.01   北京中科龙芯  IC前端工程师
+参与龙芯1 SOC芯片项目：
+负责整个SOC的rtl仿真和网表时序仿真环境维护，确保每个个模块的功能验证，其中主要负责spi, i2c, uart, ps/2, gpio, ahb, apb模块的功能验证。
+负责芯片3种封装下管脚复用设计，JTAG测试设计，负责soc中memory的mbist测试设计。
+参与龙芯1 SOC的测试，参与制定chip/final测试方案，负责提供测试向量和调试。
+参与龙芯双发射32位处理器设计项目，主要工作内容：
+负责处理器接口总线（AHB, AXI）接口逻辑的验证
+完成SOC平台的验证，包括RTL仿真、功能覆盖率分析、FPGA验证平台、时序分析、后仿真等。
+参与处理器的结构设计，参与随机指令验证平台搭建。
+参与LTE 项目，负责SOC的顶层结构互联，使用了4x4, 4x6, 4x5规格的axi crossbar和axi2ahb, ahb2axi桥，系统级仿真验证通过。负责LTE芯片面积和功耗的评估，以及FPGA验证平台的评估。
+FPGA验证平台的评估与选择。分别对ALTERA和XILINX的FPGA进行评估，移植asic代码到fpga平台，评估的方案有：2片XILINX V5 330，2片ALTERA V4 330， 2片ALTERA v4 530。最终选择2片ALTERA v4 530方案。
+参与龙芯2F南桥/SOC项目
+主要负责USB2.0控制器IP和PHY的仿真验证和FPGA验证。
+FPGA验证环境的逻辑移植与仿真。使用带有两块XILINX V5 330芯片的子卡来完成系统的FPGA验证，根据系统模块的功能和面积，将系统的逻辑划分成两部分提供给FPGA，针对FPGA的特点移植代码，并对移植后的代码进行功能仿真。
+制定2F开发板上验证TCM模块的方案。使用2F开发板上预留的FPGA资源完成2F处理器与TCM模块的接口逻辑。
+
+2007.10—2008.05：RoboCup 机器人世界杯比赛。
+加入龙骑士（Botnia Dragon Knights）队，在德国汉若威参加了RoboCup2008德国公开赛，获得第三名。 
+了解足球机器人设计流程，负责设计流程的进度。负责全系统的联调，包括机械部件安装，电路，通信，视觉系统等部分的调试。 
+分析机器人的四个车轮的受力，设计运动控制方案，使四轮驱动的机器人能够在各个方向上做直线运动。车轮采用反馈控制系统，使用PID控制算法，使用FPGA完成车轮的控制，保证控制的精度与速度，减轻上位机的运算负担。 
+视觉系统的设计，对已的有视觉方案进行改进，将PC机处理视频信息改为FPGA处理。
+系统采用ARM+FPGA方案，ARM运行ucos操作系统。
+在芬兰Vasaa大学进行比赛联方案联调，改进足球比赛策略，排除现场故障。
+
+获得奖励                                                                                     
+2005年，获得“软件设计师”证书。
+2007年，大学生电子设计大赛省二等奖。
+2008年RoboCup德国公开赛，获得第三名。
+2008年：论文：“机器人视觉系统的设计”获得省级“优秀毕业论文”。
+
+Yaowu Yang (杨耀武)
+
+    PERSONAL INFORMATION                                                                               
+    Gender: Male
+    Date of Birth: Mar 13, 1984
+    Address: Optical Valley, Wuhan, 430074
+    Telephone: +86-18696198189
+    Email: solvery@163.com
+    Weibo: @solvery
+
+
+    EDUCATION                                                                               
+    Sep.2004 – July.2008    Hubei University of Technology                                 Wuhan
+    B.A. in Automation   Automation Department                      
+
+
+    PROFESSIONAL EXPERIENCE                                                                  
+    Oct.2012 – Present     System software engineer in Routon Co. Ltd.                      Wuhan
+    Research for STB products containing of DVB, IPTV, HD resolution and platform which takes high performances, low power and technology readiness level into account. 
+    Act as a main engineer in "Routon H1" product.
+    Establish software platform to improve development speed by using nfs server, qemu ubuntu-arm binary tools.
+    Develop GCC toolchain including hardware float point accesslator for cross-compiler in the product to obviously  improve software performance 
+    Troubleshoot on Linux system crash problems in product, which are caused by Linux kernel exclusion lock not working well and memory access error in hardware.
+    Associate application software porting to new platform.
+    Sep.2010 – Oct.2012      SOC system engineer In Beijing
+    Researched some high performance DSP products for the next generation, including TI C66xx, ADI TS203, Freescale MPC8641D which focus on pipleline, FFT performance, float-point format, register size and count, ISA, SIMD instruction, IO, hardware accelerate units, proprietary modules, cache strategy, booting sequence, etc.
+    Ported Linux kernel and bootloader to Openrisc soc system. 
+    Fixed some difficult bug on instruction cache coherence, TLB fetch lock.
+    Install EDA tools and manage license server.
+    Sep.2008 – Sep.2010    IC front-end engineer in Loongson Co. Ltd , Beijing 
+    Godson1 SOC project
+    Simulated test suite on RTL and Gate-level with timing.
+    Developed pin multiplexing in three custom-draft package.
+    Developed test plain for die and chip test, solve problems in chip test.
+    MIPS CPU with two issue, out of order feature.
+    Developed verification platform of processor interface with AHB and AXI. 
+    SOC verification, include RTL simulation, function coverage analysis, FPGA platform verification, timing analysis, gate-level simulation.
+    Participated in CPU design based on MIPS32 micro-architecture developed random instruction verification platform.
+    Participate in Design of Loongson-2F Southbridge Chip.
+    Mainly responsible for USB IP integration, including function verification in system level and FPGA hardware verification.
+    Developed LPC (Low Pin Count) interface in Northbridge using Verilog HDL, and accomplish functional and timing simulation.
+    Simulated whole system and debugged.
+    LTE SOC project
+    Developed AXI interface crossbar , AXI multiplexer and AXI to AHB (axi2ahb) bridge.
+    Integrated the top-level of LTE interconnection that include two application processors, four DSP processors, 2 axi2ahb bridge and 4x4, 4x5, 4x6 axi crossbars.
+    Evaluated LTE die size and power consume in 65nm process.
+
+
+    SKILLS                                                                 
+    Programming Language: C、C++、Java、Perl、Python、Lisp
+    EDA tools: vcs、debussy(verdi)、dc、pt、pp、modelsim、formality
+    Unix tools: shell、vim、emacs、git、wiki、lex、yacc
+    Interface standards: nand、emmc、smartcard（7816）、sd/sdio/mmc、usb、ddr、axi/ahb/apb
+    Software platform: Unix/Linux、Windows、Android
+
+I

@@ -1,0 +1,22 @@
+
+原理 
+    基于 ruby
+
+常用命令
+    brew update search install uninstall list
+
+安装路径 brew --cache  
+    /Library/Caches/Homebrew  
+
+如何安装？
+如何卸载？
+cd `brew --prefix`
+rm -rf Cellar
+brew prune
+rm `git ls-files`
+rm -r Library/Homebrew Library/Aliases Library/Formula Library/Contributions
+rm -rf .git
+rm -rf ~/Library/Caches/Homebrew
+
+能不能迁移
+
