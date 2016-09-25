@@ -1,0 +1,28 @@
+
+介绍
+	产品简介: 定义，能干什么，用在哪
+	典型应用
+	参考其他厂商产品，特性PK
+	特性
+需求定义
+	基本功能
+		功能定义 
+		外观结构 Switch+Extender
+		软件实现
+		硬件实现
+	技术参数
+		功能
+		参数配置
+	名词解释
+
+状态
+
+CLI parser
+https://github.com/yourskp/Generic-Routines/blob/master/UART%20CLI/CLI.c
+https://github.com/ColinBrosseau/AVR-UART-Parse-exemple/blob/master/main.c
+https://github.com/hsylx1992/UartParser/blob/master/UartParser.c
+
+
+https://github.com/paulcuth/esp8266-cli
+
+
