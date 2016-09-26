@@ -1,0 +1,12 @@
+
+[[web.server]]
+
+推送技术
+	polling
+	comet, ajax, http1.1 keepAlive
+	html5, sse websocket
+
+应用
+	web
+	app
+	weixin

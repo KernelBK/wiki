@@ -1,0 +1,16 @@
+
+`default_nettype none 
+
+module test_default_nettype(
+input wire a1,
+input wire a2,
+output wire c1
+ );
+
+assign cl=a1&a2;
+endmodule
+
+如果不加`default_nettype none,就检查不出错误来，c1和cl分不开，只报一个warning;
+
+加了之后，就会报错；
+

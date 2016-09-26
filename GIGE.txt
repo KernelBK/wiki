@@ -1,0 +1,9 @@
+
+
+GigE Vision是一种基于千兆以太网通信协议开发的相机接口标准。
+自动化成像协会（The Automated Imaging Association，AIA）
+
+ GigE 交换机
+
+
+

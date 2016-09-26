@@ -1,0 +1,68 @@
+
+基础功能
+	标示符(identifie) 关键字(keyword)
+	注释(comment)
+	数据类型 变量直接量 运算符类型转换
+	指针 空指针 null
+	语句(statement) 控制流 数据流 顺序 分支 循环 块(block) 申明 定义
+	表达式(expression)
+	名字空间(namespace) 作用域
+	程序入口
+
+面向对象OO 
+	类(class) 对象(object)
+		final
+	抽象类(abstract class)
+	接口(interface)
+	内部类(inner class) 静态内部类(static inner class) 局部内部类(local inner class)
+	属性
+		成员(member) 
+		方法(method, function)
+		静态
+		super this new
+构造 继承构造器(inheriting constructor) 	初始化块(initialize block)
+	访问控制
+	继承
+		重写/重载（Overload）
+	反射 自省 (reflection, type introspection)
+
+函数 方法 (function, method)
+	尾部递归(tail recurssion)
+	传名参数(by-name parameter)
+	变长参数
+	参数 递归(recurssion) 重载 覆盖
+	特殊方法: 构造器(constructor) 析构器(destructgor) 初始化(initialization) 拷贝
+	消息传递 函数调用
+
+内存管理(memory management)
+    GC
+	ARC
+    对象的内存分布
+
+类型系统 
+	数值的类型 对象的类型 类型的类型
+	类型检查 编译（静态） 运行（动态）
+	强类型 弱类型
+	推断类型（鸭子类型，duck typing)
+	多态(polymorphism) 静态：重载，模板。动态：虚函数，抽象类，覆盖。
+	头等(first class)
+
+封装 
+
+性能
+
+语法糖
+
+Java特有
+	注释
+		@Override @Deprecated @SupressWarnings
+		@SafeWarargs
+		@FunctionalInterface
+		@Retention @Target @Documented @Inherited
+		package import 包
+	JVM
+	interface 特质(trait) 封装 抽象类 多继承
+	抽象类(abstract class) 封装
+	枚举 
+	final 访问限制
+	

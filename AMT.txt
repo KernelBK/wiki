@@ -1,0 +1,5 @@
+
+Intel AMT其全称为INTEL Active Management Technology(英特尔主动管理技术)
+
+Manageability Developer Tool Kit
+

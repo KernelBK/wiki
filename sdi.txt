@@ -1,0 +1,5 @@
+
+altera
+	https://www.altera.com/products/intellectual-property/ip/interface-protocols/m-alt-sdi.html#Getting-Started
+
+

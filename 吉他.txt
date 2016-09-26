@@ -1,0 +1,33 @@
+guitar
+
+C调 音阶图
+	362573 mi la re so xi mi EADGBE
+
+弦 品
+扫弦
+变调夹 capo
+	
+拨片
+节拍器
+
+
+
+
+六线谱
+	最下面一条线 代表吉他的第六根弦 
+	对应指法
+	数值 品格 表示按第几品 
+
+品牌
+	gibson epiphone fender ibanze prs
+
+
+练习
+	爬格子
+		音阶 
+		[[野蜂飞舞]]
+	轮指 
+		带轮 扫轮 满轮
+	
+teacher
+	济南老刘 刘继强

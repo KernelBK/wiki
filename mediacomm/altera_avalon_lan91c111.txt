@@ -1,0 +1,32 @@
+
+ucos 的关系
+
+ipport.h
+
+/eda/altera/ip/altera/sopc_builder_ip/altera_avalon_lan91c111
+
+./altera_avalon_lan91c111_hal_sw.tcl
+./altera_avalon_lan91c111_ucosii_sw.tcl
+./class.ptf
+./files
+./HAL/inc/altera_avalon_lan91c111.h
+./inc/altera_avalon_lan91c111_regs.h
+./UCOSII/inc/altera_avalon_lan91c111.h
+./UCOSII/inc/iniche/altera_avalon_lan91c111_iniche.h
+./UCOSII/inc/iniche/s91_port.h
+./UCOSII/inc/iniche/smsc91x.h
+./UCOSII/src/component.mk
+./UCOSII/src/iniche/smsc91x.c
+./UCOSII/src/iniche/smsc_mem.c
+./UCOSII/src/iniche/smsc_phy.c
+
+
+.LAN91c111的时钟信号要求20MHz
+配置IP地址
+
+
+自带网络接口芯片
+
+[[../tt_qsys_design]]
+
+运行Simple Socket Server实验 

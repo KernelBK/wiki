@@ -1,0 +1,14 @@
+
+qK6Fv8fE6W
+
+ubuntu 
+	tasksel, lamp, tomcat
+
+echo %date:~0,10%.%time:~0,4% > d:\version.h
+
+树莓派性能调研
+
+web服务器模式提供服务 调研
+
+郭工带人来面试
+

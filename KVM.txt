@@ -1,0 +1,13 @@
+
+Keyboard（键盘）、Monitor（Video）（显示器）、Mouse（鼠标）
+
+8 Port KVM Switch即是用一组键盘、显示器和鼠标可控管8台电脑
+快速热键(Hot Key)、选择菜单(OSD)、广播指定(Broadcasting)等
+SOHO型KVM、企业级KVM、高端KVM
+
+KVM的领域，也已经扩展到串口设备，如集线器、路由器、储存设备及UPS等
+事件记录、远程电源管理、多层次使用者权限安全管理、环境警示系统、Cat5电缆线
+
+Keyboard Video Switch (KVS)
+
+touchscreens

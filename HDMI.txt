@@ -1,0 +1,19 @@
+
+有效显示数据选通信号DE、行同步信号HS、场同步信号VS
+
+DVI 接口只能传输24bit 的RGB 信号，而HDMI 接口可以传输YCbCr444、YCbCr422、RGB 数据、可以是24bit、30bit、36bit 等，同时能传输多路音频和其他数据。
+
+High Definition Multimedia Interface
+可同时传送音频和影像信号，最高数据传输速度为4.5GB/s
+
+HDMI线缆制造商在销售和宣传HDMI 1.4版标准线缆时，禁止使用版本号标识
+DDWG(Digital Display Working Group)数字显示工作组
+Silicon Image
+
+InfoFramesare
+HDMI = DVI + Audio
+
+虽然FPGA支持各类标准的LVDS信号，但并不与TMDS完全兼容，因此我们通常使用HDMI收发芯片实现HDMI的传输，这类HDMI芯片与FPGA端的接口通常是一组并行总线
+
+ADV7513
+

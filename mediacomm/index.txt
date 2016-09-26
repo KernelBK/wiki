@@ -1,0 +1,37 @@
+
+BAE 
+空管
+
+todo 
+	nios/fes版本的license
+	lan91c111接口 	
+		bus, ping, telnet
+		带宽测试
+		官方benchmark程序
+	lpddr
+	图像
+
+联调 外设
+网络模块 [[altera_avalon_lan91c111]]
+
+http://bbs.ednchina.com/BLOG_ARTICLE_3023746.HTM
+一路视频多显示器显示
+
+[[info]]
+
+产品
+	光口
+	dvi
+	fpga
+	../edid
+	[[../图像处理]]
+		缩放
+		切分
+		画中画
+
+	主控板 IO板
+	HID
+	切面切换 快捷键控制 软件图形界面控制
+
+people
+	fpga

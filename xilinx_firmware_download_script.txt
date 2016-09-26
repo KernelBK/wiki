@@ -1,0 +1,13 @@
+
+setMode -bs
+setMode -bs
+setMode -bs
+setMode -bs
+setCable -target "digilent_plugin DEVICE=SN:210512180081 FREQUENCY=30000000"
+Identify -inferir 
+identifyMPM 
+assignFile -p 1 -file "system_top.bit"
+Program -p 1 
+quit
+
+

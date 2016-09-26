@@ -1,0 +1,3 @@
+
+ElfImp: ../sdk/system/Debug/system.elf
+ElfSim: ../sdk/system/Debug/system.elf

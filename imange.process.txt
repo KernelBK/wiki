@@ -1,0 +1,43 @@
+
+缩放  
+
+插值 
+	双立方插值
+	双线性插值
+
+	基于四个相关点的最近邻插值算法
+	有二阶线性运算参与的双线性插值算法
+
+	最近邻(Near) 领域差值
+	双线性(Biline)
+	双三次(Bcubic)
+	CCI
+
+CCI
+WLI
+
+基于边界
+基于区域
+
+偏微分
+分形 
+小波
+
+移动 超界
+http://blog.chinaunix.net/uid-22915173-id-2185545.html
+
+
+平滑 锯齿 模糊
+
+图像质量评估
+	PSNR 峰值信噪比
+	边缘模糊度 越小越清晰
+	等级和脉冲噪声 占总像素的比例
+
+
+分辨率
+	4k 4096×2160 
+	2048*1080
+
+altera
+	http://www.alterawiki.com/wiki/Video_Framework_Design_Examples 

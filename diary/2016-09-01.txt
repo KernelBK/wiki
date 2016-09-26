@@ -1,0 +1,9 @@
+
+
+printf("invoke: %s\n", __FUNCTION__);
+printf("in : %s\n", __FUNCTION__);
+
+tcpdump -s 0 host 192.168.2.22
+
+simple socket server ¹Ø±Õ DHCP_CLIENT
+

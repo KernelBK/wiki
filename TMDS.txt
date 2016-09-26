@@ -1,0 +1,6 @@
+
+过渡调制差分信号，也被称为最小化传输差分信号
+TMDS:Transition Minimized Differential signal
+[[HDMI]]
+
+

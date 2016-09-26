@@ -1,0 +1,17 @@
+
+mail http://mail.s806.com/index.aspx solvery@MediaComm.com.cn mail2016
+
+wifi mediacomm@317.com
+
+ssh 192.168.2.101
+yang shurumima1 
+
+windows passwd yaowu
+
+wifi mediacomm@317.com
+
+Red Hat Enterprise Linux Server release 6.8 (Santiago)
+LSB Version:	:base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarch
+Linux linux705 2.6.32-642.el6.x86_64 #1 SMP Wed Apr 13 00:51:26 EDT 2016 x86_64 x86_64 x86_64 GNU/Linux
+
+

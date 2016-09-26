@@ -1,0 +1,18 @@
+
+Nios2-IDE中设定使用静态IP。并在Simple Socket Server.h中修改自己所需的IP，子网掩码，网关。然后在Simple Socket Server.c中，将IPV4那个宏文件等号右面内容再用圆括号括一次。之后在PC机端进行telnet就OK了。(我用的EDS是8.0版本的)
+Simple Socket Server默认是从NorFlash中读取MAC地址，但由于我是自己设计的电路板，所以MAC地址我也是直接在network utiltiy.c(文件名记不清了)给它定义了一组值，省事
+
+mac地址，ip地址， 生成，保存
+	flash的一个地址
+
+nor flash 地址空间
+
+lan91c111驱动
+
+跑起nios ucos, cyclone3 starter kit
+
+讨论lan91c111网络问题
+
+下载quartus 91
+
+

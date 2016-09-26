@@ -1,0 +1,16 @@
+
+[[../edid]]
+
+?
+图像 缩放 opencores.org
+https://github.com/sisong/demoForHssBlog/tree/master/ZoomDemo
+http://blog.csdn.net/housisong?viewmode=contents
+http://blog.csdn.net/lzy272942518/article/details/46663233
+https://github.com/dtysky/FPGA-Imaging-Library
+https://github.com/VerticalResearchGroup/miaow
+http://dtysky.moe/tag/FPGA-Imaging-Library
+
+
+
+
+开会，讨论图像显示缩放的方案的

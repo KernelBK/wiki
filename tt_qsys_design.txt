@@ -1,0 +1,7 @@
+
+
+qsys 具有subsystem组织模块的能力，不像edk一样都出都是连线，复用能力更强。
+cpu 
+system console
+
+仿真

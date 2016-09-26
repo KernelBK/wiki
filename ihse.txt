@@ -1,0 +1,38 @@
+
+Draco KVM matrix switches
+
+对手 方案
+	IP 无法及时切换，网络有要求
+	avocent
+	adder
+	Thinklogical 透传
+		带宽，cat-x 混合匹配
+		视频压缩
+	
+
+术语
+	OSD (On Screen Display)
+	extender  
+	chassis
+	冗余 redundancy
+	Extender System
+	[[KVM]] KVMP
+	IPMI
+	[[AMT]]
+	缩放 scale
+
+接口
+	hdmi
+	[[coax]]
+	sdi [[3g-sdi]]
+	[[OPS]]
+
+产品
+	做减法
+	升级
+	多地点故障转移功能
+	KVMP
+	红外控制
+	
+
+creates a superior workflow control arrangement

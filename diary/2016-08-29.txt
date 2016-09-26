@@ -1,0 +1,26 @@
+
+装系统，eda工具，modelsim, quartus, matlab
+图像处理，缩放，了解需求，调研论文。
+
+熟悉quartus开发环境。
+
+
+
+时钟 频率 ddr, 控制器
+资源 cy3 cy5
+phy, cy5
+技术支持
+demo
+
+elvis@avant-pek.com
+
+elvis
+	您好好，我们刚刚通过电话，我们公司需要一个Altera上使用的LPDDR控制器IP，通过（https://www.alma-technologies.com/ip-core.DDR-SDRAM-CTRL ）了解到你们代理这个IP，我想知道一些关于LPDDR控制器IP的更多参数细节，希望你能够发一份资料给我，谢谢。
+
+
+开会
+
+联调 外设
+网络模块 altera_avalon_lan91c111
+
+

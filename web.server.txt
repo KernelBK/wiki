@@ -1,0 +1,114 @@
+
+性能测试 performance
+	ab
+
+动态
+
+Web服务器包括Nginx，Apache，IIS
+应用服务器包括WebLogic，JBoss
+
+long poll, ajax轮询
+
+嵌入式web服务器
+	lighttpd
+	thttpd
+	shttpd
+	BOA
+	
+
+[[java.applet]]
+
+[[web.application.framework]]
+
+[[cgi]]
+[[php]]
+
+分布式架构的演进
+	lamp
+	引用， 数据，文件分离
+	使用缓存
+	应用服务器集群
+	数据库读写分离
+	反向代理，CDN加速; 原理上都是缓存
+	业务分库，分表
+
+	业务系统分成不同的产品线，引用之间通过超链接、消息队列、数据库建立关系；
+
+[[distributed.computing]] 分布式系统
+corba
+soa
+soap
+[[esb]]
+[[protobuf]]
+epe.333
+	
+模式
+	事件流 
+		冒泡 捕获
+
+你的应用做得越大，框架提供给你的东西就越少；
+
+搭配
+	[[lamp]], linux apache mysql php
+	[[lnmp]]
+	LNMPA(Nginx/MySQL/PHP/Apache)
+	j2ee
+	asp.net, windows.server sql.server iis, stackoverflow 
+	[[mean]], [[MongoDB]] Express, Angular, node.js
+	wampserver, apache MySQL php sqlbuddy
+	xampp
+
+web框架；
+	Spring 事务管理
+	[[rest]]
+	[[restlet]]
+	[[ruby.on.rails]] 快速原型
+	sinatra
+	Quixote
+	ASP.NET.Web.API
+	merb
+	nitro
+	camping
+	apache
+	fastCGI
+	WSGI
+	Bottle
+	Flask
+	[[node.js]]
+		express.js
+		jquery
+		bootstrap
+		MongoDB
+		MySQL
+		json
+		ejs
+		jquery.ui
+		[[html]] html5
+		backbone.js
+
+
+j2ee
+	servlet	主要是java代码，使用out.write() html代码
+	jsp 在html中加入java代码, 页面充当了过多的角色
+	mvc	jsp作为制图，servlet作为控制器，JavaBean作为模型；
+
+
+apache 
+[[nginx]] 
+tengine
+
+tools
+	[[code.snippets]]
+
+app
+	[[whatsapp]]
+
+[[web2.0]]
+	ajax
+	html
+	css
+	[[dom]]
+	xml
+
+w3school
+

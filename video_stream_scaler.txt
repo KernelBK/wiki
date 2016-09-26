@@ -1,0 +1,13 @@
+
+Scales streaming video up or down in resolution. Bilinear and nearest neighbor
+modes are supported.
+
+Run-time adjustment of input and output resolution, scaling factors, and scale
+type. 
+
+Very slight numerical errors (+0/-2 LSb) in output data due to coefficient arithmetic.
+Impossible to notice without adjustment in video levels. Attempted to fix by setting
+coeff11 to 1.0 - other coefficients, but this caused timing issues.
+
+[[default_nettype]]
+

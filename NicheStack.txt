@@ -1,0 +1,15 @@
+
+Zero data copy for ultra-fast performance
+Standard sockets interface
+Raw socket support
+Non-blocking versions of all functions
+Versatile MSS and window options
+Connections limited only by memory availability
+Optional optimized assembly language checksum routines
+"Predictive" header processing for speed
+Nagle algorithm (slow start)
+VJ smoothed round-trip timing
+Delayed ACKs
+BSD style "keepalive" option
+Complete debugging and optimization module
+

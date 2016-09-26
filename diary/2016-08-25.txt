@@ -1,0 +1,22 @@
+
+仿真一个scale工程
+
+图像缩放模块中，raw格式的文件用什么工具查看，如何生成？
+
+matlab图像矩阵格式，三维，第三维代表RGB
+raw图像格式，RGB,888=24bit,连续存放
+
+图像仿真需要内存大, 调整虚拟机内存6G
+
+关闭windows虚拟内存
+
+matlab读取图像产生modelsim图像仿真的输入数据，modelsim仿真通过文件读取数据，仿真结果写入文件。
+仿真过程中，文件以流数据的形式读取和写入，避免一次读入，照成过多的内存压力。
+
+Demosaic (Bilinear)
+
+altera, test pattern generator
+
+基带芯片
+
+
