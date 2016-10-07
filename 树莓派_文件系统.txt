@@ -9,9 +9,17 @@ https://github.com/imccie/rasp_pi_backup/blob/master/build_back.sh
 https://github.com/SirLagz/RaspberryPi-ImgAutoSizer/blob/master/autosizer.sh
 https://github.com/raspberrypi/piclone
 
+http://www.fendou.info/raspberry-pi-sd-card-backup-and-recovery/
 
 http://blog.csdn.net/talkxin/article/details/50456282 内部生成镜像
 http://blog.csdn.net/talkxin/article/details/50464313
+    [[loop设备]]
+    [[kpartx]]
+    [[parted]]
+    mkfs.vfat
+    mkfs.ext4
+    [[dump.restore]]
+
 
 apt-get install omxplayer
 omxplayer -o hdmi /path/to/filename.mp4
