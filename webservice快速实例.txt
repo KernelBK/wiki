@@ -1,0 +1,9 @@
+
+服务和平台无关，异构的跨品台服务
+
+[[wsdl]]
+wsimport 
+
+HyperSnap 
+Mindjet MindManager
+
