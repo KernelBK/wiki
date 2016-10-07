@@ -1,6 +1,10 @@
 xilinx [[mig]]
 [[mig_7series_v1_9_ddr3_7Series]]
 
+ddr3 最大 burst ?
+	BurstLength，BL
+	1, 2, 4, 8 or Full page for Sequential Burst, Interleave Burst
+
 页突发模式
 full-page burst
 

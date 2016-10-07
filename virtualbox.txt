@@ -1,4 +1,6 @@
 
+使用快照恢复后，如果想保留备份，一定要再进行一次快照
+
 VBoxManage startvm ubuntu15 --type headless
 VBoxManage startvm ubuntu64_eda --type headless
 VBoxManage startvm ubuntu14.04_64 --type headless

@@ -1,4 +1,12 @@
 
+sil9013 sil9134 需要i2c配置
+ddr3接口带宽
+
+[[视频参数]]
+YCbCr RGB
+
+Saelae
+
 BAE 
 空管
 

@@ -9,3 +9,17 @@ CH7301C
 RTL8211
 
 [[hdmi]]
+
+top 
+	video_pro
+		vin_pro
+			clipper to ddr
+		vout_pro
+			ddr to scaler to output
+			vout_frame_buffer_ctrl
+			scaler
+	vout_display_pro
+	mem_ctrl
+	video_check
+	scaler_K_gen
+	vin_rgb_pro
