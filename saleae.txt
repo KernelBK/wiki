@@ -1,1 +1,5 @@
 http://www.saleae.com
+
+pip install saleae
+
+

@@ -1,4 +1,16 @@
 
+两台虚拟机通过串口进行连接
+	管道名称必须设置如下格式：specifying the pipe name in the format: \\.\pipe\<pipe_name>
+
+完成路径
+"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe"
+
+修改硬盘大小
+
+硬盘文件复制后使用需要生成一个新的uuid
+"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe"  internalcommands sethduuid 
+
+
 VBoxManage startvm ubuntu15 --type headless
 VBoxManage startvm ubuntu64_eda --type headless
 VBoxManage startvm ubuntu14.04_64 --type headless
@@ -12,6 +24,8 @@ cat /dev/zero > zero.fill; sync; rm -f zero.fill; sync
 
 VBoxManage modifyhd  VDI文件名 或 UUID --compact
 "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" modifyhd xxx.vdi --compact
+
+"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" clonehd xxx.vdi --format vhd
 
 "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" startvm ubuntu-10.04.4-desktop-amd64 --type headless
 

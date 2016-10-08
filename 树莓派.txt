@@ -1,0 +1,23 @@
+
+http://www.raspberrypi.com/mpeg-2-license-key/
+
+ubuntu https://ubuntu-mate.org/raspberry-pi/
+	
+
+wifi 
+
+不休眠
+关于树莓派HDMI输出的屏幕休眠和唤醒的问题
+创建文件: /etc/profile.d/Screen.sh
+文件内容:
+xset dpms 0 0 0
+xset s off
+chmod +x /etc/profile.d/Screen.sh
+
+源码交叉编译，镜像打包
+
+systemctl disable getty@ttyAMA0.service
+
+开机自启动
+
+分辨率 mode 2 82
