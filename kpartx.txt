@@ -1,0 +1,9 @@
+
+fdisk
+
+使用 kpartx 命令读取分区表信息
+如果映像文件(.img)含有分区表，使用kpartx挂载分区
+    kpartx -av hd.img
+    kpartx -dv /dev/loopX 卸载
+
+mount 用于挂载文件系统

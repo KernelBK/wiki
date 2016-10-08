@@ -1,0 +1,30 @@
+
+    input[11:0] h_fp,                 /*行同步前肩 */
+    input[11:0] h_sync,               /*行同步 */
+    input[11:0] h_bp,                 /*行同步后肩 */
+    input[11:0] h_active,             /*行有效像素 */
+    input[11:0] h_total,              /*行总周期（像素时钟） */
+    input[11:0] v_fp,                 /*场同步前肩（行）*/
+    input[11:0] v_sync,               /*场同步（行）*/
+    input[11:0] v_bp,                 /*场同步后肩（行） */
+    input[11:0] v_active,             /*场有效行 */
+    input[11:0] v_total,              /*场总行 */
+    output hs,                        /*行同步输出 */
+    output vs,                        /*场同步输出 */
+    output de,                        /*视频有效输出*/
+    output[7:0] rgb_r,                /*视频输出R分量 */
+    output[7:0] rgb_g,                /*视频输出G分量 */
+    output[7:0] rgb_b,                /*视频输出B分量 */
+
+parameter H_ACTIVE = 16'd1920;
+parameter H_FP = 16'd88;
+parameter H_SYNC = 16'd44;
+parameter H_BP = 16'd148;
+parameter V_ACTIVE = 16'd1080;
+parameter V_FP  = 16'd4;
+parameter V_SYNC  = 16'd5;
+parameter V_BP  = 16'd36;
+
+
+parameter H_TOTAL = H_ACTIVE + H_FP + H_SYNC + H_BP;
+parameter V_TOTAL = V_ACTIVE + V_FP + V_SYNC + V_BP;

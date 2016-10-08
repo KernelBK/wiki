@@ -1,0 +1,6 @@
+
+[[SOAP]] Simple object access protocol
+
+type 
+message
+portType

@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 两台虚拟机通过串口进行连接
 	管道名称必须设置如下格式：specifying the pipe name in the format: \\.\pipe\<pipe_name>
 
@@ -10,6 +11,9 @@
 硬盘文件复制后使用需要生成一个新的uuid
 "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe"  internalcommands sethduuid 
 
+=======
+使用快照恢复后，如果想保留备份，一定要再进行一次快照
+>>>>>>> ded333decbde4d9a503795451907cc6c0a2fdbf3
 
 VBoxManage startvm ubuntu15 --type headless
 VBoxManage startvm ubuntu64_eda --type headless

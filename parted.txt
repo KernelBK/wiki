@@ -1,0 +1,11 @@
+
+使用Parted来进行分区
+
+sudo parted raspberrypi.img --script -- mklabel msdos
+sudo parted raspberrypi.img --script -- mkpart primary fat32 8192s 122879s
+sudo parted raspberrypi.img --script -- mkpart primary ext4 122880s -1
+
+第一个分区为boot分区，采用FAT32格式，由sector 8192开始到sector 12879 
+第二个分割区采用EXT4，由sector 122880开始到空白img结尾。
+
+
