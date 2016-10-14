@@ -1,0 +1,5 @@
+
+edk\__xps
+edk\hdl
+edk\implementation
+edk\synthesis

@@ -1,0 +1,4 @@
+
+uart 
+lpddr讨论原理会
+CON缩放调研

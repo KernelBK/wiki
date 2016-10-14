@@ -1,0 +1,8 @@
+
+简单服务发现协议（SSDP，Simple Service Discovery Protocol）是一种应用层协议，是构成通用即插即用(UPnP)技术的核心协议之一。
+
+M-SEARCH方法发送“ssdp:discover”消息
+
+NOTIFY方法发送“ssdp:alive”消息
+NOTIFY方法发送“ssdp:byebye”
+

@@ -1,0 +1,5 @@
+
+HDCP（High -bandwidth Digital Content Protection）：高带宽数字内容保护技术。
+认证显示设备的密钥
+
+https://github.com/rjw57/hdcp-genkey
