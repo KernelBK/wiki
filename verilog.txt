@@ -1,3 +1,6 @@
+
+一定要注意线宽 
+
 [[systemverilog]]
 [[Clifford E. Cummings经典论文合集]]
 

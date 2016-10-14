@@ -19,6 +19,7 @@ http://blog.csdn.net/talkxin/article/details/50464313
     mkfs.vfat
     mkfs.ext4
     [[dump.restore]]
+	[[rsync]]
 
 
 apt-get install omxplayer

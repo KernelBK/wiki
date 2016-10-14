@@ -21,3 +21,5 @@ systemctl disable getty@ttyAMA0.service
 开机自启动
 
 分辨率 mode 2 82
+/boot/config.txt
+

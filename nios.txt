@@ -1,4 +1,6 @@
 
+D:\altera\13.1\nios2eds
+
 Creating Memory Initialization Files
 1. nios ii Command Shell
 1. cd xxx; make mem_init_generate

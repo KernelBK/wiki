@@ -1,4 +1,6 @@
 
+burst长度是否能够任意？
+
 [[ddr3]]
 
 OCD Off Chip Driver
