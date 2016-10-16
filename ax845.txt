@@ -28,6 +28,29 @@
         不同的输入帧数
         
     仿真平台
+    性能指标    
+        帧率
+        2k, 4k
+        ddr 带宽
+
+模块划分，地址，配置参数
+base_addr, frame_addr
+
+    vin（vin_width, vin_height)
+    vout( vout_width, vout_height)
+    clipper (vin_width, vin_height, clip_(top, left) vout_width, vout_height))
+    scaler (vin_width, vin_height, vout_width, vout_height)
+    
+    timing_gen_xy
+    layer_blend(top, left, width, height, alpah
+
+clock domain，跨时钟域部分全部设计在存储接口内部
+    vin_pixel_clk, mem_clk
+    mem_clk, vou_pixel_clk
+    图像数据流接口，性能不足的时候需要填充数据
+    配置参数，修改的时候冻结画面，打两拍 
+
+编码 RGB888
 
 视频宽度缩放比例 = s_width * 256 / t_width
 
