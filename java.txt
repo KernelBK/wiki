@@ -1,4 +1,8 @@
 
+http://mirrors.neusoft.edu.cn/eclipse/technology/epp/downloads/release/neon/1a/eclipse-java-neon-1a-macosx-cocoa-x86_64.tar.gz
+http://mirrors.ustc.edu.cn/eclipse/technology/epp/downloads/release/neon/1/
+
+
 网上很多例子是没法使用的，比如List list新的java不支持，需要使用List<String> list;
 
 spec
