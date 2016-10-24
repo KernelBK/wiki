@@ -1,4 +1,6 @@
 
+只显示匹配的内容 -h no filename
+
 -l 只显示匹配的文件名
 
 grep 

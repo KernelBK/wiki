@@ -1,3 +1,20 @@
+
+ll /eda/matlab/sys/os/glnxa64/libstdc++.so.6
+
+/eda/matlab/extern/examples/compiler
+
+matlab 多任务
+
+error
+	./gen: /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.15' not found (required by /eda/matlab/bin/glnxa64/libmwi18n.so)
+	strings /usr/lib/libstdc++.so.6 | grep GLIBCXX
+	strings /usr/lib64/libstdc++.so.6 | grep GLIBCXX
+
+
+python 
+	cd "matlabroot/extern/engines/python"
+	python setup.py install
+
 matlab web server
 
 3M数学计算语言（Matlab、[[Mathematica]]、[[Maple]]）
@@ -18,7 +35,7 @@ matlab -nodesktop -nosplash
 # c call matlab
 *.m的函数导出的名称前面都有 mlf*， 函数的首字母被大写了。
 
-mex mcc
+mex [[mcc]]
 mathematica
 maple
 

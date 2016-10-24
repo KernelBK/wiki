@@ -3,10 +3,9 @@ mail http://mail.s806.com/index.aspx solvery@MediaComm.com.cn mail2016
 
 wifi mediacomm@317.com
 
-ssh 192.168.2.101
-yang shurumima1 
+ssh 192.168.2.101 yang shurumima1 
 
-windows passwd yaowu
+windows passwd baidua
 
 wifi mediacomm@317.com
 

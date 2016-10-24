@@ -1,4 +1,9 @@
 
+apt-get 下载包路径
+
+ubuntu 显示鼠标坐标
+	xdotool getmouselocation
+
 sudo apt-get remove libreoffice*.*
 sudo apt-get purge
 sudo apt-get autoremove
