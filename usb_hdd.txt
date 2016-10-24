@@ -1,0 +1,7 @@
+
+USB-HDD （即 USB Hard Drives 的缩写，硬盘模式），是一种硬盘仿真模式。
+
+“USB Storage Legacy Support”或“USB Storage Function”这样的选项并设置为“Enabled”。
+
+
+

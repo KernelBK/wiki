@@ -1,6 +1,12 @@
 
+<<<<<<< HEAD
 逆向工程
 	http://www.oschina.net/news/32803/6-java-to-uml-tools
+=======
+http://mirrors.neusoft.edu.cn/eclipse/technology/epp/downloads/release/neon/1a/eclipse-java-neon-1a-macosx-cocoa-x86_64.tar.gz
+http://mirrors.ustc.edu.cn/eclipse/technology/epp/downloads/release/neon/1/
+
+>>>>>>> d966ac01d9b6f7d594e41b808df8d450ac30d81c
 
 网上很多例子是没法使用的，比如List list新的java不支持，需要使用List<String> list;
 

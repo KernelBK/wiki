@@ -1,0 +1,9 @@
+
+[[usb_hdd]]
+
+dell服务器poweredge t430 u盘启动
+
+"开机时，按下F12，这就进了BIOS。然后选择ADVANCED BIOS FEATURES,进去后有:HARD DISK BOOT PRIMARY，然后进去选择USB HDD就可以了。"
+
+http://jingyan.baidu.com/article/19020a0a396b6e529d2842cb.html
+
