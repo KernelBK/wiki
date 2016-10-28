@@ -1,0 +1,11 @@
+
+https://en.wikipedia.org/wiki/Data_Matrix#Standards
+
+[[Patent]] 
+
+iec16022
+
+zxing
+
+技术支持 744956646
+

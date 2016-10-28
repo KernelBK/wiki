@@ -1,3 +1,13 @@
+[[info]]
+
+nios
+	memory, onchip, sdram
+	ucos, 
+
+
+协议
+	内嵌 1b数据, 无转义
+	尾端
 
 sil9013 sil9134 需要i2c配置
 ddr3接口带宽
@@ -25,7 +35,6 @@ todo
 http://bbs.ednchina.com/BLOG_ARTICLE_3023746.HTM
 一路视频多显示器显示
 
-[[info]]
 
 产品
 	光口

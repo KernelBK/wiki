@@ -1,4 +1,6 @@
 
+[[objcopy]] 
+
 build 
 	gmp, mpfr, mpc建立一个连接在gcc目录下就可以，不需要每个都编译。
 

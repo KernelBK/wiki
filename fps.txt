@@ -1,0 +1,6 @@
+
+每秒传输帧数(Frames Per Second)
+
+
+刷新率
+

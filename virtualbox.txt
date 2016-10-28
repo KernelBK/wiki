@@ -1,4 +1,6 @@
 
+VBoxManage closemedium disk
+
 <<<<<<< HEAD
 两台虚拟机通过串口进行连接
 	管道名称必须设置如下格式：specifying the pipe name in the format: \\.\pipe\<pipe_name>

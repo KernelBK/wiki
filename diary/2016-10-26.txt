@@ -1,0 +1,9 @@
+
+[[../sscom]]
+[[../qt]]
+
+locale.Error: unsupported locale setting
+export LC_ALL=C
+
+[[../sscom]]
+

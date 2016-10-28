@@ -1,0 +1,10 @@
+
+[[noobs]]
+
+omxplayer -o hdmi video.mp4
+
+[[树莓派_文件系统]]
+[[树莓派]]
+
+物联网
+CPU限制频率

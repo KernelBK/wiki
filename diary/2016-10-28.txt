@@ -1,0 +1,6 @@
+
+
+评估datamatrix和扫描枪 
+重装系统
+
+[[../datamatrix]]
