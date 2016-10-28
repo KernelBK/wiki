@@ -1,4 +1,6 @@
 
+[[noobs]]
+
 omxplayer -o hdmi video.mp4
 
 [[树莓派_文件系统]]

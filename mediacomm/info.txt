@@ -1,13 +1,12 @@
 
 
 
-wifi mediacomm@317.com
+wifi mediacomm mediacomm@317.com
 
-ssh 192.168.2.101 yang shurumima1 
+ssh 192.168.2.101 yang  y12345
 
 windows passwd baidua
 
-wifi mediacomm@317.com
 
 Red Hat Enterprise Linux Server release 6.8 (Santiago)
 LSB Version:	:base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarch

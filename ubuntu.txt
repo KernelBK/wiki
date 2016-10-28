@@ -1,4 +1,9 @@
 
+ubuntu root login
+	vi /usr/share/lightdm/lightdm.conf.d/50-ubuntu.conf
+	greeter-show-manual-login=true 
+
+
 apt-get 下载包路径
 
 ubuntu 显示鼠标坐标

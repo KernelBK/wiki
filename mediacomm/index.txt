@@ -1,3 +1,4 @@
+[[info]]
 
 nios
 	memory, onchip, sdram
@@ -34,7 +35,6 @@ todo
 http://bbs.ednchina.com/BLOG_ARTICLE_3023746.HTM
 一路视频多显示器显示
 
-[[info]]
 
 产品
 	光口

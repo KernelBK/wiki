@@ -1,4 +1,13 @@
 
+
+
+apt-get install build-essential libfontconfig1 mesa-common-dev 
+
+qt4
+qt5
+
+https://www.qt.io/download-open-source/
+
 [[signal.slot]]
 
 DirectUI
