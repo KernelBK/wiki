@@ -1,5 +1,6 @@
 
-
+QML
+QtQuick 2.0
 
 apt-get install build-essential libfontconfig1 mesa-common-dev 
 

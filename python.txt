@@ -1,4 +1,41 @@
 
+lang
+    lib
+        file
+        sys
+        os
+        re
+    pyqt
+        俄罗斯方块
+
+结合python
+    xilinx ise 
+        http://old.myhdl.org/doku.php/projects:ise_py:xilinx_py
+        http://old.myhdl.org/doku.php/projects:ise_py
+        xilperl
+    rpi
+    altera 
+    uart 
+    嵌入式 Micro Python
+    
+
+ide 
+    PyCharm
+    Spyder
+    vs ptvs python tools for visual studio
+    eclipse
+        pydev
+    wing
+    ninja
+        
+[[ipython]]
+    distribution
+    pyreadline
+
+    maya pyqt
+
+翔艺特效系列教程
+
 二进制处理struct.unpack
 
 python print 不换行

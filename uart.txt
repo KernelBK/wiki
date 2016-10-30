@@ -1,3 +1,15 @@
+
+
+如果不想使用root权限，需要将串口设备，比如/dev/ttyUSB0权限设666。
+[[sscom]]
+[[格西烽火]]
+
+https://github.com/kangear/sscom qt5    
+    这个人还有 网路协议调试助手 https://github.com/kangear/NetAssistant
+    
+https://github.com/ninehills/serialtool qt4
+https://github.com/wenhuix/COMDBG C# vs2010
+
 用户使用的是市场常见的USB转串口接头，连接后操作系统默认的是COM4（或其他），但该设备要求必须使用COM1口，如何修改？
 
 [http://support1.lenovo.com.cn/lenovo/wsi/htmls/detail_12608722044535045.html]

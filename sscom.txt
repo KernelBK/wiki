@@ -2,4 +2,7 @@
 linux version
 
 https://github.com/kangear/sscom
+    qt linux版本
+    其中有一个分支
+    
 
