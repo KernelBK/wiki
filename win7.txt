@@ -1,4 +1,7 @@
 
+win7 任务栏 文件名 相对路径
+	打开一个文件夹 点工具-文件夹选项-查看 把在标题栏显示完整路径勾掉 确定
+
 锁屏背景
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\Background
