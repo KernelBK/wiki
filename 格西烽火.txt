@@ -1,0 +1,8 @@
+
+格西烽火是一款多功能的基于串口和网口的通信测试软件，能够快捷地定制任意通信规约，主要解决电子研发过程中调试和测试软件定制化过多的问题。
+
+http://www.geshe.com/zh-cn/support/product-help/gbeacon/50-gbeacon-quickstart-opvideo
+视频
+
+
+

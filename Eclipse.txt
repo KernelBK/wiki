@@ -1,9 +1,9 @@
 
+http://help.eclipse.org/neon/index.jsp
 java uml diagram
 	http://www.oschina.net/news/32803/6-java-to-uml-tools
 
 安装插件
-
 
 breakpoint, property, log actions可以在断点的时候打印数据。
 

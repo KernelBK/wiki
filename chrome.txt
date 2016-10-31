@@ -1,3 +1,5 @@
+
+[[chrome_bookmark]]
 [[chromium]]
 
 chrome://flags/
