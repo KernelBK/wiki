@@ -1,0 +1,10 @@
+
+Diskpart
+List disk
+
+
+dism.exe /Apply-Image /ImageFile:flash.ffu /ApplyDrive:\\.\PhysicalDrive2 /SkipPlatformCheck
+dism.exe /Apply-Image /ImageFile:flash.ffu /ApplyDrive:\\.\PhysicalDrive2 /SkipPlatformCheck
+
+dism.exe /Apply-Image /ImageFile:flash.ffu /ApplyDrive:\\.\PhysicalDrive1 /SkipPlatformCheck
+

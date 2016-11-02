@@ -1,4 +1,6 @@
 
+[[raspberrypi_win10]]
+
 [[noobs]]
 
 omxplayer -o hdmi video.mp4

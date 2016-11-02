@@ -1,3 +1,6 @@
 
+[[4K对齐]]
+[[as_ssd_benchmark]]
+
 http://www.360doc.com/content/15/0313/16/175820_454855613.shtml ssd寿命测试
 

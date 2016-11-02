@@ -1,0 +1,9 @@
+
+class 0：包括低于class 2和未标注speed class的情况； 
+class 2：能满足观看普通MPEG4 MPEG2 的电影、sdtv、数码摄像机拍摄，速度为2MB/s； 
+class 4：可以流畅播放高清电视（hdtv），数码相机连拍等需求，速度为4MB/s； 
+class 6：满足单反相机连拍和专业设备的使用要求，速度为6MB/s；
+class10：满足更高速率要求的存储需要，速度为10MB/s。
+600X：速度为99MB/s。
+UHS-I：表示支持UHS（Ultra High Speed，超高速）接口，其带宽达到104MB/s
+

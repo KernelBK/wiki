@@ -1,0 +1,10 @@
+
+   Source:               vout_display_pro_m0/layer_blend_m0/alpha_blend_m0/Mmult_back_ground_0_8b_delay_1[7]_alpha_n_8b[7]_MuLt_13_OUT (DSP) 
+   Destination:          vout_display_pro_m0/layer_blend_m0/alpha_blend_m0/Maddsub_front_ground_0_8b_delay_1[7]_alpha_8b[7]_MuLt_10_OUT (DSP) 
+   Requirement:          6.734ns 
+   Data Path Delay:      8.867ns (Levels of Logic = 0) 
+
+
+Mmult_back_ground
+addsub_front_ground
+

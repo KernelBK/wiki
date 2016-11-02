@@ -1,12 +1,16 @@
 
+[[anaconda]] 
+winpython
+
 lang
     lib
         file
         sys
         os
         re
-    pyqt
+    [[pyqt]] pyqt5 
         俄罗斯方块
+	pygtk3
 
 结合python
     xilinx ise 

@@ -1,4 +1,6 @@
 
+QtCreator里集成了QtDesigner搜索，QtCreator里有：Editor, Assistant, Designer, Debuger。
+
 QML
 QtQuick 2.0
 

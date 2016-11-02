@@ -1,4 +1,6 @@
 
+[[altera_quartus_download]]
+
 [[JAM]]
 
 

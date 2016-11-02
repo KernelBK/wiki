@@ -1,4 +1,6 @@
 
+[[wubi]]
+
 ubuntu root login
 	vi /usr/share/lightdm/lightdm.conf.d/50-ubuntu.conf
 	greeter-show-manual-login=true 

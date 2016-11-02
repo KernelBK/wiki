@@ -1,4 +1,6 @@
 
+[[ax845_timing]]
+
 完成的工作  
     hdmi图像输入
     HDMI图像输出

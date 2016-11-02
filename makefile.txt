@@ -1,3 +1,6 @@
+
+判断目录是否存在 test -d xxx || (do xxx)
+
 [[make]] 
 
 
