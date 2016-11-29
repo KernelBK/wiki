@@ -1,4 +1,18 @@
 
+不进入图形界面
+	/etc/default/grub
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash text"
+update-grub
+
+
+
+/etc/rc.local
+update-rc.d xxx defaults
+update-rc.d xxx remove
+
+[[ubuntu_network_interfaces]]
+
 [[wubi]]
 
 ubuntu root login

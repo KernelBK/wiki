@@ -1,4 +1,7 @@
 
+启动
+	./baidu/.config/mate/panel2.d/default/launchers/sscom-1.desktop
+
 http://www.raspberrypi.com/mpeg-2-license-key/
 
 ubuntu https://ubuntu-mate.org/raspberry-pi/

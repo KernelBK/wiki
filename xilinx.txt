@@ -1,4 +1,10 @@
 
+xilinx map
+	http://blog.csdn.net/pigyyf/article/details/45344807
+
+timing, cost table
+	https://www.xilinx.com/support/answers/22921.html
+
 
 [[xilinx/index]]
 

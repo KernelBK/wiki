@@ -1,0 +1,6 @@
+
+  ºÏ²¢  
+
+imagex /export E:\asus.swm * /ref E:\*.swm E:\install.wim
+
+[[imagex]]

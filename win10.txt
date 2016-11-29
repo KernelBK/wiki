@@ -1,9 +1,15 @@
 
+
+
+禁用升级 服务 windows update 
+禁用索引 服务 windows search
+禁用休眠 powercfg -h off
+无线受限 http://jingyan.baidu.com/article/fc07f98900807812ffe519ad.html
+
 虚拟桌面
 
 窗口贴靠（Snap）
-【Win键 + LEFT / RIGHT】：调节窗口位置
-【Win键 + UP / DOWN】：调节窗口位置
+Win键+左/右/上/下】：移动应用窗口
 
 Win 键+ TAB
 
@@ -11,9 +17,8 @@ Win键+E】：打开文件管理器 win7
 
 Win键+I】：打开Windows 10设置 
 
-【Win键+X】：打开高级用户功能
+【Win键+X】：打开高级用户功能 star
 
-Win键+左/右/上/下】：移动应用窗口
 
 【Win键+Ctrl+D】：创建一个新的虚拟桌面
 【Win键+Ctrl+左/右】：切换虚拟桌面

@@ -1,0 +1,10 @@
+
+
+
+安装dell 7040ssf 
+	第一遍 安全引导不支持
+	修改bios，windows缺少文件
+	u盘安装不能识别u盘
+
+	lengency+mbr
+	uefi+gtp

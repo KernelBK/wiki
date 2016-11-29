@@ -1,4 +1,10 @@
 
+python -m SimpleHTTPServer
+	py3  python -m http.server
+
+vim tab 设置
+	set expandtab
+
 [[anaconda]] 
 winpython
 

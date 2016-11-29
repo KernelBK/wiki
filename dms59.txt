@@ -1,0 +1,12 @@
+
+dms-59
+
+https://en.wikipedia.org/wiki/DMS-59
+https://en.wikipedia.org/wiki/DMS-59#/media/File:DMS59_pinout.svg
+http://pinoutguide.com/Video/dms_59_pinout.shtml
+
+Dual Monitor Solution, 59 pins
+
+DMS59之所以未能普及并成为互连标准，一定程度上是因为版权所有者Molex公司收取的的授权费过高，不过随着显卡价格的大跃进，技术授权费所占的比例已经很小，DMS59卷土重来也并非不可能。 
+
+[[HDCP]]

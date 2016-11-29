@@ -1,4 +1,12 @@
 
+
+命令行运行函数
+	matlab -r "func(1)"
+	-r    运行matlab cmd命令，多条命令相互用分号或逗号隔开
+
+lcm函数用于求最小公倍数 gcd函数用于求最大公约数
+
+
 ll /eda/matlab/sys/os/glnxa64/libstdc++.so.6
 
 /eda/matlab/extern/examples/compiler

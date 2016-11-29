@@ -1,3 +1,15 @@
+
+iic是否起作用
+27M时钟, lock
+157M时钟, lock
+timing constraint
+1080p
+资源评估 cy4 cy5
+nios
+
+编译 15.1仿真库 
+
+
 mediacomm/index
 
 [[双创周]]

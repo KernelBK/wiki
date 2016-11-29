@@ -1,4 +1,28 @@
 
+缩放 scaler
+	scaler_k_h     = (clipper_width << 8)/vout_t_width;
+	scaler_k_v     = (clipper_height << 8)/vout_t_height;	
+p /x (960<<8)/1920
+p /x (540<<8)/1080
+
+/*
+	.layer2_top	      (12'd0),
+	.layer2_left    (12'd0),
+	.layer2_width   (12'd0),
+	.layer2_height  (12'd0),
+	.layer2_alpha   (8'h0),
+	.layer2_rdreq(),
+	.layer2_ycbcr(24'h0),
+	
+	.layer3_top	      (12'd0),
+	.layer3_left    (12'd0),
+	.layer3_width   (12'd0),
+	.layer3_height  (12'd0),
+	.layer3_alpha   (8'h0),
+	.layer3_rdreq(),
+	.layer3_ycbcr(24'h0),
+*/
+
 [[ax845_timing]]
 
 完成的工作  

@@ -1,0 +1,7 @@
+
+D:\altera\quartus-15.1.0.185\quartus\bin64\gcl_afcq.dll.bak
+D:\altera\quartus-15.1.0.185\quartus\bin64\dllsys_cpt.dll.bak
+
+
+gcl_afcq.dll|sys_cpt.dll
+

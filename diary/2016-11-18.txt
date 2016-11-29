@@ -1,0 +1,12 @@
+
+工程整理
+	nios工程； iic是否起作用； 27M时钟, lock； 157M时钟, lock； 时钟约束； 资源评估 cy4 cy5
+1080p
+
+report 
+	杂活，配置交换机登录；密码password
+	安装服务器
+	dms59输出彩条；i2c
+
+[[../dms59]]
+

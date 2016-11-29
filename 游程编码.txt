@@ -1,0 +1,6 @@
+
+游程编码（RLC, Run Length Coding）
+常见的游程编码格式包括TGA，Packbits，PCX以及ILBM。
+
+[[编码]]
+

@@ -1,4 +1,5 @@
 
+http://dl.altera.com/13.1/?edition=standard&platform=linux&download_manager=direct
 http://dl.altera.com/14.1/?edition=subscription&download_manager=direct&platform=linux
 http://dl.altera.com/15.1/?edition=standard&platform=linux&download_manager=direct
 
