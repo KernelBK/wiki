@@ -1,4 +1,25 @@
 
+[[version]]
+
+downlaods
+http://mirrors.ustc.edu.cn/eclipse/technology/epp/downloads/release/neon/1/
+http://www.eclipse.org/downloads/packages/all
+
+新建工程，类，test
+自动格式化，全选，右键，source, foramt; ctrl+shift+f
+	格式化的规则, windows, preferences, java, code style, foramtter
+
+生成 setter, getter 方法
+	变量，邮件，source, generate getters and setters
+
+代码模板，alt+/, windows, preferences, java, editor, templates
+	导入，导出
+
+自动引入包
+整理引入类，右键，source，
+
+断点调试, debug/java 透视图
+
 http://help.eclipse.org/neon/index.jsp
 java uml diagram
 	http://www.oschina.net/news/32803/6-java-to-uml-tools
@@ -7,3 +28,4 @@ java uml diagram
 
 breakpoint, property, log actions可以在断点的时候打印数据。
 
+[[java]]

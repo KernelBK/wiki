@@ -11,6 +11,6 @@ keywords
 	transient
 	volatile
 	assert
-	package
+	[[package]]
 	import
 
