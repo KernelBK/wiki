@@ -1,0 +1,14 @@
+
+ http://blog.chinaunix.net/uid-22028680-id-3042341.html java package
+ 	package好比java用来组织文件的一种虚拟文件系统。
+	.java和.class不是一对一，而是一对多的关系，不过.java和public的类是一对一的。所有这些.class，都由这个.java开头的package语句来确定自己在package中的位置。
+	package xx.bb.aa; 必须把这个.java文件放在xx目录下bb目录下的aa目录里面
+	如果一个.java文件没有任何package语句，那么这个.java里面的所有类都在package的"/"下面，也称之为default package。
+
+	classpath在java里面是被一个叫做classloader的东西所使用的
+	appclassloader -cp,-classpath
+	extclassloader
+	bootstrap classloader
+
+	import只是一种让你偷点懒少打字的方法，绝对不会影响你的classpath
+
