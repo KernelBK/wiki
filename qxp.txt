@@ -1,0 +1,4 @@
+
+QuartusII的qxp文件为QuartusII Exported Partition，用于创建综合或者PAR之后的网表文件。
+
+

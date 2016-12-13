@@ -7,9 +7,13 @@ update-grub
 
 
 
+开机启动
 /etc/rc.local
 update-rc.d xxx defaults
 update-rc.d xxx remove
+/etc/xdg/autostart
+gnome-session-properties
+ 
 
 [[ubuntu_network_interfaces]]
 

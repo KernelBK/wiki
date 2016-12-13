@@ -1,4 +1,12 @@
 
+[[org]]
+java 
+	util 
+	[[ResourceBundle]]
+
+[[TeraTool_lib]]
+[[TeraTool_package]]
+
 Inner Classes
 
 keywords
