@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 [[org]]
 java 
 	util 
@@ -6,6 +7,12 @@ java
 
 [[TeraTool_lib]]
 [[TeraTool_package]]
+=======
+[[gradle]]
+[[build.path]]
+[[jar]]
+[[network]]
+>>>>>>> origin/master
 
 Inner Classes
 
@@ -19,6 +26,6 @@ keywords
 	transient
 	volatile
 	assert
-	package
+	[[package]]
 	import
 

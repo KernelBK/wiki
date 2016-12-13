@@ -1,0 +1,6 @@
+
+GA（AenerallyAvailable）版，意思就是基本上可以使用了
+milestone（里程碑）版
+Release Candidates（RC发行候选）版
+Service Release（SR版）
+

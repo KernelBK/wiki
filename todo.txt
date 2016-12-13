@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 iic是否起作用
 27M时钟, lock
 157M时钟, lock
@@ -9,6 +10,13 @@ nios
 
 编译 15.1仿真库 
 
+=======
+xilinx mig 
+
+opengl
+ssh ken gen
+centos server
+>>>>>>> origin/master
 
 mediacomm/index
 
