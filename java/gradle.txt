@@ -1,3 +1,8 @@
 
  http://www.jdon.com/idea/javaproject-gradle.html
 
+https://docs.gradle.org/current/userguide/java_plugin.html
+
+  GRADLE_HOME 
+   Path，%GRADLE_HOME%\BIN;
+
