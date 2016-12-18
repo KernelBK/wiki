@@ -1,4 +1,16 @@
 
-  GRADLE_HOME 
-   Pathё╛%GRADLE_HOME%\BIN;
+-b xx.gradle
 
+[[maven]]
+ant
+
+[[groovy]]
+
+GRADLE_HOME 
+%GRADLE_HOME%\BIN;
+
+build.gradle д╛хоеДжцнд╪Ч
+
+task helloWorld << {
+	println ""
+}

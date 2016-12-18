@@ -1,0 +1,5 @@
+
+
+snappy 是一个压缩库
+Google用于许多内部项目程，其中就包括BigTable，MapReduce和RPC。
+
