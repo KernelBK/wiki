@@ -1,0 +1,10 @@
+
+quartus 15.1sp2windows版本可以打开altpll, linux版本不行 
+
+
+http://www.ckdz.com/en/content/?324.html videowall layer
+
+文档
+
+移动文件到服务器
+board dms59cpu

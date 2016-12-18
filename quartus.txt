@@ -1,4 +1,8 @@
 
+[[qxp]]
+qsf
+qpj
+
 windows 
 path D:\altera\12.0\quartus\bin64
 lunch file:///D:\altera\12.0\quartus\bin64\quartus.exe

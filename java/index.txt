@@ -1,10 +1,27 @@
 
+<<<<<<< HEAD
 [[awt]]
 
+=======
+jp2launcher
+
+[[decompiler]]
+
+<<<<<<< HEAD
+[[org]]
+java 
+	util 
+	[[ResourceBundle]]
+
+[[TeraTool_lib]]
+[[TeraTool_package]]
+=======
+>>>>>>> origin/master
 [[gradle]]
 [[build.path]]
 [[jar]]
 [[network]]
+>>>>>>> origin/master
 
 Inner Classes
 

@@ -1,0 +1,10 @@
+
+cyclone V 需要使用altera_pll不能用altpll, 只能5M到700M
+
+sii1178需要控制才能输出视屏信号
+系统时钟分配
+
+gige 转data，valid格式 
+先把高速模块加入，约束好时钟，然后加入逻辑
+
+仿真1080p彩条

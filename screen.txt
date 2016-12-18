@@ -1,3 +1,5 @@
 
 替代品 [[Tmux]]
 
+查看当前screen的名字 
+	echo $STY 

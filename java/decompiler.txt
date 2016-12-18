@@ -1,0 +1,9 @@
+
+Select a decompiler 
+  CFR (supports Java 8)
+  JDCore (very fast)
+  Jadx, fast and with Android support
+  Procyon
+  Fernflower
+  JAD (very fast, but outdated)
+

@@ -1,0 +1,9 @@
+
+xilinx ddr 
+仿真 
+http://blog.csdn.net/lg2lh/article/details/51176015
+
+原因是Modelsim 10.1c以后的版本才引入2902这个error，，之前的版本这个只是个警告，Xilinx官方的解释解释把这个error这个错误忽略掉。利用-suppress 2902。注意如果你当前是Modelsim 10.1c以后版本，则一定要添加-suppress 2902，之前的就不要添加了
+
+-suppress 2902
+

@@ -1,4 +1,28 @@
 
+svn+ssh
+
+忽略文件	
+	svn propset svn:ignore "*.jpg"
+	svn propset svn:ignore -F ignorelist.txt .
+	svn proplist 
+	svn pg svn:ignore         # pg 是 propget 的缩写
+
+限制提交文件大小
+
+限制提交注释字数 
+
+指定用户名 
+	svn --username=
+
+svnadmin create repo_name
+svnadmin create --compatible-version 1.6 repo_name
+
+svnserve -d -r /workspace/svn_repos
+
+（svn默认使用3690端口）：netstat -an | grep 3690
+
+updaterc.d svnd.sh
+
 [[svn_server]] 服务器
 [[code_subversion]]
 
