@@ -1,4 +1,16 @@
 
+JUnit
+TestNG
+
+compile
+编译源文件是需要的依赖。
+runtime
+运行时需要的依赖
+testCompile
+编译测试源文件是需要的依赖
+testRuntime
+运行测试时需要的依赖
+
 jp2launcher
 
 [[decompiler]]
