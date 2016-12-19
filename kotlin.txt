@@ -1,0 +1,10 @@
+
+jvm
+
+jetbrains
+
+ https://www.zhihu.com/question/25289041
+
+
+与Scala有根本设计思路上的不同, Scala是一切尽量自己来, 实在不够用了再用java的; Kotlin是尽量用Java的, 不够用了再扩展,
+	

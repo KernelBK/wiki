@@ -1,3 +1,5 @@
 
+jar cvf xxx.jar dir
+
 http://www.wikihow.com/Create-an-Executable-File-from-Eclipse
 

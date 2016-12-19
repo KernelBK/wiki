@@ -25,7 +25,7 @@
 	[[JVM.language]]
 		Groovy JRuby Scala [[Clojure]]
 	[[c.sharp]]
-
+	[[kotlin]]
 模型
 	event.stream.processing
 	[[livestream]]

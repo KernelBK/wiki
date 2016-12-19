@@ -1,0 +1,3 @@
+
+SWT（Standard Widget Toolkit）标准窗口部件库，不包含于JDK中，需要从Eclipse单独下载
+
