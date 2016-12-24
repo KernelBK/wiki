@@ -1,0 +1,3 @@
+
+SNTP:简单网络时间协议 (SNTP:Simple Network Time Protocol)SNTPV4 由 NTP 改编而来
+

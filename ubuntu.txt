@@ -1,4 +1,11 @@
 
+字体
+vim /var/lib/locales/supported.d/local
+	zh_CN.GBK GBK
+	zh_CN.GB2312 GB2312
+	zh_CN.GB18030 GB18030
+dpkg-reconfigure  locales
+
 不进入图形界面
 	/etc/default/grub
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"

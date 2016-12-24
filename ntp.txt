@@ -1,0 +1,13 @@
+
+[[sntp]]
+
+NTP是网络时间协议(Network Time Protocol)
+世界协调时UTC
+
+精度
+在局域网内可达0.1ms，在互联网上绝大多数的地方其精度可以达到1-50ms。
+
+UTC（Universal Time Coordinated，世界协调时）
+
+v3
+校正

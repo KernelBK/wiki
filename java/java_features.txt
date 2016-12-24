@@ -1,0 +1,38 @@
+
+java.lang.String类是final类型的，因此不可以继承这个类、不能修改这个类。
+	StringBuffer
+Java为每个原始类型提供了封装类。
+	int 和 Integer 有什么区别
+	对象引用实例变量的缺省值为 null，而原始类型实例变量的缺省值与它们的类型有关。
+HashMap是Hashtable的轻量级实现（非线程安全的实现）
+final, finally, finalize的区别
+ArrayList,Vector, LinkedList的存储性能和特性
+	ArrayList和Vector都是使用数组
+	LinkedList使用双向链表实现存储
+	Vector线程安全
+sleep() 和 wait() 
+	wait是Object类的方法，对此对象调用wait方法导致本线程放弃对象锁，进入等待此对象的等待锁定池
+
+overload override overwrite
+	返回值的类型
+	override：覆写是对接口方法名实现
+	overload：重载 同一个类里同一个方法名，有不同入参
+	overwrite：重写 重写父类所属方法
+同步 异步 阻塞 非阻塞
+Static Nested Class 和 Inner Class
+
+javac –verbose查看运行类是加载了那些jar文件
+javap查看字节码 
+
+值传递
+
+= 是赋值操作,改变内存状态的操作,
+	参数传递本质就是一种 = 操作
+
+三种主流的JVM(JDK) SUN、BEA和IBM
+
+final
+inner
+enum
+abstract 
+interface

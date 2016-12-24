@@ -1,8 +1,0 @@
-
-Abstract Window Toolkit (AWT)
-
-[[swing]]
-javaFX
-
-Secen Builder
-[[swt]]

@@ -1,0 +1,5 @@
+
+Linux finger命令可以让使用者查询一些其他使用者的资料
+
+finger [options] user[@address]
+

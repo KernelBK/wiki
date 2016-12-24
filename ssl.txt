@@ -1,3 +1,9 @@
 
 SSL 是安全套接层(Secure Socket Layer)，
+传输层安全（Transport Layer Security，TLS
+
+http://www.ruanyifeng.com/blog/2014/09/illustration-ssl.html
+
+openssl [[x509]] crt cer key csr ssl tls
+
 

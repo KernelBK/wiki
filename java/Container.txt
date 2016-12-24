@@ -1,0 +1,7 @@
+
+能保存java的对象的类
+
+Java容器类包含List、ArrayList、Vector及map、HashTable、HashMap
+Java的容器类主要由两个接口派生而出：Collection和Map。
+
+

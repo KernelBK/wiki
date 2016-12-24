@@ -1,3 +1,4 @@
 
-轻量目录访问协议 Lightweight_Directory Access Protocol 
 
+轻量目录访问协议 Lightweight_Directory Access Protocol 
+基于X.500标准

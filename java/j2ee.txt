@@ -1,0 +1,5 @@
+
+Java 2 Platform,Enterprise Edition
+
+提供基于组件的方式来设计、开发、组装和部署企业应用
+
