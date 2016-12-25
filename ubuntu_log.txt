@@ -1,0 +1,7 @@
+
+/var/log/*
+
+/etc/syslog.conf
+
+/var/log/auth.log  -µÇÂ¼ÈÏÖ¤log
+

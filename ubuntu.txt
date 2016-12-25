@@ -1,4 +1,11 @@
 
+ethtool
+[[netstat]]
+ifstat
+
+[[ubuntu_log]]
+[[ufw]]
+
 不进入图形界面
 	/etc/default/grub
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
