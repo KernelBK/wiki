@@ -1,0 +1,23 @@
+
+晚上开会，讨论如何和gaojianqiang交代工作
+
+java面试
+	语言，深拷贝，浅拷贝
+	算法，排序，
+	数据结构
+	网络
+	同步异步 
+	常识，开发，调试，考虑哪些问题
+	字符串
+
+
+gaojianqiang任务	
+	java相关：
+	sdkman, marven, gradle
+	awt, swing
+	network, socket, snmp, 串口
+    Netbeans, Eclipse RCP
+	其他软件
+	nios, ucos, 嵌入式tcp/ip协议(nichestack)
+	项目相关
+	网络抓包工具

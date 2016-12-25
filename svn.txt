@@ -1,4 +1,6 @@
 
+[[StatSVN]]
+
 svn+ssh
 
 忽略文件	

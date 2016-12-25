@@ -1,0 +1,11 @@
+
+../src/dec/decoder.v
+../src/dec/ph_pos.v
+../src/dec/ph_dec.v
+../src/dec/dec_top.v
+../ipcore/buf/rx_fifo.v
+../ipcore/buf/rxfifob.v
+../src/dec/ph_pre.v
+../src/dec/ph_pre0.v
+../ipcore/mult/mult8.v
+

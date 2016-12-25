@@ -1,3 +1,6 @@
+java\index
+java\TeraTool_lib
+TeraTool_lib
 mediacomm\index
 
 <<<<<<< HEAD

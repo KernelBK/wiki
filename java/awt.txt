@@ -1,3 +1,27 @@
 
+AWT中的两个核心类是Container（容器）和Component类
+
+Container
+	Window
+	Panel,  Panel对象可作为容纳其他Component对象
+
+Component对象不能独立显示出来，必须放在某一Container对象中才可以显示出来。 
+
+事件实现过程中产生的对象：事件、事件源、监听器
+
+        FlowLayout：浮动布局管理器
+        BorderLayout：边框布局管理器
+        GridLayout：网格布局管理器
+       CardLayout：卡片布局管理器
+       GridBagLayout：网格包布局管理器
+
 https://pavelfatin.com/low-latency-painting-in-awt-and-swing/
 
+
+Abstract Window Toolkit (AWT)
+
+[[swing]]
+javaFX
+
+Secen Builder
+[[swt]]

@@ -1,4 +1,12 @@
 
+网络协议和rfc对应关系查询
+
+网络字节序与主机字节序
+ipc
+socket
+线程安全
+linux 64b地址分布
+
 import 和include相比已经是最好的模块管理机制吗？
 jvm, virtual machine, doctor, qemu 虚拟化和运行时环境是如何交互的
 

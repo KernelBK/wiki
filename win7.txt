@@ -1,4 +1,9 @@
 
+netsh interface ip set address name="本地连接" source=static addr=192.168.2.8 mask=255.255.255.0 gateway=192.168.2.1
+netsh interface ip set address name="本地连接" source=static addr=192.168.1.8 mask=255.255.255.0 gateway=192.168.1.1
+
+msconfig
+
 win7 任务栏 文件名 相对路径
 	打开一个文件夹 点工具-文件夹选项-查看 把在标题栏显示完整路径勾掉 确定
 

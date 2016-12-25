@@ -1,0 +1,4 @@
+
+J2SE是Java 2 standard edition是Java的标准版,用于标准的应用开发
+
+

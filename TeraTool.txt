@@ -1,4 +1,24 @@
 
+
+de/ihse/draco/tera/datamodel/datacontainer/MatrixData.java
+
+hidswitch
+
+./de/ihse/draco/tera/datamodel/TeraConstants.java
+
+[[ldap]]
+[[TeraTool_lib]]
+
+files.socket
+
+network
+	./org/apache/commons/net/SocketClient.java
+    grepj -l "Socket "  .
+    grepj -l "Virtual"  .
+
+SystemConfigData
+	NetworkBits
+
 files.java
 files.properties
 
