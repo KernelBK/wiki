@@ -1,4 +1,8 @@
 
+id²»¶Ô
+
+small library
+
 D:\altera\13.1\nios2eds
 
 Creating Memory Initialization Files

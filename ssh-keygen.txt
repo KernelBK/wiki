@@ -1,5 +1,5 @@
 
-ssh-keygen -t rsa -b 4096 -C "solvery@163.com"
+ssh-keygen -t rsa -b 2048 -C "mediacomm"
 
 ssh-keygen -t rsa -b 1024 -C "yaowu" -N yangyaowu -f yangyaowu
 
