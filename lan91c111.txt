@@ -1,0 +1,21 @@
+
+system.h
+
+/*
+ * lan91c111 configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_lan91c111 altera_generic_tristate_controller
+#define LAN91C111_BASE 0x20000
+#define LAN91C111_IRQ 2
+#define LAN91C111_IRQ_INTERRUPT_CONTROLLER_ID 0
+#define LAN91C111_IS_ETHERNET_MAC 1
+#define LAN91C111_LAN91C111_DATA_BUS_WIDTH 16
+#define LAN91C111_LAN91C111_REGISTERS_OFFSET 768
+#define LAN91C111_NAME "/dev/lan91c111"
+#define LAN91C111_SPAN 65536
+#define LAN91C111_TYPE "altera_generic_tristate_controller"
+
+xxx.sopcinfo 中的中断号没有正确生成，需要手动修改 system.h
+

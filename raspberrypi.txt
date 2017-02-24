@@ -10,3 +10,4 @@ omxplayer -o hdmi video.mp4
 
 物联网
 CPU限制频率
+

@@ -1,0 +1,48 @@
+
+snmp测试报告主要看了teraSlot* teraPort* teraExtender* TeraPower/Fan等，缺少了teraTrap, 
+
+con usb插件的速度测量，有工具
+dp con 4k图像质量测量
+lici算法在各种简单复杂图像下质量效果评估
+
+音频参数 38.1
+在hdmi内如果有音频，可以在con端分离到模拟音频输出
+    cpu端hdmi有音频，con端的hdmi也有音频
+    cpu端hdmi有音频，con端可以使用数字音频卡输出音频
+    cpu端hdmi有音频，con端可以使用模拟音频卡输出音频
+
+模拟音频扩展卡带有串口
+
+576产品有两个系列，576和576s
+
+vp需要增加专门的宏
+
+ihse
+新的主控板采用linux方案，使用的具体芯片不明确
+新的软件包含usb-hid ghosting
+
+con cpu hdmi环出
+u-switch
+
+hdmi认证，对产品出口的影响
+
+汉化，osd汉化容易，mini osd汉化不容易
+
+权限管理
+
+系列产品型号说明
+
+snmp trap功能
+
+Best Regards,
+CH.Hsu許健宏
+恆智電子有限公司
+Digipro Electronic limited
+深圳市福田區金田路3038號現代國際大廈2706A
+Tel: (755)-82159070
+Fax: (755)-82159075
+
+彭工 2017-02-15 16:34:28
+ASPEED联系人
+
+

@@ -1,4 +1,20 @@
 
+11/F Creative building-B2, No. 162 Science Avenue, Guangzhou Science City,Guangzhou , China
+GUANGZHOU MEDIACOMM TECHNOLOGY Co., Ltd.
+
+MediaComm Electronic Technology Ltd.
+11th Floor, Block B2, Creative building, 
+162 Kexue Ave, Luokan, Huangpu Qu, Guangzhou Shi, Guangdong Sheng, China
+
+中国广州市黄埔区科学城科学大道162号创意大厦B2栋11楼
+
+svn地址 svn://192.168.0.2/svn
+共享服务器地址 \\192.168.0.2\share
+
+pengxiongfei = yui678
+lianghaifeng = wer123
+
+
 广州美凯电子科技有限公司
 
 

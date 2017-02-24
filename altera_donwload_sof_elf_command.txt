@@ -1,0 +1,11 @@
+
+nios2-config-sof *.sof -c USB-Blaster[USB-0]
+
+
+nios2-download *.elf -c USB-Blaster[USB-0] -r -g
+nios2-terminal -c USB-Blaster[USB-0] 
+
+如果只有一条下载线，-c设置可以省略
+
+
+

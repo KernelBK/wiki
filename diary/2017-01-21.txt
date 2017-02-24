@@ -1,0 +1,5 @@
+
+评估 aspeed
+选购4台电脑
+使用独立ip配置raritan的ip kvm，能够在互联网上接入我们的kvm产品，调出osd
+

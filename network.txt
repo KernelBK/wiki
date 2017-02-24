@@ -1,4 +1,22 @@
 
+LLC
+MAC
+PLS
+MII
+RMII
+GRMII
+[[PCS]]
+[[PMA]]
+[[PMD]]
+autoneg
+802.3
+
+编码
+    曼切斯特编码
+    MLT3
+
+[[netflow]]
+
 [[network_tools]]
 
 [[network.programming]]
@@ -9,6 +27,7 @@ network
 rfc
 cs [[p2p]]
 [[router]]
+[[switch]]
 	packet.switching
 	分组
 	转发表

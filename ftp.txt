@@ -1,7 +1,13 @@
+http://www.ibm.com/developerworks/cn/linux/l-cn-socketftp/index.html#FTP
+21 （命令端口）和 20 （数据端口）
+ftp state code/error code list 
 
 gftp
 
 ftppub 172.16.55.90 pub/xxx local/file
 
 文件传送协议FTP (File Transfer Protocol)   rfc.959
+
+
+PORT模式和PASV模式
 

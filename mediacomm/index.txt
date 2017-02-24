@@ -1,14 +1,20 @@
+"D:\work_code\case.svn_cowork\docs\common\DKM产品\DKM\产品点脑图\1.v"
 
+[[供应商]]
+[[Related_company]]
 
+[[web]]
+[[kvm]]
+[[people]]
+[[爱创]]
+[[yangyaowu]]
 
 [[passwd]]
-[[people]]
-j
+mc2016
 
 [[decoder]]
 
 [[svn]]
-[[kvm]]
 [[vp]]
 [[ip]]
 
@@ -18,7 +24,7 @@ j
 
 nios
 	memory, onchip, sdram
-	ucos, 
+	[[ucos,]] 
 
 
 协议

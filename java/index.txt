@@ -1,4 +1,6 @@
 
+
+
 [[javac]]
 
 [[java_features]]
@@ -51,9 +53,10 @@ javax
 	swing
 
 
-
+lib
 [[TeraTool_lib]]
 [[TeraTool_package]]
+ByteArrayOutputStream
 =======
 >>>>>>> origin/master
 [[gradle]]

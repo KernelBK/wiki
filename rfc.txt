@@ -1,0 +1,5 @@
+
+http://man.chinaunix.net/develop/rfc/default.htm
+Request For Comments（RFC），是一系列以编号排定的文件。
+
+

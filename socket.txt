@@ -1,3 +1,9 @@
+一般的 socket 只能读取 transport layer 传输层以上［不含］的数据，raw socket 一般用在设计 network sniffer
+
+http://beej.us/guide/bgnet/
+很远的人会试着 connect() 到你的电脑正在 listen() 的 port
+连接会排队等待被 accept()
+unconnected datagram socket, sendto() 及 recvfrom() 
 
 三元组（ip地址，协议，端口）就可以标识网络的进程
 open—write/read—close

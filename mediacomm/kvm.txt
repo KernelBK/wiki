@@ -1,6 +1,37 @@
 
-安全
-延迟
+产品选型手册
+    不同配置
+产品使用手册
+    功能点
+产品数据手册
+    
+
+kvm
+    产品功能
+    应用方式
+    硬件模块
+    软件模块
+
+产品功能
+    实时
+    人机分离
+    多平台， windows, linux, macos
+    权限分级，分组
+    一机多屏，
+    一人多机， hid switch
+    usb, audio
+    可接入其他系统
+    安全
+    延迟
+
+应用方式
+    config sw + 
+    osd
+
+硬件模块
+
+软件模块
+    syslog
 冗余
 级联
 
@@ -8,3 +39,115 @@
 [[file_format]]
 
 主机 外设
+
+接口
+    1G光纤
+    1G网络
+    3G光纤
+
+用户配置接口 配置方式
+    接入方式
+        osd
+        mini osd
+        快捷键
+        java sw
+    管理内容 
+        con 
+        cpu 
+        ioboard 
+        cpuboard 
+        交换背板
+            总线
+        switch
+
+业务
+    kvm
+        switch
+        级联
+        容错
+    vp
+    ip
+
+switch
+    关系：1:n
+    属性：full access, video only, private
+    user auth
+    hid switch
+
+配置接口    
+cpuboard
+    接口 
+
+产品硬件
+    主机
+        类别，dmc80 compact80
+    con
+    cpu
+
+con
+    类别
+        cy3
+        cy4
+        cy5 
+            dms59
+            双网口
+     实现
+        解码
+        gige
+        hid
+        pic
+        eeprom
+        cypress, usb hid
+
+状态灯  
+    con
+    cpu
+    ioboard
+    cpuboard
+
+i2s
+
+ioboard
+    port管理
+    通讯 cpuboard con cpu
+    hid
+    ucos
+    update
+        校验
+
+ucos
+
+update
+    msd
+        文件格式
+    网络
+        文件格式
+
+syslog
+    开机，关机
+    接入，osd, usb, network
+    连接，配置
+
+java config sw
+    初始化
+        登录
+        展示
+        查询
+    连接
+    跨屏
+    配置
+        cpu
+        con
+        ext
+        保存 恢复
+        轮询
+        级联
+        备份
+    升级
+    其他协议
+        snmp
+        dhcp
+        ldap
+        ntp
+
+

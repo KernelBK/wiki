@@ -1,4 +1,14 @@
 
 http://www.net-snmp.org/
 
+深入理解net-snmp
+
+监控
+管理
+告警
+
+监控软件
+    nagois
+    zabbix
+    openNMS
 

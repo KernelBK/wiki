@@ -1,0 +1,2 @@
+
+UUID=6c8dc355-305a-42a4-a69e-a79ec4341a92   /trash      ext4    defaults,nobootwait        0       1

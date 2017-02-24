@@ -1,4 +1,17 @@
 
+kvm
+    ioCard
+    nioPic
+    swithc
+    system
+    boardcast
+        set grid master
+        
+ÈÝ´í
+¼¶Áª
+vp
+ip
+
 SNMP Tutorial 
     OpenNMS
 
@@ -41,3 +54,4 @@ Draco KVM matrix switches
 	
 
 creates a superior workflow control arrangement
+

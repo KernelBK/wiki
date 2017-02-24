@@ -1,4 +1,8 @@
 
+HDMI
+    ARC, audio return channel
+    和DP比较
+
 有效显示数据选通信号DE、行同步信号HS、场同步信号VS
 
 DVI 接口只能传输24bit 的RGB 信号，而HDMI 接口可以传输YCbCr444、YCbCr422、RGB 数据、可以是24bit、30bit、36bit 等，同时能传输多路音频和其他数据。

@@ -1,4 +1,6 @@
 
+[[root-system-bin]]
+
 <<<<<<< HEAD
 ethtool
 [[netstat]]
@@ -23,7 +25,7 @@ update-grub
 
 
 
-开机启动
+开机启动 service
 /etc/rc.local
 update-rc.d xxx defaults
 update-rc.d xxx remove
@@ -61,6 +63,7 @@ avoid "S to skip"; /etc/fatab nobootwait
 
 w3m -dump html > txt
 
+disk
 Disk Utility 程序名称 palimpsest
 
 blkid

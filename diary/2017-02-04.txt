@@ -1,0 +1,8 @@
+
+编译iniche网络协议
+开会讨论主机网络协议设计部分
+
+ubuntu熟悉
+nios编译
+nios完成demo
+

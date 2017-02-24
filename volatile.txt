@@ -1,3 +1,7 @@
 
+volatile不会跳过cache
 
-
+( 1 ) 被volatile修饰了的变量的操作不会被编译器优化掉(去除)
+( 2 ) 被volatile修饰的变量, 会强制编译器去每次方位这个变量都直接去访问内存对应存储位置(而不是读寄存器或者cpu cache)
+    uncached address space.
+( 3 )多个被volatile修饰的变量之间的顺序, 不会被编译器优化调换指令顺序

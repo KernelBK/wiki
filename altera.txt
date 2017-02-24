@@ -1,4 +1,7 @@
 
+[[altera_donwload_sof_elf_command]]
+
+
 [[altera_quartus_crack]]
 [[altera_quartus_download]]
 

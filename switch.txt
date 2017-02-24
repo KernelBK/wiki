@@ -1,3 +1,18 @@
 
 [[交换机]]
 
+cisco
+juniper ex-Treme
+港湾网络
+
+
+ethernet_switch
+背板总线和内部交换矩阵
+
+存储转发（Store and Forward ）
+直通交换（Cut—Through ）
+碎片丢弃（Fragmentfree）
+
+最小64字节
+
+

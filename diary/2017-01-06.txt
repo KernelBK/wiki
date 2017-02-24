@@ -1,0 +1,6 @@
+
+提供gaojiangqiang cfr反编译方式
+评估java反编译方式
+包管理 marven, gradle
+
+准备嵌入式面试题

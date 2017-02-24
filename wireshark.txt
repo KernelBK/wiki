@@ -1,3 +1,4 @@
+ip.dst_host == 192.168.2.28
 
 开源
 边抓包边看
@@ -7,3 +8,7 @@
 [[WinPcap]]
 
 http://v.youku.com/v_show/id_XMjIzMzE2Mjky.html?from=s1.8-1-1.2&spm=a2h0k.8191407.0.0
+
+http://jingyan.baidu.com/article/7f41ececede744593c095c79.html
+
+

@@ -8,8 +8,9 @@
 	Chat 的作用：连接之间的数据有交流
 	Proxy 的作用, 既要被动接受连接，也要主动发起连接，既要主动关闭连接，也要被动关闭连接。还要考虑两边速度不匹配
 	
+[[IO多路复用]]
 
-nc 命令
+[[nc]] 命令
 
 [[Foundations.of.Python.Network.Programming]]
 

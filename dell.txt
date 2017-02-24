@@ -4,3 +4,4 @@
 dell_3020ssf
 [[dell_7040mt]]
 
+http://www.dell.com/support/home/cn/zh/cnbsd1/Drivers/OSISO/W764

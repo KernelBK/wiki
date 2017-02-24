@@ -1,0 +1,16 @@
+
+
+可以通过syslog跟踪功能测试的好坏
+
+网络udp, 完成ucos端的udp server, udp broadcast server 以及客户端的测试程序。
+
+网络ldap, snmp
+产品 测试职能
+    计划
+        产品
+        软件
+        硬件
+
+[[../onvif]]
+
+晚上测试

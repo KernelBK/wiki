@@ -1,0 +1,24 @@
+
+http://coolshell.cn/articles/11564.html
+
+程序的数据首先会打到TCP的Segment中，然后TCP的Segment会打到IP的Packet中，然后再打到以太网Ethernet的Frame中
+
+四个元组来表示是同一个连接（src_ip, src_port, dst_ip, dst_port） 
+
+要有等待的地方都可能出现DDoS攻击
+
+拥塞控制主要是四个算法：1）慢启动，2）拥塞避免，3）拥塞发生，4）快速恢复。
+
+SeqNum的增加是和传输的字节数相关的
+TCP重传机制
+SeqNum和Ack是以字节数为单位，所以ack的时候，不能跳着确认，只能确认最大的连续收到的包
+ 超时重传机制
+ 快速重传机制, Fast Retransmit 的算法，不以时间驱动，而以数据驱动重传
+ SACK 方法
+
+RTT——Round Trip Time，也就是一个数据包从发出去到回来的时间。这样发送端就大约知道需要多少的时间，从而可以方便地设置Timeout——RTO（Retransmission TimeOut），以让我们的重传机制更高效。
+
+TCP滑动窗口
+
+TCP共有11个网路状态，其中涉及到关闭的状态有5个。
+
