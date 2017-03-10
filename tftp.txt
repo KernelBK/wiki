@@ -1,4 +1,6 @@
 
+
+
 简单文件传送协议TFTP (Trivial File Transfer Protocol
 
 sudo apt-get install tftpd tftp xinetd 
@@ -12,3 +14,38 @@ apt-get install tftpd-hpa tftp-hpa
 停止
 /etc/init.d/tftpd-hpa stop
 
+Install following packages.
+sudo apt-get install xinetd tftpd tftp
+Create /etc/xinetd.d/tftp and put this entry
+service tftp
+{
+protocol        = udp
+port            = 69
+socket_type     = dgram
+wait            = yes
+user            = nobody
+server          = /usr/sbin/in.tftpd
+server_args     = /tftpboot
+disable         = no
+}
+Create a folder /tftpboot this should match whatever you gave in server_args. mostly it will be tftpboot
+sudo mkdir /tftpboot
+sudo chmod -R 777 /tftpboot
+sudo chown -R nobody /tftpboot
+Restart the xinetd service.
+
+newer systems:
+
+sudo service xinetd restart
+older systems:
+sudo /etc/init.d/xinetd restart
+Now our tftp server is up and running.
+
+Testing our tftp server
+
+Create a file named test with some content in /tftpboot path of the tftp server
+
+Obtain the ip address of the tftp server using ifconfig command
+Now in some other system follow the following steps.
+tftp 192.168.1.2
+tftp> get test

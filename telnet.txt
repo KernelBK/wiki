@@ -1,2 +1,4 @@
 
+
+
 telnetd -l /system/bin/sh

@@ -1,4 +1,6 @@
 
+DisplaySwitch
+
 xcopy /e /y /d 
 
 目录下shift+右键，在此处打开cmd窗口

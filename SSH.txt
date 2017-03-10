@@ -1,3 +1,4 @@
  Struts, Spring, Hibernate
 
 [[ssh-keygen]]
+~/.ssh/authorized_keys

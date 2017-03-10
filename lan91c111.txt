@@ -19,3 +19,14 @@ system.h
 
 xxx.sopcinfo 中的中断号没有正确生成，需要手动修改 system.h
 
+
+               CONSTANT LAN91C111_REGISTERS_OFFSET
+               {
+                  value = "0x0300";
+                  comment = "offset 0 or 0x300, depending on address bus wiring";
+               }
+               CONSTANT LAN91C111_DATA_BUS_WIDTH
+               {
+                  value = "32";
+                  comment = "width 16 or 32, depending on data bus wiring";
+               }

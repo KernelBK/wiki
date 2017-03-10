@@ -1,3 +1,4 @@
+[[DisplaySwitch]]
 
 netsh interface ip set address name="本地连接" source=static addr=192.168.2.8 mask=255.255.255.0 gateway=192.168.2.1
 netsh interface ip set address name="本地连接" source=static addr=192.168.1.8 mask=255.255.255.0 gateway=192.168.1.1

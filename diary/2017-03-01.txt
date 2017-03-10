@@ -1,0 +1,6 @@
+
+IO板卡光口不识别
+
+树莓派的螺丝回来了，没有SD卡
+huang: nios command shell  转换脚本需要在eclipse 下启动才能正常工作。
+

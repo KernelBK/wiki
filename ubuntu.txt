@@ -68,6 +68,7 @@ Disk Utility 程序名称 palimpsest
 
 blkid
 vim /etc/fstab
+[[fstab]]
 
 [[apt-get-install-ubuntu14.04]]
 apt-get install vim exuberant-ctags gawk git-core git-svn samba tftpd ssh subversion

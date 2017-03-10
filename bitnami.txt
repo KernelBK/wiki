@@ -1,0 +1,237 @@
+
+AbanteCart
+Accounting
+ActiveMQ
+Akeneo
+Alfresco Community
+All
+Ametys
+Analytics
+Apache Solr
+Application Security
+Application Server
+BPM
+Backendless Pro
+Binary Repository
+Blog
+Bonita BPM
+Bug Tracking
+Bundles
+Business Intelligence
+CMS
+CMS Made Simple
+CRM
+Cache
+Canvas LMS
+Cassandra
+Chat
+Chyrp
+CiviCRM
+Cloud Tools
+Code Dx
+Code Review
+Codiad
+Collaboration
+Coming soon
+Continuous Integration
+Coppermine
+Cordova
+CouchDB
+Cozy
+CraftBukkit Minecraft
+Database
+DevPack
+Developer Tools
+Diaspora
+Discourse
+Django
+Document Management
+DokuWiki
+Dolibarr
+DreamFactory
+Drupal
+ECM
+ELK
+ERP
+ERPNext
+Eclipse Che
+Elasticsearch
+Email
+EspoCRM
+Fat Free CRM
+Fedena
+Flask
+Following
+Forum
+Framework
+Free Trials
+GLPI (Gestion Libre de P...
+GLPI (Gestion Libre de Parc Informatique)
+Gallery
+Games
+Ghost
+GitLab
+GitLab CI
+Gitorious
+Glassfish
+Gradle
+HHVM
+Hadoop
+Horde Groupware Webmail
+Human Resource Management
+Infrastructure
+JBoss AS
+JFrog Artifactory
+JRuby
+JasperReports
+Jenkins
+Joomla!
+Kafka
+LAMP
+LAPP
+Learn more
+Let's chat
+Liferay
+LimeSurvey
+Live Helper Chat
+LogicalDOC
+MAMP
+MAPP
+MEAN
+MODX
+Magento
+Mahara
+Mantis
+Marketing Automation
+Mattermost Team Edition
+Mautic
+Media sharing
+MediaWiki
+Memcached
+Middleware
+Mobile Development
+MongoDB
+Moodle
+Multicraft
+Mura CMS
+MyBB
+MySQL
+Neos
+News Aggregator
+Newsletter Manager
+Nginx
+Noalyss
+Node.js
+OSQA
+OXID eShop
+Odoo
+Online Classifieds
+Open Atrium
+Open edX
+Open-Xchange Server
+OpenCart
+OpenEMM
+OpenProject
+OpenVPN
+Openfire
+OrangeHRM
+OroCRM
+Osclass
+Parse Server
+Password Management
+Phabricator
+Photo Sharing
+Pimcore
+Piwik
+Planning
+Plone
+Poll Management
+Pootle
+Popular
+Portal Server
+PostgreSQL
+PrestaShop
+ProcessMaker Community E...
+ProcessMaker Community Edition
+ProcessMaker Enterprise ...
+ProcessMaker Enterprise Edition
+ProcessWire
+Product Information Management
+Project Management
+Publify
+RabbitMQ
+Railo
+Re:dash
+Recently Updated
+Redis
+Redmine
+Redmine+Agile
+Refinery CMS
+ReportServer Community
+ReportServer Enterprise
+ResourceSpace
+Review Board
+Review Board + Power Pack
+Roller
+Roundcube
+Ruby
+SEO Panel
+Search
+Selenium
+Sharelock
+Shopware
+SilverStripe
+Simple Machines Forum
+SimpleInvoices
+Sitecake
+Social Networking
+SonarQube
+SpagoBI
+Spree
+Squash
+Stack badge plus dashed
+Subversion
+SugarCRM
+SuiteCRM
+TYPO3
+Taiga
+TestLink
+Testing
+Tiki Wiki CMS Groupware
+Tiny Tiny RSS
+Tomcat
+Trac
+Tracks
+Translation Tools
+Version Control
+Video Sharing
+Vote for your favorite applications to become Bitnami packages on our wishlist page. We will add the most popular apps to the Bitnami application library.
+WAMP
+WAPP
+WP Multisite
+WebMail Pro PHP
+WebPack
+Weblate
+Wiki
+WildFly
+WordPress
+X-Cart
+X2Engine Sales CRM
+XOOPS
+Yii Framework
+YouTrack
+Your App Here
+Zimbra
+Zurmo
+concrete5
+e-Commerce
+eLearning
+eXo Platform
+eXo Platform Enterprise
+eZ Publish
+iDempiere
+ocPortal
+osTicket
+ownCloud
+phpBB
+phpList

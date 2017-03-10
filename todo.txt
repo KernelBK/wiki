@@ -1,5 +1,9 @@
 "D:\work_code\case.svn_cowork\docs\common\DKM产品\DKM\产品点脑图\1.v"
 mediacomm\index
+
+Redmine项目管理   Mantis缺陷管理   TestLink测试工具   SVN版本管理   GIT版本管理   Bugzilla任务管理   dokuwiki知识库   
+
+灾备知识网   摇号信息网   jenkins持续集成  
 java\index
 java\TeraTool_lib
 TeraTool_lib
