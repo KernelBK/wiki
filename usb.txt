@@ -1,4 +1,7 @@
 
+测试
+    官方有协议兼容性测试工具，usbcv
+
 USB信号测试现在主要集中在眼图上
 
 http://www.52rd.com/Blog/Detail_RD.Blog_swordlife_17643.html

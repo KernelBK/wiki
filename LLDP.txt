@@ -1,0 +1,6 @@
+
+ LLDP（Link Layer Discovery Protocol，链路层发现协议）
+是一个厂商无关的二层协议，它允许网络设备在本地子网中通告自己的设备标识和性能。
+
+
+

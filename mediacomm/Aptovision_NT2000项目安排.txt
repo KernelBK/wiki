@@ -1,0 +1,31 @@
+
+NT2000项目安排
+    阶段
+        点对点
+        VP
+        KVM
+    采购
+        全科HDK
+            报关
+                提供IC说明书
+                提供设备说明书
+         芯片购买
+            难买
+                FPGA XC7K160T-2FBG484C4416 Avnet 吕 18675541899
+                Si5351B-B-GM 益登13925296260 杨悦, clock generator, $6
+                Si5341B
+                SiI9777CLUC 钟春飞
+            贵
+                BCM84861, 10G PHY, $24.6
+                ITC2053A-CB, Icron, $10
+                JT4-1173HL, Pulse, 网口坐, $7.5
+                加密芯片 ds28e01 aptovision, $70
+            周期长
+            其他
+         PCB打样
+         PCB贴片
+     加入协会
+        SDVoE
+        HDMI
+     测试
+         4k/60, 444显卡

@@ -1,3 +1,4 @@
+http://raspberrypi.stackexchange.com/questions/1207/how-to-measure-temperature/1216#1216
 
 i2c adapter 指的是控制器
     client 总线上的设备

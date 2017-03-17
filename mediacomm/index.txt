@@ -1,4 +1,13 @@
+[[评估嵌入式开发方案]]
 
+[[高性能网络]]
+
+[[Aptovision_NT2000项目安排]]
+[[Aptovision_NT2000产品功能]]
+[[Aptovision_NT2000全科的问题]]
+
+
+[[好的提议]]
 
 "D:\work_code\case.svn_cowork\docs\common\DKM产品\DKM\产品点脑图\1.v"
 [[gfw]]
@@ -6,9 +15,10 @@
 [[../avahi]]
 
 采购
-    [[供应商]]
+    [[../Supplier/index]]
     规格书 承认书
 
+产品调研
 [[Related_company]]
 
 [[web]]

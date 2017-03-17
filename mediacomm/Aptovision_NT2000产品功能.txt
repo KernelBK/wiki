@@ -1,0 +1,153 @@
+
+Aptovision_NT2000产品功能
+    hardware    
+        TX&RX
+            10G sfp+/catX
+            HDMI
+        TX
+            DP
+        RX
+    配置接口（任意盒子上的非10G网口，交换机任意端口）
+    fpga配置
+        加密 ds28e01 
+            光口可以支持网口
+            网口不支持光口
+    识别
+        按IP顺序识别，不能够固定
+        分配IP
+            HDMI分配IP
+            APIPA分配IP
+            手动分配IP
+            不能重复
+    video Routing
+        Genlock mode
+        Fast-switch mode
+        可以通过放大缩小配置软件窗口，显示出更多的TX，RX设备。
+        分辨率
+            4k/60, 2k
+            4k/60 444（无法测试）
+            支持各种分辨率
+        DHCP
+        延迟
+            标称<1 帧，最多不会到达2帧
+        缩放
+        操作
+            all displays
+            stop video
+            start video 
+            leave video channel
+        右键 
+            set video mode
+                genlock
+                fast switch full screen
+                    set framebuffer mode
+                        keep aspect ration
+                            video format
+                                各种分辨率设置
+                                不支持：YCbCr422/420
+                                RX 输出只有 RGB颜色空间
+                        stretch to fit
+                        crop to fit
+                dispwall
+            set video
+                leave video channel
+            device options
+                settings
+                    TX
+                        analog audio input output(input/outout)
+                        hdmi decoder
+                            input(hdmi/dp/auto)
+                            hdcp support, enable/disable
+                            disable hdcp2.2 support
+                        edid
+                            save to device
+                            load from file
+                        network interface
+                            hostname
+                            ip address, ip mode, hdmi/manual
+                        uart0
+                            parameters
+                                baud rate, data bit, stop bit, parity none
+                        led
+                            led0, led1, led2, led3
+                                blink, power on, alway on/off
+                        buttons
+                            button0, button1
+                                switch video input
+                     RX
+                        analog audio output
+                            analog audio/hdmi audio
+                        hdmi encoder
+                            audio source, hdmi audio/analog audio/hdmi audio downmix
+                        hdmi monitor
+                            save to file
+                        network interface
+                            hostname
+                            ip mode
+                        uart0
+                        leds
+                        buttons
+                            send monitor edid to all transmitter 
+                send/receive rs232
+                send/receive infrared
+                reboot device
+            tile position
+                pin to this position
+    wall routing
+        最大屏幕数量 5x5
+    multiview
+    analog audio routing
+        separate HDMI audio routing 
+    rs232 routing
+    infrared routing
+    usb routing
+    device management
+        update 
+    logging
+    video setting
+        start 
+        stop
+        stop video and free channel
+        divide frame-rate by two
+        set resolution
+        leave video
+    video mode
+        genlock
+        fast switch 
+        display wall mode
+    audio settings
+        start 
+        stop 
+        stop and free channel 
+        leave 
+    tile position
+    data routing and switching 
+        hdmi video
+        hdmi audio
+        analog audio
+        rs232
+        ir
+        usb2.0
+    tile infomation
+        hostname 
+        ip address
+        firmware version
+        current video mode(rx)
+        multicast streaming address
+        streaming status
+        video resolution 
+        color space
+    配置软件
+        Aptovision Manager
+            运行平台
+                windows
+             device detection
+        control server
+            ip
+            port
+            platform
+                windows
+                linux
+                arm
+
+

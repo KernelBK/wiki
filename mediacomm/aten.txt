@@ -1,0 +1,47 @@
+
+aten-cn8600
+    other
+        online registration
+    hardware 
+    operation
+        browser login
+        configuration
+            user 
+                role
+                permissions
+            maintenance
+                udpate main firmware
+                udpate display info 
+            device info
+            network
+                ip, port
+                transfer rate
+                ddns
+                anms
+                    snmp server
+                    syslog server
+                    radius
+                    ldap
+                security
+            console management
+                oobc
+            date time
+        client viewer
+            winclient
+                macros
+                hotkeys
+                user macros
+                system macros
+            message board
+                button bar
+                message display panel
+                compose panel
+            user list panel
+            virtual media
+            zoom
+            on-screen keyboard
+            mouse pointer type
+                automatic mouse synchronization
+        
+
+

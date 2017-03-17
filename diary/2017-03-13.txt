@@ -1,0 +1,8 @@
+
+Frank, 今天能拿到API资料么？
+
+组员了解产品，高，占
+
+项目进度汇总：
+    上周5拿到全科NT2000 demo, 一些缺少支持无法评估的功能：multiview（缺少配置），USB routing (无法看到设备).
+    一些BUG：一对TXRX无法升级，video wall会花屏，video wall无法切换成video routing模式。
