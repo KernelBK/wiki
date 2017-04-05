@@ -1,0 +1,30 @@
+
+电脑配置好
+上网自由，网速快，可以上google
+
+I need to order 10 pairs of chips for NT projects.
+I have some questions to know before I place my order:
+1. Does ITC2053A-CB contain host and device?
+2. Do you need external memory? If so, when can I provide the firmware?
+3. How long is the delivery cycle?
+4. Do I need to sign the "Branding Acceptance Agreement" for the purchase of the chip?
+
+我们的apto项目第一批需要购买10对芯片。
+在下订单前，我还有一些问题需要知道：
+1. ITC2053A-CB包含host和device
+2. 是否外部存储器，如果有，什么时候可以提供固件
+3. 交货交货周期有多长
+
+ICRON采购回邮件
+dongjingxi CPUCON点对点测试，liweiyao提供测试方式和测试内容
+dongjianxi完成测试手册和文档
+liweiyao培训dongjianxi CPUCON点对点
+DVI+网口的CPU CON
+
+记录项目实际进度
+
+测试目标：DVI+网口的CPU CON
+1. 点对点
+2. 原厂主机+盒子
+3. 大量盒子点对点级联测试
+

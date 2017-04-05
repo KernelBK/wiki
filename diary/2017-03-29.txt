@@ -1,0 +1,15 @@
+
+测试报告：
+有的功能：
+1. 两块IO卡能够识别
+1. 权限配置
+1. CON宏配置，CON宏连接断开功能
+
+给ICRON的邮件：
+我司需要贵司提供以下信息：
+1. 请提供供货地址。
+2. 货物的 invoice或者pkl，及产品datasheet。
+
+We need ICRON to provide the following information:
+1 address of supply.
+2 goods invoice or pkl, and product datasheet.

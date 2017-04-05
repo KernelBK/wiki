@@ -1,4 +1,40 @@
 
+[[fiddler]]
+
+http://nmgfrank.com/2015/01/redmine%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90/
+
+myqsl
+[[phpmyadmin]]
+    bitnami
+    e544677455
+
+查看apache2 log
+取消用于查看项目的权限
+
+Redmine建立在Ruby on Rails的框架之上
+
+为什么使用redmine http://www.cnblogs.com/zuohongming/p/4495164.html
+
+http://blog.csdn.net/benkaoya/article/details/8762935
+http://www.cnblogs.com/yangxia-test/p/4466315.html
+http://www.jianshu.com/p/cd7a12fa09bb
+
+设置跟踪标签， http://soft.300176.net/redmine/50601501946642715572.html
+子项目排序
+修改甘特图  <redmine_dir>/lib/redmine/helpers/gantt.rb
+
+redmine 
+
+redmine 
+    任务派发
+    项目跟踪
+        新建项目
+        新建子项目
+        新建问题
+            问题的内容
+                设置跟踪标签
+    甘特图
+
 项目管理和缺陷跟踪工具
 
 rails

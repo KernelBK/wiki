@@ -1,0 +1,58 @@
+
+测试报告：
+完成报告：
+1. 修改CPU name能够保存
+2. 能够保存连接状态
+3. 1块IO板上，1个槽位，CPU CON交换位置，能够重连
+4. 能够报告IO板位置
+5. 能够1x4跨屏
+6. 恢复出厂设置
+
+问题报告：
+1. 权限配置不能连接
+2. 2x2跨屏不成功
+3. OSD edit不能高亮
+4. 换到2槽不能连接 
+
+我今天用了一下redmine，里面添加了我参与的项目与任务。
+http://192.168.0.3/projects/honor-5200-p1/issues/gantt
+
+
+项目进度
+1. 物料采购方面，还没有确定进度的物料只有有XC7K160T-2FBG484C4416, 上次安富利提供的周期需要6-8周。
+2. 其他物料最长下单以后3周能到，即20170415前。
+如果K7160T能够在20170415前采购回来，项目可以在20170501前完成。
+
+I'm Yang Chen from the purchasing department, responsible for CA purchasing.
+
+Dear Shirleya,
+    I am Yang Chen from the purchasing department. 
+    I am responsible for purchasing ITC2053A-CB ASIC.
+    Attachment is PO. 
+    p.s.
+    Do I need to pay in advance?
+    
+
+
+
+调查系列产品命名
+交换机配置、选型
+评估产品外观
+评估Multiview功能
+
+PCB（第1版）焊接
+准备各种烧写固件
+PCB（第1版）调试
+
+评估配置软件（读代码，编译）
+测试API接口
+制定方案
+
+搭建redmine
+
+项目工作安排：
+1. 根据杨晨的采购进度确定项目时间点，对于时间太长的物料采取特殊方法加快进度。
+2. 制定Honor-5200项目时间计划
+3. 准备redmine试行项目进度跟踪
+
+[[../po]]

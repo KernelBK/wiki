@@ -1,0 +1,9 @@
+
+uart2sub-hid控制CON，模拟USB键盘操作OSD
+PC机采用python通过usb2uart
+
+测试报告：
+1. DMC-48主机中，IO板固化的版本不是新版本，新版本右上角是DKM。
+2. svn上的固件烧写后，CON不能点亮屏幕。
+测试无法继续进行。
+

@@ -1,0 +1,6 @@
+
+测试报告：
+osd页面单独测试，脚本case_osd_close_and_enter_1.py，循环1000次，OSD卡死，不能用键盘继续操作。
+
+全科问HDK采购进度
+

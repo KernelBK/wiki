@@ -1,0 +1,6 @@
+
+freemind, *.mm
+xmind, *.xmind
+gfm, *.md
+kityminder, *.km
+
