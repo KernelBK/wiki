@@ -1,9 +1,12 @@
 
+redmine yangyaowu redmine2017a
+
 [[test]]
 [[评估嵌入式开发方案]]
 
 [[高性能网络]]
 
+[[../aptovision]]
 [[Aptovision_NT2000项目安排]]
 [[Aptovision_NT2000产品功能]]
 [[Aptovision_NT2000全科的问题]]

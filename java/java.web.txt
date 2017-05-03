@@ -1,4 +1,6 @@
 
+Struts（View 层）、Hibernate（Model层）和Struts（Controller 层）spring 整合mvc 3个框架
+
 java服务器工程师，主要从事java网络通信和中间件，大数据等等工作
 
 tomcat是java应用服务器（动态解析，如JSP）

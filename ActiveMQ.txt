@@ -1,0 +1,6 @@
+
+Apache出品
+完全支持JMS1.1和J2EE 1.4规范的 JMS Provider实现
+多种语言和协议编写客户端。语言: Java,C,C++,C#,Ruby,Perl,Python,PHP。应用协议： OpenWire,Stomp REST,WS Notification,XMPP,AMQP
+
+http://shmilyaw-hotmail-com.iteye.com/blog/1897635

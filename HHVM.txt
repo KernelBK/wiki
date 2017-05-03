@@ -1,0 +1,5 @@
+
+HHVM (HipHop Virtual Machine)会将PHP代码转换成高级别的字节码
+
+http://fex.baidu.com/blog/2014/03/hvvm-and-php/
+

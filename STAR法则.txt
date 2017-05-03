@@ -1,0 +1,8 @@
+situation/task-action-result
+STAR 谈话的三大标准就是：在你回答问题时候，要主动给面试官一个情景
+（situation/task），也就是一个例子或者一个事件，一种经历，然后在该事件
+中你如何行动的（action），最后通过你的努力和行为，取得了什么结果（result）
+
+
+Situation（情景）、Task（任务）、Action（行动）和Result（结果）
+

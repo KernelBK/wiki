@@ -1,13 +1,16 @@
 
+https://bitnami.com/stack/lamp/virtual-machine
+https://bitnami.com/stack/gitlab/virtual-machine
+
 AbanteCart
 Accounting
-ActiveMQ
+[[ActiveMQ]]
 Akeneo
 Alfresco Community
 All
 Ametys
 Analytics
-Apache Solr
+Apache [[Solr]]
 Application Security
 Application Server
 BPM
@@ -46,7 +49,7 @@ Diaspora
 Discourse
 Django
 Document Management
-DokuWiki
+[[DokuWiki]]
 Dolibarr
 DreamFactory
 Drupal
@@ -54,7 +57,7 @@ ECM
 ELK
 ERP
 ERPNext
-Eclipse Che
+[[Eclipse_Che]]
 Elasticsearch
 Email
 EspoCRM
@@ -72,10 +75,10 @@ Games
 Ghost
 GitLab
 GitLab CI
-Gitorious
+[[Gitorious]]
 Glassfish
 Gradle
-HHVM
+[[HHVM]]
 Hadoop
 Horde Groupware Webmail
 Human Resource Management
@@ -86,7 +89,7 @@ JRuby
 JasperReports
 Jenkins
 Joomla!
-Kafka
+[[Kafka]]
 LAMP
 LAPP
 Learn more
@@ -119,7 +122,7 @@ MySQL
 Neos
 News Aggregator
 Newsletter Manager
-Nginx
+[[Nginx]]
 Noalyss
 Node.js
 OSQA
@@ -134,7 +137,7 @@ OpenEMM
 OpenProject
 OpenVPN
 Openfire
-OrangeHRM
+[[OrangeHRM]]
 OroCRM
 Osclass
 Parse Server
@@ -159,7 +162,7 @@ ProcessWire
 Product Information Management
 Project Management
 Publify
-RabbitMQ
+[[RabbitMQ]]
 Railo
 Re:dash
 Recently Updated

@@ -1,4 +1,8 @@
 
+接口
+    ST、SC、FC、LC光纤接头
+
+
 xfp
 sfp
 sfp+

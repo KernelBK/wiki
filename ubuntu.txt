@@ -1,4 +1,7 @@
 
+时区
+dpkg-reconfigure tzdata
+
 [[root-system-bin]]
 
 <<<<<<< HEAD

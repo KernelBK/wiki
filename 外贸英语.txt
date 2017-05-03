@@ -1,0 +1,17 @@
+
+PR plans 公关计划
+
+place order 
+the detailed information 
+order quantity 
+supplier
+final price 
+
+
+swift_code 
+SWIFT CODE(银行国际代码)一般用于电汇,信用证电报。
+编码含义
+4 bank code 
+2 country code 
+2 location code 
+

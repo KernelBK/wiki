@@ -1,9 +1,19 @@
 
+BCM2835
+pi3 BCM2837
+700MHz
+
 [[raspberrypi_win10]]
+[[raspberrypi_resolution]]
 
 [[noobs]]
 
+ubuntu mate 
+播放视频
 omxplayer -o hdmi video.mp4
+
+看图片
+[[eom]] 
 
 [[树莓派_文件系统]]
 [[树莓派]]

@@ -1,0 +1,11 @@
+
+https://github.com/mjg59/python-broadlink
+
+技术
+    FreeRTOS
+    ajax yui jquery 
+    php mysql 
+    竞情分析
+    golang
+    mongodb
+

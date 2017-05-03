@@ -1,0 +1,6 @@
+
+
+-f full screen
+-s slide show 
+-c 
+

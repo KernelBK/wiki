@@ -1,4 +1,6 @@
 
+Rails是一个全栈式的MVC框架
+
 Rails核心的ActiveRecord框架，就用元编程实现了一门简便易用的语言，以便编写连接数据库表的类。
 框架 Builder和ActiveRecord
 

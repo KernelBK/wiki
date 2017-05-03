@@ -1,0 +1,19 @@
+
+天将降大任于斯人也，必先灭其微信，封其微博，收其电脑，夺其手机，摔其ipad，断其wifi，剪其网线，砸其电视，抢其酒瓶……使其百无聊赖，然后发愿、静坐、思过、读书、明智、闻香、品茗、精进、禅定、开悟
+
+汪总，
+Honor项目有于K7 160T采购不到照成延迟。
+现在分为两个方面解决这个问题：
+1. 我已经联系Apto，可能会从Apto采购此芯片，还在等待Gerry的答复。
+2. 安富利已经提一个采购此芯片的申报流程， 需要Apto给予确认，我想等Gerry答复以后再走这个流程。
+
+另，
+1. 能否不使用Apto定制的K7 160T，这个问题Gerry是没有答复的。
+
+MediaComm provides a wide array of corporate and government clients with integrated solutions for command and control and other pro AV applications. 
+
+附件是一份购买K7160T的授权书，来自AVNET. AVNET需要一份类似的授权书，我们才能够采购K7160T，如果你们没有一样的授权书，麻烦给于我们一个签字。
+
+Attachment is the authorization template from the AVNET. 
+It is necessary for you to provide me with a similar authorization to enable me to purchase K7160T from the AVNET.
+
