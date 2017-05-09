@@ -14,3 +14,7 @@ pass
 lambda
 with
 yield
+
+[[setup.py]]
+
+[[Anaconda]]

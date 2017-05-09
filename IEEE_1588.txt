@@ -1,0 +1,21 @@
+
+Precision Time Protocol
+PTP
+IEEE1588-2008 PTPv2
+
+时钟同步系统
+组成
+    同步时钟设备
+        普通
+            主时钟
+            从时钟
+        边界
+            非对称
+        透明
+    系统设备
+
+
+http://opencores.org/project,ha1588
+
+最高10ns 精度
+和实现的层没有关系

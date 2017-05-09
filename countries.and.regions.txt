@@ -33,7 +33,7 @@ Burkina-faso				布基纳法索
 Burma				缅甸
 Burundi				布隆迪
 Cameroon				喀麦隆
-Canada				加拿大
+[[Canada]]				加拿大
 Cayman Is.				开曼群岛
 Central African Republic				中非共和国
 Chad				乍得

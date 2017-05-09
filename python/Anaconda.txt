@@ -1,0 +1,7 @@
+
+
+conda install -c menpo mayavi=4.5.0
+
+import imageio 
+imageio.plugins.ffmpeg.download()
+Anaconda

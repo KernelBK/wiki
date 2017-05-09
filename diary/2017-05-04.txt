@@ -1,0 +1,15 @@
+
+我已经买到XC7K160T-2FBG484C4416，安富利的货期是8周，需要等到7月4日才能拿到芯片。目前我们全部元件都到齐了，我想购买一些没有4416后缀的XC7K160T，这样可以加快开发速度，请问是否可行？
+
+
+I have purchased XC7K160T-2FBG484C4416 form AVNET, tiem of delivery is 8 weeks, so I need to wait until July 4th to get the chip. 
+At present, all the components are in place,
+I want to speed up the progress of the project. My plan is purchase some XC7K160T from other merchants without 4415 suffix, these chips are avaiable for a week.
+Does it work?
+Is this allowed by Aptovision?
+
+I'm going to start the project.
+
+I'm going to try this plan right now.
+In my project plan, after I verify the PCB design is work that can begin to design shell and modify the PCB to suit the shell. 
+
