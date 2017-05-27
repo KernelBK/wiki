@@ -1,4 +1,6 @@
 
+中间的三不管地带，用 Python 就好
+
 python -m SimpleHTTPServer
 	py3  python -m http.server
 

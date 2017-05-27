@@ -1,7 +1,8 @@
 
 
+[[dkm_chipset]]
 
-redmine yangyaowu redmine2017a
+[[dkm_syslog]]
 
 [[test]]
 [[评估嵌入式开发方案]]

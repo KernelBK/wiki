@@ -1,3 +1,9 @@
 
 audio engineering society
 ebu: eropean broadcasting union
+
+AES只是个基本算法，实现AES有若干模式。其中的CBC模式因为其安全性而被TLS（就
+是https的加密标准）和IPSec（win采用的）作为技术标准。简单地说，CBC使用密码和salt
+（起扰乱作用）按固定算法（md5）产生key和iv。然后用key和iv（初始向量，加密第一块
+明文）加密（明文）和解密（密文）。
+

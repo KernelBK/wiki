@@ -9,3 +9,8 @@ https://github.com/mjg59/python-broadlink
     golang
     mongodb
 
+
+mac 地址查询
+MAC地址	34-ea-34-b8-1f-1b
+厂商	HangZhou Gubei Electronics Technology Co.,Ltd
+厂址	Room 106, No.611 Jianghong Road, Binjiang District, Hangzhou, Zhejiang, China Hangzhou ZheJiang 310052 CN

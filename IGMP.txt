@@ -3,3 +3,17 @@ rfc.1112
 rfc.2236
 rfc.3376
 
+v1/v2/v3
+
+IGMP 报文不能被路由器转发
+IGMP TTL参数永远是1
+
+IGMP
+    主机报文
+        Membership report
+        Leave Group
+    路由器报文
+        General Query
+        Group-Specific Query
+
+

@@ -1,5 +1,11 @@
 
+http://pysnmp.sourceforge.net/quick-start.html#fetch-snmp-variable
+http://snmpsim.sourceforge.net/public-snmp-simulator.html
+
 http://www.net-snmp.org/
+
+[[pysnmp]]
+http://pysnmp.sourceforge.net/
 
 深入理解net-snmp
 
@@ -11,4 +17,10 @@ http://www.net-snmp.org/
     nagois
     zabbix
     openNMS
+
+snmp 
+    [[mib]]
+    [[smi]]
+
+rfc1065
 

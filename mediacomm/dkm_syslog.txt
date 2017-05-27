@@ -1,0 +1,25 @@
+
+Connect
+swHandleSetCpuCon()		CPU=[int] CON=[int] MODE=0	NOT	Switching Operation (Full Access or  Video Only)
+									of a CON to a CPU
+swHandleSetCpuCon()		CPU=0 CON=[int] MODE=0		NOT	Disconnect a CPU
+swHandleSetCpu()		CPU=[int] CON=[int]		NOT	Switching operation (USB-HID) of a CON to a CPU,  
+									if the connection is already available
+swHandleSetCon()		CPU=[int] CON=[int]		NOT	Switching operation (Video Only) of a CON to a CPU 
+									
+swConnectCpuCon()		CPU=[int] CON=[int]		INF	Full Access connection established
+swConnectCon()			CPU=[int] CON=[int]		INF	Video Only connection established
+swConnectCpu()			CPU=[int] CON=[int]		INF	USB-HID connection established
+Disconnect
+swDisconnectCon()		CON=[int]			INF	Video connection disconnected
+swDisconnectCpu()		CPU=[int]			INF	USB-HID connection disconnected
+swDisconnectCpuUsb()		CPU=[int]			INF	Basic removing of potential USB connections
+Redundancy
+swBinSetConKVMEx()		CON=[int] EXT=[int] KVM=[1|2]	NOT	Switching of single extenders from port 1 or 2,
+									caused by removing the cables.
+swBinSetConKVM()		CON=[int] KVM=[1|2]		NOT	Switching of complete device from port 1 or 2,
+									caused by <Hot Key>, <k> <1|2>, <Enter>
+?
+
+
+

@@ -5,3 +5,10 @@ enterprise resource planning
 
 用友
 金蝶
+
+以财务为中心
+以客户为中心
+
+erpnext
+odoo
+

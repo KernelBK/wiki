@@ -1,0 +1,6 @@
+用于对 Ruby组件进行打包的 Ruby 打包系统。
+
+国内源
+
+http://gems.ruby-china.org/
+

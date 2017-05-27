@@ -1,4 +1,5 @@
 
+eom -f --display=:0 /workspace/img/rand3_with_number/rand3_1080_01.png &
 
 -f full screen
 -s slide show 

@@ -1,8 +1,28 @@
 
 object.relational.mapping [[orm]]
-mvc 中的M，处理数据和业务逻辑；
+
+Active Record 是 MVC 中的 M（模型），处理数据和业务逻辑。
+Active Record 负责创建和使用需要持久存入数据库中的数据。
+是一种对象关系映射系统 ORM
 
 Martin.Fowler 
 
 多约定，少配置；
+
+Rails 把模型的类名转换成复数，然后查找对应的数据表。例如，模型类名为 Book，数据表就是 books。
+
+支持的数据库 MySQL、PostgreSQL、Oracle
+
+迁移
+按照时间顺序管理数据库模式。使用迁移，无需编写 SQL，使用简单的 Ruby DSL 就能修改数据表。
+ db/migrate
+
+回调可以在对象的状态改变之前或之后触发指定的逻辑操作。
+
+关联 
+
+查询
+无需直接使用 SQL。
+控制器（逻辑处理）
+视图（渲染视图）
 

@@ -6,3 +6,11 @@
 
 CVBS
 S_Video
+
+图像编码
+    压缩
+        h.264
+        MJPEG
+        MJPEG2000
+        TICO
+        VC-2

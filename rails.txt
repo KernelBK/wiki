@@ -1,0 +1,48 @@
+
+config.filter_parameters 过滤指定的请求参数，不写入日志。过滤掉的参数在日志中会使用 [FILTERED] 代替。
+config.filter_parameters << :password
+
+[[创始人]]
+
+guide
+[[config.ru]]
+[[Gemfile]]
+[[erb]]
+Active Record
+
+WEBrick
+
+RubyStack
+    [[rubygems]]
+    ImageMagick
+    Sphinx
+    Devkit
+    RVM
+
+use
+    rails new my_new_app
+    
+
+Rails是一个全栈式的MVC框架
+
+Rails核心的ActiveRecord框架，就用元编程实现了一门简便易用的语言，以便编写连接数据库表的类。
+框架 Builder和ActiveRecord
+
+
+
+alluin one 的方式，相对的是搭积木的方式；
+
+rails
+
+model-view-controller mvc framework
+
+database, web services, web pages
+data transfer: json, xml
+display, ui: html, css, javascript
+
+CoC, [[convention.over.configuration]]
+[[active.record]]
+
+
+
+[[helpers]]

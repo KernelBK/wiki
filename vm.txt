@@ -1,4 +1,6 @@
 
+Hyper-V
+
 register based vm 
 	×Ö½ÚÂë¸ü¼òµ¥
 	add 1, 2, r1

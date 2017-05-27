@@ -1,4 +1,12 @@
 
+Simple Mail Transfer Protocal 
+在传送中接力传送邮件
+通常它工作在两种情况下：一是邮件从客户机传输到服务器；二是从某一个服务器传输到另一个服务器。
+
+SMTP是一个请求/响应协议
+port 25
+
+
 不要将邮件读取协议POP 或IMAP 与邮件传送协议SMTP 弄混。
 
 [[microsoft.exchange.server]]

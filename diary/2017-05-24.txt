@@ -1,0 +1,36 @@
+
+[[../Agile]] 
+[[../”°∂»»À]]
+
+π∑Œ≤≤›
+≈À≤…∑Ú 
+
+
+APC
+http://www.apc.com/shop/us/en/products/Rack-PDU-Metered-Zero-U-10A-230V-16-C13/P-AP7850?isCurrentSite=true
+
+http://item.jd.com/11894647087.html
+
+
+http://item.jd.com/11394158845.html
+
+
+PE8108G
+
+÷ª∂¡√¸¡Ó
+Get CON device connected to CPU device
+Get CON devices connected to CPU devices
+Get CPU device connected to CON device
+Get CPU devices connected to CON devices
+Get System Time
+Get all connections
+
+–¥√¸¡Ó
+Set CON device connection to CPU device
+Set CON device connection to CPU device(bidirectional)
+Set CPU device connection to CON device
+Set connection for all CON devices and CPU devices
+Set connection of CON devices to CPU devices
+Set connection of CON devices to CPU devices(bidirectional)
+Set connections of CPU devices to CON devices
+Switch off all ports

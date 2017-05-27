@@ -8,5 +8,5 @@ print list(itertools.combinations([1,2,3,4],2))
 全组合
 [[排列]]
     要考虑顺序
-组合
+[[组合]]
     不考虑顺序

@@ -2,3 +2,7 @@
 
 
 telnetd -l /system/bin/sh
+
+apt-get install telnetd
+
+/etc/init.d/openbsd-inetd restart

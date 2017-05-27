@@ -46,7 +46,7 @@ Costa Rica				哥斯达黎加
 Cuba				古巴
 Cyprus				塞浦路斯
 Czech Republic				捷克
-Denmark				丹麦
+[[Denmark]]				丹麦
 Djibouti				吉布提
 Dominica Rep.				多米尼加共和国
 Ecuador				厄瓜多尔

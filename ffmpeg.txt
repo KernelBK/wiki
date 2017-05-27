@@ -1,2 +1,11 @@
 
 [[À×Ïöæè]] â§ËÀ
+
+-s 1920x1080
+ffmpeg -i xxx.avi -s 1920x1080 xxx.mp4
+
+ÏÂÔØ
+http://ffmpeg.zeranoe.com/builds/
+
+http://ffmpeg.org/ffmpeg.html
+

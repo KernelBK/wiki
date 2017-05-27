@@ -10,7 +10,7 @@ ethtool
 ifstat
 
 [[ubuntu_log]]
-[[ufw]]
+[[ufw]] 防火墙
 =======
 字体
 vim /var/lib/locales/supported.d/local

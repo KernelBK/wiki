@@ -1,0 +1,15 @@
+
+管理员不能删除用户
+/opt/bitnami/apps/redmine/htdocs/app/views/users/index.html.erb
+-      <%= delete_link user_path(user, :back_url => request.original_fullpath) unless User.current == user %>
+
+修改"帮助"链接
+/opt/bitnami/apps/redmine/htdocs/lib/redmine/info.rb
+
+
+管理员不能删除问题
+/opt/bitnami/apps/redmine/htdocs/app/models/issue.rb
+-    user_tracker_permission?(user, :delete_issues)
++    false
+
+

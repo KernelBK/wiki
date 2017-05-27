@@ -14,3 +14,6 @@ RTSP
 [[Tico]]
 
 [[job_aptovision]]
+
+编码
+    [[h.264]]

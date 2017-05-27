@@ -1,5 +1,6 @@
 http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml
 
+1-1024是系统常用端口,1024-65535是非系统端口
 端口号只具有本地意义，即端口号只是为了标志本计算机应用层中的各进程
 
 TCP端口
