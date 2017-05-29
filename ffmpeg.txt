@@ -9,3 +9,8 @@ http://ffmpeg.zeranoe.com/builds/
 
 http://ffmpeg.org/ffmpeg.html
 
+ -c:v libx264
+ -vcodec copy 
+ -vcodec copy -acodec copy
+
+ffmpeg 无参数转换

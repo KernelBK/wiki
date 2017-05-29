@@ -42,6 +42,7 @@ mc2016
 [[decoder]]
 
 [[svn]]
+[[kvm]]
 [[vp]]
 [[ip]]
 
