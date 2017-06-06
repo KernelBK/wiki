@@ -1,0 +1,21 @@
+FPGA需实现下述功能，以利用这些器件的安全特性：
+产生随机数。
+知道一个用于芯片内部运算的密钥，且该密钥对外界不可见。
+同安全存储器一样进行包含密钥、随机数、附加数据及器件识别号在内的HASH计算。
+比较HASH计算结果。
+
+sha-1
+单向密码体制
+
+雪崩效应
+防碰撞
+
+FPGA内嵌一个SHA-1引擎和DS28E01握手。引擎中携带有和DS28E01相同的密钥，这是由用户预先配置好的。
+
+http://xmo0verysoft.lofter.com/post/8a775_6578b91
+
+IFF encryption authentication
+ Identification Friend or Foe (IFF) 
+
+https://www.maximintegrated.com/en/app-notes/index.mvp/id/3826
+https://www.maximintegrated.com/cn/app-notes/index.mvp/id/3826
