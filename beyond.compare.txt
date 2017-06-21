@@ -1,4 +1,6 @@
 
+*.pdf;*.doc;*.docx;*.xls;*.xlsx;*.ppt;*.pptx
+
 可以通过过滤器移动文件
 *.rar;*.zip;*.7z;*.bz2;*.gz;*.tar;*.tgz;*.iso;*.xz
 *.rar;*.zip;*.7z;*.bz2;*.gz;*.tar;*.tgz;*.iso;*.xz;*.chm;*.msi;*.pdf;*.doc;*.xls;*.ps
