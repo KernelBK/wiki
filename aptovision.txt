@@ -1,4 +1,12 @@
 
+http://aptovision.com/en/about-us/careers/field-application-engineer-fpgaasic/
+
+ Charles.Dobson
+
+[[jienming.hu]]
+
+[[nt2000_schematic]]  电路图原理
+[[nt2000_bom]]
 
 [[SDVoE]]
 
@@ -17,3 +25,5 @@ RTSP
 
 编码
     [[h.264]]
+
+Plethora AV processing

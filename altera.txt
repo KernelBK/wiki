@@ -1,4 +1,6 @@
 
+[[transceiver_phy_ip_core]]
+
 [[altera_donwload_sof_elf_command]]
 
 

@@ -1,4 +1,7 @@
 
+基于微信小程序的词器
+https://github.com/airingursb/miemie
+
 word freqency generate script read txt by line.
 
 add forder view

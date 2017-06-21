@@ -1,0 +1,39 @@
+
+IEEE_802.1	Higher Layer LAN Protocols (Bridging)	active
+IEEE_802.2	LLC	disbanded
+[[IEEE_802.3]]	Ethernet	active
+IEEE_802.4	Token bus	disbanded
+IEEE_802.5	Token ring MAC layer	disbanded
+IEEE_802.6	MANs (DQDB)	disbanded
+IEEE_802.7	Broadband LAN using Coaxial Cable	disbanded
+IEEE_802.8	Fiber Optic TAG	disbanded
+IEEE_802.9	Integrated Services LAN (ISLAN or isoEthernet)	disbanded
+IEEE_802.10	Interoperable LAN Security	disbanded
+IEEE_802.11	Wireless LAN (WLAN) & Mesh (Wi-Fi certification)	active
+IEEE_260	Standard Letter	active
+IEEE_488	Standard Digital Interface	active
+IEEE_260	Standard of Glossary of Software	active
+IEEE_260	Standard of Glossary of Software	active
+IEEE_802.12	100BaseVG	disbanded
+IEEE_802.13	Unused[2]	Reserved for Fast Ethernet development[3]
+IEEE_802.14	Cable modems	disbanded
+IEEE_802.15	Wireless PAN	active
+IEEE_802.15.1	Bluetooth certification	active
+IEEE_802.15.2	IEEE 802.15 and IEEE 802.11 coexistence	
+IEEE_802.15.3	High-Rate wireless PAN (e.g., UWB, etc.)	
+IEEE_802.15.4	Low-Rate wireless PAN (e.g., ZigBee, WirelessHART, MiWi, etc.)	
+IEEE_802.15.5	Mesh networking for WPAN	
+IEEE_802.15.6	Body area network	
+IEEE_802.15.7	Visible light communications	
+IEEE_802.16	Broadband Wireless Access (WiMAX certification)	
+IEEE_802.16.1	Local Multipoint Distribution Service	
+IEEE_802.16.2	Coexistence wireless access	
+IEEE_802.17	Resilient packet ring	hibernating
+IEEE_802.18	Radio Regulatory TAG	
+IEEE_802.19	Coexistence TAG	
+IEEE_802.20	Mobile Broadband Wireless Access	hibernating
+IEEE_802.21	Media Independent Handoff	
+IEEE_802.22	Wireless Regional Area Network	
+IEEE_802.23	Emergency Services Working Group	
+IEEE_802.24	Smart Grid TAG	New (November, 2012)
+IEEE_802.25	Omni-Range Area Network	

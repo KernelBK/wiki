@@ -3,3 +3,6 @@
 
 查看当前screen的名字 
 	echo $STY 
+
+alias sr='screen -D -R'
+

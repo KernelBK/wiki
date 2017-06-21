@@ -1,0 +1,4 @@
+
+ntpdate ntp.ubuntu.com 
+ntpdate time.nist.gov 
+

@@ -1,0 +1,60 @@
+
+Experimental
+Ethernet	1973[1]	2.94 Mbit/s (367 kB/s) over coaxial cable (coax) bus
+Ethernet II
+(DIX v2.0)	1982	10 Mbit/s (1.25 MB/s) over thick coax. Frames have a Type field. This frame format is used on all forms of Ethernet by protocols in the Internet protocol suite.
+IEEE 802.3 standard	1983	10BASE5 10 Mbit/s (1.25 MB/s) over thick coax. Same as Ethernet II (above) except Type field is replaced by Length, and an 802.2 LLC header follows the 802.3 header. Based on the CSMA/CD Process.
+802.3a	1985	10BASE2 10 Mbit/s (1.25 MB/s) over thin Coax (a.k.a. thinnet or cheapernet)
+802.3b	1985	10BROAD36
+802.3c	1985	10 Mbit/s (1.25 MB/s) repeater specs
+802.3d	1987	Fiber-optic inter-repeater link
+802.3e	1987	1BASE5 or StarLAN
+802.3i	1990	10BASE-T 10 Mbit/s (1.25 MB/s) over twisted pair
+802.3j	1993	10BASE-F 10 Mbit/s (1.25 MB/s) over Fiber-Optic
+802.3u	1995	100BASE-TX, 100BASE-T4, 100BASE-FX Fast Ethernet at 100 Mbit/s (12.5 MB/s) with autonegotiation
+802.3x	1997	Full Duplex and flow control; also incorporates DIX framing, so there's no longer a DIX/802.3 split
+802.3y	1998	100BASE-T2 100 Mbit/s (12.5 MB/s) over low quality twisted pair
+802.3z	1998	1000BASE-X Gbit/s Ethernet over Fiber-Optic at 1 Gbit/s (125 MB/s)
+802.3-1998	1998	A revision of base standard incorporating the above amendments and errata
+802.3ab	1999	1000BASE-T Gbit/s Ethernet over twisted pair at 1 Gbit/s (125 MB/s)
+802.3ac	1998	Max frame size extended to 1522 bytes (to allow "Q-tag") The Q-tag includes 802.1Q VLAN information and 802.1p priority information.
+802.3ad	2000	Link aggregation for parallel links, since moved to IEEE 802.1AX
+802.3-2002	2002	A revision of base standard incorporating the three prior amendments and errata
+802.3ae	2002	10 Gigabit Ethernet over fiber; 10GBASE-SR, 10GBASE-LR, 10GBASE-ER, 10GBASE-SW, 10GBASE-LW, 10GBASE-EW
+802.3af	2003	Power over Ethernet (15.4 W)
+802.3ah	2004	Ethernet in the First Mile
+802.3ak	2004	10GBASE-CX4 10 Gbit/s (1,250 MB/s) Ethernet over twinaxial cables
+802.3-2005	2005	A revision of base standard incorporating the four prior amendments and errata.
+802.3an	2006	10GBASE-T 10 Gbit/s (1,250 MB/s) Ethernet over unshielded twisted pair (UTP)
+802.3ap	2007	Backplane Ethernet (1 and 10 Gbit/s (125 and 1,250 MB/s) over printed circuit boards)
+802.3aq	2006	10GBASE-LRM 10 Gbit/s (1,250 MB/s) Ethernet over multimode fiber
+P802.3ar	Cancelled	Congestion management (withdrawn)
+802.3as	2006	Frame expansion
+802.3at	2009	Power over Ethernet enhancements (25.5 W)
+802.3au	2006	Isolation requirements for Power over Ethernet (802.3-2005/Cor 1)
+802.3av	2009	10 Gbit/s EPON
+802.3aw	2007	Fixed an equation in the publication of 10GBASE-T (released as 802.3-2005/Cor 2)
+802.3-2008	2008	A revision of base standard incorporating the 802.3an/ap/aq/as amendments, two corrigenda and errata. Link aggregation was moved to 802.1AX.
+802.3az	2010	Energy-efficient Ethernet
+802.3ba	2010	40 Gbit/s and 100 Gbit/s Ethernet. 40 Gbit/s over 1 m backplane, 10 m Cu cable assembly (4℅25 Gbit or 10℅10 Gbit lanes) and 100 m of MMF and 100 Gbit/s up to 10 m of Cu cable assembly, 100 m of MMF or 40 km of SMF respectively
+802.3-2008/Cor 1	2009	Increase Pause Reaction Delay timings which are insufficient for 10 Gbit/s (workgroup name was 802.3bb)
+802.3bc	2009	Move and update Ethernet related TLVs (type, length, values), previously specified in Annex F of IEEE 802.1AB (LLDP) to 802.3.
+802.3bd	2010	Priority-based Flow Control. An amendment by the IEEE 802.1 Data Center Bridging Task Group (802.1Qbb) to develop an amendment to IEEE Std 802.3 to add a MAC Control Frame to support IEEE 802.1Qbb Priority-based Flow Control.
+802.3.1	2011	MIB definitions for Ethernet. It consolidates the Ethernet related MIBs present in Annex 30A&B, various IETF RFCs, and 802.1AB annex F into one master document with a machine readable extract. (workgroup name was P802.3be)
+802.3bf	2011	Provide an accurate indication of the transmission and reception initiation times of certain packets as required to support IEEE P802.1AS.
+802.3bg	2011	Provide a 40 Gbit/s PMD which is optically compatible with existing carrier SMF 40 Gbit/s client interfaces (OTU3/STM-256/OC-768/40G POS).
+802.3-2012	2012	A revision of base standard incorporating the 802.3at/av/az/ba/bc/bd/bf/bg amendments, a corrigenda and errata.
+802.3bj	2014 (June)	Define a 4-lane 100 Gbit/s backplane PHY for operation over links consistent with copper traces on ※improved FR-4§ (as defined by IEEE P802.3ap or better materials to be defined by the Task Force) with lengths up to at least 1 m and a 4-lane 100 Gbit/s PHY for operation over links consistent with copper twinaxial cables with lengths up to at least 5 m.
+802.3bk	2013	This amendment to IEEE Std 802.3 defines the physical layer specifications and management parameters for EPON operation on point-to-multipoint passive optical networks supporting extended power budget classes of PX30, PX40, PRX40, and PR40 PMDs.
+802.3bm	2015	100G/40G Ethernet for optical fiber
+802.3bp	2016 (June)[2]	1000BASE-T1 每 Gigabit Ethernet over a single twisted pair, automotive & industrial environments
+802.3bq	2016 (June)[3]	25G/40GBASE-T for 4-pair balanced twisted-pair cabling with 2 connectors over 30 m distances
+802.3bs	2017 (Dec.) (TBD)	200GbE (200 Gbit/s) over single-mode fiber and 400GbE (400 Gbit/s) over optical physical media
+802.3bt	2017 (TBD)	Power over Ethernet enhancements up to 100 W using all 4 pairs balanced twisted-pair cabling, lower standby power and specific enhancements to support IoT applications (e.g. lighting, sensors, building automation).
+802.3bw	2015[4]	100BASE-T1 每 100 Mbit/s Ethernet over a single twisted pair for automotive applications
+802.3-2015	2015	802.3bx 每 a new consolidated revision of the 802.3 standard including amendments 802.3bk/bj/bm
+802.3by	2016 (June)[5]	Optical fiber, twinax and backplane 25 Gigabit Ethernet[6]
+802.3bz	2016 (Sep.)[7]	2.5GBASE-T and 5GBASE-T 每 2.5 Gigabit and 5 Gigabit Ethernet over Cat-5/Cat-6 twisted pair
+802.3ca	2019 (TBD)	100G-EPON 每 25 Gbit/s, 50 Gbit/s, and 100 Gbit/s over Ethernet Passive Optical Networks
+802.3cc	2017 (TBD)	25 Gbit/s over Single Mode Fiber
+802.3cd	2018 (TBD)	Media Access Control Parameters for 50 Gbit/s and Physical Layers and Management Parameters for 50 Gbit/s, 100 Gbit/s, and 200 Gbit/s Operation

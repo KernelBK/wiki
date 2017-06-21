@@ -1,0 +1,30 @@
+
+Icron的固件不放在FPGA里面也是因为版权的问题。 
+
+hujienming， 电话沟通
+    9777替换
+        hdmi认证，价格贵，$6000，不出口不要紧
+        其他接口芯片，还是建议选用Silcon Image。 
+        9777中有hdcp key, 需要一个蓝光播放器验证。
+        9777的测试程序要找Silcon Image 支持。
+    mac 地址
+    
+了解，hujienming， linkedin
+    工作经验13年
+
+9777的替换方案
+
+
+
+
+Hello Jienming , 
+
+I implemented the process, and the Icron's ExpressLink software version I used was 1.9.3, version 1.6.7 tool was not found.
+What version of ge_eeprom.py is it? I see that the ge_eeprom.py directory provided by Icron is .hex file, not .bin file.
+Icron's FTP did not find example configurations LEX1ICRON.BIN and REX1ICRON.BIN.
+Icron FTP did not find the document, "90-01339-A02 RG23xxA Core Series Product Specification.pdf".
+
+The big problem is that the device is being restarted without second firmware. 
+
+给chenzhansheng开0.2/svn权限。 
+

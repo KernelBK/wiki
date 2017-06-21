@@ -1,6 +1,7 @@
 
 
 [[dkm_chipset]]
+[[dkm_ipcore]]
 
 [[dkm_syslog]]
 
@@ -13,6 +14,7 @@
 [[Aptovision_NT2000项目安排]]
 [[Aptovision_NT2000产品功能]]
 [[Aptovision_NT2000全科的问题]]
+[[NT2000板卡调试]]
 
 [[atc机箱]]
 

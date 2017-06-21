@@ -1,0 +1,122 @@
+
+Jienming brings 18 year’s experience in system engineering to the role, 15 years as an international FAE at TranSwitch VLSI Corp. 
+
+
+hujienming
+
+[personalities and special experienced-skills]
+1. good communication skills/work experiences with diverse-culture peoples in Taiwan, Germany, Japan, Korea, China, Australia, India, Israel and USA.
+2. good presentation/promotion/communication/sales skills
+3. team up the distributors and FAE for the sales/promotion of products
+4. price negotiations with customers
+5. good at discussions of system architectures with customers
+7. good at “hardware/software debugging”/”system integration” at field side
+8. with a very good field experience at HDMI, Ethernet, IP router, PDH, SONET/SDH,WAN/MAN/LAN, and DWDM.
+9. good at communicating with headquarters and R&D for pending tough issues.
+10. capable of working under stress.
+
+[software/firmware expertise]
+1. three-half years of coding skills over pSOS(embedded real-time OS) platform for network control/management of telecommunication equipment.
+2. strong experience in C/C++/ASSEMBLY languages and also mixed application of C/C+ +/ASSEMBLY languages
+3. good driver experience for Linux operating system.
+4. with experiences of qemu, uboot, grub, ARM cross-compile toolchain(gcc, eglibc) 
+5. bringing up a Linux kernel with root file system(with busybox, ddb+gdb)
+6. good experience in the administrations of UNIX operating systems like BSD/SYSTEM V UNIX.
+7. Object-Oriented Analysis/Design//Implementation
+8. definition of System Software Architecture
+9. over thirteen years of solid experience in embedded firmware/hardware integration for TELECOM/DATACOM products at Samsung, NEC, Fujitsu, Huiwei, Alcatel, and other customers.
+
+[hardware expertise]
+1. help customers review schematic
+2. help customers debug the system and PCBA
+3. discussion of System Hardware Architecture
+
+[multimedia expertise]
+HDMI/DisplayPort/DVI
+
+[telecommunication expertise]
+PDH, “PDH over Ethernet”, and “Ethernet over PDH”
+SDH, “Ethernet over SDH”, and “Packet over SDH”
+ATM and “Ethernet over ATM”
+MAN(metro-area network) and LAN Ethernet
+DWDM network
+CPE router/gateway
+工作经历
+Transwitch
+FAE manager/Taiwan Technical Sale
+Transwitch
+2010 年 1 月 – 至今 (7 年 6 个月)
+responsibility:
+1. on-site support of HDMI/DisplayPort products in Taiwan
+2. on-site support of SDH/PDH products in China, Korea, and Japan.
+3. in charge of the promotion/presentations/sales of CPE router/gateway solution for network equipment manufactures.
+4. in charge of the promotion/presentations/sales of HDMI/DisplayPort related products for DLP/LCD projector, TV, and motherboard.
+5. in charge of the promotion/presentations/sales of HDMI/DisplayPort/MHL/USB related products for tablet and cellular phone.
+
+major achievement:
+1. supported and got the design-wins of DLP projector from tier-1 ODM company
+2. supported and got the design-wins of HDMI/DisplayPort video switch
+3. supported and got the design-ins of SONY LCD TV from tier-1 ODM company
+4. got the opportunity of XIMei LCD TV from tier-1 ODM company
+Transwitch
+Asia FAE Manager
+Transwitch
+2002 年 10 月 – 2009 年 12 月 (7 年 3 个月)
+responsibility:
+1. lead Asia FAE team for China, Taiwan, Japan, and Korea markets.
+2. coordinated and in charge of technical support for China, Taiwan, Japan, and Korea markets.
+3. took care of Japan, Korea, Taiwan, and Australia markets directly.
+
+major achievement:
+1. supported NEC for SpectraWave(DWDM), UNODE(2.5G MSPP), mini-
+SDH(622M MSPP), and PDH Radio Link(Pasolink)
+2. supported Fujitsu for FlashWave(Wireless Bachhaul for KDDI) and FlashWave(155M/622M MSPP)
+3. supported Evolium(a joint company by Fujitsu and Alcatel) for WCDMA RNC
+4. supported Samsung for next-generation router
+5. supported tier-two companies like Coweaver, Woorinet and Neowave in Korea for 155M/622M/2.5G MSPP.
+Transwitch
+Senior FAE
+Transwitch
+2001 年 1 月 – 2002 年 9 月 (1 年 9 个月)
+responsibility:
+1. took care of technical sales and on-site support in Japan and Korea markets.
+
+major achievements:
+1. got yearly recognition award and promoted as senior FAE.
+2. supported SDH T1/E1/DS3 mappers in Korea.
+3. supported ATM switch for Samsung's CDMA/WCDMA base station
+4. supported Huiwei in ShenZhen for 2.5G MSPP.
+5. supported Alcatel in ShangHai for 155M MSPP.
+Transwitch
+FAE
+Transwitch
+1999 年 10 月 – 2000 年 12 月 (1 年 3 个月)
+responsibility:
+1. took care of technical sales and on-site support in Japan and Korea markets.
+
+major achievements:
+1. supported ATM switch fabric for Hyundai DSLAM.
+2. quick understanding and direct support of major legacy product lines, like T1/E1/E2/JT2/DS3/E3/MUX-DEMUX, one year after joining TranSwitch.
+Siemens Telecommunication System Limited.
+Senior Engineer
+Siemens Telecommunication System Limited.
+1996 年 6 月 – 1999 年 10 月 (3 年 5 个月)
+responsibility:
+1. took care of system integration at Siemens in Taipei and Munich. And, the major duty
+is to integrate firmware/hardware for embedded system of telecommunication equipment.
+2. defined system firmware specification.
+3. co-worked with marketing manager to define system architecture.
+4. co-worked with engineers at Siemens in Munich.
+
+major achievements:
+1. quick promotion in job position every year. It was much like an award to appreciate my talent in engineering.
+2. E1/DS1 DSU/CSU project (PDH product)
+2-a. helped define system firmware specification in Taipei.
+2-b. helped system integration.
+2-c. ported IP protocol suites like TCP/IP protocol stack, PPP, and SLIP.
+3. Transponder project (DWDM Product)
+3-a. helped define system firmware specification at Siemens in Munich.
+3-b. had a very big contribution to the system integration of firmware/hardware.
+4. Optical Line Amplifier project (DWDM Product) for year 2000 Summer Olympics in Sydney
+4-a. helped system integration at Siemens in Munich.
+4-b. the contribution was highly recognized by the optical system engineer and product manager at Siemens in Munich.

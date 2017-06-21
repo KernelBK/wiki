@@ -1,0 +1,29 @@
+
+现在我们NT2000 PCB调试进度如下：
+FPGA, 1G, 10G interface, W25Q128FV, LED, 7-SEG可以工作，并且可以观察到他们在工作。
+现在的问题是图像无法显示， hdmi显示器接入以后，无法从GUI上看到读取到的EDID信息。 由于没有文档描述设计原理，我猜测是HDMI的插入检测信号没有传递到FPGA。
+
+我想知道：
+1 RX设备插入HDMI显示器以后，进入到FPGA的信号是否是：HPD_Explore_to_FPGA。SiI9777是否需要其他的配置？ 
+2 有没有工具进行DDR的读写测试。 
+
+
+Today, our NT2000 board debugging schedule is as below: 
+Hardware module like FPGA, 1G, 10G interface, W25Q128FV, LED, 7-SEG is working. It's easy to see they're working. 
+I have a problem, the device cannot output image. When HDMI monitor connect to RX device, I can't get EDID from GUI. I think the FPGA deivce cannot get the signal of HDMI plugin via SiI9777. 
+
+I want to know some questions: 
+1. When HDMI monitor plugin, FPGA can get the HPD_Explore_to_FPGA signal is high .
+2. Is there a tool to memory testing? 
+
+
+你发给我的文件帮了我大忙. 
+The files you send to me is help me a lot. 
+
+我们在启动这个项目的时候购买一对Aptovision NT2000 demo设备，原来打算在调试硬件的时候有一个参考作用，但是DEMO设备的PCB设计和提供给我们的方案大不一样。
+我这边调试上做的努力已经穷经了，我需要能够更进一步把设备功能调试通过。
+因此我需要你提供给我一些调试方案和工具，或者给我做现场支持。 
+
+I bought a pair of Aptovision NT2000 DEMO devices when I started the project.
+I had hoped that it would have a reference role when debugging hardware, but the PCB design of the DEMO device is quite different from the one offered to us.
+You can see it by the attached picture.

@@ -1,3 +1,21 @@
+
+raspberrypi i2c program
+http://www.gallot.be/?p=180
+
+i2cdetect -y 1
+eeprom 
+eeprog
+
+spec 
+    UM10204.pdf
+
+串口转i2c 
+树莓派i2c 
+
+i2c频率
+Bitrate	0.1 / 0.4 / 1.0 / 3.4 / 5.0 Mbit/s
+
+树莓派控制i2c
 http://raspberrypi.stackexchange.com/questions/1207/how-to-measure-temperature/1216#1216
 
 i2c adapter 指的是控制器

@@ -1,0 +1,7 @@
+
+Aquantia
+
+xilinx k7 + 10G phy
+
+http://www.aquantia.com/products/programmable/
+[[Aquantia_AQcite1.pdf]]

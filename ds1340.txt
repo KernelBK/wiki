@@ -1,0 +1,8 @@
+
+real time clock RTC
+
+ST M41T00
+
+I2C bidirectional bus
+seconds, minutes, hours, day, month, years, and century
+power 

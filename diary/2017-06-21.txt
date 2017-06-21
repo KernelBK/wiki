@@ -1,0 +1,63 @@
+
+再次烧写原厂提供的固件
+尝试Icron提供的例子配置文件
+比较电路图
+
+我发现一个问题，采用demo测试出来的。 
+测试环境是这样的，采用10G交换机，一个RX，一个TX，GUI的电脑和交换机连接。 
+这个问题我录制了软件操作视频，从视频中你可以看到。 
+当start video的时候，GUI的界面会不断闪烁外设，但是停止视频以后就没有这个问题。 
+
+我们后续的PCB设计中要去掉1G以太网接口，控制PC只能通过10G交换机连接以后才能管理USB Routing. 所以这个问题一定要即使解决。
+
+你们知道这个问题吗？这个问题是如何导致的？ 是否能够通过升级固件解决这个问题？（我现在的固件版本是V3.2.2) 
+
+I found a problem that was tested using Aptovision DEMO board.
+The test procedure is like this, a 10G switches, a RX, a TX, a PC connected to the 10G switch.
+I recorded the software operation video on this question, you can see it from the attachment.
+When the start video, the GUI interface will continue to flash TX and RX devices, I think it do the idenfication again and again, but after the video stopped there is no problem.
+GUI cannot configure the device because of this problem.
+In our subsequent PCB design, we want to remove the 1G Ethernet interface and control PC to connect with the 10G switch to manage the USB Routing, so this problem must be solved.
+Do you know the problem? How did this problem arise? Can you solve this problem by upgrading the firmware? (my current firmware version is V3.2.2.)
+
+p.s.,  
+I've confirmed the cable. I'm using cat7 copper cable.
+I used two video sources, 4k and 2k.
+
+
+原理图（第2版）设计, 2w
+原理图（第2版）设计评审, 3d
+PCB（第2版）输出BOM 
+PCB（第2版）Layout, 2w
+PCB（第2版）评审, 2d
+元件采购, 1m
+PCB（第2版）制版, 1w
+PCB（第2版）焊接, 1w
+PCB（第2版）调试, 1w
+PCB（第2版）安装, 1w 
+产品功能介绍文档, 1w
+
+提出外壳设计需求
+外包外壳设计
+提出包装设计需求
+外包包装盒设计
+
+任然是USB接口的问题
+
+我们的板子解决硬件导致的问题以后，Icron的固件可以顺利烧写下去。 
+但是，USB接口还是不能够工作，因此我还需要跟进一步的支持。
+
+GUI上配对没有问题，可以看到配对的MAC地址。
+硬件上测试了5V供电电源。
+我把Demo的ICRON flash 和eeprom都更新为统一的版本，我的板子和Demo只是MAC地址不同。
+我尝试了使用Demo的RX连接我的TX，Demo的TX连接我的RX，插入USB鼠标、u盘都无法点亮。
+
+The USB interface is still a problem.
+After our board has solved the hardware problem, the firmware downloaded procedure for Icron went well. 
+However, the USB interface is still not working, so I need further support.
+There is no problem with pairing REX and LEX on GUI. I can see the paired MAC address.
+
+I did the following work,
+Checked the 5V power supply on hardware.
+I've updated Demo's ICRON firmware to the same version, and the difference between my board and Demo's eeprom are just MAC addresses different.
+I tried to use the Demo RX connection to my TX, my RX connection to  Demo TX device, insert the USB mouse, u-disk are not working, even the power of usb device is not light on.

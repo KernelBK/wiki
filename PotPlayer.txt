@@ -1,0 +1,4 @@
+
+PotPlayer就是KMPlayer作者换公司之后基于KMPlayer开发出来的。
+
+

@@ -5,3 +5,12 @@ https://my.oschina.net/duangr/blog/183789
 
 http://standards.ieee.org/develop/regauth/oui/oui.txt
 
+规则
+
+EUI-48
+前24位 OUI 
+
+47 ～33      制造厂商标识
+32               组播标识位
+31 ～24       制造厂商标识
+23 ～0        系列号

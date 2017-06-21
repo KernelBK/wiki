@@ -1,0 +1,32 @@
+
+icron 烧写
+
+Thank you for your support. 
+Now, a pair of our boards have been transmitting video. 
+At the same time, we have started the next plan that make NT2000 design in some change to meet our needs.
+I would like to make the following changes,
+1. SiI9777 package size is too large, is RX and TX can be replaced by an independent transceiver?
+2. In "hardware design guide", you mentioned the "king" deisgn.  I think AQLX107 can reduce power consumption, and will have more options for shell design. Can we get this design?
+ 
+
+
+
+
+
+9777 are smaller packages available?
+
+
+
+Further more, I want to know how to initialize the ICRON_ITC2053A-CB flash chip.
+I got a guide from Shawn, but that is for ICRON RG2300, a USB SO-DIMM . Are they the same process?
+I have asked ICRON about firmware and their response is not as fast as yours.
+Can I copy the configuration ICRON of IC to our board?
+
+
+今年初，我采购了20片ICRON_ITC2053A芯片，用于aptovision方案的项目。 在使用过程中发现，ICRON_ITC2053A需要从flash中加载固件，aptovision说需要从你这边拿到固件，你能否提供固件和烧写方法给我？ 
+
+
+Earlier this year, I purchased 20 pieces of ICRON_ITC2053A chips for the aptovision project. In use, ICRON_ITC2053A need to load firmware from flash, and aptovision said I can get firmware from your side. Can you provide firmware and programming methods to me?
+
+去掉7-seg，采用总线替代。
+

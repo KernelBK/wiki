@@ -1,0 +1,16 @@
+
+[[../Apache.Logs.Viewer]]
+
+
+wihese are the most basic checkpoints and are relatively easy to verify.
+
+
+我现在先调试RX设备，和DEMO的RX点对点连接。
+
+I'm going to debug the RX device first and connect to the RX DEMO point to point connection.
+On the method, the RX device is debugged first, and the RX point to point connection with the DEMO TX. In this way, at least one device is in the good condition. 
+"NT2000 hardware setting", taht I have checked it carefully when I'm customizing the circuit board. 
+
+My debugging effort has been poor, and I need the board to work as soon as possible. 
+So I want you to provide me with some more debugging solutions and tools, or to arrange some field support.
+

@@ -1,0 +1,4 @@
+
+Spansion 
+64-Mbit CMOS 3.0 Volt Flash Memory
+104-MHz SPI
