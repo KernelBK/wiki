@@ -1,4 +1,6 @@
 
+[[ntpdate]] 
+
 [[sntp]]
 
 NTP是网络时间协议(Network Time Protocol)

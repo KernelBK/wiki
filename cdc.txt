@@ -1,2 +1,5 @@
 
+http://blog.csdn.net/phenixyf/article/details/39054427
+
+
 <EDK Project Directory>/implementation/<IBA instance name>_wrapper/<IBA instance name>.cdc

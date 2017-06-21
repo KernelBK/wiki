@@ -1,0 +1,13 @@
+
+[[XAUI]]
+
+PCS
+PMA
+[[Interlaken]] interface
+[[SPI4.2]]
+
+features
+    64b/67b
+    lane alignment
+    CRC24
+    CRC32

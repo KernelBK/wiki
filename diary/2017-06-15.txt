@@ -1,0 +1,22 @@
+
+icron firmware download from ftp
+
+In page 5, you need to install some programs.
+In page 7, you need to have a 10G Ethernet switch to connect all NT devices and your PC. Please note that your PC needs to hook on 10G port, not 1G port.
+In page 8, it describe how to program firmware via Expresslink.
+
+我执行了这个流程，我使用的软件版本是1.9.3,1.6.7版本没有找到。
+ge_eeprom.py是哪个版本？我看到Icron提供的ge_eeprom.py目录下放的是.hex文件不是bin文件。
+Icron的ftp没有看到LEX1ICRON.BIN and REX1ICRON.BIN。
+Icron的ftp没有找到90-01339-A02 RG23xxA Core Series Product Specification.pdf
+
+I implemented the process, and the software version I used was 1.9.3, version 1.6.7 tool was not found.
+What version of ge_eeprom.py is it? I see that the ge_eeprom.py directory provided by Icron is .hex file, not .bin file.
+Icron's FTP did not find example configurations LEX1ICRON.BIN and REX1ICRON.BIN.
+Icron FTP did not find the document, 90-01339-A02 RG23xxA Core Series Product Specification.pdf
+
+ICRON’s ExpressLink software
+
+关键是，由于没有第二个固件，重新上电以后，设备不断重启，这是什么问题？ 
+
+

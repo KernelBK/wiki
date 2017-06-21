@@ -1,0 +1,11 @@
+
+
+
+Symbol	Description
+%h	IP Address of client (remote host)
+%l	Identd of client (normally unavailable)
+%u	User id of user requesting object
+%t	Time of request
+%r	Full request string
+%>s	Status code
+%b	Size of request (excluding headers)

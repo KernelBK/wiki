@@ -1,0 +1,9 @@
+
+i2c 
+4-wire
+9bit parallel
+
+Programmable per lane input equalization
+    Allows control in removing deterministic jitter (ISI)
+Programmable output de-emphasis and swing level 
+    

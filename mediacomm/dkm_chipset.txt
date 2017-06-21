@@ -1,8 +1,13 @@
 
 sii1178
 
-Marvell-Alaska-Ultra-88E1111-GbE
-88E1111
+[[../Marvell-Alaska-Ultra-88E1111-GbE]] 1G 网络接口
+../88E1111
 
 ../Marvell
 [[../cat5]]
+
+[[../ds1340]] RTC
+[[../S25FL064P]] Flash memory 
+../IS42S32400D DRAM
+[[../M21145]] 交换芯片

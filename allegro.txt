@@ -1,3 +1,50 @@
 
+组件
+OrCAD.Capture.CIS
+PCB.Editor
+    GXL
+Pad.Designer
+
+[[封装]]
+
 Allegro
 [[pcb]]
+
+生成管脚和PIN的对应
+
+小哥
+
+[[小哥Allegro72讲速成视频]] 【Cadence Allegro16.6视频教程】完整版
+    规则驱动设计, constraint manager 
+    开发速度，500pin一天
+    HDI 盲埋孔设计
+    信号完整性 si
+    高速 
+        反射
+        串扰
+
+fanout
+footprint
+
+快捷键
+
+焊盘
+    表贴焊盘， single layer mode 
+    正片， thermal relief, anti pad 
+
+class
+sub class
+
+view - windows 
+view - reset ui to default
+
+位号 
+铜皮 
+报告
+drc
+工艺边
+内电层
+厚度
+显示飞线
+隐藏飞线
+display shou

@@ -1,0 +1,10 @@
+
+协议基础
+    [[XAUI]]
+    SPI4.2
+    差分信号
+
+基本概念
+    Lane 
+    Channel 
+    Data transmission Format 

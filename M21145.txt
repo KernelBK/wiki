@@ -1,0 +1,32 @@
+
+http://www.macom.com/
+
+[[M21170]] 288x288
+
+全科科技 提供
+M21145G, M21165, M21165G
+6.5 Gbps 80x80 160x160
+
+M21145/M21165 is a 80x80/160x160
+
+switch 
+    Lane mode
+    Group mode, 4 lanes
+    [[NRZ]]
+
+interface 
+    i2c, 频率 3.4MHz
+
+    1936-pin
+active switch configuration, ASC
+
+reset  
+SmartPower 
+Loss of Signal, LOS detector 
+
+配置连接寄存器
+寄存器分为几个page 
+Bandwidth Enhancement 增加带宽 
+切换时间? 配置时间
+
+80端口的主机由于网络是双向的所以需要160交换能力的芯片

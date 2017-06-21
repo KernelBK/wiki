@@ -1,0 +1,13 @@
+
+特性
+    虚拟电缆测试仪 CVT， 使用了时域反射TDR技术 ，识别潜在的电缆故障
+    1.25GHz Serdes 
+    可以接到光纤收发器
+
+MAC interface 
+
+RMII
+RGMII
+SGMII
+TBI
+RTBI

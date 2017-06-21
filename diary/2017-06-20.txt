@@ -1,0 +1,23 @@
+
+http://www.genesyslogic.com/careers.php
+
+如何测试得出我们比别人好的结论。 
+
+
+
+It’s OK to upgrade firmware without using ExpressLink tool. There are two binary files. One is FalshWriterGoldenearsASIC.bin, and the other is FirwareGoldenearsASIC.bin.
+ 
+Here are the steps to perform upgrade:
+ 
+1. Connect the serial port using the settings specified in the previous section.
+2. Pull the C23_BOOT_SEL0 pin low.
+3. Reset by pulsing the PROG_B pin low or power-cycle the board.
+4. Wait until the Bootloader start up string is received on the serial port.
+It should look like: "Goldenears XX.XX.XX Bootloader version XX.XX" “Lex PlatformID ddd" or “Rex PlatformID ddd"
+5. The module will now transmit a NAK character (hex: 0x15) to initiate the transfer of the firmware image.
+6. Transmit FlashWriterGoldenearsASIC.bin over the serial port using the XMODEM protocol.
+7. Wait for the module to print the message "Serial Flash Erase Complete" to the serial port. This indicates that the flash is now erased and ready for programming. 
+8. The module will now transmit a NAK character (Hex: 0x15) to initiate the transfer of the firmware image.
+9. Transmit either the firmware image FirwareGoldenearsASIC.bin over the serial port using the XMODEM protocol.
+10. Pull the C23_BOOT_SEL0 pin high.
+11. To reset the module, either PROG_B can be asserted or a CR/LF can be transmitted over the UART to the board.

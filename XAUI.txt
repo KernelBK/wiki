@@ -1,0 +1,5 @@
+
+AUI-Ethernet attachement unix interface 
+X 罗马数字10， 10Gbps
+[[IEEE802.3ae]]
+

@@ -1,0 +1,9 @@
+
+我们的PCB已经到了，我试了几种固件烧写方式都没有成功。
+全科给我提供了2次固件，第一次是70T的固件，第二次是160T的固件，但是160T的固件在Xilinx的烧写工具中只有256,512容量的型号。 
+全科的Mr. Xiao在给我找新固件的同时，告诉我可以向你申请一个访问固件和文档的账号。我想这对于后面开发中的升级很有帮助。 
+
+I've got the NT2000 board, and tried several methods to program firmware but it didn't work.
+Allteck gave me two firmware in difference version, the first firmware is suit for 70T, the second firmware for 160T, but the firmware for 160T is only 256M and 512M of the flash model in Xilinx's flash tool.
+Can I apply for an account for access to Aptovision's firmware and document? I think this is helpful to me in later development.
+
