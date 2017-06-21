@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 http://naotu.baidu.com/file/9f8123992b6eaeb6b481327df3315fe1?token=7d578f6cd344078a
 
 这个链接，是我在调试NT2000遇到的问题和解决办法的一个总结，这个PCB我还有一些地方需要确认，我会再确认以后给出问题的结论。
@@ -30,3 +31,6 @@ always @(posedge clock)
 下载PLETHORA_rx_fcv2_copper_84851_xc7k160tfbg484_2_multi.bit转的mcs文件， led2, FPGA loaded LED可以点亮。
     测试led灯，1,24
 
+=======
+[[../DS28E01]]
+>>>>>>> ec81e7e262b2b7e9dacd0d9e6697b9955bfb76a6

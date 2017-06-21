@@ -9,8 +9,24 @@ http://ffmpeg.zeranoe.com/builds/
 
 http://ffmpeg.org/ffmpeg.html
 
- -c:v libx264
- -vcodec copy 
+
+ffmpeg 无参数转换，压缩视频，压缩音频
+
+复制，不压缩视频
  -vcodec copy -acodec copy
 
-ffmpeg 无参数转换
+复制，不压缩音频
+ -vcodec copy 
+
+复制，采用x264编码
+ -c:v libx264
+
+将文件当做直播送至live
+ffmpeg -re -i localFile.mp4 -c copy -f flv rtmp://server/live/streamName
+
+将直播媒体保存至本地文件
+ffmpeg -i rtmp://server/live/streamName -c copy dump.flv
+
+提取图片
+ffmpeg –i test.avi –r 1 –f image2 image-%3d.jpeg
+
