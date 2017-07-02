@@ -1,0 +1,18 @@
+
+我想我高估了我们的进度，之前由于没有散热设备，因此没有完整测试自己的板子。 
+今天的测试中，我发现我们的板无法输出计算机的HDMI视频。
+我试过DEMO是可以的。 
+树莓派也是可以的，因为树莓派被我设置忽略EDID
+我想问题一定是出在EDID上，我可以从RX读到显示器的EDID。也保存了一个EDID到TX。
+
+请问我如何做进一步的调试？
+
+I think I overestimated our progress, because there was no heat sink, so I didn't test my board completely.
+In today's test, I found out that our boards couldn't output computer HDMI video.
+I've tried DEMO, and that's fine.
+Using Raspberry pi as video source is ok, because raspberry pi is setted to ignore reading EDID.
+So I think the problem must be on the EDID. I can read the EDID of the monitor from RX, And the EDID to TX is also saved to device.
+Sometimes GUI can show the resolution in tile, sometimes the resolution value is zero. 
+How can I do further debugging?
+
+
