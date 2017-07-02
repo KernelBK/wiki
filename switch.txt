@@ -4,6 +4,7 @@
 cisco
 juniper ex-Treme
 港湾网络
+arista
 
 
 ethernet_switch
