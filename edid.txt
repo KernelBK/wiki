@@ -1,8 +1,11 @@
 
+https://docs.microsoft.com/zh-cn/windows-hardware/drivers/display/overriding-monitor-edids
+
+[[monitorinfoview]]
 
 EDID 由128个字节组成，大致划分如下
 0-7 ：头信息 ，8个字节，由00 FF FF FF FF FF FF 00 组成
-8-9：厂商ID
+8-9： 厂商ID
 10-11： 产品ID
 12-15：32-bit序列号
 16-17 ：制造日期
@@ -14,3 +17,7 @@ EDID 由128个字节组成，大致划分如下
 54-125： 显示器的详细时序及定时
 126： 扩展标志位，EDID-1.3版本需要忽略，设置为0
 127： 求和验证值
+
+manufacturer id, 之前由微软维护，现在有 uefi 维护
+http://www.uefi.org/PNP_ACPI_Registry
+https://www.vesa.org/vesa-standards/standards-faq/

@@ -1,3 +1,10 @@
+
+[[Gary.Kayye]]
+
+Kristina Hodorowski
+Janet Matey
+Charles Dobson
+
 >> In regards to the SDVoE Alliance the Annual Membership Fees are:
 >>
 >> Contributing Member      US$15,000
@@ -6,3 +13,28 @@
 [[grandbeing_广平正]]
 
 Software Defined Video Over Ethernet
+
+Members 
+aptovision
+aquantia
+arista
+aurora
+[[belden]]
+broadata
+christie
+cleerline
+cwin
+danacoid
+dvigear
+grandbeing
+hdcvt
+idk
+imag
+mediacomm
+netgear
+panduit
+sony
+techlogix
+vuwall
+xilinx
+zeevee

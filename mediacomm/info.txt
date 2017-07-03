@@ -1,4 +1,8 @@
 
+广州美凯信息技术股份有限公司
+GUANGZHOU MEDIACOMM TECHNOLOGY Co., Ltd.
+
+
 广州萝岗区天泰一路2号 迈普科技园科研大厦3楼308号房间
 
 http://www.mediacomm.com.cn/
@@ -19,6 +23,7 @@ svn地址 svn://192.168.0.2/svn
 pengxiongfei = yui678
 lianghaifeng = wer123
 
+广州美凯科技股份有限公司
 
 广州美凯电子科技有限公司
 

@@ -1,4 +1,5 @@
 
+[[honor]]
 
 [[dkm_chipset]]
 [[dkm_ipcore]]
@@ -15,6 +16,9 @@
 [[Aptovision_NT2000产品功能]]
 [[Aptovision_NT2000全科的问题]]
 [[NT2000板卡调试]]
+[[NT2000点对点功能]]
+[[NT2000_KVM功能]]
+
 
 [[atc机箱]]
 
