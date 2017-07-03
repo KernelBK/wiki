@@ -1,7 +1,11 @@
 
+<<<<<<< HEAD
+*.pdf;*.doc;*.docx;*.xls;*.xlsx;*.ppt;*.pptx
+=======
 删除以下目录，然后重新注册即可
 (WinXP)C:\Documents and Settings\[Your User Name]\Application Data\Scooter Software
 (Win7)C:\Users\[Your User Name]\AppData\Roaming\Scooter Software
+>>>>>>> a981df87ccc4082e21b0d1d020d3a27d01ba224d
 
 可以通过过滤器移动文件
 *.rar;*.zip;*.7z;*.bz2;*.gz;*.tar;*.tgz;*.iso;*.xz
