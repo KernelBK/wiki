@@ -1,0 +1,7 @@
+
+[[../YCbCr]]
+
+
+我发现A在不同分辨率的情况下会出现黑屏。
+I'll keep it.
+I found that fast-switch appeared black screen at different resolutions, such as 720p and 4k.

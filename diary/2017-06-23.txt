@@ -1,0 +1,31 @@
+
+两个p2p之间的延迟能不能小于1帧？
+或者说，P2P的延迟抖动时间能否小于一帧？ 
+
+Can the delay between the two P2P be less than 1 frames?
+In other words, is the delay jitter or skew time of P2P less than one frame?
+
+I want to know the definition of zero-frame latency? 
+What does "zero-frame latency" mean?
+
+Thank you for reminding me of this.
+Back to our case, you said the TX and RX delay is not a fix value, do you know the max value of the uncertain time? 
+In 4k, 3840x2160x60p, the time of 2 line is 1/60/2160=7.7us. 
+If the uncertain time less then 7.7us, I think the performance meets the application.
+
+
+
+[[../alcron_mcbride]]
+[[../Christie]]
+
+
+汪总，
+营销中心测试方案是怎么样的，计划采用多少屏幕、收发设备、信号源，是否需要支持HDCP。 
+我这边有4个新采购的小米盒子3s, 支持4k(3840x2160x60p), 和一台sony 4k蓝光播放器， NT2000有3对。 
+
+测试是否需要HDCP
+
+
+169.254.1.1
+
+我的设备

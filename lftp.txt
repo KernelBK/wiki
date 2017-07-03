@@ -1,0 +1,3 @@
+
+set ftp:ssl-force true
+set ftp:ssl-protect-data true

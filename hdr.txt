@@ -1,0 +1,8 @@
+
+
+高动态光照渲染
+High-Dynamic_range
+
+
+HDR片源会在HDMI 的 Info frame中加入额外的数据包，用于传输HDR 的Gamma曲线，亮度映射，光电转化函数等信息。
+HDR 标准就是 HDR10 和 Dolby.Vison

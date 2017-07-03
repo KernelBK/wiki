@@ -1,0 +1,30 @@
+
+
+确定需要复用的元器件
+元件采购, 1m
+
+原理图 PCB（第2版）改版, 5w
+原理图 PCB（第2版）设计评审
+PCB（第2版）输出BOM 
+
+元件采购, 1m
+PCB（第2版）制版, 1w
+PCB（第2版）焊接, 1w
+PCB（第2版）调试, 2w
+PCB（第2版）安装, 1w 
+PCB（第2版）测试, 3w 
+
+
+外观设计
+    选择散热器 
+外壳设计
+外壳生产
+
+谢谢你给我提供的spec文档，我们的USB已经使用起来了。 
+我想知道，在USB点对点连接中， 最大的通讯距离是多少？ 如果采用光纤传输是不是可以达到10km。 
+Thank you for giving me the spec document, and our USB chip is already in use.
+I want to know some parameters of the chip, what is the maximum communication distance in the point to point connection? 
+If using optical fiber, is it possible to meet the transmission of 10km?
+
+What impact does communication have on the exchange opportunities?
+Will there be a problem if the communication through a switch?

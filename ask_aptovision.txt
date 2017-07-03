@@ -1,0 +1,55 @@
+
+200M晶振 
+
+200M晶振，不好卖，没有量。 替换方案 
+
+10G端口管理设备很不稳定，完全没法使用
+GUI卡
+对于我提交的问题，能否抄送给我一份。
+
+fiber 单模 多模 传输距离
+chip of 9777 with key 
+review schematic that important
+save parameters
+1G的端口去掉FPGA是否需要上拉
+
+ftp还是无法访问
+    ftp需要通过vps访问
+
+工单系统, bug系统开放
+无法保存配置
+和全科的关系
+
+有多少客户，先把原厂板子打样，验证好了以后再自己定制PCB。
+
+最多支持的设备 
+    igmp
+    快速切换，fast list,leave 
+如何测试图像
+    测试器，
+    444 4k 8b
+    4k 10b 
+    12b 
+    3d gemlock, 
+
+ftp
+    已经同意给我开放
+audio 
+    chip 格式
+    mic 
+
+multiview
+    fast switch
+video wall 
+    genlock mode 
+
+switch delay 
+    smart bit
+
+3.2.2
+    存在配置如法保存的问题 
+
+
+
+
+
