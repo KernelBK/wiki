@@ -1,4 +1,7 @@
 
+[[hdmi_adopter]]
+[[hdcp_adopter]]
+
 HDMI
     ARC, audio return channel
     ºÍDP±È½Ï

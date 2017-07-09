@@ -1,0 +1,14 @@
+
+关于声音的问题
+
+在应用中，音频接口是有IN和OUT，在我们的设计中如何把RX的声音传输到TX设备？ 
+
+In applications, the audio interfaces has IN and OUT interface. 
+How can I transfer audio from RX to TX device?
+
+I'm looking forward to you solving this problem for me.
+I'm looking forward to your helping me with this problem.
+
+采用的是点对点的方式连接设备。
+谢谢你引用的回答，我已经知道答案了。 
+ 

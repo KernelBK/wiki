@@ -1,5 +1,5 @@
 
-robot=off
+wget -m robot=off
 
 wget -m 
     

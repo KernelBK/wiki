@@ -1,0 +1,32 @@
+
+[[../The.Splendor.of.Color.A.Kaleidoscope.Video]]
+
+当设备连接到交换机以后任然显示P2P
+
+我的设备连接到交换机以后为什么任然显示P2P，在这样的情况下如何做交换，我应该如何配置？ 
+When the device is connected to the 10G switch, it still shows the P2P on 7-SEG. 
+Why does it still show P2P? How to switch TX and RX through 10G switch?  
+I give the video sources to all TX boxes, but the video format does't show in the tile. You can see it in the picture below. 
+
+我想应该有一个去恢复到默认设置，如果这些设备在应用现场，他们都是分布式的，是很难让操作每个设备的按钮。 
+
+I think there should be a way to let the device goto default settings by network, and if these devices are in the application field, they are all distributed, and it is difficult to push buttons for each device.
+
+I did it on your advice. I do it in three devices, and the P2P stauts is still exist. 
+
+
+我使用的版本是X。 
+问题任然存在。 
+
+你从GUI的格子中可以看到，他们的广播广播IP地址都是一样的，224.1.1.1。 
+我重新检查的交换机的配置，做了一些截图，你可以附件中看到。 
+
+Problem still exist.
+The version, firmware is V3.3.0.0, GUI is 2.1.5, Control server is 2.10.0.
+
+You can see from the GUI tile that the IP of broadcast addresses are the same, is 224.1.1.1.
+I checked again the configuration of the 10G switch and made some screenshots that you can see in the attachment.
+
+[[../1368个单词就够了]]
+
+A的意思是。 和上次一样做一个Gotomeeting的操作。

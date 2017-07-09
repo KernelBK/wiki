@@ -1,0 +1,7 @@
+
+[[MHL]]
+
+337 MHz
+10b-bit
+RGBCMYW
+

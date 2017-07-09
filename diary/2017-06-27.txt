@@ -1,0 +1,15 @@
+
+
+
+../内网穿透
+
+
+Icron的芯片用在NT2000方案中，用过光纤是否能否传输达到10KM? 
+
+Icron's chip used in the NT2000, in fiber choice, whether the transmission can reach 10KM?
+
+donwload youtube video via vps
+login aptovision ftp from vps
+    our network can not connect to aptovision's ftp. 
+    get the version of 3.3.0 firmware
+read edid form windows 7, using a tool named monitorinfoview

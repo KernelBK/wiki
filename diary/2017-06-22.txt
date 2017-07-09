@@ -1,0 +1,40 @@
+
+[[../视频测试]]
+
+我知道MAC地址的规则，我一般不会修改高位数据。 
+所以确认了mac地址是没有问题的。 
+我有20块板，我一次生成了所有设备的mac地址，附件中你可以看到。
+
+Thank you for let me know the rule of MAC address, and I also don't modify the first three bytes. 
+So there's no problem with the MAC address.
+I have 20PCS of boards, and I have generated the MAC addresses for all devices at once, as you can see in the attachment.
+
+
+确认TX的USB功能没有问题
+阅读apto交换机配置文档
+阅读Icron ITC2053A-CB spec
+Honor产品手册
+
+用扎带标记我的物品
+
+
+
+sdvoe news 
+ I hope they will consider joining soon.
+ 地盘大
+alliance story
+DVI Gear
+video podcast
+150选择50个成员
+
+
+我们的市场部遇到一个案子，需要将一个PC的4个HDMI视频输出到远程的4个显示器，好像输出的内容中有3D的内容，因此需要传输以后的视频要做到非常严格的同步。我想知道在P2P的应用中，两个不同P2P的连接中延迟有多大？ 是否能够完全做到行场同步？ 
+
+P2P中TX和RX之间的延迟是多少？ 他们是固定值吗？两个P2P连接能否做到行场同步？
+
+Our marketing department have a case, that 4 HDMI video output of a PC to 4 remote display, may have 3D the contents to the output, so they want the 4 transmitted video has very strict synchronization. 
+So I'd like to know some of the NT2000 performance parameters.
+What is the delay between TX and RX in P2P?  Are they fixed value? 
+Can the two P2P connections achieved vsync and hsync synchronization?
+
+How much delay in two different P2P connections in P2P applications Can you do full field synchronization?
