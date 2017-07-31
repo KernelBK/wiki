@@ -1,7 +1,7 @@
 
  生成空文件   fsutil file createnew test.txt 1024
 
-win7
+[[win7]]
 [[win8]]
 [[win10]]
 
