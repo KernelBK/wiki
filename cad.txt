@@ -1,0 +1,21 @@
+
+工业设计
+    几何形体
+    自由形体
+    曲面
+
+公差
+造型
+钣金设计
+
+[[SolidWorks]]
+ProE
+UG
+catia
+atuoCAD
+
+CAD
+
+Photoview360
+keyshot
+rhino

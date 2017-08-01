@@ -1,0 +1,4 @@
+
+~/.ssh 的是700， ~/.ssh/* 的是600，~/.ssh/config 是700
+
+chmod 600 ~/.ssh/authorized_keys

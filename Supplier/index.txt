@@ -1,4 +1,6 @@
 
+TTI
+Murata 春田
 Avnet 安富利
 Digi-Key 得捷 
 新生快捷 PCB 
@@ -12,4 +14,4 @@ maojie
 dejie
 
 
-
+molex

@@ -1,4 +1,5 @@
 [[logic_design]]
+[[国产FPGA]]
 
 modelsim, debussy检查语法错误比较快
 

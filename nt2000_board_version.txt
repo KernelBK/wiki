@@ -1,0 +1,17 @@
+
+Honor产品类别
+    Copper
+        USB 
+            TX
+            RX
+        no USB 
+            TX
+            RX
+    Fiber
+        USB 
+            TX
+            RX
+        no USB 
+            TX
+            RX
+

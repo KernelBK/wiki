@@ -1,0 +1,3 @@
+
+linux cp 拷贝时 保留目录结构
+--parents

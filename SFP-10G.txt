@@ -1,0 +1,18 @@
+
+SR = short range
+    64/66 
+    850nm
+    mmf 多模光纤 2~300m 
+
+LR = long range 
+    1310nm
+    smf
+    10km, 25km
+LRM
+
+BIDI  单纤双向的光模块 
+CWDM 粗波分复用
+DWDM 密集波分复用
+WDM
+
+CWDM SFP光模块采用CWDM 技术，可以通过外接波分复用器，将不同波长的光信号复合在一起，通过一根光 纤进行传输，从而节约光纤资源。

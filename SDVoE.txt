@@ -25,10 +25,10 @@ christie
 cleerline
 cwin
 danacoid
-dvigear
+[[dvigear]]
 grandbeing
 hdcvt
-idk
+[[idk]]
 imag
 mediacomm
 netgear
@@ -37,4 +37,4 @@ sony
 techlogix
 vuwall
 xilinx
-zeevee
+[[zeevee]]

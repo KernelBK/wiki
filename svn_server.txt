@@ -7,3 +7,25 @@ mantis
 wiki
 MoinMoin
 
+
+由于SVN服务器的密码是明文的，HTTP服务器不与支持，所以需要转换成HTTP支持的格式。
+#!/usr/bin/perl
+# write by huabo, 2009-11-20
+
+use warnings;
+use strict;
+
+#open the svn passwd file
+open (FILE, "passwd") or die ("Cannot open the passwd file!!!\n");
+
+#clear the apache passwd file
+open (OUT_FILE, ">webpasswd") or die ("Cannot open the webpasswd file!!!\n");
+close (OUT_FILE);
+
+#begin
+foreach (<FILE>) {
+if($_ =~ m/^[^#].*=/) {
+$_ =~ s/=//;
+`htpasswd -b webpasswd $_`;
+}
+}

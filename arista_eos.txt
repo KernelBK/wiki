@@ -1,0 +1,69 @@
+
+eos functions
+    初始化
+    配置
+        位置
+            boot-config
+            start-config
+            zerotouch
+        模式
+            enable
+            conf
+        管理端口
+            串口
+                配置IP
+            网口
+                需要在串口中先配置IP，没有默认IP 
+                ssh 
+                telnet
+                xmpp
+                api
+         周期执行任务
+            schedule 
+         恢复默认配置
+    linux
+        ifconfig
+            可以看到每个端口
+        tcpdump 
+        
+
+root aristaroot
+
+show 
+查看网络接口，流量等
+show interfaces ethernet 20-22
+show interfaces transceiver
+查看连接的端口
+show interfaces status connected
+show interfaces vlans
+show spanning-tree detail
+7124不支持查看SFP模块类型，序列号等信息 
+show module
+
+Privileged EXEC mode
+
+串口波特率
+boot-config
+CONSOLESPEED=38400
+
+恢复设置
+fullrecover
+
+查看
+show environment all
+
+控制风扇速度
+environment fan-speed auto
+environment fan-speed override 50
+
+破解光模块识别
+touch /mnt/flash/enable3px
+
+
+Jul 19 02:27:07 localhost XcvrAgent: %TRANSCEIVER-3-DISABLED: The transceiver for interface Ethernet10 has been disabled because it is not qualified. (manufacturer FiberStore model SFP-10G85-3M serial number FS40802H0016)
+
+Jul 19 02:27:07 localhost XcvrAgent: %TRANSCEIVER-3-DISABLED: The transceiver for interface Ethernet1 has been disabled because it is not qualified. (manufacturer OEM model AXS85-192-M3 serial number WTSSRH70452)
+
+Jul 19 02:27:07 localhost Ebra: %ETH-4-ERRDISABLE: xcvr-unsupported error detected on Ethernet1.
+
+19 02:32:09 localhost Thermostat: %ENVMON-0-INCOMPATIBLEFANSDETECTED: Incompatible fans have been detected. If not resolved, the system will be shut down in 1.0 minutes.

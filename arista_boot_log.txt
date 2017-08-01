@@ -1,0 +1,286 @@
+
+Xshell 5 (Build 1055)
+Copyright (c) 2002-2016 NetSarang Computer, Inc. All rights reserved.
+
+Type `help' to learn how to use Xshell prompt.
+[c:\~]$ 
+
+Connecting to COM5...
+Connected.
+
+\
+> 
+Aboot# find * > /tmp/1
+
+Aboot# 
+Aboot# ls
+MD5SUMS  dev      init     mnt      root     tmp
+bin      etc      lib      proc     sys
+Aboot# ls /mnt/
+flash-recover.conf  flash/              usb1/
+flash.conf          usb1.conf
+Aboot# ls /mnt/usb1/
+.discinfo                   LoadBalancer/
+.treeinfo                   Packages/
+EFI/                        README
+EULA                        RPM-GPG-KEY-redhat-beta
+EULA_de                     RPM-GPG-KEY-redhat-release
+EULA_en                     ResilientStorage/
+EULA_es                     ScalableFileSystem/
+EULA_fr                     Server/
+EULA_it                     TRANS.TBL
+EULA_ja                     images/
+EULA_ko                     isolinux/
+EULA_pt                     media.repo
+EULA_zh                     release-notes/
+GPL                         repodata/
+HighAvailability/           test_white.bmp
+Aboot# ls /mnt/usb1/
+.discinfo                   LoadBalancer/
+.treeinfo                   Packages/
+EFI/                        README
+EULA                        RPM-GPG-KEY-redhat-beta
+EULA_de                     RPM-GPG-KEY-redhat-release
+EULA_en                     ResilientStorage/
+EULA_es                     ScalableFileSystem/
+EULA_fr                     Server/
+EULA_it                     TRANS.TBL
+EULA_ja                     images/
+EULA_ko                     isolinux/
+EULA_pt                     media.repo
+EULA_zh                     release-notes/
+GPL                         repodata/
+HighAvailability/           test_white.bmp
+Aboot# ls /mnt/usb1/
+Aboot# cp /tmp/1 /mnt/usb1/
+Aboot# sync
+Aboot# ls
+MD5SUMS  dev      init     mnt      root     tmp
+bin      etc      lib      proc     sys
+Aboot# cp 
+Aboot# cd /mnt/flash/
+Aboot# ls
+EOS-4.8.3.swi     boot-extensions   schedule
+EOS-4.9.4.swi     debug             startup-config
+boot-config       persist           zerotouch-config
+Aboot# du -sh *
+218.8M	EOS-4.8.3.swi
+237.6M	EOS-4.9.4.swi
+4.0K	boot-config
+4.0K	boot-extensions
+4.0K	debug
+24.0K	persist
+3.8M	schedule
+8.0K	startup-config
+0	zerotouch-config
+Aboot# cp startup-config /mnt/usb1
+usb1.conf  usb1/
+Aboot# cp startup-config /mnt/usb1/
+Aboot# sync
+Aboot# lsb_resealse
+sh: lsb_resealse: not found
+Aboot# uname -a
+Linux (none) 2.6.32.28.Ar-552897.2011ipv6Petra #1 SMP PREEMPT Mon Dec 26 09:29:55 PST 2011 x86_64 GNU/Linux
+Aboot# ls
+EOS-4.8.3.swi     boot-extensions   schedule
+EOS-4.9.4.swi     debug             startup-config
+boot-config       persist           zerotouch-config
+Aboot# ll
+sh: ll: not found
+Aboot# ls -l
+-rwxrwx---    1 root     88       229436253 Apr  6  2012 EOS-4.8.3.swi
+-rwxrwx---    1 root     88       249153677 Aug  3  2012 EOS-4.9.4.swi
+-rwxrwx---    1 root     88              25 Aug  3  2012 boot-config
+-rwxrwx---    1 root     88              21 Nov 13  2014 boot-extensions
+drwxrwx---    2 root     88            4096 Aug  4  2012 debug
+drwxrwx---    2 root     88            4096 Jul 18 12:29 persist
+drwxrwx---    3 root     88            4096 Apr  6  2012 schedule
+-rwxrwx---    1 root     88            6922 Jul 17 01:20 startup-config
+-rwxrwx---    1 root     88               0 Aug  3  2012 zerotouch-config
+Aboot# cd ..
+Aboot# ls
+flash               flash.conf          usb1.conf
+flash-recover.conf  usb1
+Aboot# cd /
+Aboot# ls
+MD5SUMS  dev      init     mnt      root     tmp
+bin      etc      lib      proc     sys
+Aboot# ll -l
+sh: ll: not found
+Aboot# ls -l
+-rw-r--r--    1 root     0             1775 Jan  5  2012 MD5SUMS
+drwxr-xr-x    2 root     0                0 Jan  5  2012 bin
+drwxr-xr-x    2 root     0                0 Jul 18 12:34 dev
+drwxr-xr-x    2 root     0                0 Jul 18 12:30 etc
+-rwxr-xr-x  120 root     0           443464 Jan  5  2012 init
+drwxr-xr-x    2 root     0                0 Jan  5  2012 lib
+drwxr-xr-x    4 root     0                0 Jul 18 12:34 mnt
+dr-xr-xr-x   56 root     0                0 Jul 18 12:30 proc
+drwx------    2 root     0                0 Dec 26  2011 root
+drwxr-xr-x   11 root     0                0 Jul 18 12:30 sys
+drwxrwxrwt    2 root     0                0 Jul 18 12:35 tmp
+Aboot# tail MD5SUMS 
+6364768eaa4b516d0f90bc1c84f85433  etc/passwd
+c632c5658bdbb8adb9de141b199bccc8  etc/profile
+d41d8cd98f00b204e9800998ecf8427e  etc/blockdev
+d41d8cd98f00b204e9800998ecf8427e  etc/netdev
+90fa2cf9c00995f0dcb98333323b46a3  init
+0c42f44c32c5ca1cd3d4ca393f4e5029  lib/arista.image
+99edf31113adceb2f86bfaab59b2590c  lib/functions
+050396b1c2a9fcc5711668547ee08201  lib/udhcpc-script
+4a6c53acc20eee3c4be6086771e40c60  lib/boot0
+37761bf538320804441fe779b15aef75  lib/boot1
+Aboot# cp MD5SUMS /mnt/usb1
+Aboot# reboot 
+Aboot# zerotouch cancel
+sh: zerotouch: not found
+Aboot# enable
+sh: enable: not found
+Aboot# ls
+MD5SUMS  dev      init     mnt      root     tmp
+bin      etc      lib      proc     sys
+Aboot# cd /mnt/
+Aboot# ls
+flash               flash.conf
+flash-recover.conf  usb1
+Aboot# cd 
+Aboot# cd flash/
+Aboot# ls
+EOS-4.8.3.swi     boot-extensions   schedule
+EOS-4.9.4.swi     debug             startup-config
+boot-config       persist           zerotouch-config
+Aboot# cd ..
+Aboot# ls
+flash               flash.conf          usb1.conf
+flash-recover.conf  usb1
+Aboot# cat flash
+cat: read error: Is a directory
+Aboot# cat flash.conf 
+devid='pci0000:00/0000:00:12.2/usb1/1-3/1-3:1.0/host4/target4:0:0/4:0:0:0'
+dev='sda'
+part='1'
+Aboot# cp flash.conf /mnt/usb1
+usb1.conf  usb1/
+Aboot# cp flash.conf /mnt/usb1
+usb1.conf  usb1/
+Aboot# cp flash.conf /mnt/usb1/
+.mediadb/
+??????/
+???LQ-730K??/
+Android/
+EXTCON.pfw
+EXTCPU.pfw
+EXTHRCON.pfw
+EXTHRCPU.pfw
+LOST.DIR/
+ProE+Wildfire+5.0.RAR
+RealVNC.Enterprise.V4.6.3.Incl.WIN32.X86.X64.With.Keys/
+System Volume Information/
+TPLINK_WN725N2.0_030110.zip
+TPLINK_WN725N2.0_030110/
+WinNTSetup3_x64.exe
+WinNTSetup3_x86.exe
+boot/
+bootmgr
+bootmgr.efi
+dangbeimarket.apk
+efi/
+gen.bin
+honor.brd
+java??/
+setup.exe
+sources/
+tools/
+tools2/
+win7x64B??.txt
+Aboot# cp flash.conf /mnt/usb1/
+Aboot# ls
+flash               flash.conf          usb1.conf
+flash-recover.conf  usb1
+Aboot# cd ..
+Aboot# ls
+MD5SUMS  dev      init     mnt      root     tmp
+bin      etc      lib      proc     sys
+Aboot# fullrecover 
+All data on /mnt/flash will be erased; type "yes" and press Enter to proceed,
+or just press Enter to cancel: yes
+Erasing /mnt/flash
+Writing recovery data to /mnt/flash
+EOS-4.8.3.swi
+startup-config
+boot-config
+448119 blocks
+Aboot# exit
+[  728.671328] Restarting system.
+
+
+Aboot 2.0.6-561448
+
+
+Press Control-C now to enter Aboot shell
+Booting flash:EOS-4.8.3.swi
+[    6.975901] Starting new kernel
+Data in /mnt/flash/EOS-4.8.3.swi differs from previous boot image on /mnt/flash.
+Saving new boot image to /mnt/flash...
+Switching rootfs
+Welcome to Arista Networks EOS 4.8.3
+Mounting filesystems:  [  OK  ]
+Entering non-interactive startup
+Starting EOS initialization stage 1: [  OK  ]
+ip6tables: Applying firewall rules: [  OK  ]
+iptables: Applying firewall rules: [  OK  ]
+iptables: Loading additional modules: nf_conntrack_tftp [  OK  ]
+Starting system logger: [  OK  ]
+Starting system message bus: [  OK  ]
+Starting NorCal initialization: 
+-----------------------------------------------------
+Upgrading the fly system fpga.
+This process can take several minutes.
+Please do not reboot your switch.
+-----------------------------------------------------
+Upgrade of the fly system fpga completed successfully.
+-----------------------------------------------------
+Upgrading the kelp system fpga.
+This process can take several minutes.
+Please do not reboot your switch.
+-----------------------------------------------------
+Upgrade of the kelp system fpga completed successfully.
+Power cycling the system after successfully upgrading all system fpgas.
+
+Arista Networks EOS 4.8.3
+localhost login: No scd device found on this machine
+[  OK  ]
+[  151.471666] SysRq : Remount R/O
+Restarting system
+No scd device found on this machine
+
+
+Aboot 2.0.6-561448
+
+
+Press Control-C now to enter Aboot shell
+Booting flash:EOS-4.8.3.swi
+[    6.975864] Starting new kernel
+Switching rootfs
+Welcome to Arista Networks EOS 4.8.3
+Mounting filesystems:  [  OK  ]
+Entering non-interactive startup
+Starting EOS initialization stage 1: [  OK  ]
+ip6tables: Applying firewall rules: [  OK  ]
+iptables: Applying firewall rules: [  OK  ]
+iptables: Loading additional modules: nf_conntrack_tftp [  OK  ]
+Starting system logger: [  OK  ]
+Starting system message bus: [  OK  ]
+Starting NorCal initialization: [  OK  ]
+Starting EOS initialization stage 2: [  OK  ]
+Starting ProcMgr: [  OK  ]
+Completing EOS initialization: 
+
+Starting Power On Self Test (POST): [  OK  ]
+Starting sshd: [  OK  ]
+Starting xinetd: [  OK  ]
+[  OK  ] crond: [  OK  ]
+Model: DCS-7124SX
+Serial Number: JPE12140643
+System RAM: 4039012 kB
+Flash Memory size:  1.7G

@@ -1,0 +1,16 @@
+
+a new Draco tera App is available that does not require Java Runtime to be installed on the host computer.
+
+[[../bnc]]
+[[../jdk9]]
+
+结构外观
+百米网线 做水晶头
+[[../吴晓波频道]]
+
+负责整个项目各开发阶段的工作，保证项目成功；
+负责组织项目过程中的资源；
+负责项目开发过程的难点突破和测试工作；
+
+https://xilinx-ax-dl.entitlenow.com/dl/ul/2017/04/17/R209880649/Xilinx_Vivado_SDK_2017.1_0415_1.tar.gz/f8f0283662e26683879e651ccb5b555e/591DAB33?akdm=0&filename=Xilinx_Vivado_SDK_2017.1_0415_1.tar.gz
+

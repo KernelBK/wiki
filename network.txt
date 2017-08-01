@@ -1,3 +1,33 @@
+
+网络技术
+    厂商
+        Cisco
+        Huawei
+    有哪些网络设备
+        交换机
+        防火墙
+        F5 LTM GTM
+    网络设备相关技术
+        原理
+        结构
+        成本
+        发展方向
+    应用场景
+        数据中心
+            接入层
+            汇聚层 核心层 
+    技术
+        tcp/ip
+        SDN
+        系统
+            软件工具
+                sniffer
+                wireshark
+                tcpdump
+        调试
+    证书
+        
+
 	[[network.protocol]] 网络协议
 
 LLC

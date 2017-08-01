@@ -1,9 +1,11 @@
 
+[[绩效]]
+[[去KPI]]
 nps
 dau
 
 
-okr
+[[okr]]
 	stay focus - make impact
 
 eg.

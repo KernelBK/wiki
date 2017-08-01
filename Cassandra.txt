@@ -1,0 +1,9 @@
+
+卡珊德拉
+数据库
+
+Cassandra强调AP ，Hbase强调CP
+
+Datastax
+
+C++版本的Cassandra——ScyllaDB，完全兼容Apache Cassandra，单节点吞吐量性能是Java版本的10倍

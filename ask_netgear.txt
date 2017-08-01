@@ -1,0 +1,30 @@
+
+虚拟机会不会把MAC地址消耗完 
+unicast, broadcast, multicast控制属于什么协议？ 在第二层？ 怎么隔离？
+
+会不会有交换机导致整个系统的问题？ 设备的加入会不会导致 Flooding？ 
+
+是否能够Aptovison的业务和普通业务在同一个交换机上运行？ 采用什么方式隔离？
+有什么办法可以保证Aptovison应用的安全？
+
+既然Netgear为Aptovison定制了交换机，说明看好Aptovison技术前景。那么，你用过Aptovison的产品吗？ 
+Aptovison通过网路传递图像是一个什么原理？用了哪些网络技术?
+是Aptovison找你们定制的交换机吗？ 
+能够将api server运行在Netgear的交换机上？ 
+能否将Aptovison的设备分组管理，不同组之间的设计不能够访问？
+
+FabricPath, QFabric是否有应用？
+你是否有过研发交换机的经验， 我想知道在交换机的研发过程中是如何测试？如何保证交换机的质量？
+
+VLAN 
+multicast
+IGMP.Snooping
+Multicast Router
+Validate IGMP IP Header 
+APIPA
+Genlock
+fastswitch
+fast leave
+
+
+

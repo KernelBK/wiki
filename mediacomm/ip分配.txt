@@ -1,0 +1,19 @@
+
+192.168.0.2 svn server
+192.168.0.3 redmine server
+192.168.0.5 windows vm for svn redmine
+192.168.0.6 dell mini pc 
+192.168.0.8 yaowu dell pc
+192.168.0.9 vm ubuntu 
+192.168.0.239 wifi admin
+192.168.0.145 acer laptop 
+
+
+192.168.2.8 my dell pc 
+192.168.2.6
+192.168.2.247
+192.168.2.237
+192.168.2.101 eda server
+192.168.2.102 svn server
+192.168.2.9  vm ubuntu 
+192.168.2.10 default vm ubuntu 

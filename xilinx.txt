@@ -1,4 +1,8 @@
 
+[[酆毅]]（Bob Feng）
+
+https://xilinx-ax-dl.entitlenow.com/dl/ul/2017/06/16/R209882659/Xilinx_Vivado_SDK_2017.2_0616_1.tar.gz/3bec1faa9b83b632f38e5cc3b7a54180/59639D15?akdm=0&filename=Xilinx_Vivado_SDK_2017.2_0616_1.tar.gz
+
 xilinx map
 	http://blog.csdn.net/pigyyf/article/details/45344807
 
@@ -24,7 +28,7 @@ formal
 [[partial_reconfiguration]]
 
 驱动目录
-F:\Xilinx\14.7\LabTools\common\bin\nt64
+D:\Xilinx\14.7\LabTools\common\bin\nt64
 
 [[impact]]
 [[isim]]

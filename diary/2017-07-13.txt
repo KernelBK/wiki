@@ -1,0 +1,9 @@
+
+办公环境布置了一个KVM环境。 
+
+The new Grid I/O board allows a wide area network transmission based on Ethernet layer 2. The big benefit is that you can connect sites in a matrix grid that can be hundreds of kilometers away from each other.
+
+[[../责任]]
+
+核心算法+架构IDEA
+[[../fpga]]

@@ -1,4 +1,17 @@
 
+[[svn权限管理]]
+[[svn_server]] 服务器
+[[code_subversion]]
+
+
+如何使用svn
+http://jingyan.baidu.com/article/a681b0de136d133b184346d1.html
+
+
+http://jingyan.baidu.com/article/d45ad148ed12c469552b801b.html
+C:\Documents and Settings\administrator\Application Data\Subversion\auth目录
+
+TortoiseSVN
 [[StatSVN]]
 
 svn+ssh
@@ -25,8 +38,6 @@ svnserve -d -r /workspace/svn_repos
 
 updaterc.d svnd.sh
 
-[[svn_server]] 服务器
-[[code_subversion]]
 
 svn checkout 可以设置忽略文件列表，图形界面比较方便。
 

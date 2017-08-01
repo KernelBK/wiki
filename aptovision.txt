@@ -1,6 +1,12 @@
 
+[[mediacomm/index]]
+[[aptovision/index]]
+
 [[ask_aptovision]]
 
+
+Kamran Ahmed
+Stephane Tremblay
 justin kennington
 https://www.linkedin.com/in/justin-kennington-4869bb3/
 
@@ -12,6 +18,7 @@ http://aptovision.com/en/about-us/careers/field-application-engineer-fpgaasic/
 
 [[nt2000_schematic]]  电路图原理
 [[nt2000_bom]]
+[[nt2000_board_version]]
 
 [[SDVoE]]
 

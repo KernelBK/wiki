@@ -1,6 +1,15 @@
 
+[[iso.iec.11801]]
+
+cat5
+cat5e
+cat6
+cat6a
+cat7
 
 CAT.5E¡¢CAT5¡¢
 CAT6 250MHz
 CAT6A 500MHz
+
+ÊµÏ°Éú ÕÐÆ¸
 

@@ -1,0 +1,26 @@
+
+快速测试
+
+完成全部PCB的测试
+    包括图像和USB
+
+我们完成了NT2000原理图的设计，我想请你们帮我做一个review, 附件是我们的设计文档。 
+
+原理图基于Aptovision_Duke_rev6, 做了如下修改，
+1. 1G以太网从板上分离，做成一块小板，采用接口连接，只有在下载程序的时候使用。
+1. 7-seg也采用1G以太网的做法。 
+1. 其他的修改我都标记在原理图中，你可以直接在把给我的意见写在原理图中。
+
+I have completed the design of the NT2000 schematic. I would like to ask you to help me make a review. The attachment is the design documents.
+The schematic is based on Aptovision_Duke_rev6, the following changes were made,
+1. Because the 1G Ethernet interface is only used in firmware download period. So, I separate the 1G Ethernet from the main board, make a small board to put 1G Ethernet schematic, and a FPC connector in both side of the main board and small board. 
+2. 7-seg also use the 1G Ethernet approach.
+Other changes I noted on the schematic file. 
+I hope you can give me some suggestions to modify the circuit, to make sure the circuit is no problem.
+When PCB deisgn is done, I will also send to you review.
+
+汪总，我们硬件设计已经完成， 马上我会和彭工做一个内部评审，晚上我会发邮件给Jienming，让他帮我们review。
+全科的肖工也有技术能力帮我们review。 
+按照他们技术支持界的做事风格，可能知道我们设计上有问题不马上指出。为了避免PCB做出来才发现问题，因此我们要在这次见面的时候，我们需要知道Apto如何review客户的设计？有什么流程? 有哪些人参与？谁负责任？等问题。 
+还有，彭工考虑到我们的物料管理，对Apto的设计修改的地方比较多，我们的设计都是合理的，他们可能因此自身的风险考虑，会拒绝我们的一些修改。因此，在道理上需要搬出Jienming的责任，“给客户提供不妥协的支持”。 
+

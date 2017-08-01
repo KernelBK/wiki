@@ -1,0 +1,24 @@
+
+交换机
+[[../CISCO_H3C_交换机配置与管理完全手册_第2版_王达]]
+
+
+11. ICRON部分需要采用24LC04。 
+ICRON的手册中有解释。 
+The EEPROM must be able to perform to the following standards:
+1. Minimum of 4Kb of storage
+
+通过查看固件也可以得出这样的结论。 
+
+
+会员卡号：8337291951
+密码：657180
+
+提问
+专门为apto定制的交换机能否运行代理程序，做到sdvoe
+
+
+e:\Xilinx_vivado_2017.2\Vivado\2017.2\bin\unwrapped\win64.o\vvgl.exe e:\Xilinx_vivado_2017.2\Vivado\2017.2\bin\vivado.bat
+
+
+[[../cloudera]]

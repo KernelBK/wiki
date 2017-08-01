@@ -1,11 +1,26 @@
 
+open.switch
+Vagrant
+mininet
+
 [[交换机]]
 
-cisco
-juniper ex-Treme
+[[cisco]]
+    FabricPath
+    OTV
+[[juniper]] ex-Treme
+    QFabric
 港湾网络
-arista
+[[arista]]
 
+Paloalto
+CheckPoint
+Hillstone
+
+F5 GTM LTM [[Imperva]]
+
+数据中心
+    VSS、VPC、OTV、CSS、FabricPath、TRILL、EVN
 
 ethernet_switch
 背板总线和内部交换矩阵

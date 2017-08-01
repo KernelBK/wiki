@@ -1,0 +1,103 @@
+
+xuxiaoxia = xcv717
+
+username sadmin secret 5 $1$NF9g0xsg$9hUH972Up3hkuBpsMTtjX.
+username sugiantpark secret 5 $1$Q/Ca.keu$11cXEYdspxZ0ri.vSkqte1
+username jgbback secret 5 $1$exYIavy0$DIqMhsRZqmBtML6V/0S7z1
+username gyuiljeong secret 5 $1$lM/BwMeG$hnsIeS7nKtUXhK8j5CNXt/
+username admin secret 5 $1$/YCseBKw$fe7zUxLkAmlZz44S3d4Eg/
+
+
+enable secret 5 $1$IuCvFB1r$3XuKGUFHohcFo0LsJmmOC/
+
+原理图评审会议纪要
+
+1. 保留DP接口，需要汪总确认。 
+1. 有源晶振（X1）采用3225， 3.3V 供电 
+1. 光口也有指示灯
+1. 3色LED灯的颜色
+1. 需要apto确认：磁珠是否能替换为非TDK 
+1. 风扇，不要保险，要加电容，做仿真实验 
+1. 232，等接口需要有接地 
+1. USB部分，过流保护
+1. 整理新增和替换元件的datasheet，在review的时候提供给apto
+1. U3, NCP803替换为CAT811
+1. 能否全部采用24LC02
+1. R474~R481，4.3是什么意思
+1. R835替换为1M，需要实验
+1. R74， 电源输入，从新计算电阻，加电阻跳过去，NC 0805磁珠
+1. 7-SEG, 重新设计能显示的电路
+
+不要引用以前说过的话
+
+self:
+提出其他项目中需要的技术问题
+    HDMI接口
+    像素时钟
+    9777原理，手册
+NT1000设计的启动
+Aquantia AQLX107设计
+
+Gerry, 
+你们的电路设计review是什么流程？怎么保障我们成功？ 
+DP接口是否需要保留？ DP接接口是否流行？
+通讯链路是否稳定，是否有测试方案。
+
+你们的设计是否有专利？有哪些专利？
+加入了SDVOE协会以后在NT2000产品化方面有哪些优势？
+什么时候可以采用Aquantia AQLX107？ 
+接入2k视频没有问题，但是4K却没法显示，这个问题和接口带宽有关系。上次你说检查电路图。 我想知道copper的最大距离。识别闪烁是什么问题。 
+散热设计有什么建议？ 
+软件是否能做成只能访问自己的设备？ 
+软件能否提供GUI的最新代码？因为API的更新，我需要有一个最新的参考设计会比较好。  
+fcv2代号的含义, Duke, Duchess, Princess, King
+NT1000设计是否需要启动？
+
+Jienming,
+交换机 arista 7124的配置 
+是否有设计可以替换9777？
+是否有设计可以替换ICRON USB？
+
+春飞：
+9777的采购再次确认。
+
+xiao, 
+电路review. 
+
+Gerry, 
+What is the process of your review my circuit design ?  You may recommend that we adopt the existing design, but we need uncompromising support.
+
+Does the DP interface need to be retained?  Does DP interface have a future?
+
+Do you have a patent on your design? What are the patents?
+What are the advantages of NT2000 products after joining the SDVOE group?
+When can I use Aquantia AQLX107?
+What are the recommendations for thermal design?
+Can the software be made accessible only to its own devices?
+Can software provide the latest code for GUI? Because of the API update, I need to have an up-to-date reference design that will be better.
+Fcv2 code meaning, Duke, Duchess, Princess, King
+Does the NT1000 design need to be started?
+
+My product needs to have a high quality. Therefore, a good test plan is necessary.
+There is no problem accessing 2K video, but 4K does not show that this problem has anything to do with the bandwidth of the interface. Last time you said, check the circuit. I'd like to know the maximum distance from copper. What is the problem of blinking?.  Is the communication link stable and is there a test plan?.
+
+
+Jienming,
+Configuration of switch Arista 7124
+Is there a design to replace 9777?
+Is there a design that can replace ICRON USB?
+
+后缀为4416的FPGA比普通的便宜，是否会导致问题？ 
+FPGA with suffix 4416 is cheaper than normal. Does it cause some problems?
+
+ICRON是否有替代方案？
+9777是否有替代方案？ 
+散热设计建议
+测试方案，测试建议
+HDCP key 购买找春飞单独确认。 
+Aptovision发展方向？收购以后对于元件采购是否有困难？ 
+DP接口的前途？是否很有必要保留DP接口？ RX上能否支持DP？ 
+NT1000方案可以要到资料
+4K的极限配置，你们是否测试过？　
+软件可否做只能用于自己的硬件？　
+

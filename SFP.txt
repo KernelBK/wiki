@@ -1,4 +1,5 @@
 
+[[sfp-10g]]
 qsfp
 sfp: small form-factor pluggable transceiver
 gbic: gigabit interface converter

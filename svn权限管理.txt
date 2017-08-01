@@ -1,0 +1,18 @@
+
+取消匿名登陆
+conf/svnserve.conf
+[general]
+anon-access = none
+auth-access = write
+password-db = passwd
+authz-db = authz
+
+
+conf/authz
+
+权限分配，只可以分配到某个目录，而不能到某个文件
+如果某一个文件夹，对于人任何用户都没有权限
+*=
+
+[/repository] 
+sai = rw 
