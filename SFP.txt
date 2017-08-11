@@ -1,4 +1,7 @@
 
+光纤
+[[fiber]]
+
 [[sfp-10g]]
 qsfp
 sfp: small form-factor pluggable transceiver

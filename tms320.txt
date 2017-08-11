@@ -14,7 +14,7 @@ srio
 vliw
 
 
-tms320c6455
+[[tms320c6455]]
 	emif: external memory interface
 		emifa emifb
 		与fpga连接

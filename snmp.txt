@@ -1,4 +1,6 @@
 
+SNMP，OMA，TR069，CWMP，MQTT，COAP
+
 http://pysnmp.sourceforge.net/quick-start.html#fetch-snmp-variable
 http://snmpsim.sourceforge.net/public-snmp-simulator.html
 

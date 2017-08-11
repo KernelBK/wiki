@@ -1,5 +1,6 @@
 
 
+[[ask_vivado]]
 [[vivado入门与提高]]
 write_project_tcl
 

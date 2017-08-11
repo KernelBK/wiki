@@ -1,4 +1,5 @@
 
+[[advice]]
 [[ask_wang]]
 
 [[ip分配]]
@@ -7,10 +8,7 @@
 
 [[honor]]
 
-[[dkm_chipset]]
-[[dkm_ipcore]]
-
-[[dkm_syslog]]
+[[dkm]]
 
 [[test]]
 [[评估嵌入式开发方案]]
