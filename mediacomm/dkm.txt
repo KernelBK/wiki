@@ -1,0 +1,7 @@
+
+[[dkm_test]]
+[[dkm_chipset]]
+[[dkm_ipcore]]
+
+[[dkm_syslog]]
+

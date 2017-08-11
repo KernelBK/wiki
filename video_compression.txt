@@ -1,0 +1,14 @@
+http://dvd-hq.info/data_compression_3.php
+
+VC-1
+[[VC-2]]
+H.264
+SMPTE
+Dirac
+
+motion compensation
+inter-frame coding
+
+video compression format
+    MPEG-2
+    MPEG-4

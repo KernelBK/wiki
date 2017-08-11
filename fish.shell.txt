@@ -1,0 +1,3 @@
+
+the friendly interactive shell
+http://www.ruanyifeng.com/blog/2017/05/fish_shell.html

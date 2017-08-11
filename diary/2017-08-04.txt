@@ -1,0 +1,32 @@
+
+[[../会计师事务所]]
+
+todo
+支持曾工，配置python运行环境，在没有重装系统的机器上，需要使用管理员运行脚本程序。 
+跟踪Icron技术支持的问题，询问USB扩展器的距离和工作性能。 
+
+更进一步，我想确认USB的性能和距离的关系？ 
+Furthermore, I want to know the relationship between the distance and USB performance? 
+Furthermore, I want to know, is there some relationship between distance and performance?
+
+如何判断一个设备是否是交换机？
+
+1. 网线接入电脑，看LED灯，如果能链接上，说明是普通网口
+1. 在一个端口，发送询问命令，“你是否是交换机？”。
+1. ping广播地址
+1. 
+
+
+
+https://www.youtube.com/playlist?list=PLM_WAEBgmey7NYkukBjyclLQBKYjJ4Qft
+https://www.youtube.com/playlist?list=PLM_WAEBgmey6LhS4PhfAtkK8vZzJS5a06
+https://www.youtube.com/playlist?list=PLM_WAEBgmey4LpDhxuMSzbwMZHwNlYhIU
+https://www.youtube.com/playlist?list=PLM_WAEBgmey5z7_7UwphAk-u3KGU690DV
+https://www.youtube.com/playlist?list=PLM_WAEBgmey5clZbIKcRHsXxHGZriPaHQ
+https://www.youtube.com/playlist?list=PLM_WAEBgmey6VmjqopQGui-kJZS27Z3hI
+https://www.youtube.com/playlist?list=PLM_WAEBgmey7IyRd6iCYunVfANkdZulsu
+
+[[../4chan]]
+
+
+

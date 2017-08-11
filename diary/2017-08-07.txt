@@ -1,0 +1,37 @@
+
+[[../HyperLynx]]
+[[../营销]]
+机器学习
+http://cs229.stanford.edu/notes/cs229-notes1.pdf
+http://cs229.stanford.edu/notes/cs229-notes2.pdf
+http://cs229.stanford.edu/notes/cs229-notes3.pdf
+http://cs229.stanford.edu/notes/cs229-notes4.pdf
+http://cs229.stanford.edu/notes/cs229-notes5.pdf
+http://cs229.stanford.edu/notes/cs229-notes6.pdf
+http://cs229.stanford.edu/notes/cs229-notes7a.pdf
+http://cs229.stanford.edu/notes/cs229-notes7b.pdf
+http://cs229.stanford.edu/notes/cs229-notes8.pdf
+http://cs229.stanford.edu/notes/cs229-notes9.pdf
+http://cs229.stanford.edu/notes/cs229-notes10.pdf
+http://cs229.stanford.edu/notes/cs229-notes11.pdf
+http://cs229.stanford.edu/notes/cs229-notes12.pdf
+
+我想这也是Icron用户很关系的问题，理论上可以说长距离和性能没有关系。
+但是，长距离带来的两个问题会和性能有关系，
+1. 距离会增加传输延迟
+1. 距离带来的误码率加大
+错误会导致数据包的重传，性能也会下降。
+
+Icron能否提供距离和性能的测试报告。 
+Icron是否有对距离和性能做过实际测试，能否给我提供一份报告？ 
+
+Thank you, I think this is also a concern for other users of Icron. 
+In theory, long distance is not related to performance.
+Actuality, it can affect performance in two ways,
+1. distance increase the link propagation delay
+ Maximum link propagation delay of 100 meter copper cable is  100 m / (200 000 000 m/s) = 0.5 μs
+ If a packet have handshake in transmission, the packet delivery time is 2x of link propagation delay. 
+1. distance to increase the bit error rate
+Errors can cause retransmission of the packets, leading the performance reduce.
+
+Does Icron have any actual tests on distance and performance, can you provide me a report?

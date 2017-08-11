@@ -1,0 +1,17 @@
+
+输入
+    HID
+        OSD
+        Normal
+    API
+        Network
+        RS232
+    Java
+        DKMTool
+        测试软件发命令包
+    图像
+        
+
+压力测试
+    功能反复
+    功能组合

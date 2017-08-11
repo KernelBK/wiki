@@ -1,0 +1,36 @@
+
+选购10G交换机，通过汪总批准，提交采购 
+继续就icorn传输的距离提问
+制作uart2hid测试设备，得到最新的UI017的手册 
+给汪总确认项目进度，更新redmine上的项目进度 
+测试风扇，硬件上需要有调速设计
+
+
+关于用于Honor项目的10G交换机选购
+
+汪总，彭工，
+
+经过上次NETGEAR的交流会，Honor产品中将要使用的交换机也进入了选择阶段。
+根据Netgear的建议，我调查了M4300系列的具体选型，M4300-24x24f总共48个端口，其中24个光口，24个网口，研发过程中需要测试光口和网口，在市场工程的应用也可以采用同一些列的其他型号，因此这个型号非常符合研发中的需求。 
+
+附件中是M4300的具体手册。 
+
+https://www.youtube.com/watch?v=EEA33bAXyNM
+We're going to build a wall, and Mexico will pay for it.
+
+
+我想你对我提出的问题有误解，
+我对距离的关心，不仅仅是用于Aptovison的设计，而是希望了解的是ITC2053A-CB的性能，这也是了解Icron其他USB extender产品（http://www.icron.com/products/oem/usb-extenders/）的特性。 
+
+我想知道它的最大距离是多少？ 
+什么会影响到它的最大距离？ 
+有没有中继器能够加大距离？
+
+I think you have misunderstood my question, my concern is not only on the distance for the design of Aptovison, but also want to know the performance of ITC2053A-CB, the chip is also used in Icron's other USB extender products (http://www.icron.com/products/oem/usb-extenders/) .
+
+I want to know ,
+What the maximum distance it is?
+What will affect its maximum distance?
+Is there a repeater that can increase the distance?
+
+

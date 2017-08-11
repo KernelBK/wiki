@@ -1,0 +1,10 @@
+
+1b:2a:55:0d:00:c0:a8:64:08:ff:ff:ff:ff
+
+
+我们有一个案子，视频源的要求是，主动式3D、1080P、120HZ，请问NT2000设备能够支持吗？
+
+We have a case, the video source requirements are active 3D, 1080P, 120HZ, can the NT2000 device is support it?
+
+我们遇到一个案子，需要了解一些NT2000的技术参数。 
+We have a case, and need to know some parameters about NT2000 in 3D.

@@ -1,0 +1,7 @@
+
+PYNQ
+
+ps
+pl
+
+SDSoC

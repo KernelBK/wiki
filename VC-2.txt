@@ -1,0 +1,10 @@
+
+http://www.barco-silex.com/products/video/vc-2/
+ ultra-low latency 
+ SMPTE 2042 standard
+ No external memory
+ 
+Unrestricted frame resolution
+Bit-depth up to 16-bit
+Color samplings (4:4:4, 4:2:2, 4:2:0 and monochrome)
+

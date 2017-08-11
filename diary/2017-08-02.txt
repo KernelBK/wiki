@@ -1,0 +1,57 @@
+
+选型了风扇
+选型了电源  
+支持高工开始使用Honor产品，目前使用p2p的方式。 
+
+由于元件数量有限，因此在生产贴片的时候，先完成4快板的贴片，如果测试通过，继续完成其余的贴片。 
+
+
+DZ065DL012003G 
+
+
+Character
+
+Tyrion Lannister
+Jaime Lannister
+Cersei Lannister
+Jon Snow
+Daenerys Targaryen
+Sansa Stark
+Arya Stark
+Jorah Mormont
+Theon Greyjoy
+Petyr Baelish
+Bran Stark
+Sandor Clegane
+Joffrey Baratheon
+Catelyn Stark
+Robb Stark
+Khal Drogo
+Ned Stark
+Robert Baratheon
+Viserys Targaryen
+Samwell Tarly
+Varys
+Bronn
+Tywin Lannister
+Shae
+Jeor Mormont
+Gendry
+Tommen Baratheon
+Jaqen H'ghar
+Davos Seaworth
+Melisandre
+Margaery Tyrell
+Stannis Baratheon
+Ygritte
+Talisa Maegyr
+Brienne of Tarth
+Gilly
+Roose Bolton
+Tormund Giantsbane
+Ramsay Bolton
+Missandei
+Daario Naharis
+Ellaria Sand
+The High Sparrow
+
